@@ -1,6 +1,6 @@
 ---
 name: project_cc_assistant_git_repo
-description: D:\cc-assistant became a local git repo 2026-09-24 (commit 40e52ec, 4629 files); .gitignore excludes secrets, browser profiles, backups, models, images; one mcp.json copy held all 9 site app passwords; GitHub push still needs operator sign-in
+description: D:\cc-assistant became a local git repo 2026-09-24 (commit 40e52ec, 4629 files); .gitignore excludes secrets, browser profiles, backups, models, images; one mcp.json copy held all 9 site app passwords; GitHub target = github.com/Sumit9819/cc-assistant (private, operator account Sumit9819); operator runs remote/push commands (auto mode blocks them)
 metadata:
   type: project
 ---
