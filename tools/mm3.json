@@ -1,0 +1,6 @@
+[
+ {"route":"cc-assistant/v1/schema-scan","method":"GET","out":"mm_schema.json"},
+ {"route":"cc-assistant/v1/audits","method":"GET","out":"mm_audits.json"},
+ {"route":"cc-assistant/v1/assets/audit","method":"GET","out":"mm_assets.json"},
+ {"route":"cc-assistant/v1/facts/coverage","method":"GET","out":"mm_facts.json"}
+]

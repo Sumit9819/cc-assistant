@@ -1,0 +1,545 @@
+{
+  "_note": "Batch 6. Five posts, 14 candidates read, 12 cards kept. Cut on the read: 3833 'When to Visit the ER for a Severe Headache' (same decision as the aneurysm red-flags card, so one card carries it), 3201 'What Happens If You Are Dehydrated' (consequences, background rather than a decision), 3867 'Why CO Detectors Save Lives' (prevention maintenance, dropped for the same reason the 3882 household-hazards card was removed, even though it is specific and enumerable, because consistency with the rule matters more than one extra card).",
+  "cards": [
+    {
+      "file": "erof-3103-fracture-or-bruise-diagnosis",
+      "post_id": 3103,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "fracture",
+      "heading": "How Are Bone Injuries Diagnosed?",
+      "title": [
+        "How the ER Tells a ",
+        "Fracture",
+        " from a Bruise"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How the emergency room distinguishes a fracture from a bone bruise: examination, movement tests, palpation, x-ray and CT",
+      "items": [
+        {
+          "icon": "eye",
+          "label": "Look and feel",
+          "note": "Pain, swelling and deformity"
+        },
+        {
+          "icon": "activity",
+          "label": "Movement tests",
+          "note": "Fractures limit it, sprains feel loose"
+        },
+        {
+          "icon": "target",
+          "label": "Palpation",
+          "note": "Bruise tenderness versus fracture pain"
+        },
+        {
+          "icon": "scan-face",
+          "label": "X-ray",
+          "note": "The standard for spotting a break"
+        },
+        {
+          "icon": "microscope",
+          "label": "CT scan",
+          "note": "For complex or stress fractures"
+        }
+      ]
+    },
+    {
+      "file": "erof-3103-bone-bruise-care",
+      "post_id": 3103,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "bone bruise",
+      "heading": "How to Heal a Bone Bruise Fast",
+      "title": [
+        "Healing a ",
+        "Bone Bruise",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation",
+      "steps": [
+        {
+          "icon": "armchair",
+          "label": "Rest",
+          "note": "No weight-bearing, crutches if needed"
+        },
+        {
+          "icon": "droplet",
+          "label": "Ice",
+          "note": "15 to 20 minutes, every 2 to 3 hours"
+        },
+        {
+          "icon": "bandage",
+          "label": "Compress",
+          "note": "Elastic wrap, not too tight"
+        },
+        {
+          "icon": "trending-up",
+          "label": "Elevate",
+          "note": "Above heart level"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Give it time",
+          "note": "2 to 8 weeks, no sports or lifting"
+        }
+      ]
+    },
+    {
+      "file": "erof-3103-bone-injury-er",
+      "post_id": 3103,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "bone",
+      "heading": "When to Seek Medical Attention",
+      "title": [
+        "When a ",
+        "Bone",
+        " Injury Needs the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six signs that a bone injury needs emergency care rather than home treatment",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Severe pain, cannot move it",
+          "note": "A possible fracture"
+        },
+        {
+          "icon": "bone",
+          "label": "Visible deformity",
+          "note": "Or bone through the skin"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Bruised sternum chest pain",
+          "note": "It can mimic cardiac pain"
+        },
+        {
+          "icon": "footprints",
+          "label": "Cannot walk on it",
+          "note": "Swelling or pain in the foot"
+        },
+        {
+          "icon": "circle-dot",
+          "label": "Instability or popping",
+          "note": "A possible severe sprain"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Fever with the pain",
+          "note": "Infection from an open fracture"
+        }
+      ]
+    },
+    {
+      "file": "erof-3201-dehydration-signs",
+      "post_id": 3201,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "10 Warning Signs of Dehydration:",
+      "title": [
+        "10 Warning Signs of ",
+        "Dehydration",
+        ""
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Ten warning signs of dehydration, from excessive thirst and dark urine to a rapid heartbeat and confusion",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Excessive thirst"
+        },
+        {
+          "icon": "frown",
+          "label": "Dry mouth, chapped lips"
+        },
+        {
+          "icon": "flask-conical",
+          "label": "Dark yellow urine"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Reduced urination"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Fatigue and weakness"
+        },
+        {
+          "icon": "moon",
+          "label": "Dizziness or lightheadedness"
+        },
+        {
+          "icon": "activity",
+          "label": "Muscle cramps or spasms"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Dry, flaky skin"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Rapid heartbeat or breathing"
+        },
+        {
+          "icon": "brain",
+          "label": "Confusion or irritability"
+        }
+      ]
+    },
+    {
+      "file": "erof-3201-dehydration-evaluation",
+      "post_id": 3201,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "How Is Dehydration Evaluated?",
+      "title": [
+        "How the ER Checks for ",
+        "Dehydration",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The four checks an emergency room uses to evaluate dehydration: vital signs, physical exam, urinalysis and blood tests",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "label": "Vital signs",
+          "note": "Blood pressure and heart rate"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Physical exam",
+          "note": "Skin turgor and tongue moisture"
+        },
+        {
+          "icon": "beaker",
+          "label": "Urinalysis",
+          "note": "Concentration and ketones"
+        },
+        {
+          "icon": "flask-conical",
+          "label": "Blood tests",
+          "note": "Electrolytes, kidneys, fluid balance"
+        }
+      ]
+    },
+    {
+      "file": "erof-3825-dog-bite-first-aid",
+      "post_id": 3825,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "dog bite",
+      "heading": "At-Home First Aid: What to Do in the First 10 Minutes",
+      "title": [
+        "",
+        "Dog Bite",
+        ": The First 10 Minutes"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound",
+      "steps": [
+        {
+          "icon": "bandage",
+          "label": "Pressure",
+          "note": "Clean cloth, firm, until it stops"
+        },
+        {
+          "icon": "droplets",
+          "label": "Wash",
+          "note": "Lukewarm water, several minutes"
+        },
+        {
+          "icon": "pill",
+          "label": "Ointment",
+          "note": "A thin layer of antibiotic cream"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Cover",
+          "note": "Sterile bandage, then get seen"
+        }
+      ]
+    },
+    {
+      "file": "erof-3825-dog-bite-infection",
+      "post_id": 3825,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "infection",
+      "heading": "Identifying Infection: Signs of Cellulitis and Beyond",
+      "title": [
+        "Dog Bite ",
+        "Infection",
+        ": What to Watch For"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs that a dog bite is becoming infected, including spreading redness, warmth, pus and fever",
+      "items": [
+        {
+          "icon": "trending-up",
+          "label": "Spreading redness",
+          "note": "Streaks moving toward the heart"
+        },
+        {
+          "icon": "flame",
+          "label": "Warmth",
+          "note": "Hot to the touch around the bite"
+        },
+        {
+          "icon": "droplet",
+          "label": "Swelling and tenderness",
+          "note": "Worse after 24 hours, not better"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "Ooze or pus",
+          "note": "Foul smelling, or thick and yellow"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Fever or chills",
+          "note": "Or just feeling unwell"
+        }
+      ]
+    },
+    {
+      "file": "erof-3825-dog-bite-er",
+      "post_id": 3825,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dog bite",
+      "heading": "When to Seek Emergency Care for a Dog Bite in Irving",
+      "title": [
+        "When a ",
+        "Dog Bite",
+        " Needs the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four situations where a dog bite needs emergency care: an unknown dog, bleeding that will not stop, a deep or facial wound, or a weakened immune system",
+      "items": [
+        {
+          "icon": "user-round-search",
+          "label": "An unknown dog",
+          "note": "Or one not up to date on vaccines"
+        },
+        {
+          "icon": "droplet",
+          "label": "Bleeding past 10 minutes",
+          "note": "Despite firm pressure"
+        },
+        {
+          "icon": "bone",
+          "label": "Deep, or hand, foot or face",
+          "note": "Or exposing muscle or bone"
+        },
+        {
+          "icon": "shield-alert",
+          "label": "A weakened immune system",
+          "note": "Diabetes, HIV or chemotherapy"
+        }
+      ]
+    },
+    {
+      "file": "erof-3833-aneurysm-red-flags",
+      "post_id": 3833,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "aneurysm",
+      "heading": "Recognizing the Danger: Migraine vs. Emergency Symptoms",
+      "title": [
+        "Headache or ",
+        "Aneurysm",
+        "? Red Flags"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five red flags that a severe headache may be an aneurysm rather than a migraine",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "The worst pain of your life",
+          "note": "Sudden and excruciating"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "A stiff neck",
+          "note": "Or sudden pain at the back of it"
+        },
+        {
+          "icon": "eye",
+          "label": "Double vision",
+          "note": "Or new sensitivity to light"
+        },
+        {
+          "icon": "brain",
+          "label": "Sudden confusion",
+          "note": "Or loss of consciousness"
+        },
+        {
+          "icon": "activity",
+          "label": "Seizures",
+          "note": "At any point with the headache"
+        }
+      ]
+    },
+    {
+      "file": "erof-3833-headache-treatment-paths",
+      "post_id": 3833,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "tone": "neutral",
+      "subject": "migraine",
+      "heading": "Emergency Treatment: Migraine Cocktail vs. Emergency Stabilization",
+      "title": [
+        "How the ER Treats a ",
+        "Migraine",
+        " or an Aneurysm"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "What the emergency room gives for a migraine compared with how it stabilizes a suspected aneurysm",
+      "good": {
+        "icon": "pill",
+        "heading": "Migraine cocktail",
+        "items": [
+          "IV fluids for hydration",
+          "Ketorolac, an anti-inflammatory",
+          "Antiemetics to stop the vomiting",
+          "Diphenhydramine to aid relaxation"
+        ]
+      },
+      "bad": {
+        "icon": "shield-alert",
+        "heading": "Aneurysm stabilization",
+        "items": [
+          "IV medication to lower blood pressure",
+          "Medication to prevent seizures",
+          "Neurosurgery: clipping or coiling"
+        ]
+      }
+    },
+    {
+      "file": "erof-3867-co-symptoms",
+      "post_id": 3867,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "carbon monoxide",
+      "heading": "Dizziness and Flu-like Symptoms: Recognizing Carbon Monoxide Poisoning",
+      "title": [
+        "",
+        "Carbon Monoxide",
+        " Poisoning Signs"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five symptoms of carbon monoxide poisoning that are easily mistaken for the flu",
+      "items": [
+        {
+          "icon": "brain",
+          "label": "A dull, persistent headache"
+        },
+        {
+          "icon": "moon",
+          "label": "Dizziness or lightheadedness"
+        },
+        {
+          "icon": "frown",
+          "label": "Nausea or vomiting"
+        },
+        {
+          "icon": "waves",
+          "label": "Shortness of breath"
+        },
+        {
+          "icon": "battery-low",
+          "label": "General weakness"
+        }
+      ]
+    },
+    {
+      "file": "erof-3867-co-emergency-steps",
+      "post_id": 3867,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "carbon monoxide",
+      "heading": "Immediate Steps: What to Do in an Emergency",
+      "title": [
+        "A ",
+        "Carbon Monoxide",
+        " Alarm: What to Do"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked",
+      "steps": [
+        {
+          "icon": "door-open",
+          "label": "Get out",
+          "note": "Do not stop for windows or the stove"
+        },
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "They find the source with proper gear"
+        },
+        {
+          "icon": "users",
+          "label": "Count heads",
+          "note": "Everyone and the pets, in fresh air"
+        },
+        {
+          "icon": "stethoscope",
+          "label": "Get checked",
+          "note": "Even if you feel fine"
+        }
+      ]
+    }
+  ]
+}

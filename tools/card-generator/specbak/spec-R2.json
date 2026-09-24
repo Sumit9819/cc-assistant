@@ -1,0 +1,476 @@
+{
+  "_note": "Replacement batch R2: 8609, 9173, 9270. Positional swaps at the same sections. On 9173 the first card takes estrogen's normal role rather than the symptom list, because the post's fourth section already lists symptoms and two near-identical lists on one page is the padding problem to avoid.",
+  "cards": [
+    {
+      "file": "gut-skin-axis-how-it-works",
+      "post_id": 8609,
+      "layout": "steps",
+      "subject": "gut-skin axis",
+      "heading": "What Exactly is the Gut-Skin Axis?",
+      "title": [
+        "How the ",
+        "Gut-Skin Axis",
+        " Works"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "The gut-skin axis: dysbiosis drives inflammation, markers cross a compromised gut lining, and the skin barrier is disrupted",
+      "steps": [
+        {
+          "icon": "circle-dot",
+          "label": "Dysbiosis",
+          "note": "The microbiome falls out of balance"
+        },
+        {
+          "icon": "flame",
+          "label": "Inflammation",
+          "note": "Markers cross a compromised gut lining"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Skin reacts",
+          "note": "The barrier is disrupted, flare-ups follow"
+        }
+      ]
+    },
+    {
+      "file": "skin-conditions-linked-to-gut-health",
+      "post_id": 8609,
+      "layout": "list",
+      "subject": "gut health",
+      "heading": "Common Skin Conditions Linked to Gut Health",
+      "title": [
+        "Skin Conditions Linked to ",
+        "Gut Health",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Acne, eczema and psoriasis, and rosacea are each linked to gut health, with rosacea tied to SIBO",
+      "items": [
+        {
+          "icon": "scan-face",
+          "label": "Acne",
+          "note": "Sugar shifts insulin, gut bacteria and sebum"
+        },
+        {
+          "icon": "shield-alert",
+          "label": "Eczema and psoriasis",
+          "note": "70 to 80% of the immune system sits in the gut"
+        },
+        {
+          "icon": "thermometer-sun",
+          "label": "Rosacea",
+          "note": "Strongly linked to SIBO"
+        }
+      ]
+    },
+    {
+      "file": "signs-your-gut-affects-your-skin",
+      "post_id": 8609,
+      "layout": "list",
+      "subject": "gut health",
+      "heading": "Signs Your Gut Might Be Affecting Your Skin",
+      "title": [
+        "Signs Your ",
+        "Gut Health",
+        " Is Reaching Your Skin"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Gut signs showing on skin: frequent bloating, food sensitivities, sudden reactions to familiar products, sugar cravings",
+      "items": [
+        {
+          "icon": "frown",
+          "label": "Bloating or gas",
+          "note": "Chronic discomfort alongside flare-ups"
+        },
+        {
+          "icon": "utensils",
+          "label": "Food sensitivities",
+          "note": "What makes you sluggish may inflame skin"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "Sudden reactions",
+          "note": "To products you have used for years"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Sugar cravings",
+          "note": "Overgrowth drives the craving"
+        }
+      ]
+    },
+    {
+      "file": "supporting-gut-health-for-skin",
+      "post_id": 8609,
+      "layout": "icons",
+      "subject": "gut health",
+      "heading": "How to Support Your Gut for Radiant Skin",
+      "title": [
+        "Supporting ",
+        "Gut Health",
+        " for Clearer Skin"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Support gut health with probiotics from fermented foods, prebiotic fibre, and 7 to 9 hours of sleep to lower cortisol",
+      "items": [
+        {
+          "icon": "flask-conical",
+          "label": "Probiotics",
+          "note": "Yogurt, kefir, sauerkraut"
+        },
+        {
+          "icon": "wheat",
+          "label": "Prebiotics",
+          "note": "Fibre that feeds the good bacteria"
+        },
+        {
+          "icon": "moon",
+          "label": "Sleep and stress",
+          "note": "7 to 9 hours, because cortisol disrupts the lining"
+        }
+      ]
+    },
+    {
+      "file": "what-estrogen-regulates",
+      "post_id": 9173,
+      "layout": "list",
+      "subject": "estrogen",
+      "heading": "What is Estrogen Dominance?",
+      "title": [
+        "What ",
+        "Estrogen",
+        " Regulates in the Body"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Estrogen regulates the menstrual cycle, fat distribution, insulin sensitivity, bone density and cholesterol",
+      "items": [
+        {
+          "icon": "calendar-days",
+          "label": "The menstrual cycle",
+          "note": "Its best-known role, and not the only one"
+        },
+        {
+          "icon": "scale",
+          "label": "Fat distribution",
+          "note": "Where the body stores it"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Insulin sensitivity",
+          "note": "How cells respond to insulin"
+        },
+        {
+          "icon": "bone",
+          "label": "Bone density",
+          "note": "Skeletal strength over time"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Cholesterol",
+          "note": "Part of cardiovascular health"
+        }
+      ]
+    },
+    {
+      "file": "how-estrogen-imbalance-drives-weight-gain",
+      "post_id": 9173,
+      "layout": "list",
+      "subject": "estrogen",
+      "heading": "Hormonal Weight Gain",
+      "title": [
+        "How ",
+        "Estrogen",
+        " Imbalance Drives Weight Gain"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "When estrogen is imbalanced fat storage rises, muscle mass falls, metabolism slows and water retention increases",
+      "items": [
+        {
+          "icon": "trending-up",
+          "label": "Fat storage rises",
+          "note": "Particularly around the abdomen"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Muscle mass falls",
+          "note": "Which lowers what you burn at rest"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Metabolism slows",
+          "note": "The same effort returns less"
+        },
+        {
+          "icon": "droplet",
+          "label": "Water retention",
+          "note": "Adding to the number on the scale"
+        }
+      ]
+    },
+    {
+      "file": "correcting-estrogen-balance-v2",
+      "post_id": 9173,
+      "layout": "icons",
+      "subject": "estrogen",
+      "heading": "Correcting the Balance",
+      "title": [
+        "Restoring ",
+        "Estrogen",
+        " Balance"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Restoring estrogen balance through liver support, nutrition and strength training, and BHRT under medical supervision",
+      "items": [
+        {
+          "icon": "flask-conical",
+          "label": "Liver support",
+          "note": "It metabolises hormones"
+        },
+        {
+          "icon": "salad",
+          "label": "Nutrition and strength",
+          "note": "Steady blood sugar, kept muscle"
+        },
+        {
+          "icon": "pill",
+          "label": "BHRT",
+          "note": "Supervised, not for everyone"
+        }
+      ],
+      "old_file": "correcting-estrogen-balance"
+    },
+    {
+      "file": "estrogen-when-to-see-a-provider",
+      "post_id": 9173,
+      "layout": "list",
+      "subject": "estrogen",
+      "heading": "When to Talk to a Healthcare Provider",
+      "title": [
+        "When ",
+        "Estrogen",
+        " Symptoms Need Evaluation"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "See a provider for persistent unexplained weight gain, severe fatigue, heavy periods, mood instability or stalled weight loss",
+      "items": [
+        {
+          "icon": "scale",
+          "label": "Unexplained gain",
+          "note": "Persisting without a change in habits"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Severe fatigue",
+          "note": "Beyond ordinary tiredness"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Heavy or irregular periods",
+          "note": "A change from your normal pattern"
+        },
+        {
+          "icon": "brain",
+          "label": "Mood instability",
+          "note": "Persistent, not situational"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Stalled loss",
+          "note": "Despite diet, exercise and stress work"
+        }
+      ]
+    },
+    {
+      "file": "testosterone-and-the-brain",
+      "post_id": 9270,
+      "layout": "icons",
+      "subject": "testosterone",
+      "heading": "What is \"Brain Fog\" and How Does Testosterone Affect the Mind?",
+      "title": [
+        "How ",
+        "Testosterone",
+        " Reaches the Brain"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "The brain is dense with testosterone receptors, concentrated in the hippocampus, and under-fired when levels drop",
+      "items": [
+        {
+          "icon": "brain",
+          "label": "Receptors",
+          "note": "The brain is packed with them"
+        },
+        {
+          "icon": "circle-dot",
+          "label": "The hippocampus",
+          "note": "Command centre for memory and learning"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Under-fired",
+          "note": "When levels dip, so does the signal"
+        }
+      ]
+    },
+    {
+      "file": "low-testosterone-neurological-impact",
+      "post_id": 9270,
+      "layout": "icons",
+      "subject": "testosterone",
+      "heading": "Neurological Impact of Low T: Why Hormones Matter for Mental Clarity",
+      "title": [
+        "The Neurological Role of ",
+        "Testosterone",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Testosterone acts as a neuroprotective agent and influences both spatial memory and verbal memory",
+      "items": [
+        {
+          "icon": "shield-check",
+          "label": "Neuroprotective",
+          "note": "Helps keep brain cells healthy"
+        },
+        {
+          "icon": "target",
+          "label": "Spatial memory",
+          "note": "Orientation and navigation"
+        },
+        {
+          "icon": "brain",
+          "label": "Verbal memory",
+          "note": "Recall of words and names"
+        }
+      ]
+    },
+    {
+      "file": "low-testosterone-brain-fog-symptoms",
+      "post_id": 9270,
+      "layout": "list",
+      "subject": "testosterone",
+      "heading": "Recognizing Symptoms: Beyond Just \"Feeling Tired\"",
+      "title": [
+        "Brain Fog Symptoms of Low ",
+        "Testosterone",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Low testosterone brain fog: trouble focusing, short-term memory gaps, mood changes, fatigue after sleep, lost motivation",
+      "items": [
+        {
+          "icon": "target",
+          "label": "Trouble focusing",
+          "note": "Hard to follow long conversations"
+        },
+        {
+          "icon": "brain",
+          "label": "Memory gaps",
+          "note": "Names, dates, where you put things"
+        },
+        {
+          "icon": "frown",
+          "label": "Mood changes",
+          "note": "Irritable, anxious, or flat"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Fatigue",
+          "note": "Drained even after a full night"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Lost motivation",
+          "note": "The get-up-and-go has gone"
+        }
+      ]
+    },
+    {
+      "file": "free-vs-total-testosterone",
+      "post_id": 9270,
+      "layout": "compare",
+      "subject": "testosterone",
+      "heading": "Advanced Testing: Getting to the Root of the Problem",
+      "title": [
+        "Free vs Total ",
+        "Testosterone",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Total testosterone counts everything in the blood including protein-bound; free testosterone is the active usable portion",
+      "columns": [
+        "Total testosterone",
+        "Free testosterone"
+      ],
+      "rows": [
+        {
+          "label": "Measures",
+          "values": [
+            "Everything in the blood",
+            "The unattached portion"
+          ]
+        },
+        {
+          "label": "Usable",
+          "values": [
+            "Much of it is bound to proteins",
+            "Active and ready to work"
+          ]
+        },
+        {
+          "label": "Why it matters",
+          "values": [
+            "Can read normal on its own",
+            "Often the number that is low"
+          ]
+        }
+      ]
+    }
+  ]
+}

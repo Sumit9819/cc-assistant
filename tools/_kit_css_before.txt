@@ -1,0 +1,28 @@
+/* Visible keyboard focus (WCAG 2.4.7): navy ring plus a white halo so it shows on white, grey, red and blue backgrounds; includes iframes. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+iframe:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #041562 !important;
+  outline-offset: 0;
+  box-shadow: 0 0 0 6px #FFFFFF !important;
+}
+
+/* Body-text links: brand Secondary blue, underlined (WCAG 1.4.3 + 1.4.1). Scoped to text widgets so buttons and menus keep their own styling. */
+.elementor-widget-text-editor a,
+.elementor-widget-theme-post-content a,
+.elementor-icon-box-description a,
+.page-content a,
+.entry-content a {
+  color: #11468F;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Linked heading widgets (footer legal row) keep the heading colour on classic pages too, where Elementor's own heading CSS is not loaded. */
+.elementor-heading-title a {
+  color: inherit;
+}

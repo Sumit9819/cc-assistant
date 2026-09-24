@@ -1,0 +1,102 @@
+[
+  {
+    "post_id": 3792,
+    "patches": [
+      {
+        "search": "<h2><b>When to Seek Emergency Care</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3792-snake-bite-first-aid.webp\" alt=\"Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>When to Seek Emergency Care</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3792",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3854,
+    "patches": [
+      {
+        "search": "<h2><b>How the ER Stabilizes Blood Sugar</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-triggers.webp\" alt=\"Four signs of diabetic ketoacidosis that need the emergency room: vomiting, high ketones, blood sugar above 300, and rapid deep breathing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>How the ER Stabilizes Blood Sugar</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3854",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3871,
+    "patches": [
+      {
+        "search": "<h2><b>Water Safety for Irving Pools: Preventing Accidents Before They Happen</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3871-near-drowning-signs.webp\" alt=\"Six near-drowning warning signs to watch for in the hours after a pool incident\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Water Safety for Irving Pools: Preventing Accidents Before They Happen</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3871",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3894,
+    "patches": [
+      {
+        "search": "<h2><b>Don't Second-Guess Your Heart Health</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3894-heart-attack-signs.webp\" alt=\"Common heart attack signs beside the signs that more often appear in women\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Don't Second-Guess Your Heart Health</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3894",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3918,
+    "patches": [
+      {
+        "search": "<h2><b>Distinguishing Gout from Infection</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-relief.webp\" alt=\"Five ways to relieve a gout flare at home: elevate the joint, apply ice, hydrate, avoid trigger foods, and take NSAIDs\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Distinguishing Gout from Infection</b></h2>"
+      },
+      {
+        "search": "<h2><b>When to Seek Professional Help: Gout Attack ER vs. Urgent Care</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-or-infection.webp\" alt=\"Four red flags that a painful joint is infected rather than a gout flare\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>When to Seek Professional Help: Gout Attack ER vs. Urgent Care</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3918",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3924,
+    "patches": [
+      {
+        "search": "<h2><b>Is it just a Sore Throat or an Emergency?</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-red-flags.webp\" alt=\"Three red flags of a peritonsillar abscess: drooling, a swollen tender lump under the jaw, and the uvula pushed to one side\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Is it just a Sore Throat or an Emergency?</b></h2>"
+      },
+      {
+        "search": "<h2><b>Prevention and Long-Term Recovery</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-treatment.webp\" alt=\"How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Prevention and Long-Term Recovery</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3924",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3934,
+    "patches": [
+      {
+        "search": "<h2><b>Who is Most at Risk for DVT?</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-pe-warning-signs.webp\" alt=\"Five warning signs of a pulmonary embolism, which is when a blood clot travels to the lungs\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Who is Most at Risk for DVT?</b></h2>"
+      },
+      {
+        "search": "<h2><b>Immediate Steps to Take if You Suspect a Clot</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-diagnosis.webp\" alt=\"How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Immediate Steps to Take if You Suspect a Clot</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3934",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 4011,
+    "patches": [
+      {
+        "search": "<h2><b>2026 Health Update: The Global Andes Virus Outbreak</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4011-hantavirus-symptoms.webp\" alt=\"Eight hantavirus symptoms, which are easily mistaken for the common flu\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>2026 Health Update: The Global Andes Virus Outbreak</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 4011",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "cc-assistant-browser-transport",
+  "private": true,
+  "description": "Optional Chrome transport for authenticated WordPress MCP requests",
+  "dependencies": { "playwright": "1.62.1" }
+}

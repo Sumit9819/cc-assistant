@@ -1,0 +1,671 @@
+{
+ "_note": "Batch F, hormone cluster: 9170 thyroid, 9298 sleep, 9273 cortisol, 9292 perimenopause, 9295 PCOS. Where a section pairs two states that are both problems (high vs low cortisol, morning vs evening light), the checklist uses tone neutral so the second panel is not coloured as a warning.",
+ "cards": [
+  {
+   "file": "thyroid-hormone-chain",
+   "post_id": 9170,
+   "layout": "steps",
+   "subject": "thyroid",
+   "heading": "Thyroid Function 101",
+   "title": [
+    "How Your ",
+    "Thyroid",
+    " Makes Hormones"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The thyroid chain: the brain releases TSH, the thyroid makes T4, and T4 converts to the active hormone T3",
+   "steps": [
+    {
+     "icon": "brain",
+     "label": "TSH",
+     "note": "The brain signals the thyroid"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "T4",
+     "note": "The thyroid produces it, but it is inactive"
+    },
+    {
+     "icon": "zap",
+     "label": "T3",
+     "note": "T4 converts to the hormone cells actually use"
+    }
+   ]
+  },
+  {
+   "file": "hypothyroidism-vs-hashimotos",
+   "post_id": 9170,
+   "layout": "compare",
+   "subject": "Hashimoto",
+   "heading": "Hypothyroidism vs Hashimoto’s: Key Differences",
+   "title": [
+    "Hypothyroidism vs ",
+    "Hashimoto",
+    "’s"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hypothyroidism is an underactive thyroid; Hashimoto's is the autoimmune attack that most often causes it",
+   "columns": [
+    "Hypothyroidism",
+    "Hashimoto’s"
+   ],
+   "rows": [
+    {
+     "label": "What it is",
+     "values": [
+      "An underactive thyroid",
+      "An autoimmune attack on the thyroid"
+     ]
+    },
+    {
+     "label": "In the chain",
+     "values": [
+      "The result",
+      "The most common cause of it in the US"
+     ]
+    },
+    {
+     "label": "Confirmed by",
+     "values": [
+      "TSH and thyroid hormone levels",
+      "TPO and thyroglobulin antibodies"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "thyroid-when-to-get-evaluated",
+   "post_id": 9170,
+   "layout": "list",
+   "subject": "thyroid",
+   "heading": "When to Seek Medical Evaluation",
+   "title": [
+    "When ",
+    "Thyroid",
+    " Symptoms Need a Workup"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "See a doctor for severe fatigue, weight change, hair thinning, depression, neck swelling or symptoms despite medication",
+   "items": [
+    {
+     "icon": "battery-low",
+     "label": "Severe fatigue",
+     "note": "Affecting daily life"
+    },
+    {
+     "icon": "scale",
+     "label": "Weight change",
+     "note": "Unexplained, either direction"
+    },
+    {
+     "icon": "scissors",
+     "label": "Hair thinning",
+     "note": "Noticeable and ongoing"
+    },
+    {
+     "icon": "frown",
+     "label": "Depression",
+     "note": "With physical symptoms alongside"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Neck swelling",
+     "note": "Around the thyroid gland"
+    },
+    {
+     "icon": "pill",
+     "label": "No improvement",
+     "note": "Symptoms worsening despite medication"
+    }
+   ]
+  },
+  {
+   "file": "why-otc-melatonin-fails",
+   "post_id": 9298,
+   "layout": "list",
+   "subject": "melatonin",
+   "heading": "Why OTC Melatonin Fails",
+   "title": [
+    "Why Over-the-Counter ",
+    "Melatonin",
+    " Fails"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "OTC melatonin fails on unreliable dosing, downregulating your own production, and next-morning grogginess",
+   "items": [
+    {
+     "icon": "triangle-alert",
+     "label": "Unreliable dose",
+     "note": "Tested products ran 0% to 667% of the label"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Downregulation",
+     "note": "Your own production can drop in response"
+    },
+    {
+     "icon": "moon-star",
+     "label": "Grogginess",
+     "note": "Vivid dreams and a heavy next morning"
+    }
+   ]
+  },
+  {
+   "file": "circadian-rhythm-light-reset",
+   "post_id": 9298,
+   "layout": "checklist",
+   "subject": "melatonin",
+   "tone": "neutral",
+   "heading": "Circadian Rhythm Reset: Beyond the Pill",
+   "title": [
+    "Resetting Your Clock Without ",
+    "Melatonin",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Reset your body clock with 15 minutes of morning sunlight and no blue light for an hour before bed",
+   "good": {
+    "icon": "sun",
+    "heading": "Morning",
+    "items": [
+     "15 minutes of sunlight",
+     "Tells the pineal gland to stop melatonin",
+     "Starts the countdown to evening"
+    ]
+   },
+   "bad": {
+    "icon": "moon",
+    "heading": "Evening",
+    "items": [
+     "Cut blue light an hour before bed",
+     "Lets dim-light melatonin onset happen",
+     "No interruption to the natural rise"
+    ]
+   }
+  },
+  {
+   "file": "melatonin-vs-epitalon-vs-magnesium",
+   "post_id": 9298,
+   "layout": "compare",
+   "subject": "melatonin",
+   "heading": "Advanced Restoration: Beyond Traditional Sleep Aids",
+   "title": [
+    "Melatonin",
+    " vs Epitalon vs Magnesium",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Melatonin replaces the hormone, Epitalon aims to support the pineal gland, magnesium glycinate calms the nervous system",
+   "columns": [
+    "OTC melatonin",
+    "Epitalon peptide",
+    "Magnesium glycinate"
+   ],
+   "rows": [
+    {
+     "label": "What it does",
+     "values": [
+      "Replaces the hormone",
+      "Aims to support your own output",
+      "Calms the nervous system"
+     ]
+    },
+    {
+     "label": "How",
+     "values": [
+      "Synthetic melatonin, taken orally",
+      "Synthetic tetrapeptide, pineal-targeted",
+      "Supports GABA, highly bioavailable"
+     ]
+    },
+    {
+     "label": "Evidence",
+     "values": [
+      "Sold as a supplement, dosing varies",
+      "Early research, not FDA-approved",
+      "Safe within the RDA for most adults"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "what-cortisol-does",
+   "post_id": 9273,
+   "layout": "icons",
+   "subject": "cortisol",
+   "heading": "What is Cortisol?",
+   "title": [
+    "What ",
+    "Cortisol",
+    " Actually Does"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Cortisol regulates blood pressure, reduces inflammation, steadies blood glucose and follows a daily rhythm",
+   "items": [
+    {
+     "icon": "heart-pulse",
+     "label": "Blood pressure",
+     "note": "Helps keep it regulated"
+    },
+    {
+     "icon": "flame",
+     "label": "Inflammation",
+     "note": "Reduces it"
+    },
+    {
+     "icon": "candy-off",
+     "label": "Blood glucose",
+     "note": "Keeps energy levels steady"
+    },
+    {
+     "icon": "clock-3",
+     "label": "Daily rhythm",
+     "note": "Peaks in the morning, dips at night"
+    }
+   ]
+  },
+  {
+   "file": "high-vs-low-cortisol-signs",
+   "post_id": 9273,
+   "layout": "checklist",
+   "subject": "cortisol",
+   "tone": "neutral",
+   "heading": "High vs. Low Cortisol Signs: Identifying the Imbalance",
+   "title": [
+    "High vs Low ",
+    "Cortisol",
+    " Signs"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "High cortisol brings weight gain and stretch marks; low cortisol brings fatigue, low blood pressure and salt cravings",
+   "good": {
+    "icon": "trending-up",
+    "heading": "Too much cortisol",
+    "items": [
+     "Weight gain in the face and abdomen",
+     "A fatty hump between the shoulders",
+     "Purple or pink stretch marks",
+     "High blood pressure and muscle weakness"
+    ]
+   },
+   "bad": {
+    "icon": "trending-down",
+    "heading": "Too little cortisol",
+    "items": [
+     "Extreme, persistent fatigue",
+     "Appetite loss and weight loss",
+     "Low blood pressure, faint on standing",
+     "Salt cravings",
+     "Darkening of the skin"
+    ]
+   }
+  },
+  {
+   "file": "cortisol-testing-options",
+   "post_id": 9273,
+   "layout": "list",
+   "subject": "cortisol",
+   "heading": "Functional Testing: Getting the Right Answers",
+   "title": [
+    "How ",
+    "Cortisol",
+    " Is Tested"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Cortisol testing: a morning blood draw, saliva at four points, 24-hour urinary free cortisol, and the DUTCH test",
+   "items": [
+    {
+     "icon": "syringe",
+     "label": "Morning blood test",
+     "note": "The usual starting baseline"
+    },
+    {
+     "icon": "droplet",
+     "label": "Saliva, four points",
+     "note": "Shows how levels rise and fall"
+    },
+    {
+     "icon": "beaker",
+     "label": "24-hour urinary free",
+     "note": "Still the clinical standard for Cushing's"
+    },
+    {
+     "icon": "microscope",
+     "label": "DUTCH test",
+     "note": "Integrative tool, shows metabolites"
+    }
+   ]
+  },
+  {
+   "file": "adrenal-crisis-emergency-signs",
+   "post_id": 9273,
+   "layout": "alert",
+   "subject": "cortisol",
+   "heading": "When to Visit Urgent Care or an ER",
+   "logo": {
+    "position": "bottom-right",
+    "variant": "white",
+    "width": 150
+   },
+   "alt": "Adrenal crisis needs emergency care: sudden severe pain, severe vomiting and diarrhea, or low blood pressure and collapse",
+   "kicker": "Adrenal crisis, a cortisol emergency",
+   "headline": "Go to the ER",
+   "signs": [
+    {
+     "icon": "zap",
+     "text": "Sudden severe pain in the lower back, abdomen or legs"
+    },
+    {
+     "icon": "frown",
+     "text": "Severe vomiting and diarrhea with dehydration"
+    },
+    {
+     "icon": "heart-pulse",
+     "text": "Low blood pressure or loss of consciousness"
+    }
+   ],
+   "footer": "Also: confusion or extreme weakness"
+  },
+  {
+   "file": "perimenopause-common-symptoms",
+   "post_id": 9292,
+   "layout": "icons",
+   "subject": "perimenopause",
+   "heading": "Common Symptoms You Shouldn’t Ignore",
+   "title": [
+    "Common ",
+    "Perimenopause",
+    " Symptoms"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Common perimenopause symptoms: hot flashes and night sweats, insomnia, mood changes, and brain fog",
+   "items": [
+    {
+     "icon": "thermometer-sun",
+     "label": "Hot flashes",
+     "note": "And night sweats, the most common complaint"
+    },
+    {
+     "icon": "moon",
+     "label": "Sleep trouble",
+     "note": "Disturbed sleep and insomnia"
+    },
+    {
+     "icon": "frown",
+     "label": "Mood changes",
+     "note": "Anxiety and irritability"
+    },
+    {
+     "icon": "brain",
+     "label": "Brain fog",
+     "note": "Difficulty concentrating"
+    }
+   ]
+  },
+  {
+   "file": "perimenopause-natural-relief-options",
+   "post_id": 9292,
+   "layout": "list",
+   "subject": "perimenopause",
+   "heading": "Natural Relief: Evidence-Based Strategies",
+   "title": [
+    "Natural ",
+    "Perimenopause",
+    " Relief Options"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Perimenopause relief options: calcium and vitamin D, phytoestrogens, progesterone cream with caution, and pelvic care",
+   "items": [
+    {
+     "icon": "apple",
+     "label": "Diet foundations",
+     "note": "Calcium and vitamin D, fewer hot-flash triggers"
+    },
+    {
+     "icon": "wheat",
+     "label": "Phytoestrogens",
+     "note": "Soy, flaxseed and red clover isoflavones"
+    },
+    {
+     "icon": "pill",
+     "label": "Progesterone cream",
+     "note": "OTC bioidenticals are loosely regulated, ask first"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Pelvic health",
+     "note": "Water-based lubricants, non-hormonal moisturizers"
+    }
+   ]
+  },
+  {
+   "file": "perimenopause-when-to-see-a-doctor",
+   "post_id": 9292,
+   "layout": "alert",
+   "subject": "perimenopause",
+   "heading": "When to See a Medical Professional",
+   "logo": {
+    "position": "bottom-right",
+    "variant": "white",
+    "width": 150
+   },
+   "alt": "See a doctor in perimenopause for very heavy bleeding, periods closer than 21 days, or severe depression or anxiety",
+   "kicker": "Perimenopause red flags",
+   "headline": "Get seen",
+   "signs": [
+    {
+     "icon": "droplet",
+     "text": "Soaking through a pad in an hour"
+    },
+    {
+     "icon": "calendar-days",
+     "text": "Periods more often than every 21 days"
+    },
+    {
+     "icon": "frown",
+     "text": "Depression or anxiety interfering with daily life"
+    }
+   ],
+   "footer": "These are not part of the normal transition"
+  },
+  {
+   "file": "pcos-root-causes",
+   "post_id": 9295,
+   "layout": "list",
+   "subject": "PCOS",
+   "heading": "What Actually Drives PCOS?",
+   "title": [
+    "What Actually Drives ",
+    "PCOS",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "PCOS root causes: genetics and environment, androgen excess, insulin resistance, inflammation and adrenal PCOS",
+   "items": [
+    {
+     "icon": "dna",
+     "label": "Genetics and environment",
+     "note": "Family history, plus what flips those genes"
+    },
+    {
+     "icon": "activity",
+     "label": "Androgen excess",
+     "note": "Ovaries and sometimes adrenals overproduce"
+    },
+    {
+     "icon": "candy-off",
+     "label": "Insulin resistance",
+     "note": "A driver for most women with PCOS"
+    },
+    {
+     "icon": "flame",
+     "label": "Chronic inflammation",
+     "note": "Low-grade, and it fuels androgen production"
+    },
+    {
+     "icon": "battery-low",
+     "label": "Adrenal PCOS",
+     "note": "20 to 30% of cases, driven by stress"
+    }
+   ]
+  },
+  {
+   "file": "pcos-androgen-excess-signs",
+   "post_id": 9295,
+   "layout": "icons",
+   "subject": "PCOS",
+   "heading": "Androgen Excess: More Than Just a Hormone",
+   "title": [
+    "Signs of Androgen Excess in ",
+    "PCOS",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Androgen excess in PCOS shows as facial hair growth, jawline cystic acne, and male-pattern hair thinning",
+   "items": [
+    {
+     "icon": "scissors",
+     "label": "Hirsutism",
+     "note": "Excess hair on the face or chin"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Cystic acne",
+     "note": "Hormonal, along the jawline"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Hair thinning",
+     "note": "Male-pattern, on the scalp"
+    }
+   ]
+  },
+  {
+   "file": "pcos-insulin-connection",
+   "post_id": 9295,
+   "layout": "steps",
+   "subject": "PCOS",
+   "heading": "The Insulin Connection",
+   "title": [
+    "How Insulin Drives ",
+    "PCOS",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "In PCOS, cells resist insulin, the body makes more, and high insulin drives ovarian testosterone while SHBG falls",
+   "steps": [
+    {
+     "icon": "ban",
+     "label": "Cells resist",
+     "note": "The key no longer opens the door"
+    },
+    {
+     "icon": "trending-up",
+     "label": "More insulin",
+     "note": "The body pumps out more to compensate"
+    },
+    {
+     "icon": "activity",
+     "label": "More testosterone",
+     "note": "Ovaries respond, and SHBG falls"
+    }
+   ]
+  },
+  {
+   "file": "pcos-cycle-regulation-diet",
+   "post_id": 9295,
+   "layout": "icons",
+   "subject": "PCOS",
+   "heading": "Cycle Regulation Diet",
+   "title": [
+    "Eating to Steady ",
+    "PCOS",
+    " Blood Sugar"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A PCOS cycle-regulation plate: fiber first, protein at every meal, healthy fats, and anti-inflammatory color",
+   "items": [
+    {
+     "icon": "wheat",
+     "label": "Fiber first",
+     "note": "Greens, berries and seeds slow absorption"
+    },
+    {
+     "icon": "egg",
+     "label": "Protein every meal",
+     "note": "Prevents the glucose roller coaster"
+    },
+    {
+     "icon": "salad",
+     "label": "Healthy fats",
+     "note": "Avocado, nuts and olive oil for hormone synthesis"
+    },
+    {
+     "icon": "apple",
+     "label": "Anti-inflammatory",
+     "note": "Colorful fruit and vegetables"
+    }
+   ]
+  }
+ ]
+}

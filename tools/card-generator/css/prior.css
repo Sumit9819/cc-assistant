@@ -1,0 +1,50 @@
+/* Underline links inside body text (WCAG 1.4.1). Scoped to text widgets so menus and buttons keep their styling; a bare "a" rule loses to Elementor's ".elementor a { text-decoration: none }". */
+.elementor-widget-text-editor a,
+.elementor-widget-theme-post-content a,
+.elementor-icon-box-description a,
+.page-content a,
+.entry-content a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Default hover: brand green (safe on white, light-green, yellow bgs) */
+a:hover,
+a:focus-visible {
+  color: #003017;
+}
+
+/* Dark-bg sections: hover white for contrast */
+.bg-dark a:hover,
+.bg-dark a:focus-visible {
+  color: #FFFFFF;
+}
+
+/* Defensive override for any white card nested inside a dark section */
+.bg-white a:hover,
+.bg-white a:focus-visible {
+  color: #003017;
+}
+
+/* Dark-bg sections: links white at rest too (WCAG 1.4.3) */
+.bg-dark a {
+  color: #FFFFFF;
+}
+
+/* Blog post body: template 537 sets --cc-link #d85d68 (3.7:1); override to a rose that passes AA (6.8:1). */
+body .elementor-537 .elementor-element.elementor-element-10a1e2e {
+  --cc-link: #A82C40;
+}
+
+/* Visible keyboard focus (WCAG 2.4.7): green ring plus white halo; includes iframes and the blog search field. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+iframe:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #003017 !important;
+  outline-offset: 0;
+  box-shadow: 0 0 0 6px #FFFFFF !important;
+}

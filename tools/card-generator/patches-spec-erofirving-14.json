@@ -1,0 +1,47 @@
+[
+  {
+    "post_id": 4772,
+    "patches": [
+      {
+        "search": "<h2>Flu Emergency Warning Signs in Adults</h2>",
+        "replace": "<h2>Flu Emergency Warning Signs in Adults</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4772-flu-warning-signs.webp\" alt=\"Nine CDC emergency warning signs of flu in adults: difficulty breathing, chest or belly pain or pressure, dizziness or confusion or trouble waking, seizures, not urinating, severe muscle pain, severe weakness or unsteadiness, a fever or cough that improves then returns worse, and a chronic condition getting worse\" width=\"1200\" height=\"688\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2>The Warning Sign People Miss: Better, Then Worse</h2>",
+        "replace": "<h2>The Warning Sign People Miss: Better, Then Worse</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4772-flu-better-then-worse.webp\" alt=\"The flu relapse pattern: the flu hits, the fever breaks and you feel better, then about two days later the fever and cough come back worse, which is a CDC warning sign to go to the ER\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 4772",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 4773,
+    "patches": [
+      {
+        "search": "<h2>What Blood Pressure Is Dangerously High?</h2>",
+        "replace": "<h2>What Blood Pressure Is Dangerously High?</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4773-180-120-threshold.webp\" alt=\"A blood pressure reading of 180/120 or higher is a hypertensive crisis, and only one number has to cross the line: a top number of 180 or higher, or a bottom number of 120 or higher\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2>High Reading With Symptoms: Call 911</h2>",
+        "replace": "<h2>High Reading With Symptoms: Call 911</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4773-call-911-symptoms.webp\" alt=\"Call 911 if a blood pressure reading of 180/120 or higher comes with any of these six NHLBI symptoms: a sudden severe headache, difficulty breathing, sudden severe pain in the abdomen, chest or back, numbness or weakness, a sudden change in vision, or problems talking\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 4773",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 4774,
+    "patches": [
+      {
+        "search": "<h2>Vomiting: When to Go to the ER</h2>",
+        "replace": "<h2>Vomiting: When to Go to the ER</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4774-vomiting-er-signs.webp\" alt=\"Eight MedlinePlus signs that vomiting needs care now: blood or coffee-colored material in the vomit, suspected poisoning, vomiting longer than 24 hours, no fluids kept down for 12 hours, no urine for 8 hours, severe belly pain, a headache or stiff neck, and vomiting 3 or more times in one day\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2>Signs of Dehydration in Adults</h2>",
+        "replace": "<h2>Signs of Dehydration in Adults</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4774-dehydration-signs.webp\" alt=\"Five signs of dehydration in adults: less or dark yellow urine, dizziness or lightheadedness, a dry mouth and more thirst, sunken eyes, and skin that does not bounce back when pinched\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 4774",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  }
+]

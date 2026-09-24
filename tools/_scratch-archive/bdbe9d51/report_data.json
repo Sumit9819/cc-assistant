@@ -1,0 +1,630 @@
+{
+ "11": {
+  "label": "home",
+  "title": "Home",
+  "url": "https://mammothmachinery.ca/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "available with financing from 1.99% to 0% APR",
+    "after": "available with equipment financing"
+   },
+   {
+    "before": "covering powertrain, hydraulics, and structure",
+    "after": "covering hydraulics, chassis and structural components"
+   },
+   {
+    "before": "equipment financing from <strong>1.99% to 0% APR</strong> with flexible terms up to 72 months on approved credit",
+    "after": "equipment financing with flexible terms on approved credit"
+   },
+   {
+    "before": "financing from 1.99% to 0% APR, and a parts-and-service support network",
+    "after": "equipment financing, and a parts-and-service support network"
+   }
+  ]
+ },
+ "37": {
+  "label": "wheeled-dumpers",
+  "title": "Wheeled Mini Dumpers",
+  "url": "https://mammothmachinery.ca/wheeled-mini-dumpers/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "Financing Available From 1.99% to 0% APR",
+    "after": "Financing Available"
+   }
+  ]
+ },
+ "39": {
+  "label": "wheel-loaders",
+  "title": "Wheel Loaders",
+  "url": "https://mammothmachinery.ca/wheel-loaders/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "Financing From 1.99% to 0% APR",
+    "after": "Financing Available"
+   },
+   {
+    "before": "powertrain, hydraulics, and structural components",
+    "after": "hydraulics, chassis and structural components"
+   },
+   {
+    "before": "Flexible terms up to 72 months",
+    "after": "Flexible terms"
+   },
+   {
+    "before": "98% approval rate",
+    "after": "Fast approvals"
+   },
+   {
+    "before": "covering powertrain, hydraulic system, and structural components",
+    "after": "covering hydraulics, chassis and structural components"
+   },
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   },
+   {
+    "before": "Financing is available from 1.99% APR with flexible terms up to 72 months,",
+    "after": "Financing is available with flexible terms,"
+   },
+   {
+    "before": "Financing is available with flexible terms up to 72 months, making",
+    "after": "Financing is available with flexible terms, making"
+   }
+  ]
+ },
+ "41": {
+  "label": "tracked-dumpers",
+  "title": "Tracked Mini Dumpers",
+  "url": "https://mammothmachinery.ca/tracked-mini-dumpers/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "Financing Available From 1.99% to 0% APR",
+    "after": "Financing Available"
+   }
+  ]
+ },
+ "43": {
+  "label": "mini-skidsteers",
+  "title": "Mini Skidsteers",
+  "url": "https://mammothmachinery.ca/mini-skidsteers/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "financing from 1.99% to 0% APR</a>",
+    "after": "equipment financing</a>"
+   },
+   {
+    "before": "Financing From 1.99% to 0% APR",
+    "after": "Financing Available"
+   },
+   {
+    "before": "powertrain, hydraulics, and structural components",
+    "after": "hydraulics, chassis and structural components"
+   },
+   {
+    "before": "Flexible terms up to 72 months",
+    "after": "Flexible terms"
+   },
+   {
+    "before": "98% approval rate",
+    "after": "Fast approvals"
+   },
+   {
+    "before": "covering powertrain, hydraulic system, and structural components",
+    "after": "covering hydraulics, chassis and structural components"
+   },
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   },
+   {
+    "before": "Financing is available with terms up to 72 months, making",
+    "after": "Financing is available with flexible terms, making"
+   }
+  ]
+ },
+ "45": {
+  "label": "mini-excavators",
+  "title": "Mini Excavators",
+  "url": "https://mammothmachinery.ca/mini-excavators/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "Financing Available From 1.99% to 0% APR",
+    "after": "Financing Available"
+   }
+  ]
+ },
+ "47": {
+  "label": "track-loaders",
+  "title": "Full Size Track Loaders",
+  "url": "https://mammothmachinery.ca/full-size-track-loaders/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "Financing As Low As 0% APR",
+    "after": "Financing Available"
+   }
+  ]
+ },
+ "1319": {
+  "label": "eTT900",
+  "title": "eTT900 Articulating Mini Dumper",
+  "url": "https://mammothmachinery.ca/ett900-articulating-mini-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1476": {
+  "label": "TT570",
+  "title": "TT570 Mini Dumper",
+  "url": "https://mammothmachinery.ca/tt570-mini-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1518": {
+  "label": "WL7500",
+  "title": "WL7500 Wheel Loader",
+  "url": "https://mammothmachinery.ca/wl7500-wheel-loader/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1532": {
+  "label": "WL4500",
+  "title": "WL4500 Wheel Loader",
+  "url": "https://mammothmachinery.ca/wl4500-wheel-loader/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1551": {
+  "label": "XL120",
+  "title": "X-loader 120MT Mini Skid Steer",
+  "url": "https://mammothmachinery.ca/x-loader-120mt-mini-skid-steer/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1568": {
+  "label": "XL100",
+  "title": "X-loader 100MT Mini Skid Steer",
+  "url": "https://mammothmachinery.ca/x-loader-100mt-mini-skid-steer/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1585": {
+  "label": "XC35",
+  "title": "X-Cavator 35MT Mini Excavator",
+  "url": "https://mammothmachinery.ca/x-cavator-35mt-mini-excavator/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1602": {
+  "label": "XC27",
+  "title": "X-Cavator 27MT Mini Excavator",
+  "url": "https://mammothmachinery.ca/x-cavator-27mt-mini-excavator/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1616": {
+  "label": "XC20",
+  "title": "X-Cavator 20MT Mini Excavator",
+  "url": "https://mammothmachinery.ca/x-cavator-20mt-mini-excavator/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1630": {
+  "label": "XL3000",
+  "title": "X-Loader 3000MT Full size skid steer",
+  "url": "https://mammothmachinery.ca/x-loader-3000mt-full-size-skid-steer/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1648": {
+  "label": "MT2200HL",
+  "title": "MT2200HL High lift Dumper",
+  "url": "https://mammothmachinery.ca/mt2200hl-high-lift-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1668": {
+  "label": "MT1750",
+  "title": "MT1750 Mini Dumper",
+  "url": "https://mammothmachinery.ca/mt1750-mini-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1684": {
+  "label": "MT2850",
+  "title": "MT2850 Track Carrier",
+  "url": "https://mammothmachinery.ca/mt2850-track-carrier/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1699": {
+  "label": "MT2200",
+  "title": "MT2200 Mini Dumper",
+  "url": "https://mammothmachinery.ca/mt2200-mini-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1710": {
+  "label": "MT1350",
+  "title": "MT1350 Mini Dumper",
+  "url": "https://mammothmachinery.ca/mt1350-mini-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "1986": {
+  "label": "warranty",
+  "title": "Warranty",
+  "url": "https://mammothmachinery.ca/mammoth-machinery-warranty/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "Powertrain · Hydraulics · Structure",
+    "after": "Hydraulics · Chassis · Structure"
+   },
+   {
+    "before": "Every Mammoth machine ships with this warranty active from day one.",
+    "after": "Every Mammoth machine is covered from delivery, and registering within 30 days secures the full 5-year term."
+   }
+  ]
+ },
+ "1993": {
+  "label": "TT900",
+  "title": "TT900 Mini Track Dumper",
+  "url": "https://mammothmachinery.ca/tt900-mini-track-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "2089": {
+  "label": "MT1350CB",
+  "title": "MT1350CB Concrete Buggy",
+  "url": "https://mammothmachinery.ca/mt1350cb-concrete-buggy/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "2134": {
+  "label": "TL5500",
+  "title": "TL5500 Telescopic Wheel Loader",
+  "url": "https://mammothmachinery.ca/tl5500-telescopic-wheel-loader/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "2396": {
+  "label": "MT2850CB",
+  "title": "MT2850CB Tracked Mini Dumper",
+  "url": "https://mammothmachinery.ca/mt2850cb-tracked-mini-dumper/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "3264": {
+  "label": "blog-dumper",
+  "title": "What Is a Mini Dumper? Complete Guide for Canadian Contractors",
+  "url": "https://mammothmachinery.ca/what-is-a-mini-dumper-complete-guide/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing from 1.99% to 0% APR",
+    "after": "Financing available"
+   },
+   {
+    "before": "flexible financing up to 72 months</a>.",
+    "after": "flexible financing</a>."
+   }
+  ]
+ },
+ "3291": {
+  "label": "about",
+  "title": "About Us",
+  "url": "https://mammothmachinery.ca/about-mammoth-machinery/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "four decades of Canadian manufacturing excellence",
+    "after": "31 years of Canadian equipment experience"
+   },
+   {
+    "before": "Mammoth Machinery is also a proud member of <a href=\"https://www.cme-mec.ca/\" target=\"_blank\">Canadian Manufacturers &amp; Exporters</a>, the country&#39;s largest industry and trade association. ",
+    "after": ""
+   },
+   {
+    "before": "our three state-of-the-art assembly hubs in Canada",
+    "after": "our assembly facility in Burlington, Ontario"
+   },
+   {
+    "before": "We have built a network of over 100 dedicated service partners who share our commitment to excellence.",
+    "after": "We have built a dealer and service network reaching from Ontario to the Maritimes, sharing our commitment to excellence."
+   },
+   {
+    "before": "We are currently expanding our manufacturing capacity with a new facility focused entirely on our <a href=\"/browse-models/\">next-generation electric and autonomous heavy equipment fleet</a>, designed to meet the evolving needs of a sustainable global economy.",
+    "after": "We continue to invest in our <a href=\"/browse-models/\">electric equipment range</a>, including the eTT900 electric mini dumper, as demand grows for lower-emission machines."
+   }
+  ]
+ },
+ "3358": {
+  "label": "XL50",
+  "title": "X-loader 50MT Mini Skid Steer",
+  "url": "https://mammothmachinery.ca/x-loader-50mt-mini-skid-steer/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "3635": {
+  "label": "blog-wheelvtrack",
+  "title": "Wheeled vs Tracked Mini Dumper: Best 2026 Guide",
+  "url": "https://mammothmachinery.ca/wheeled-vs-tracked-mini-dumper-best-2026-guide/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing from 1.99% to 0% APR",
+    "after": "Financing available"
+   },
+   {
+    "before": "dealer network sees the same pattern across Ontario and Western Canada",
+    "after": "dealer network sees the same pattern from Ontario to the Maritimes"
+   },
+   {
+    "before": "flexible financing up to 72 months from 1.99% to 0% O.A.C.",
+    "after": "flexible financing on approved credit."
+   }
+  ]
+ },
+ "3658": {
+  "label": "blog-size",
+  "title": "What Size Mini Excavator Do I Need? Best 2026 Guide",
+  "url": "https://mammothmachinery.ca/what-size-mini-excavator-do-i-need-best-2026-guide/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing from 1.99% to 0% APR",
+    "after": "Financing available"
+   },
+   {
+    "before": "flexible financing from 1.99% to 0% O.A.C.",
+    "after": "flexible financing on approved credit."
+   }
+  ]
+ },
+ "3678": {
+  "label": "blog-skidvtrack",
+  "title": "Skid Steer vs Track Loader: Best 2026 Guide",
+  "url": "https://mammothmachinery.ca/skid-steer-vs-track-loader-best-2026-guide/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing from 1.99% to 0% APR",
+    "after": "Financing available"
+   },
+   {
+    "before": "flexible financing from 1.99% to 0% O.A.C.",
+    "after": "flexible financing on approved credit."
+   }
+  ]
+ },
+ "3771": {
+  "label": "blog-buggy",
+  "title": "Concrete Buggy Canada: Best 2026 Uses &amp; Specs Guide",
+  "url": "https://mammothmachinery.ca/what-is-a-concrete-buggy/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing up to 72 Months",
+    "after": "Financing Options"
+   },
+   {
+    "before": "flexible financing up to 72 months O.A.C.",
+    "after": "flexible financing on approved credit."
+   }
+  ]
+ },
+ "3862": {
+  "label": "high-dump",
+  "title": "High Dump Mini Dumper: 7 Reasons It's the Best Pick",
+  "url": "https://mammothmachinery.ca/high-dump-mini-dumper/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing up to 72 Months",
+    "after": "Financing Options"
+   },
+   {
+    "before": "Financing runs up to 72 months O.A.C.",
+    "after": "Financing is available on approved credit."
+   }
+  ]
+ },
+ "3890": {
+  "label": "blog-attach",
+  "title": "Mini Excavator Attachments: 10 Best for Canada 2026",
+  "url": "https://mammothmachinery.ca/mini-excavator-attachments-canada/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing up to 72 Months",
+    "after": "Financing Options"
+   }
+  ]
+ },
+ "3903": {
+  "label": "blog-minivfull",
+  "title": "Mini Skid Steer vs Full Size: Best 2026 Canada Guide",
+  "url": "https://mammothmachinery.ca/mini-skid-steer-vs-full-size/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "Financing up to 72 Months",
+    "after": "Financing Options"
+   },
+   {
+    "before": "financing</a> up to 72 months O.A.C.",
+    "after": "financing</a> on approved credit."
+   }
+  ]
+ },
+ "3994": {
+  "label": "MTL1000",
+  "title": "MTL1000 Track Loader",
+  "url": "https://mammothmachinery.ca/mtl1000-track-loader/",
+  "type": "page",
+  "changes": [
+   {
+    "before": "is available from 1.99% to 0% APR",
+    "after": "is available"
+   }
+  ]
+ },
+ "4012": {
+  "label": "blog-warranty",
+  "title": "What Does a 5-Year Equipment Warranty Actually Cover?",
+  "url": "https://mammothmachinery.ca/what-does-5-year-equipment-warranty-cover/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "powertrain, hydraulics, and structure",
+    "after": "hydraulics, chassis and structure"
+   },
+   {
+    "before": "Powertrain, hydraulics, structure",
+    "after": "Hydraulics, chassis, structure"
+   }
+  ]
+ },
+ "4023": {
+  "label": "blog4",
+  "title": "How to Choose the Right Mini Excavator for Your Work",
+  "url": "https://mammothmachinery.ca/how-to-choose-mini-excavator/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "powertrain, hydraulics, and structure",
+    "after": "hydraulics, chassis and structure"
+   }
+  ]
+ },
+ "4026": {
+  "label": "blog5",
+  "title": "Landscaping Jobs a Mini Skid Steer Does Best",
+  "url": "https://mammothmachinery.ca/landscaping-jobs-mini-skid-steer/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "powertrain, hydraulics and structure",
+    "after": "hydraulics, chassis and structure"
+   }
+  ]
+ },
+ "4031": {
+  "label": "blog7",
+  "title": "How to Choose a Wheel Loader for Canadian Job Sites",
+  "url": "https://mammothmachinery.ca/how-to-choose-a-wheel-loader/",
+  "type": "post",
+  "changes": [
+   {
+    "before": "powertrain, hydraulics and structure",
+    "after": "hydraulics, chassis and structure"
+   }
+  ]
+ }
+}

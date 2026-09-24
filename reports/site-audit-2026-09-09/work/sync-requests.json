@@ -1,0 +1,5 @@
+[
+ {"name":"gsc_warehouse_sync","arguments":{"max_dates":30,"refresh_days":30,"backfill":false}},
+ {"name":"gsc_warehouse_status","arguments":{}},
+ {"name":"gbp_locations","arguments":{}}
+]

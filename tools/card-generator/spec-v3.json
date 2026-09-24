@@ -1,0 +1,473 @@
+{
+ "_note": "Repair of the metabolizm corruption introduced by the spelling fixer.",
+ "cards": [
+  {
+   "file": "hangover-iv-drip-what-it-can-and-cannot-fix",
+   "post_id": 6300,
+   "layout": "checklist",
+   "subject": "hangover",
+   "heading": "Can an IV Drip Actually Cure a Hangover?",
+   "title": [
+    "Can an IV Drip Cure a ",
+    "Hangover",
+    "?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A hangover IV drip treats dehydration and electrolyte loss but cannot speed alcohol metabolism or replace rest",
+   "good": {
+    "icon": "circle-check",
+    "heading": "It can help with",
+    "items": [
+     "Dehydration",
+     "Electrolyte imbalance",
+     "Fatigue, via B vitamins",
+     "Oxidative stress, via vitamin C"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "It cannot fix",
+    "items": [
+     "How fast you metabolize alcohol",
+     "Clearing acetaldehyde",
+     "The need for rest",
+     "The need for time"
+    ]
+   }
+  },
+  {
+   "file": "how-estrogen-imbalance-drives-weight-gain",
+   "post_id": 9173,
+   "layout": "list",
+   "subject": "estrogen",
+   "heading": "Hormonal Weight Gain",
+   "title": [
+    "How ",
+    "Estrogen",
+    " Imbalance Drives Weight Gain"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "When estrogen is imbalanced fat storage rises, muscle mass falls, metabolism slows and water retention increases",
+   "items": [
+    {
+     "icon": "trending-up",
+     "label": "Fat storage rises",
+     "note": "Particularly around the abdomen"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Muscle mass falls",
+     "note": "Which lowers what you burn at rest"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Metabolism slows",
+     "note": "The same effort returns less"
+    },
+    {
+     "icon": "droplet",
+     "label": "Water retention",
+     "note": "Adding to the number on the scale"
+    }
+   ]
+  },
+  {
+   "file": "how-hypothyroidism-causes-weight-gain",
+   "post_id": 6445,
+   "layout": "icons",
+   "subject": "hypothyroidism",
+   "heading": "How Hypothyroidism Can Lead to Weight Gain ",
+   "title": [
+    "How ",
+    "Hypothyroidism",
+    " Adds Weight"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hypothyroidism adds weight through a slowed metabolism, fluid retention, and the fatigue that reduces daily movement",
+   "items": [
+    {
+     "icon": "trending-down",
+     "label": "Slower metabolism",
+     "note": "Fewer calories burned, even at rest"
+    },
+    {
+     "icon": "droplet",
+     "label": "Fluid retention",
+     "note": "Swelling that subtly adds weight"
+    },
+    {
+     "icon": "footprints",
+     "label": "Less movement",
+     "note": "Fatigue makes exercise harder"
+    }
+   ]
+  },
+  {
+   "file": "iv-hydration-whats-in-the-bag",
+   "post_id": 6285,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "What’s in an IV Hydration Bag?",
+   "title": [
+    "What’s in an ",
+    "IV Hydration",
+    " Bag"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An IV hydration bag starts with sterile saline plus electrolytes, B vitamins, vitamin C, glutathione and amino acids",
+   "items": [
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium and magnesium restore balance"
+    },
+    {
+     "icon": "pill",
+     "label": "B-complex and B12",
+     "note": "Energy, metabolism and brain function"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Immune and skin support"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant for detox and brighter skin"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Muscle recovery and fatigue relief"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-athletes-whats-in-the-bag",
+   "post_id": 6353,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "What’s in an Athlete’s IV Therapy Bag?",
+   "title": [
+    "What Is in an Athlete’s ",
+    "IV Therapy",
+    " Bag"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An athlete's IV bag holds electrolytes, amino acids, B complex, vitamin C and glutathione",
+   "items": [
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium, calcium, magnesium"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Muscle repair, less breakdown"
+    },
+    {
+     "icon": "pill",
+     "label": "B complex",
+     "note": "Energy, metabolism, red blood cells"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, supports tissue repair"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant, reduces muscle inflammation"
+    }
+   ]
+  },
+  {
+   "file": "lipo-b-mic-ingredients",
+   "post_id": 6492,
+   "layout": "icons",
+   "subject": "Lipo-B",
+   "heading": "What Are Lipo-B (MIC) Injections, Really?",
+   "title": [
+    "What Is in a ",
+    "Lipo-B",
+    " (MIC) Injection"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Lipo-B MIC injection holds methionine, inositol and choline, usually with B vitamins including B12",
+   "items": [
+    {
+     "icon": "recycle",
+     "label": "Methionine",
+     "note": "Amino acid in methylation and fat metabolism"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Inositol",
+     "note": "Cell signalling and insulin sensitivity"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Choline",
+     "note": "Helps the liver package and move fats"
+    },
+    {
+     "icon": "zap",
+     "label": "B vitamins",
+     "note": "Usually B12, for energy and nerve function"
+    }
+   ]
+  },
+  {
+   "file": "movement-to-maintain-weight-loss",
+   "post_id": 6441,
+   "layout": "icons",
+   "subject": "weight loss",
+   "heading": "2. Prioritize Daily Movement (Not Just Structured Exercise)",
+   "title": [
+    "Movement That Protects ",
+    "Weight Loss",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Protect weight loss with strength training, cardio and NEAT, aiming for about 150 minutes of moderate activity a week",
+   "items": [
+    {
+     "icon": "dumbbell",
+     "label": "Strength",
+     "note": "Preserves muscle, supports metabolism"
+    },
+    {
+     "icon": "heart-pulse",
+     "label": "Cardio",
+     "note": "Heart health and calorie balance"
+    },
+    {
+     "icon": "footprints",
+     "label": "NEAT",
+     "note": "Walking, stairs, standing, cleaning"
+    }
+   ]
+  },
+  {
+   "file": "myers-cocktail-ingredients",
+   "post_id": 6296,
+   "layout": "list",
+   "subject": "Myers Cocktail",
+   "heading": "What Is the Myers’ Cocktail?",
+   "title": [
+    "What Is in a ",
+    "Myers Cocktail",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Myers Cocktail holds vitamin C, B-complex vitamins, vitamin B12, magnesium and calcium",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, immune support"
+    },
+    {
+     "icon": "zap",
+     "label": "B-complex",
+     "note": "B1, B2, B3, B5 and B6 for energy metabolism"
+    },
+    {
+     "icon": "pill",
+     "label": "Vitamin B12",
+     "note": "Red blood cells and mental clarity"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Muscle relaxation and migraine relief"
+    },
+    {
+     "icon": "bone",
+     "label": "Calcium",
+     "note": "Bone strength and cellular function"
+    }
+   ]
+  },
+  {
+   "file": "nad-iv-therapy-what-nad-does",
+   "post_id": 10216,
+   "layout": "icons",
+   "subject": "NAD+",
+   "heading": "What is NAD+ and what does it do in the body?",
+   "title": [
+    "What ",
+    "NAD+",
+    " Does in the Body"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "NAD+ is a coenzyme used for cellular energy and DNA repair, and its levels fall with age",
+   "items": [
+    {
+     "icon": "zap",
+     "label": "Cellular energy",
+     "note": "Shuttles electrons during metabolism"
+    },
+    {
+     "icon": "dna",
+     "label": "DNA repair",
+     "note": "Supports the enzymes that fix damage"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Falls with age",
+     "note": "The observation that drove the interest"
+    }
+   ]
+  },
+  {
+   "file": "reversing-weight-loss-resistance",
+   "post_id": 9462,
+   "layout": "icons",
+   "subject": "weight loss resistance",
+   "heading": "Reigniting Metabolism: Beyond the Calorie Deficit",
+   "title": [
+    "Reversing ",
+    "Weight Loss Resistance",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Reverse weight loss resistance with comprehensive metabolic testing, gut microbiome repair and a personalized plan",
+   "items": [
+    {
+     "icon": "microscope",
+     "label": "Metabolic testing",
+     "note": "Inflammation markers, deficiencies, hormones"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Gut microbiome",
+     "note": "Shapes how you harvest energy from food"
+    },
+    {
+     "icon": "sliders-horizontal",
+     "label": "Personalized plan",
+     "note": "Nutrient density, stress, strategic movement"
+    }
+   ]
+  },
+  {
+   "file": "sleep-stress-and-weight",
+   "post_id": 6220,
+   "layout": "icons",
+   "subject": "weight loss",
+   "heading": "Sleep, Stress, and the Metabolism Connection",
+   "title": [
+    "Sleep and Stress in ",
+    "Weight Loss",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Sleep 7 to 9 hours, take short stress breaks, and keep protein and fiber snacks ready for your known trigger times",
+   "items": [
+    {
+     "icon": "moon",
+     "label": "7 to 9 hours",
+     "note": "Short sleep leaves you hungrier"
+    },
+    {
+     "icon": "brain",
+     "label": "Short breaks",
+     "note": "Five minutes of breathing, a ten-minute walk"
+    },
+    {
+     "icon": "apple",
+     "label": "Snacks ready",
+     "note": "Protein and fiber, for your trigger times"
+    }
+   ]
+  },
+  {
+   "file": "weight-loss-resistance-cellular-bottlenecks",
+   "post_id": 9462,
+   "layout": "list",
+   "subject": "weight loss resistance",
+   "heading": "Cellular Bottlenecks: The Science of Stalled Progress",
+   "title": [
+    "Cellular Causes of ",
+    "Weight Loss Resistance",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Weight loss resistance at cell level: mitochondrial dysfunction, endocrine disruptors, low thyroid and high cortisol",
+   "items": [
+    {
+     "icon": "zap",
+     "label": "Mitochondrial dysfunction",
+     "note": "The cellular batteries turn nutrients into energy"
+    },
+    {
+     "icon": "ban",
+     "label": "Endocrine disruptors",
+     "note": "Heavy metals and BPA jam hormone signals"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Underactive thyroid",
+     "note": "The master controller of metabolism"
+    },
+    {
+     "icon": "activity",
+     "label": "High cortisol",
+     "note": "Abdominal fat and comfort-food cravings"
+    }
+   ]
+  }
+ ]
+}

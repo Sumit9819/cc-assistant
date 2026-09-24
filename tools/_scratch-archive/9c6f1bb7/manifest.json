@@ -1,0 +1,236 @@
+{
+  "site": "irvingwellnessclinic.com",
+  "channel": "#designfor-sumit (C0B7GPVQCG3)",
+  "built": "2026-09-03",
+  "rules_applied": [
+    "Only messages that carry a post URL are included. Files posted with no URL are left orphaned by operator instruction.",
+    "Where the same post received two sets, the NEWEST file of a repeated name wins.",
+    "erofwhiterock.com and erofirving.com messages excluded - different sites.",
+    "Messages that Sumit posted asking FOR an image (no attachment) are requests, not deliveries, and are excluded."
+  ],
+  "posts": [
+    {
+      "post_id": 10043,
+      "slug": "world-cup-2026-heat-safety-arlington-spectators",
+      "anchor": 1,
+      "slack_ts": "1781169348.006449",
+      "files": [
+        { "name": "Unacclimatized Visitors.png", "id": "F0BAP9C8RHN", "mb": 4.0 }
+      ]
+    },
+    {
+      "post_id": 9871,
+      "slug": "choose-weight-loss-clinic",
+      "anchor": null,
+      "slack_ts": "1781678778.119929",
+      "note": "Filenames are sequential 7-15; ordered numerically.",
+      "files": [
+        { "name": "7.png",  "id": "F0BB8NTEXCL", "mb": 4.9 },
+        { "name": "8.png",  "id": "F0BB8NTK19S", "mb": 4.7 },
+        { "name": "9.png",  "id": "F0BBZCQT0CQ", "mb": 5.7 },
+        { "name": "10.png", "id": "F0BBZCRTV3J", "mb": 4.9 },
+        { "name": "11.png", "id": "F0BB1N8CTMK", "mb": 5.1 },
+        { "name": "12.png", "id": "F0BBZCUBD8Q", "mb": 5.3 },
+        { "name": "13.png", "id": "F0BAYP2SDV1", "mb": 4.5 },
+        { "name": "14.png", "id": "F0BAPKSLXAB", "mb": 4.7 },
+        { "name": "15.png", "id": "F0BB6V1TQBT", "mb": 5.0 }
+      ]
+    },
+    {
+      "post_id": 9402,
+      "slug": "trt-benefits-for-men",
+      "anchor": null,
+      "slack_ts": "1781772232.271819",
+      "note": "Sequential 16-21, continuing the numbering from post 9871.",
+      "files": [
+        { "name": "16.png", "id": "F0BBKM6AZ6G", "mb": 4.7 },
+        { "name": "17.png", "id": "F0BCAAZCG80", "mb": 5.3 },
+        { "name": "18.png", "id": "F0BBHTE8K4Z", "mb": 5.0 },
+        { "name": "19.png", "id": "F0BBKM8UQ0L", "mb": 4.5 },
+        { "name": "20.png", "id": "F0BB9MKKRLK", "mb": 4.5 },
+        { "name": "21.png", "id": "F0BB0J7CWMV", "mb": 4.3 }
+      ]
+    },
+    {
+      "post_id": 10192,
+      "slug": "not-losing-weight-on-semaglutide",
+      "anchor": "per-file",
+      "note": "Three separate messages, each naming its own heading anchor. Cleanest mapping in the channel.",
+      "files": [
+        { "name": "When Does (1).png",     "id": "F0BKLR97CEM", "mb": 2.0, "anchor": 1, "slack_ts": "1784883141.082099" },
+        { "name": "ON SEMAGLUTIDE (1).png","id": "F0BKLRED265", "mb": 2.1, "anchor": 2, "slack_ts": "1784883185.650189" },
+        { "name": "MEDICAL REASONS.png",   "id": "F0BKGU4BDQW", "mb": 3.0, "anchor": 3, "slack_ts": "1784883222.707559" }
+      ]
+    },
+    {
+      "post_id": 9398,
+      "slug": "post-birth-control-syndrome",
+      "anchor": null,
+      "slack_ts": "1785136416.904309",
+      "files": [
+        { "name": "1.png", "id": "F0BKZC0ET8S", "mb": 3.7 },
+        { "name": "2.png", "id": "F0BKW3MHC21", "mb": 4.0 },
+        { "name": "3.png", "id": "F0BKZBZ4CN6", "mb": 4.3 },
+        { "name": "4.png", "id": "F0BKZBZUPCJ", "mb": 4.3 }
+      ]
+    },
+    {
+      "post_id": 10191,
+      "slug": "hormone-pellets-vs-injections-vs-creams",
+      "anchor": 1,
+      "slack_ts": "1785139361.026259",
+      "warning": "SUPERSEDED SET LIKELY. A later orphan message (14:26, ts 1785141707.663189) carries 6 files with 5 matching names at LARGER sizes - almost certainly the revision. It has no URL so it stays orphaned per instruction, but do not treat this post as settled.",
+      "files": [
+        { "name": "Pellets vs Injections vs Creams.png",        "id": "F0BKZKY5HJ6", "mb": 2.2 },
+        { "name": "Hormone Pellet Therapy.png",                 "id": "F0BKJ911PMM", "mb": 3.5 },
+        { "name": "Pellets, Injections or Creams.png",          "id": "F0BKJ940CH5", "mb": 0.93 },
+        { "name": "Choosing Pellets, Injections & Creams.png",  "id": "F0BL1KVCUHF", "mb": 1.6 },
+        { "name": "Compounded Hormones Society Positions.png",  "id": "F0BKWBJ607P", "mb": 0.44 },
+        { "name": "Untitled design.png",                        "id": "F0BL3B59N2Y", "mb": 1.7 },
+        { "name": "Untitled design (1).png",                    "id": "F0BKJ92E7HV", "mb": 2.0 }
+      ]
+    },
+    {
+      "post_id": 9389,
+      "slug": "progesterone-deficiency-symptoms",
+      "anchor": null,
+      "slack_ts": "1785139901.160849",
+      "files": [
+        { "name": "5.png", "id": "F0BL3F5JMKN", "mb": 4.3 },
+        { "name": "6.png", "id": "F0BKXQ9TMUN", "mb": 4.0 },
+        { "name": "7.png", "id": "F0BL3F2DFUL", "mb": 4.6 },
+        { "name": "8.png", "id": "F0BL3F43068", "mb": 4.6 },
+        { "name": "9.png", "id": "F0BL3F56KB6", "mb": 4.1 }
+      ]
+    },
+    {
+      "post_id": 10219,
+      "slug": "double-chin-treatment-without-surgery",
+      "anchor": null,
+      "slack_ts": "1785142295.179529",
+      "skip": true,
+      "skip_reason": "FEATURED IMAGE, not in-body. Delivered in direct reply to Sumit's 13:41 request for a feature image. Featured images are already placed.",
+      "files": [
+        { "name": "Semaglutide Not Working (6).png", "id": "F0BKTRBFATD", "mb": 4.6 }
+      ]
+    },
+    {
+      "post_id": 10221,
+      "slug": "how-many-laser-hair-removal-sessions",
+      "anchor": null,
+      "slack_ts": "1785143017.390809",
+      "skip": true,
+      "skip_reason": "FEATURED IMAGE, not in-body. Delivered in reply to Sumit's 13:30 feature-image request.",
+      "files": [
+        { "name": "Semaglutide Not Working (7).png", "id": "F0BKTU46UJF", "mb": 3.5 }
+      ]
+    },
+    {
+      "post_id": 8559,
+      "slug": "top-3-anti-aging-treatments-fine-lines-wrinkles",
+      "anchor": 0,
+      "note": "Two messages for this post. NEWEST WINS applied: 1.png from the 14:43 message replaces 1.png from 13:36. 2.png and 3.png have no newer twin in a URL-bearing message and are kept from 13:36.",
+      "files": [
+        { "name": "1.png", "id": "F0BL9HZBQE6", "mb": 2.5, "slack_ts": "1785229099.646679", "supersedes": "F0BM3DG3XA4" },
+        { "name": "2.png", "id": "F0BL7414QEA", "mb": 4.1, "slack_ts": "1785225086.754589" },
+        { "name": "3.png", "id": "F0BL5QPULLD", "mb": 4.1, "slack_ts": "1785225086.754589" },
+        { "name": "Retinoids for Daily Care.png", "id": "F0BKU78UNG7", "mb": 2.3, "slack_ts": "1785229099.646679" },
+        { "name": "UNKNOWN", "id": "F0BL69QN02H", "mb": null, "slack_ts": "1785229099.646679", "flag": "Slack reports no name/type/size for this file. Needs a look before use." }
+      ]
+    },
+    {
+      "post_id": 10229,
+      "slug": "skinvive-vs-dermal-filler",
+      "anchor": null,
+      "slack_ts": "1785226800.848819",
+      "files": [
+        { "name": "10.png", "id": "F0BLD11622Y", "mb": 4.3 },
+        { "name": "11.png", "id": "F0BL32PK66P", "mb": 3.5 },
+        { "name": "12.png", "id": "F0BL61LF69K", "mb": 2.8 }
+      ]
+    },
+    {
+      "post_id": 8567,
+      "slug": "empower-your-wellness-journey",
+      "anchor": null,
+      "slack_ts": "1785315826.112649",
+      "note": "2.png is absent from this set; an orphan 2.png exists elsewhere in the channel.",
+      "files": [
+        { "name": "1.png", "id": "F0BLM6M3N01", "mb": 3.7 },
+        { "name": "3.png", "id": "F0BLNV60X9S", "mb": 3.2 },
+        { "name": "4.png", "id": "F0BLM6QCMT3", "mb": 3.1 },
+        { "name": "UNKNOWN", "id": "F0BLNV4R9S8", "mb": null, "flag": "Slack reports no name/type/size. Needs a look before use." }
+      ]
+    },
+    {
+      "post_id": 8563,
+      "slug": "chemical-peel-treatment-guide",
+      "anchor": 0,
+      "slack_ts": "1785396901.153689",
+      "skip": true,
+      "skip_reason": "URL POSTED WITH NO FILES. Four files (2,3,4,5.png) arrived two minutes earlier in a message with no URL, so they are orphans. This post gets nothing until the orphans are resolved.",
+      "files": []
+    },
+    {
+      "post_id": 8577,
+      "slug": "functional-medicine-vs-conventional-medicine",
+      "anchor": null,
+      "slack_ts": "1785742353.985079",
+      "files": [
+        { "name": "1.png", "id": "F0BMD7T7QH1", "mb": 2.5 },
+        { "name": "2.png", "id": "F0BNDQWR2U8", "mb": 1.9 },
+        { "name": "3.png", "id": "F0BMG4WQNAH", "mb": 2.0 },
+        { "name": "4.png", "id": "F0BMKEWNPFU", "mb": 2.2 }
+      ]
+    },
+    {
+      "post_id": 8609,
+      "slug": "gut-health-skin-connection",
+      "anchor": null,
+      "slack_ts": "1785829206.636829",
+      "files": [
+        { "name": "Untitled design.png",     "id": "F0BNP7M1RLY", "mb": 4.8 },
+        { "name": "Untitled design (1).png", "id": "F0BMYHZT5KN", "mb": 5.1 },
+        { "name": "Untitled design (2).png", "id": "F0BMYHZ4PSQ", "mb": 4.2 },
+        { "name": "Untitled design (3).png", "id": "F0BNP7MU2RE", "mb": 4.6 }
+      ]
+    },
+    {
+      "post_id": 8571,
+      "slug": "wellness-assessment-guide-holistic-health-prevention",
+      "anchor": 0,
+      "slack_ts": "1785832942.052059",
+      "note": "Descriptive filenames imply the intended reading order.",
+      "files": [
+        { "name": "What Is a Wellness Assessment.png", "id": "F0BMDTG7GFR", "mb": 2.4 },
+        { "name": "Core Wellness Pillars.png",         "id": "F0BMT9MDLCE", "mb": 2.4 },
+        { "name": "The Conversation.png",              "id": "F0BMRTSB1NH", "mb": 2.2 },
+        { "name": "Benefits of Holistic Health.png",   "id": "F0BMZ20R0DA", "mb": 2.2 }
+      ]
+    },
+    {
+      "post_id": 9270,
+      "slug": "low-testosterone-brain-fog",
+      "anchor": 0,
+      "slack_ts": "1786520437.421169",
+      "files": [
+        { "name": "Brain Fog & Testosterone.png",      "id": "F0BQHAUPV0Q", "mb": 2.5 },
+        { "name": "Recognizing Symptoms.png",          "id": "F0BPP03E1D0", "mb": 2.6 },
+        { "name": "Neurological Impact of Low T.png",  "id": "F0BPQUB1VRP", "mb": 2.8 },
+        { "name": "Advanced Testing.png",              "id": "F0BP7JY5415", "mb": 3.0 }
+      ]
+    },
+    {
+      "post_id": 9173,
+      "slug": "estrogen-dominance-weight-loss",
+      "anchor": 14,
+      "slack_ts": "1786601683.946119",
+      "files": [
+        { "name": "What is Estrogen Dominance.png",  "id": "F0BPVS0BELE", "mb": 3.5 },
+        { "name": "Hormonal Weight Gain.png",        "id": "F0BPGDYRQTZ", "mb": 2.7 },
+        { "name": "Correcting the Balance (1).png",  "id": "F0BPU780UUD", "mb": 3.1 },
+        { "name": "When to Seek Care.png",           "id": "F0BPRHWNSM9", "mb": 2.7 }
+      ]
+    }
+  ]
+}

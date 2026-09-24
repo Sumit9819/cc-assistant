@@ -1,0 +1,484 @@
+<title>Sid's Ponds Growth Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+
+<style>
+  :root{
+    --ground:#F4F6F2;
+    --surface:#FFFFFF;
+    --surface-2:#EDF1EC;
+    --ink:#141E1A;
+    --ink-2:#3A4A43;
+    --muted:#65776E;
+    --rule:#D6DED7;
+    --rule-2:#BFCCC1;
+    --accent:#26654C;
+    --accent-soft:#DCEBE1;
+    --warn:#9C4A22;
+    --warn-soft:#F6E5DA;
+    --stop:#8C2F2F;
+    --stop-soft:#F5DFDF;
+    --go:#3F6B2E;
+    --go-soft:#E2EDDA;
+    --shadow:0 1px 2px rgba(20,30,26,.05),0 6px 18px rgba(20,30,26,.05);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#101613;
+      --surface:#18211D;
+      --surface-2:#1F2A25;
+      --ink:#E9EFEA;
+      --ink-2:#C0CDC5;
+      --muted:#8DA096;
+      --rule:#2C3A33;
+      --rule-2:#3B4C43;
+      --accent:#6FBF95;
+      --accent-soft:#1B3228;
+      --warn:#E09A6C;
+      --warn-soft:#33241A;
+      --stop:#E58585;
+      --stop-soft:#341D1D;
+      --go:#96C77C;
+      --go-soft:#1E2C18;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#101613;
+    --surface:#18211D;
+    --surface-2:#1F2A25;
+    --ink:#E9EFEA;
+    --ink-2:#C0CDC5;
+    --muted:#8DA096;
+    --rule:#2C3A33;
+    --rule-2:#3B4C43;
+    --accent:#6FBF95;
+    --accent-soft:#1B3228;
+    --warn:#E09A6C;
+    --warn-soft:#33241A;
+    --stop:#E58585;
+    --stop-soft:#341D1D;
+    --go:#96C77C;
+    --go-soft:#1E2C18;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    margin:0;
+    padding:0 20px 90px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1000px;margin:0 auto;}
+  .narrow{max-width:68ch;}
+
+  h1,h2,h3{font-family:Fraunces,Georgia,serif;text-wrap:balance;line-height:1.15;margin:0;}
+  h1{font-size:clamp(31px,4.6vw,48px);font-weight:600;letter-spacing:-.015em;}
+  h2{font-size:clamp(23px,2.9vw,31px);font-weight:600;letter-spacing:-.01em;}
+  h3{font-size:19px;font-weight:600;}
+  p{margin:0 0 1em;}
+  a{color:var(--accent);}
+
+  .eyebrow{
+    font-family:"IBM Plex Mono",ui-monospace,monospace;
+    font-size:11.5px;font-weight:600;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--muted);margin:0 0 12px;
+  }
+
+  header.top{padding:60px 0 34px;border-bottom:2px solid var(--ink);}
+  header.top p.lede{font-size:20px;line-height:1.55;color:var(--ink-2);margin:16px 0 0;max-width:64ch;}
+  .meta-row{
+    display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:24px;
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--muted);
+  }
+
+  section{padding:46px 0;border-bottom:1px solid var(--rule);}
+  section:last-of-type{border-bottom:none;}
+
+  .funnel{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:2px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin:28px 0 0;}
+  .funnel div{background:var(--surface);padding:20px 22px;}
+  .funnel .n{font-family:"IBM Plex Mono",monospace;font-size:27px;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;display:block;line-height:1.2;}
+  .funnel .l{font-size:13.5px;color:var(--muted);display:block;margin-top:5px;}
+  .funnel .sub{font-size:12.5px;color:var(--muted);display:block;margin-top:2px;}
+
+  .call{border-radius:11px;padding:24px 26px;margin:26px 0;border:1px solid var(--rule-2);background:var(--surface);box-shadow:var(--shadow);}
+  .call.stop{border-color:var(--stop);background:var(--stop-soft);}
+  .call.warn{border-color:var(--warn);background:var(--warn-soft);}
+  .call.go{border-color:var(--go);background:var(--go-soft);}
+  .call h3{margin-bottom:8px;}
+  .call p:last-child{margin-bottom:0;}
+  .call .tag{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;
+    letter-spacing:.1em;text-transform:uppercase;display:inline-block;margin-bottom:9px;
+  }
+  .call.stop .tag{color:var(--stop);}
+  .call.warn .tag{color:var(--warn);}
+  .call.go .tag{color:var(--go);}
+
+  .scroll{overflow-x:auto;margin:24px 0;border:1px solid var(--rule);border-radius:10px;background:var(--surface);}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:560px;}
+  caption{text-align:left;font-size:13.5px;color:var(--muted);padding:14px 18px 0;caption-side:top;}
+  th,td{padding:10px 16px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top;}
+  thead th{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;
+    letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+    border-bottom:1.5px solid var(--rule-2);white-space:nowrap;
+  }
+  tbody tr:last-child td{border-bottom:none;}
+  td.num,th.num{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  tr.hi td{background:var(--stop-soft);}
+  tr.ok td{background:var(--go-soft);}
+  td .why{display:block;font-size:12.5px;color:var(--muted);line-height:1.45;margin-top:2px;}
+  code{font-family:"IBM Plex Mono",monospace;font-size:.87em;background:var(--surface-2);padding:1px 5px;border-radius:4px;}
+
+  .arch{margin:30px 0;display:flex;flex-direction:column;gap:0;}
+  .tier{display:grid;grid-template-columns:118px 1fr;gap:18px;align-items:stretch;}
+  .tier .label{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muted);padding-top:20px;text-align:right;
+  }
+  .tier .nodes{display:flex;flex-wrap:wrap;gap:9px;padding:14px 0;border-left:2px solid var(--rule-2);padding-left:20px;}
+  .node{
+    background:var(--surface);border:1px solid var(--rule-2);border-radius:7px;
+    padding:8px 13px;font-size:13.5px;line-height:1.35;box-shadow:var(--shadow);
+  }
+  .node b{display:block;font-weight:600;font-size:13.5px;}
+  .node span{display:block;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);margin-top:1px;}
+  .node.hub{border-color:var(--accent);border-left:4px solid var(--accent);}
+  .node.money{border-left:4px solid var(--go);}
+  .node.dead{border-left:4px solid var(--stop);}
+  .node.side{border-left:4px solid var(--warn);}
+  .flowmark{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);
+    padding:0 0 0 138px;letter-spacing:.04em;
+  }
+
+  .legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:18px;font-size:13px;color:var(--muted);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  ol.rules{list-style:none;counter-reset:r;padding:0;margin:26px 0 0;display:grid;gap:12px;}
+  ol.rules li{
+    counter-increment:r;background:var(--surface);border:1px solid var(--rule);
+    border-radius:9px;padding:16px 20px 16px 60px;position:relative;box-shadow:var(--shadow);
+  }
+  ol.rules li::before{
+    content:"R" counter(r);position:absolute;left:18px;top:16px;
+    font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;color:var(--accent);
+  }
+  ol.rules b{font-weight:600;}
+  ol.rules .n{display:block;font-size:14px;color:var(--muted);margin-top:4px;line-height:1.5;}
+
+  .actions{display:grid;gap:14px;margin-top:26px;}
+  .act{
+    background:var(--surface);border:1px solid var(--rule);border-radius:10px;
+    padding:20px 22px;box-shadow:var(--shadow);border-left:4px solid var(--rule-2);
+  }
+  .act.mine{border-left-color:var(--go);}
+  .act.client{border-left-color:var(--stop);}
+  .act.op{border-left-color:var(--warn);}
+  .act .hdr{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;justify-content:space-between;margin-bottom:7px;}
+  .act h3{font-family:"Source Sans 3",sans-serif;font-size:16.5px;font-weight:700;}
+  .act .owner{
+    font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.1em;
+    text-transform:uppercase;padding:3px 9px;border-radius:20px;white-space:nowrap;
+  }
+  .act.mine .owner{background:var(--go-soft);color:var(--go);}
+  .act.client .owner{background:var(--stop-soft);color:var(--stop);}
+  .act.op .owner{background:var(--warn-soft);color:var(--warn);}
+  .act p{margin:0 0 .5em;font-size:15px;color:var(--ink-2);}
+  .act p:last-child{margin-bottom:0;}
+  .act .prize{
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--muted);
+    display:block;margin-top:8px;padding-top:8px;border-top:1px dashed var(--rule);
+  }
+
+  .status{
+    display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;
+    padding:2px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);margin-left:6px;
+  }
+
+  footer{padding:40px 0 0;color:var(--muted);font-size:14px;}
+  hr.soft{border:none;border-top:1px solid var(--rule);margin:34px 0;}
+  .kicker{font-size:18.5px;color:var(--ink-2);max-width:66ch;}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <p class="eyebrow">Sid&rsquo;s Ponds &middot; Mississauga &middot; Search performance</p>
+  <h1>The ranking is not the problem</h1>
+  <p class="lede">Sid&rsquo;s ranks on page one for its two biggest commercial terms and cannot sell either one. Everything else in this plan is smaller than that sentence.</p>
+  <div class="meta-row">
+    <span>Revised 27 Aug 2026</span>
+    <span>Window: 25 May &ndash; 22 Aug 2026</span>
+    <span>Source: GSC warehouse, 76,068 rows</span>
+    <span>Brand excluded unless stated</span>
+  </div>
+</header>
+
+<section>
+  <p class="eyebrow">Where the traffic goes</p>
+  <h2>100,121 non-brand impressions, 1,002 clicks</h2>
+  <div class="funnel">
+    <div><span class="n">140,352</span><span class="l">All impressions</span><span class="sub">2,624 clicks &middot; 1.87%</span></div>
+    <div><span class="n">40,231</span><span class="l">Brand</span><span class="sub">1,622 clicks &middot; 4.03%</span></div>
+    <div><span class="n">100,121</span><span class="l">Non-brand</span><span class="sub">1,002 clicks &middot; 1.00%</span></div>
+    <div><span class="n">72%</span><span class="l">Of non-brand clicks</span><span class="sub">from just 2 pages</span></div>
+  </div>
+  <p style="margin-top:26px" class="kicker">Brand search is healthy: people who already know Sid&rsquo;s find it and click at 4%. The gap is entirely on the non-brand side, and it does not spread thinly across the catalogue. It concentrates in a handful of pages that already rank well.</p>
+</section>
+
+<section>
+  <p class="eyebrow">The correction</p>
+  <h2>Two theories we were still working from are wrong</h2>
+  <p class="narrow">The previous version of this plan proposed routing internal links into &ldquo;starved&rdquo; categories and writing up thin ones. Both are testable against this site&rsquo;s own data, so I tested them before spending any more effort on either.</p>
+
+  <div class="scroll">
+    <table>
+      <caption>Twenty product categories carrying real search demand, split two ways. Position is impression-weighted.</caption>
+      <thead><tr><th>Split</th><th class="num">Categories</th><th class="num">Mean position</th><th>Reading</th></tr></thead>
+      <tbody>
+        <tr><td><b>0</b> editorial inbound links</td><td class="num">9</td><td class="num">30.9</td><td rowspan="2">More links did not mean better rank. The direction is mildly <em>backwards</em>.</td></tr>
+        <tr><td><b>1 or more</b> inbound links</td><td class="num">11</td><td class="num">33.9</td></tr>
+        <tr><td>Same split, only pages with 250+ words</td><td class="num">4 vs 9</td><td class="num">29.8 vs 32.4</td><td>Holds after controlling for content length.</td></tr>
+        <tr><td>Description under 250 words</td><td class="num">7</td><td class="num">34.5</td><td rowspan="2">A 3-position spread across a 13-fold difference in word count. Not a lever.</td></tr>
+        <tr><td>Description 250 words or more</td><td class="num">13</td><td class="num">31.6</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call stop">
+    <span class="tag">Retracted</span>
+    <h3>&ldquo;Product categories get no internal links&rdquo;</h3>
+    <p>That came from a link-graph rollup which only counts pages and posts as nodes, so category archives were invisible to it by construction. Read from the live DOM instead, the site nav links <b>33 categories on every single page</b>, and the blog carries <b>31 in-body category links</b> across 23 posts. Categories were never starved. I should have checked the DOM before building a plan on the rollup.</p>
+  </div>
+
+  <div class="call warn">
+    <span class="tag">Corrected</span>
+    <h3>Aggregates, Soil &amp; Mulch was ranked third by mistake</h3>
+    <p>Its 6,162 impressions looked like the third-biggest opportunity on the site. About 4,745 of them are people typing <em>&ldquo;sids ponds&rdquo;</em>. Non-brand it is <b>682 impressions at position 40.9</b>, which is marginal. The brand filter had not been applied to that cut.</p>
+  </div>
+
+  <div class="call warn">
+    <span class="tag">Corrected</span>
+    <h3>Rockmount Stacked Stone is not an opportunity at all</h3>
+    <p>991 impressions, zero clicks. The queries are <code>nightshade stackstone supplier vancouver</code>, <code>tropical sands stackstone supplier vancouver</code>, <code>ocean fog stackstone stockist vancouver</code>. That is a customer 3,400&nbsp;km away. There is nothing here worth writing for.</p>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">What actually limits this site</p>
+  <h2>Page-one rankings pointed at things nobody can buy</h2>
+
+  <div class="call stop">
+    <span class="tag">Biggest item on the site &middot; blocked on client</span>
+    <h3>21,126 impressions for bike storage. Zero bike products.</h3>
+    <p>Secure Outdoor Storage sits at <b>position 9.8</b> and takes more non-brand impressions than every other category combined: <code>bike shed</code> 3,265 at 7.7, <code>bike storage shed</code> 2,249 at 8.1, <code>bike storage</code> 2,107 at 7.9, <code>outdoor bike storage</code> 1,147 at 6.1, <code>bicycle storage</code> 690 at 8.1.</p>
+    <p>The page title promises &ldquo;Secure Outdoor Storage &amp; Bike Sheds in Canada&rdquo;. The page contains <b>one product: a Trimetals Garden Patio Box</b>. Searching the store for &ldquo;bike&rdquo; returns nothing at all. The Trimetals bicycle-storage SKUs were discontinued and now 404, while the category still links to them.</p>
+    <p>No amount of writing fixes this. It is a top-ten national ranking on proven demand with an empty shelf behind it.</p>
+  </div>
+
+  <div class="call stop">
+    <span class="tag">Blocked on client</span>
+    <h3>Hornwort ranks fifth and is out of stock</h3>
+    <p>4,015 non-brand impressions at <b>position 5.0</b>, earning <b>5 clicks</b> &mdash; a 0.12% click rate where roughly 5% is normal at that position. The product schema says <code>OutOfStock</code> and the page shows &ldquo;Out of stock&rdquo; against a $19.99 price. Goldfish, koi and tropical marginals are in the same state.</p>
+  </div>
+
+  <div class="call warn">
+    <span class="tag">Blocked on client &middot; largest untapped lever</span>
+    <h3>No Merchant listings on a store with 322 products</h3>
+    <p>Where this site does get Merchant listings they convert at <b>9.02% at position 5.8</b>, against 1.43% for ordinary product snippets. On the Magic Carpet fertilizer page the merchant listing reached <b>32.18% at position 1.7</b>. No feed plugin is active and no product exposes a SKU, GTIN, MPN or brand. The existing CTX Feed install is broken: 685 items, eight months stale.</p>
+  </div>
+
+  <div class="scroll">
+    <table>
+      <caption>Every page over 400 non-brand impressions that already ranks in the top 16. Shaded rows are anomalies, not merely page-two positions.</caption>
+      <thead><tr><th>Page</th><th class="num">Impr.</th><th class="num">Clicks</th><th class="num">Pos.</th><th class="num">CTR</th></tr></thead>
+      <tbody>
+        <tr class="hi"><td>Secure Outdoor Storage<span class="why">1 product, and it is not a bike shed</span></td><td class="num">21,126</td><td class="num">179</td><td class="num">9.8</td><td class="num">0.85%</td></tr>
+        <tr class="ok"><td>Homepage<span class="why">performing above expectation for its position</span></td><td class="num">18,636</td><td class="num">541</td><td class="num">12.0</td><td class="num">2.90%</td></tr>
+        <tr><td>Magic Carpet Fertilizer</td><td class="num">4,651</td><td class="num">63</td><td class="num">10.6</td><td class="num">1.35%</td></tr>
+        <tr class="hi"><td>Hornwort<span class="why">out of stock at position 5</span></td><td class="num">4,015</td><td class="num">5</td><td class="num">5.0</td><td class="num">0.12%</td></tr>
+        <tr><td>Aquascape Aqua Garden Unit</td><td class="num">1,191</td><td class="num">0</td><td class="num">15.7</td><td class="num">0.00%</td></tr>
+        <tr><td>Sod</td><td class="num">1,017</td><td class="num">10</td><td class="num">15.0</td><td class="num">0.98%</td></tr>
+        <tr><td>Fish &amp; Plants</td><td class="num">1,005</td><td class="num">13</td><td class="num">11.9</td><td class="num">1.29%</td></tr>
+        <tr><td>LED Fountain Accent Light</td><td class="num">848</td><td class="num">1</td><td class="num">15.7</td><td class="num">0.12%</td></tr>
+        <tr><td>IQ Masonry Saw</td><td class="num">718</td><td class="num">5</td><td class="num">9.2</td><td class="num">0.70%</td></tr>
+        <tr><td>Pumps &amp; Filters</td><td class="num">682</td><td class="num">3</td><td class="num">13.6</td><td class="num">0.44%</td></tr>
+        <tr><td>Fire Pit Inserts</td><td class="num">612</td><td class="num">6</td><td class="num">11.9</td><td class="num">0.98%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="narrow" style="color:var(--muted);font-size:15px">Read this table rather than summing it. Most rows sit at position 12&ndash;16, where a 1% click rate is normal, not a leak. The two genuine anomalies are shaded. Treating all 57,664 impressions as recoverable would overstate the case badly.</p>
+</section>
+
+<section>
+  <p class="eyebrow">Requested deliverable</p>
+  <h2>The internal linking architecture</h2>
+  <p class="narrow">Here is the structure the site should hold to. Its status first, because that matters more than the diagram: on the evidence above, internal linking is <b>hygiene on this site, not a growth lever</b>. It makes journeys coherent and stops equity leaking into redirect hops. It will not move a category from position 40 to position 10, and I am not going to claim it will.</p>
+
+  <div class="arch">
+    <div class="tier">
+      <div class="label">Tier 0</div>
+      <div class="nodes"><div class="node hub"><b>Homepage</b><span>18,636 imp &middot; pos 12.0</span></div></div>
+    </div>
+    <div class="flowmark">&darr;&nbsp; owns brand and &ldquo;pond store near me&rdquo;, hands off by intent</div>
+    <div class="tier">
+      <div class="label">Tier 1<br>Intent hubs</div>
+      <div class="nodes">
+        <div class="node hub"><b>Outdoor Lighting</b><span>/outdoor-lighting-2/</span></div>
+        <div class="node hub"><b>Hardscaping &amp; Interlock</b><span>3,293 imp &middot; pos 24.7</span></div>
+        <div class="node hub"><b>Delivery</b><span>logistics intent</span></div>
+      </div>
+    </div>
+    <div class="flowmark">&darr;&nbsp; each hub links down to canonical category URLs only</div>
+    <div class="tier">
+      <div class="label">Tier 2<br>Category hubs</div>
+      <div class="nodes">
+        <div class="node money"><b>Ponds, Plants &amp; Water Gardening</b><span>80 products</span></div>
+        <div class="node money"><b>Outdoor Fire Features</b><span>45 products</span></div>
+        <div class="node money"><b>Lighting</b><span>101 products</span></div>
+        <div class="node money"><b>Artificial Turf &amp; Sod</b><span>17 products</span></div>
+        <div class="node money"><b>Green Living Wall Kits</b><span>8,479 imp &middot; pos 30.4</span></div>
+        <div class="node dead"><b>Secure Outdoor Storage</b><span>21,126 imp &middot; 1 product</span></div>
+      </div>
+    </div>
+    <div class="flowmark">&darr;&nbsp; parent names each child once, inside a sentence</div>
+    <div class="tier">
+      <div class="label">Tier 3<br>Sub-categories</div>
+      <div class="nodes">
+        <div class="node money"><b>Pumps &amp; Filters</b><span>pos 13.6</span></div>
+        <div class="node money"><b>Fish &amp; Plants</b><span>pos 11.9</span></div>
+        <div class="node money"><b>Fire Pit Inserts</b><span>pos 11.9</span></div>
+        <div class="node money"><b>Sod</b><span>pos 15.0</span></div>
+        <div class="node dead"><b>Inground &amp; Recessed</b><span>pos 61.6 &middot; wrong intent</span></div>
+        <div class="node dead"><b>Path &amp; Bollard</b><span>pos 70.0 &middot; wrong intent</span></div>
+      </div>
+    </div>
+    <div class="flowmark">&darr;&nbsp; products &nbsp;&nbsp;&uarr;&nbsp; each category links back up to exactly one guide</div>
+    <div class="tier">
+      <div class="label">Side rail<br>Editorial</div>
+      <div class="nodes">
+        <div class="node side"><b>23 blog posts</b><span>31 category links today</span></div>
+        <div class="node side"><b>7 posts with no category link</b><span>4 of them power-tool guides</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><i style="background:var(--accent)"></i>Hub, owns an intent</span>
+    <span><i style="background:var(--go)"></i>Sells, and ranks or can</span>
+    <span><i style="background:var(--stop)"></i>Broken: no stock, or chasing the wrong query</span>
+    <span><i style="background:var(--warn)"></i>Editorial, feeds downward</span>
+  </div>
+
+  <hr class="soft">
+
+  <h3 style="font-family:Fraunces,serif;font-size:23px;margin-bottom:4px">The six rules</h3>
+  <ol class="rules">
+    <li><b>Every editorial link points at a canonical URL.</b><span class="n">Not an alias that returns 200 and then canonicals somewhere else. This is the one rule the site was actually breaking, and the two queued changes below fix it.</span></li>
+    <li><b>Local service intent belongs to the Tier 1 hub, never a sub-category.</b><span class="n"><code>outdoor lighting mississauga</code> and <code>landscape lighting mississauga</code> are the lighting page&rsquo;s to win. A product sub-category chasing them lands at position 60&ndash;90 and takes nothing.</span></li>
+    <li><b>A blog post links down into category; a category links back to exactly one guide.</b><span class="n">One link each way keeps the loop closed without turning descriptions into link farms.</span></li>
+    <li><b>Inline only, inside a sentence that earns it.</b><span class="n">No &ldquo;related guides&rdquo; blocks, no link rails. If the sentence would not exist without the link, cut the link.</span></li>
+    <li><b>Anchor text is the target&rsquo;s query, not its menu name.</b><span class="n"><code>pond pumps and filters</code>, not <code>Pumps &amp; Filters</code>.</span></li>
+    <li><b>A category with nothing to sell gets no new links.</b><span class="n">Pointing more equity at Secure Outdoor Storage makes the empty-shelf problem more visible, not less. Stock first, links after.</span></li>
+  </ol>
+
+  <hr class="soft">
+
+  <h3 style="font-family:Fraunces,serif;font-size:23px;margin-bottom:12px">What that repaired, this session</h3>
+  <div class="scroll">
+    <table>
+      <caption>Rule 1 violations found by reading the live DOM. Both are href-only changes: no copy, no layout, no anchor text.</caption>
+      <thead><tr><th>Page</th><th class="num">Links</th><th>Defect</th><th>State</th></tr></thead>
+      <tbody>
+        <tr><td>Outdoor Lighting hub</td><td class="num">14</td><td>Every lighting category linked through an <code>/all-products/</code> alias. The &ldquo;Shop all lighting&rdquo; button had no trailing slash, so it 301s <em>and then</em> canonicals: two hops to reach the page that ranks.</td><td>Queued <span class="status">#388</span></td></tr>
+        <tr><td>Outdoor lighting guide</td><td class="num">2</td><td>Same alias defect on two of its three category links. The third was already canonical and was left alone.</td><td>Queued <span class="status">#389</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="narrow" style="color:var(--muted);font-size:15px">Worth saying plainly: this exact item was already recorded in the working state as &ldquo;harmless but a wasted hop.&rdquo; That assessment was right. It is fixed now because it was cheap and clean, not because it will move rankings.</p>
+</section>
+
+<section>
+  <p class="eyebrow">Sequence</p>
+  <h2>What to do, and who has to do it</h2>
+  <p class="narrow">Ordered by size of prize, not by ease. The top three are not mine to execute, and that is the honest shape of this account right now.</p>
+
+  <div class="actions">
+    <div class="act client">
+      <div class="hdr"><h3>1. Decide what happens to bike storage</h3><span class="owner">Client</span></div>
+      <p>Restock the Trimetals bicycle-storage line, source an alternative, or accept the ranking is unmonetisable and retitle the page to match what is actually sold. Any of the three is a decision. Leaving it is the only bad option, because the category currently advertises bike sheds it does not have and links to pages that 404.</p>
+      <span class="prize">21,126 non-brand impressions &middot; position 9.8 &middot; 179 clicks today</span>
+    </div>
+
+    <div class="act client">
+      <div class="hdr"><h3>2. Restock hornwort and the live fish lines, or de-list them</h3><span class="owner">Client</span></div>
+      <p>A position-five ranking attached to an out-of-stock item earns nothing and teaches Google the page disappoints. If seasonality means these go out of stock every year, tell me and I will handle it with availability messaging instead of pretending otherwise.</p>
+      <span class="prize">4,015 impressions &middot; position 5.0 &middot; 5 clicks today</span>
+    </div>
+
+    <div class="act client">
+      <div class="hdr"><h3>3. Fix the product feed and turn on Merchant listings</h3><span class="owner">Client</span></div>
+      <p>Needs SKU or GTIN across the catalogue and a working feed. The existing CTX Feed install is stale and carries only 685 items. This is the largest structural upside on the site and sits entirely outside content work.</p>
+      <span class="prize">9.02% CTR where present, against 1.43% for plain snippets</span>
+    </div>
+
+    <div class="act mine">
+      <div class="hdr"><h3>4. Green Living Wall Kits <span class="status">#390 queued</span></h3><span class="owner">Mine</span></div>
+      <p>8,534 non-brand impressions across 69 queries, and unlike the rest this is genuine striking distance: <code>green wall</code> at 15.7, <code>outdoor living wall</code> at 15.5, <code>living wall indoor</code> at 17.2, <code>indoor living wall</code> at 17.6, <code>indoor living wall kits</code> at 18.0, <code>living wall</code> at 19.6.</p>
+      <p>The gap turned out to be measurable rather than a matter of taste. The description uses <b>&ldquo;living wall&rdquo; 14 times</b> and that query family averages position <b>19.0</b>. It uses <b>&ldquo;system&rdquo; zero times</b>, and the system family &mdash; 764 impressions across <code>living wall systems</code> 51.8, <code>green wall systems</code> 60.0, <code>living plant wall systems</code> 51.9 and seven more &mdash; averages <b>42.0</b>. Same shape for <code>living green wall</code> (272 impressions, 51.6, phrase absent) and the supplies family (187 impressions, 27.6, absent).</p>
+      <p><b>1,223 impressions sit on vocabulary the page never uses.</b> The rewrite adds a section on how a modular living wall system works, a supplies section, and an FAQ answering the living wall versus green wall question. It also corrects two factual errors: the pot-size list understated the set options on two of the three kits, verified against the live product dropdowns. Title and meta left untouched on purpose, so the test stays clean.</p>
+      <span class="prize">1,223 impressions on absent vocabulary &middot; 549 &rarr; ~830 words &middot; all 3 kits in stock</span>
+    </div>
+
+    <div class="act op">
+      <div class="hdr"><h3>5. Lighting sub-categories &mdash; dropped after checking</h3><span class="owner">Dropped</span></div>
+      <p>This was in the plan on the strength of Inground &amp; Recessed averaging position 61.6. Splitting its queries by intent shows why that number is misleading: eight local-service queries average 73.9, ten product-type queries average 44.5, and its own best term <code>outdoor recessed lighting</code> sits at 32.9. The 61.6 is an average across queries the page should never have ranked for, which is exactly the artifact I have a standing rule against diagnosing from.</p>
+      <p>I then tested the same vocabulary theory that justified the living wall work. It fails here. <code>pot lights</code> is the Canadian term and carries 398 impressions at position 40&ndash;53 &mdash; but the page <b>already</b> uses &ldquo;pot light&rdquo; three times, including a dedicated FAQ that says outright &ldquo;if you have been searching for exterior pot lights, this is the range.&rdquo; Coverage is present and the ranking is still bad, so vocabulary is not the constraint on this page. Nothing here is worth doing.</p>
+      <span class="prize">Zero clicks across all 18 queries &middot; no defect found to fix</span>
+    </div>
+
+    <div class="act op">
+      <div class="hdr"><h3>6. Nav menu, and one duplicate category</h3><span class="owner">Operator</span></div>
+      <p>The WordPress menu points eight lighting and stone categories at non-canonical aliases: the same defect as #388, but menu items sit outside the plugin&rsquo;s write scope so it cannot be queued. Separately, an empty <em>Wall &amp; Patio Lighting</em> category (0 products) shadows the real <em>Wall &amp; Deck Lighting</em> (16 products).</p>
+    </div>
+
+    <div class="act op">
+      <div class="hdr"><h3>7. Deploy cc-assistant 0.76.2</h3><span class="owner">Operator</span></div>
+      <p>The site runs 0.72.2. Until the zip on the Desktop is uploaded, <code>page_facts</code>, <code>keyword_targets</code> and <code>site_status</code> return 404 here, and the silent-supersede fix is not in place.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Honesty conditions</p>
+  <h2>How we will know this is right</h2>
+  <p class="narrow">The previous plan committed to a falsification test after 28 days. It failed earlier than that, from analysis rather than a live test, and the plan changed accordingly. The same standard applies to what is left.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Claim</th><th>What would prove it wrong</th></tr></thead>
+      <tbody>
+        <tr><td>Living wall is genuine striking distance</td><td>28 days after the rewrite the six page-two queries have not moved and clicks are flat. That would mean the constraint there is domain strength, not the page.</td></tr>
+        <tr><td>Missing vocabulary is why the system family ranks at 42</td><td>Already half-wounded. The same theory failed on Inground &amp; Recessed, where <code>pot lights</code> vocabulary is present and the family still sits at 44.5. If the living wall system family does not move either, vocabulary coverage is not a lever on this site and #390 is the last of these I write.</td></tr>
+        <tr><td>Inventory is the binding constraint, not SEO</td><td>Bike stock arrives, the page fills, and clicks stay near 179. That would mean the ranking was never as monetisable as position 9.8 implies.</td></tr>
+        <tr><td>Canonical link hygiene is worth doing but small</td><td>If #388 alone lifts the lighting sub-categories out of the 60&ndash;70 band, I underrated internal linking and the falsification above needs revisiting.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="narrow" style="margin-top:24px">Measurement runs at 28 days on <b>clicks</b>, not impressions and not average position. Impressions carry a known reporting artifact this year, and average position moves when a page starts ranking for <em>more</em> queries, which reads as a decline while things are actually improving.</p>
+</section>
+
+<footer>
+  <p>Figures read from the local GSC warehouse on 27 Aug 2026 and from the live DOM. Link counts taken from rendered <code>.entry-content</code>, not from the link-graph rollup. Nothing in this document is modelled or estimated.</p>
+</footer>
+
+</div>

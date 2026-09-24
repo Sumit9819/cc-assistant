@@ -1,0 +1,12 @@
+[
+ {
+  "route": "cc-assistant/v1/posts/37/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/el_37.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/47/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/el_47.json"
+ }
+]

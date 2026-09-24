@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mammoth Machinery — August 2026 Progress Report #2</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: A4; margin: 11mm; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1c1c1c; font-size: 10.5pt; line-height: 1.55; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #141414; padding-bottom: 10px; }
+  .brand { font-size: 15pt; font-weight: 800; letter-spacing: 0.5px; }
+  .brand span { color: #E8890C; }
+  .docid { font-family: Consolas, monospace; font-size: 8pt; color: #777; }
+  .sub { margin: 8px 0 14px; color: #555; font-size: 9.5pt; }
+  .hero { background: #141414; color: #fff; border-left: 5px solid #E8890C; border-radius: 8px; padding: 22px 26px 18px; }
+  .kicker { font-family: Consolas, monospace; font-size: 8pt; letter-spacing: 2px; color: #E8890C; text-transform: uppercase; margin-bottom: 12px; }
+  .stats { display: flex; gap: 26px; margin-bottom: 14px; }
+  .stat { flex: 1; }
+  .stat .lbl { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #9a9a9a; text-transform: uppercase; }
+  .stat .n { font-size: 21pt; font-weight: 800; line-height: 1.15; }
+  .stat .n .up { font-size: 9pt; color: #43d963; font-weight: 700; margin-left: 5px; }
+  .stat .cap { font-size: 8pt; color: #bbb; }
+  .hero p { font-size: 9.5pt; color: #ddd; }
+  .hero b, .hero strong { color: #fff; }
+  .gold { color: #E8890C; font-weight: 700; }
+  .sec { margin-top: 18px; }
+  .chip { display: inline-block; background: #141414; color: #fff; font-family: Consolas, monospace; font-size: 8.5pt; padding: 3px 10px; border-radius: 4px; margin-right: 8px; }
+  .sec h2 { display: inline; font-size: 13pt; }
+  .sec .body { margin-top: 8px; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .card { border: 1px solid #e2e2e2; border-radius: 8px; padding: 12px 14px; }
+  .card h4 { font-size: 10pt; margin-bottom: 4px; }
+  .card p { font-size: 9pt; color: #444; }
+  .card .tag { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; color: #E8890C; text-transform: uppercase; }
+  table { width: 100%; border-collapse: collapse; font-size: 9pt; margin-top: 8px; }
+  th { text-align: left; font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; text-transform: uppercase; color: #666; border-bottom: 2px solid #141414; padding: 4px 8px 4px 0; }
+  td { padding: 5px 8px 5px 0; border-bottom: 1px solid #eee; vertical-align: top; }
+  .ok { color: #17692f; font-weight: 700; }
+  .fn { font-size: 7.5pt; color: #888; margin-top: 16px; border-top: 1px solid #ddd; padding-top: 7px; }
+  .footer { margin-top: 14px; font-family: Consolas, monospace; font-size: 7.5pt; color: #999; display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">GROWTH<span>BOSS</span></div>
+  <div class="docid">PROGRESS REPORT &nbsp;MM-2026-08-P2</div>
+</div>
+<div class="sub"><b>Mammoth Machinery</b> &nbsp;·&nbsp; August progress update #2 &nbsp;·&nbsp; Work completed Aug 15&ndash;19, 2026 &nbsp;·&nbsp; mammothmachinery.ca</div>
+
+<div class="hero">
+  <div class="kicker">August momentum &nbsp;·&nbsp; Google Search Console &nbsp;·&nbsp; Aug 1&ndash;16 vs July daily average</div>
+  <div class="stats">
+    <div class="stat"><div class="lbl">Clicks / day</div><div class="n">31.9<span class="up">&#9650; 14%</span></div><div class="cap">vs 27.9 per day in July &mdash; July was the record month</div></div>
+    <div class="stat"><div class="lbl">Impressions / day</div><div class="n">1,189<span class="up">&#9650; 49%</span></div><div class="cap">vs 796 per day in July</div></div>
+    <div class="stat"><div class="lbl">Best day on record</div><div class="n">51</div><div class="cap">clicks on Aug 7 &mdash; highest single day tracked</div></div>
+    <div class="stat"><div class="lbl">ChatGPT reads</div><div class="n">90</div><div class="cap">pages fetched by ChatGPT during live buyer conversations, last 7 days</div></div>
+  </div>
+  <p>Halfway through August the site is <span class="gold">beating July's record pace</span>, and a new signal appeared this sprint: <b>ChatGPT is reading Mammoth's pages in live buyer conversations</b> &mdash; 90 fetches in the past week alone. The work below is what shipped since the last update.</p>
+</div>
+
+<div class="sec">
+  <span class="chip">01</span><h2>Content Engine: On Schedule, Two More Guides</h2>
+  <div class="body cards">
+    <div class="card"><span class="tag">Published Mon Aug 17</span>
+      <h4>Mini Excavator vs Mini Skid Steer</h4>
+      <p>The decision guide buyers ask for most: which machine fits which job, side-by-side specs, and honest guidance on when each one wins. Published automatically on schedule.</p>
+    </div>
+    <div class="card"><span class="tag">Scheduled Mon Aug 24</span>
+      <h4>How to Choose the Right Mini Excavator</h4>
+      <p>Built and scheduled ahead of time: the four decision factors after size (engine &amp; service access, attachments, transport weight, support), a six-step buying path, and real CAD pricing.</p>
+    </div>
+  </div>
+  <div class="body"><p style="font-size:9pt;">The Monday publishing calendar holds through September 21. Every guide links into the machine pages and financing/warranty money pages, and each carries built-in 28-day performance tracking.</p></div>
+</div>
+
+<div class="sec">
+  <span class="chip">02</span><h2>Blog Reading Experience Rebuilt Across All 11 Guides</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">A layout bug had been silently collapsing the designed two-column blog layout into a single cramped column on every post since June. This sprint it was found, fixed, and upgraded across every guide on the site:</p>
+    <table>
+      <tr><th>Improvement</th><th>Verified result</th></tr>
+      <tr><td><b>True two-column layout restored</b> on all 11 guides</td><td class="ok">Readable text column + sidebar on every post, verified live</td></tr>
+      <tr><td><b>Sticky table of contents</b> &mdash; the chapter list and warranty card now follow the reader down the page</td><td class="ok">Working on all guides, desktop; tested against the site header</td></tr>
+      <tr><td><b>Author byline and title clutter removed</b> from the top of every post</td><td class="ok">Clean full-width presentation, matching the rest of the site</td></tr>
+      <tr><td><b>Consistent spacing and typography</b> applied to the whole blog library</td><td class="ok">Same design system as the money pages</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;">Why it matters: buyers who land on a guide now get a polished, navigable reading experience that keeps them on the page and routes them to machine pages &mdash; instead of a wall of text with a broken layout.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">03</span><h2>AI Search: ChatGPT Is Reading Mammoth Pages in Live Buyer Chats</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">Search is splitting into two channels: classic Google results and AI assistants that answer buyers directly. This sprint the site was made AI-readable and AI-trackable. The last 7 days of the crawler log (through Aug 19):</p>
+    <table>
+      <tr><th>Signal</th><th>Last 7 days, verified Aug 19</th></tr>
+      <tr><td><b>AI crawler tracking enabled</b> &mdash; every AI assistant visit is now logged</td><td class="ok">166 AI crawler visits across 7 different AI systems</td></tr>
+      <tr><td><b>ChatGPT live user sessions</b> &mdash; a real person asked, ChatGPT fetched Mammoth's pages to answer</td><td class="ok">90 of 166 visits &mdash; these are live buyer conversations</td></tr>
+      <tr><td><b>Who else is reading</b></td><td class="ok">OpenAI Search, Claude, Perplexity, Meta AI, Amazon, You.com</td></tr>
+      <tr><td><b>What they read</b></td><td class="ok">Machine pages, the warranty page, and the new financing guide are among the most-fetched content</td></tr>
+      <tr><td><b>AI site guide (llms.txt) published</b> &mdash; a structured index AI assistants read first</td><td class="ok">Live and verified at mammothmachinery.ca/llms.txt</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;">This is the payoff of the guide strategy: AI assistants pull from sources that answer questions with real numbers. Every new Monday guide is built to be citable &mdash; verified specs, real CAD prices, plain language.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">04</span><h2>Design &amp; Accessibility: Three Highest-Traffic Pages Fixed and Re-Scored</h2>
+  <div class="body">
+    <table>
+      <tr><th>Page</th><th>What was done</th></tr>
+      <tr><td><b>Homepage</b></td><td class="ok">Design audit score 64 &rarr; 83: fixed invisible white-on-white text, low-contrast buttons and labels, heading structure, and image descriptions for screen readers and Google Images. Re-verified Aug 19.</td></tr>
+      <tr><td><b>Mini Excavators page</b></td><td class="ok">Score 69 &rarr; 88: 10 fixes applied &mdash; section labels that rendered invisible (white text on light backgrounds), low-contrast stat numbers, heading structure</td></tr>
+      <tr><td><b>Wheel Loaders page</b></td><td class="ok">Score 69 &rarr; 83: 14 fixes applied &mdash; same invisible-label bug, warranty banner readability, heading structure</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">05</span><h2>Full-Site Search Analysis: Every Page, Every Query</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">A complete Search Console analysis of the site &mdash; 3 months of data, 120 pages, every search query, with branded searches separated from buyer searches so priorities reflect demand the site can actually win. It already produced results:</p>
+    <table>
+      <tr><th>Finding</th><th>Action</th></tr>
+      <tr><td>Concrete buggy guide: 1,277 non-brand impressions but only 1 click &mdash; buyers search the same machine as "power buggy" and "georgia buggy", names the search listing didn't carry</td><td class="ok">Search listing rebuilt to cover all three names plus a concrete payload fact; 28-day tracking attached</td></tr>
+      <tr><td>Redirect &amp; index hygiene sweep (www/non-www, old URLs, cart links, tag pages)</td><td class="ok">All verified clean &mdash; redirects and search-engine directives working correctly</td></tr>
+      <tr><td>Lead measurement baseline established</td><td class="ok">10 contact-form leads Aug 3&ndash;17 (&asymp;2% of search clicks become leads) &mdash; September results become measurable in leads, not just clicks</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">06</span><h2>Scoreboard &amp; What's Next</h2>
+  <div class="body">
+    <table>
+      <tr><th>Signal</th><th>Status</th></tr>
+      <tr><td>August pace</td><td class="ok">31.9 clicks/day &mdash; 14% above July, which was already the record month</td></tr>
+      <tr><td>Mini Skid Steers page</td><td class="ok">Impressions up 170%: 59/day in July &rarr; 159/day in August &mdash; deliberately untouched while climbing</td></tr>
+      <tr><td>Next: Aug 24 + weekly</td><td>New buyer guide every Monday through Sep 21 (next: skid steers for landscapers)</td></tr>
+      <tr><td>Next: ~Sep 9</td><td>Automatic 28-day scoring of every search-listing change against real clicks</td></tr>
+      <tr><td>Recommended</td><td>Google review push via dealers &mdash; the #2 local ranking factor and the strongest untapped lever</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="fn">All search figures: Google Search Console, pulled Aug 19, 2026. August pace compares Aug 1&ndash;16 daily averages against July 1&ndash;31 daily averages (31.9 vs 27.9 clicks/day; 1,189 vs 796 impressions/day; GSC data lags ~3 days). Mini Skid Steers: 1,842 impressions over 31 July days vs 2,547 over Aug 1&ndash;16. AI crawler figures: server-side crawler log, rolling 7 days through Aug 19. Design scores: automated audit (WCAG contrast, heading structure, image alt coverage), all three pages re-scored Aug 19 after fixes were applied. Lead figures: on-site form submission tracking, Aug 3&ndash;17.</div>
+
+<div class="footer"><div>GROWTHBOSS &middot; SEO PROGRESS REPORT</div><div>MM-2026-08-P2 &middot; CONFIDENTIAL</div></div>
+
+</body>
+</html>

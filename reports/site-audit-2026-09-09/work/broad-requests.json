@@ -1,0 +1,13 @@
+[
+ {"name":"list_posts","arguments":{"per_page":100,"page":2,"status":"publish"}},
+ {"name":"list_installed_plugins","arguments":{}},
+ {"name":"content_audits","arguments":{"limit":1000}},
+ {"name":"redirect_audit","arguments":{}},
+ {"name":"click_depth_audit","arguments":{"buried_only":false}},
+ {"name":"get_content_authors","arguments":{}},
+ {"name":"get_plugin_settings","arguments":{"slug":"seo-by-rank-math"}},
+ {"name":"verified_page_audit","arguments":{"post_id":228}},
+ {"name":"verified_page_audit","arguments":{"post_id":5496}},
+ {"name":"gsc_inspect_url","arguments":{"post_id":228,"force_refresh":true}},
+ {"name":"gsc_inspect_url","arguments":{"post_id":5525,"force_refresh":true}}
+]

@@ -1,0 +1,10 @@
+{
+  "_note": "Round 5 hero. v4 was 572x1024: Gemini caps the long edge near 1024, so a tall portrait spends the pixel budget on height and leaves only 572px of width, which the 720px desktop column then upscales and blurs. A SQUARE frame spends the same budget on width: 1024x1024 means the column scales down, not up. Waist-up, centred, so the square crops cleanly to both the tall desktop column and the wide mobile band.",
+  "images": [
+    {
+      "name": "iwc-pass-hero-v5",
+      "brand": "iwc",
+      "prompt": "Square format, 1:1 aspect ratio, 1024 x 1024 pixels. A waist-up editorial portrait of a woman in her late thirties with warm brown skin and dark hair pulled back smoothly into a low bun, seated in a cream upholstered armchair, wearing a soft oatmeal knit cardigan over a plain white top, holding a ceramic mug in both hands at chest height, a genuine gentle smile, looking directly at the camera. She is centred and fills most of the frame, her eyes about one third down from the top. Behind her, softly out of focus, a warm sage green wall with a hint of a bright window and linen curtains on one side. Soft natural morning light, shallow depth of field, crisp sharp focus on her eyes and face, fine skin texture, high detail. No text, no logos, no medical equipment."
+    }
+  ]
+}

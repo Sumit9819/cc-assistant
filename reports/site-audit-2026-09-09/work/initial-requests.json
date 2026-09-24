@@ -1,0 +1,11 @@
+[
+  {"name":"whoami","arguments":{}},
+  {"name":"get_site_memory","arguments":{}},
+  {"name":"get_working_state","arguments":{}},
+  {"name":"health","arguments":{}},
+  {"name":"list_pending_changes","arguments":{}},
+  {"name":"gsc_status","arguments":{}},
+  {"name":"gsc_warehouse_status","arguments":{}},
+  {"name":"get_content_scope","arguments":{}},
+  {"name":"list_posts","arguments":{"per_page":100,"page":1,"status":"publish"}}
+]

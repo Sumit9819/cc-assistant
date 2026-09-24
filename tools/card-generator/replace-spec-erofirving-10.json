@@ -1,0 +1,79 @@
+[
+  {
+    "post_id": 3365,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-sites.webp\" alt=\"The five places a stress fracture happens: the foot, shin, ankle, leg and heel\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>What Is a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3367 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/What-Is-a-Stress-Fracture-scaled.webp\" alt=\"What Is a Stress Fracture\" width=\"2560\" height=\"1378\" />",
+        "replace": "<h2><strong>What Is a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3367 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/What-Is-a-Stress-Fracture-scaled.webp\" alt=\"What Is a Stress Fracture\" width=\"2560\" height=\"1378\" />\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-sites.webp\" alt=\"The five places a stress fracture happens: the foot, shin, ankle, leg and heel\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-signs.webp\" alt=\"Stress fracture symptoms to look for: a vague ache after activity, constant pain even at rest, tenderness in one small spot, and sharp pain when hopping on that leg\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Do You Know If You Have a Stress Fracture?</strong></h2>",
+        "replace": "<h2><strong>How Do You Know If You Have a Stress Fracture?</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-signs.webp\" alt=\"Stress fracture symptoms to look for: a vague ache after activity, constant pain even at rest, tenderness in one small spot, and sharp pain when hopping on that leg\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-healing.webp\" alt=\"How long a stress fracture takes to heal: six to eight weeks for the foot or shin, up to twelve weeks at other sites\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Long Does a Stress Fracture Take to Heal?</strong></h2>",
+        "replace": "<h2><strong>How Long Does a Stress Fracture Take to Heal?</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-healing.webp\" alt=\"How long a stress fracture takes to heal: six to eight weeks for the foot or shin, up to twelve weeks at other sites\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-er.webp\" alt=\"Stress fracture red flags that need emergency care: severe pain, increasing swelling, being unable to bear weight, sudden worsening, numbness and visible deformity\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When Should You Seek Emergency Care for a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3368 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/When-Should-You-Seek-Emergency-Care-for-a-Stress-Fracture-scaled.webp\" alt=\"When Should You Seek Emergency Care for a Stress Fracture\" width=\"2560\" height=\"1378\" />",
+        "replace": "<h2><strong>When Should You Seek Emergency Care for a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3368 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/When-Should-You-Seek-Emergency-Care-for-a-Stress-Fracture-scaled.webp\" alt=\"When Should You Seek Emergency Care for a Stress Fracture\" width=\"2560\" height=\"1378\" />\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-er.webp\" alt=\"Stress fracture red flags that need emergency care: severe pain, increasing swelling, being unable to bear weight, sudden worsening, numbness and visible deformity\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 4 card(s) directly below their heading on post 3365",
+    "reasoning": "Placement correction to the operator's stated rule: every card sits DIRECTLY BELOW the heading of the section it illustrates, not after that section's paragraph and never above a heading. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Where a stock photo already sits under the heading the card goes after it rather than above it, which leaves those two images together; whether the decorative photo should stay is a separate editorial decision and is not touched here."
+  },
+  {
+    "post_id": 3162,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-grades.webp\" alt=\"The three muscle strain grades compared: grade one is overstretched with minor discomfort, grade two is partially torn with limited mobility, grade three is torn completely and may need medical care\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>What is muscle strain?</h2>\n<img class=\"aligncenter wp-image-3166 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-muscle-strain-1024x551.webp\" alt=\"What is muscle strain\" width=\"1024\" height=\"551\">",
+        "replace": "<h2>What is muscle strain?</h2>\n<img class=\"aligncenter wp-image-3166 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-muscle-strain-1024x551.webp\" alt=\"What is muscle strain\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-grades.webp\" alt=\"The three muscle strain grades compared: grade one is overstretched with minor discomfort, grade two is partially torn with limited mobility, grade three is torn completely and may need medical care\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-recovery.webp\" alt=\"Seven ways to speed up muscle strain recovery: rest, ice, compression and elevation, gradual movement, hydration and nutrition, cold then heat therapy, physical therapy, imaging to monitor, and advanced therapies\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>7 Expert Tips to Speed Up Muscle Strain Recovery</h2>\n<img class=\"aligncenter wp-image-3163 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/7-Expert-Tips-to-Speed-Up-Muscle-Strain-Recovery-1024x551.webp\" alt=\"7 Expert Tips to Speed Up Muscle Strain Recovery\" width=\"1024\" height=\"551\">",
+        "replace": "<h2>7 Expert Tips to Speed Up Muscle Strain Recovery</h2>\n<img class=\"aligncenter wp-image-3163 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/7-Expert-Tips-to-Speed-Up-Muscle-Strain-Recovery-1024x551.webp\" alt=\"7 Expert Tips to Speed Up Muscle Strain Recovery\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-recovery.webp\" alt=\"Seven ways to speed up muscle strain recovery: rest, ice, compression and elevation, gradual movement, hydration and nutrition, cold then heat therapy, physical therapy, imaging to monitor, and advanced therapies\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3162",
+    "reasoning": "Placement correction to the operator's stated rule: every card sits DIRECTLY BELOW the heading of the section it illustrates, not after that section's paragraph and never above a heading. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Where a stock photo already sits under the heading the card goes after it rather than above it, which leaves those two images together; whether the decorative photo should stay is a separate editorial decision and is not touched here."
+  },
+  {
+    "post_id": 3858,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-home-care.webp\" alt=\"Home remedies for kidney stone pain that actually help: drinking water through the day, heat on the back or flank, light walking, and citrate from lemon or lime juice with less salt\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>Home Remedies for Kidney Stone Pain: What Actually Helps</h2>",
+        "replace": "<h2>Home Remedies for Kidney Stone Pain: What Actually Helps</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-home-care.webp\" alt=\"Home remedies for kidney stone pain that actually help: drinking water through the day, heat on the back or flank, light walking, and citrate from lemon or lime juice with less salt\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3858",
+    "reasoning": "Placement correction to the operator's stated rule: every card sits DIRECTLY BELOW the heading of the section it illustrates, not after that section's paragraph and never above a heading. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Where a stock photo already sits under the heading the card goes after it rather than above it, which leaves those two images together; whether the decorative photo should stay is a separate editorial decision and is not touched here."
+  }
+]

@@ -1,0 +1,508 @@
+{
+  "_note": "Batch J: 8613 HRT guide, 6242 hormone therapy guide, 6246 wellness coaching, 6276 aesthetic treatments. 6246 and 6276 get three cards each rather than four: their remaining sections restate one another, and a fourth card would repeat the third.",
+  "cards": [
+    {
+      "file": "what-hormones-regulate",
+      "post_id": 8613,
+      "layout": "icons",
+      "subject": "hormone",
+      "heading": "How Hormones Affect Your Daily Life",
+      "title": [
+        "What ",
+        "Hormone",
+        "s Regulate Day to Day"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Estrogen, progesterone and testosterone affect bone density, heart health, cognition and emotional stability",
+      "items": [
+        {
+          "icon": "bone",
+          "label": "Bone density",
+          "note": "Protection against fractures"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Heart health",
+          "note": "Cholesterol and vascular function"
+        },
+        {
+          "icon": "brain",
+          "label": "Cognition",
+          "note": "Focus and memory"
+        },
+        {
+          "icon": "smile",
+          "label": "Mood",
+          "note": "Serotonin regulation"
+        }
+      ]
+    },
+    {
+      "file": "systemic-vs-local-estrogen-therapy",
+      "post_id": 8613,
+      "layout": "compare",
+      "subject": "estrogen therapy",
+      "heading": "Understanding the Different Forms of Estrogen Therapy",
+      "title": [
+        "Systemic vs Local ",
+        "Estrogen Therapy",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Systemic estrogen treats hot flashes through the bloodstream; local vaginal therapy has lower risk as little is absorbed",
+      "columns": [
+        "Systemic",
+        "Local, vaginal"
+      ],
+      "rows": [
+        {
+          "label": "How it is given",
+          "values": [
+            "Pills, patches, gels or sprays",
+            "Low-dose creams, rings or tablets"
+          ]
+        },
+        {
+          "label": "Best for",
+          "values": [
+            "Hot flashes and night sweats",
+            "Vaginal dryness and discomfort"
+          ]
+        },
+        {
+          "label": "Reaches the bloodstream",
+          "values": [
+            "Yes, that is the point",
+            "Very little, so lower risk"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "hrt-modern-safety-standards",
+      "post_id": 8613,
+      "layout": "list",
+      "subject": "HRT",
+      "heading": "Weighing the Risks and Modern Safety Standards",
+      "title": [
+        "Modern ",
+        "HRT",
+        " Safety Standards"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "HRT safety rests on timing before age 60, the lowest effective dose, and reviewing individual cancer and clot history",
+      "items": [
+        {
+          "icon": "calendar-clock",
+          "label": "Timing",
+          "note": "Before 60, or within 10 years of menopause"
+        },
+        {
+          "icon": "sliders-horizontal",
+          "label": "Dosage",
+          "note": "The lowest effective dose, for as long as needed"
+        },
+        {
+          "icon": "clipboard-list",
+          "label": "Your history",
+          "note": "Certain cancers, clots or liver disease change the plan"
+        }
+      ]
+    },
+    {
+      "file": "types-of-hormone-therapy",
+      "post_id": 6242,
+      "layout": "list",
+      "subject": "hormone therapy",
+      "heading": "Types of Hormone Therapy:",
+      "title": [
+        "The Four Types of ",
+        "Hormone Therapy",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Four hormone therapy types: estrogen, combined estrogen and progesterone, testosterone, and thyroid replacement",
+      "items": [
+        {
+          "icon": "sun",
+          "label": "Estrogen therapy",
+          "note": "Hot flashes and vaginal dryness"
+        },
+        {
+          "icon": "recycle",
+          "label": "Combined therapy",
+          "note": "With progesterone, if the uterus is intact"
+        },
+        {
+          "icon": "dumbbell",
+          "label": "Testosterone therapy",
+          "note": "For men and women, low libido or energy"
+        },
+        {
+          "icon": "stethoscope",
+          "label": "Thyroid replacement",
+          "note": "For an underactive thyroid"
+        }
+      ]
+    },
+    {
+      "file": "hormone-therapy-benefits",
+      "post_id": 6242,
+      "layout": "icons",
+      "subject": "hormone therapy",
+      "heading": "Benefits of Hormone Therapy: How It Can Improve Your Quality of Life",
+      "title": [
+        "What ",
+        "Hormone Therapy",
+        " Can Improve"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone therapy can ease menopause symptoms, steady mood and clarity, protect bone density, and help skin and hair",
+      "items": [
+        {
+          "icon": "thermometer-sun",
+          "label": "Menopause symptoms",
+          "note": "Hot flashes, night sweats, dryness"
+        },
+        {
+          "icon": "brain",
+          "label": "Mood and clarity",
+          "note": "Less irritability and anxiety"
+        },
+        {
+          "icon": "bone",
+          "label": "Bone density",
+          "note": "Estrogen helps maintain it"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Skin and hair",
+          "note": "Elasticity and texture"
+        }
+      ]
+    },
+    {
+      "file": "hormone-therapy-risks-and-who-should-avoid",
+      "post_id": 6242,
+      "layout": "checklist",
+      "subject": "hormone therapy",
+      "tone": "neutral",
+      "heading": "Risks and Considerations of Hormone Therapy",
+      "title": [
+        "Hormone Therapy",
+        " Risks and Cautions",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone therapy risks include clots, stroke and some cancers; avoid it with a history of breast cancer or liver disease",
+      "good": {
+        "icon": "triangle-alert",
+        "heading": "Possible risks",
+        "items": [
+          "Blood clots",
+          "Stroke",
+          "Breast cancer",
+          "Endometrial cancer"
+        ]
+      },
+      "bad": {
+        "icon": "ban",
+        "heading": "Avoid it if you have",
+        "items": [
+          "A history of breast cancer",
+          "Liver disease",
+          "A clotting disorder"
+        ]
+      }
+    },
+    {
+      "file": "alternatives-to-hormone-therapy",
+      "post_id": 6242,
+      "layout": "list",
+      "subject": "hormone therapy",
+      "heading": "Alternatives to Hormone Therapy: What Are Your Options?",
+      "title": [
+        "Alternatives to ",
+        "Hormone Therapy",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone therapy alternatives: non-hormonal medications like SSRIs, bioidentical hormones, and herbal supplements",
+      "items": [
+        {
+          "icon": "pill",
+          "label": "Non-hormonal medication",
+          "note": "SSRIs and SNRIs for hot flashes and mood"
+        },
+        {
+          "icon": "circle-dot",
+          "label": "Bioidentical hormones",
+          "note": "Ask your doctor which are FDA-regulated"
+        },
+        {
+          "icon": "wheat",
+          "label": "Herbal supplements",
+          "note": "Black cohosh, soy, red clover, with guidance"
+        }
+      ]
+    },
+    {
+      "file": "what-wellness-coaching-covers",
+      "post_id": 6246,
+      "layout": "icons",
+      "subject": "wellness coaching",
+      "heading": "Key Aspects of Wellness Coaching",
+      "title": [
+        "What ",
+        "Wellness Coaching",
+        " Covers"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Wellness coaching covers physical health, mental health, lifestyle choices and the behaviour changes that hold them",
+      "items": [
+        {
+          "icon": "dumbbell",
+          "label": "Physical health",
+          "note": "Fitness, nutrition, weight"
+        },
+        {
+          "icon": "brain",
+          "label": "Mental health",
+          "note": "Stress, clarity, emotional health"
+        },
+        {
+          "icon": "moon",
+          "label": "Lifestyle",
+          "note": "Sleep and work-life balance"
+        },
+        {
+          "icon": "recycle",
+          "label": "Behaviour change",
+          "note": "Habits that hold long term"
+        }
+      ]
+    },
+    {
+      "file": "benefits-of-wellness-coaching",
+      "post_id": 6246,
+      "layout": "list",
+      "subject": "wellness coaching",
+      "heading": "The Benefits of Wellness Coaching",
+      "title": [
+        "The Benefits of ",
+        "Wellness Coaching",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Wellness coaching supports emotional health, chronic disease management, work-life balance and habits that last",
+      "items": [
+        {
+          "icon": "heart",
+          "label": "Emotional health",
+          "note": "Mindfulness and coping skills"
+        },
+        {
+          "icon": "stethoscope",
+          "label": "Chronic conditions",
+          "note": "Alongside your doctors, not instead"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Work-life balance",
+          "note": "Boundaries and how you spend time"
+        },
+        {
+          "icon": "circle-check",
+          "label": "Habits that last",
+          "note": "Gradual change, not quick fixes"
+        }
+      ]
+    },
+    {
+      "file": "how-wellness-coaching-works",
+      "post_id": 6246,
+      "layout": "steps",
+      "subject": "wellness coaching",
+      "heading": "How Wellness Coaching Works",
+      "title": [
+        "How ",
+        "Wellness Coaching",
+        " Works"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Wellness coaching runs from an initial assessment through SMART goal setting, regular check-ins and ongoing support",
+      "steps": [
+        {
+          "icon": "clipboard-list",
+          "label": "Assessment",
+          "note": "Health, habits, goals and obstacles"
+        },
+        {
+          "icon": "target",
+          "label": "SMART goals",
+          "note": "Specific, measurable, time-bound"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Check-ins",
+          "note": "Progress reviewed, plan adjusted"
+        },
+        {
+          "icon": "users",
+          "label": "Support",
+          "note": "In person, by phone or online"
+        }
+      ]
+    },
+    {
+      "file": "popular-aesthetic-treatments",
+      "post_id": 6276,
+      "layout": "list",
+      "subject": "aesthetic treatments",
+      "heading": "Popular Aesthetic Treatments and Their Uses",
+      "title": [
+        "Popular ",
+        "Aesthetic Treatments",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Popular aesthetic treatments: Botox and dermal fillers, laser skin treatments, body contouring and microneedling",
+      "items": [
+        {
+          "icon": "syringe",
+          "label": "Botox and fillers",
+          "note": "Relaxes wrinkle muscles, restores volume"
+        },
+        {
+          "icon": "zap",
+          "label": "Laser treatments",
+          "note": "Age spots, acne scars, skin tone"
+        },
+        {
+          "icon": "ruler-dimension-line",
+          "label": "Body contouring",
+          "note": "Fat that stays after diet and exercise"
+        },
+        {
+          "icon": "circle-dot",
+          "label": "Microneedling",
+          "note": "Stimulates collagen, softens scars"
+        }
+      ]
+    },
+    {
+      "file": "before-choosing-an-aesthetic-treatment",
+      "post_id": 6276,
+      "layout": "list",
+      "subject": "aesthetic treatment",
+      "heading": "What to Consider Before Choosing Aesthetic Treatments",
+      "title": [
+        "Before Choosing an ",
+        "Aesthetic Treatment",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Before an aesthetic treatment check the provider is licensed, that results vary between people, and the side effects",
+      "items": [
+        {
+          "icon": "shield-check",
+          "label": "Licensed provider",
+          "note": "Non-invasive still means trained hands"
+        },
+        {
+          "icon": "sliders-horizontal",
+          "label": "Results vary",
+          "note": "Some people respond faster than others"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "Side effects",
+          "note": "Swelling, bruising, allergic reaction"
+        }
+      ]
+    },
+    {
+      "file": "choosing-the-right-aesthetic-treatment",
+      "post_id": 6276,
+      "layout": "steps",
+      "subject": "aesthetic treatment",
+      "heading": "How to Choose the Right Aesthetic Treatment for You",
+      "title": [
+        "Choosing the Right ",
+        "Aesthetic Treatment",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Choose an aesthetic treatment by consulting a licensed professional, setting real expectations, and planning the budget",
+      "steps": [
+        {
+          "icon": "stethoscope",
+          "label": "Consult",
+          "note": "A licensed aesthetic professional"
+        },
+        {
+          "icon": "target",
+          "label": "Set expectations",
+          "note": "What each treatment can and cannot do"
+        },
+        {
+          "icon": "wallet",
+          "label": "Plan the cost",
+          "note": "Some treatments need several sessions"
+        }
+      ]
+    }
+  ]
+}

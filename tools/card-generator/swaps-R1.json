@@ -1,0 +1,74 @@
+{
+ "8559": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/top-3-anti-aging-treatments-fine-lines-wrinkles-4-retinoids-for-daily-care.webp\" alt=\"How retinoids work: skin renewal, collagen support, and protection\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-how-retinoids-work.webp\" alt=\"Retinoids increase cell turnover, stimulate new collagen, and block the enzymes that break existing collagen down\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/top-3-anti-aging-treatments-fine-lines-wrinkles-1-botox-for-fine-lines.webp\" alt=\"Botox for fine lines: tiny injections, visible results in days, lasting months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/neuromodulator-treatment-timeline.webp\" alt=\"Neuromodulator injections take under 15 minutes, show change in 3 to 7 days, and last 3 to 4 months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/top-3-anti-aging-treatments-fine-lines-wrinkles-3-restore-lost-volume.webp\" alt=\"Dermal filler restoring facial volume, shown with hyaluronic acid placement under the skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-dermal-filler.webp\" alt=\"Three dermal filler types: hyaluronic acid, calcium hydroxylapatite for contouring, and poly-L-lactic acid\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/top-3-anti-aging-treatments-fine-lines-wrinkles-2-top-three-anti-aging-treatments.webp\" alt=\"The three treatments compared: skin renewal, neuromodulators, and volume restoration\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-treatments-compared.webp\" alt=\"Retinoids, neuromodulators and dermal fillers compared on what they suit, how they are applied, and how long they last\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "8563": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-treatment-guide-1-how-chemical-peels-work.webp\" alt=\"Three stages of a chemical peel: applying the acid solution, the old skin peeling away, and new skin renewing underneath\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths.webp\" alt=\"Light, medium and deep chemical peels compared by the skin layer reached, what each treats, and recovery time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-treatment-guide-2-common-conditions-treated.webp\" alt=\"Three conditions chemical peels commonly treat: signs of aging, acne scars, and pigmentation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-it-treats.webp\" alt=\"Chemical peels treat sun damage and photoaging, acne scarring and texture, and hyperpigmentation including melasma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-treatment-guide-3-who-benefits-most.webp\" alt=\"Deciding on a chemical peel: check your skin type, know which conditions mean you should avoid one, and consult a provider\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-who-should-wait.webp\" alt=\"Wait on a chemical peel with an active infection or cold sore, in pregnancy, after isotretinoin, or with keloid scarring\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-treatment-guide-4-step-by-step-procedure.webp\" alt=\"Chemical peel procedure in three stages: preparing with SPF 30 or higher, the five to ten minute treatment, and the recovery period\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens.webp\" alt=\"Chemical peel timeline: stop retinoids beforehand, a 5 to 10 minute application, then flaking over 3 to 7 days\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "8571": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-guide-holistic-health-prevention-1-what-is-a-wellness-assessment.webp\" alt=\"What a wellness assessment establishes: a health baseline, risk prevention, and a whole-person view\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-a-wellness-assessment-establishes.webp\" alt=\"A wellness assessment sets a health baseline, finds silent risks early, and looks at the whole person not one complaint\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-guide-holistic-health-prevention-2-core-wellness-pillars.webp\" alt=\"Three pillars of a holistic assessment: clinical screenings, lifestyle and well-being, and social determinants of health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-three-pillars.webp\" alt=\"Wellness assessment pillars: clinical screenings and vitals, lifestyle and mental well-being, social determinants of health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-guide-holistic-health-prevention-3-what-to-expect.webp\" alt=\"Three parts of the visit: the conversation with your provider, the physical exam, and your personalized plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit.webp\" alt=\"A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalised plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-guide-holistic-health-prevention-4-benefits-of-holistic-health.webp\" alt=\"Long-term benefits of regular assessments: peace of mind, cost savings, and an ongoing health partnership\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-long-term-benefits.webp\" alt=\"Regular wellness assessments bring peace of mind, cost savings against chronic illness, and an ongoing health partnership\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "8577": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-vs-conventional-medicine-1-understanding-functional-medicine.webp\" alt=\"Three ideas behind functional medicine: finding the root cause, taking a whole-body view, and aiming for long-term wellness\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-functional-medicine-is.webp\" alt=\"Functional medicine looks for root causes, treats the body as one integrated system, and aims at long-term resolution\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-vs-conventional-medicine-2-functional-vs-conventional-medicine.webp\" alt=\"Comparing the two approaches: treating leaves versus roots, acute versus chronic care, and the role of lifestyle\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine.webp\" alt=\"Conventional medicine treats the leaves and leads on acute care; functional medicine tends the roots and suits chronic disease\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-vs-conventional-medicine-3-functional-medicine-principles.webp\" alt=\"Three core principles: patient-centered care, a whole-person focus, and integrative science\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-principles.webp\" alt=\"Functional medicine principles: patient-centered not disease-centered, longer appointments, and integrative evidence-based care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-vs-conventional-medicine-4-your-first-consultation.webp\" alt=\"What a first functional medicine consultation covers: a deep-dive health history, advanced testing, and a personalized plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation.webp\" alt=\"A functional medicine consultation: a health history from birth, functional lab testing, then a personalised wellness plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

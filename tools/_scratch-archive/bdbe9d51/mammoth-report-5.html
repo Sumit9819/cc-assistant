@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mammoth Machinery - Changes Report 5</title>
+<style>
+  @page { margin: 16mm 15mm; }
+  body { font-family: Arial, Helvetica, sans-serif; color: #1a1a1a; line-height: 1.5; font-size: 10.5pt; }
+  h1 { font-size: 20pt; color: #141414; border-bottom: 4px solid #01B51B; padding-bottom: 8px; margin-bottom: 2px; }
+  .subtitle { color: #555; font-size: 10pt; margin-top: 4px; margin-bottom: 20px; }
+  .page-card { border: 1px solid #ddd; border-left: 5px solid #01B51B; border-radius: 6px; padding: 12px 16px; margin-bottom: 14px; page-break-inside: avoid; }
+  .page-card.amber { border-left-color: #e6a700; }
+  .page-card.red { border-left-color: #c0392b; }
+  .page-name { font-size: 12.5pt; font-weight: bold; color: #141414; margin: 0 0 2px 0; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 3px; }
+  .section-label { font-size: 13pt; font-weight: bold; color: #141414; margin: 22px 0 10px 0; border-bottom: 2px solid #e5e5e5; padding-bottom: 4px; }
+  .footer { margin-top: 26px; padding-top: 10px; border-top: 1px solid #ccc; font-size: 9pt; color: #666; }
+  .note { background: #f5f7f5; border-left: 4px solid #01B51B; padding: 8px 14px; margin: 12px 0 18px 0; font-size: 10pt; }
+  .note.amber { border-left-color: #e6a700; background: #fdf8ec; }
+  .note.red { border-left-color: #c0392b; background: #fdf1f0; }
+  table.fix { border-collapse: collapse; width: 100%; margin: 6px 0 4px 0; font-size: 9.5pt; }
+  table.fix th, table.fix td { border: 1px solid #ddd; padding: 4px 8px; text-align: left; }
+  table.fix th { background: #f2f4f2; }
+  .old { color: #b03030; text-decoration: line-through; }
+  .new { color: #027a15; font-weight: bold; }
+  .kpi-row { display: flex; gap: 10px; margin: 14px 0 18px 0; }
+  .kpi { flex: 1; border: 1px solid #ddd; border-top: 4px solid #01B51B; border-radius: 6px; padding: 10px 12px; text-align: center; }
+  .kpi .big { font-size: 19pt; font-weight: bold; color: #027a15; display: block; line-height: 1.15; }
+  .kpi .lbl { font-size: 8.5pt; color: #555; }
+  table.urls { border-collapse: collapse; width: 100%; margin: 8px 0 4px 0; font-size: 8.3pt; font-family: Consolas, monospace; }
+  table.urls th, table.urls td { border: 1px solid #ddd; padding: 3px 6px; text-align: left; word-break: break-all; }
+  table.urls th { background: #f2f4f2; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; }
+  table.urls td.to { color: #027a15; }
+</style>
+</head>
+<body>
+
+<h1>Website Changes Report #5</h1>
+<p class="subtitle">MammothMachinery.ca &nbsp;|&nbsp; Work completed July 28 to July 31, 2026 &nbsp;|&nbsp; Continues from Report #4</p>
+
+<div class="note">This is the first report with real Google Search Console data behind it. That data revealed a serious problem left over from the website's URL change earlier this year, which we have now fixed. It also showed the site is performing better than at any point on record.</div>
+
+<div class="section-label">1. How the Site Is Actually Performing</div>
+
+<div class="kpi-row">
+  <div class="kpi"><span class="big">+88.7%</span><span class="lbl">Google clicks, July 2026 vs July 2025<br>(804 vs 426 clicks)</span></div>
+  <div class="kpi"><span class="big">31.3 &rarr; 10.6</span><span class="lbl">Average Google ranking position<br>July 2025 vs July 2026</span></div>
+  <div class="kpi"><span class="big">+50%</span><span class="lbl">Clicks, last 28 days vs<br>previous 28 days (786 vs 524)</span></div>
+</div>
+
+<div class="page-card">
+  <p class="page-name">Reading these numbers</p>
+  <ul>
+    <li>July 2026 was the strongest month on record, both on clicks and on ranking position.</li>
+    <li>Mobile outperforms desktop by a wide margin, roughly double the click rate. Most people searching for this equipment are on a phone.</li>
+    <li>Canada drives the overwhelming majority of traffic, with the United States a distant second.</li>
+    <li><strong>An honest note on credit:</strong> this upward trend began around July 6, roughly two weeks before our work started. Our changes are only nine days old in this data and cannot yet be separated from normal variation. We are not claiming these gains.</li>
+  </ul>
+</div>
+
+<div class="section-label">2. The Major Finding: a Broken URL Change</div>
+
+<div class="note red"><strong>What happened.</strong> Earlier this year, between roughly April 28 and May 27, the website's addresses were changed. Product pages moved from addresses like <em>mammothmachinery.ca/product/wl4500-wheel-loader/</em> to <em>mammothmachinery.ca/wl4500-wheel-loader/</em>. This was done before our engagement began, and it was done <strong>without forwarding the old addresses</strong>. Anyone arriving from a Google result, a bookmark, or a link on another website hit a dead page.</div>
+
+<div class="page-card red">
+  <p class="page-name">The scale of it</p>
+  <ul>
+    <li><strong>29 old addresses returned a "page not found" error.</strong> Together they had earned 2,593 recorded clicks.</li>
+    <li><strong>5 more looked alive but were empty.</strong> They returned a normal page that simply read "It seems we can't find what you're looking for." These are worse than an error page, because Google keeps checking them and nothing is ever reported as broken. They carried another 1,287 clicks.</li>
+    <li><strong>Combined: 3,880 clicks, about 45% of everything this website has ever earned from Google, was landing on dead pages.</strong></li>
+    <li>The single biggest loss was the mini skid steer category page, which had been ranking in position 9 for "mini skid steer", the most valuable non-brand search term this business has.</li>
+  </ul>
+</div>
+
+<div class="page-card">
+  <p class="page-name">All 34 addresses, and where each one now goes</p>
+  <p style="font-size:9.5pt;margin:4px 0 6px 0;">Every rule below is live and was re-tested after going live. Each is a single-step forward to a working page, with no dead addresses and no redirect chains remaining.</p>
+  <table class="urls">
+    <tr><th style="width:47%">Old address (was broken)</th><th style="width:47%">Now forwards to</th><th>Clicks</th></tr>
+    <tr><td>/product-category/mini-skid-steers/</td><td class="to">/mini-skidsteers/</td><td>885</td></tr>
+    <tr><td>/product-category/wheel-loaders/</td><td class="to">/wheel-loaders/</td><td>400</td></tr>
+    <tr><td>/product-category/tracked-mini-dumpers/</td><td class="to">/tracked-mini-dumpers/</td><td>306</td></tr>
+    <tr><td>/product/x-loader-100mt-mini-skid-steer/</td><td class="to">/x-loader-100mt-mini-skid-steer/</td><td>232</td></tr>
+    <tr><td>/product-category/wheeled-mini-dumpers/</td><td class="to">/wheeled-mini-dumpers/</td><td>227</td></tr>
+    <tr><td>/product/x-loader-120mt/</td><td class="to">/x-loader-120mt-mini-skid-steer/</td><td>205</td></tr>
+    <tr><td>/product/x-loader-3000mt-full-size-skid-steer/</td><td class="to">/x-loader-3000mt-full-size-skid-steer/</td><td>203</td></tr>
+    <tr><td>/product-category/mini-excavators/</td><td class="to">/mini-excavators/</td><td>177</td></tr>
+    <tr><td>/product-category/full-size-track-loaders/</td><td class="to">/full-size-track-loaders/</td><td>177</td></tr>
+    <tr><td>/products/</td><td class="to">/equipment/</td><td>152</td></tr>
+    <tr><td>/product/mt2850-track-carrier/</td><td class="to">/mt2850-track-carrier/</td><td>150</td></tr>
+    <tr><td>/product/mt1750-mini-dumper/</td><td class="to">/mt1750-mini-dumper/</td><td>148</td></tr>
+    <tr><td>/product/wl4500-wheel-loader/</td><td class="to">/wl4500-wheel-loader/</td><td>138</td></tr>
+    <tr><td>/product-tag/mini-skid-steer-canada/</td><td class="to">/mini-skidsteers/</td><td>70</td></tr>
+    <tr><td>/product/wl7500-wheel-loader/</td><td class="to">/wl7500-wheel-loader/</td><td>56</td></tr>
+    <tr><td>/product/tl5500-telescopic-wheel-loader/</td><td class="to">/tl5500-telescopic-wheel-loader-2/</td><td>47</td></tr>
+    <tr><td>/product/x-cavator-20mt-mini-excavator/</td><td class="to">/x-cavator-20mt-mini-excavator/</td><td>39</td></tr>
+    <tr><td>/product/mt1350-mini-dumper/</td><td class="to">/mt1350-mini-dumper/</td><td>36</td></tr>
+    <tr><td>/product/tt570-mini-dumper/</td><td class="to">/tt570-mini-dumper/</td><td>35</td></tr>
+    <tr><td>/product/mt2200-mini-dumper/</td><td class="to">/mt2200-mini-dumper/</td><td>30</td></tr>
+    <tr><td>/product/tt1000-mini-dumper/ <em>(discontinued)</em></td><td class="to">/tracked-mini-dumpers/</td><td>29</td></tr>
+    <tr><td>/product/x-cavator-27mt-mini-excavator/</td><td class="to">/x-cavator-27mt-mini-excavator/</td><td>27</td></tr>
+    <tr><td>/product/tt660-mini-dumper/ <em>(discontinued)</em></td><td class="to">/tt570-mini-dumper/</td><td>22</td></tr>
+    <tr><td>/product/x-cavator-35mt-mini-excavator/</td><td class="to">/x-cavator-35mt-mini-excavator/</td><td>19</td></tr>
+    <tr><td>/product/x-loader-50mt-mini-skid-steer/</td><td class="to">/x-loader-50mt-mini-skid-steer/</td><td>16</td></tr>
+    <tr><td>/product/mt2200hl-high-lift-dumper/</td><td class="to">/mt2200hl-high-lift-dumper/</td><td>9</td></tr>
+    <tr><td>/product/ett570-electric-mini-dumper/ <em>(discontinued)</em></td><td class="to">/wheeled-mini-dumpers/</td><td>8</td></tr>
+    <tr><td>/roi-calculator/ <em>(retired)</em></td><td class="to">/financing/</td><td>8</td></tr>
+    <tr><td>/product/ett900-articulating-mini-dumper/</td><td class="to">/ett900-articulating-mini-dumper/</td><td>7</td></tr>
+    <tr><td>/terms-of-sale-warranty/ <em>(retired)</em></td><td class="to">/mammoth-machinery-warranty/</td><td>7</td></tr>
+    <tr><td>/product/sst1000/ <em>(discontinued)</em></td><td class="to">/full-size-track-loaders/</td><td>5</td></tr>
+    <tr><td>/product/tt570/</td><td class="to">/tt570-mini-dumper/</td><td>5</td></tr>
+    <tr><td>/shop-2/ <em>(retired)</em></td><td class="to">/equipment/</td><td>3</td></tr>
+    <tr><td>/product/ett1000-electric-mini-dumper/ <em>(discontinued)</em></td><td class="to">/wheeled-mini-dumpers/</td><td>2</td></tr>
+  </table>
+  <p style="font-size:9.5pt;margin:8px 0 0 0;">For the five discontinued products, the correct destination was traced using archived copies of the original pages and, in the TT660's case, the original spec sheet still stored on your own website.</p>
+</div>
+
+<div class="section-label">3. The Sitemap Was Broken Too</div>
+
+<div class="page-card">
+  <p class="page-name">Google had no map of the website</p>
+  <ul>
+    <li>A sitemap is the file that tells Google which pages exist. The website was advertising one at <em>mammothmachinery.ca/sitemap_index.xml</em>, which returned an error, and the two standard backup addresses both redirected into that same error. In effect, Google had no map at all.</li>
+    <li>This is now working. The sitemap lists 48 addresses: all 37 pages, the 8 blog guides, and the one remaining product listing.</li>
+    <li>This mattered more than usual right now, because 34 brand-new forwarding rules had just been created and Google needed an efficient way to find them.</li>
+  </ul>
+</div>
+
+<div class="section-label">4. Specification Corrections Completed</div>
+
+<div class="note">The catalog fact-check that began in Report #4 is now finished across every product and category page. These were not cosmetic edits; customers were reading incorrect numbers.</div>
+
+<div class="page-card">
+  <p class="page-name">Wheel loaders</p>
+  <ul>
+    <li><strong>TL5500:</strong> its breakout force was showing the WL7500's figure. Corrected from <span class="old">127 kN</span> to <span class="new">44.8 kN</span>. Its "Lifting Height" row contained a force measurement rather than a height; corrected to <span class="new">213 inches</span>.</li>
+    <li><strong>WL7500:</strong> the specification table listed Turning Radius twice, once with the TL5500's figure. The duplicate row was removed; the catalog figure of 204 inches remains.</li>
+  </ul>
+</div>
+
+<div class="page-card">
+  <p class="page-name">Mini dumpers</p>
+  <ul>
+    <li><strong>MT1350:</strong> length corrected from <span class="old">81 inches</span> to <span class="new">64 inches</span> per the catalog. Worth a second look from your side, as that is a large difference.</li>
+    <li><strong>MT2850CB:</strong> the specification table and an FAQ both described an "Italian" piston pump. The catalog names no country of origin, so the unverified word was removed. The pump figures themselves are unchanged.</li>
+    <li><strong>MT1750 and MT2200HL:</strong> a row displaying as "Start Method Electric / key start" was repaired to read "Start Method / Electric key start".</li>
+    <li><strong>eTT900:</strong> stray pasted text was cleaned out of the Transmission label.</li>
+    <li><strong>MT1350:</strong> an unverified "Italian-made hydraulic system" claim was removed from the introduction.</li>
+  </ul>
+</div>
+
+<div class="page-card">
+  <p class="page-name">X-Cavator excavators, finished from Report #4</p>
+  <ul>
+    <li>The 35MT correction was applied everywhere it appeared: its own page, the Mini Excavators category page, and the comparison charts on the 20MT and 27MT pages. Correct figures throughout are Kubota D1703 24.5 HP, 130.5 in dig depth, 8,488 lbs, 67 in width, 31.1 kN.</li>
+    <li>The 20MT and 27MT specification tables were checked line by line against catalog pages 19 and 20: <strong>every value was already correct.</strong> Only formatting was tidied, plus a hidden block of pasted text removed from both.</li>
+  </ul>
+</div>
+
+<div class="section-label">5. Other Work Completed</div>
+
+<div class="page-card">
+  <p class="page-name">Engine manufacturer references</p>
+  <ul>
+    <li>Engine names now link to a source on 13 pages: Honda on the eight dumper pages, Cummins on the three wheel loaders, and Kubota and Yanmar on the MT2850CB and 2000MT.</li>
+    <li>Kubota and Yanmar link to neutral reference pages rather than to their own websites, because both sell machines that compete with Mammoth. Honda and Cummins supply engines only and are linked directly.</li>
+  </ul>
+</div>
+
+<div class="page-card">
+  <p class="page-name">Readability</p>
+  <ul>
+    <li>Six green badges and headings on the Full Size Track Loaders page had white text on the brand green, which fails accessibility contrast standards and is genuinely hard to read. All six now use dark text on green.</li>
+  </ul>
+</div>
+
+<div class="page-card">
+  <p class="page-name">Discontinued models confirmed</p>
+  <ul>
+    <li>We checked the 2026 catalog for the TT660, TT1000, eTT570, eTT1000 and SST1000. <strong>None appear anywhere in it.</strong> The catalog lists 22 machines and the website has a page for every one, so the product range online is complete and correct.</li>
+    <li>Those five old addresses now forward to the closest current machine or category, so their remaining search traffic is not wasted.</li>
+  </ul>
+</div>
+
+<div class="section-label">6. What We Need From Mammoth</div>
+
+<div class="note amber">
+  <ul>
+    <li><strong>Photographs</strong> of the MTL1000 and 2000MT for their pages and category cards.</li>
+    <li><strong>A named expert</strong> to credit on the blog guides. Google rewards content signed by a real, identifiable person.</li>
+    <li><strong>A Terms of Sale page.</strong> The old one was retired and nothing replaced it. The existing Terms and Conditions page covers website use only and never mentions sale, purchase, refund or return. For a company selling machines up to $139,999, this is a genuine gap worth reviewing with your legal advisor.</li>
+    <li><strong>Two product range questions.</strong> The tracked dumper line now starts at 1,350 lbs, where the retired TT1000 covered 1,100 lbs. The electric line now caps at 900 lbs, where the retired eTT1000 covered 1,100 lbs. If buyers still ask for those sizes, that is a product gap rather than a website one.</li>
+  </ul>
+</div>
+
+<p class="footer">Report #5 of the MammothMachinery.ca optimization project. Prepared July 31, 2026. Search performance figures are taken from Google Search Console. All specifications are sourced from the official 2026 Mammoth Machinery catalog. Every website change was queued as a draft and approved by a human before going live, and all forwarding rules were re-tested on the live site after approval.</p>
+
+</body>
+</html>

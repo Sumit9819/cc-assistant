@@ -1,0 +1,237 @@
+{
+  "trace": [
+    {
+      "tool": "whoami",
+      "arguments": {},
+      "result": {
+        "site": "Fixture bicycle workshop",
+        "policy": {
+          "version": "content-strategy-4",
+          "new_blog_workflow": "Use content_workflow for a complete new-blog task, then execute its steps. plan_blog_content initializes an inferred strategy when none is saved. Claude uses discover_content_scope and manage_content_scope to inspect and maintain it from existing pages and site notes. Never ask the operator to enter discoverable IDs or fill a strategy form. Explore source-backed niche topics even without GSC gaps.",
+          "agent_ownership": "Claude handles discovery, strategy metadata, research, draft preparation and verification. The operator reviews concrete results and exceptions. Metadata writes do not authorize live content publication.",
+          "background_execution": "A connected Claude session executes the workflow. This feature does not launch an unattended AI runner.",
+          "gsc_role": "Observed visibility for this property and period, not total market demand or the boundary of the niche.",
+          "discovery_sources": [
+            "selected_service_pages",
+            "configured_reader_questions",
+            "service_reader_tasks",
+            "user_topic_proposals",
+            "optional_gsc_queries",
+            "explicit_competitor_research"
+          ],
+          "no_data_meaning": "Demand is unmeasured. It does not mean no opportunity.",
+          "decision_rules": [
+            "Similarity discovers candidates; it does not establish duplication or SEO harm.",
+            "Create when a distinct reader task and supported niche relationship justify it; no impression minimum is required.",
+            "Keep or link complementary pages. Review preservation before merging substitutable pages.",
+            "Diagnose technical, demand and measurement changes before prescribing a rewrite.",
+            "Research and formatting cannot certify global novelty, expertise or ranking gains.",
+            "Persist evidence and alternatives. Do not change a decision without a changed basis."
+          ],
+          "result_verification": "Link new drafts with workflow_id and call verify_content_workflow. Only actual records and current source observations support completion claims; a plan or generated text alone does not.",
+          "setting_workflow": "Read get_plugin_settings and inspect_plugin_capability. Valid input types do not certify an active feature or rendered effect; use current runtime controls and verify the outcome."
+        },
+        "evidence_rules": [
+          "Report observed facts, editorial interpretations and unknowns separately; cite the exact source and its scope.",
+          "Blocked fetches, partial extraction, missing data and an empty parser result cannot prove rendered absence.",
+          "Similarity identifies candidates. It does not establish duplication, a shared reader task or SEO harm.",
+          "Low CTR does not prove AI impact; crawler requests do not prove citations; before/after associations do not prove causation.",
+          "Discover current installed controls, accepted values and dependencies before planning setting changes.",
+          "Verify actual WordPress record IDs and source freshness before reporting completed work.",
+          "Read memory_consistency. Current user intent governs the task; historical working_state and legacy score/citation recipes do not establish current authorization or factual SEO requirements. Promote lasting session corrections to Rules or Decisions."
+        ],
+        "available_tools": [
+          "content_decision",
+          "content_decision_history",
+          "content_research",
+          "content_workflow",
+          "discover_content_scope",
+          "draft_create_post",
+          "draft_update_plugin_setting",
+          "get_content_scope",
+          "get_plugin_settings",
+          "get_post",
+          "get_site_memory",
+          "inspect_plugin_capability",
+          "list_categories",
+          "list_pending_changes",
+          "manage_content_scope",
+          "plan_blog_content",
+          "seo_playbook",
+          "verified_page_audit",
+          "verify_content_workflow",
+          "whoami"
+        ]
+      }
+    },
+    {
+      "tool": "get_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "content_research",
+      "arguments": {
+        "topic": "Questions to ask a bicycle puncture repair workshop before you book",
+        "anchor_post_id": 100,
+        "reader_goal": "A local bicycle owner with a flat or slow-leaking tire wants to know what to ask (and what information to bring) when contacting a puncture repair workshop, so the visit is booked correctly the first time.",
+        "proposed_contribution": "A reader-side question checklist that the existing service page (post 100) does not provide: what to observe and describe before contacting the workshop (when air loss occurs, fast vs slow leak, tire/valve type, whether the bike was ridden after the flat), what to ask about the inspection step the service page mentions, what to bring with the bike, and what to ask when the answer depends on inspection rather than being fixed in advance. Concrete reader benefit: fewer wasted trips and a faster, more accurate intake because the reader arrives with the details the workshop needs. Excludes prices, opening hours, credentials and testimonials, which are not supported by stored site content."
+      },
+      "result": {
+        "record_id": "research-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "record": {
+          "assessment": "prospective_topic_research",
+          "topic": "Questions to ask a bicycle puncture repair workshop before you book",
+          "niche_anchor": {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          },
+          "contribution_status": "proposed_not_fact_checked_or_proven_unique",
+          "external_sources": [],
+          "coverage": {
+            "gsc_required": false,
+            "global_originality_assessed": false,
+            "readable_excerpts": 0
+          },
+          "next_step": "No external excerpts available. Compare supported site observations and mark independent corroboration unknown."
+        }
+      }
+    },
+    {
+      "tool": "content_decision_history",
+      "arguments": {
+        "record_id": "research-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+      },
+      "result": {
+        "record_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "objective": "new_blog",
+        "execution_state": "prepared_not_executed",
+        "post_ids": [],
+        "blog_plan": {
+          "ideas": [
+            {
+              "title": "What to tell a bicycle workshop about a recurring flat tire",
+              "reader_task": "Help a bike owner describe the recurring problem before a repair visit",
+              "source_post_id": 100,
+              "source_evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "overlap": "No existing post solves this preparation task in the complete fixture inventory.",
+              "demand": "unknown"
+            }
+          ],
+          "gsc": {
+            "status": "not_connected",
+            "rows": []
+          },
+          "scope": {
+            "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+            "freshness": {
+              "status": "source_hashes_match"
+            },
+            "sources": [
+              {
+                "post_id": 100,
+                "title": "Bicycle puncture repair",
+                "url": "https://fixture.invalid/puncture-repair/",
+                "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                "coverage": "stored_content",
+                "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+              }
+            ],
+            "context": {
+              "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+            },
+            "audience": "Local bicycle owners",
+            "excluded_topics": [
+              "motor vehicles",
+              "medical advice"
+            ],
+            "scope_saved": true
+          }
+        }
+      }
+    },
+    {
+      "tool": "content_decision_history",
+      "arguments": {},
+      "result": {
+        "record_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "objective": "new_blog",
+        "execution_state": "prepared_not_executed",
+        "post_ids": [],
+        "blog_plan": {
+          "ideas": [
+            {
+              "title": "What to tell a bicycle workshop about a recurring flat tire",
+              "reader_task": "Help a bike owner describe the recurring problem before a repair visit",
+              "source_post_id": 100,
+              "source_evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "overlap": "No existing post solves this preparation task in the complete fixture inventory.",
+              "demand": "unknown"
+            }
+          ],
+          "gsc": {
+            "status": "not_connected",
+            "rows": []
+          },
+          "scope": {
+            "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+            "freshness": {
+              "status": "source_hashes_match"
+            },
+            "sources": [
+              {
+                "post_id": 100,
+                "title": "Bicycle puncture repair",
+                "url": "https://fixture.invalid/puncture-repair/",
+                "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                "coverage": "stored_content",
+                "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+              }
+            ],
+            "context": {
+              "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+            },
+            "audience": "Local bicycle owners",
+            "excluded_topics": [
+              "motor vehicles",
+              "medical advice"
+            ],
+            "scope_saved": true
+          }
+        }
+      }
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

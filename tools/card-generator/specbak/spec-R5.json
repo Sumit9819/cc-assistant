@@ -1,0 +1,902 @@
+{
+  "_note": "Replacement batch R5, the last three: 10191, 10043, 9871. Positional swaps. On 10191 the comparison drops the post's 'who tends to prefer it' row, which is subjective and covered by the choosing section; the five factual rows are kept.",
+  "cards": [
+    {
+      "file": "three-hormone-delivery-methods",
+      "post_id": 10191,
+      "layout": "icons",
+      "subject": "hormone therapy",
+      "heading": "How Hormone Pellets, Injections, and Creams Work",
+      "title": [
+        "Three Ways to Deliver ",
+        "Hormone Therapy",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone pellets sit under the hip skin for 3 to 6 months, injections dose weekly to biweekly, creams absorb daily",
+      "items": [
+        {
+          "icon": "circle-dot",
+          "label": "Pellets",
+          "note": "Rice-sized, under the hip, 3 to 6 months"
+        },
+        {
+          "icon": "syringe",
+          "label": "Injections",
+          "note": "A depot into muscle or fat, weekly"
+        },
+        {
+          "icon": "droplet",
+          "label": "Creams and gels",
+          "note": "Absorbed through the skin, daily"
+        }
+      ]
+    },
+    {
+      "file": "hormone-delivery-compared",
+      "post_id": 10191,
+      "layout": "compare",
+      "subject": "hormone",
+      "heading": "Pellets vs Injections vs Creams: Comparison Chart",
+      "title": [
+        "Hormone",
+        " Pellets vs Injections vs Creams",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Pellets, injections and creams compared on dosing rhythm, level stability, adjustability, procedure and common friction",
+      "columns": [
+        "Pellets",
+        "Injections",
+        "Creams"
+      ],
+      "rows": [
+        {
+          "label": "Dosing rhythm",
+          "values": [
+            "Every 3 to 6 months",
+            "Weekly to biweekly",
+            "Daily"
+          ]
+        },
+        {
+          "label": "Level stability",
+          "values": [
+            "Steadiest, no swings",
+            "Peak, then trough",
+            "Steady if consistent"
+          ]
+        },
+        {
+          "label": "Adjustability",
+          "values": [
+            "Lowest, fixed once in",
+            "High, any dose",
+            "Highest, day to day"
+          ]
+        },
+        {
+          "label": "Procedure",
+          "values": [
+            "Minor insertion",
+            "A needle stick",
+            "None"
+          ]
+        },
+        {
+          "label": "Common friction",
+          "values": [
+            "Site soreness",
+            "Dips before the next dose",
+            "Skipped days, transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "hormone-pellets-pros-and-cons",
+      "post_id": 10191,
+      "layout": "checklist",
+      "subject": "hormone pellets",
+      "heading": "Hormone Pellet Therapy: Pros and Cons",
+      "title": [
+        "Hormone Pellets",
+        ": Pros and Cons",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone pellets give steady levels with no shot day, but the dose is fixed until the pellet dissolves",
+      "good": {
+        "icon": "circle-check",
+        "heading": "In their favour",
+        "items": [
+          "No cycle, no shot day",
+          "No pre-dose slump",
+          "Nothing to remember daily"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "The trade-off",
+        "items": [
+          "Dose fixed until it dissolves",
+          "No simple way to dial it back",
+          "Conservative dosing from labs matters most"
+        ]
+      }
+    },
+    {
+      "file": "hormone-injections-pros-and-cons",
+      "post_id": 10191,
+      "layout": "checklist",
+      "subject": "hormone injections",
+      "heading": "Hormone Injections: Pros and Cons",
+      "title": [
+        "Hormone Injections",
+        ": Pros and Cons",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone injections are inexpensive and easy to fine-tune, but levels wave between doses and some feel the trough",
+      "good": {
+        "icon": "circle-check",
+        "heading": "In their favour",
+        "items": [
+          "Inexpensive",
+          "FDA-approved forms available",
+          "Easy to fine-tune at 6-week labs"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "The trade-off",
+        "items": [
+          "Levels wave between doses",
+          "Fatigue or irritability at the trough",
+          "Splitting doses flattens it, for many"
+        ]
+      }
+    },
+    {
+      "file": "hormone-creams-pros-and-cons",
+      "post_id": 10191,
+      "layout": "checklist",
+      "subject": "hormone creams",
+      "heading": "Hormone Creams and Gels: Pros and Cons",
+      "title": [
+        "Hormone Creams",
+        " and Gels: Pros and Cons",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hormone creams give the most physiologic rhythm and are easiest to adjust, but absorption varies and residue transfers",
+      "good": {
+        "icon": "circle-check",
+        "heading": "In their favour",
+        "items": [
+          "The most physiologic rhythm",
+          "Easiest to stop or adjust",
+          "Suits starting low and slow"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "The trade-off",
+        "items": [
+          "Absorption varies day to day",
+          "Missed days show as symptom swings",
+          "Residue can transfer by skin contact"
+        ]
+      }
+    },
+    {
+      "file": "compounded-vs-fda-approved-hormones",
+      "post_id": 10191,
+      "layout": "list",
+      "subject": "hormone",
+      "heading": "Compounded vs FDA-Approved Hormones: What Medical Societies Say",
+      "title": [
+        "Compounded vs FDA-Approved ",
+        "Hormone",
+        "s"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Endocrine Society and ACOG recommend FDA-approved hormone formulations where one exists; ask about dosing and rechecks",
+      "items": [
+        {
+          "icon": "shield-check",
+          "label": "FDA-approved first",
+          "note": "Endocrine Society and ACOG, where one exists"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "The pellet criticism",
+          "note": "Targets unmonitored dosing, not the method"
+        },
+        {
+          "icon": "clipboard-list",
+          "label": "Ask three things",
+          "note": "Formulation, starting dose, recheck schedule"
+        }
+      ]
+    },
+    {
+      "file": "world-cup-heat-risk-factors",
+      "post_id": 10043,
+      "layout": "list",
+      "subject": "heat",
+      "heading": "Why Is Heat Illness a Real Risk at Arlington's World Cup Matches?",
+      "title": [
+        "Why World Cup ",
+        "Heat",
+        " Risk Is Real in Arlington"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Arlington heat risk: visitors arrive unacclimatised, pavement runs 30 to 60F hotter, and match day is 5 to 7 hours outdoors",
+      "items": [
+        {
+          "icon": "plane",
+          "label": "Not acclimatised",
+          "note": "Acclimatising takes 7 to 14 days"
+        },
+        {
+          "icon": "thermometer-sun",
+          "label": "Pavement heat",
+          "note": "30F to 60F hotter than the air"
+        },
+        {
+          "icon": "clock-3",
+          "label": "5 to 7 hours",
+          "note": "Tailgate, walk-in, match, walk-out"
+        }
+      ]
+    },
+    {
+      "file": "earliest-signs-of-dehydration-matchday",
+      "post_id": 10043,
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "What Are the Earliest Signs of Dehydration?",
+      "title": [
+        "Earliest Signs of ",
+        "Dehydration",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Earliest dehydration signs: persistent thirst, dry mouth, dark urine, headache, dizziness on standing, muscle cramps",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Persistent thirst",
+          "note": "By then you are already behind"
+        },
+        {
+          "icon": "frown",
+          "label": "Dry mouth",
+          "note": "Or dry lips"
+        },
+        {
+          "icon": "beaker",
+          "label": "Dark urine",
+          "note": "Darker than pale yellow"
+        },
+        {
+          "icon": "brain",
+          "label": "Headache",
+          "note": "Often with lightheadedness"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Dizzy standing",
+          "note": "And fatigue out of proportion"
+        },
+        {
+          "icon": "dumbbell",
+          "label": "Muscle cramps",
+          "note": "Legs or abdomen"
+        }
+      ]
+    },
+    {
+      "file": "heat-exhaustion-vs-heat-stroke",
+      "post_id": 10043,
+      "layout": "compare",
+      "subject": "heat",
+      "heading": "How Do I Tell Heat Exhaustion from Heat Stroke?",
+      "title": [
+        "Heat",
+        " Exhaustion vs Heat Stroke",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Heat exhaustion means heavy sweating and an alert person; heat stroke means confusion and over 103F, and needs 911",
+      "columns": [
+        "Heat exhaustion",
+        "Heat stroke"
+      ],
+      "rows": [
+        {
+          "label": "Skin",
+          "values": [
+            "Heavy sweating, cool and clammy",
+            "Hot and red, dry or moist"
+          ]
+        },
+        {
+          "label": "Mental state",
+          "values": [
+            "Alert, able to talk to you",
+            "Confused, slurred, or unresponsive"
+          ]
+        },
+        {
+          "label": "Temperature",
+          "values": [
+            "Raised but under 103F",
+            "103F or higher"
+          ]
+        },
+        {
+          "label": "What to do",
+          "values": [
+            "Shade, cool sips, wet cloths",
+            "Call 911 first, then cool them"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "world-cup-matchday-heat-kit",
+      "post_id": 10043,
+      "layout": "list",
+      "subject": "heat",
+      "heading": "What Should I Bring to a World Cup Match in Arlington?",
+      "title": [
+        "A World Cup ",
+        "Heat",
+        " Kit for Arlington"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Match day heat kit: water bottle, electrolytes, wide-brim hat, SPF 30 or higher, a battery fan and a cooling towel",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Water bottle",
+          "note": "Check the stadium's allowed type first"
+        },
+        {
+          "icon": "waves",
+          "label": "Electrolytes",
+          "note": "Sodium, potassium, magnesium"
+        },
+        {
+          "icon": "shirt",
+          "label": "Hat and loose kit",
+          "note": "Light colours, breathable fabric"
+        },
+        {
+          "icon": "sun",
+          "label": "SPF 30 or higher",
+          "note": "Reapplied every two hours"
+        },
+        {
+          "icon": "sliders-horizontal",
+          "label": "Battery fan",
+          "note": "And a cooling towel for the neck"
+        },
+        {
+          "icon": "apple",
+          "label": "Salty snacks",
+          "note": "Pretzels or trail mix"
+        }
+      ]
+    },
+    {
+      "file": "matchday-hydration-schedule",
+      "post_id": 10043,
+      "layout": "steps",
+      "subject": "hydration",
+      "heading": "How Much Water Do I Actually Need During a World Cup Match Day?",
+      "title": [
+        "Match Day ",
+        "Hydration",
+        " Schedule"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Match day hydration: 16 to 24 ounces two hours before, 4 to 8 ounces every 15 minutes during, 80 to 120 ounces total",
+      "steps": [
+        {
+          "icon": "clock-3",
+          "label": "Two hours before",
+          "note": "16 to 24 ounces, start hydrated"
+        },
+        {
+          "icon": "droplets",
+          "label": "Every 15 minutes",
+          "note": "4 to 8 ounces through the day"
+        },
+        {
+          "icon": "waves",
+          "label": "80 to 120 oz total",
+          "note": "Water alone is not enough past two hours"
+        }
+      ]
+    },
+    {
+      "file": "feeling-sick-at-the-stadium",
+      "post_id": 10043,
+      "layout": "steps",
+      "subject": "heat",
+      "heading": "What Should I Do If I Feel Sick at the Stadium or FanFest?",
+      "title": [
+        "If ",
+        "Heat",
+        " Hits You at the Stadium"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "If heat hits at the stadium: get to air conditioning, sip cool water with electrolytes, cool the neck and wrists",
+      "steps": [
+        {
+          "icon": "door-open",
+          "label": "Get inside",
+          "note": "The concourses are air-conditioned"
+        },
+        {
+          "icon": "droplet",
+          "label": "Sip and cool",
+          "note": "Cool water with electrolytes, wet cloth"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Reassess",
+          "note": "No better in 15 to 30 minutes, get help"
+        }
+      ]
+    },
+    {
+      "file": "er-vs-urgent-care-vs-hydration-clinic",
+      "post_id": 10043,
+      "layout": "compare",
+      "subject": "heat",
+      "heading": "When Should I Go to the ER vs Urgent Care vs a Hydration Clinic?",
+      "title": [
+        "Where to Go for ",
+        "Heat",
+        " Illness"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Call 911 for confusion or over 103F, urgent care for heat exhaustion not improving in 30 minutes, IV clinic for mild recovery",
+      "columns": [
+        "ER or 911",
+        "Urgent care",
+        "Hydration clinic"
+      ],
+      "rows": [
+        {
+          "label": "Go if",
+          "values": [
+            "Confusion or collapse",
+            "Not improving in 30 minutes",
+            "Mild, and thinking clearly"
+          ]
+        },
+        {
+          "label": "Signs",
+          "values": [
+            "Over 103F, chest pain, seizure",
+            "Persistent nausea, severe cramps",
+            "Wrung out after a long day"
+          ]
+        },
+        {
+          "label": "Also",
+          "values": [
+            "Any of it in under-4s or over-65s",
+            "Mild confusion clearing in AC",
+            "You can drink and walk"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "seven-questions-weight-loss-clinic",
+      "post_id": 9871,
+      "layout": "numbered",
+      "subject": "weight loss clinic",
+      "heading": "Why Picking the Right Clinic Matters",
+      "title": [
+        "Seven Questions for a ",
+        "Weight Loss Clinic",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Seven questions to ask a weight loss clinic, covering credentials, bloodwork, medication source, pricing and maintenance",
+      "items": [
+        "Are the providers board-certified?",
+        "Does it start with bloodwork?",
+        "FDA-approved GLP-1, or compounded?",
+        "Is pricing transparent?",
+        "Is there a written maintenance plan?",
+        "How are results measured?",
+        "How is this different from a diet?"
+      ]
+    },
+    {
+      "file": "clinic-provider-credentials",
+      "post_id": 9871,
+      "layout": "icons",
+      "subject": "weight loss clinic",
+      "heading": "Question 1: Are the Providers Board-Certified?",
+      "title": [
+        "Credentials at a ",
+        "Weight Loss Clinic",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "A weight loss clinic's prescriber should be a board-certified MD, DO or NP, verifiable on the state medical board",
+      "items": [
+        {
+          "icon": "stethoscope",
+          "label": "MD, DO or NP",
+          "note": "Not a weekend-course certificate"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Board-certified",
+          "note": "Weight loss is medicine, not coaching"
+        },
+        {
+          "icon": "clipboard-list",
+          "label": "Verify it",
+          "note": "On the state medical board website"
+        }
+      ]
+    },
+    {
+      "file": "clinic-bloodwork-panel",
+      "post_id": 9871,
+      "layout": "list",
+      "subject": "weight loss clinic",
+      "heading": "Question 2: Does the Program Start with Bloodwork?",
+      "title": [
+        "Labs a ",
+        "Weight Loss Clinic",
+        " Should Run First"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Before prescribing, a clinic should run a thyroid panel, fasting insulin, HbA1c and a hormone panel",
+      "items": [
+        {
+          "icon": "stethoscope",
+          "label": "Thyroid panel",
+          "note": "Low thyroid holds weight on"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Fasting insulin",
+          "note": "Catches insulin resistance"
+        },
+        {
+          "icon": "beaker",
+          "label": "HbA1c",
+          "note": "Three months of blood sugar"
+        },
+        {
+          "icon": "activity",
+          "label": "Hormone panel",
+          "note": "Perimenopause, cortisol, sex hormones"
+        }
+      ]
+    },
+    {
+      "file": "fda-approved-vs-compounded-glp1",
+      "post_id": 9871,
+      "layout": "checklist",
+      "subject": "GLP-1",
+      "heading": "Question 3: Is the GLP-1 FDA-Approved or Compounded?",
+      "title": [
+        "FDA-Approved vs Compounded ",
+        "GLP-1",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "FDA-approved GLP-1 means Ozempic, Mounjaro or Wegovy; compounded versions vary in active form, concentration and fillers",
+      "good": {
+        "icon": "circle-check",
+        "heading": "FDA-approved",
+        "items": [
+          "Ozempic, Mounjaro, Wegovy",
+          "Consistent active form and dose",
+          "Ask for the answer in writing"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "Compounded",
+        "items": [
+          "Different active forms",
+          "Different concentrations and fillers",
+          "The FDA publishes safety alerts"
+        ]
+      }
+    },
+    {
+      "file": "clinic-pricing-questions",
+      "post_id": 9871,
+      "layout": "list",
+      "subject": "weight loss clinic",
+      "heading": "Question 4: Is Pricing Transparent or Hidden?",
+      "title": [
+        "Pricing Questions for a ",
+        "Weight Loss Clinic",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Ask a weight loss clinic the monthly cost, what it includes, what costs extra, and whether there is a contract",
+      "items": [
+        {
+          "icon": "wallet",
+          "label": "Monthly cost",
+          "note": "Stated in the first conversation"
+        },
+        {
+          "icon": "clipboard-list",
+          "label": "What it includes",
+          "note": "Visits, medication, follow-up"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "What costs extra",
+          "note": "Bloodwork, scans, supplements"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Contract terms",
+          "note": "Or month-to-month billing"
+        }
+      ]
+    },
+    {
+      "file": "clinic-maintenance-plan",
+      "post_id": 9871,
+      "layout": "list",
+      "subject": "weight loss clinic",
+      "heading": "Question 5: Is There a Written Maintenance Plan?",
+      "title": [
+        "The Maintenance Plan a ",
+        "Weight Loss Clinic",
+        " Owes You"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "A written maintenance plan should cover dose tapering, what happens when medication stops, habit anchors and check-ins",
+      "items": [
+        {
+          "icon": "trending-down",
+          "label": "Dose taper",
+          "note": "How, and over what period"
+        },
+        {
+          "icon": "door-open",
+          "label": "After the medication",
+          "note": "What the plan is when it stops"
+        },
+        {
+          "icon": "recycle",
+          "label": "Habit anchors",
+          "note": "Built before you exit, not after"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Check-in cadence",
+          "note": "How often during maintenance"
+        }
+      ]
+    },
+    {
+      "file": "how-clinics-measure-results",
+      "post_id": 9871,
+      "layout": "list",
+      "subject": "weight loss clinic",
+      "heading": "Question 6: How Are Results Measured?",
+      "title": [
+        "How a ",
+        "Weight Loss Clinic",
+        " Should Measure Results"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Real programs track body composition, waist circumference, resting metabolic rate and bloodwork, not scale weight alone",
+      "items": [
+        {
+          "icon": "scale",
+          "label": "Body composition",
+          "note": "Lean mass against fat mass"
+        },
+        {
+          "icon": "ruler-dimension-line",
+          "label": "Waist",
+          "note": "A signal the scale misses"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Resting metabolic rate",
+          "note": "Whether your burn is holding up"
+        },
+        {
+          "icon": "beaker",
+          "label": "Bloodwork",
+          "note": "Insulin, HbA1c, lipids over time"
+        }
+      ]
+    },
+    {
+      "file": "medical-program-vs-diet",
+      "post_id": 9871,
+      "layout": "compare",
+      "subject": "weight loss",
+      "heading": "Question 7: How Is the Program Different from a Diet?",
+      "title": [
+        "A Medical Programme vs a Diet for ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "A diet targets calories; a medical weight loss programme tests for and treats the metabolic blocks that make restriction fail",
+      "columns": [
+        "A diet",
+        "A medical programme"
+      ],
+      "rows": [
+        {
+          "label": "Targets",
+          "values": [
+            "Calories",
+            "The metabolic blocks underneath"
+          ]
+        },
+        {
+          "label": "The answer you want",
+          "values": [
+            "\"Eat less, move more\"",
+            "\"We test, treat the cause, and adjust\""
+          ]
+        },
+        {
+          "label": "Warning sign",
+          "values": [
+            "No testing at all",
+            "\"We just give you GLP-1\""
+          ]
+        }
+      ]
+    },
+    {
+      "file": "weight-loss-clinic-red-flags",
+      "post_id": 9871,
+      "layout": "list",
+      "subject": "weight loss clinic",
+      "heading": "Red Flags to Walk Away From",
+      "title": [
+        "Red Flags at a ",
+        "Weight Loss Clinic",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Weight loss clinic red flags: promised numbers, hidden pricing, no bloodwork, long contracts and stock photos, no credentials",
+      "items": [
+        {
+          "icon": "triangle-alert",
+          "label": "Promised numbers",
+          "note": "\"Lose 30 lbs in 30 days\""
+        },
+        {
+          "icon": "wallet",
+          "label": "Hidden pricing",
+          "note": "A paid consult with no cost stated first"
+        },
+        {
+          "icon": "ban",
+          "label": "No bloodwork",
+          "note": "Prescribing before testing"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Long contracts",
+          "note": "Pushed rather than offered"
+        },
+        {
+          "icon": "users",
+          "label": "Stock photos",
+          "note": "And no provider credentials on the site"
+        }
+      ]
+    }
+  ]
+}

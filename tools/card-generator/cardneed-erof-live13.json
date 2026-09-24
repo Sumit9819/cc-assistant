@@ -1,0 +1,5615 @@
+[
+  {
+    "id": 3850,
+    "title": "Workplace Injuries in Las Colinas: Your Immediate Guide to Care and Recovery",
+    "have": 0,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Immediate Action Matters After a Workplace Injury",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "First Steps: What to Do the Moment an Injury Occurs",
+        "decision": true,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Handling Industrial Accidents in Las Colinas",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Common Office-Related Emergencies",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Coordination with Workers\u2019 Comp: Navigating the Process",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Visit the ER vs. Urgent Care",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Need Immediate Care for a Workplace Injury?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3875,
+    "title": "Why a Standalone ER is Faster for Busy Irving Families",
+    "have": 1,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 5,
+    "detail": [
+      {
+        "heading": "What Is a Freestanding Emergency Room?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What a Freestanding ER Can Treat",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "When Should You Go to the ER?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What to Expect During Your Visit",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3879,
+    "title": "Emergency Room vs. 24-Hour Pharmacy: Where to Go?",
+    "have": 1,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "The 24-Hour Pharmacy: Your Resource for Minor Relief",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When You Need More Than a Prescription",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Signs You Need a Doctor Right Now",
+        "decision": true,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Why Choosing an Emergency Room Saves Vital Time",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What an Emergency Room Can Do That a Pharmacy Cannot",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "When It\u2019s More Than a Prescription, Trust ER of Irving",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3979,
+    "title": "24-Hour ER in Irving: 8 Emergencies That Can't Wait",
+    "have": 1,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "1. Stroke Symptoms (Face, Arm, Speech, Time)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "2. Heart Attack Signs",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "3. Severe Allergic Reaction (Anaphylaxis)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "4. High Fever in Babies and Young Children",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "5. Severe Abdominal Pain",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "6. Sudden Severe Headache",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "7. Difficulty Breathing",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "8. Deep Cuts and Broken Bones",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Why a 24-Hour ER (Not Calling 911 Tomorrow)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 4008,
+    "title": "Surviving the Texas Summer: A World Cup Fan\u2019s Guide to Preventing Heat Stroke and Dehydration",
+    "have": 1,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Welcome to Texas: Preparing for the Summer Heat at the 2026 World Cup",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Understanding Heat-Related Illnesses: Heat Exhaustion vs. Heat Stroke",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Don\u2019t Let Dehydration Ruin the Match: Spotting the Signs Early",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Proactive Cooling: Tips for the Stadium and Fan Zone",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Fast Relief at the ER of Irving: When to Seek Medical Help",
+        "decision": true,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3081,
+    "title": "Can ER Do X-Rays? Your Guide to X-Ray Services in Irving, TX",
+    "have": 2,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 2,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Do ERs Do X-Rays? The Short Answer",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Do Emergency Rooms Have X-Rays On-Site?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Does ER Have X-Ray Services for All Conditions?",
+        "decision": true,
+        "visual": "photo",
+        "enum": "list",
+        "impr": 1,
+        "queries": [
+          [
+            1,
+            "does er have mri",
+            57
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "What Can Emergency Room X-Rays Detect?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 1,
+        "queries": [
+          [
+            1,
+            "emergency room xray",
+            24
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "What to Expect When Getting an X-Ray at the Emergency Room",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Choose the Emergency Room for an X-Ray",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Visit the ER of Irving for Fast X-ray services in Irving, TX",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3796,
+    "title": "Heat Stroke vs. Heat Exhaustion: Knowing the Difference in Irving, TX",
+    "have": 1,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Heat Safety Matters in Irving",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What is Heat Exhaustion? Recognizing the Early Warning Signs",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": "Heat Exhaustion vs Heat Stroke: Symptom Comparison Chart",
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "What is Heat Stroke? A Life-Threatening Emergency",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": "Heat Exhaustion vs Heat Stroke: Symptom Comparison Chart",
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Heat Exhaustion vs Heat Stroke: Symptom Comparison Chart",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What To Do Right Now: First Aid by Severity",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Who is Most at Risk in the Texas Heat?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don't Guess With Heat Illness. Get Emergency Care Fast",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3894,
+    "title": "Sudden Chest Pressure: When it\u2019s Not Just Heartburn",
+    "have": 1,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 3,
+    "detail": [
+      {
+        "heading": "Distinguishing GERD from Cardiac Events",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Recognizing Heart Attack Symptoms: More Than Just \"Chest Pain\"",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Don't Second-Guess Your Heart Health",
+        "decision": true,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      }
+    ]
+  },
+  {
+    "id": 3978,
+    "title": "Chest Pain: Muscular, Lung, or Heart? Key Differences",
+    "have": 2,
+    "need": 2,
+    "rank_only": 2,
+    "impr": 2035,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Chest Pain Is Hard to Diagnose at Home",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 1808,
+        "queries": [
+          [
+            1192,
+            "chest muscle pain",
+            7.5
+          ],
+          [
+            273,
+            "musculoskeletal chest pain",
+            11.6
+          ],
+          [
+            174,
+            "muscle chest pain",
+            7.2
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Muscular Chest Pain: How It Feels",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 759,
+        "queries": [
+          [
+            370,
+            "how to tell if chest pain is muscular or heart",
+            3.1
+          ],
+          [
+            241,
+            "muscular chest pain vs heart pain",
+            9.4
+          ],
+          [
+            148,
+            "how to know if chest pain is muscular",
+            6.3
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": "4 Key Differences That Help You Decide",
+        "candidate": true,
+        "why": "rank"
+      },
+      {
+        "heading": "Lung-Related Chest Pain: Pleurisy, Pneumonia, and PE",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": "4 Key Differences That Help You Decide",
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Heart-Related Chest Pain: Heart Attack, Angina, Pericarditis",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 1276,
+        "queries": [
+          [
+            437,
+            "how to tell if chest pain is heart or muscle",
+            3.1
+          ],
+          [
+            402,
+            "how to tell if chest pain is muscle or heart",
+            5.2
+          ],
+          [
+            230,
+            "how to tell if chest pain is muscular or heart-related",
+            3.6
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": "4 Key Differences That Help You Decide",
+        "candidate": true,
+        "why": "rank"
+      },
+      {
+        "heading": "4 Key Differences That Help You Decide",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Red Flags That Need Emergency Care",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "How ER of Irving Tells Them Apart",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 2780,
+    "title": "Emergency Room of Irving, TX vs. Urgent Care: What\u2019s the Difference?",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 9,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "When should you go to the emergency room?",
+        "decision": true,
+        "visual": "photo",
+        "enum": "list",
+        "impr": 9,
+        "queries": [
+          [
+            5,
+            "irving emergency room",
+            10
+          ],
+          [
+            4,
+            "emergency room",
+            9.8
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": "ER or urgent care in Irving: a side by side look",
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "When is urgent care the right choice?",
+        "decision": true,
+        "visual": "card",
+        "enum": null,
+        "impr": 2,
+        "queries": [
+          [
+            1,
+            "urgent care cost",
+            6
+          ],
+          [
+            1,
+            "emergency or urgent care",
+            28
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": "ER or urgent care in Irving: a side by side look",
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What if it is late at night or on a weekend?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "ER or urgent care in Irving: a side by side look",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "impr": 193,
+        "queries": [
+          [
+            83,
+            "urgent care irving tx",
+            9.0
+          ],
+          [
+            63,
+            "er of irving",
+            1.8
+          ],
+          [
+            10,
+            "urgent care irving, tx",
+            9.7
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "What is a freestanding emergency room?",
+        "decision": false,
+        "visual": "photo",
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": "ER or urgent care in Irving: a side by side look",
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What does an emergency visit cost in Irving?",
+        "decision": true,
+        "visual": "card",
+        "enum": null,
+        "impr": 1,
+        "queries": [
+          [
+            1,
+            "emergency treatment irving",
+            16
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently asked questions",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3091,
+    "title": "IV for Dehydration: When You Need Hydration",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 12,
+    "detail": [
+      {
+        "heading": "What Is IV Hydration?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 692,
+        "queries": [
+          [
+            340,
+            "iv bags for hydration",
+            9.3
+          ],
+          [
+            124,
+            "iv fluid hydration",
+            5.6
+          ],
+          [
+            115,
+            "hydration iv",
+            8.5
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "When Do I Need an IV for Dehydration?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 1420,
+        "queries": [
+          [
+            456,
+            "iv fluid for dehydration",
+            2.7
+          ],
+          [
+            404,
+            "iv drip for dehydration",
+            3.9
+          ],
+          [
+            304,
+            "iv therapy for dehydration",
+            4.2
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "How to Tell If You Need an IV for Dehydration",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What IV Is Given for Dehydration? The 4 Main Types",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 310,
+        "queries": [
+          [
+            310,
+            "what are the 4 main types of iv fluids",
+            8.0
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "How Long Does IV Hydration Last?",
+        "decision": true,
+        "visual": "card",
+        "enum": "figures",
+        "impr": 113,
+        "queries": [
+          [
+            113,
+            "how long does an iv take",
+            10.3
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "IV Fluids for Dehydration: How Many Bags?",
+        "decision": false,
+        "visual": "photo",
+        "enum": null,
+        "impr": 4502,
+        "queries": [
+          [
+            2037,
+            "iv fluids for dehydration",
+            4.7
+          ],
+          [
+            752,
+            "iv fluids",
+            8.6
+          ],
+          [
+            635,
+            "iv fluids for dehydration in adults",
+            2.6
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "Common Conditions That Cause Dehydration",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Which IV Is Best for Hydration?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "World Cup 2026: A Hydration Game Plan for the Texas Heat",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What to Expect During IV Hydration at the ER",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Not an emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      }
+    ]
+  },
+  {
+    "id": 3097,
+    "title": "Slipping Rib Syndrome: Symptoms, Causes, and Treatment",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "Slipping Rib Syndrome: Symptoms, Causes, and Treatment",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What Is Slipping Rib Syndrome?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What Are the Symptoms of Slipping Rib Syndrome?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Which Ribs Are Affected by Slipped Rib Syndrome?",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 865,
+        "queries": [
+          [
+            581,
+            "slipped rib syndrome",
+            4.7
+          ],
+          [
+            226,
+            "slipped rib",
+            8.8
+          ],
+          [
+            58,
+            "how to fix a slipped rib",
+            4.7
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "What Causes Slipping Rib Syndrome?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Who Is at Risk for Slipping Rib Syndrome?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How Is Slipping Rib Syndrome Diagnosed?",
+        "decision": true,
+        "visual": "photo",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Treatment Options for Slipping Rib Syndrome?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Can You Prevent Slipping Rib Syndrome?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When Should You Seek Medical Attention?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3201,
+    "title": "Recognizing the Signs of Dehydration: A Complete Guide",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 18,
+    "detail": [
+      {
+        "heading": "What Is Dehydration?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "10 Warning Signs of Dehydration:",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 123913,
+        "queries": [
+          [
+            77047,
+            "signs of dehydration in adults",
+            9.4
+          ],
+          [
+            27675,
+            "signs of dehydration",
+            10.1
+          ],
+          [
+            9987,
+            "10 signs of dehydration",
+            5.7
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "1. Excessive Thirst",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "2. Dry Mouth and Chapped Lips",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "3. Dark Yellow Urine",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "4. Reduced Urination",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "5. Fatigue and Weakness",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "6. Dizziness or Lightheadedness",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "7. Muscle Cramps or Spasms",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "8. Dry, Flaky Skin",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "9. Rapid Heartbeat or Breathing",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "10. Confusion or Irritability",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What Happens If You Are Dehydrated?",
+        "decision": true,
+        "visual": "photo",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "How Is Dehydration Evaluated?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Prevention Tips: How to Stay Hydrated",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "IV for Dehydration: A Lifesaving Solution",
+        "decision": false,
+        "visual": "photo",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Seek Help: Emergency Care for Dehydration",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs About Dehydration",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3792,
+    "title": "Snake Bites in North Texas: A Homeowner\u2019s Guide to Safety and Care",
+    "have": 1,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Understanding the Risk: Common Venomous Snakes in North Texas",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 2,
+        "queries": [
+          [
+            1,
+            "venomous snakes in north texas",
+            1
+          ],
+          [
+            1,
+            "north texas venomous snakes",
+            4
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Identifying a Snake Bite: What to Look For",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 36,
+        "queries": [
+          [
+            22,
+            "snake bite treatment",
+            2
+          ],
+          [
+            6,
+            "what does a snake bite look like",
+            3
+          ],
+          [
+            3,
+            "texas snake bite",
+            11.7
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Immediate First Aid: The \"Dos\" and \"Don\u2019ts\"",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Seek Emergency Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Preventing Snake Encounters Around Your North Texas Home",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 11,
+        "queries": [
+          [
+            10,
+            "snake bites in texas",
+            14.7
+          ],
+          [
+            1,
+            "poisonous snake in texas",
+            21
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Think it might be a snake bite? Don\u2019t wait.",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3867,
+    "title": "Carbon Monoxide Poisoning: The Invisible Winter Threat",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What is Carbon Monoxide and Why is it the \"Silent Killer\"?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 134,
+        "queries": [
+          [
+            123,
+            "carbon monoxide detector",
+            1
+          ],
+          [
+            11,
+            "carbon monoxide headache",
+            15.2
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Dizziness and Flu-like Symptoms: Recognizing Carbon Monoxide Poisoning",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 458,
+        "queries": [
+          [
+            119,
+            "cdc carbon monoxide poisoning symptoms headache dizziness nausea",
+            8.7
+          ],
+          [
+            47,
+            "cdc carbon monoxide poisoning symptoms headache dizziness official",
+            8.6
+          ],
+          [
+            42,
+            "cdc carbon monoxide poisoning symptoms what to do immediately",
+            7.6
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Why CO Detectors Save Lives",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "High-Risk Groups: Protecting the Most Vulnerable",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Oxygen Therapy in the ER: What to Expect During Treatment",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Immediate Steps: What to Do in an Emergency",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Prevention Checklist: A Safer Home This Winter",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Suspect Carbon Monoxide Exposure? Get Emergency Care Immediately at the ER of Irving",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3871,
+    "title": "Summer Safety: Near-Drowning and \"Dry Drowning\"",
+    "have": 1,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Water Safety is Top of Mind This Summer",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Understanding Submersion Injuries: What Is \"Near Drowning\"?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 132,
+        "queries": [
+          [
+            44,
+            "near drowning definition",
+            6.0
+          ],
+          [
+            29,
+            "near drowning meaning",
+            5.3
+          ],
+          [
+            19,
+            "near fatal drowning",
+            11.4
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Debunking the Myths: \"Dry Drowning\" vs. Secondary Drowning",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 86,
+        "queries": [
+          [
+            41,
+            "secondary drowning",
+            1.7
+          ],
+          [
+            36,
+            "dry drowning",
+            2.1
+          ],
+          [
+            9,
+            "symptoms of dry drowning",
+            9.9
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Essential Near Drowning Symptoms to Watch For",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 401,
+        "queries": [
+          [
+            243,
+            "near drowning symptoms",
+            6.7
+          ],
+          [
+            93,
+            "drowning symptoms",
+            6.3
+          ],
+          [
+            26,
+            "symptoms of near drowning",
+            5.7
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Water Safety for Irving Pools: Preventing Accidents Before They Happen",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Seek Help: Immediate ER Evaluation",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Worried After a Water Incident? Get an Immediate Evaluation at the ER of Irving",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3882,
+    "title": "Severe Burns: Assessing 1st, 2nd, and 3rd Degree",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Understanding Burn Severity: More Than Just Redness",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Household Burn Hazards You Should Know",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Immediate First Aid: What to Do (And What to Avoid)",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Seek Professional Wound Care and Burn Treatment: ER Services",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Preventing Infection in Severe Burns During Recovery",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 56,
+        "queries": [
+          [
+            56,
+            "burns",
+            3.3
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don't Wait \u2013 Get Expert Burn Care at ER of Irving",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3918,
+    "title": "Gout Attacks: When Joint Pain Becomes Unbearable",
+    "have": 2,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 65,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Understanding the Sudden \"Lightning Bolt\" of Gout",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Why Gout Usually Hits at Night",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 65,
+        "queries": [
+          [
+            24,
+            "why is gout worse at night",
+            11.9
+          ],
+          [
+            24,
+            "gout sweating at night",
+            7.4
+          ],
+          [
+            9,
+            "gout worse at night",
+            18.1
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Rapid Relief for Toe and Joint Pain",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Distinguishing Gout from Infection",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Seek Professional Help: Gout Attack ER vs. Urgent Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 104,
+        "queries": [
+          [
+            35,
+            "urgent care for gout",
+            23.1
+          ],
+          [
+            20,
+            "gout urgent care",
+            26.6
+          ],
+          [
+            19,
+            "when to go to er for gout",
+            6.6
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Long-Term Management: Moving Beyond the \"Flare\"",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don\u2019t Suffer Through the Night Alone",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 4011,
+    "title": "Hantavirus: What Irving Residents Need to Know to Stay Safe",
+    "have": 1,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "What is Hantavirus and How is it Spread in North Texas?",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 1,
+        "queries": [
+          [
+            1,
+            "is hantavirus in texas",
+            11
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Recognizing the Signs: Hantavirus Symptoms vs. The Common Flu",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "2026 Health Update: The Global Andes Virus Outbreak",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Preventing Hantavirus in Your Irving Home and Property",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don\u2019t Wait, Your Health is Our Priority",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3162,
+    "title": "How to Speed Up Muscle Strain Recovery: 7 Expert-Backed Tips",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 4,
+    "detail": [
+      {
+        "heading": "What is muscle strain?",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 1165,
+        "queries": [
+          [
+            288,
+            "muscle strain treatment",
+            9.8
+          ],
+          [
+            234,
+            "how to treat muscle strain",
+            10.3
+          ],
+          [
+            213,
+            "how to heal muscle strain",
+            10.5
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "7 Expert Tips to Speed Up Muscle Strain Recovery",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 298,
+        "queries": [
+          [
+            161,
+            "muscle tear recovery",
+            10.6
+          ],
+          [
+            69,
+            "how to speed up muscle strain recovery medicine",
+            7.4
+          ],
+          [
+            68,
+            "muscle strain recovery time",
+            10.5
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "&nbsp;Muscle Strain Recovery: What works for it and what doesn\u2019t?",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Frequently Asked Questions (FAQs)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3800,
+    "title": "Pediatric Dehydration: What to Do When Your Baby Can\u2019t Keep Liquids Down",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Understanding Dehydration in Infants and Toddlers",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 73,
+        "queries": [
+          [
+            38,
+            "signs of dehydration in infants",
+            43.6
+          ],
+          [
+            35,
+            "signs of dehydration in toddlers",
+            2.4
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Recognizing the Signs: Is My Child Dehydrated?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Common Causes of Fluid Loss in Children",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Managing Dehydration at Home: The Small Sips Method",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Seek Emergency Medical Care",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Prevention: Keeping Your Child Hydrated During Illness",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When Your Baby Can\u2019t Keep Liquids Down, Trust Your Gut",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3803,
+    "title": "Did My Child Swallow a Battery? The \"Button Battery\" Emergency",
+    "have": 3,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Button Batteries are a Hidden Household Danger",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Red Flags: How to Tell if Your Child Swallowed a Battery",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 114,
+        "queries": [
+          [
+            19,
+            "how to know if child swallowed aaa battery",
+            12.2
+          ],
+          [
+            18,
+            "how to tell if your child swallowed a button battery",
+            11.2
+          ],
+          [
+            15,
+            "swallowed battery",
+            7.7
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The 2-Hour Window: Why Every Minute Counts",
+        "decision": false,
+        "visual": "card",
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Step-by-Step Emergency Actions for Parents",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What to Expect at the Emergency Room (ER)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Prevention: Making Your Home a No-Battery Zone",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Suspect a Button Battery? Don\u2019t Wait: Get Emergency Care Now",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 17,
+        "queries": [
+          [
+            11,
+            "button battery ingestion",
+            1
+          ],
+          [
+            6,
+            "whats a button battery",
+            2
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3808,
+    "title": "RSV vs. The Flu: A Parent\u2019s Guide to Respiratory Distress",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "Understanding Respiratory Distress: Why Every Parent Needs to Know the Signs",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "RSV Symptoms in Infants: The Tell-Tale Signs",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 14,
+        "queries": [
+          [
+            5,
+            "rsv symptoms adults",
+            2.4
+          ],
+          [
+            5,
+            "rsv",
+            2
+          ],
+          [
+            3,
+            "rsv symptoms",
+            1
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The Flu in Children: More Than Just a Fever",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "RSV vs. Flu: A Quick Comparison Guide",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 2,
+        "queries": [
+          [
+            1,
+            "rsv vs flu",
+            1
+          ],
+          [
+            1,
+            "rsv or flu",
+            2
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Head to the ER: Oxygen Levels and Critical Warnings",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "At-Home Care and Medical Treatments",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Prevention: Protecting Your Little Ones This Season",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When RSV or the Flu Needs Emergency Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3813,
+    "title": "Lower Right Abdominal Pain: Is it Appendicitis?",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Is it just a Stomach Ache or Appendicitis?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 17,
+        "queries": [
+          [
+            17,
+            "appendicitis",
+            4.8
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Recognizing Key Appendicitis Symptoms",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Testing for Appendicitis at Home",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Seek Emergency Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What to Expect at the Clinic or ER",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Is It Just a Stomach Ache or Appendicitis? Recognize the Symptoms &amp; Know When to Seek Emergency Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 111,
+        "queries": [
+          [
+            64,
+            "mayo clinic appendicitis symptoms when to seek emergency care",
+            9.1
+          ],
+          [
+            47,
+            "medlineplus appendicitis symptoms emergency",
+            7.8
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3825,
+    "title": "Dog Bites & Infections: When to Get Stitches",
+    "have": 3,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Should I Get Stitches for a Dog Bite?",
+        "decision": true,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "High-Risk Areas: Why Hand and Face Bites Need Immediate ER Care",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Identifying Infection: Signs of Cellulitis and Beyond",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Critical Vaccinations: Rabies and Tetanus Concerns",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "At-Home First Aid: What to Do in the First 10 Minutes",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Seek Emergency Care for a Dog Bite in Irving",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Seek Professional Care for Dog Bites: Fast Treatment at the ER of Irving",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 139,
+        "queries": [
+          [
+            57,
+            "do you suture dog bites",
+            5.3
+          ],
+          [
+            50,
+            "do you stitch dog bites",
+            3.7
+          ],
+          [
+            32,
+            "dog bites infection",
+            8.3
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3829,
+    "title": "Concussion Protocol for Irving Student-Athletes",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What Exactly Is a Concussion?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Recognizing Concussion Symptoms in Student-Athletes",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The Critical Window: When to Seek Emergency Care",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The Danger of Rushing Back: Secondary Impact Syndrome",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "The Path to Recovery: Return-to-Learn and Return-to-Play Guidelines",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Keep Your Student-Athletes Safe: Understand Concussions and Recovery Steps",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3862,
+    "title": "Recognizing Sepsis: When an Infection Becomes Deadly",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What is Sepsis? Understanding Your Body's Extreme Response",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Sepsis Symptoms: How to Spot the Red Flags Early",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 2499,
+        "queries": [
+          [
+            1475,
+            "sepsis symptoms",
+            3.5
+          ],
+          [
+            232,
+            "what are the symptoms of sepsis",
+            4.3
+          ],
+          [
+            205,
+            "sepsis symptoms in adults",
+            3
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Who is Most at Risk for Sepsis?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "From Infection to Emergency: How Sepsis Progresses",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 216,
+        "queries": [
+          [
+            216,
+            "sepsis infection",
+            2.7
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Why Getting to the ER Fast Matters",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What to Do If You Suspect Sepsis",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3897,
+    "title": "Anaphylaxis: What to Do After Using an EpiPen",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "The Moment After: Why Using Your EpiPen Is Only Step One",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 586,
+        "queries": [
+          [
+            147,
+            "what to do after using epipen",
+            5.2
+          ],
+          [
+            116,
+            "what to do after administering an epipen",
+            4.6
+          ],
+          [
+            90,
+            "what to do after epipen",
+            3.9
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Emergency Allergy Stabilization: What Happens at the Hospital?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Monitoring for the \"Second Wave\" of Allergic Reactions",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Recognizing Red Flags: When a Throat Feels Tight or Breathing Changes",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Long-Term Safety: Preventing the Next Episode",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don't Wait for a \"Second Wave\": Get Professional Stabilization Now",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3900,
+    "title": "Handling High-Speed Car Accident Injuries (Hwy 114/183)",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Why High-Speed Accidents on Hwy 114 and 183 Require Immediate Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The Hidden Danger of Delayed Symptoms",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Whiplash vs. Internal Bleeding: Understanding the Spectrum of Injuries",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Essential Diagnostic Imaging After a High-Speed Crash",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Head to the ER Immediately: Red Flag Symptoms",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Don\u2019t Let Adrenaline Mask a Life-Threatening Injury",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3924,
+    "title": "Difficulty Swallowing: Is it a Peritonsillar Abscess?",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What is a Peritonsillar Abscess?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 2483,
+        "queries": [
+          [
+            987,
+            "peritonsillar abscess",
+            2.7
+          ],
+          [
+            532,
+            "is peritonsillar abscess contagious",
+            5.6
+          ],
+          [
+            481,
+            "peritonsillar abscess contagious",
+            5.5
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": "Is it just a Sore Throat or an Emergency?",
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "When Strep Throat Gets Dangerous",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": "Is it just a Sore Throat or an Emergency?",
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Recognizing the Red Flags: Symptoms You Can\u2019t Ignore",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Is it just a Sore Throat or an Emergency?",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Diagnosis and Immediate Care",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Prevention and Long-Term Recovery",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3977,
+    "title": "Hairline Fracture Symptoms: 7 Signs You Need an ER X-Ray",
+    "have": 3,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What is a Hairline Fracture?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 13384,
+        "queries": [
+          [
+            2228,
+            "hairline fracture wrist",
+            9.5
+          ],
+          [
+            1838,
+            "hairline fracture in foot",
+            8.3
+          ],
+          [
+            1416,
+            "hairline fracture in hand",
+            7.0
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "7 Symptoms of a Hairline Fracture",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 4932,
+        "queries": [
+          [
+            2678,
+            "hairline fracture symptoms",
+            3.0
+          ],
+          [
+            962,
+            "hairline fracture wrist symptoms",
+            7.1
+          ],
+          [
+            599,
+            "symptoms of hairline fracture",
+            1.9
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Common Causes of Hairline Fractures",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 939,
+        "queries": [
+          [
+            595,
+            "hairline fractures",
+            4.2
+          ],
+          [
+            344,
+            "do hairline fractures hurt",
+            4.0
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "Where Hairline Fractures Happen Most Often",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Why X-Rays Sometimes Miss Hairline Fractures",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Visit the ER vs Wait",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "How ER of Irving Diagnoses Hairline Fractures",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 4345,
+    "title": "How Long Does Food Poisoning Last? Recovery Timeline and Warning Signs",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "How Long Does Food Poisoning Usually Last?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Timeline by Cause: Onset and Duration",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Why the Food You Blame Is Often the Wrong One",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When Food Poisoning Becomes an Emergency",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Who Needs to Be More Careful",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How to Recover at Home",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "How ER of Irving Treats Food Poisoning",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 4410,
+    "title": "Should You Go to the ER After a Car Accident? Why Feeling Fine Can Fool You",
+    "have": 2,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Why You Can Feel Fine and Still Be Injured",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Go to the ER Now: Symptoms That Cannot Wait",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What the ER Checks After a Crash",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 1,
+        "queries": [
+          [
+            1,
+            "after a car crash",
+            1
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "911, ER, or Watch at Home?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Get Checked Today, Not Next Week",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3103,
+    "title": "How to Tell If a Bone Is Fractured or Bruised: Signs & Tips",
+    "have": 3,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "How to Tell If a Bone Is Fractured or Bruised: Key Signs",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Understanding Bone Injuries: Fractures and Bruises",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Symptoms: How to Tell the Difference",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What Causes Bone Injuries?",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Who Is at Risk for Bone Injuries?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How Are Bone Injuries Diagnosed?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Treatment Options and Recovery",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How to Heal a Bone Bruise Fast",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 10525,
+        "queries": [
+          [
+            1884,
+            "how long does a bone bruise take to heal",
+            2.7
+          ],
+          [
+            1818,
+            "bone bruise symptoms",
+            8.1
+          ],
+          [
+            1261,
+            "bone bruise on shin",
+            8.9
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "When to Seek Medical Attention",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3365,
+    "title": "What Does a Stress Fracture Feel Like? Symptoms, Causes, and Treatment",
+    "have": 4,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "What Is a Stress Fracture?",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 1426,
+        "queries": [
+          [
+            567,
+            "stress fracture shin",
+            4.0
+          ],
+          [
+            402,
+            "hairline stress fracture",
+            33.9
+          ],
+          [
+            144,
+            "stress fracture in foot",
+            3.6
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "What Are the Symptoms of a Stress Fracture?",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 945,
+        "queries": [
+          [
+            280,
+            "stress fracture shin symptoms",
+            10.1
+          ],
+          [
+            163,
+            "shin stress fracture symptoms",
+            6.6
+          ],
+          [
+            141,
+            "symptoms of stress fracture in foot",
+            3.4
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "How Do You Know If You Have a Stress Fracture?",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What Causes Stress Fractures and Who Is at Risk?",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 39,
+        "queries": [
+          [
+            39,
+            "stress fractures",
+            49.4
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How Are Stress Fractures Diagnosed?",
+        "decision": true,
+        "visual": "photo",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Stress Fracture Treatment: What Are Your Options?",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How Long Does a Stress Fracture Take to Heal?",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 42,
+        "queries": [
+          [
+            42,
+            "how long does a stress fracture take to heal",
+            24.1
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Can You Walk with a Stress Fracture?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Stress Fracture Prevention: Tips for Runners and Athletes",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When Should You Seek Emergency Care for a Stress Fracture?",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3833,
+    "title": "The \"Worst Headache of My Life\": Is It a Migraine or an Aneurysm?",
+    "have": 3,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Recognizing the Danger: Migraine vs. Emergency Symptoms",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 61,
+        "queries": [
+          [
+            46,
+            "migraine vs aneurysm symptoms",
+            5.8
+          ],
+          [
+            15,
+            "aneurysm vs migraine symptoms",
+            3.2
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Headache: Why Timing Matters",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "When to Visit the ER for a Severe Headache",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "At the Hospital: When to Get a CT Scan and What to Expect",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Emergency Treatment: Migraine Cocktail vs. Emergency Stabilization",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Understanding Risk Factors for Brain Aneurysms",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don't Wait, Act Fast: Know the Signs of a Life-Threatening Headache",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 96,
+        "queries": [
+          [
+            96,
+            "worst headache of my life",
+            8.7
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3854,
+    "title": "Diabetic Ketoacidosis (DKA): Signs of a Sugar Emergency",
+    "have": 3,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Recognizing the Red Flags: DKA Symptoms",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 7,
+        "queries": [
+          [
+            7,
+            "dka symptoms",
+            8.4
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Early Warning Signs vs. Late-Stage Crisis",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Head to the Emergency Room",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "How the ER Stabilizes Blood Sugar",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Common Causes and Risk Factors",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Prevention: Staying Ahead of a Crisis",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Don\u2019t Wait: Get Immediate Care for Diabetic Ketoacidosis",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3858,
+    "title": "Kidney Stone Pain Relief: When Home Remedies Fail",
+    "have": 3,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Why \"Waiting It Out\" Is Not Always the Answer",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Is It a Kidney Stone, or Something Else?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 95,
+        "queries": [
+          [
+            95,
+            "kidney stone symptoms",
+            2.2
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Home Remedies for Kidney Stone Pain: What Actually Helps",
+        "decision": false,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 448,
+        "queries": [
+          [
+            87,
+            "home remedies for kidney stone pain",
+            6.5
+          ],
+          [
+            73,
+            "how long does kidney stone pain last",
+            2.1
+          ],
+          [
+            55,
+            "how to reduce kidney stone pain immediately at home",
+            2.9
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "Safe Over-the-Counter Pain Relief, and What to Avoid",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Why Home Remedies Fall Short for Larger Stones",
+        "decision": true,
+        "visual": "card",
+        "enum": "figures",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Red Flags: When to Stop Home Care and Go to the ER",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3934,
+    "title": "Signs of a Blood Clot (DVT) After Travel or Surgery",
+    "have": 3,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What is Deep Vein Thrombosis (DVT)?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Recognizing DVT Symptoms: More Than Just a Cramp",
+        "decision": true,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The Risk of Pulmonary Embolism (PE)",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Who is Most at Risk for DVT?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How We Diagnose DVT: On-site Blood Tests and Imaging",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Immediate Steps to Take if You Suspect a Clot",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Get Checked for a Blood Clot",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3937,
+    "title": "Poison Ivy and Oak: When the Rash Requires the ER",
+    "have": 3,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Understanding the \"Itch\"",
+        "decision": false,
+        "visual": "card",
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Signs Your Rash Needs Urgent Care",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Head Straight to the Emergency Room",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Prescription-Strength Relief",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Preventing the Spread",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Trust Your Instincts",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Is Your Poison Ivy Rash a Medical Crisis?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 3965,
+        "queries": [
+          [
+            1505,
+            "systemic poison ivy",
+            2.3
+          ],
+          [
+            894,
+            "poison ivy rash",
+            5.2
+          ],
+          [
+            489,
+            "is poison ivy dangerous",
+            8.8
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3116,
+    "title": "Skeletal Traction: Procedure, Uses, and Recovery Plan",
+    "have": 4,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What is Skeletal Traction?",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 891,
+        "queries": [
+          [
+            357,
+            "balanced skeletal traction",
+            5.0
+          ],
+          [
+            322,
+            "balance skeletal traction",
+            4.5
+          ],
+          [
+            128,
+            "skeletal traction weight",
+            3.0
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "Skeletal Traction Procedure",
+        "decision": false,
+        "visual": "card",
+        "enum": "list",
+        "impr": 166,
+        "queries": [
+          [
+            92,
+            "skeletal traction procedure",
+            4.5
+          ],
+          [
+            74,
+            "traction procedure",
+            2.4
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "Types of Skeletal Traction",
+        "decision": false,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 1531,
+        "queries": [
+          [
+            437,
+            "types of traction",
+            10.0
+          ],
+          [
+            381,
+            "skeletal traction types",
+            4.4
+          ],
+          [
+            374,
+            "types of skeletal traction",
+            5.3
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "Skeletal Traction vs Skin Traction",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 4156,
+        "queries": [
+          [
+            1757,
+            "skin traction",
+            10.7
+          ],
+          [
+            962,
+            "skin traction vs skeletal traction",
+            3.4
+          ],
+          [
+            409,
+            "skin and skeletal traction",
+            1.7
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "Skeletal Traction Complications",
+        "decision": false,
+        "visual": "photo",
+        "enum": "list",
+        "impr": 102,
+        "queries": [
+          [
+            102,
+            "complications of traction",
+            2.3
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Skeletal Traction Recovery Plan",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "How Bone Stimulators Support Skeletal Traction Recovery",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 351,
+        "queries": [
+          [
+            351,
+            "bone traction",
+            3.5
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "The Final Thought on Skeletal Traction: Healing with Confidence",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Frequently Asked Questions (FAQs)",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3816,
+    "title": "Sudden Vision Loss or Eye Pain: Don't Wait",
+    "have": 4,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Recognizing the Red Flags: When to Seek Urgent Care",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Chemical Splashes in the Eye",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Scratched Cornea Symptoms: More Than Just an Irritation",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When \"Seeing Spots\" is a Retinal Emergency",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Sudden Vision Loss: Understanding the Risks",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Protecting Your Sight: Immediate Steps to Take",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Don't Wait, Protect Your Vision!",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3886,
+    "title": "Is it a Stroke? The Critical F.A.S.T. Guide for DFW Residents",
+    "have": 4,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What is a Stroke? Why Every Minute Counts",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "The F.A.S.T. Method: 4 Warning Signs of Stroke",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Atypical Stroke Symptoms You Should Not Miss",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Ischemic vs Hemorrhagic Stroke: Why the Difference Matters",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The First 5 Minutes: Exactly What To Do",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What Not To Do: 4 Mistakes That Cost Critical Minutes",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Stroke Risk Factors and Prevention for DFW Adults",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What Happens When You Arrive at the ER of Irving for a Suspected Stroke",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3921,
+    "title": "High Fevers in Children: The 103\u00b0 Rule",
+    "have": 5,
+    "need": 1,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Understanding the 103\u00b0 Rule: Why Fever Height Matters",
+        "decision": false,
+        "visual": "card",
+        "enum": "subheads",
+        "impr": 3020,
+        "queries": [
+          [
+            1126,
+            "is 103 fever high",
+            5.2
+          ],
+          [
+            419,
+            "103 degree fever",
+            8.5
+          ],
+          [
+            371,
+            "is 103 high fever",
+            6.1
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "rank"
+      },
+      {
+        "heading": "When to Seek Immediate Help: Child Fever ER Guidelines",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Dehydration Signs: What to Watch For",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "When a Fever Causes Seizures (Febrile Seizures)",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "At-Home Comfort Measures vs. Medical Intervention",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What Pediatric-Friendly Emergency Care Looks Like",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "We Are Here for Your Family",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 3930,
+    "title": "Deep Lacerations: Do I Need Stitches or Glue?",
+    "have": 4,
+    "need": 0,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "How to Tell if Your Cut Needs Professional Care",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Stitches vs. Medical Glue: What\u2019s the Difference?",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 273,
+        "queries": [
+          [
+            70,
+            "glue stitches care",
+            6.6
+          ],
+          [
+            60,
+            "super glue stitches",
+            7.1
+          ],
+          [
+            40,
+            "glue or stitches for cut",
+            10.3
+          ]
+        ],
+        "ranks": true,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "both"
+      },
+      {
+        "heading": "How long can you wait to get stitches?",
+        "decision": true,
+        "visual": "card",
+        "enum": "figures",
+        "impr": 30,
+        "queries": [
+          [
+            30,
+            "how long can you wait to get stitches",
+            11.1
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Caring for the wound on the way to the ER or Urgent Care",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Tetanus shot updates: Why they matter for deep cuts",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "impr": 28,
+        "queries": [
+          [
+            28,
+            "glue for deep cuts",
+            3.0
+          ]
+        ],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What to Expect During Your Visit",
+        "decision": true,
+        "visual": "card",
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Need Immediate Care for a Deep Cut in Irving, TX?",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  }
+]

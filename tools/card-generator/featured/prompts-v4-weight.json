@@ -1,0 +1,10 @@
+{
+  "_note": "Round-2 replacement for gem-standing. The full-length figure paints only 19% of the 560x630 photo column (bbox 68% transparent) so the dark tile read hollow; the two portraits the operator approved paint 46-48%. This shot is framed waist-up like those, and the subject now matches an article about the scale stalling. Depiction is deliberately dignified: clothed, square to camera, calm - no headless-torso crop, no before/after implication. v2 of this shot: loose curls trap studio background BETWEEN the strands, and the mask marks that background fully opaque, so it survives edge defringing and reads as a pale halo on the dark ground. Smooth pulled-back hair is what made the other two portraits cut cleanly.",
+  "images": [
+    {
+      "name": "gem-weight-waistup2",
+      "ground": "#e8e8e8",
+      "prompt": "Vertical portrait orientation, taller than wide. A studio portrait of a plus-size woman in her early forties from the waist up, full figure with broad shoulders and a soft round face and a double chin, size 22, wearing a plain stone-grey crew-neck cotton top, dark hair pulled back smoothly and tightly into a low bun with no loose strands or curls, both shoulders square to the camera and filling the full width of the frame, arms relaxed at her sides, calm and confident neutral expression, looking directly at the lens. Natural unretouched skin, no slimming, photographed with respect and dignity"
+    }
+  ]
+}

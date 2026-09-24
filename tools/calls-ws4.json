@@ -1,0 +1,2 @@
+[{"route":"cc-assistant/v1/widget-schema/heading","method":"GET","out":"ekit-removal/ws-heading.json"},
+ {"route":"cc-assistant/v1/widget-schema/text-editor","method":"GET","out":"ekit-removal/ws-texteditor.json"}]

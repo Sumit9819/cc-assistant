@@ -1,0 +1,617 @@
+{
+  "_note": "Batch G, weight cluster: 9456 semaglutide vs tirzepatide, 6445 thyroid and weight, 6441 maintaining loss, 6481 medical weight loss vs dieting. On 9456 the post already renders the trial table in HTML, so no comparison card duplicates it; the stat card carries the headline number instead.",
+  "cards": [
+    {
+      "file": "tirzepatide-vs-semaglutide-weight-loss",
+      "post_id": 9456,
+      "layout": "stat",
+      "subject": "tirzepatide",
+      "heading": "Semaglutide vs Tirzepatide: The Short Answer",
+      "title": [
+        "Tirzepatide",
+        " vs Semaglutide at 72 Weeks",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "In SURMOUNT-5, tirzepatide users lost 20.2 percent of body weight at 72 weeks against 13.7 percent on semaglutide",
+      "stat": "20.2%",
+      "gloss": "semaglutide: 13.7%",
+      "statLine": "average body-weight loss on tirzepatide over 72 weeks",
+      "source": "SURMOUNT-5, New England Journal of Medicine, May 2025",
+      "dots": {
+        "total": 100,
+        "filled": 20
+      }
+    },
+    {
+      "file": "how-glp1-medications-work",
+      "post_id": 9456,
+      "layout": "icons",
+      "subject": "semaglutide",
+      "heading": "How These Medications Work (and How They Differ)",
+      "title": [
+        "How ",
+        "Semaglutide",
+        " and Tirzepatide Work"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "GLP-1 medications quiet appetite signals, slow stomach emptying and improve insulin handling; tirzepatide adds GIP",
+      "items": [
+        {
+          "icon": "brain",
+          "label": "Quiet appetite",
+          "note": "Fewer hunger signals reaching the brain"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Slower emptying",
+          "note": "The stomach empties more gradually"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Insulin handling",
+          "note": "Tirzepatide adds a second receptor, GIP"
+        }
+      ]
+    },
+    {
+      "file": "choosing-between-semaglutide-and-tirzepatide",
+      "post_id": 9456,
+      "layout": "list",
+      "subject": "tirzepatide",
+      "heading": "Which One Is Right for You?",
+      "title": [
+        "Choosing Semaglutide or ",
+        "Tirzepatide",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Four factors in choosing between semaglutide and tirzepatide: coverage, your target, prior response and tolerability",
+      "items": [
+        {
+          "icon": "wallet",
+          "label": "Coverage and cost",
+          "note": "The best drug is the one you can stay on"
+        },
+        {
+          "icon": "target",
+          "label": "Your target",
+          "note": "For a larger reduction, the trial data matters"
+        },
+        {
+          "icon": "trending-up",
+          "label": "Prior response",
+          "note": "A plateau on one does not predict the other"
+        },
+        {
+          "icon": "frown",
+          "label": "Tolerability",
+          "note": "Side-effect rates were near identical in trial"
+        }
+      ]
+    },
+    {
+      "file": "hormones-that-influence-weight",
+      "post_id": 6445,
+      "layout": "list",
+      "subject": "weight",
+      "heading": "Other Hormones That Influence Weight (Explained Simply, Without Medical Claims)",
+      "title": [
+        "Hormones That Influence ",
+        "Weight",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Insulin, cortisol, estrogen and progesterone, and leptin and ghrelin all influence how the body manages weight",
+      "items": [
+        {
+          "icon": "candy-off",
+          "label": "Insulin",
+          "note": "Moves sugar into cells for energy"
+        },
+        {
+          "icon": "activity",
+          "label": "Cortisol",
+          "note": "Stress shifts appetite, sleep and eating patterns"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Estrogen and progesterone",
+          "note": "Shift across cycles, pregnancy and menopause"
+        },
+        {
+          "icon": "utensils",
+          "label": "Leptin and ghrelin",
+          "note": "How hungry or full you feel"
+        }
+      ]
+    },
+    {
+      "file": "how-hypothyroidism-causes-weight-gain",
+      "post_id": 6445,
+      "layout": "icons",
+      "subject": "hypothyroidism",
+      "heading": "How Hypothyroidism Can Lead to Weight Gain ",
+      "title": [
+        "How ",
+        "Hypothyroidism",
+        " Adds Weight"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hypothyroidism adds weight through a slowed metabolism, fluid retention, and the fatigue that reduces daily movement",
+      "items": [
+        {
+          "icon": "trending-down",
+          "label": "Slower metabolism",
+          "note": "Fewer calories burned, even at rest"
+        },
+        {
+          "icon": "droplet",
+          "label": "Fluid retention",
+          "note": "Swelling that subtly adds weight"
+        },
+        {
+          "icon": "footprints",
+          "label": "Less movement",
+          "note": "Fatigue makes exercise harder"
+        }
+      ]
+    },
+    {
+      "file": "how-hypothyroidism-is-diagnosed",
+      "post_id": 6445,
+      "layout": "steps",
+      "subject": "hypothyroidism",
+      "heading": "How Hypothyroidism Is Diagnosed (Directly from MedlinePlus)",
+      "title": [
+        "How ",
+        "Hypothyroidism",
+        " Is Diagnosed"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Hypothyroidism is diagnosed with a TSH test, a Free T4 test, and thyroid antibody tests where Hashimoto's is suspected",
+      "steps": [
+        {
+          "icon": "syringe",
+          "label": "TSH",
+          "note": "The most sensitive test, high means underactive"
+        },
+        {
+          "icon": "beaker",
+          "label": "Free T4",
+          "note": "A low level supports the diagnosis"
+        },
+        {
+          "icon": "microscope",
+          "label": "Antibodies",
+          "note": "When Hashimoto's is suspected"
+        }
+      ]
+    },
+    {
+      "file": "thyroid-weight-gain-when-to-see-a-doctor",
+      "post_id": 6445,
+      "layout": "list",
+      "subject": "thyroid",
+      "heading": "When to See a Doctor",
+      "title": [
+        "When ",
+        "Thyroid",
+        " Weight Gain Needs a Doctor"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "See a doctor for persistent fatigue, feeling cold, weight gain without diet change, dry skin, irregular cycles or slowed thinking",
+      "items": [
+        {
+          "icon": "battery-low",
+          "label": "Fatigue that persists",
+          "note": "Not improving with rest"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Feeling unusually cold",
+          "note": "Beyond what the room explains"
+        },
+        {
+          "icon": "scale",
+          "label": "Weight gain",
+          "note": "Without any change to your diet"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Dry skin or hair",
+          "note": "Along with the other signs"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Irregular cycles",
+          "note": "A change from your normal pattern"
+        },
+        {
+          "icon": "brain",
+          "label": "Slowed thinking",
+          "note": "With low mood alongside"
+        }
+      ]
+    },
+    {
+      "file": "sustainable-eating-after-weight-loss",
+      "post_id": 6441,
+      "layout": "list",
+      "subject": "weight loss",
+      "heading": "1. Build a Sustainable Eating Routine (Not a Short-Term Diet)",
+      "title": [
+        "Eating to Maintain ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Maintain weight loss with lean protein, high-fiber vegetables, healthy fats and whole grains rather than restriction",
+      "items": [
+        {
+          "icon": "egg",
+          "label": "Lean protein",
+          "note": "Chicken, eggs, tofu, fish"
+        },
+        {
+          "icon": "salad",
+          "label": "Fiber-rich vegetables",
+          "note": "Satisfying, and they steady blood sugar"
+        },
+        {
+          "icon": "utensils",
+          "label": "Healthy fats",
+          "note": "Avocado, nuts, olive oil"
+        },
+        {
+          "icon": "wheat",
+          "label": "Whole grains",
+          "note": "Quinoa, brown rice, oats"
+        }
+      ]
+    },
+    {
+      "file": "movement-to-maintain-weight-loss",
+      "post_id": 6441,
+      "layout": "icons",
+      "subject": "weight loss",
+      "heading": "2. Prioritize Daily Movement (Not Just Structured Exercise)",
+      "title": [
+        "Movement That Protects ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Protect weight loss with strength training, cardio and NEAT, aiming for about 150 minutes of moderate activity a week",
+      "items": [
+        {
+          "icon": "dumbbell",
+          "label": "Strength",
+          "note": "Preserves muscle, supports metabolism"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Cardio",
+          "note": "Heart health and calorie balance"
+        },
+        {
+          "icon": "footprints",
+          "label": "NEAT",
+          "note": "Walking, stairs, standing, cleaning"
+        }
+      ]
+    },
+    {
+      "file": "tracking-weight-loss-without-obsession",
+      "post_id": 6441,
+      "layout": "checklist",
+      "subject": "weight loss",
+      "tone": "neutral",
+      "heading": "4. Monitor Your Progress Without Obsession",
+      "title": [
+        "Tracking ",
+        "Weight Loss",
+        " Without Obsession"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Track weight loss with weekly weigh-ins and monthly measurements, and count non-scale wins like energy and sleep",
+      "good": {
+        "icon": "sliders-horizontal",
+        "heading": "Gentle check-ins",
+        "items": [
+          "Weekly or biweekly weigh-ins",
+          "Monthly measurements",
+          "Journaling mood, energy and sleep",
+          "How your clothes fit"
+        ]
+      },
+      "bad": {
+        "icon": "sparkles",
+        "heading": "Non-scale wins",
+        "items": [
+          "Higher energy",
+          "Better digestion",
+          "Improved stamina",
+          "Better sleep and stronger mood"
+        ]
+      }
+    },
+    {
+      "file": "mistakes-that-cause-weight-regain",
+      "post_id": 6441,
+      "layout": "numbered",
+      "subject": "weight regain",
+      "heading": "What Are the Common Mistakes That Lead to Weight Regain?",
+      "title": [
+        "Mistakes That Lead to ",
+        "Weight Regain",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Seven causes of weight regain, from all-or-nothing thinking and calorie cutting to stopping movement at goal weight",
+      "items": [
+        "All-or-nothing diet thinking",
+        "Cutting calories drastically",
+        "Ignoring sleep and stress",
+        "Not planning meals",
+        "Stopping movement at goal weight",
+        "Emotional eating creeping back",
+        "Not asking for help"
+      ]
+    },
+    {
+      "file": "weight-regain-when-to-get-help",
+      "post_id": 6441,
+      "layout": "list",
+      "subject": "weight regain",
+      "heading": "When Should You See a Healthcare Provider or Specialist?",
+      "title": [
+        "When ",
+        "Weight Regain",
+        " Needs a Specialist"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "See a specialist for weight gain despite good habits, intense cravings, extreme fatigue, or thyroid and insulin signs",
+      "items": [
+        {
+          "icon": "scale",
+          "label": "Gain despite habits",
+          "note": "Nothing changed, but the weight did"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Intense cravings",
+          "note": "Or emotional eating returning"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Extreme fatigue",
+          "note": "Beyond ordinary tiredness"
+        },
+        {
+          "icon": "stethoscope",
+          "label": "Thyroid symptoms",
+          "note": "Cold, dry skin, slowed thinking"
+        },
+        {
+          "icon": "activity",
+          "label": "Insulin resistance signs",
+          "note": "Worth testing rather than guessing"
+        },
+        {
+          "icon": "moon",
+          "label": "Mood or sleep changes",
+          "note": "Both affect appetite regulation"
+        }
+      ]
+    },
+    {
+      "file": "medical-weight-loss-five-pillars",
+      "post_id": 6481,
+      "layout": "numbered",
+      "subject": "medical weight loss",
+      "heading": "What’s Included in a Medical Weight Loss Program?",
+      "title": [
+        "What a ",
+        "Medical Weight Loss",
+        " Program Includes"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "A medical weight loss program includes assessment, nutrition, exercise guidance, medication if needed, and follow-up",
+      "items": [
+        "Personalized health assessment",
+        "Science-based nutrition plan",
+        "Realistic exercise guidance",
+        "Prescription medication, if needed",
+        "Ongoing support and accountability"
+      ]
+    },
+    {
+      "file": "medical-weight-loss-vs-dieting",
+      "post_id": 6481,
+      "layout": "compare",
+      "subject": "medical weight loss",
+      "heading": "Medical Weight Loss vs. Dieting: The Real Difference",
+      "title": [
+        "Medical Weight Loss",
+        " vs Dieting",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Dieting is restrictive, trendy, temporary and solo; medical weight loss is restorative, evidence-based, lasting and supported",
+      "columns": [
+        "Dieting",
+        "Medical weight loss"
+      ],
+      "rows": [
+        {
+          "label": "Approach",
+          "values": [
+            "Restrictive",
+            "Restorative"
+          ]
+        },
+        {
+          "label": "Basis",
+          "values": [
+            "Trendy",
+            "Evidence-based"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "Temporary",
+            "Transformational"
+          ]
+        },
+        {
+          "label": "Support",
+          "values": [
+            "On your own",
+            "A clinical team behind you"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "medical-weight-loss-good-candidate",
+      "post_id": 6481,
+      "layout": "list",
+      "subject": "medical weight loss",
+      "heading": "Who Is a Good Candidate for Medical Weight Loss?",
+      "title": [
+        "Who ",
+        "Medical Weight Loss",
+        " Suits"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Medical weight loss suits a BMI of 27 or above, stubborn weight gain, thyroid or PCOS issues, and people needing structure",
+      "items": [
+        {
+          "icon": "scale",
+          "label": "BMI 27 or above",
+          "note": "You do not have to be obese to qualify"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Stubborn weight",
+          "note": "Despite diet and exercise"
+        },
+        {
+          "icon": "activity",
+          "label": "Hormonal barriers",
+          "note": "Thyroid issues or PCOS"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Health conditions",
+          "note": "Diabetes, cholesterol, sleep apnea"
+        },
+        {
+          "icon": "users",
+          "label": "Needing structure",
+          "note": "Accountability and medical support"
+        }
+      ]
+    },
+    {
+      "file": "medical-weight-loss-benefits-beyond-the-scale",
+      "post_id": 6481,
+      "layout": "checklist",
+      "subject": "medical weight loss",
+      "tone": "neutral",
+      "heading": "The Benefits Go Beyond the Scale",
+      "title": [
+        "Medical Weight Loss",
+        " Benefits Beyond the Scale",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Weight loss benefits beyond the scale: lower disease risk and joint pain, plus better mood, energy, sleep and confidence",
+      "good": {
+        "icon": "heart-pulse",
+        "heading": "Physical",
+        "items": [
+          "Lower risk of diabetes and heart disease",
+          "Less inflammation and joint pain",
+          "Better mobility and endurance"
+        ]
+      },
+      "bad": {
+        "icon": "brain",
+        "heading": "Emotional and lifestyle",
+        "items": [
+          "Better mood and mental clarity",
+          "Higher energy and motivation",
+          "Restful sleep and less stress",
+          "Renewed confidence"
+        ]
+      }
+    }
+  ]
+}

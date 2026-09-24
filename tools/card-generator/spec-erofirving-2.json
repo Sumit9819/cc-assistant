@@ -1,0 +1,264 @@
+{
+  "_note": "Batch 2. Six posts, six layouts. Every value is lifted from the target post's own body. Layout chosen to fill the gap: 3808 and 3978 already carry comparison tables, so those two get red-flag lists rather than comparisons. Figures ship with class=cc-card so the kit CSS gives them content width on desktop and both screen edges on mobile.",
+  "cards": [
+    {
+      "file": "erof-3803-button-battery-what-not-to-do",
+      "post_id": 3803,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "button battery",
+      "heading": "What should you not do if a child swallows a button battery?",
+      "title": [
+        "Button Battery: What ",
+        "NOT",
+        " to Do"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three things not to do after a child swallows a button battery, and why each one causes harm",
+      "items": [
+        {
+          "icon": "ban",
+          "label": "Do not induce vomiting",
+          "note": "The battery burns the throat on the way back up"
+        },
+        {
+          "icon": "utensils",
+          "label": "Do not give food or drink",
+          "note": "An empty stomach keeps surgery and endoscopy safe"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Do not wait for symptoms",
+          "note": "Damage starts before a child looks unwell"
+        }
+      ]
+    },
+    {
+      "file": "erof-3978-chest-pain-red-flags",
+      "post_id": 3978,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "chest pain",
+      "heading": "Which chest pain red flags need emergency care?",
+      "title": [
+        "Chest Pain ",
+        "Red Flags",
+        " That Need the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six chest pain warning signs that mean calling 911 rather than waiting",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pressure over minutes",
+          "note": "Lasting more than a few minutes"
+        },
+        {
+          "icon": "activity",
+          "label": "Pain to jaw, arm or back",
+          "note": "Spreading out from the chest"
+        },
+        {
+          "icon": "waves",
+          "label": "Breathless with the pain",
+          "note": "Shortness of breath alongside it"
+        },
+        {
+          "icon": "droplet",
+          "label": "Sweating, nausea, fainting",
+          "note": "Sudden and severe with the pain"
+        },
+        {
+          "icon": "flame",
+          "label": "Coughing up blood",
+          "note": "Any amount, at any age"
+        },
+        {
+          "icon": "plane",
+          "label": "Pain after travel or surgery",
+          "note": "Raises the risk of a clot"
+        }
+      ]
+    },
+    {
+      "file": "erof-3882-burn-first-aid",
+      "post_id": 3882,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "burn",
+      "heading": "What should you do in the first five minutes of a burn?",
+      "title": [
+        "Burn First Aid: ",
+        "Do",
+        " and Do Not"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Burn first aid steps to take beside the common mistakes that make a burn worse",
+      "good": {
+        "icon": "circle-check",
+        "heading": "Do this first",
+        "items": [
+          "Cool water for 10 to 20 minutes",
+          "Remove rings and watches early",
+          "Cover loosely and keep it clean"
+        ]
+      },
+      "bad": {
+        "icon": "ban",
+        "heading": "Do not",
+        "items": [
+          "Use ice on the burn",
+          "Pop the blisters",
+          "Apply butter or grease"
+        ]
+      }
+    },
+    {
+      "file": "erof-3921-child-fever-thresholds",
+      "post_id": 3921,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "fever",
+      "heading": "What fever temperature needs the ER, by a child's age?",
+      "title": [
+        "Child ",
+        "Fever",
+        " Thresholds by Age"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Fever temperature thresholds and the right action for three child age groups",
+      "columns": [
+        "Under 3 months",
+        "3 months to 3 years",
+        "Any age"
+      ],
+      "rows": [
+        {
+          "label": "Temperature",
+          "values": [
+            "100.4\u00b0F or higher",
+            "102.2\u00b0F or higher",
+            "104\u00b0F or higher"
+          ]
+        },
+        {
+          "label": "What to do",
+          "values": [
+            "Emergency, go now",
+            "Call your pediatrician",
+            "Go to the ER"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "erof-3930-stitches-or-glue",
+      "post_id": 3930,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "stitches",
+      "heading": "Does a deep cut need stitches or skin glue?",
+      "title": [
+        "Stitches or ",
+        "Skin Glue",
+        " for a Deep Cut?"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Stitches and skin glue compared on the wounds each suits, strength and removal",
+      "columns": [
+        "Stitches",
+        "Skin glue"
+      ],
+      "rows": [
+        {
+          "label": "Best for",
+          "values": [
+            "Deep, jagged or over a joint",
+            "Small straight cuts, low tension"
+          ]
+        },
+        {
+          "label": "Strength",
+          "values": [
+            "Holds high-tension skin",
+            "Sloughs off as it heals"
+          ]
+        },
+        {
+          "label": "Removal",
+          "values": [
+            "Follow-up visit needed",
+            "None needed"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "erof-3808-rsv-flu-emergency-signs",
+      "post_id": 3808,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "RSV",
+      "heading": "Which RSV or flu breathing signs mean going to the ER now?",
+      "title": [
+        "RSV or Flu: ",
+        "Emergency",
+        " Signs in a Child"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five breathing and hydration signs in a child that mean emergency care rather than home care",
+      "items": [
+        {
+          "icon": "frown",
+          "label": "Blue or gray lips",
+          "note": "Also check the tongue and fingernails"
+        },
+        {
+          "icon": "waves",
+          "label": "Nasal flaring",
+          "note": "Nostrils spread wide with every breath"
+        },
+        {
+          "icon": "activity",
+          "label": "Grunting",
+          "note": "A rhythmic sound at the end of each breath"
+        },
+        {
+          "icon": "droplet",
+          "label": "Fewer wet diapers",
+          "note": "Under one in eight hours"
+        },
+        {
+          "icon": "moon",
+          "label": "Extreme lethargy",
+          "note": "Floppy, or you cannot wake them"
+        }
+      ]
+    }
+  ]
+}

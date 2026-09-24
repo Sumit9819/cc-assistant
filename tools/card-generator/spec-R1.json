@@ -1,0 +1,629 @@
+{
+ "_note": "Replacement batch R1: 8559, 8563, 8571, 8577. One new card per existing design-team image, at the same section, so the swap is positional and the editorial structure is untouched. Content rebuilt from each post's own text.",
+ "cards": [
+  {
+   "file": "anti-aging-how-retinoids-work",
+   "post_id": 8559,
+   "layout": "icons",
+   "subject": "retinoid",
+   "heading": "1. Topical Retinoids: The Gold Standard for Daily Care",
+   "title": [
+    "How ",
+    "Retinoids",
+    " Work on Skin"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Retinoids increase cell turnover, stimulate new collagen, and block the enzymes that break existing collagen down",
+   "items": [
+    {
+     "icon": "recycle",
+     "label": "Cell turnover",
+     "note": "Old damaged cells shed, fresh ones replace them"
+    },
+    {
+     "icon": "trending-up",
+     "label": "New collagen",
+     "note": "Stimulates the protein behind firmness"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Less breakdown",
+     "note": "Inhibits the enzymes that degrade collagen"
+    }
+   ]
+  },
+  {
+   "file": "neuromodulator-treatment-timeline",
+   "post_id": 8559,
+   "layout": "steps",
+   "subject": "neuromodulator",
+   "heading": "2. Neuromodulators: Relaxing the \"Expression Lines.\"",
+   "title": [
+    "What to Expect From a ",
+    "Neuromodulator",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Neuromodulator injections take under 15 minutes, show change in 3 to 7 days, and last 3 to 4 months",
+   "steps": [
+    {
+     "icon": "syringe",
+     "label": "Under 15 minutes",
+     "note": "A series of tiny injections"
+    },
+    {
+     "icon": "calendar-days",
+     "label": "3 to 7 days",
+     "note": "First change, full result at two weeks"
+    },
+    {
+     "icon": "clock-3",
+     "label": "3 to 4 months",
+     "note": "How long most treatments last"
+    }
+   ]
+  },
+  {
+   "file": "types-of-dermal-filler",
+   "post_id": 8559,
+   "layout": "list",
+   "subject": "dermal filler",
+   "heading": "3. Dermal Fillers: Restoring Lost Volume",
+   "title": [
+    "Types of FDA-Approved ",
+    "Dermal Filler",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Three dermal filler types: hyaluronic acid, calcium hydroxylapatite for contouring, and poly-L-lactic acid",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Hyaluronic acid",
+     "note": "A sugar your body makes, holds water"
+    },
+    {
+     "icon": "bone",
+     "label": "Calcium hydroxylapatite",
+     "note": "Deeper wrinkles and contouring"
+    },
+    {
+     "icon": "dna",
+     "label": "Poly-L-lactic acid",
+     "note": "A biostimulator, grows your own collagen"
+    }
+   ]
+  },
+  {
+   "file": "anti-aging-treatments-compared",
+   "post_id": 8559,
+   "layout": "compare",
+   "subject": "anti-aging",
+   "heading": "Comparing the Top 3 Treatments",
+   "title": [
+    "Three ",
+    "Anti-Aging",
+    " Treatments Compared"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Retinoids, neuromodulators and dermal fillers compared on what they suit, how they are applied, and how long they last",
+   "columns": [
+    "Retinoids",
+    "Neuromodulators",
+    "Dermal fillers"
+   ],
+   "rows": [
+    {
+     "label": "Best for",
+     "values": [
+      "Fine lines, texture, tone",
+      "Forehead lines, crow's feet",
+      "Deep folds, volume loss"
+     ]
+    },
+    {
+     "label": "Applied as",
+     "values": [
+      "Cream or serum",
+      "Injection",
+      "Injection"
+     ]
+    },
+    {
+     "label": "Results seen",
+     "values": [
+      "3 to 6 months",
+      "3 to 14 days",
+      "Immediate"
+     ]
+    },
+    {
+     "label": "Lasts",
+     "values": [
+      "With ongoing use",
+      "3 to 4 months",
+      "6 to 18 months"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "chemical-peel-three-depths",
+   "post_id": 8563,
+   "layout": "compare",
+   "subject": "chemical peel",
+   "heading": "How Do Chemical Peels Work?",
+   "title": [
+    "The Three Depths of ",
+    "Chemical Peel",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Light, medium and deep chemical peels compared by the skin layer reached, what each treats, and recovery time",
+   "columns": [
+    "Light",
+    "Medium",
+    "Deep"
+   ],
+   "rows": [
+    {
+     "label": "Reaches",
+     "values": [
+      "The outermost layer",
+      "The middle layer",
+      "The lower dermal layers"
+     ]
+    },
+    {
+     "label": "Acid",
+     "values": [
+      "Mild, such as AHA",
+      "Stronger formulations",
+      "Phenol"
+     ]
+    },
+    {
+     "label": "Best for",
+     "values": [
+      "A gentle refresh",
+      "Deeper lines, discoloration",
+      "Dramatic change"
+     ]
+    },
+    {
+     "label": "Downtime",
+     "values": [
+      "Very little",
+      "Days of flaking",
+      "A longer recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "chemical-peel-what-it-treats",
+   "post_id": 8563,
+   "layout": "icons",
+   "subject": "chemical peel",
+   "heading": "What Conditions Can a Chemical Peel Treat?",
+   "title": [
+    "What a ",
+    "Chemical Peel",
+    " Treats"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Chemical peels treat sun damage and photoaging, acne scarring and texture, and hyperpigmentation including melasma",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Sun damage",
+     "note": "Photoaging, fine lines, rough texture"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Acne scars",
+     "note": "Medium peels smooth the pitting"
+    },
+    {
+     "icon": "palette",
+     "label": "Pigmentation",
+     "note": "Melasma and stubborn dark patches"
+    }
+   ]
+  },
+  {
+   "file": "chemical-peel-who-should-wait",
+   "post_id": 8563,
+   "layout": "list",
+   "subject": "chemical peel",
+   "heading": "Is a Chemical Peel Right for You?",
+   "title": [
+    "Who Should Wait on a ",
+    "Chemical Peel",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Wait on a chemical peel with an active infection or cold sore, in pregnancy, after isotretinoin, or with keloid scarring",
+   "items": [
+    {
+     "icon": "shield-alert",
+     "label": "Active infection",
+     "note": "Or a cold sore outbreak"
+    },
+    {
+     "icon": "baby",
+     "label": "Pregnant or nursing",
+     "note": "Some acids reach the bloodstream"
+    },
+    {
+     "icon": "pill",
+     "label": "Recent isotretinoin",
+     "note": "Within the last 6 to 12 months"
+    },
+    {
+     "icon": "triangle-alert",
+     "label": "Keloid history",
+     "note": "A record of abnormal scarring"
+    }
+   ]
+  },
+  {
+   "file": "chemical-peel-what-happens",
+   "post_id": 8563,
+   "layout": "timeline",
+   "subject": "chemical peel",
+   "heading": "The Procedure: What to Expect",
+   "title": [
+    "A ",
+    "Chemical Peel",
+    ", Start to Finish"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Chemical peel timeline: stop retinoids beforehand, a 5 to 10 minute application, then flaking over 3 to 7 days",
+   "nodes": [
+    {
+     "time": "Before",
+     "label": "Prepare",
+     "note": "Pause retinoids, wear SPF daily"
+    },
+    {
+     "time": "5-10 min",
+     "label": "Applied",
+     "note": "Warm, tingling or stinging"
+    },
+    {
+     "time": "Days 3-7",
+     "label": "Peeling",
+     "note": "Flaking, like a sunburn"
+    },
+    {
+     "time": "After",
+     "label": "Protect",
+     "note": "No picking, no sun, gentle moisturizer"
+    }
+   ]
+  },
+  {
+   "file": "what-a-wellness-assessment-establishes",
+   "post_id": 8571,
+   "layout": "icons",
+   "subject": "wellness assessment",
+   "heading": "More Than a Check-Up: Defining the Wellness Assessment",
+   "title": [
+    "What a ",
+    "Wellness Assessment",
+    " Establishes"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A wellness assessment sets a health baseline, finds silent risks early, and looks at the whole person not one complaint",
+   "items": [
+    {
+     "icon": "clipboard-list",
+     "label": "A baseline",
+     "note": "Where your health actually stands today"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Silent risks",
+     "note": "Found before they need intervention"
+    },
+    {
+     "icon": "heart",
+     "label": "The whole person",
+     "note": "Not one complaint in isolation"
+    }
+   ]
+  },
+  {
+   "file": "wellness-assessment-three-pillars",
+   "post_id": 8571,
+   "layout": "list",
+   "subject": "wellness assessment",
+   "heading": "The Core Pillars of a Holistic Wellness Assessment",
+   "title": [
+    "The Three Pillars of a ",
+    "Wellness Assessment",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Wellness assessment pillars: clinical screenings and vitals, lifestyle and mental well-being, social determinants of health",
+   "items": [
+    {
+     "icon": "stethoscope",
+     "label": "Clinical screenings",
+     "note": "Vitals, glucose, cholesterol, cancer screens"
+    },
+    {
+     "icon": "salad",
+     "label": "Lifestyle and mind",
+     "note": "Sleep, activity, diet, stress and mood"
+    },
+    {
+     "icon": "users",
+     "label": "Social determinants",
+     "note": "Environment, work stress, food access"
+    }
+   ]
+  },
+  {
+   "file": "wellness-assessment-your-visit",
+   "post_id": 8571,
+   "layout": "steps",
+   "subject": "wellness assessment",
+   "heading": "What to Expect During Your Visit",
+   "title": [
+    "Your ",
+    "Wellness Assessment",
+    " Visit"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalized plan",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "The conversation",
+     "note": "Family history and what has concerned you"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "The exam",
+     "note": "Head to toe, checking everything works"
+    },
+    {
+     "icon": "target",
+     "label": "Your plan",
+     "note": "Tailored, not just see you next year"
+    }
+   ]
+  },
+  {
+   "file": "wellness-assessment-long-term-benefits",
+   "post_id": 8571,
+   "layout": "icons",
+   "subject": "wellness assessment",
+   "heading": "Why Now? The Long-Term Benefits of Holistic Health",
+   "title": [
+    "Long-Term Benefits of a ",
+    "Wellness Assessment",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Regular wellness assessments bring peace of mind, cost savings against chronic illness, and an ongoing health partnership",
+   "items": [
+    {
+     "icon": "brain",
+     "label": "Peace of mind",
+     "note": "Knowing where you stand"
+    },
+    {
+     "icon": "wallet",
+     "label": "Cost savings",
+     "note": "Prevention costs less than management"
+    },
+    {
+     "icon": "users",
+     "label": "A partnership",
+     "note": "A provider who knows your history"
+    }
+   ]
+  },
+  {
+   "file": "what-functional-medicine-is",
+   "post_id": 8577,
+   "layout": "icons",
+   "subject": "functional medicine",
+   "heading": "Understanding the Basics: What is Functional Medicine?",
+   "title": [
+    "What ",
+    "Functional Medicine",
+    " Is"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Functional medicine looks for root causes, treats the body as one integrated system, and aims at long-term resolution",
+   "items": [
+    {
+     "icon": "target",
+     "label": "Root cause",
+     "note": "Why the symptom is happening at all"
+    },
+    {
+     "icon": "recycle",
+     "label": "One system",
+     "note": "Not organs split by specialty"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Long term",
+     "note": "Resolution rather than a band-aid"
+    }
+   ]
+  },
+  {
+   "file": "functional-vs-conventional-medicine",
+   "post_id": 8577,
+   "layout": "compare",
+   "subject": "functional medicine",
+   "heading": "Functional Medicine vs. Conventional Medicine: What’s the Difference?",
+   "title": [
+    "Functional Medicine",
+    " vs Conventional",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Conventional medicine treats the leaves and leads on acute care; functional medicine tends the roots and suits chronic disease",
+   "columns": [
+    "Conventional",
+    "Functional"
+   ],
+   "rows": [
+    {
+     "label": "Looks at",
+     "values": [
+      "The leaves, the visible symptom",
+      "The roots: genetics, environment, lifestyle"
+     ]
+    },
+    {
+     "label": "Strongest for",
+     "values": [
+      "Emergencies, trauma, surgery",
+      "Chronic disease management"
+     ]
+    },
+    {
+     "label": "Time per visit",
+     "values": [
+      "Often around ten minutes",
+      "A deep dive through your history"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "functional-medicine-principles",
+   "post_id": 8577,
+   "layout": "list",
+   "subject": "functional medicine",
+   "heading": "The Core Principles of the Functional Medicine Approach",
+   "title": [
+    "Core Principles of ",
+    "Functional Medicine",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Functional medicine principles: patient-centered not disease-centered, longer appointments, and integrative evidence-based care",
+   "items": [
+    {
+     "icon": "users",
+     "label": "Patient-centered",
+     "note": "You are a partner, not a diagnosis"
+    },
+    {
+     "icon": "clock-3",
+     "label": "More time",
+     "note": "Longer visits than a standard setting"
+    },
+    {
+     "icon": "beaker",
+     "label": "Integrative",
+     "note": "Complementary therapies, evidence-based"
+    }
+   ]
+  },
+  {
+   "file": "functional-medicine-consultation",
+   "post_id": 8577,
+   "layout": "steps",
+   "subject": "functional medicine",
+   "heading": "What to Expect During a Functional Medicine Consultation",
+   "title": [
+    "A ",
+    "Functional Medicine",
+    " Consultation"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A functional medicine consultation: a health history from birth, functional lab testing, then a personalized wellness plan",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Your history",
+     "note": "From birth, mapped as a health timeline"
+    },
+    {
+     "icon": "microscope",
+     "label": "Testing",
+     "note": "Nutrients, hormones, gut markers"
+    },
+    {
+     "icon": "target",
+     "label": "Your plan",
+     "note": "Built for your biology, not a template"
+    }
+   ]
+  }
+ ]
+}

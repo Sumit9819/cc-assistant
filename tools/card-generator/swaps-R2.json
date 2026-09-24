@@ -1,0 +1,56 @@
+{
+ "8609": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-health-skin-connection-1-what-is-the-gut-skin-axis.webp\" alt=\"The gut-skin axis linking three systems: the microbiome, immunity, and skin health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-skin-axis-how-it-works.webp\" alt=\"The gut-skin axis: dysbiosis drives inflammation, markers cross a compromised gut lining, and the skin barrier is disrupted\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-health-skin-connection-3-skin-conditions-linked-to-gut-health.webp\" alt=\"Three skin conditions associated with gut health: acne, eczema, and rosacea\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skin-conditions-linked-to-gut-health.webp\" alt=\"Acne, eczema and psoriasis, and rosacea are each linked to gut health, with rosacea tied to SIBO\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-health-skin-connection-2-signs-of-an-unhealthy-gut.webp\" alt=\"Signs of an unhealthy gut: bloating, food sensitivity, and sudden changes in how skin reacts\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/signs-your-gut-affects-your-skin.webp\" alt=\"Gut signs showing on skin: frequent bloating, food sensitivities, sudden reactions to familiar products, sugar cravings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-health-skin-connection-4-healthy-gut-healthy-skin.webp\" alt=\"Three ways to support gut health for clearer skin: nutrition, probiotics, and overall wellness habits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin.webp\" alt=\"Support gut health with probiotics from fermented foods, prebiotic fibre, and 7 to 9 hours of sleep to lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9173": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-dominance-weight-loss-1-what-is-estrogen-dominance.webp\" alt=\"Estrogen dominance explained through estrogen's function, its imbalance with progesterone, and the shift at menopause\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-estrogen-regulates.webp\" alt=\"Estrogen regulates the menstrual cycle, fat distribution, insulin sensitivity, bone density and cholesterol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-dominance-weight-loss-2-hormonal-weight-gain.webp\" alt=\"How hormones drive weight gain: where fat is stored, the estrogen, insulin and cortisol interaction, and a slowing metabolism\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain.webp\" alt=\"When estrogen is imbalanced fat storage rises, muscle mass falls, metabolism slows and water retention increases\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-dominance-weight-loss-3-correcting-the-balance.webp\" alt=\"Three routes to restoring hormone balance: supporting liver detox pathways, lifestyle foundations, and medical support\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2.webp\" alt=\"Restoring estrogen balance through liver support, nutrition and strength training, and BHRT under medical supervision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-dominance-weight-loss-4-when-to-seek-care.webp\" alt=\"When to seek care for hormonal weight gain: persistent symptoms, hormone and thyroid testing, and provider support\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-when-to-see-a-provider.webp\" alt=\"See a provider for persistent unexplained weight gain, severe fatigue, heavy periods, mood instability or stalled weight loss\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9270": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-1-brain-fog-and-testosterone.webp\" alt=\"Three areas testosterone affects in the brain: focus, clarity, and memory\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain.webp\" alt=\"The brain is dense with testosterone receptors, concentrated in the hippocampus, and under-fired when levels drop\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-3-neurological-impact-of-low-t.webp\" alt=\"How testosterone supports the brain: neuroprotection, fuelling brain cells, and mental clarity\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-neurological-impact.webp\" alt=\"Testosterone acts as a neuroprotective agent and influences both spatial memory and verbal memory\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-2-recognizing-symptoms.webp\" alt=\"Symptoms that point to low testosterone rather than ordinary tiredness: trouble focusing, memory gaps, and persistent fatigue\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-symptoms.webp\" alt=\"Low testosterone brain fog: trouble focusing, short-term memory gaps, mood changes, fatigue after sleep, lost motivation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-4-advanced-testing.webp\" alt=\"Testosterone bloodwork showing why both Free T and Total T are measured\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/free-vs-total-testosterone.webp\" alt=\"Total testosterone counts everything in the blood including protein-bound; free testosterone is the active usable portion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

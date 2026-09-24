@@ -1,0 +1,4 @@
+PASS: Fingerprint remains byte-compatible with released 0.89.3
+PASS: Fingerprint remains byte-compatible with released 0.89.3
+PASS: Fingerprint remains byte-compatible with released 0.89.3
+Fingerprint compatibility checks passed: 3

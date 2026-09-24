@@ -1,0 +1,11 @@
+import { createRequire } from 'node:module';
+import fs from 'node:fs';
+const { chromium, devices } = createRequire('C:/Users/sumit/.cc-assistant/wcag/package.json')('playwright');
+const b = await chromium.launch(); const ctx = await b.newContext(devices['Pixel 7']); const p = await ctx.newPage();
+let cssUrl = null, fontUrl = null;
+p.on('response', r => { if (/siteground-optimizer-combined-css/.test(r.url())) cssUrl = r.url(); if (/elementskit\.woff/.test(r.url())) fontUrl = r.url(); });
+await p.goto('https://erofirving.com/', { waitUntil: 'load', timeout: 120000 }); await p.waitForTimeout(2000);
+fs.writeFileSync('irving-combined.css', await (await ctx.request.get(cssUrl)).text());
+fs.writeFileSync('elementskit.woff', await (await ctx.request.get(fontUrl)).body());
+console.log('css', cssUrl.split('/').pop(), '| font', fontUrl.split('/').pop(), fs.statSync('elementskit.woff').size, 'bytes');
+await b.close();

@@ -1,0 +1,477 @@
+{
+  "_note": "Batch 9, the tail. Twelve cards across eight posts, and FOUR posts deliberately get none: 3116 Skeletal Traction (an inpatient orthopedic procedure, its one candidate was criteria for a bone stimulator, not a reader decision), 3162 Muscle Strain (its seven tips are generic listicle padding, Monitor and Evaluate / Advanced Therapies), 3365 Stress Fracture (every section is prose, nothing enumerable), 3850 Workplace Injuries (its only list is workers-comp admin). The score under-counted here and the read corrected upward: 3894, 3918, 3924 and 3934 each yielded two cards from sections the heuristic had missed, while 3918's own shortlisted candidate, Why Gout Usually Hits at Night, was dropped as causal background. 3792 ships the dos only: the heading promises don'ts but the body has none, and inventing them was not an option. 3894 'When to Call 911 vs Urgent Care' was dropped at the anchor stage: it is an h3 inside the same h2 section as the signs card, so both would have stacked at one heading, and its three items already appear in the common-signs panel.",
+  "cards": [
+    {
+      "file": "erof-3792-snake-bite-first-aid",
+      "post_id": 3792,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "snake bite",
+      "heading": "Immediate First Aid: The \"Dos\" and \"Don'ts\"",
+      "title": [
+        "",
+        "Snake Bite",
+        ": What to Do First"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently",
+      "steps": [
+        {
+          "icon": "footprints",
+          "label": "Move away",
+          "note": "Avoid a second bite"
+        },
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "Or get to emergency care now"
+        },
+        {
+          "icon": "armchair",
+          "label": "Keep it still",
+          "note": "At or just below heart level"
+        },
+        {
+          "icon": "shirt",
+          "label": "Remove jewelry",
+          "note": "And tight clothing, before swelling"
+        },
+        {
+          "icon": "droplets",
+          "label": "Wash gently",
+          "note": "Soap and water if you can"
+        }
+      ]
+    },
+    {
+      "file": "erof-3854-dka-er-triggers",
+      "post_id": 3854,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "DKA",
+      "heading": "When to Head to the Emergency Room",
+      "title": [
+        "",
+        "DKA",
+        ": When to Go to the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four signs of diabetic ketoacidosis that need the emergency room: vomiting, high ketones, blood sugar above 300, and rapid deep breathing",
+      "items": [
+        {
+          "icon": "frown",
+          "label": "Cannot keep liquids down",
+          "note": "Vomiting that will not stop"
+        },
+        {
+          "icon": "flask-conical",
+          "label": "Moderate or large ketones",
+          "note": "On a home urine test"
+        },
+        {
+          "icon": "trending-up",
+          "label": "Blood sugar over 300 mg/dL",
+          "note": "Despite supplemental insulin"
+        },
+        {
+          "icon": "waves",
+          "label": "Deep, rapid breathing",
+          "note": "Or shortness of breath"
+        }
+      ]
+    },
+    {
+      "file": "erof-3871-near-drowning-signs",
+      "post_id": 3871,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "drowning",
+      "heading": "Essential Near Drowning Symptoms to Watch For",
+      "title": [
+        "Near-",
+        "Drowning",
+        ": Signs to Watch"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six near-drowning warning signs to watch for in the hours after a pool incident",
+      "items": [
+        {
+          "icon": "waves",
+          "label": "A forceful, ongoing cough",
+          "note": "Not a quick throat clear"
+        },
+        {
+          "icon": "activity",
+          "label": "Labored breathing",
+          "note": "Skin pulling in around the ribs"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Rapid, shallow breaths",
+          "note": "Much faster than normal"
+        },
+        {
+          "icon": "moon",
+          "label": "Extreme fatigue",
+          "note": "Lethargic or hard to wake"
+        },
+        {
+          "icon": "frown",
+          "label": "Vomiting",
+          "note": "After swallowing a lot of water"
+        },
+        {
+          "icon": "droplet",
+          "label": "Pale, ashen or bluish skin",
+          "note": "Around the lips and fingernails"
+        }
+      ]
+    },
+    {
+      "file": "erof-3894-heart-attack-signs",
+      "post_id": 3894,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "tone": "neutral",
+      "subject": "heart attack",
+      "heading": "Recognizing Heart Attack Symptoms: More Than Just \"Chest Pain\"",
+      "title": [
+        "",
+        "Heart Attack",
+        ": The Signs Differ"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Common heart attack signs beside the signs that more often appear in women",
+      "good": {
+        "icon": "heart-pulse",
+        "heading": "Common signs",
+        "items": [
+          "Chest discomfort, center or left",
+          "Pain in arms, back, neck or jaw",
+          "Shortness of breath",
+          "Cold sweat, nausea, lightheadedness"
+        ]
+      },
+      "bad": {
+        "icon": "user-round-search",
+        "heading": "Often in women",
+        "items": [
+          "Unusual fatigue, sometimes for days",
+          "Sleep disturbances",
+          "Nausea, or indigestion-like pain",
+          "Pain in the jaw, neck or back"
+        ]
+      }
+    },
+    {
+      "file": "erof-3918-gout-relief",
+      "post_id": 3918,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "gout",
+      "heading": "Rapid Relief for Toe and Joint Pain",
+      "title": [
+        "A ",
+        "Gout",
+        " Flare: Relief at Home"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five ways to relieve a gout flare at home: elevate the joint, apply ice, hydrate, avoid trigger foods, and take NSAIDs",
+      "items": [
+        {
+          "icon": "trending-up",
+          "label": "Elevate the joint",
+          "note": "Prop it on pillows to cut swelling"
+        },
+        {
+          "icon": "droplet",
+          "label": "Apply ice",
+          "note": "20 minutes, wrapped in a thin towel"
+        },
+        {
+          "icon": "droplets",
+          "label": "Hydrate",
+          "note": "Water helps flush uric acid"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Avoid trigger foods",
+          "note": "Alcohol, beer especially, sugary drinks"
+        },
+        {
+          "icon": "pill",
+          "label": "NSAIDs",
+          "note": "Over the counter, per MedlinePlus"
+        }
+      ]
+    },
+    {
+      "file": "erof-3918-gout-or-infection",
+      "post_id": 3918,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "gout",
+      "heading": "Distinguishing Gout from Infection",
+      "title": [
+        "",
+        "Gout",
+        ", or an Infected Joint?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four red flags that a painful joint is infected rather than a gout flare",
+      "items": [
+        {
+          "icon": "thermometer",
+          "label": "High fever with chills",
+          "note": "Gout gives a low-grade fever at most"
+        },
+        {
+          "icon": "trending-up",
+          "label": "Redness spreading up the limb",
+          "note": "Moving away from the joint"
+        },
+        {
+          "icon": "ban",
+          "label": "The joint feels locked",
+          "note": "Not merely painful to move"
+        },
+        {
+          "icon": "frown",
+          "label": "Nausea or vomiting",
+          "note": "A sign of systemic infection"
+        }
+      ]
+    },
+    {
+      "file": "erof-3924-abscess-red-flags",
+      "post_id": 3924,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "abscess",
+      "heading": "Recognizing the Red Flags: Symptoms You Can't Ignore",
+      "title": [
+        "Peritonsillar ",
+        "Abscess",
+        ": Red Flags"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three red flags of a peritonsillar abscess: drooling, a swollen tender lump under the jaw, and the uvula pushed to one side",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Drooling",
+          "note": "Too painful to swallow your own saliva"
+        },
+        {
+          "icon": "circle-dot",
+          "label": "A swollen, tender lump",
+          "note": "Under the jaw, on one side"
+        },
+        {
+          "icon": "eye",
+          "label": "The uvula pushed sideways",
+          "note": "Visible in a mirror"
+        }
+      ]
+    },
+    {
+      "file": "erof-3924-abscess-treatment",
+      "post_id": 3924,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "abscess",
+      "heading": "Diagnosis and Immediate Care",
+      "title": [
+        "Treating an ",
+        "Abscess",
+        " in the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids",
+      "steps": [
+        {
+          "icon": "syringe",
+          "label": "Drainage",
+          "note": "Aspiration, for immediate relief"
+        },
+        {
+          "icon": "pill",
+          "label": "Antibiotics",
+          "note": "High-dose, once it is drained"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Steroids",
+          "note": "To bring the swelling down"
+        }
+      ]
+    },
+    {
+      "file": "erof-3934-pe-warning-signs",
+      "post_id": 3934,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "clot",
+      "heading": "The Risk of Pulmonary Embolism (PE)",
+      "title": [
+        "When a ",
+        "Clot",
+        " Reaches the Lungs"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five warning signs of a pulmonary embolism, which is when a blood clot travels to the lungs",
+      "items": [
+        {
+          "icon": "waves",
+          "label": "Sudden shortness of breath",
+          "note": "Or difficulty breathing"
+        },
+        {
+          "icon": "zap",
+          "label": "Chest pain on a deep breath",
+          "note": "Worse when you cough"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Rapid or irregular heartbeat",
+          "note": "Racing or skipping"
+        },
+        {
+          "icon": "moon",
+          "label": "Lightheaded, dizzy or fainting",
+          "note": "Especially on standing"
+        },
+        {
+          "icon": "droplet",
+          "label": "Coughing up blood",
+          "note": "Any amount, go now"
+        }
+      ]
+    },
+    {
+      "file": "erof-3934-dvt-diagnosis",
+      "post_id": 3934,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "DVT",
+      "heading": "How We Diagnose DVT: On-site Blood Tests and Imaging",
+      "title": [
+        "How the ER Diagnoses ",
+        "DVT",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed",
+      "steps": [
+        {
+          "icon": "flask-conical",
+          "label": "D-dimer",
+          "note": "A blood test for clot breakdown"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Duplex ultrasound",
+          "note": "Sound waves image the blood flow"
+        },
+        {
+          "icon": "microscope",
+          "label": "Venography",
+          "note": "If the ultrasound is not conclusive"
+        }
+      ]
+    },
+    {
+      "file": "erof-4011-hantavirus-symptoms",
+      "post_id": 4011,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "hantavirus",
+      "heading": "Recognizing the Signs: Hantavirus Symptoms vs. The Common Flu",
+      "title": [
+        "",
+        "Hantavirus",
+        " Symptoms"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Eight hantavirus symptoms, which are easily mistaken for the common flu",
+      "items": [
+        {
+          "icon": "thermometer",
+          "label": "Sudden fever and chills"
+        },
+        {
+          "icon": "bone",
+          "label": "Aches in thighs, hips, back"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Overwhelming fatigue"
+        },
+        {
+          "icon": "frown",
+          "label": "Nausea, vomiting or diarrhea"
+        },
+        {
+          "icon": "waves",
+          "label": "Breathless even at rest"
+        },
+        {
+          "icon": "activity",
+          "label": "A dry cough, worsening fast"
+        },
+        {
+          "icon": "heart",
+          "label": "Chest tightness"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Racing or fluttering heart"
+        }
+      ]
+    }
+  ]
+}

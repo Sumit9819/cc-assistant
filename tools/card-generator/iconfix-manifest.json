@@ -1,0 +1,155 @@
+[
+  {
+    "post_id": 3103,
+    "old_file": "erof-3103-bone-bruise-care",
+    "new_file": "erof-3103-bone-bruise-care-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-bruise-care.webp\" alt=\"Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-6.json"
+  },
+  {
+    "post_id": 3116,
+    "old_file": "erof-3116-traction-sites",
+    "new_file": "erof-3116-traction-sites-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-traction-sites.webp\" alt=\"The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine",
+    "layout": "icons",
+    "from_spec": "spec-erofirving-11.json"
+  },
+  {
+    "post_id": 3792,
+    "old_file": "erof-3792-snake-bite-first-aid",
+    "new_file": "erof-3792-snake-bite-first-aid-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3792-snake-bite-first-aid.webp\" alt=\"Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-9.json"
+  },
+  {
+    "post_id": 3803,
+    "old_file": "erof-3803-battery-red-flags",
+    "new_file": "erof-3803-battery-red-flags-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-red-flags.webp\" alt=\"Six signs that a swallowed button battery is lodged in a child's throat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Six signs that a swallowed button battery is lodged in a child's throat",
+    "layout": "icons",
+    "from_spec": "spec-erofirving-3.json"
+  },
+  {
+    "post_id": 3808,
+    "old_file": "erof-3808-rsv-infant-signs",
+    "new_file": "erof-3808-rsv-infant-signs-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-infant-signs.webp\" alt=\"Four signs of RSV in an infant, which typically peak on day three to five\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Four signs of RSV in an infant, which typically peak on day three to five",
+    "layout": "icons",
+    "from_spec": "spec-erofirving-3.json"
+  },
+  {
+    "post_id": 3813,
+    "old_file": "erof-3813-appendicitis-er",
+    "new_file": "erof-3813-appendicitis-er-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-er.webp\" alt=\"The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-7.json"
+  },
+  {
+    "post_id": 3813,
+    "old_file": "erof-3813-appendicitis-pain-shift",
+    "new_file": "erof-3813-appendicitis-pain-shift-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-pain-shift.webp\" alt=\"How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-7.json"
+  },
+  {
+    "post_id": 3816,
+    "old_file": "erof-3816-scratched-cornea",
+    "new_file": "erof-3816-scratched-cornea-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-scratched-cornea.webp\" alt=\"Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision",
+    "layout": "icons",
+    "from_spec": "spec-erofirving-4.json"
+  },
+  {
+    "post_id": 3825,
+    "old_file": "erof-3825-dog-bite-first-aid",
+    "new_file": "erof-3825-dog-bite-first-aid-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-first-aid.webp\" alt=\"Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-6.json"
+  },
+  {
+    "post_id": 3850,
+    "old_file": "erof-3850-workplace-first-steps",
+    "new_file": "erof-3850-workplace-first-steps-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3850-workplace-first-steps.webp\" alt=\"The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-13.json"
+  },
+  {
+    "post_id": 3854,
+    "old_file": "erof-3854-dka-er-treatment",
+    "new_file": "erof-3854-dka-er-treatment-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-treatment.webp\" alt=\"The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-11.json"
+  },
+  {
+    "post_id": 3862,
+    "old_file": "erof-3862-sepsis-what-to-do",
+    "new_file": "erof-3862-sepsis-what-to-do-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-what-to-do.webp\" alt=\"Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-7.json"
+  },
+  {
+    "post_id": 3867,
+    "old_file": "erof-3867-co-emergency-steps",
+    "new_file": "erof-3867-co-emergency-steps-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-emergency-steps.webp\" alt=\"Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-6.json"
+  },
+  {
+    "post_id": 3886,
+    "old_file": "erof-3886-fast-signs",
+    "new_file": "erof-3886-fast-signs-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-fast-signs.webp\" alt=\"The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911",
+    "layout": "icons",
+    "from_spec": "spec-erofirving-4.json"
+  },
+  {
+    "post_id": 3897,
+    "old_file": "erof-3897-anaphylaxis-er-care",
+    "new_file": "erof-3897-anaphylaxis-er-care-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-er-care.webp\" alt=\"What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-8.json"
+  },
+  {
+    "post_id": 3924,
+    "old_file": "erof-3924-abscess-treatment",
+    "new_file": "erof-3924-abscess-treatment-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-treatment.webp\" alt=\"How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-9.json"
+  },
+  {
+    "post_id": 3934,
+    "old_file": "erof-3934-dvt-diagnosis",
+    "new_file": "erof-3934-dvt-diagnosis-r2",
+    "live_figure": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-diagnosis.webp\" alt=\"How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "alt": "How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed",
+    "layout": "steps",
+    "from_spec": "spec-erofirving-9.json"
+  }
+]

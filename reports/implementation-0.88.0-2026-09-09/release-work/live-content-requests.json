@@ -1,0 +1,1 @@
+[{"name":"whoami","arguments":{}},{"name":"get_post","arguments":{"id":3505,"slim":false}},{"name":"get_post","arguments":{"id":971,"slim":false}},{"name":"list_posts","arguments":{"post_type":"post","status":"any","per_page":100,"page":1}},{"name":"list_pending_changes","arguments":{}}]

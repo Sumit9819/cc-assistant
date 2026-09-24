@@ -1,0 +1,13 @@
+[
+ {
+  "route": "cc-assistant/v1/whoami",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/w2.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/create-redirect",
+  "method": "POST",
+  "body": {},
+  "out": "D:/cc-assistant/tools/out/red_probe.json"
+ }
+]

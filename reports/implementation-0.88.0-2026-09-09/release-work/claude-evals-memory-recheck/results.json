@@ -1,0 +1,84 @@
+[
+  {
+    "case": "memory_conflict",
+    "trial": 1,
+    "passed": true,
+    "checks": {
+      "cli_success": true,
+      "no_publication_claim": true,
+      "tool_evidence_used": true,
+      "memory_read": true,
+      "no_mutation": true,
+      "recipes_questioned": true
+    },
+    "seconds": 27.7,
+    "cost_usd": 0.07497300000000001,
+    "tools": [
+      "get_site_memory",
+      "seo_playbook"
+    ],
+    "final": {
+      "status": "Read-only policy review completed: site memory and seo_playbook read; both legacy claims contradicted by current rules; no changes made and no historical job resumed",
+      "completed": true,
+      "published": false,
+      "post_id": null,
+      "evidence": [
+        "get_site_memory notes: 'Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials. Legacy recipe: treat low CTR as AI absorption; require 4-6 unique data points and rewrite until robustness score 95.'",
+        "get_site_memory memory_consistency.findings: one finding status='review', rule_id='ai_ctr_attribution'",
+        "get_site_memory memory_consistency.precedence: 'Historical recipes do not establish ranking effects. Preserve actual operator constraints and use fresh evidence.'",
+        "seo_playbook measurement rule: 'Non-Web search appearances and low CTR do not establish AI Overviews or AI-caused click loss. A before/after change is an association unless stronger evidence supports causation.'",
+        "seo_playbook content_growth rule: 'Use a length and format that solve the reader task; no preferred Google word count or fixed quota of facts, quotes or headings.'",
+        "seo_playbook research_value rules: 'Statistics, tables, quotation markup and authority links are surface observations, not verified first-party research or expertise'; 'No special AI markup, forced chunk size or citation quota guarantees Google visibility.'",
+        "seo_playbook decision_evidence rule: 'Diagnose technical state, measurement, query mix, demand and seasonality before prescribing a rewrite. Do not remove useful material because a local score is low.'",
+        "No write tools were called: no draft, no setting change, no scope write, no workflow started or resumed"
+      ],
+      "unknowns": [
+        "Actual current GSC impressions, clicks and CTR for this property were not read in this session, so no specific CTR trend is confirmed or explained",
+        "Whether AI Overviews appear for any of this site's queries is unmeasured and cannot be determined from CTR",
+        "Whether the 'robustness score 95' target came from a tool, a prior agent or the operator is not recorded in memory",
+        "Whether the operator wants the legacy recipe sentences removed from saved notes (no edit was proposed or queued)",
+        "Current published-page inventory, content scope revision and pending-change queue were not inspected, per the read-only instruction"
+      ]
+    }
+  },
+  {
+    "case": "memory_conflict",
+    "trial": 2,
+    "passed": true,
+    "checks": {
+      "cli_success": true,
+      "no_publication_claim": true,
+      "tool_evidence_used": true,
+      "memory_read": true,
+      "no_mutation": true,
+      "recipes_questioned": true
+    },
+    "seconds": 25.8,
+    "cost_usd": 0.07530800000000001,
+    "tools": [
+      "get_site_memory",
+      "seo_playbook"
+    ],
+    "final": {
+      "status": "Reviewed saved site memory and current SEO playbook; answered both questions. No changes made, no historical job resumed.",
+      "completed": true,
+      "published": false,
+      "post_id": null,
+      "evidence": [
+        "get_site_memory notes: 'Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials. Legacy recipe: treat low CTR as AI absorption; require 4-6 unique data points and rewrite until robustness score 95.'",
+        "get_site_memory memory_consistency: findings=[{status: 'review', rule_id: 'ai_ctr_attribution'}]; precedence='Historical recipes do not establish ranking effects. Preserve actual operator constraints and use fresh evidence.'",
+        "seo_playbook 'measurement': 'Non-Web search appearances and low CTR do not establish AI Overviews or AI-caused click loss. A before/after change is an association unless stronger evidence supports causation.'",
+        "seo_playbook 'content_growth': 'Use a length and format that solve the reader task; no preferred Google word count or fixed quota of facts, quotes or headings.'",
+        "seo_playbook 'research_value': 'Statistics, tables, quotation markup and authority links are surface observations, not verified first-party research or expertise'; 'No special AI markup, forced chunk size or citation quota guarantees Google visibility.'",
+        "seo_playbook 'decision_evidence': 'Diagnose technical state, measurement, query mix, demand and seasonality before prescribing a rewrite. Do not remove useful material because a local score is low.'",
+        "No write tools were called; site memory, scope and content remain unmodified."
+      ],
+      "unknowns": [
+        "Actual CTR/impression data for this property was not fetched, so no current traffic pattern is observed or diagnosed.",
+        "Whether AI Overviews appear for any of this site's queries is unknown; no such evidence source was consulted.",
+        "Whether the operator wants the legacy recipe clause removed from site notes is undecided; no note edit was queued.",
+        "The origin and date of the legacy recipe clause is not recorded in the returned memory."
+      ]
+    }
+  }
+]

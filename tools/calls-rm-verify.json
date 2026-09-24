@@ -1,0 +1,7 @@
+[
+  {"route":"cc-assistant/v1/pending?per_page=30","method":"GET","out":"card-generator/_rm/pending-after.json"},
+  {"route":"wp/v2/posts?include=3081,3097,3103,3116,3162,3201,3365&context=edit&per_page=10","method":"GET","out":"erof-rm-after.json"},
+  {"route":"cc-assistant/v1/posts/3201/render-probe","method":"GET","out":"card-generator/_rm/after-3201.json"},
+  {"route":"cc-assistant/v1/posts/3116/render-probe","method":"GET","out":"card-generator/_rm/after-3116.json"},
+  {"route":"cc-assistant/v1/posts/3365/render-probe","method":"GET","out":"card-generator/_rm/after-3365.json"}
+]

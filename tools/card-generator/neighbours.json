@@ -1,0 +1,722 @@
+[
+ {
+  "post_id": 4410,
+  "file": "erof-4410-crash-symptoms.webp",
+  "before": "list",
+  "before_text": 146,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 4410,
+  "file": "erof-4410-911-er-or-home.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 4345,
+  "file": "erof-4345-food-poisoning-er.webp",
+  "before": "list",
+  "before_text": 293,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 4345,
+  "file": "erof-4345-food-poisoning-recovery.webp",
+  "before": "list",
+  "before_text": 144,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 4011,
+  "file": "erof-4011-hantavirus-symptoms.webp",
+  "before": "list",
+  "before_text": 150,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 4008,
+  "file": "erof-4008-heat-exhaustion-or-stroke.webp",
+  "before": "list",
+  "before_text": 214,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3979,
+  "file": "erof-3979-eight-emergencies.webp",
+  "before": "start",
+  "before_text": 319,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3978,
+  "file": "erof-3978-chest-pain-red-flags.webp",
+  "before": "list",
+  "before_text": 112,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3978,
+  "file": "erof-3978-chest-pain-er-workup-1.webp",
+  "before": "list",
+  "before_text": 87,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3977,
+  "file": "erof-3977-hairline-signs.webp",
+  "before": "h3",
+  "before_text": 155,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3977,
+  "file": "erof-3977-xray-looks-normal.webp",
+  "before": "list",
+  "before_text": 92,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3977,
+  "file": "erof-3977-er-now-or-wait.webp",
+  "before": "list",
+  "before_text": 178,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3937,
+  "file": "erof-3937-rash-urgent-or-er.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3934,
+  "file": "erof-3934-pe-warning-signs.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3934,
+  "file": "erof-3934-dvt-diagnosis.webp",
+  "before": "list",
+  "before_text": 141,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3930,
+  "file": "erof-3930-cut-needs-care.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3930,
+  "file": "erof-3930-stitches-or-glue.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3930,
+  "file": "erof-3930-stitches-time-window-1.webp",
+  "before": "h2",
+  "before_text": 623,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3930,
+  "file": "erof-3930-what-to-expect-1.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3924,
+  "file": "erof-3924-abscess-red-flags.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3924,
+  "file": "erof-3924-abscess-treatment.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3921,
+  "file": "erof-3921-child-fever-thresholds.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3921,
+  "file": "erof-3921-dehydration-signs.webp",
+  "before": "list",
+  "before_text": 136,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3921,
+  "file": "erof-3921-febrile-seizure-steps-1.webp",
+  "before": "list",
+  "before_text": 132,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3921,
+  "file": "erof-3921-fever-home-care.webp",
+  "before": "list",
+  "before_text": 125,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3918,
+  "file": "erof-3918-gout-relief.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3918,
+  "file": "erof-3918-gout-or-infection.webp",
+  "before": "list",
+  "before_text": 169,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3900,
+  "file": "erof-3900-whiplash-symptoms.webp",
+  "before": "h3",
+  "before_text": 474,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3900,
+  "file": "erof-3900-crash-er-red-flags.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3897,
+  "file": "erof-3897-anaphylaxis-er-care.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3897,
+  "file": "erof-3897-anaphylaxis-red-flags.webp",
+  "before": "list",
+  "before_text": 117,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3894,
+  "file": "erof-3894-heart-attack-signs.webp",
+  "before": "list",
+  "before_text": 197,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3886,
+  "file": "erof-3886-fast-signs.webp",
+  "before": "list",
+  "before_text": 67,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3886,
+  "file": "erof-3886-first-five-minutes-1.webp",
+  "before": "list",
+  "before_text": 84,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3886,
+  "file": "erof-3886-stroke-mistakes.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3886,
+  "file": "erof-3886-er-stroke-clock.webp",
+  "before": "list",
+  "before_text": 280,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3882,
+  "file": "erof-3882-burn-degrees.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3882,
+  "file": "erof-3882-burn-first-aid.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3879,
+  "file": "erof-3879-pharmacy-or-er.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3875,
+  "file": "erof-3875-when-to-go-er.webp",
+  "before": "list",
+  "before_text": 143,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3871,
+  "file": "erof-3871-near-drowning-signs.webp",
+  "before": "list",
+  "before_text": 83,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3867,
+  "file": "erof-3867-co-symptoms.webp",
+  "before": "h3",
+  "before_text": 419,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3867,
+  "file": "erof-3867-co-emergency-steps.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3862,
+  "file": "erof-3862-sepsis-signs.webp",
+  "before": "list",
+  "before_text": 185,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3862,
+  "file": "erof-3862-sepsis-what-to-do.webp",
+  "before": "list",
+  "before_text": 159,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3858,
+  "file": "erof-3858-kidney-stone-home-care.webp",
+  "before": "h2",
+  "before_text": 132,
+  "after": "h3",
+  "after_text": 0
+ },
+ {
+  "post_id": 3858,
+  "file": "erof-3858-kidney-stone-size.webp",
+  "before": "h2",
+  "before_text": 710,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3858,
+  "file": "erof-3858-kidney-stone-er.webp",
+  "before": "list",
+  "before_text": 122,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3854,
+  "file": "erof-3854-dka-er-triggers.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3833,
+  "file": "erof-3833-aneurysm-red-flags.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3833,
+  "file": "erof-3833-headache-treatment-paths.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3829,
+  "file": "erof-3829-concussion-symptoms.webp",
+  "before": "list",
+  "before_text": 189,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3829,
+  "file": "erof-3829-concussion-er.webp",
+  "before": "h3",
+  "before_text": 523,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3825,
+  "file": "erof-3825-dog-bite-infection.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3825,
+  "file": "erof-3825-dog-bite-first-aid.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3825,
+  "file": "erof-3825-dog-bite-er.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3816,
+  "file": "erof-3816-eye-red-flags.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3816,
+  "file": "erof-3816-scratched-cornea.webp",
+  "before": "h3",
+  "before_text": 421,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3816,
+  "file": "erof-3816-retinal-spots.webp",
+  "before": "list",
+  "before_text": 150,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3816,
+  "file": "erof-3816-eye-what-not-to-do.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3813,
+  "file": "erof-3813-appendicitis-pain-shift.webp",
+  "before": "h3",
+  "before_text": 590,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3813,
+  "file": "erof-3813-appendicitis-er.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3808,
+  "file": "erof-3808-rsv-infant-signs.webp",
+  "before": "h3",
+  "before_text": 372,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3808,
+  "file": "erof-3808-rsv-flu-emergency-signs.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3803,
+  "file": "erof-3803-battery-red-flags.webp",
+  "before": "h3",
+  "before_text": 199,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3803,
+  "file": "erof-3803-battery-two-hour-window-1.webp",
+  "before": "h2",
+  "before_text": 422,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3803,
+  "file": "erof-3803-button-battery-what-not-to-do.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3800,
+  "file": "erof-3800-child-dehydration-stages.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3800,
+  "file": "erof-3800-child-vomiting-er.webp",
+  "before": "list",
+  "before_text": 216,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3796,
+  "file": "erof-3796-heat-illness-first-aid.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3792,
+  "file": "erof-3792-snake-bite-first-aid.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3365,
+  "file": "erof-3365-stress-fracture-sites.webp",
+  "before": "h2",
+  "before_text": 0,
+  "after": "img",
+  "after_text": 0
+ },
+ {
+  "post_id": 3365,
+  "file": "erof-3365-stress-fracture-signs.webp",
+  "before": "h2",
+  "before_text": 0,
+  "after": "h3",
+  "after_text": 206
+ },
+ {
+  "post_id": 3365,
+  "file": "erof-3365-stress-fracture-healing.webp",
+  "before": "h2",
+  "before_text": 0,
+  "after": "h3",
+  "after_text": 63
+ },
+ {
+  "post_id": 3365,
+  "file": "erof-3365-stress-fracture-er.webp",
+  "before": "h2",
+  "before_text": 0,
+  "after": "img",
+  "after_text": 0
+ },
+ {
+  "post_id": 3201,
+  "file": "erof-3201-dehydration-signs.webp",
+  "before": "list",
+  "before_text": 202,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3201,
+  "file": "erof-3201-dehydration-evaluation.webp",
+  "before": "list",
+  "before_text": 89,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3162,
+  "file": "erof-3162-muscle-strain-grades.webp",
+  "before": "h2",
+  "before_text": 0,
+  "after": "img",
+  "after_text": 0
+ },
+ {
+  "post_id": 3162,
+  "file": "erof-3162-muscle-strain-recovery.webp",
+  "before": "h2",
+  "before_text": 0,
+  "after": "img",
+  "after_text": 0
+ },
+ {
+  "post_id": 3103,
+  "file": "erof-3103-fracture-or-bruise-diagnosis.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3103,
+  "file": "erof-3103-bone-bruise-care.webp",
+  "before": "list",
+  "before_text": 0,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3103,
+  "file": "erof-3103-bone-injury-er.webp",
+  "before": "list",
+  "before_text": 29,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3097,
+  "file": "erof-3097-slipping-rib-signs.webp",
+  "before": "h3",
+  "before_text": 152,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3097,
+  "file": "erof-3097-slipping-rib-when-seen.webp",
+  "before": "list",
+  "before_text": 399,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3091,
+  "file": "erof-3091-when-iv-needed.webp",
+  "before": "list",
+  "before_text": 231,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3091,
+  "file": "erof-3091-iv-how-long-1.webp",
+  "before": "h2",
+  "before_text": 301,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3081,
+  "file": "erof-3081-xray-what-to-expect-1.webp",
+  "before": "list",
+  "before_text": 181,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 3081,
+  "file": "erof-3081-when-er-xray.webp",
+  "before": "list",
+  "before_text": 148,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 2780,
+  "file": "erof-2780-er-or-urgent-care-symptoms.webp",
+  "before": "img",
+  "before_text": 286,
+  "after": "h2",
+  "after_text": 0
+ },
+ {
+  "post_id": 2780,
+  "file": "erof-2780-call-911-instead-of-driving.webp",
+  "before": "img",
+  "before_text": 509,
+  "after": "h2",
+  "after_text": 0
+ }
+]

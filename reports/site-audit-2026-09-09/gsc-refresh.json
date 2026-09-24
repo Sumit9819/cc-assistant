@@ -1,0 +1,65 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.3"
+      }
+    }
+  },
+  {
+    "name": "gsc_warehouse_sync",
+    "isError": false,
+    "result": {
+      "site": "erofwhiterock-com",
+      "db_path": "C:\\Users\\sumit\\.cc-assistant\\warehouse\\erofwhiterock-com.sqlite",
+      "synced_dates": 30,
+      "rows_fetched": 8372,
+      "seconds": 84,
+      "coverage": {
+        "dates": 277,
+        "earliest": "2025-12-05",
+        "latest": "2026-09-07"
+      },
+      "backfill_remaining_dates": 0,
+      "db_size_mb": 10.5
+    }
+  },
+  {
+    "name": "gsc_warehouse_status",
+    "isError": false,
+    "result": {
+      "site": "erofwhiterock-com",
+      "db_path": "C:\\Users\\sumit\\.cc-assistant\\warehouse\\erofwhiterock-com.sqlite",
+      "db_size_mb": 10.5,
+      "property": "https://erofwhiterock.com/",
+      "total_rows": 25503,
+      "dates_synced": 277,
+      "earliest": "2025-12-05",
+      "latest": "2026-09-07",
+      "last_sync_at": "2026-09-09 15:05:03 UTC",
+      "incomplete_dates": 0,
+      "stale_hint": null,
+      "data_integrity": {
+        "code": "gsc_impressions_inflated",
+        "bug_window": "2025-05-13 to 2026-04-27",
+        "reads_from": "2025-12-05",
+        "clicks_ok": true,
+        "note": "Impressions between 2025-05-13 and 2026-04-27 are inflated by a Google logging error that was fixed without restating history. Clicks are correct — judge this period on CLICKS. This range STRADDLES the fix date, so any impression or CTR decline it shows is partly the correction being removed, not lost visibility.",
+        "source": "https://support.google.com/webmasters/answer/6211453"
+      }
+    }
+  },
+  {
+    "name": "gbp_locations",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":429,\"body\":\"{\\\"code\\\":\\\"gbp_api_error\\\",\\\"message\\\":\\\"Quota exceeded for quota metric 'Requests' and limit 'Requests per minute' of service 'mybusinessaccountmanagement.googleapis.com' for consumer 'project_number:518134550279'.\\\",\\\"data\\\":{\\\"status\\\":429}}\"}"
+    }
+  }
+]

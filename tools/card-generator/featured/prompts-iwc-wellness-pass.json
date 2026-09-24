@@ -1,0 +1,15 @@
+{
+  "_note": "Hero imagery for the IWC 20% QR offer landing page (noindex, 2026-09-15). Lifestyle scenes, not a clinic interior: a generated clinic room would imply premises that are not theirs, and the real clinic photos (Lori, entrance sign, consult room) carry the trust sections. Subject sits on the right third so the hero copy and form have calm negative space on the left. Two options with different subjects so the operator can pick; both keep parity framing (face visible, calm, ordinary clothes).",
+  "images": [
+    {
+      "name": "iwc-pass-hero-woman",
+      "brand": "iwc",
+      "prompt": "Horizontal orientation, wider than tall, wide cinematic framing. An editorial lifestyle photograph of a woman in her late thirties with warm brown skin and dark hair pulled back smoothly into a low bun, sitting relaxed in a cream upholstered armchair beside a tall bright window, wearing a soft oatmeal knit cardigan over a plain white top, holding a ceramic mug in both hands, a genuine gentle smile, looking toward the camera. The room has warm sage green walls, a leafy green plant and linen curtains, soft natural morning light, shallow depth of field. The woman is placed on the right third of the frame, leaving calm uncluttered space on the left half. No text, no logos, no medical equipment."
+    },
+    {
+      "name": "iwc-pass-hero-man",
+      "brand": "iwc",
+      "prompt": "Horizontal orientation, wider than tall, wide cinematic framing. An editorial lifestyle photograph of a man in his mid forties with light olive skin, short dark hair with some grey at the temples and a trimmed beard, sitting relaxed on a cream linen sofa beside a tall bright window, wearing a plain sage green crew-neck sweater, holding a glass of water, a warm easy smile, looking toward the camera. The room has warm off-white walls, a leafy green plant and soft linen curtains, soft natural morning light, shallow depth of field. The man is placed on the right third of the frame, leaving calm uncluttered space on the left half. No text, no logos, no medical equipment."
+    }
+  ]
+}

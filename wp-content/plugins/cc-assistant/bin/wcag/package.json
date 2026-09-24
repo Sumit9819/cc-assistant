@@ -1,0 +1,9 @@
+{
+  "name": "cc-assistant-wcag",
+  "private": true,
+  "description": "Playwright + axe-core runner used by the cc-assistant wcag_sweep tool. Installed into ~/.cc-assistant/wcag by the tool on first use; nothing here ships to WordPress.",
+  "dependencies": {
+    "axe-core": "^4.10.0",
+    "playwright": "^1.62.0"
+  }
+}

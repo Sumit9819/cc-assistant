@@ -1,0 +1,79 @@
+[
+  {
+    "command": [
+      "python",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\tests\\automation-runner-test.py"
+    ],
+    "exit_code": 0,
+    "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\tests\\automation-bridge-test.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS actual bridge denies unlisted tools, non-post creation and repeat attempts without contacting WordPress.\n"
+  },
+  {
+    "command": [
+      "python",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\tests\\hook-gate-test.py",
+      "C:/Users/sumit/Local Sites/plugintesting/app/public/.claude/hooks/cc_gate.py"
+    ],
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\tests\\hook-gate-test.py\", line 20, in <module>\n    gate.mode_post(payload('render_probe',{'http_code':200,'post_id':1})); assert denied(mutation)\n                                                                                  ~~~~~~^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "command": [
+      "node",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\tests\\wcag-passive-forms-test.cjs"
+    ],
+    "exit_code": 0,
+    "output": "PASS: Native-required, aria-required and optional forms inspected without click, submit, invalid events or network requests.\n"
+  },
+  {
+    "command": [
+      "python",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\mcp-smoke.py"
+    ],
+    "exit_code": 0,
+    "output": "{\"version\": \"0.89.3\", \"tool_count\": 177, \"new_tools\": [\"get_content_scope\", \"plan_blog_content\", \"content_research\", \"content_decision\", \"content_decision_history\", \"discover_content_scope\", \"manage_content_scope\", \"content_workflow\", \"inspect_plugin_capability\", \"verify_content_workflow\"], \"duplicate_names\": false, \"stderr\": \"\", \"scope\": \"Real stdio initialize/tools-list; fixture credentials, no network or live site calls.\"}\n"
+  },
+  {
+    "command": [
+      "node",
+      "--check",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\bin\\wcag\\axe-run.js"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "command": [
+      "node",
+      "--check",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\bin\\wcag\\form-observation.js"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "command": [
+      "node",
+      "--check",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\bin\\browser-transport.mjs"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "command": [
+      "node",
+      "--check",
+      "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v893\\cc-assistant\\tests\\wcag-passive-forms-test.cjs"
+    ],
+    "exit_code": 0,
+    "output": ""
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "version": "0.85.0",
+  "date": "2026-09-09",
+  "php_syntax_files": 166,
+  "php_regression_files_passed": 35,
+  "php_regression_files_failed": 0,
+  "mcp": {
+    "version": "0.85.0",
+    "tool_count": 169,
+    "new_tools": [
+      "get_content_scope",
+      "plan_blog_content",
+      "content_research",
+      "content_decision",
+      "content_decision_history"
+    ],
+    "duplicate_names": false,
+    "stderr": "",
+    "scope": "Real stdio initialize/tools-list; fixture credentials, no network or live site calls."
+  },
+  "python_hook_gate": "Passed: versions, TTL, failed/stale reads, target binding, drafts, option discovery and dry runs.",
+  "package": {
+    "file": "cc-assistant-0.85.0.zip",
+    "files": 141,
+    "bytes": 1124412,
+    "sha256": "1c3027a4c9240ce3fb5783834816102e9e2641f7974988277b2300beb212a133",
+    "crc_verified": true,
+    "packaged_bytes_match_staged_source": true
+  },
+  "changed_existing_files": 22,
+  "new_source_files": 9,
+  "limits": [
+    "No live WordPress content/settings modified or deployed this turn.",
+    "Measurement SQL regression uses SQLite fixtures, not a live MySQL migration.",
+    "MCP smoke covers real stdio initialize/tools-list with fixture credentials, not authenticated endpoint calls.",
+    "Rankings, live extraction, installed third-party plugins and production hosting are not certified by local tests."
+  ]
+}

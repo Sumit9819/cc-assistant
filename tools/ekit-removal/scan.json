@@ -1,0 +1,127 @@
+{
+ "erofirving.com": {
+  "urls": 97,
+  "fetched": 97,
+  "failed": 0,
+  "pagesWithEkitWidgets": 97,
+  "widgets": {
+   "elementskit-social-media": {
+    "count": 97,
+    "pages": [
+     "/diabetic-ketoacidosis-dka-signs-sugar-emergency-er-irving/",
+     "/carbon-monoxide-poisoning-symptoms-treatment-irving/",
+     "/peritonsillar-abscess-symptoms-emergency-guide/",
+     "/anaphylaxis-recovery-epipen-next-steps-irving-tx/",
+     "/is-it-a-stroke-fast-guide-dfw/",
+     "/workplace-injuries-las-colinas-care-recovery-guide/"
+    ]
+   },
+   "ekit-nav-menu": {
+    "count": 97,
+    "pages": [
+     "/diabetic-ketoacidosis-dka-signs-sugar-emergency-er-irving/",
+     "/carbon-monoxide-poisoning-symptoms-treatment-irving/",
+     "/peritonsillar-abscess-symptoms-emergency-guide/",
+     "/anaphylaxis-recovery-epipen-next-steps-irving-tx/",
+     "/is-it-a-stroke-fast-guide-dfw/",
+     "/workplace-injuries-las-colinas-care-recovery-guide/"
+    ]
+   }
+  },
+  "icons": {
+   "down-arrow1": 388,
+   "menu-11": 194,
+   "phone-call": 97,
+   "envelope1": 97,
+   "location": 97,
+   "facebook": 97,
+   "twitter": 97,
+   "linkedin": 97,
+   "instagram-1": 97,
+   "yelp-1": 97
+  },
+  "markers": {
+   "ekitNavbar": 97,
+   "ekitHamburger": 97,
+   "ekitMegaMenu": 97,
+   "ekitOffcanvas": 97
+  }
+ },
+ "erofwhiterock.com": {
+  "urls": 129,
+  "fetched": 129,
+  "failed": 0,
+  "pagesWithEkitWidgets": 0,
+  "widgets": {},
+  "icons": {},
+  "markers": {
+   "ekitNavbar": 129,
+   "ekitMegaMenu": 129,
+   "proHeaderLoc": 129,
+   "proFooterLoc": 129
+  }
+ },
+ "eroflufkin.com": {
+  "urls": 162,
+  "fetched": 162,
+  "failed": 0,
+  "pagesWithEkitWidgets": 161,
+  "widgets": {
+   "elementskit-social-media": {
+    "count": 161,
+    "pages": [
+     "/dislocated-shoulder-symptoms/",
+     "/abscessed-tooth-symptoms-emergency/",
+     "/stroke-symptoms-in-women/",
+     "/anaphylaxis-symptoms-severe-allergic-reaction/",
+     "/pre-stroke-warning-signs-be-fast/",
+     "/sprained-vs-broken-ankle/"
+    ]
+   },
+   "ekit-nav-menu": {
+    "count": 161,
+    "pages": [
+     "/dislocated-shoulder-symptoms/",
+     "/abscessed-tooth-symptoms-emergency/",
+     "/stroke-symptoms-in-women/",
+     "/anaphylaxis-symptoms-severe-allergic-reaction/",
+     "/pre-stroke-warning-signs-be-fast/",
+     "/sprained-vs-broken-ankle/"
+    ]
+   }
+  },
+  "icons": {
+   "down-arrow1": 644,
+   "menu-11": 322,
+   "phone-call1": 161,
+   "mail": 161,
+   "location": 161,
+   "facebook": 161,
+   "twitter": 161,
+   "linkedin": 161,
+   "instagram-1": 161,
+   "yelp-1": 161,
+   "communication": 1
+  },
+  "markers": {
+   "ekitNavbar": 161,
+   "ekitHamburger": 161,
+   "ekitMegaMenu": 161,
+   "ekitOffcanvas": 161,
+   "proHeaderLoc": 161,
+   "proFooterLoc": 161
+  }
+ },
+ "irvingwellnessclinic.com": {
+  "urls": 82,
+  "fetched": 82,
+  "failed": 0,
+  "pagesWithEkitWidgets": 0,
+  "widgets": {},
+  "icons": {},
+  "markers": {
+   "proHeaderLoc": 82,
+   "proFooterLoc": 82
+  }
+ }
+}

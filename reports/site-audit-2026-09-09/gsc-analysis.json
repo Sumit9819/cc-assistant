@@ -1,0 +1,2008 @@
+{
+  "windows": {
+    "previous": [
+      "2026-07-14",
+      "2026-08-10"
+    ],
+    "current": [
+      "2026-08-11",
+      "2026-09-07"
+    ]
+  },
+  "scope": "Retrieved query/page rows; anonymized queries and upstream API omissions mean these are not whole-property totals.",
+  "coverage": [
+    {
+      "first": "2026-07-14",
+      "last": "2026-09-07",
+      "dates": 56,
+      "incomplete": 0
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-07-14",
+      "rows": 132,
+      "clicks": 3,
+      "impressions": 279
+    },
+    {
+      "date": "2026-07-15",
+      "rows": 114,
+      "clicks": 2,
+      "impressions": 184
+    },
+    {
+      "date": "2026-07-16",
+      "rows": 118,
+      "clicks": 2,
+      "impressions": 188
+    },
+    {
+      "date": "2026-07-17",
+      "rows": 106,
+      "clicks": 1,
+      "impressions": 160
+    },
+    {
+      "date": "2026-07-18",
+      "rows": 111,
+      "clicks": 3,
+      "impressions": 171
+    },
+    {
+      "date": "2026-07-19",
+      "rows": 106,
+      "clicks": 0,
+      "impressions": 161
+    },
+    {
+      "date": "2026-07-20",
+      "rows": 101,
+      "clicks": 2,
+      "impressions": 146
+    },
+    {
+      "date": "2026-07-21",
+      "rows": 144,
+      "clicks": 1,
+      "impressions": 232
+    },
+    {
+      "date": "2026-07-22",
+      "rows": 177,
+      "clicks": 4,
+      "impressions": 309
+    },
+    {
+      "date": "2026-07-23",
+      "rows": 144,
+      "clicks": 2,
+      "impressions": 263
+    },
+    {
+      "date": "2026-07-24",
+      "rows": 168,
+      "clicks": 3,
+      "impressions": 256
+    },
+    {
+      "date": "2026-07-25",
+      "rows": 145,
+      "clicks": 0,
+      "impressions": 221
+    },
+    {
+      "date": "2026-07-26",
+      "rows": 159,
+      "clicks": 1,
+      "impressions": 245
+    },
+    {
+      "date": "2026-07-27",
+      "rows": 207,
+      "clicks": 3,
+      "impressions": 356
+    },
+    {
+      "date": "2026-07-28",
+      "rows": 235,
+      "clicks": 2,
+      "impressions": 372
+    },
+    {
+      "date": "2026-07-29",
+      "rows": 213,
+      "clicks": 3,
+      "impressions": 362
+    },
+    {
+      "date": "2026-07-30",
+      "rows": 207,
+      "clicks": 4,
+      "impressions": 404
+    },
+    {
+      "date": "2026-07-31",
+      "rows": 205,
+      "clicks": 0,
+      "impressions": 366
+    },
+    {
+      "date": "2026-08-01",
+      "rows": 223,
+      "clicks": 0,
+      "impressions": 372
+    },
+    {
+      "date": "2026-08-02",
+      "rows": 227,
+      "clicks": 4,
+      "impressions": 420
+    },
+    {
+      "date": "2026-08-03",
+      "rows": 234,
+      "clicks": 9,
+      "impressions": 812
+    },
+    {
+      "date": "2026-08-04",
+      "rows": 211,
+      "clicks": 3,
+      "impressions": 425
+    },
+    {
+      "date": "2026-08-05",
+      "rows": 257,
+      "clicks": 3,
+      "impressions": 484
+    },
+    {
+      "date": "2026-08-06",
+      "rows": 236,
+      "clicks": 2,
+      "impressions": 406
+    },
+    {
+      "date": "2026-08-07",
+      "rows": 225,
+      "clicks": 6,
+      "impressions": 442
+    },
+    {
+      "date": "2026-08-08",
+      "rows": 221,
+      "clicks": 2,
+      "impressions": 352
+    },
+    {
+      "date": "2026-08-09",
+      "rows": 272,
+      "clicks": 5,
+      "impressions": 463
+    },
+    {
+      "date": "2026-08-10",
+      "rows": 317,
+      "clicks": 7,
+      "impressions": 616
+    },
+    {
+      "date": "2026-08-11",
+      "rows": 269,
+      "clicks": 3,
+      "impressions": 449
+    },
+    {
+      "date": "2026-08-12",
+      "rows": 286,
+      "clicks": 5,
+      "impressions": 519
+    },
+    {
+      "date": "2026-08-13",
+      "rows": 325,
+      "clicks": 2,
+      "impressions": 619
+    },
+    {
+      "date": "2026-08-14",
+      "rows": 270,
+      "clicks": 3,
+      "impressions": 463
+    },
+    {
+      "date": "2026-08-15",
+      "rows": 256,
+      "clicks": 1,
+      "impressions": 367
+    },
+    {
+      "date": "2026-08-16",
+      "rows": 257,
+      "clicks": 4,
+      "impressions": 400
+    },
+    {
+      "date": "2026-08-17",
+      "rows": 319,
+      "clicks": 4,
+      "impressions": 604
+    },
+    {
+      "date": "2026-08-18",
+      "rows": 243,
+      "clicks": 2,
+      "impressions": 452
+    },
+    {
+      "date": "2026-08-19",
+      "rows": 238,
+      "clicks": 2,
+      "impressions": 422
+    },
+    {
+      "date": "2026-08-20",
+      "rows": 213,
+      "clicks": 7,
+      "impressions": 415
+    },
+    {
+      "date": "2026-08-21",
+      "rows": 221,
+      "clicks": 6,
+      "impressions": 434
+    },
+    {
+      "date": "2026-08-22",
+      "rows": 212,
+      "clicks": 2,
+      "impressions": 368
+    },
+    {
+      "date": "2026-08-23",
+      "rows": 217,
+      "clicks": 0,
+      "impressions": 376
+    },
+    {
+      "date": "2026-08-24",
+      "rows": 280,
+      "clicks": 3,
+      "impressions": 523
+    },
+    {
+      "date": "2026-08-25",
+      "rows": 262,
+      "clicks": 3,
+      "impressions": 523
+    },
+    {
+      "date": "2026-08-26",
+      "rows": 294,
+      "clicks": 5,
+      "impressions": 597
+    },
+    {
+      "date": "2026-08-27",
+      "rows": 289,
+      "clicks": 1,
+      "impressions": 544
+    },
+    {
+      "date": "2026-08-28",
+      "rows": 356,
+      "clicks": 3,
+      "impressions": 620
+    },
+    {
+      "date": "2026-08-29",
+      "rows": 319,
+      "clicks": 1,
+      "impressions": 538
+    },
+    {
+      "date": "2026-08-30",
+      "rows": 299,
+      "clicks": 3,
+      "impressions": 466
+    },
+    {
+      "date": "2026-08-31",
+      "rows": 392,
+      "clicks": 2,
+      "impressions": 734
+    },
+    {
+      "date": "2026-09-01",
+      "rows": 357,
+      "clicks": 3,
+      "impressions": 683
+    },
+    {
+      "date": "2026-09-02",
+      "rows": 328,
+      "clicks": 6,
+      "impressions": 743
+    },
+    {
+      "date": "2026-09-03",
+      "rows": 289,
+      "clicks": 0,
+      "impressions": 1000
+    },
+    {
+      "date": "2026-09-04",
+      "rows": 313,
+      "clicks": 4,
+      "impressions": 653
+    },
+    {
+      "date": "2026-09-05",
+      "rows": 317,
+      "clicks": 0,
+      "impressions": 782
+    },
+    {
+      "date": "2026-09-06",
+      "rows": 362,
+      "clicks": 0,
+      "impressions": 892
+    }
+  ],
+  "totals": [
+    {
+      "period": "current",
+      "clicks": 75,
+      "impressions": 15186,
+      "ctr": 0.00494,
+      "weighted_position": 9.65
+    },
+    {
+      "period": "previous",
+      "clicks": 77,
+      "impressions": 9467,
+      "ctr": 0.00813,
+      "weighted_position": 11.93
+    }
+  ],
+  "pages": [
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 9,
+      "impressions": 3683,
+      "ctr": 0.00244,
+      "weighted_position": 7.35
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 60,
+      "impressions": 2999,
+      "ctr": 0.02001,
+      "weighted_position": 8.3
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 4,
+      "impressions": 1456,
+      "ctr": 0.00275,
+      "weighted_position": 5.56
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/when-to-go-to-er-after-hitting-head/",
+      "clicks": 1,
+      "impressions": 790,
+      "ctr": 0.00127,
+      "weighted_position": 12.24
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/sore-throat-emergency-room-strep-warning-signs/",
+      "clicks": 0,
+      "impressions": 655,
+      "ctr": 0.0,
+      "weighted_position": 9.57
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/",
+      "clicks": 1,
+      "impressions": 632,
+      "ctr": 0.00158,
+      "weighted_position": 7.55
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 316,
+      "ctr": 0.0,
+      "weighted_position": 8.52
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-mesquite-tx/",
+      "clicks": 0,
+      "impressions": 287,
+      "ctr": 0.0,
+      "weighted_position": 11.33
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/contact-us/",
+      "clicks": 0,
+      "impressions": 251,
+      "ctr": 0.0,
+      "weighted_position": 5.92
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/cuando-ir-a-emergencias-golpe-en-la-cabeza/",
+      "clicks": 0,
+      "impressions": 243,
+      "ctr": 0.0,
+      "weighted_position": 42.72
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-2",
+      "clicks": 0,
+      "impressions": 225,
+      "ctr": 0.0,
+      "weighted_position": 5.48
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-0",
+      "clicks": 0,
+      "impressions": 225,
+      "ctr": 0.0,
+      "weighted_position": 5.46
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "clicks": 0,
+      "impressions": 225,
+      "ctr": 0.0,
+      "weighted_position": 6.08
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-6",
+      "clicks": 0,
+      "impressions": 218,
+      "ctr": 0.0,
+      "weighted_position": 5.53
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-5",
+      "clicks": 0,
+      "impressions": 216,
+      "ctr": 0.0,
+      "weighted_position": 5.5
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-4",
+      "clicks": 0,
+      "impressions": 216,
+      "ctr": 0.0,
+      "weighted_position": 5.5
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-3",
+      "clicks": 0,
+      "impressions": 216,
+      "ctr": 0.0,
+      "weighted_position": 5.5
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-1",
+      "clicks": 0,
+      "impressions": 216,
+      "ctr": 0.0,
+      "weighted_position": 5.5
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/emergency-head-injury/",
+      "clicks": 0,
+      "impressions": 200,
+      "ctr": 0.0,
+      "weighted_position": 25.31
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+      "clicks": 0,
+      "impressions": 177,
+      "ctr": 0.0,
+      "weighted_position": 8.77
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+      "clicks": 0,
+      "impressions": 151,
+      "ctr": 0.0,
+      "weighted_position": 18.75
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-casa-linda-tx/",
+      "clicks": 0,
+      "impressions": 131,
+      "ctr": 0.0,
+      "weighted_position": 4.63
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/rashes-treatment/",
+      "clicks": 0,
+      "impressions": 126,
+      "ctr": 0.0,
+      "weighted_position": 52.79
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/letter-of-protection/",
+      "clicks": 0,
+      "impressions": 119,
+      "ctr": 0.0,
+      "weighted_position": 19.27
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-lakewood-tx/",
+      "clicks": 0,
+      "impressions": 114,
+      "ctr": 0.0,
+      "weighted_position": 25.54
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/blood-clot-treatment/",
+      "clicks": 0,
+      "impressions": 110,
+      "ctr": 0.0,
+      "weighted_position": 20.87
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/tick-bites-west-nile-er-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 91,
+      "ctr": 0.0,
+      "weighted_position": 9.95
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/careers/",
+      "clicks": 0,
+      "impressions": 90,
+      "ctr": 0.0,
+      "weighted_position": 5.22
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/about-er-of-white-rock/",
+      "clicks": 0,
+      "impressions": 78,
+      "ctr": 0.0,
+      "weighted_position": 7.24
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-forest-hills-tx/",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": 0.0,
+      "weighted_position": 4.6
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-casa-view-tx/",
+      "clicks": 0,
+      "impressions": 71,
+      "ctr": 0.0,
+      "weighted_position": 14.21
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+      "clicks": 0,
+      "impressions": 70,
+      "ctr": 0.0,
+      "weighted_position": 26.61
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/informacion-de-seguros-y-facturacion/",
+      "clicks": 0,
+      "impressions": 56,
+      "ctr": 0.0,
+      "weighted_position": 7.7
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/infectious-disease-vector-borne-emergencies-near-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": 0.0,
+      "weighted_position": 4.81
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/eye-injuries/",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0.0,
+      "weighted_position": 31.07
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0.0,
+      "weighted_position": 14.63
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/concussion-treatment/",
+      "clicks": 0,
+      "impressions": 39,
+      "ctr": 0.0,
+      "weighted_position": 32.77
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/insurance-billing-info/",
+      "clicks": 0,
+      "impressions": 36,
+      "ctr": 0.0,
+      "weighted_position": 12.17
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-garland-tx/",
+      "clicks": 0,
+      "impressions": 35,
+      "ctr": 0.0,
+      "weighted_position": 18.29
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/chest-pain-treatment/",
+      "clicks": 0,
+      "impressions": 34,
+      "ctr": 0.0,
+      "weighted_position": 14.53
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/drowning-near-drowning-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0.0,
+      "weighted_position": 4.97
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/expert-stroke-care/",
+      "clicks": 0,
+      "impressions": 28,
+      "ctr": 0.0,
+      "weighted_position": 5.93
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/blog/",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0.0,
+      "weighted_position": 15.89
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0.0,
+      "weighted_position": 25.93
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/bronchitis-treatment-in-white-rock/",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "weighted_position": 17.1
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "weighted_position": 5.7
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/medical-disclaimer/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "weighted_position": 16.78
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/billing-disclosures/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "weighted_position": 34.13
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/pruebas-de-laboratorio-de-emergencia-y-rapidas-en-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "weighted_position": 37.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "weighted_position": 16.43
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/privacy-policy/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "weighted_position": 72.83
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/blog/2/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "weighted_position": 69.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/cuando-una-erupcion-cutanea-es-una-emergencia/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "weighted_position": 15.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/blood-clot-warning-signs-dvt-pe-dallas/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "weighted_position": 38.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "weighted_position": 7.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/notice-of-privacy-practices/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "weighted_position": 10.5
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/treatment-severe-food-poisoning-dallas/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 11.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/sprain-or-fracture-when-to-visit-er-white-rock/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 11.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/services/back-pain-treatment-in-white-rock/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 5.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 7.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-mesquite/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 29.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-casa-linda/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 28.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 16.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/es/copa-mundial-2026-dallas-er-cardiaco/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 7.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/emergency-room-rash-warning-signs/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 8.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/cookie-policy/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 90.0
+    },
+    {
+      "period": "current",
+      "page": "https://erofwhiterock.com/accessibility-statement/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 87.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 63,
+      "impressions": 2628,
+      "ctr": 0.02397,
+      "weighted_position": 9.55
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 3,
+      "impressions": 1612,
+      "ctr": 0.00186,
+      "weighted_position": 9.07
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/",
+      "clicks": 0,
+      "impressions": 1007,
+      "ctr": 0.0,
+      "weighted_position": 5.29
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 3,
+      "impressions": 797,
+      "ctr": 0.00376,
+      "weighted_position": 7.17
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/when-to-go-to-er-after-hitting-head/",
+      "clicks": 1,
+      "impressions": 536,
+      "ctr": 0.00187,
+      "weighted_position": 13.3
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/emergency-head-injury/",
+      "clicks": 1,
+      "impressions": 303,
+      "ctr": 0.0033,
+      "weighted_position": 33.4
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/contact-us/",
+      "clicks": 1,
+      "impressions": 259,
+      "ctr": 0.00386,
+      "weighted_position": 6.08
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "clicks": 1,
+      "impressions": 239,
+      "ctr": 0.00418,
+      "weighted_position": 2.8
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+      "clicks": 0,
+      "impressions": 176,
+      "ctr": 0.0,
+      "weighted_position": 21.04
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/chest-pain-treatment/",
+      "clicks": 1,
+      "impressions": 165,
+      "ctr": 0.00606,
+      "weighted_position": 21.61
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/es/cuando-ir-a-emergencias-golpe-en-la-cabeza/",
+      "clicks": 0,
+      "impressions": 161,
+      "ctr": 0.0,
+      "weighted_position": 45.84
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/about-er-of-white-rock/",
+      "clicks": 1,
+      "impressions": 160,
+      "ctr": 0.00625,
+      "weighted_position": 5.01
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 151,
+      "ctr": 0.0,
+      "weighted_position": 9.64
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/blood-clot-treatment/",
+      "clicks": 0,
+      "impressions": 131,
+      "ctr": 0.0,
+      "weighted_position": 43.39
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/rashes-treatment/",
+      "clicks": 1,
+      "impressions": 108,
+      "ctr": 0.00926,
+      "weighted_position": 45.75
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "clicks": 0,
+      "impressions": 106,
+      "ctr": 0.0,
+      "weighted_position": 11.75
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/infectious-disease-vector-borne-emergencies-near-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 104,
+      "ctr": 0.0,
+      "weighted_position": 2.81
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/insurance-billing-info/",
+      "clicks": 0,
+      "impressions": 102,
+      "ctr": 0.0,
+      "weighted_position": 3.68
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+      "clicks": 0,
+      "impressions": 101,
+      "ctr": 0.0,
+      "weighted_position": 38.28
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/careers/",
+      "clicks": 1,
+      "impressions": 99,
+      "ctr": 0.0101,
+      "weighted_position": 4.97
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/blog/",
+      "clicks": 0,
+      "impressions": 77,
+      "ctr": 0.0,
+      "weighted_position": 2.57
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/es/informacion-de-seguros-y-facturacion/",
+      "clicks": 0,
+      "impressions": 70,
+      "ctr": 0.0,
+      "weighted_position": 8.71
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/concussion-treatment/",
+      "clicks": 0,
+      "impressions": 42,
+      "ctr": 0.0,
+      "weighted_position": 46.29
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/blog/2/",
+      "clicks": 0,
+      "impressions": 39,
+      "ctr": 0.0,
+      "weighted_position": 62.69
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/eye-injuries/",
+      "clicks": 0,
+      "impressions": 30,
+      "ctr": 0.0,
+      "weighted_position": 44.1
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/services/expert-stroke-care/",
+      "clicks": 0,
+      "impressions": 29,
+      "ctr": 0.0,
+      "weighted_position": 7.17
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-2",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0.0,
+      "weighted_position": 8.08
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-0",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0.0,
+      "weighted_position": 8.08
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-6",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "weighted_position": 8.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-5",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "weighted_position": 8.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-4",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "weighted_position": 8.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-3",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "weighted_position": 8.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/#elementor-toc__heading-anchor-1",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "weighted_position": 8.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/sore-throat-emergency-room-strep-warning-signs/",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0.0,
+      "weighted_position": 7.94
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0.0,
+      "weighted_position": 6.8
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/drowning-near-drowning-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0.0,
+      "weighted_position": 4.67
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/letter-of-protection/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "weighted_position": 8.6
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "weighted_position": 6.4
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/billing-disclosures/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "weighted_position": 64.6
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/tick-bites-west-nile-er-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "weighted_position": 6.75
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/notice-of-privacy-practices/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "weighted_position": 6.75
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/medical-disclaimer/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "weighted_position": 3.5
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "weighted_position": 72.5
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/terms-and-conditions/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 1.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/specialties/diagnostic-testing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 1.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 1.0
+    },
+    {
+      "period": "previous",
+      "page": "https://erofwhiterock.com/accessibility-statement/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "weighted_position": 1.0
+    }
+  ],
+  "queries": [
+    {
+      "query": "er of white rock",
+      "clicks": 21,
+      "impressions": 634,
+      "pages": 18,
+      "weighted_position": 1.35
+    },
+    {
+      "query": "explain symptoms of strep throat and how to differentiate it from a common cold",
+      "clicks": 0,
+      "impressions": 591,
+      "pages": 1,
+      "weighted_position": 9.69
+    },
+    {
+      "query": "er near me",
+      "clicks": 3,
+      "impressions": 368,
+      "pages": 3,
+      "weighted_position": 2.97
+    },
+    {
+      "query": "how long do blood tests take in er",
+      "clicks": 0,
+      "impressions": 343,
+      "pages": 2,
+      "weighted_position": 7.23
+    },
+    {
+      "query": "emergency room",
+      "clicks": 0,
+      "impressions": 324,
+      "pages": 8,
+      "weighted_position": 2.4
+    },
+    {
+      "query": "difference between freestanding and hospital ers",
+      "clicks": 0,
+      "impressions": 316,
+      "pages": 1,
+      "weighted_position": 8.52
+    },
+    {
+      "query": "emergency room near me",
+      "clicks": 4,
+      "impressions": 312,
+      "pages": 5,
+      "weighted_position": 6.92
+    },
+    {
+      "query": "how long does an er visit take",
+      "clicks": 1,
+      "impressions": 287,
+      "pages": 8,
+      "weighted_position": 4.56
+    },
+    {
+      "query": "how long do er visits take",
+      "clicks": 1,
+      "impressions": 272,
+      "pages": 8,
+      "weighted_position": 4.85
+    },
+    {
+      "query": "er of white rock emergency room dallas northwest hwy",
+      "clicks": 4,
+      "impressions": 232,
+      "pages": 15,
+      "weighted_position": 1.35
+    },
+    {
+      "query": "how long does blood work take to come back in er",
+      "clicks": 1,
+      "impressions": 210,
+      "pages": 1,
+      "weighted_position": 4.24
+    },
+    {
+      "query": "how long is the average er visit",
+      "clicks": 0,
+      "impressions": 183,
+      "pages": 8,
+      "weighted_position": 3.5
+    },
+    {
+      "query": "er of white rock - emergency room",
+      "clicks": 7,
+      "impressions": 166,
+      "pages": 10,
+      "weighted_position": 3.76
+    },
+    {
+      "query": "how long is a typical er visit",
+      "clicks": 0,
+      "impressions": 140,
+      "pages": 8,
+      "weighted_position": 3.02
+    },
+    {
+      "query": "heat stroke symptoms",
+      "clicks": 0,
+      "impressions": 138,
+      "pages": 1,
+      "weighted_position": 2.98
+    },
+    {
+      "query": "how long does blood work take to come back in emergency room",
+      "clicks": 0,
+      "impressions": 136,
+      "pages": 2,
+      "weighted_position": 5.26
+    },
+    {
+      "query": "how long does er take",
+      "clicks": 0,
+      "impressions": 130,
+      "pages": 8,
+      "weighted_position": 4.11
+    },
+    {
+      "query": "how long does blood work take to come back in hospital",
+      "clicks": 0,
+      "impressions": 122,
+      "pages": 1,
+      "weighted_position": 10.15
+    },
+    {
+      "query": "urgent care near me",
+      "clicks": 2,
+      "impressions": 116,
+      "pages": 1,
+      "weighted_position": 7.86
+    },
+    {
+      "query": "how long does an er visit usually take",
+      "clicks": 0,
+      "impressions": 116,
+      "pages": 8,
+      "weighted_position": 3.35
+    },
+    {
+      "query": "how long does it take for x ray results in er",
+      "clicks": 0,
+      "impressions": 110,
+      "pages": 8,
+      "weighted_position": 10.25
+    },
+    {
+      "query": "how long do labs take to come back in er",
+      "clicks": 1,
+      "impressions": 101,
+      "pages": 1,
+      "weighted_position": 5.92
+    },
+    {
+      "query": "how long does er visit take",
+      "clicks": 0,
+      "impressions": 100,
+      "pages": 8,
+      "weighted_position": 3.77
+    },
+    {
+      "query": "how long does blood work take in er",
+      "clicks": 0,
+      "impressions": 99,
+      "pages": 2,
+      "weighted_position": 8.29
+    },
+    {
+      "query": "doctors that accept letter of protection",
+      "clicks": 0,
+      "impressions": 97,
+      "pages": 1,
+      "weighted_position": 19.18
+    },
+    {
+      "query": "how long does blood work take",
+      "clicks": 0,
+      "impressions": 93,
+      "pages": 2,
+      "weighted_position": 6.97
+    },
+    {
+      "query": "how long do blood test results take in er",
+      "clicks": 0,
+      "impressions": 93,
+      "pages": 2,
+      "weighted_position": 8.54
+    },
+    {
+      "query": "how long does an emergency room visit take",
+      "clicks": 0,
+      "impressions": 89,
+      "pages": 8,
+      "weighted_position": 5.3
+    },
+    {
+      "query": "dallas er",
+      "clicks": 0,
+      "impressions": 88,
+      "pages": 1,
+      "weighted_position": 9.11
+    },
+    {
+      "query": "white rock er",
+      "clicks": 6,
+      "impressions": 87,
+      "pages": 4,
+      "weighted_position": 5.0
+    },
+    {
+      "query": "how long does it take for blood work to come back in the er",
+      "clicks": 0,
+      "impressions": 83,
+      "pages": 2,
+      "weighted_position": 7.46
+    },
+    {
+      "query": "how long do urine tests take in er",
+      "clicks": 0,
+      "impressions": 80,
+      "pages": 1,
+      "weighted_position": 7.64
+    },
+    {
+      "query": "how long does bloodwork take to come back in er",
+      "clicks": 0,
+      "impressions": 79,
+      "pages": 1,
+      "weighted_position": 4.99
+    },
+    {
+      "query": "lakewood emergency room",
+      "clicks": 0,
+      "impressions": 77,
+      "pages": 1,
+      "weighted_position": 25.96
+    },
+    {
+      "query": "difficulty+breathing+emergency+orange+tx",
+      "clicks": 0,
+      "impressions": 74,
+      "pages": 1,
+      "weighted_position": 10.58
+    },
+    {
+      "query": "how long does a typical er visit take",
+      "clicks": 0,
+      "impressions": 73,
+      "pages": 8,
+      "weighted_position": 3.97
+    },
+    {
+      "query": "how long do labs take in the er",
+      "clicks": 0,
+      "impressions": 71,
+      "pages": 1,
+      "weighted_position": 5.73
+    },
+    {
+      "query": "how long is an average er visit",
+      "clicks": 0,
+      "impressions": 68,
+      "pages": 8,
+      "weighted_position": 2.43
+    },
+    {
+      "query": "how long does er blood work take",
+      "clicks": 1,
+      "impressions": 68,
+      "pages": 2,
+      "weighted_position": 8.29
+    },
+    {
+      "query": "how long does it take in the er",
+      "clicks": 0,
+      "impressions": 67,
+      "pages": 8,
+      "weighted_position": 7.85
+    },
+    {
+      "query": "average length of er visit",
+      "clicks": 0,
+      "impressions": 66,
+      "pages": 8,
+      "weighted_position": 7.29
+    },
+    {
+      "query": "how long does emergency room take",
+      "clicks": 0,
+      "impressions": 63,
+      "pages": 1,
+      "weighted_position": 13.78
+    },
+    {
+      "query": "how long does the er take",
+      "clicks": 0,
+      "impressions": 62,
+      "pages": 1,
+      "weighted_position": 3.61
+    },
+    {
+      "query": "emergency care dallas",
+      "clicks": 0,
+      "impressions": 62,
+      "pages": 1,
+      "weighted_position": 2.29
+    },
+    {
+      "query": "how long does blood work results take in er",
+      "clicks": 0,
+      "impressions": 60,
+      "pages": 2,
+      "weighted_position": 8.05
+    },
+    {
+      "query": "how long is the average emergency room visit",
+      "clicks": 0,
+      "impressions": 59,
+      "pages": 8,
+      "weighted_position": 8.34
+    },
+    {
+      "query": "how long does it take for x rays to come back in er",
+      "clicks": 0,
+      "impressions": 59,
+      "pages": 8,
+      "weighted_position": 10.1
+    },
+    {
+      "query": "what do er blood tests check for",
+      "clicks": 0,
+      "impressions": 57,
+      "pages": 1,
+      "weighted_position": 5.67
+    },
+    {
+      "query": "er",
+      "clicks": 0,
+      "impressions": 57,
+      "pages": 3,
+      "weighted_position": 4.32
+    },
+    {
+      "query": "head injury emergency room",
+      "clicks": 0,
+      "impressions": 55,
+      "pages": 2,
+      "weighted_position": 24.53
+    },
+    {
+      "query": "white rock emergency room",
+      "clicks": 3,
+      "impressions": 53,
+      "pages": 6,
+      "weighted_position": 8.23
+    },
+    {
+      "query": "how long does the average er visit take",
+      "clicks": 0,
+      "impressions": 53,
+      "pages": 8,
+      "weighted_position": 4.02
+    },
+    {
+      "query": "how long does blood work take to come back at the er",
+      "clicks": 0,
+      "impressions": 52,
+      "pages": 2,
+      "weighted_position": 5.1
+    },
+    {
+      "query": "shortness+of+breath+emergency+orange+tx",
+      "clicks": 0,
+      "impressions": 51,
+      "pages": 1,
+      "weighted_position": 28.92
+    },
+    {
+      "query": "how long should an er visit take",
+      "clicks": 1,
+      "impressions": 50,
+      "pages": 8,
+      "weighted_position": 3.76
+    },
+    {
+      "query": "how long is an er visit",
+      "clicks": 0,
+      "impressions": 50,
+      "pages": 1,
+      "weighted_position": 3.02
+    },
+    {
+      "query": "how long does blood work take in the er",
+      "clicks": 0,
+      "impressions": 50,
+      "pages": 1,
+      "weighted_position": 7.76
+    },
+    {
+      "query": "how long for x ray results in er",
+      "clicks": 0,
+      "impressions": 49,
+      "pages": 1,
+      "weighted_position": 10.73
+    },
+    {
+      "query": "how long does blood work take at the er",
+      "clicks": 0,
+      "impressions": 49,
+      "pages": 1,
+      "weighted_position": 7.73
+    },
+    {
+      "query": "urgent care",
+      "clicks": 0,
+      "impressions": 48,
+      "pages": 3,
+      "weighted_position": 5.19
+    }
+  ],
+  "query_pages": [
+    {
+      "query": "explain symptoms of strep throat and how to differentiate it from a common cold",
+      "page": "https://erofwhiterock.com/sore-throat-emergency-room-strep-warning-signs/",
+      "clicks": 0,
+      "impressions": 591,
+      "weighted_position": 9.69
+    },
+    {
+      "query": "er near me",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 3,
+      "impressions": 344,
+      "weighted_position": 2.36
+    },
+    {
+      "query": "how long do blood tests take in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 336,
+      "weighted_position": 7.21
+    },
+    {
+      "query": "difference between freestanding and hospital ers",
+      "page": "https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/",
+      "clicks": 0,
+      "impressions": 316,
+      "weighted_position": 8.52
+    },
+    {
+      "query": "emergency room",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 0,
+      "impressions": 300,
+      "weighted_position": 2.11
+    },
+    {
+      "query": "emergency room near me",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 4,
+      "impressions": 219,
+      "weighted_position": 5.16
+    },
+    {
+      "query": "how long does blood work take to come back in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 1,
+      "impressions": 210,
+      "weighted_position": 4.24
+    },
+    {
+      "query": "heat stroke symptoms",
+      "page": "https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/",
+      "clicks": 0,
+      "impressions": 138,
+      "weighted_position": 2.98
+    },
+    {
+      "query": "how long does blood work take to come back in emergency room",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 135,
+      "weighted_position": 5.28
+    },
+    {
+      "query": "how long does blood work take to come back in hospital",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 122,
+      "weighted_position": 10.15
+    },
+    {
+      "query": "urgent care near me",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 2,
+      "impressions": 116,
+      "weighted_position": 7.86
+    },
+    {
+      "query": "how long do labs take to come back in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 1,
+      "impressions": 101,
+      "weighted_position": 5.92
+    },
+    {
+      "query": "er of white rock",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 21,
+      "impressions": 98,
+      "weighted_position": 1.25
+    },
+    {
+      "query": "er of white rock",
+      "page": "https://erofwhiterock.com/contact-us/",
+      "clicks": 0,
+      "impressions": 98,
+      "weighted_position": 1.34
+    },
+    {
+      "query": "how long does blood work take in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 98,
+      "weighted_position": 8.36
+    },
+    {
+      "query": "doctors that accept letter of protection",
+      "page": "https://erofwhiterock.com/letter-of-protection/",
+      "clicks": 0,
+      "impressions": 97,
+      "weighted_position": 19.18
+    },
+    {
+      "query": "how long does an er visit take",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 1,
+      "impressions": 96,
+      "weighted_position": 4.18
+    },
+    {
+      "query": "er of white rock",
+      "page": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "clicks": 0,
+      "impressions": 95,
+      "weighted_position": 1.35
+    },
+    {
+      "query": "how long do blood test results take in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 92,
+      "weighted_position": 8.4
+    },
+    {
+      "query": "how long does blood work take",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 91,
+      "weighted_position": 7.09
+    },
+    {
+      "query": "dallas er",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 0,
+      "impressions": 88,
+      "weighted_position": 9.11
+    },
+    {
+      "query": "how long does it take for blood work to come back in the er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 82,
+      "weighted_position": 7.52
+    },
+    {
+      "query": "how long do er visits take",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 1,
+      "impressions": 81,
+      "weighted_position": 4.04
+    },
+    {
+      "query": "how long do urine tests take in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 80,
+      "weighted_position": 7.64
+    },
+    {
+      "query": "how long does bloodwork take to come back in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 79,
+      "weighted_position": 4.99
+    },
+    {
+      "query": "lakewood emergency room",
+      "page": "https://erofwhiterock.com/emergency-room-lakewood-tx/",
+      "clicks": 0,
+      "impressions": 77,
+      "weighted_position": 25.96
+    },
+    {
+      "query": "difficulty+breathing+emergency+orange+tx",
+      "page": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+      "clicks": 0,
+      "impressions": 74,
+      "weighted_position": 10.58
+    },
+    {
+      "query": "er of white rock - emergency room",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 7,
+      "impressions": 72,
+      "weighted_position": 2.28
+    },
+    {
+      "query": "how long do labs take in the er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 71,
+      "weighted_position": 5.73
+    },
+    {
+      "query": "er of white rock",
+      "page": "https://erofwhiterock.com/about-er-of-white-rock/",
+      "clicks": 0,
+      "impressions": 68,
+      "weighted_position": 1.35
+    },
+    {
+      "query": "how long does er blood work take",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 1,
+      "impressions": 65,
+      "weighted_position": 7.85
+    },
+    {
+      "query": "er of white rock",
+      "page": "https://erofwhiterock.com/careers/",
+      "clicks": 0,
+      "impressions": 63,
+      "weighted_position": 1.4
+    },
+    {
+      "query": "how long does emergency room take",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 0,
+      "impressions": 63,
+      "weighted_position": 13.78
+    },
+    {
+      "query": "emergency care dallas",
+      "page": "https://erofwhiterock.com/",
+      "clicks": 0,
+      "impressions": 62,
+      "weighted_position": 2.29
+    },
+    {
+      "query": "how long does the er take",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 0,
+      "impressions": 62,
+      "weighted_position": 3.61
+    },
+    {
+      "query": "how long does blood work results take in er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 59,
+      "weighted_position": 8.14
+    },
+    {
+      "query": "what do er blood tests check for",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 57,
+      "weighted_position": 5.67
+    },
+    {
+      "query": "how long is the average er visit",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 0,
+      "impressions": 55,
+      "weighted_position": 3.49
+    },
+    {
+      "query": "er of white rock",
+      "page": "https://erofwhiterock.com/emergency-room-casa-linda-tx/",
+      "clicks": 0,
+      "impressions": 52,
+      "weighted_position": 1.35
+    },
+    {
+      "query": "shortness+of+breath+emergency+orange+tx",
+      "page": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+      "clicks": 0,
+      "impressions": 51,
+      "weighted_position": 28.92
+    },
+    {
+      "query": "how long does blood work take in the er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 50,
+      "weighted_position": 7.76
+    },
+    {
+      "query": "how long does blood work take to come back at the er",
+      "page": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "clicks": 0,
+      "impressions": 50,
+      "weighted_position": 5.22
+    },
+    {
+      "query": "how long is an er visit",
+      "page": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "clicks": 0,
+      "impressions": 50,
+      "weighted_position": 3.02
+    }
+  ]
+}

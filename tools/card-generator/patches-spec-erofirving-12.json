@@ -1,0 +1,39 @@
+[
+  {
+    "post_id": 3937,
+    "patches": [
+      {
+        "search": "<h2><b>Understanding the \"Itch\"</b></h2>",
+        "replace": "<h2><b>Understanding the \"Itch\"</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3937-urushiol-85.webp\" alt=\"About 85 percent of the population will have some reaction to urushiol, the oil in poison ivy, oak and sumac, at some point in their lifetime\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "According to</span><a href=\"https://medlineplus.gov/ency/article/000027.htm\"> <span style=\"font-weight: 400;\">MedlinePlus</span></a><span style=\"font-weight: 400;\">, almost 85% of the population is allergic to urushiol, and it only takes a microscopic amount to trigger an itchy, blistering eruption.</span>",
+        "replace": "According to</span><a href=\"https://www.niehs.nih.gov/health/kids/topics/natural-world/wildlife/plants/poison-ivy\"> <span style=\"font-weight: 400;\">NIEHS</span></a><span style=\"font-weight: 400;\">, about 85% of the population will have some reaction to urushiol during their lifetime. It only takes a microscopic amount to trigger an itchy, blistering eruption.</span>"
+      }
+    ],
+    "summary": "Add the verified 85% urushiol stat card to post 3937 and move its citation to NIEHS, which states the figure",
+    "reasoning": "Two changes, one finding. The card restates the post's own 85% figure as a graphic directly below the heading of its section, per the placement rule. The prose fix is the reason the card can exist at all: the sentence credited MedlinePlus (ency/article/000027.htm) for the figure and that page carries no percentage of any kind. NIEHS states it verbatim, 'About 85% of the population will have some adverse reaction to urushiol, the oil from the poisonous plants during their lifetime', so the link and the wording now follow NIEHS. The number itself does not change. Citation correction found by verifying every statistic in this batch against the source the post itself names. No layout change, no new images, no restructuring: the figures and their attributions are what change. Each source was read directly and quoted before this was written; see the batch 12 spec note for the four figures that failed verification and were left alone or dropped."
+  },
+  {
+    "post_id": 3813,
+    "patches": [
+      {
+        "search": "However, appendicitis, an inflammation of the appendix, is a serious condition that affects about 5% to 9% of the population at some point in their lives.",
+        "replace": "However, appendicitis, an inflammation of the appendix, is a serious condition. Its lifetime incidence is 8.6% in males and 6.7% in females, according to <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK493193/\">NIH StatPearls</a>."
+      }
+    ],
+    "summary": "Replace post 3813's unsourced 5% to 9% appendicitis figure with the sourced NIH figures",
+    "reasoning": "The sentence stated 'about 5% to 9% of the population at some point in their lives' with no source. NIH StatPearls gives the lifetime incidence verbatim as '8.6% in males and 6.7% in females', which is both precise and citable, so the vague range is replaced by the two real figures and the citation. One sentence becomes two, and neither exceeds the 25 word limit. Citation correction found by verifying every statistic in this batch against the source the post itself names. No layout change, no new images, no restructuring: the figures and their attributions are what change. Each source was read directly and quoted before this was written; see the batch 12 spec note for the four figures that failed verification and were left alone or dropped."
+  },
+  {
+    "post_id": 3886,
+    "patches": [
+      {
+        "search": "About 87% of strokes are ischemic, per <a href=\"https://medlineplus.gov/stroke.html\"",
+        "replace": "About 80% of strokes are ischemic, per <a href=\"https://medlineplus.gov/stroke.html\""
+      }
+    ],
+    "summary": "Correct post 3886's ischemic stroke share from 87% to the 80% its own MedlinePlus citation gives",
+    "reasoning": "This is a factual error against the source the sentence already names. The post says 'About 87% of strokes are ischemic, per MedlinePlus' and links medlineplus.gov/stroke.html, which says 'This is the most common type; about 80% of strokes are ischemic'. 87% is the American Heart Association figure, so the claim is not invented, it is attributed to the wrong body. The smallest correct fix is to match the number to the citation already present, which is what this does: one digit pair, nothing else. The alternative, keeping 87% and re-citing the AHA, needs an operator decision because it changes which authority this stroke page leans on. Citation correction found by verifying every statistic in this batch against the source the post itself names. No layout change, no new images, no restructuring: the figures and their attributions are what change. Each source was read directly and quoted before this was written; see the batch 12 spec note for the four figures that failed verification and were left alone or dropped."
+  }
+]

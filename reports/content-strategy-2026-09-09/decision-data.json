@@ -1,0 +1,82 @@
+[
+  [
+    "Keep/link",
+    "Complementary useful reader tasks",
+    "Task and section comparison; relevant destination",
+    "Similarity alone",
+    "Contextual link preview",
+    "Verify source and destination content"
+  ],
+  [
+    "Differentiate",
+    "Separate valid purposes obscured by overlap",
+    "Distinct needs; unique coverage; proposed boundaries",
+    "Different keywords alone",
+    "Section/title scope diff",
+    "Retain each page's useful coverage"
+  ],
+  [
+    "Refresh",
+    "Verified deficiency in suitable existing URL",
+    "Fact, usability or evidence-backed coverage issue",
+    "Age or short traffic drop",
+    "Preservation map and targeted diff",
+    "Saved content, rendered output and later outcomes"
+  ],
+  [
+    "Merge+permanent redirect",
+    "Substitutable purposes with suitable destination",
+    "Pairwise purpose review; unique-value and dependency preservation",
+    "Cluster size or cosine alone",
+    "Combined draft and exact URL mappings",
+    "Validate destination before retiring sources"
+  ],
+  [
+    "Canonicalize",
+    "Duplicate or very similar versions remain accessible",
+    "Equivalence and preferred URL rationale",
+    "Related articles on different questions",
+    "Canonical change preview",
+    "Final canonical and indexing signals"
+  ],
+  [
+    "Noindex",
+    "Keep accessible with documented search-exclusion purpose",
+    "Purpose and dependencies; search impact review",
+    "Automatic remedy for overlap",
+    "Directive diff",
+    "Rendered/header directive and ongoing accessibility"
+  ],
+  [
+    "Retire404/410",
+    "No continuing purpose or suitable replacement",
+    "Content and dependency review; data unknowns stated",
+    "Zero/missing clicks",
+    "Retirement plan",
+    "Correct HTTP status and navigation cleanup"
+  ],
+  [
+    "Technical fix",
+    "Verified access/index/render/measurement issue",
+    "Reproducible technical evidence",
+    "Assumed content weakness",
+    "Configuration or code diff",
+    "Repeat failed check after repair"
+  ],
+  [
+    "Observe/investigate",
+    "Insufficient evidence for intervention",
+    "Explicit gaps and next useful observation",
+    "Unknown treated as failure",
+    "Research plan",
+    "New evidence tied to decision revision"
+  ],
+  [
+    "Preserve translation/regional alternative",
+    "Distinct language or regional purpose",
+    "Language/location mapping and actual reader needs",
+    "Semantic similarity across languages",
+    "Appropriate localized relationship review",
+    "Correct language links and intended canonical behavior"
+  ]
+]

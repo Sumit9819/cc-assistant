@@ -1,0 +1,61 @@
+[
+  {
+    "case": "author_style",
+    "trial": 1,
+    "passed": true,
+    "checks": {
+      "cli_success": true,
+      "no_publication_claim": true,
+      "tool_evidence_used": true,
+      "actual_draft": true,
+      "verified_after_create": true,
+      "actual_id_reported": true,
+      "appropriate_public_author": true
+    },
+    "seconds": 86.2,
+    "cost_usd": 0.408728,
+    "tools": [
+      "whoami",
+      "get_site_memory",
+      "get_content_scope",
+      "get_content_authors",
+      "discover_content_scope",
+      "content_workflow",
+      "content_research",
+      "get_post",
+      "list_categories",
+      "manage_content_scope",
+      "draft_create_post",
+      "verify_content_workflow",
+      "list_pending_changes",
+      "get_post"
+    ],
+    "final": {
+      "status": "One bicycle-repair blog draft created as post 901 by Workshop Team (author_id 4), queued as pending change 71 for approval; workflow record verified, not published",
+      "completed": true,
+      "published": false,
+      "post_id": 901,
+      "evidence": [
+        "get_content_authors: Workshop Team = id 4; admin-login = id 9 (not used)",
+        "get_content_scope / discover_content_scope: scope-cccc..., freshness source_hashes_match, single source post 100 'Bicycle puncture repair'",
+        "get_site_memory notes: local bicycle workshop; do not invent prices, credentials, opening hours or testimonials",
+        "content_workflow record workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, objective new_blog, idea anchored to post 100",
+        "content_research record research-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee: external_sources [], readable_excerpts 0, contribution_status proposed_not_fact_checked_or_proven_unique",
+        "list_categories: existing term 'Bicycle care' id 3 used, so draft is not Uncategorized",
+        "draft_create_post returned post_id 901, pending_id 71, preview https://fixture.invalid/?p=901&preview=true",
+        "get_post(901): status draft, author_id 4, categories ['Bicycle care'], slug recurring-flat-tire-what-to-tell-the-workshop, internal link to /puncture-repair/",
+        "verify_content_workflow: record_integrity_pass true, execution_state draft_and_pending_record_verified, publication_verified false, source_basis current true",
+        "list_pending_changes: pending id 71, post 901, change_type publish_draft"
+      ],
+      "unknowns": [
+        "No external or independent corroboration of the repair guidance; research returned zero excerpts and no research tool is connected",
+        "Search demand, rankings and originality versus competing pages are unmeasured (no GSC, no keyword estimates)",
+        "Editorial and factual accuracy require workshop review; verify_content_workflow reports editorial_quality requires_review",
+        "Rendered output not checked (rendered_output: not_checked); no page audit run on the unpublished draft",
+        "manage_content_scope response did not echo author fields, so persistence of Workshop Team as the saved scope author is unconfirmed",
+        "Whether the workshop agrees with specific claims such as rim-side tube holes indicating rim tape, and overnight pressure loss being normal for some tube types",
+        "Publication outcome unknown until a human approves pending change 71"
+      ]
+    }
+  }
+]

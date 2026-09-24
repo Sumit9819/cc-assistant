@@ -1,0 +1,84 @@
+[
+  {
+    "name": "replace_section_content",
+    "arguments": {
+      "post_id": 4771,
+      "section_id": "",
+      "widget_updates": [
+        {
+          "widget_id": "510c896",
+          "settings": {
+            "icon_list": [
+              {
+                "type": "author",
+                "selected_icon": {
+                  "value": "far fa-user-circle",
+                  "library": "fa-regular"
+                },
+                "_id": "c321a50",
+                "custom_date_format": "F j, Y",
+                "custom_time_format": "g:i a",
+                "text_prefix": "",
+                "custom_text": "Admin",
+                "show_icon": "custom",
+                "link": ""
+              },
+              {
+                "selected_icon": {
+                  "value": "fas fa-calendar",
+                  "library": "fa-solid"
+                },
+                "_id": "fbe432e",
+                "custom_date_format": "F j, Y",
+                "custom_time_format": "g:i a",
+                "link": ""
+              },
+              {
+                "_id": "d3e73f6",
+                "type": "terms",
+                "custom_date_format": "F j, Y",
+                "custom_time_format": "g:i a",
+                "taxonomy": "category"
+              }
+            ]
+          }
+        },
+        {
+          "widget_id": "ac354d7",
+          "settings": {
+            "custom_css": "@media (max-width: 767px) { selector .elementor-heading-title { font-size: 32px !important; line-height: 1.2 !important; overflow-wrap: break-word; } }"
+          }
+        },
+        {
+          "widget_id": "a440026",
+          "settings": {
+            "custom_css": "\n@media (max-width: 767px) { selector { padding: 36px 16px 48px 16px !important; } }"
+          }
+        }
+      ],
+      "reasoning": "WR-11/12: render the actual organization author and remove the broken date-archive link. WR-15: reduce oversized mobile title while preserving the existing desktop design. WR-15: add a mobile gutter and reduce excess space above the title. Uses live-supported Custom CSS after responsive padding was rejected. Same CSS as the measured browser preview; desktop styling is preserved."
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "arguments": {
+      "post_id": 4667,
+      "section_id": "",
+      "widget_updates": [
+        {
+          "widget_id": "ac354d7",
+          "settings": {
+            "custom_css": "@media (max-width: 767px) { selector .elementor-heading-title { font-size: 32px !important; line-height: 1.2 !important; overflow-wrap: break-word; } }"
+          }
+        },
+        {
+          "widget_id": "a440026",
+          "settings": {
+            "custom_css": "\n@media (max-width: 767px) { selector { padding: 36px 16px 48px 16px !important; } }"
+          }
+        }
+      ],
+      "reasoning": "WR-15: reduce oversized mobile title while preserving the existing desktop design. WR-15: add a mobile gutter and reduce excess space above the title. Uses live-supported Custom CSS after responsive padding was rejected. Same CSS as the measured browser preview; desktop styling is preserved."
+    }
+  }
+]

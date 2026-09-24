@@ -1,0 +1,17 @@
+[
+ {
+  "route": "wp/v2/pages?slug=privacy-policy&context=edit&_fields=id,slug,link,status,title",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pp_lower.json"
+ },
+ {
+  "route": "wp/v2/pages?search=privacy&context=edit&_fields=id,slug,link,status,title",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pp_search.json"
+ },
+ {
+  "route": "wp/v2/pages?search=terms&context=edit&_fields=id,slug,link,status,title",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/tc_search.json"
+ }
+]

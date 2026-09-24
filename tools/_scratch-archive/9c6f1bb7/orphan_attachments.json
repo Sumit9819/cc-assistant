@@ -1,0 +1,17 @@
+{
+  "_note": "Computed from evidence (find_orphans.py), not hand-kept. Safe to delete = superseded renders whose replacement is already live in a post body. Do NOT delete the 6285 set (10430/10432/10433/10434): they are referenced by pending 1166 only, which is not applied yet.",
+  "safe_to_delete": [
+    {"id": 10392, "file": "how-iv-therapy-fights-chronic-fatigue-4-first-appointment.webp", "superseded_by": "iv-therapy-fatigue-first-visit.webp"},
+    {"id": 10393, "file": "how-iv-therapy-fights-chronic-fatigue-5-when-to-see-a-doctor.webp", "superseded_by": "iv-therapy-fatigue-when-to-see-a-doctor.webp"},
+    {"id": 10395, "file": "reverse-insulin-resistance-1-how-common.webp", "superseded_by": "insulin-resistance-how-common.webp"},
+    {"id": 10396, "file": "reverse-insulin-resistance-2-three-levers.webp", "superseded_by": "insulin-resistance-three-levers.webp"},
+    {"id": 10397, "file": "reverse-insulin-resistance-3-nutrition.webp", "superseded_by": "insulin-resistance-nutrition.webp"},
+    {"id": 10399, "file": "how-many-laser-hair-removal-sessions-1-how-many.webp", "superseded_by": "laser-hair-removal-how-many-sessions.webp"},
+    {"id": 10400, "file": "how-many-laser-hair-removal-sessions-2-area-by-area.webp", "superseded_by": "laser-hair-removal-sessions-by-area.webp"},
+    {"id": 10401, "file": "how-many-laser-hair-removal-sessions-3-hair-colour.webp", "superseded_by": "laser-hair-removal-hair-colour.webp"},
+    {"id": 10402, "file": "how-many-laser-hair-removal-sessions-4-before-and-after.webp", "superseded_by": "laser-hair-removal-prep-aftercare.webp"},
+    {"id": 10431, "file": "iv-hydration-key-benefits.webp", "superseded_by": "iv-hydration-six-benefits.webp"}
+  ],
+  "do_not_delete_referenced_by_pending_1166": [10430, 10432, 10433, 10434],
+  "unknown_provenance_check_before_touching": [10293, 10294, 10295, 10296, 10359, 10360, 10361]
+}

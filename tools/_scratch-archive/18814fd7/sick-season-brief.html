@@ -1,0 +1,826 @@
+<title>Social Creative Target List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    color-scheme: light;
+    --ground:        #f2f4f2;
+    --panel:         #fbfcfb;
+    --panel-2:       #e8ebe8;
+    --ink:           #14181a;
+    --ink-2:         #4a5450;
+    --ink-3:         #79837e;
+    --rule:          #cdd4d0;
+    --rule-soft:     #dfe4e1;
+    --accent:        #0b6b57;
+    --accent-soft:   #d9e9e3;
+    --warn:          #8a4b06;
+    --warn-soft:     #f4e6d3;
+    --stop:          #9c2c22;
+    --stop-soft:     #f4dedb;
+    --go:            #1f6b3a;
+    --go-soft:       #dcebe0;
+
+    --serif: "Newsreader", Georgia, "Times New Roman", serif;
+    --sans:  "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono:  "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --ground:      #101413;
+      --panel:       #171c1a;
+      --panel-2:     #1f2624;
+      --ink:         #e9ede9;
+      --ink-2:       #a6b0ab;
+      --ink-3:       #7d8781;
+      --rule:        #2d3634;
+      --rule-soft:   #242c2a;
+      --accent:      #4fbfa0;
+      --accent-soft: #17342c;
+      --warn:        #d9a05a;
+      --warn-soft:   #34281a;
+      --stop:        #e08078;
+      --stop-soft:   #351f1d;
+      --go:          #6fbf8a;
+      --go-soft:     #1b2f22;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground:      #101413;
+    --panel:       #171c1a;
+    --panel-2:     #1f2624;
+    --ink:         #e9ede9;
+    --ink-2:       #a6b0ab;
+    --ink-3:       #7d8781;
+    --rule:        #2d3634;
+    --rule-soft:   #242c2a;
+    --accent:      #4fbfa0;
+    --accent-soft: #17342c;
+    --warn:        #d9a05a;
+    --warn-soft:   #34281a;
+    --stop:        #e08078;
+    --stop-soft:   #351f1d;
+    --go:          #6fbf8a;
+    --go-soft:     #1b2f22;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 40px 24px 72px;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(34px, 5.5vw, 50px);
+    line-height: 1.08;
+    letter-spacing: -0.018em;
+    text-wrap: balance;
+    margin: 0 0 18px;
+  }
+
+  .standfirst {
+    font-family: var(--serif);
+    font-size: clamp(17px, 2.4vw, 20px);
+    line-height: 1.52;
+    color: var(--ink-2);
+    max-width: 60ch;
+    margin: 0 0 32px;
+  }
+
+  .provenance {
+    border-top: 1.5px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 16px 0 18px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 18px 26px;
+    margin-bottom: 40px;
+  }
+  .prov-item dt {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: 4px;
+  }
+  .prov-item dd {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 1.45;
+    font-variant-numeric: tabular-nums;
+  }
+
+  section { margin-bottom: 54px; }
+
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(24px, 3.4vw, 31px);
+    line-height: 1.16;
+    letter-spacing: -0.014em;
+    text-wrap: balance;
+    margin: 0 0 8px;
+  }
+
+  .sec-sub {
+    color: var(--ink-2);
+    max-width: 66ch;
+    margin: 0 0 26px;
+  }
+
+  h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.25;
+    margin: 0 0 4px;
+  }
+
+  p { max-width: 68ch; }
+
+  /* the reframe callout */
+  .reframe {
+    background: var(--panel);
+    border: 1px solid var(--rule-soft);
+    border-left: 3px solid var(--accent);
+    padding: 20px 22px;
+    margin: 0 0 30px;
+  }
+  .reframe h3 { margin-bottom: 8px; }
+  .reframe p { margin: 0 0 10px; font-size: 14.5px; }
+  .reframe p:last-child { margin-bottom: 0; }
+  .reframe strong { font-weight: 600; }
+
+  /* lane headers */
+  .lane {
+    border-top: 1.5px solid var(--ink);
+    padding-top: 18px;
+    margin-bottom: 34px;
+  }
+  .lane-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 14px;
+    margin-bottom: 6px;
+  }
+  .lane-who {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--ink-3);
+    letter-spacing: 0.02em;
+  }
+  .lane-note {
+    font-size: 14px;
+    color: var(--ink-2);
+    max-width: 68ch;
+    margin: 0 0 22px;
+  }
+
+  /* format group */
+  .fmt { margin-bottom: 28px; }
+  .fmt-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+  }
+  .fmt-head h4 {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+  }
+  .fmt-why {
+    font-size: 13.5px;
+    color: var(--ink-2);
+    margin: 0 0 12px;
+    max-width: 68ch;
+  }
+
+  .t-scroll { overflow-x: auto; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 540px;
+    font-size: 13.5px;
+  }
+  thead th {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    text-align: left;
+    padding: 0 10px 7px 0;
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  thead th.num { text-align: right; }
+  tbody td {
+    padding: 7px 10px 7px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: top;
+  }
+  tbody td.num {
+    text-align: right;
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 12.5px;
+    white-space: nowrap;
+  }
+  tbody td.kw { font-weight: 500; }
+  tbody td.angle { color: var(--ink-2); font-size: 13px; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  .easy {
+    color: var(--go);
+    font-weight: 600;
+  }
+
+  /* skip list */
+  .skip {
+    border-left: 3px solid var(--stop);
+    background: var(--panel);
+    padding: 6px 0 6px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .skip-item h4 {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin: 0 0 3px;
+    color: var(--ink);
+  }
+  .skip-item p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+
+  /* compliance */
+  .compliance {
+    background: var(--warn-soft);
+    border-left: 3px solid var(--warn);
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .compliance h4 {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+    color: var(--ink);
+  }
+  .compliance p { margin: 0; font-size: 13.5px; color: var(--ink-2); max-width: none; }
+
+  /* timing strip */
+  .timing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .timing div {
+    padding: 14px 16px 14px 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .timing .when {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 3px;
+  }
+  .timing p { margin: 0; font-size: 13.5px; color: var(--ink-2); max-width: none; }
+
+  footer {
+    border-top: 1.5px solid var(--ink);
+    padding-top: 18px;
+    font-size: 12.5px;
+    color: var(--ink-3);
+    line-height: 1.6;
+  }
+  footer p { max-width: 74ch; margin: 0 0 8px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <p class="eyebrow">Creative targeting · 2 Sept 2026</p>
+  <h1>Social Creative Target List</h1>
+  <p class="standfirst">
+    Topics these four clinics could credibly post about, sized by national US search
+    demand rather than by what any one location already ranks for. Social has no
+    catchment, so nothing here is geo-limited.
+  </p>
+
+  <dl class="provenance">
+    <div class="prov-item">
+      <dt>Source</dt>
+      <dd>Ubersuggest keyword data</dd>
+    </div>
+    <div class="prov-item">
+      <dt>Market</dt>
+      <dd>United States (loc 2840)</dd>
+    </div>
+    <div class="prov-item">
+      <dt>Volume</dt>
+      <dd>Est. searches / month</dd>
+    </div>
+    <div class="prov-item">
+      <dt>Diff</dt>
+      <dd>SEO difficulty, 0&ndash;100</dd>
+    </div>
+  </dl>
+
+  <!-- ============ THE REFRAME ============ -->
+  <section>
+    <h2>Read the difficulty column backwards</h2>
+    <div class="reframe">
+      <h3>On social, high difficulty is not a reason to skip a topic</h3>
+      <p>
+        SEO difficulty measures how hard it is to outrank established domains in Google.
+        On a feed there is no ranking to lose &mdash; a post competes on the hook, not on
+        domain authority. That means the head terms an SEO would tell you to avoid are
+        exactly the ones with the most creative headroom:
+        <strong>semaglutide (368,000/mo, difficulty 71)</strong>,
+        <strong>microneedling (201,000, 75)</strong>,
+        <strong>botox (165,000, 72)</strong>,
+        <strong>insulin resistance (110,000, 72)</strong>.
+      </p>
+      <p>
+        The difficulty column is still marked below, because a low number means the same
+        asset can plausibly earn search traffic too. Treat it as a bonus, not a filter.
+        Values under 20 are flagged <span class="easy">green</span>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ LANE 1: ER ============ -->
+  <section>
+    <h2>Emergency &amp; urgent care lane</h2>
+    <p class="sec-sub">
+      For the three ER accounts. Grouped by the creative format the keyword implies,
+      because that is what determines whether it can be made at all.
+    </p>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Photo &amp; visual comparison</h3>
+        <span class="lane-who">ER of Irving · Lufkin · White Rock</span>
+      </div>
+      <p class="lane-note">
+        People search these because they want to <em>look</em> at something. That maps
+        directly onto a feed post and almost nothing else does as cleanly.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">cellulitis images</td><td class="num">22,200</td><td class="num">50</td><td class="angle">Photo card: what skin infection actually looks like</td></tr>
+            <tr><td class="kw">images of cellulitis</td><td class="num">18,100</td><td class="num">43</td><td class="angle">Same asset, alternate caption</td></tr>
+            <tr><td class="kw">cellulitis is contagious</td><td class="num">14,800</td><td class="num easy">18</td><td class="angle">Myth card &mdash; it isn't. Strong comment driver</td></tr>
+            <tr><td class="kw">cloudy urine dehydration</td><td class="num">12,100</td><td class="num easy">16</td><td class="angle">Colour-chart graphic</td></tr>
+            <tr><td class="kw">bug bite cellulitis</td><td class="num">12,100</td><td class="num">42</td><td class="angle">Bite vs. infection, side by side</td></tr>
+            <tr><td class="kw">cellulitis from a bug bite</td><td class="num">9,900</td><td class="num">32</td><td class="angle">Same asset, second cut</td></tr>
+            <tr><td class="kw">what does cellulitis look like</td><td class="num">8,100</td><td class="num">51</td><td class="angle">The definitive photo post</td></tr>
+            <tr><td class="kw">cellulitis when to worry pictures</td><td class="num">6,600</td><td class="num">33</td><td class="angle">Escalation ladder &mdash; the ER-relevant version</td></tr>
+            <tr><td class="kw">what does a sprained ankle look like</td><td class="num">4,400</td><td class="num">24</td><td class="angle">Bruising pattern photo</td></tr>
+            <tr><td class="kw">urine dehydration chart</td><td class="num">2,900</td><td class="num">27</td><td class="angle">Saveable reference graphic</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Timeline &amp; healing stages</h3>
+        <span class="lane-who">strong for carousels and short video</span>
+      </div>
+      <p class="lane-note">
+        Multi-frame by nature. One asset covers several keywords and holds attention
+        past the first card.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">bone bruise</td><td class="num">33,100</td><td class="num">28</td><td class="angle">Week-by-week recovery carousel</td></tr>
+            <tr><td class="kw">how long would a sprained ankle take to heal</td><td class="num">22,200</td><td class="num easy">14</td><td class="angle">Timeline card with real ranges</td></tr>
+            <tr><td class="kw">recovery time of sprained ankle</td><td class="num">9,900</td><td class="num">36</td><td class="angle">Same asset, second cut</td></tr>
+            <tr><td class="kw">cellulitis healing stages</td><td class="num">4,400</td><td class="num">40</td><td class="angle">Day-by-day with the "call someone" marker</td></tr>
+            <tr><td class="kw">cellulitis healing stages pictures</td><td class="num">3,600</td><td class="num">34</td><td class="angle">Photo version of the above</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Myth-bust &amp; correction</h3>
+        <span class="lane-who">highest engagement format in the set</span>
+      </div>
+      <p class="lane-note">
+        A widely believed wrong thing, corrected by a clinician, reliably out-performs a
+        neutral explainer. All four below have a genuinely wrong popular answer.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>The correction</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">sport drinks for dehydration</td><td class="num">60,500</td><td class="num">49</td><td class="angle">Sugar load vs. actual electrolyte need</td></tr>
+            <tr><td class="kw">electrolyte drinks for dehydration</td><td class="num">60,500</td><td class="num">26</td><td class="angle">What the label doesn't tell you</td></tr>
+            <tr><td class="kw">dehydration from coffee</td><td class="num">14,800</td><td class="num easy">18</td><td class="angle">Coffee is not net-dehydrating at normal intake</td></tr>
+            <tr><td class="kw">how to heal a sprained ankle overnight</td><td class="num">9,900</td><td class="num easy">14</td><td class="angle">You can't &mdash; here's what the 24 hours should look like</td></tr>
+            <tr><td class="kw">is gatorade good for dehydration</td><td class="num">4,400</td><td class="num">20</td><td class="angle">Direct answer post</td></tr>
+            <tr><td class="kw">will cellulitis go away on its own</td><td class="num">2,400</td><td class="num">47</td><td class="angle">No &mdash; and the delay is the danger</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>"Is this serious?" decision hooks</h3>
+        <span class="lane-who">closest to the actual ER product</span>
+      </div>
+      <p class="lane-note">
+        These are people mid-decision. The chest-pain cluster is large, low-difficulty and
+        almost entirely unclaimed by clinic accounts.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">aching chest pain left side</td><td class="num">40,500</td><td class="num">21</td><td class="angle">Cardiac vs. muscular vs. reflux, one card</td></tr>
+            <tr><td class="kw">chest pain on the right side of chest</td><td class="num">40,500</td><td class="num">20</td><td class="angle">Why side matters less than people think</td></tr>
+            <tr><td class="kw">broke or sprained ankle</td><td class="num">27,100</td><td class="num easy">15</td><td class="angle">Weight-bearing test explained in 15 seconds</td></tr>
+            <tr><td class="kw">anxiety vs chest pain</td><td class="num">14,800</td><td class="num easy">12</td><td class="angle">Enormous topic, almost no clinical voice on it</td></tr>
+            <tr><td class="kw">will dehydration cause high blood pressure</td><td class="num">14,800</td><td class="num">33</td><td class="angle">Direct answer post</td></tr>
+            <tr><td class="kw">sprained ankle signs</td><td class="num">14,800</td><td class="num">27</td><td class="angle">Checklist card</td></tr>
+            <tr><td class="kw">chest pain with breathing</td><td class="num">12,100</td><td class="num easy">11</td><td class="angle">Pleuritic pain explainer</td></tr>
+            <tr><td class="kw">can anxiety cause chest pain</td><td class="num">12,100</td><td class="num">28</td><td class="angle">Pairs with the row above</td></tr>
+            <tr><td class="kw">chest pain gas</td><td class="num">9,900</td><td class="num easy">17</td><td class="angle">The reassuring one &mdash; and when it isn't</td></tr>
+            <tr><td class="kw">sprained ankle vs broken bone</td><td class="num">2,900</td><td class="num easy">17</td><td class="angle">Comparison card</td></tr>
+            <tr><td class="kw">left arm pain without chest pain</td><td class="num">2,400</td><td class="num">35</td><td class="angle">High-anxiety query, high save rate</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Curiosity &amp; surprising-fact</h3>
+        <span class="lane-who">reach plays, low commercial intent</span>
+      </div>
+      <p class="lane-note">
+        These travel furthest and convert least. Use them to grow the account, not to
+        fill the schedule.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Hook</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">headache and dehydration</td><td class="num">33,100</td><td class="num">51</td><td class="angle">The most common cause nobody checks</td></tr>
+            <tr><td class="kw">dizzy from dehydration</td><td class="num">33,100</td><td class="num">21</td><td class="angle">Standing-up dizziness explainer</td></tr>
+            <tr><td class="kw">white tongue dehydration</td><td class="num">6,600</td><td class="num">32</td><td class="angle">Unexpected sign, very shareable</td></tr>
+            <tr><td class="kw">can dehydration cause uti</td><td class="num">4,400</td><td class="num">23</td><td class="angle">Direct answer, strong female-audience reach</td></tr>
+            <tr><td class="kw">chest pain after gym</td><td class="num">2,400</td><td class="num easy">6</td><td class="angle">Fitness crossover audience</td></tr>
+            <tr><td class="kw">signs of dehydration in dogs</td><td class="num">2,400</td><td class="num easy">18</td><td class="angle">Pet-owner reach. Off-topic but it travels</td></tr>
+            <tr><td class="kw">can dehydration cause seizures</td><td class="num">1,900</td><td class="num">20</td><td class="angle">Severity escalation post</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LANE 2: WELLNESS ============ -->
+  <section>
+    <h2>Wellness &amp; aesthetics lane</h2>
+    <p class="sec-sub">
+      For Irving Health &amp; Wellness Clinic. Bigger volumes, more native to social, and
+      an unusual amount of high-volume / low-difficulty overlap &mdash; several of these
+      can win in search as well as on the feed.
+    </p>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Before &amp; after and visible-result posts</h3>
+        <span class="lane-who">the core aesthetics format</span>
+      </div>
+      <p class="lane-note">
+        Note the difficulty scores: several of the largest terms here are genuinely
+        easy, which is rare.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">lip filler</td><td class="num">90,500</td><td class="num easy">12</td><td class="angle">Head term, and unusually winnable</td></tr>
+            <tr><td class="kw">botox on masseter</td><td class="num">74,000</td><td class="num easy">15</td><td class="angle">Jaw slimming. Biggest easy term in the set</td></tr>
+            <tr><td class="kw">botox flip lip</td><td class="num">74,000</td><td class="num">29</td><td class="angle">Lip flip explainer + result</td></tr>
+            <tr><td class="kw">microneedling before after</td><td class="num">60,500</td><td class="num easy">17</td><td class="angle">Split-frame result post</td></tr>
+            <tr><td class="kw">microneedling before and after</td><td class="num">60,500</td><td class="num">32</td><td class="angle">Same asset, alternate phrasing</td></tr>
+            <tr><td class="kw">botox after and before</td><td class="num">33,100</td><td class="num easy">16</td><td class="angle">Result grid</td></tr>
+            <tr><td class="kw">before &amp; after lip filler</td><td class="num">22,200</td><td class="num easy">14</td><td class="angle">Result grid</td></tr>
+            <tr><td class="kw">botox eyebrow lift</td><td class="num">14,800</td><td class="num easy">11</td><td class="angle">Very low difficulty for the volume</td></tr>
+            <tr><td class="kw">jaw slimming botox</td><td class="num">8,100</td><td class="num easy">12</td><td class="angle">Pairs with masseter above</td></tr>
+            <tr><td class="kw">hooded eyes from botox</td><td class="num">8,100</td><td class="num easy">13</td><td class="angle">Cautionary + corrective</td></tr>
+            <tr><td class="kw">botox bunny line</td><td class="num">6,600</td><td class="num easy">14</td><td class="angle">Niche, named, memorable</td></tr>
+            <tr><td class="kw">botox for gummy smiles</td><td class="num">6,600</td><td class="num">26</td><td class="angle">Strong visual transformation</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Stages, downtime and aftercare</h3>
+        <span class="lane-who">the trust-building format</span>
+      </div>
+      <p class="lane-note">
+        What people actually worry about before booking. Answering it well is the
+        difference between reach and bookings.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">how long will botox last</td><td class="num">22,200</td><td class="num easy">12</td><td class="angle">Direct answer card</td></tr>
+            <tr><td class="kw">how long does lip filler last</td><td class="num">18,100</td><td class="num easy">14</td><td class="angle">Direct answer card</td></tr>
+            <tr><td class="kw">microneedling aftercare</td><td class="num">8,100</td><td class="num">27</td><td class="angle">Saveable checklist</td></tr>
+            <tr><td class="kw">does microneedling hurt</td><td class="num">4,400</td><td class="num easy">13</td><td class="angle">Honest answer beats a polished one</td></tr>
+            <tr><td class="kw">downtime for microneedling</td><td class="num">2,400</td><td class="num easy">12</td><td class="angle">Day 0 to day 7</td></tr>
+            <tr><td class="kw">microneedling healing stages</td><td class="num">2,400</td><td class="num easy">10</td><td class="angle">Lowest difficulty in the whole list</td></tr>
+            <tr><td class="kw">microneedling day by day</td><td class="num">2,400</td><td class="num easy">12</td><td class="angle">Native carousel structure</td></tr>
+            <tr><td class="kw">1 ml lip filler swelling stages</td><td class="num">1,900</td><td class="num easy">18</td><td class="angle">Sets expectations, reduces panic calls</td></tr>
+            <tr><td class="kw">does lip filler hurt</td><td class="num">1,900</td><td class="num easy">12</td><td class="angle">Direct answer card</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Safety, "gone wrong" and myth-bust</h3>
+        <span class="lane-who">highest engagement &mdash; handle carefully</span>
+      </div>
+      <p class="lane-note">
+        These out-perform everything else in the lane. Frame every one as safety
+        education from a provider, never as commentary on another clinic's work.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">botox side effects</td><td class="num">12,100</td><td class="num">44</td><td class="angle">Straight, complete, unsensational</td></tr>
+            <tr><td class="kw">lip filler migrating</td><td class="num">8,100</td><td class="num easy">15</td><td class="angle">Major current topic. What causes it</td></tr>
+            <tr><td class="kw">lip filler migration</td><td class="num">6,600</td><td class="num easy">15</td><td class="angle">Same asset, second cut</td></tr>
+            <tr><td class="kw">botox is bad for you</td><td class="num">6,600</td><td class="num easy">9</td><td class="angle">Lowest-difficulty large term here</td></tr>
+            <tr><td class="kw">is botox bad for you</td><td class="num">5,400</td><td class="num">55</td><td class="angle">Same question, harder phrasing</td></tr>
+            <tr><td class="kw">dysport or botox</td><td class="num">4,400</td><td class="num easy">12</td><td class="angle">Comparison table</td></tr>
+            <tr><td class="kw">masseter botox gone wrong</td><td class="num">3,600</td><td class="num">22</td><td class="angle">What actually causes it, from a provider</td></tr>
+            <tr><td class="kw">dissolved lip filler</td><td class="num">3,600</td><td class="num easy">16</td><td class="angle">Reversibility is a selling point</td></tr>
+            <tr><td class="kw">long term effects of botox</td><td class="num">2,900</td><td class="num">38</td><td class="angle">Evidence-led, cite the literature</td></tr>
+            <tr><td class="kw">is microneedling safe</td><td class="num">1,600</td><td class="num">31</td><td class="angle">Clinic vs. at-home is the real answer</td></tr>
+            <tr><td class="kw">vascular occlusion lip filler</td><td class="num">1,900</td><td class="num">33</td><td class="angle">Technical, signals genuine expertise</td></tr>
+            <tr><td class="kw">can you get lip filler while pregnant</td><td class="num">1,900</td><td class="num easy">8</td><td class="angle">Lowest difficulty on the page</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-head">
+        <h3>Metabolic &amp; GLP-1</h3>
+        <span class="lane-who">the Pinterest lane</span>
+      </div>
+      <p class="lane-note">
+        Largest volumes in the portfolio by a wide margin. Read the compliance notes
+        below before briefing any of the semaglutide rows.
+      </p>
+      <div class="t-scroll">
+        <table>
+          <thead>
+            <tr><th>Keyword</th><th class="num">US vol/mo</th><th class="num">Diff</th><th>Format</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="kw">semaglutide</td><td class="num">368,000</td><td class="num">71</td><td class="angle">Head term. Explainer series, no sourcing talk</td></tr>
+            <tr><td class="kw">insulin resistance</td><td class="num">110,000</td><td class="num">72</td><td class="angle">Head term. Pinterest-native</td></tr>
+            <tr><td class="kw">semaglutide side effects</td><td class="num">60,500</td><td class="num">62</td><td class="angle">Honest, complete, clinician-voiced</td></tr>
+            <tr><td class="kw">weight loss insulin resistance</td><td class="num">40,500</td><td class="num">59</td><td class="angle">Why calorie advice alone stalls</td></tr>
+            <tr><td class="kw">insulin resistance symptoms</td><td class="num">33,100</td><td class="num">29</td><td class="angle">Checklist graphic, high save rate</td></tr>
+            <tr><td class="kw">insulin resistance and diet</td><td class="num">33,100</td><td class="num">43</td><td class="angle">Meal-plan pin, the proven Pinterest shape</td></tr>
+            <tr><td class="kw">insulin resistance and weight loss</td><td class="num">33,100</td><td class="num">55</td><td class="angle">Companion to the row above</td></tr>
+            <tr><td class="kw">semaglutide dosing</td><td class="num">33,100</td><td class="num">30</td><td class="angle">Education only, no protocol advice</td></tr>
+            <tr><td class="kw">food for insulin resistance</td><td class="num">27,100</td><td class="num">43</td><td class="angle">Grocery-list pin</td></tr>
+            <tr><td class="kw">insulin resistance pcos</td><td class="num">9,900</td><td class="num">69</td><td class="angle">Highly engaged community</td></tr>
+            <tr><td class="kw">how does semaglutide work</td><td class="num">9,900</td><td class="num">26</td><td class="angle">Mechanism animation</td></tr>
+            <tr><td class="kw">how i cured my insulin resistance</td><td class="num">8,100</td><td class="num">53</td><td class="angle">Patient-story format, with consent</td></tr>
+            <tr><td class="kw">insulin resistance test</td><td class="num">8,100</td><td class="num">30</td><td class="angle">Which labs to ask for. Drives consults</td></tr>
+            <tr><td class="kw">symptoms of insulin resistance in woman</td><td class="num">6,600</td><td class="num">59</td><td class="angle">Sharpest audience fit in the lane</td></tr>
+            <tr><td class="kw">microdosing semaglutide</td><td class="num">5,400</td><td class="num">21</td><td class="angle">Trend term. Evidence-led treatment only</td></tr>
+            <tr><td class="kw">mediterranean diet for insulin resistance</td><td class="num">4,400</td><td class="num">46</td><td class="angle">Evergreen pin</td></tr>
+            <tr><td class="kw">semaglutide vs tirzepatide</td><td class="num">4,400</td><td class="num">28</td><td class="angle">Comparison table, cite the trial data</td></tr>
+            <tr><td class="kw">does semaglutide cause hair loss</td><td class="num">3,600</td><td class="num">28</td><td class="angle">High-anxiety question, few good answers</td></tr>
+            <tr><td class="kw">does semaglutide make you tired</td><td class="num">3,600</td><td class="num easy">16</td><td class="angle">Direct answer card</td></tr>
+            <tr><td class="kw">nad iv therapy</td><td class="num">14,800</td><td class="num">29</td><td class="angle">Highest-ticket IV service, real search demand</td></tr>
+            <tr><td class="kw">iv therapy myers cocktail</td><td class="num">8,100</td><td class="num">23</td><td class="angle">Named protocol, explains what's in the bag</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPLIANCE ============ -->
+  <section>
+    <h2>Before briefing these</h2>
+    <p class="sec-sub">
+      Three constraints that would make otherwise good creative unusable.
+    </p>
+    <div class="compliance">
+      <div>
+        <h4>No physician language at the wellness clinic</h4>
+        <p>
+          Irving Health &amp; Wellness is led by Lori, a Board-Certified APRN. Nothing can
+          say or imply "physician-led", "physician-supervised" or "formulated by
+          physicians". Use "Board-Certified APRN" or "APRN-led".
+        </p>
+      </div>
+      <div>
+        <h4>Semaglutide: education only, no sourcing or pricing</h4>
+        <p>
+          The compounded-semaglutide terms carry real volume and real regulatory
+          exposure. Until dispensing is confirmed internally, keep creative to mechanism,
+          side effects and expectations &mdash; never where it comes from, what it costs,
+          or how to dose it.
+        </p>
+      </div>
+      <div>
+        <h4>"Gone wrong" content is safety education, not commentary</h4>
+        <p>
+          Filler migration and masseter-botox posts are the highest-engagement items in
+          the aesthetics lane. They stay defensible only while they explain causes and
+          prevention. Never use another provider's result as the visual.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXCLUSIONS ============ -->
+  <section>
+    <h2>Excluded on purpose</h2>
+    <p class="sec-sub">
+      These surface high in any keyword export and are wrong for this brief.
+    </p>
+    <div class="skip">
+      <div class="skip-item">
+        <h4>Every "near me" variant</h4>
+        <p>
+          <em>botox near me</em> shows 246,000/mo and <em>iv therapy near me</em> 110,000
+          &mdash; the biggest numbers Ubersuggest returned. They resolve in Google's local
+          pack, which moves on business-profile category and review velocity, not
+          creative. Chasing them with social spends budget on a lever social doesn't pull.
+        </p>
+      </div>
+      <div class="skip-item">
+        <h4>Product-purchase intent</h4>
+        <p>
+          <em>microneedling at home</em> (27,100), <em>microneedling pen</em> (14,800),
+          ankle braces, electrolyte powders. These searchers are buying a device on
+          Amazon, not booking a clinic. The one exception is turning at-home microneedling
+          into a safety post &mdash; that's the clinic's argument to make.
+        </p>
+      </div>
+      <div class="skip-item">
+        <h4>Practitioner-audience terms</h4>
+        <p>
+          <em>botox training course</em>, <em>iv therapy certification</em>,
+          <em>icd 10 code chest pain</em>, <em>cephalexin cellulitis</em>. Real volume,
+          wrong people &mdash; clinicians and students, not patients.
+        </p>
+      </div>
+      <div class="skip-item">
+        <h4>Celebrity and off-vertical noise</h4>
+        <p>
+          <em>millie bobby brown lip filler</em> (14,800), <em>hair botox</em> (18,100 &mdash;
+          an unrelated salon treatment), <em>food dehydration</em> and beef-jerky terms
+          that share the word "dehydration". Easy to include by accident from a raw export.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TIMING ============ -->
+  <section>
+    <h2>When to run which</h2>
+    <p class="sec-sub">
+      One timing constraint carries over from the demand data: the ER lane is seasonal,
+      the wellness lane is not.
+    </p>
+    <div class="timing">
+      <div>
+        <span class="when">Now &ndash; Nov</span>
+        <p>
+          Build the ER illness and injury sets. Their demand climbs from October and peaks
+          in March; assets need to exist before the curve turns.
+        </p>
+      </div>
+      <div>
+        <span class="when">Dec &ndash; Mar</span>
+        <p>
+          Peak ER season. Run the library and amplify what worked rather than building
+          new.
+        </p>
+      </div>
+      <div>
+        <span class="when">Year-round</span>
+        <p>
+          Aesthetics and metabolic content has no season, with a January weight-loss
+          spike worth planning for in November.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      <strong>Method.</strong> Volumes and difficulty scores are Ubersuggest estimates for
+      the United States (location 2840), pulled 2 September 2026 from seed expansions on
+      dehydration, bone bruise, sprained ankle, chest pain, cellulitis, insulin resistance,
+      IV therapy, botox, semaglutide, microneedling and lip filler. Difficulty is Ubersuggest's
+      0&ndash;100 SEO difficulty score.
+    </p>
+    <p>
+      Treat the absolute volumes as estimates rather than counts &mdash; the largest head
+      terms in particular look aggregated across close variants, and several appear as
+      suspiciously round numbers. The reliable signal is the relative ordering and the
+      difficulty spread, both of which held consistent across separate seed expansions.
+      Nothing here has been filtered against what these sites already rank for, so some
+      overlap with existing pages is expected and welcome.
+    </p>
+  </footer>
+
+</div>

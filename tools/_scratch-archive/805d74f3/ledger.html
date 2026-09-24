@@ -1,0 +1,159 @@
+<title>The Studio Ledger</title>
+<style>
+:root { --bg:#f3f1ec; --ink:#16171b; --mute:#5d6068; --line:#d9d5cc; --panel:#ffffff; --gold:#b8861f; --gold-ink:#7a5710; --ok:#2f7d4f; --ok-bg:#e3f1e8; --warn:#9a5b00; --warn-bg:#fbeed6; --plan:#2c4f8a; --plan-bg:#e2e9f6; --hold:#7a3c3c; --hold-bg:#f6e2e2; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#101114; --ink:#eceef2; --mute:#9aa1ab; --line:#2a2d33; --panel:#171a1f; --gold:#deab4e; --gold-ink:#f1cd7f; --ok:#7fd39a; --ok-bg:#16301f; --warn:#f2b866; --warn-bg:#3a2a10; --plan:#9fb9e8; --plan-bg:#182238; --hold:#e79a9a; --hold-bg:#3a1c1c; } }
+:root[data-theme="dark"] { --bg:#101114; --ink:#eceef2; --mute:#9aa1ab; --line:#2a2d33; --panel:#171a1f; --gold:#deab4e; --gold-ink:#f1cd7f; --ok:#7fd39a; --ok-bg:#16301f; --warn:#f2b866; --warn-bg:#3a2a10; --plan:#9fb9e8; --plan-bg:#182238; --hold:#e79a9a; --hold-bg:#3a1c1c; }
+body { background:var(--bg); color:var(--ink); font:16px/1.55 Manrope, "Segoe UI", system-ui, sans-serif; margin:0; }
+main { max-width: 960px; margin: 0 auto; padding: 52px 24px 96px; }
+h1,h2,h3 { font-family: Sora, Manrope, system-ui, sans-serif; letter-spacing:-0.02em; text-wrap: balance; }
+h1 { font-size: 2.5rem; line-height:1.05; margin: 0 0 10px; }
+h2 { font-size: 1.4rem; margin: 52px 0 10px; padding-top: 18px; border-top: 1px solid var(--line); }
+h3 { font-size: 1.02rem; margin: 26px 0 6px; }
+p { max-width: 70ch; }
+.eyebrow { font: 600 12px/1 Sora, system-ui; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-ink); margin-bottom: 14px; }
+.lede { font-size: 1.15rem; line-height:1.45; max-width: 64ch; }
+.rule { border-left: 4px solid var(--gold); padding: 8px 0 8px 18px; margin: 26px 0; max-width: 64ch; font-family: Sora, system-ui; font-size: 1.05rem; line-height: 1.4; }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; margin: 10px 0 6px; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); }
+th { font: 600 11.5px/1.2 Sora, system-ui; letter-spacing:.08em; text-transform: uppercase; color: var(--mute); }
+td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tablewrap { overflow-x: auto; }
+code { font: 13.5px/1.4 ui-monospace, Consolas, monospace; background: var(--panel); border:1px solid var(--line); padding: 1px 6px; border-radius: 3px; white-space: nowrap; }
+.chip { display:inline-block; font: 600 11px/1 Sora, system-ui; letter-spacing:.06em; text-transform: uppercase; padding: 5px 8px; border-radius: 3px; white-space: nowrap; }
+.chip.ok { color: var(--ok); background: var(--ok-bg); }
+.chip.warn { color: var(--warn); background: var(--warn-bg); }
+.chip.plan { color: var(--plan); background: var(--plan-bg); }
+.chip.hold { color: var(--hold); background: var(--hold-bg); }
+ul { padding-left: 20px; max-width: 72ch; } li { margin: 6px 0; }
+.note { font-size: 14px; color: var(--mute); max-width: 72ch; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 14px 0; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; }
+.card h3 { margin: 0 0 6px; font-size: 1rem; }
+.card p { margin: 6px 0 0; font-size: 14px; color: var(--mute); }
+.kv { display: grid; grid-template-columns: 150px 1fr; gap: 6px 16px; font-size: 14.5px; max-width: 72ch; }
+.kv b { font-weight: 600; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;600;700&display=swap">
+<main>
+<div class="eyebrow">Faceless studio &middot; 5 September 2026</div>
+<h1>The Studio Ledger</h1>
+<p class="lede">Everything that exists in the studio today, what it does, and what is proposed next. Nothing in the proposed list gets built until you approve it here.</p>
+
+<div class="rule">New working rule: a written proposal first, with what changes on screen and what it costs in minutes. You approve, change or drop each item. Then it gets built, checked, and reported one change at a time.</div>
+
+<h2>1. Videos</h2>
+<div class="tablewrap"><table>
+<tr><th>Video</th><th>Master</th><th class="n">Length</th><th class="n">Loudness</th><th>State</th></tr>
+<tr><td>The Law That Took 20 Years To Reach The Airport (REAL ID)</td><td><code>projects/real-id/master.mp4</code></td><td class="n">2:59</td><td class="n">&minus;15.3 LUFS, &minus;1.1 dBTP</td><td><span class="chip ok">passes QA</span> peak 0.4 dB over target</td></tr>
+<tr><td>It Costs More Than One Cent To Make One Cent (penny)</td><td><code>projects/penny-cost/master.mp4</code></td><td class="n">2:58</td><td class="n">&minus;15.5 LUFS, &minus;1.5 dBTP</td><td><span class="chip ok">passes QA</span> compare card 0.2 s under its floor</td></tr>
+<tr><td>The $800 Loophole (de minimis)</td><td><code>projects/de-minimis/master.mp4</code></td><td class="n">3:09</td><td class="n">&minus;15.5 LUFS, &minus;1.7 dBTP</td><td><span class="chip ok">passes QA</span></td></tr>
+<tr><td>lab, polish-test, policy-shift, roman-concrete</td><td><code>projects/&hellip;</code></td><td class="n">&mdash;</td><td class="n">&mdash;</td><td><span class="chip warn">earlier experiments</span> superseded, kept for reference</td></tr>
+</table></div>
+<p class="note">Each project folder holds: <code>script.md</code>, <code>anchors.json</code>, <code>queries.json</code>, <code>cards.json</code>, <code>sceneplan.json</code>, <code>sources/verification.md</code>, <code>docs/</code> (captured documents), <code>narration.wav</code>, <code>words.json</code>, <code>shotlist.json</code>, <code>cards/</code>, <code>segments/</code>, <code>master.mp4</code>, <code>captions.srt</code>, <code>contact_p1.png</code>, <code>contact_p2.png</code>, <code>keyword_frames.png</code>, <code>qa_report.json</code>, <code>metadata.json</code>.</p>
+
+<h2>2. The pipeline</h2>
+<p>One Python package, <code>fvs</code>, run stage by stage. Every stage is resumable and caches what it made.</p>
+<div class="tablewrap"><table>
+<tr><th>Stage</th><th>What it does</th><th>Key rules</th></tr>
+<tr><td><code>fvs voice</code></td><td>Narration from <code>script.md</code> with Gemini 3.1 Flash TTS (voice Sadaltager), per paragraph, cached by text</td><td>Bracket directions and keyword marks stripped; tempo 1.08 via atempo; 1.0 s pause at chapter ends; keys rotate on quota (<code>GEMINI_API_KEY</code>, <code>_2</code>, &hellip;); Kokoro local fallback</td></tr>
+<tr><td><code>fvs align</code></td><td>Word timings from the narration (faster-whisper)</td><td>Every cut, card, keyword and highlight is timed from these words</td></tr>
+<tr><td><code>tools/make_score.py</code></td><td>Music bed synthesised from a Gemini-written score, with a turn point</td><td>Bed ducks under voice in compose</td></tr>
+<tr><td><code>fvs plan</code></td><td>Carves the narration into shots, binds anchors, places cards, scenes, stills, keyword runs, chapter marks, cold open and end card</td><td>Floors: footage 2.2 s, still 5 s, chapter 4 s, stat 4.5 s, compare 6 s, timeline 8 s; anchors change the picture on the word but never override a floor; segment length recorded per shot; old keyword files swept; footage carried across a re-plan by paragraph and query</td></tr>
+<tr><td><code>fvs assets</code></td><td>Fetches stock footage (Pexels, Pixabay) per shot from anchors and paragraph pools</td><td>Caption blocklist; vision check on every clip; rejected clips remembered; existing footage kept unless <code>--force</code> or <code>--only</code></td></tr>
+<tr><td><code>fvs compose</code></td><td>Renders each shot to a segment and concatenates: grade, Ken Burns on stills, cards and overlays, chapter dips, plate blur under big type, captions, mastering</td><td>Frame-taking cards start on the cut and hold past it; overlays last the segment; compressor, gain, limiter, measured second mux; segment cache stamped by every input file</td></tr>
+<tr><td><code>fvs contact</code></td><td>Contact sheets of every footage shot</td><td>Looked at, every shot, before a master is shown</td></tr>
+<tr><td><code>fvs package</code>, <code>shorts</code>, <code>thumbnail</code>, <code>originality</code>, <code>notebook</code></td><td>Upload metadata and title variants; vertical cuts; thumbnail import; anti-repetition gate; NotebookLM sourced artifacts</td><td>Built earlier; not exercised on the three current videos</td></tr>
+</table></div>
+
+<h2>3. The visual system</h2>
+<div class="kv">
+<b>Type</b><span>Sora (display, 800 caps for keywords) and Manrope (text); both Open Font Licence</span>
+<b>Colour</b><span>Cream #f6f2eb on footage, gold #deab4e for figures and marks, ink #08090c grounds</span>
+<b>Frame</b><span>Chapter mark top-left on every footage shot (30 px); a dated slug top-left on the cold open</span>
+<b>Zone</b><span>All keyword type inside a 40% wide zone, centred or seated opposite a card; nothing inside the outer 5%</span>
+<b>Documents</b><span>Real .gov pages captured as footage, content column only, quoted line highlighted on the word</span>
+<b>Stills</b><span>Gemini-generated, full frame, Ken Burns, no label (Polaroid retired)</span>
+</div>
+
+<h3>Motion templates (<code>motion/</code>)</h3>
+<div class="tablewrap"><table>
+<tr><th>Template</th><th>On screen</th></tr>
+<tr><td><code>cold_open.html</code></td><td>Scrim over shot 1 with the title, from frame 0</td></tr>
+<tr><td><code>section_intro.html</code></td><td>Chapter card: number, title, 88% dim; starts on the cut, holds to the cut</td></tr>
+<tr><td><code>stat_count.html</code></td><td>Corner figure that counts up, with label and source; 0.35 s after the cut</td></tr>
+<tr><td><code>compare_card.html</code></td><td>Two-value comparison; the &ldquo;flow&rdquo; variant queues coins through a press</td></tr>
+<tr><td><code>timeline_card.html</code></td><td>Dated track with stops and notes</td></tr>
+<tr><td><code>document_scene.html</code></td><td>Captured document, vertical drift, highlighter sweep on the quoted line</td></tr>
+<tr><td><code>keyword_run.html</code></td><td>The keyword layer (below); v1 with pops kept as <code>keyword_run_v1_pop.html</code></td></tr>
+<tr><td><code>end_card.html</code></td><td>Outro spoken over the end card, held 8 s past the words</td></tr>
+<tr><td><code>kinetic_word.html</code>, <code>process_scene.html</code>, <code>still_frame.html</code>, <code>thumb_*.html</code>, <code>emphasis_fade.html</code></td><td>Earlier or retired; emphasis cards are refused in code</td></tr>
+</table></div>
+
+<h3>The keyword layer: marks a writer puts in the script</h3>
+<div class="tablewrap"><table>
+<tr><th>Mark</th><th>What the viewer sees</th><th>Measured from</th></tr>
+<tr><td><code>*word*</code></td><td>Blur-in over 0.22 s, no bounce, holds to the cut; a list accretes</td><td>fern</td></tr>
+<tr><td>figures, money, month-year (automatic)</td><td>Counts up over 0.42 s, digits resolving left to right; bare years land whole</td><td>Half as Interesting</td></tr>
+<tr><td><code>*~old~ new*</code></td><td>Old term struck through 0.25 s after landing, correction beside it</td><td>type that turns</td></tr>
+<tr><td><code>*?*</code></td><td>A lone question mark on the beat</td><td>older references</td></tr>
+<tr><td><code>*!Giant line*</code></td><td>Hard-on with a warm flash, stacked block, footage blurred and darkened behind</td><td>Harris, fern, HAI</td></tr>
+<tr><td><code>*@Dated slug*</code></td><td>Small stamp top-left over the opening scene</td><td>Search Party</td></tr>
+<tr><td><code>*=swap*</code></td><td>Cross-dissolves in place over 0.2 s, replacing the item before it</td><td>neo, HAI</td></tr>
+<tr><td><code>*&gt;typed line*</code></td><td>Typewriter at 45 ms a character, block cursor, lines accrete in a column</td><td>fern, Harris, Tran</td></tr>
+<tr><td><code>*^spoken line*</code></td><td>Each word un-blurs on its own timing; carries across a cut if one falls inside it</td><td>fern, Harris</td></tr>
+</table></div>
+
+<h2>4. Rules the frames taught us</h2>
+<ul>
+<li><b>Hook, 2026:</b> open on a place and a date, no title, no question; the first turn inside 20 s with a visual change; a loop planted early and paid in the last chapter; first person in every chapter.</li>
+<li><b>Motion, 2026:</b> type reveals information in time with the voice. It types, un-blurs, counts, swaps and holds 1.5 to 13 s. No scale bounce anywhere, Hormozi included. Flashes go in, never out.</li>
+<li><b>Place:</b> references cover 25 to 60% of the frame width; ours ran 88 to 94% before the fix. Mixed case by default; caps only for one giant line or a label.</li>
+<li><b>Cut:</b> the picture changes on the word, to the thing named. Median reference shot 1.5 to 3 s; ours 5 s mean in the first minute, slower on purpose after &ldquo;too fast&rdquo;.</li>
+<li><b>Cards:</b> a card must add information; emphasis cards are refused. Frame-taking cards start on the cut and hold to it.</li>
+<li><b>Sound:</b> references sit at &minus;16 to &minus;21 LUFS; ours &minus;15.3 to &minus;15.5, target &minus;14 / &minus;1.5 dBTP.</li>
+<li><b>Facts:</b> figures only from primary pages, logged in <code>sources/verification.md</code>; no fabricated documents; no identifiable real person generated.</li>
+</ul>
+
+<h2>5. Checks and tools</h2>
+<div class="grid">
+<div class="card"><h3><code>tools/check_script.py</code></h3><p>Script gate before the voice: a scene and a turn in the first 60 words, turns at or above 0.8 per 100 words, first line under 14 words, no &ldquo;so/then&rdquo; openers, first person per chapter, figures as a warning.</p></div>
+<div class="card"><h3><code>tools/qa_master.py</code></h3><p>Master gate: runts and read floors on the real segment, chapter lead, text zone measured from each overlay&rsquo;s alpha, text hold, slug and mark collision, repeated clips, small type, odd cut gaps (<code>--scdet</code>). Writes <code>qa_report.json</code>.</p></div>
+<div class="card"><h3><code>tools/study_video.py</code>, <code>study_type.py</code>, <code>study_align.py</code>, <code>study_script.py</code></h3><p>Measure a reference: cuts and pace, one-frame-a-second scans, 20 fps bursts, pause structure, tension signals per 100 words.</p></div>
+<div class="card"><h3><code>tools/text_extent.py</code>, <code>keyword_frames.py</code></h3><p>How wide type runs in any frame; a frame at every keyword moment of a master, labelled.</p></div>
+<div class="card"><h3><code>tools/rerender_keywords.py</code>, <code>sweep_orphan_keywords.py</code>, <code>finish_rebuild.sh</code></h3><p>Cheap re-render of overlays after a template change; cleanup after a re-plan; resume chain after a voice quota reset.</p></div>
+<div class="card"><h3><code>motion/capture_doc.mjs</code></h3><p>Captures a .gov page as document footage with the quoted line located; <code>MIN_COL</code> widens the column for tables.</p></div>
+</div>
+
+<h2>6. Research pages</h2>
+<ul>
+<li><a href="https://claude.ai/code/artifact/db0af2a5-6e12-4a22-8bca-a2eaabc3b6b0">How Type Moves in 2026</a>: six uploads burst-framed; the motion vocabulary; where type sits; what was built.</li>
+<li><a href="https://claude.ai/code/artifact/cbee468c-3ffc-4814-93a0-d9a59f47f536">Text That Moves, Scripts That Pull</a>: kinetic text on the older set, tension signals per 100 words, the 2026 hook grammar.</li>
+<li><a href="https://claude.ai/code/artifact/aba2c130-6537-40e9-aa7e-113c1ee88b19">Seven Videos Measured</a>: cut lengths, pace, loudness, documents as footage.</li>
+<li><a href="https://claude.ai/code/artifact/5cb5bffa-1602-487b-bb7b-2257f01fe091">Four Frames for a Still</a>: the still treatments; you chose the full-frame one.</li>
+</ul>
+<p class="note">Working notes for every decision, with dates and measurements, are in <code>D:\faceless-studio\DECISIONS.md</code>.</p>
+
+<h2>7. Proposed next, awaiting your decision</h2>
+<p>Each item says what changes on screen, why, and the cost. Reply with approve, change or drop per number. Nothing here starts on its own.</p>
+<div class="tablewrap"><table>
+<tr><th>#</th><th>Proposal</th><th>Why</th><th class="n">Cost</th><th>State</th></tr>
+<tr><td>1</td><td><b>Sound on type.</b> A soft tick per typed character, a low thud under a giant line, the music bed dipping on the payoff and a riser under a setup.</td><td>Every reference channel scores its type; ours is silent. Named in the tension plan and never built.</td><td class="n">~3 h</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>2</td><td><b>Voice tempo test.</b> Render one chapter at 1.15 and 1.20 for you to hear beside the current 1.08.</td><td>Speaking rate is 122 to 133 wpm; references run 130 to 211. You said the voice felt slow.</td><td class="n">~20 min</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>3</td><td><b>Human approval step for footage.</b> <code>fvs approve</code>: after assets, a sheet is produced and compose waits for a yes; swaps happen there, before any render.</td><td>The vision judge passed a condom clip, a match, brain scans and a torso. A human look is already the rule; this puts it in the pipeline instead of after the render.</td><td class="n">~2 h</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>4</td><td><b>Penny script fix.</b> Lengthen the &ldquo;four pennies in, one cent out&rdquo; paragraph by one sentence so the compare card gets its 6 s; drop two of the 27 figures.</td><td>The card sits 0.2 s under its floor; the script is 9 figures per 100 words against a 7 guide.</td><td class="n">~30 min + rebuild</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>5</td><td><b>Type that rides a prop.</b> In document scenes, a figure that sits on the page and moves with the drift, Half as Interesting style.</td><td>Measured on HAI: the number tracks the document. We control the document camera, so no motion tracking is needed.</td><td class="n">~2 h</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>6</td><td><b>Word that spans cuts by design.</b> A mark <code>*word+*</code> that keeps one keyword up while the footage strobes through several shots.</td><td>Harris holds &ldquo;POWER&rdquo; through five cuts; the spoken-line carry already works, this makes it a writer&rsquo;s choice.</td><td class="n">~1 h</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>7</td><td><b>Package the three videos.</b> Titles and description variants, chapters, thumbnails, and 3 to 4 Shorts each.</td><td>The stages exist and have not run on the current masters.</td><td class="n">~1 h each</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>8</td><td><b>Stills for REAL ID and the $800 Loophole.</b> Two or three Gemini stills per video where stock has nothing (the star on a licence, a parcel at a customs desk).</td><td>Penny has three stills; the others have none. Image generation needs the Gemini web sign-in you hold.</td><td class="n">~1 h + your sign-in</td><td><span class="chip hold">blocked on sign-in</span></td></tr>
+<tr><td>9</td><td><b>NotebookLM verification pass.</b> Re-verify every figure in the three scripts through NotebookLM once its session is signed in.</td><td>Figures were read on the primary pages directly; NotebookLM is the preferred route and its auth had expired.</td><td class="n">~40 min + your sign-in</td><td><span class="chip hold">blocked on sign-in</span></td></tr>
+<tr><td>10</td><td><b>Raise the remaining small type.</b> Still-frame labels (18 to 24 px) and the old process scene are the last templates under 30 px.</td><td>Only matters if stills return; retired templates otherwise.</td><td class="n">~20 min</td><td><span class="chip plan">proposed</span></td></tr>
+<tr><td>11</td><td><b>A fourth video.</b> Same lane: what a rule actually does. Candidate: the FAA 1,500-hour rule, or the Federal Reserve&rsquo;s $100 bill redesign; your pick.</td><td>Proves the pipeline end to end under the new rules and gate without any manual repair.</td><td class="n">~3 h</td><td><span class="chip plan">proposed</span></td></tr>
+</table></div>
+
+<h2>8. How the next step works</h2>
+<ul>
+<li>You reply with the numbers you approve, or a change to any of them.</li>
+<li>Each approved item is built alone, run through the script and master gates, its sheets looked at, and reported with frames before the next one starts.</li>
+<li>No re-plan or recompose of a finished video happens without your yes, because each one costs 10 to 40 minutes and can change footage.</li>
+</ul>
+</main>

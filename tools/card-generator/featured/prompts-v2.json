@@ -1,0 +1,25 @@
+{
+  "_note": "ground is a plain neutral grey chosen for a clean cutout, NOT the final background. Subjects get cut out and composited onto the layout's own canvas, so the whole set shares one ground by construction. Aspect is stated in the prompt text because the web chat takes no aspect parameter.",
+  "images": [
+    {
+      "name": "gem-standing",
+      "ground": "#e8e8e8",
+      "prompt": "Vertical portrait orientation, taller than wide. A full-length studio photograph of a woman in her late thirties standing squarely facing the camera, natural athletic build, wearing plain fitted stone-grey activewear and bare feet, arms relaxed at her sides, calm confident expression, looking straight at the lens"
+    },
+    {
+      "name": "gem-portrait-skin",
+      "ground": "#e8e8e8",
+      "prompt": "Vertical portrait orientation, taller than wide. A studio portrait of a woman in her early thirties from the waist up, clear natural skin with visible real texture and minimal makeup, dark hair loosely tied back, wearing a plain stone-coloured knit top, both shoulders square to camera, calm neutral expression, looking directly at the lens"
+    },
+    {
+      "name": "gem-portrait-mature",
+      "ground": "#e8e8e8",
+      "prompt": "Vertical portrait orientation, taller than wide. A studio portrait of a woman in her mid fifties from the waist up, natural unretouched skin showing real fine lines around the eyes and mouth, silver-streaked dark hair, wearing a plain oatmeal linen shirt, arms relaxed, warm confident half smile, looking directly at the lens. Her skin is not smoothed or airbrushed"
+    },
+    {
+      "name": "gem-skincare-tray",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A still life of three unlabelled frosted-glass skincare bottles of different heights with plain matte caps, standing on a pale ceramic tray, two folded white cotton cloths beside them and a single sprig of eucalyptus laid flat, photographed from a low three-quarter angle"
+    }
+  ]
+}

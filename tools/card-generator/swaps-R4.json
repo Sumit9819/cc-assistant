@@ -1,0 +1,60 @@
+{
+ "9402": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-benefits-for-men-1-low-testosterone-signs.webp\" alt=\"Signs of low testosterone: low energy, brain fog, muscle loss, and low mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-signs-in-men.webp\" alt=\"Low testosterone shows as fatigue sleep does not fix, brain fog, muscle loss despite training, and persistent low mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-benefits-for-men-2-trt-benefits-physical.webp\" alt=\"Physical effects of TRT: muscle strength, lean mass, and body composition\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength.webp\" alt=\"TRT is anabolic: NIH studies show it can increase lean body mass and improve grip strength, a longevity indicator\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-benefits-for-men-3-trt-benefits-cognitive.webp\" alt=\"Cognitive effects of TRT: less brain fog, clearer thinking, and steadier mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity.webp\" alt=\"Low testosterone is linked to depressive symptoms and anxiety; stabilising levels can clear fog and restore drive\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-benefits-for-men-4-trt-benefits-systemic.webp\" alt=\"Systemic effects of TRT: energy, metabolic health, and hormone balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health.webp\" alt=\"Restoring testosterone can improve insulin sensitivity, lower type 2 diabetes risk, and reduce visceral fat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-benefits-for-men-6-trt-monitoring.webp\" alt=\"TRT monitoring: IM versus SubQ injections, hematocrit levels, and estrogen balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-clinical-monitoring.webp\" alt=\"TRT monitoring covers the injection route, hematocrit checks for erythrocytosis, and keeping estrogen in balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "10229": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-dermal-filler-1-skinvive-vs-filler-hydration-not-volume.webp\" alt=\"Skinvive delivers microdroplet hydration for smoother skin, while filler adds volume and shape\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-skinvive-is.webp\" alt=\"Skinvive is a hyaluronic acid microdroplet injectable, FDA approved May 2023 for cheek smoothness in adults over 21\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-dermal-filler-2-skinvive-vs-dermal-filler.webp\" alt=\"Illustration contrasting Skinvive microdroplets spread across the cheek with filler placed along the jawline for contour\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared.webp\" alt=\"Skinvive hydrates and smooths the skin surface in superficial microdroplets; dermal filler restores volume and reshapes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-dermal-filler-3-skinvive-side-effects.webp\" alt=\"Skinvive side effects are usually mild and temporary: small bumps, redness or bruising, and it can be dissolved\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects.webp\" alt=\"Skinvive side effects are local and short-lived: small bumps, redness or bruising, temporary unevenness, and it dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "10192": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/not-losing-weight-on-semaglutide-1-when-does-it-stop-working.webp\" alt=\"When semaglutide weight loss plateaus, and why a stall after months of steady loss differs from one in the first three\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-plateau-timing.webp\" alt=\"A semaglutide plateau after 8 to 12 months is physiology; a stall in the first 3 months at full dose needs investigating\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/not-losing-weight-on-semaglutide-2-on-semaglutide.webp\" alt=\"Three habits that stall progress on semaglutide: too little protein, no resistance training, and short sleep with unmanaged stress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/habits-that-stall-semaglutide.webp\" alt=\"Three habits stall semaglutide progress: too little protein, no resistance training, and short sleep with unmanaged stress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/not-losing-weight-on-semaglutide-3-medical-reasons.webp\" alt=\"Medical causes behind a semaglutide plateau: insulin resistance, thyroid dysfunction, and sex-hormone imbalance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-reasons-semaglutide-stalls.webp\" alt=\"Untreated insulin resistance, thyroid dysfunction and sex-hormone imbalance can each blunt progress on semaglutide\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/not-losing-weight-on-semaglutide-4-when-semaglutide-stops-working.webp\" alt=\"Non-response to semaglutide is real, tirzepatide may help, and a supervised switch can restart progress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders.webp\" alt=\"True non-response to semaglutide is real, does not predict non-response to tirzepatide, and a supervised switch can help\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/not-losing-weight-on-semaglutide-5-restart-your-progress.webp\" alt=\"Restarting progress: check your dose, review your habits, and get labs before adjusting treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restarting-semaglutide-progress.webp\" alt=\"Five steps to restart semaglutide progress: confirm the dose, track composition, audit habits, get labs, then discuss switching\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

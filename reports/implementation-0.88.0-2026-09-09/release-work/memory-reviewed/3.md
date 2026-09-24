@@ -1,0 +1,23 @@
+---
+name: erofwhiterock-no-provider-bylines-yet
+description: "On erofwhiterock.com specifically, do NOT propose adding provider bylines, schema Person entities, or \"Medically Reviewed by:\" lines on any page. Physicians have not yet given consent for their names to appear on the site."
+metadata: 
+  node_type: memory
+  type: feedback
+  originSessionId: 85dedec0-0402-4aff-aa45-54eee23a20e7
+---
+
+ON EROFWHITEROCK.COM ONLY: do not propose adding any provider byline, schema Person entity, hasCredential block, sameAs to LinkedIn, or "Medically Reviewed by: NAME" pattern on ANY page until the user confirms physician consent has been obtained.
+
+**Why:** User asked physicians for consent to put their names on the website. None approved. Until consent comes in, this means:
+- Lori Secerovic does NOT work for ER of White Rock (she's at irvingwellnessclinic). Never propose her name on this site.
+- No physician on the ER of White Rock staff has consented to being named publicly.
+- The E-E-A-T audit will continue to flag `eeat_no_visible_byline` + `eeat_no_schema_person` on every page. Acknowledge the gap but do NOT propose the fix.
+
+**How to apply:**
+- When `helpful_content_score` or `eeat_coverage_audit` returns these issues on erofwhiterock, report the observed missing markup and the consent constraint; this is not proof of an SEO defect.
+- All E-E-A-T uplift work on this site goes to other levers: supported consequential claims, accurate explanations, useful examples and relevant internal links — NOT named-author signals.
+- Do not assume any clinician name is correct for this site. If a name is needed for editorial purposes, ask first.
+- When the user confirms consent has been given (and provides the names + credentials), this memory should be updated or removed.
+
+Related: [[reference_seo_practitioner_reality]] (leak attribute authorReputationScore — we can't proxy it on this site yet), [[reference_cc_assistant_v0_28_industry_playbook]] (overlay top_rules still mention provider naming — universal rule, but blocked on this site).

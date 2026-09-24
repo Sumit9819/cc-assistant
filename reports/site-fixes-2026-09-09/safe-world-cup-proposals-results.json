@@ -1,0 +1,1783 @@
+[
+  {
+    "name": "initialize",
+    "arguments": {},
+    "isError": false,
+    "result": []
+  },
+  {
+    "name": "whoami",
+    "arguments": {},
+    "isError": false,
+    "result": {
+      "site_name": "ER of White Rock",
+      "site_url": "https://erofwhiterock.com",
+      "admin_url": "https://erofwhiterock.com/wp-admin/",
+      "site_id": "d2a8e248-14a2-4afb-a07c-60e054726b4d",
+      "wp_version": "7.1",
+      "plugin_version": "0.89.3",
+      "is_multisite": false,
+      "language": "en_US",
+      "timezone": "+00:00",
+      "allowed_post_types": [
+        "post",
+        "page"
+      ],
+      "elementor_active": true,
+      "fingerprint": "c5bc5dbe61b689ce",
+      "environment": "local",
+      "connection_time": "2026-09-09 16:15:51",
+      "operator_brain": {
+        "local_fingerprint": "c0902e522f5feed3b4d3f270f05343d55f6706f85461dfc963369a925998e086",
+        "site_fingerprint": "034147424d30c5dc2057f1dcd88ac794a66463d3ad912fc7b683837bb0542a50",
+        "local_files": 263,
+        "site_files": 3,
+        "local_newest": "2026-09-09 11:33:49 UTC",
+        "site_updated_at": "2026-09-09 11:43:49 UTC",
+        "site_pushed_from": "DINO",
+        "local_present": {
+          "memory": 252,
+          "skills": 7,
+          "project": 4
+        },
+        "status": "site_newer",
+        "action": "The site brain was pushed at 2026-09-09 11:43:49 UTC from \"DINO\" and differs from this machine. A timestamp does not prove its instructions are more correct. Inspect the selected file differences; operator_brain_pull(mode=missing_only) can add missing files. Preserve a deliberately curated site scope.",
+        "bridge": {
+          "status": "in_sync",
+          "differ": [],
+          "only_site": [],
+          "only_local": [],
+          "local_version": "0.89.3",
+          "site_version": "0.89.3"
+        }
+      },
+      "session_recap": {
+        "working_state": {
+          "active_task": "Portfolio content-health close-out: fix the E-E-A-T + originality ceiling found 2026-08-28. Location pages are the weakest content on every ER site.",
+          "current_plan": "Start with WR location pages 5495 Richardson (41) and 5463 Forest Hills (41): add .gov/.edu citations (density is currently 0), add images (currently 0), add verifiable route/geography facts. Then ES twins 5470/5496, then Casa View 5462.",
+          "status": "active",
+          "target_post_ids": [
+            5495,
+            5463,
+            5462,
+            5470,
+            5496
+          ],
+          "steps": [
+            "[x] Rebuild hub: 5 themed condition groups, unique copy, CDC stats band, hero bg, title +Room token",
+            "[x] Design fixes: 3-col grids, explicit rows, centered category headings, mobile stacking (user approved, looks good)",
+            "[x] win_audit re-run: 47 -> 64 competitive",
+            "Bucket 1: add org-attributed ACEP/AHA quote + ER-vs-urgent-care decision table + 2 more cited stats (target mid-70s)",
+            "Site-wide conflict sweep: gsc_cannibalization + find_duplicate_content against the lane map in site Rules",
+            "Swap hero image 77 for real facility photo when user uploads it",
+            "Re-run win_audit after photos (target 80+ winning)",
+            "[x] Design Language v2 written into erofwhiterock design skill (anchor nav, section variety, left-align cards, type scale, photo-led)",
+            "[x] v2 pilot queued on 3505: #1199 chip-nav, #1200-04 anchor ids, #1205 decision table + ACEP quote + billing disclosure",
+            "Approve #1199-1205, then re-run win_audit (expect ~mid-70s: quote + table land info_gain/extractability)",
+            "v2 rollout: left-align existing card text + bigger H2 type on 3505, then other pages",
+            "[x] v2 pilot live + verified (chips, anchors, table, ACEP quote, disclosure all rendering)",
+            "[x] win_audit re-run: raw 60 but classifier bug undercounted; true ~69 (extractability 100, fanout 84, info_gain 36, media 40)",
+            "Re-upload fixed zip to erofwhiterock (classify_format fix is in plugintesting build only), then re-run win_audit to confirm ~69-75",
+            "[x] v0.42.1 deployed to erofwhiterock; win_audit confirmed 70/100 (intent_format correctly 95 again). Journey: 47 -> 64 -> 70",
+            "[x] Abdominal pain 1041 baseline: win_audit 35/100 losing (info_gain 0, eeat 0, fanout 12); page is wellness-clinic clone residue",
+            "[x] Queued #1208-1212 boundary fixes (Digestive Health Clinic H2, Book-an-Appointment H2 -> Walk In 24/7, Dallas geo, post_title) + #1213 Where Does It Hurt section (location table, CDC+ACEP citations, image PLACEHOLDER for user diagram)",
+            "1041 remaining: rewrite section 2a6d67ca bodies (Medication Management / Lifestyle Dietary Counseling / Minimally Invasive Procedures = clinic services, must become ER capabilities: CT-ultrasound-labs / IV fluids-pain control / surgical consult-transfer) - need body widget ids via export",
+            "1041: re-run win_audit after approvals; then ES twin 4713 gets same treatment (EN locked first)",
+            "User fills image placeholder (abdominal diagram) + hero bg on 1041",
+            "[x] Rejected patch pendings #1208-1213 (user verdict: page has bad bones, patching insufficient; full rebuild instead)",
+            "PILOT abdominal pain: build_service_page(source 2516) OR fresh build_page_from_spec; v2 additions (chip-nav if 6+ sections, location table, CDC/ACEP citations); FULLY REWRITE condition-specific copy (no str_replace residue per purge-clone rule); image PLACEHOLDERS everywhere images belong (Elementor placeholder.png + PLACEHOLDER alt); hero bg left for user; boundary fixes carry over (no clinic language, Walk In 24/7 not appointments, White Rock geo)",
+            "Pilot review by user -> then roll the same rebuild to remaining ~20 service pages one by one (EN first, ES after lock), win_audit each",
+            "Old-vs-new page swap per rebuild: publish draft + slug carryover + redirect check",
+            "[x] PILOT BUILT: new draft 5325 (abdominal pain, from spec, mirror 2516) via ONE call; pending #1214 publish_draft; ALL lints pass (grade 7.6, 0 AI-tells); 7 sections, 31 widgets, 3 image PLACEHOLDERS (hero bg, clinician photo, pain diagram); CDC+ACEP citations; location table; ER-boundary copy throughout",
+            "User: review preview, fill placeholders (or approve then fill), approve #1214",
+            "After publish: handle old 1041 (redirect old slug /services/abdominal-pain-treatment-in-white-rock/ -> new page, then trash 1041; check hub card link; ES twin 4713 rebuild next)",
+            "After live: win_audit 5325 vs the 4 stomach-pain competitor URLs (baseline was 35)",
+            "[x] Elementor 4.0.4 ground-truth study done (source-read, 20 verified traps) -> saved as permanent reference memory; builder grid block upgraded to source-correct rows custom:auto (v0.42.2 zip rebuilt, NEEDS re-upload)",
+            "Builder audit vs trap list (TODO next): buttons get no styling/hover keys from build_page_from_spec (5325 buttons are theme-default — part of 'design looks bad'); accordion default_state first-open; consider nested-accordion + faq_schema instead of classic accordion",
+            "[x] DESIGN SYSTEM GLOBAL shipped: research fused (numeric rulebook + Elementor __globals__ kit-token mechanics) into ~/.claude/skills/design-system-global/SKILL.md (cross-site); builder buttons now emit the token block (kit-primary bg, secondary hover, 2:1 padding, radius 8) v0.42.3 zip rebuilt NEEDS re-upload; #1217 queued = pilot 5325's 4 bare buttons fixed with same block",
+            "[x] SKELETON-SKIN diagnosis confirmed (user: h2 not bold, sections undesigned): builder emits structure with NO typography/surface styling and this kit's typography tokens are 400-weight. Queued #1218 = one 19-widget batch skinning the pilot (H1 48/700, eyebrow 14/600 caps, 6x H2 36/700 mobile 28, 10 cards in site card language, all colors via kit tokens)",
+            "BUILDER CRITICAL TODO: bake the skin into build_page_from_spec composer so pages ship styled (type scale on hero/h2/intros, card surface block, eyebrow style) instead of relying on weak kit defaults; THEN the kit-typography lever per site (needs a safe kit_set_typography tool, do NOT raw-postmeta the kit)",
+            "[x] Proactive full-page design self-audit queued #1219 (9 issues beyond user flags: off-brand greys -> kit token, white CTA band -> dark secondary band, twin solids -> solid+outline pairs, unstyled accordion, intros to 20px, image radii, button-row proximity) + #1220 accessibility fixes (red-solid-on-blue 1.4:1 -> white/blue inversion 8:1; eyebrow h6 -> semantic p). Global skill gained section H accessibility pairing rules",
+            "[x] CROSS-PAGE CONSISTENCY (user: pilot buttons do not match other pages): extracted the site's real recipes from hub export (buttons: red solid + white outline, radius 2, 18/32, Mont 16/700; sections boxed 1280 pad 80; cards icon 26/title 16/700/border-top 3px). Queued #1221 = 21-widget conformance batch (4 buttons to exact recipe superseding my invented block AND the white inversion, 7 roots 1300->1280 + 72->80, 10 cards to hub recipe). Canonical recipes appended to erofwhiterock-design skill. NOTED VARIANCE: chest-pain 2516 cards (4px/32/18) differ from hub recipe - conform 2516 on next touch",
+            "[x] Sufficiency self-audit on pilot: queued #1222 (precise cited stats 1-in-11 CDC + 1-in-13 NIH appendicitis w/ 3rd authority link; internal links: appendicitis + GI cards -> service pages, CTA text -> hub inline), #1223 chip anchor-nav (hub recipe, 5 jump links), #1224 anchor ids. Deferred deliberately: gynecologic/aftercare subtopics (article territory, not service page); FAQ widget variance (classic vs nested accordion) noted",
+            "[x] User challenge (generic content + cards blending): queued #1225 causes-section -> kit grey (white cards now separate; fixes rhythm), #1226 'How These Emergencies Behave Over Time' table (time-pattern angle NO competitor covers), #1227 'Before You Arrive' do/don't pair (pre-arrival guidance angle, also uncovered). Pilot now ~1400 words with 2 unique-insight sections chest-pain itself lacks; depth philosophy = coverage+uniqueness, not word-count padding (refuted)",
+            "[x] CONVERSION/LOCAL LAYER (user: form, insurance, map + more): queued #1228 insurance band (No Surprises/EMTALA/self-pay + disclosure, anchor #pricing), #1229 contact form (hub's proven dual-email config verbatim), #1230 Find Us (maps w/ explicit address, areas served, directions btn, anchor #find-us, grey token), #1231 FAQ bg -> grey (white/grey rhythm complete), #1232 EmergencyService schema (NAP/geo/areaServed, business name as entity). Page now has the full chest-pain/hub layer set + 2 unique-insight sections",
+            "[x] URL FIX (user-flagged /services/ path break): #1233 custom_permalink postmeta gives 5325 the OLD exact URL services/abdominal-pain-treatment-in-white-rock/ - zero redirects, hub card link keeps working. REVISED SWAP ORDER: (1) trash old 1041 (or clear its permalink claim), (2) approve #1233, (3) approve #1214 publish - two live pages cannot share one custom permalink",
+            "[x] SWAP COMPLETE + VERIFIED: /services/abdominal-pain-treatment-in-white-rock/ serves NEW page 5325 (200, 0 hops), old slug 301s once, retired URL 404s, 1041 unpublished. Pilot is LIVE on the rightful URL",
+            "[x] Live win_audit: raw 52 but materially distorted by measurement artifacts: 2 of 4 competitor fetches returned JS/cookie shells (ACEP wc=4, Ally wc=18) polluting fanout with junk ('Page Not Found', related-post titles); intent_format 35 = deliberate service-lane choice; title_ctr+internal skipped (new URL, no GSC rows yet). Genuine page metrics strong: stats 1.7/1k, extractability 80, eeat 80, media 85, schema 100. True comparable vs baseline-35 conditions ~70s",
+            "PLUGIN FIXES from this run: (a) win_audit must REJECT competitor fetches with word_count&lt;100 as shell/cookie-wall (exclude from comparative dims, note in output); (b) fanout must filter nav/404/related-posts headings; (c) answer-first check should skip &lt;=5-word or all-caps first  (eyebrow kickers render as p now)",
+            "Re-run win_audit in ~1 week when GSC rows exist for the new URL (title_ctr + fanout-GSC activate) + after user's photos",
+            "[x] ABDOMINAL REBUILD COMPLETE: user chose full from-scratch rebuild (informed it was intact). Cloned 5325 (the most-evolved page, NOT older pillar 2516) -> new post 5342 via build_service_page. Re-added EmergencyService schema (per-post, didn't clone), fixed 2 table palettes to Kit tokens, phone added to title, custom_permalink to /services/. User trashed old 5325 + draft 1041.",
+            "[x] SWAP VERIFIED LIVE: /services/abdominal-pain-treatment-in-white-rock/ -> 200, 0 hops, serves 5342. page_robustness_audit 98/robust (was 95), 0 blocking. Race-guard tripped once (external editor save staled batch); fixed by reject+requeue against fresh snapshot — lesson: don't open the draft in Elementor between queue and approve.",
+            "PLUGIN REFINEMENT (robustness audit): single_primary_cta over-counts chip anchor-nav (href=#...) as CTAs -> 7 distinct on 5342, costing 2 pts. Exclude in-page anchor links from CTA count; would score 5342 a clean 100. Also exclude nav from cta_mode_match.",
+            "NEXT: roll this rebuild pipeline to the genuinely weaker service pages (clone the best mirror per condition, rewrite content, schema, audit, swap). 5342/2516 are the template. Run win_audit on 5342 once GSC rows exist.",
+            "[x] TURN 1: robustness audit CTA-count fix (exclude href=# anchor-nav) shipped v0.43.1, zip rebuilt at wp-content/cc-assistant.zip. NEEDS upload to erofwhiterock (no MCP restart). Expect 5342 -> 100.",
+            "[x] TURN 3: win_audit 5342 vs same-intent ER service pages = 60 competitive. INTENT FIX VALIDATED LIVE: intent_format 95 (query local/action == page local/action), not the old 35 penalty. Strong: extractability 80, eeat 80, media 85, schema 100, stats 1.7/1k beats all competitors (0). Drag = fanout 12 (mostly junk headings + informational subtopics that belong on a SPOKE per doctrine, NOT the service page). Only on-page lever: 1 ACEP/AHA org-attributed quote. Spoke opportunity: blog 'When Is Stomach Pain an Emergency?' (home remedies/prevention) linking to 5342.",
+            "WIN_AUDIT refinements found (batch with the CTA fix next plugin pass): (a) fanout_coverage must filter nav/boilerplate headings (Post navigation, Related Posts, Resources, Proudly Supporting Our Community, FAQ); (b) effort_media must cap/sanity-check competitor image counts (Penn Highlands reported 124 = icon/logo noise).",
+            "TURN 2 QUEUE (rebuild worst-first, EN clones): 1) Head Injury 1425 (641w) NEXT, 2) Stroke 2482 (773w), 3) GI 799, 4) Concussion 1446 (829w), 5) Breathing 1396 (987w), then ~13 more. Pattern: clone best same-cluster mirror (2516/5342) -> rewrite condition content -> schema -> audit -> swap. One page per turn.",
+            "HEAD INJURY REBUILD IN PROGRESS: scaffold = post 5346 (cloned from 5342), publish pending #1247 DO NOT APPROVE until content rewrite + schema done (currently holds WIP). slug head-injury-emergency-care-white-rock. Target URL at swap: /services/emergency-head-injury/ (old page 1425, check if native slug or custom_permalink before swap).",
+            "[x] HEAD INJURY batch 1 queued #1248-1252: red-flags (2531c74) -> CDC HEADS UP danger signs + TBI causes; location heading (6b2a25f) -> 'Concussion or Something More Serious?'; location table (b32e200) -> concussion-vs-serious severity table; time intro (6dcacce) + time table (279d2c3) -> head-injury symptom timing (lucid interval, pediatric). All Kit palette.",
+            "HEAD INJURY batch 2 REMAINING (widget ids on 5346): hero subtext 61363e8; causes heading 8fa6625 -> 'Head Injuries We Treat' + intro f54811c + 6 icon-boxes 4ff4fc1/00fba1a/a4dde63/50f1421/4714584/db16787 -> Falls / Motor Vehicle / Sports / Assault / Struck-by / Concussion (fix internal links: appendicitis+GI -> concussion 1446 + TBI 1467); do/don't lists 6f6be1f + e8a0f4f (head-injury: don't drive self, monitor, bring blood-thinner list, no alcohol/sedatives); treatment box 9d9cbc9 (neuro obs not anti-nausea); FAQ accordion 64f4ee0 (6 head-injury Q&As); chip label e33f216 'Pain Locations'->'Severity Signs'; image alt 4efbbfb; then propose_emergency_service_schema(5346); palette dormant hexes ok; then page_robustness_audit + win_audit; then swap (trash 1425, set permalink, publish #1247).",
+            "After head injury 5346 live: next queue = Stroke 2482, GI 799, Concussion 1446, Breathing 1396.",
+            "[x] HEAD INJURY rebuilt FROM SCRATCH (no clone) as post 5353 via build_page_from_spec, style sampled from 5342 (design only). 11 sections, 51 widgets, 1 in-body image (hero imageless per user). Proper question-shaped H2s for AI search. Content lint clean (grade 6.7, 0 AI-tells, palette OK, no hospital comparison, ZERO residue). 2 lint false-positives overridden (accordion word-count; repeated Call button). Pendings: #1253 publish, #1254 EmergencyService schema, #1255 custom_permalink services/emergency-head-injury/.",
+            "HEAD INJURY 5353 NEXT: user previews design (build_page_from_spec skin risk) at ?page_id=5353&preview=true. If good -> trash 1425 + approve #1254,#1255,#1253 (do NOT open 5353 in Elementor first = race guard). Then verify live + page_robustness_audit + win_audit. THEN add enhancements not produced by build_page_from_spec: chip anchor-nav, contact form, find-us google_maps section. Also 2 win-build lint refinements: wall_of_text must not sum accordion items; duplicate_card_text must ignore repeated CTA button labels.",
+            "[x] COMPOSER SKIN-BAKING shipped v0.43.2 (class-build-from-spec.php): heading_spec now bakes global type scale (H1 48/700, H2 36/700, H3 28/600, eyebrow 14/600 caps) + kit title_color token + on_dark white; text_spec 18/1.6 + on_dark; buttons bold 16 + 16x32 pad; cards full surface (white bg, 3px navy top-accent, shadow, radius 4, pad 24, icon 28, bold h4 title, left-align, kit tokens); imageless hero -> navy band + white text; #f7f7f7 -> kit #F4F4F4; cta_band dark bg -> white text. Fixes skeleton-skin GLOBALLY for all from-scratch pages. Zip rebuilt, NEEDS upload to erofwhiterock.",
+            "AFTER v0.43.2 upload: REBUILD head injury from the SAME spec (now skinned) -> new post -> swap onto /services/emergency-head-injury/ -> trash old skeleton 5353. Then audit_page_design (expect >>75) + page_robustness_audit (expect 100). Button radius still global 8 (erofwhiterock site recipe is 2 — per-site nuance; revisit if user wants exact match via mirror-sampling).",
+            "[x] USER FLAG (head injury 5357 visual): every icon identical + few things messed up + 'eliminate further visual discussion'. ROOT CAUSE = composer defects, not page defects: (1) compose_card_grid only set selected_icon when spec provided one -> Elementor rendered default star on ALL 22 icon-boxes; (2) compose_hero emitted eyebrow as h6 above h1 (heading-order break); (3) audit_page_design had no icon check so 84 'pass' was false-clean.",
+            "[x] SYSTEMIC FIX v0.43.3: composer now ALWAYS assigns a distinct semantic icon per card (semantic_icon title-first keyword map + non-repeating fallback rotation; spec icon still wins) and renders eyebrow as header_size 'p'. audit gains check_icon_variety (weight 8: fails default-star + one-icon-dominates-60%) and check_heading_order now flags any h2-h6 before the page H1. CLI-tested icon output is distinct + correct. Zip built at wp-content/cc-assistant.zip.",
+            "[x] LIVE FIX queued on 5357 (in place, no swap): #1263-1284 = 22 icon-box selected_icon updates (brain/circle-exclamation/triangle/bolt/arrow-trend-down/hourglass/child/person-falling/car-burst/football/hand-fist/helmet-safety/brain/clipboard-check/x-ray/heart-pulse/route/circle-check/circle-xmark/shield-halved/hand-holding-medical/file-invoice-dollar); #1285 = eyebrow c053114 h6->p.",
+            "[x] THOROUGH DESIGN RE-ANALYSIS (user: buttons same color, red button on red band, do-this red like avoid, 'more issues', set everything globally). Found via export 5357: hero+CTA bands both buttons solid-red (no primary/secondary), blood-thinner band bg=#DA1212 with red button (invisible) AND white body text on red (~4:1 fails AA), all 22 icons kit-red (do-this same as avoid).",
+            "[x] GLOBAL composer fixes (v0.43.3): (1) buttons_row_spec+button_settings = 4 variants primary/secondary x light/dark; first button solid, rest outline; on dark bands primary=white fill+brand label, secondary=white outline -> never blends; brand via kit tokens, neutrals literal. (2) icon color semantic: card_tone() -> danger cards (severe/911/avoid/do-not) brand-red, all else brand-navy. (3) hero+cta_band pass on_dark to buttons. (4) FA5-safe icon names everywhere. (5) eyebrow=p.",
+            "[x] GLOBAL audit fixes (v0.43.3): added check_button_contrast (weight 10, fails solid button whose fill matches its section bg = red-on-red) + check_icon_variety (weight 8) + heading-order flags eyebrow-before-h1. zip rebuilt 665435 bytes.",
+            "[x] Rejected stopgap #1286-1297 (per-widget icon patches) - superseded by clean rebuild from fixed composer.",
+            "[x] SWAP DONE: 5360 live at /services/emergency-head-injury/ (user: 'like most things'). Race-guard recovery: user accidentally trashed+restored 5360 -> bumped post_modified -> 6 pendings refused; rejected #1299-1303 + re-queued #1304-1308 (NOT #1298 publish, rejecting it trashes draft); user approved fresh-first then publish. 5360 intact (51 widgets).",
+            "[x] USER round-2 visual feedback: button corner radius (8 vs site 2), button hover messed up, FAQ h3 too big, 'few others'. Sampled mirror 5342 recipe: buttons radius 2 / pad 18-32 / border 1px / Montserrat 16/700 / hover INVERTS (solidwhite); accordion title h3 but 18px/600 + kit color globals.",
+            "[x] LIVE 5360 patched #1309-1314: 5 buttons to exact site recipe + full invert hover (primary white-solid/red-text on navy, secondary white-outline; hover primary->#F4F4F4, secondary->white bg/navy text), FAQ accordion title -> 18/600 Montserrat + kit tokens.",
+            "[x] GLOBAL composer v0.43.5: sample_recipe() reads mirror's first button + accordion -> per-site radius/padding/border/font + FAQ title size; button_settings rewritten w/ full hover on all 4 variants (kit tokens for brand, literals for neutrals); compose_faq sizes the h3 title. Zip 667505 bytes.",
+            "[x] Full read-only site + GSC analysis (2026-07-21): homepage local-pack gap ~95 clicks/mo (GBP quota still blocking), zero-click content pages, AI-fanout queries dominate impressions",
+            "[x] FALSE ALARM disproven: 'buried pages' + weekly_priorities cannibalization items are link-graph artifacts. Hub 3505 + pillar 5054/5061 ALREADY link to 5360/5342; graph resolver cannot map custom_permalink URLs to post ids (plugin bug, needs fix). Branded 6-page 'cannibalization' = sitelinks, not a problem.",
+            "[x] Queued #1423 (lab 4635 SEO title), #1428 (lab description), #1427 (lab answer-first H2 + turnaround table patch), #1429/#1430 (food poisoning 4426 title/description). Self-rejected #1424-1426 lint-fail drafts, requeued clean.",
+            "[x] Created concussion spoke draft 5419 'Hit Your Head? When to Go to the ER' (publish pending #1431): CDC HEADS UP + TBI stats, links to 5360/concussion/pediatric/heat/5054. Dup check clean (no cluster >=0.7). Trauma and Injury category.",
+            "User approves #1423, #1427-1431, then: render_probe 4635 + 5419 to verify live",
+            "After 5419 live: Spanish twin via draft_create_post + polylang_link_translations verify (EN locked first)",
+            "Head injury 5360 decay 14->30 = post-swap re-evaluation; do NOT patch more; re-check GSC in 2 weeks",
+            "Vector-borne dedup still open: 5094 vs 5134 (pos 2.2, 225 imps, 0 clicks) need differentiation or merge decision",
+            "Heat stroke 5091: strengthen 'what does the ER do for heat stroke' section (pos 8.7) while season peaks; AIO eats the pos-2 symptom queries, do not chase with title rewrite",
+            "[x] New blog rules read from site memory (expert-quote standard 2026-07-16 + ES-adds-fresh-data + terse reports). Re-optimized 5419: queued #1432 = 2 verified pull-quotes (ACEP Schmitz 2022 verbatim-verified + UTSW/Scottish Rite Shane Miller M.D. July 2026 study, Dallas-local info gain) in rule-spec blockquote style, navy accent (site primary=CTA red, so informational navy per design skill).",
+            "[x] ES twin created: post 5424 draft (publish pending #1433), native /es/ slug no custom_permalink, 3 fresh ES-only additions (CDC 1-in-4 senior falls, MedlinePlus es resource, Casa View/Casa Linda + futbol framing), quotes as marked translations. Polylang pair {en:5419, es:5424} LINKED + verified via polylang_link_translations (ok:1).",
+            "After #1432/#1433 apply: render_probe both posts; confirm quote cards render + hreflang pair live",
+            "[x] Heat stroke 5091 #1434: question-H2 + answer-first block; ALSO fixed pre-existing hospital_comparison line.",
+            "[x] TICK WORK (approved): 5134 EN #1435 + 5136 ES #1436 = removed WRONG PROVIDER NAME (Lori Secerovic, works at irvingwellnessclinic not here; violates no-provider-names rule), fixed NAP address, neutralized hospital_comparison anchors, added 'What Does a Tick Bite Look Like?' + 'How to Remove a Tick' sections targeting the pos 1-3 zero-click identification queries.",
+            "TICK IMAGES BLOCKED ON ASSETS: no upload tool in MCP, and via.placeholder.com (design skill SS24) is DEAD per memory so placeholders would ship broken. Operator must upload 3 images to Media Library (CDC public domain OK), then I wire them into 5134/5136 with alts.",
+            "Open: site-wide hospital_comparison sweep (lint caught pre-existing violations on 5091/5134/5136 - likely more in legacy posts)",
+            "Open: site-wide provider-name/credential audit on legacy posts (clone residue from sister sites)",
+            "[x] HOSPITAL-COMPARISON SWEEP done by curl+grep over all 113 sitemap URLs (decisive; stop guessing from get_post). 41 URLs hit.",
+            "[x] #1437 trauma pillar 5054: all 7 instances removed + 4 pre-existing em dashes cleared. Lint now passes hospital_comparison.",
+            "[x] #1438 + #1439 Garland page 3650: removed BOTH named-competitor blocks (Baylor Scott & White Garland + Methodist Richardson named with 'wait times average significantly longer than ours'). Replaced w/ self-anchored visit timeline + transfer-partner framing. HIGHEST liability item on the site.",
+            "OPERATOR ACTION (not plugin-editable): Elementor FOOTER template contains 'Skip the crowded hospital waiting rooms...' (ES twin too) -> renders on EVERY page, causes ~half the 41 hits. Fix once in Elementor Theme Builder > Footer > About text widget. allowed_post_types is post,page so cc-assistant cannot touch elementor_library.",
+            "REMAINING per-post claims to fix: 5032 EN + 5041 ES cardio ('faster than a busy hospital ER queue'), 5061 EN + 5063 ES stomach, 5058 ES trauma (twin of fixed 5054), 5121 ES heat (twin of fixed 5091), ES rash 5010, ES lab 5011, lakewood page, garland ES twin 4755.",
+            "USER DECISION NEEDED: pillar 4986 EN / 5009 ES 'Freestanding ER vs Hospital ER' = 46+41 instances BY DESIGN, and 4986 is the #4 inbound hub (17 links). Neutralizing destroys the asset. Options: (a) leave as the one sanctioned decision-aid, (b) reframe to venue-choice without speed claims, (c) rewrite fully.",
+            "[x] Sweep batch 2-3: #1440 digestive EN 5061 (9 instances), #1441 Lakewood 3457 (2nd named-competitor block: Texas Health Presbyterian + Baylor University Medical Center), #1442 cardio EN 5032 (7), #1443 trauma ES 5058 (4), #1444 digestive ES 5063 (6), #1445 cardio ES 5041 (6). Running total this session: #1437-#1445.",
+            "SWEEP REMAINING: ES service pages (lab 4747 + ES rash page) need Elementor widget-level edits; ES location twins 4755/4749 need the named-competitor check; pillar 4986/5009 speed-claim trim; OPERATOR footer template edit.",
+            "DECISION TAKEN on pillar 4986/5009: keep as the one sanctioned decision-aid, strip SPEED/WAIT claims only, retain capability/cost/venue facts. User approved.",
+            "[x] INTERJECTED TASK (2026-07-22): team roster. Queued #1448 About 383 Our Emergency Care Team section (18 staff + TX licenses, table + BON link) + #1449 editorial-policy 5391 placeholder fix. Roster verified NOT physicians (no NPI; TX BON license format); copy says licensed clinical professionals. ES twin 4689 + named reviewer + single-post-template Reviewed-by line (OPERATOR-ONLY, Theme Builder) still open.",
+            "[x] 2026-07-23: ES About twin 4689 roster section queued #1482 (Spanish mirror of approved EN v3, styled tables + BON links). Pillar 4986 speed-claim trim queued #1483 per taken decision (kept capability/cost/venue + self-anchored timings; lint fails expected: sanctioned comparison + dropped wait-stat citations).",
+            "[x] 2026-07-23 SWEEP TAIL COMPLETE (queued): #1484 ES pillar 5009 trim (mirror of applied EN #1483); Garland ES 4755 #1485-1487 (named-competitor blocks + FAQ + em dash); Lakewood ES 4749 #1488-1492 (named-competitor block, intro hospital-wait line, FAQ, 2 em dashes); ES lab 4747 #1493 (flip-box 78fab4dc hospital-wait line, found via curl - flip-box parser gap); FOOTER TEMPLATES #1494 EN 4486 + #1495 ES 4770 (Skip-the-crowded-hospital text removed site-wide - former operator-only item, now fixable via template toggle). ES rash 5010 verified CLEAN (its only hits were footer-injected).",
+            "[x] LOCATION PILOT: Casa Linda page built from scratch via build_page_from_spec (mirror 5342) as draft 5460, slug emergency-room-casa-linda-tx. 8 sections, 48 widgets, all lints pass (grade 7.9, 0 AI-tells). Pendings: #1509 publish, #1512 EmergencyService schema (approve after publish). Dup check vs 3635/3650/3457/228/3505 = clean.",
+            "Casa Linda page deliberately image-free (via.placeholder.com is dead; no upload tool). Operator: add facility exterior/lobby photo to hero when available.",
+            "OPERATOR VERIFY on 5460: drive routes from Casa Linda Plaza / Dallas Arboretum / Casa View (I kept them qualitative, no invented minutes); insurance plan list matches current contracts.",
+            "NO 'closest ER' claim on 5460 by design: Doctors Hospital at White Rock Lake is nearer to Casa Linda; page says 'minutes from Casa Linda' only.",
+            "[x] Casa Linda 5460 LIVE + VERIFIED: 200 at /emergency-room-casa-linda-tx/, render_probe clean (1 H1, schema rendering, 0 empty links, 0 missing alt), page_robustness_audit 95/100 robust, 0 blocking. Queued #1513 phone-in-title fix (audit warn).",
+            "[x] ROLLOUT BUILT: Casa View draft 5462 (#1514 publish, #1516 schema) + Forest Hills draft 5463 (#1515 publish, #1517 schema). Both from scratch, differentiated (own anchors/routes/FAQs/card mixes; Forest Hills has the lake-trail angle), phone in SEO titles, question-shaped H2s with 40-60w answers baked in. All lints pass. 6-page dup check clean (0 clusters at 0.7).",
+            "[x] ANTI-DOORWAY PASS (user request): Casa View 5462 + Forest Hills 5463 verified live (200, clean probes, distinct outlines). find_duplicate_content at 0.5: only pair above threshold = 5460/5462 at 0.60 (below 0.7 near-dup line; legacy pages + Forest Hills all clear). Queued #1518 card de-overlap + #1519 unique senior-falls FAQ to widen the margin.",
+            "[x] ORPHAN FINDING: 5460 has 0 inbound internal links, and even legacy 3635 has only 1 (its ES twin). ALL location pages lack crawl paths from main site = the real doorway signal. links_rebuild queued (graph also hadn't indexed the new pages). Fix proposed to user: footer Areas We Serve links.",
+            "[x] FOOTER LINKS QUEUED (user approved footer edit): #1520 EN 4486 turns the plain-text Serving line into 7 location-page links (+ Casa Linda + Mesquite added); #1521 ES 4770 adds Atendemos-a line linking the 3 existing ES twins. Fixes site-wide orphan status of all location pages.",
+            "[x] MESQUITE BUILT (user picked next location per my rec): draft 5466, slug emergency-room-mesquite-tx, #1522 publish + #1523 schema. Card mix links 4 previously-unfeatured service pages (appendicitis, eye injuries, back pain, rashes); honest call-911-first FAQ; routes via LBJ Freeway (address_consistency lint false-positives on 'I-635 North to Northwest Highway' route phrasing - rephrased rather than overridden; ADD TO LINT FP LIST).",
+            "[x] 7-page dup check at 0.5: Mesquite clusters with nothing; only pair remains 5460/5462 at 0.58 (down from 0.60 via corpus shift; #1518/#1519 will widen further).",
+            "[x] ALL APPROVED + VERIFIED LIVE (2026-08-14): Mesquite 5466 live at /emergency-room-mesquite-tx/ (robustness 94/100, 0 blocking, conversion 100); EN footer links rendering site-wide (links 74->81/82 on probes); Casa Linda senior-falls FAQ live (h3 added in DOM diff); Casa View card swap live (Fractures -> Blood Clots and DVT in DOM diff).",
+            "PLUGIN QUIRKS logged to memory rollup: address_consistency FPs on highway-route phrasing; find_duplicate_content reads stale text mirror after widget edits (score identical pre/post apply, DOM diffs are the truth); authority_density inconsistent on sub-1000w pages + misses accordion links.",
+            "[x] 4 ES TWINS BUILT (drafts): Casa Linda 5468 (#1524), Casa View 5469 (#1525), Forest Hills 5470 (#1526), Mesquite 5471 (#1527). Fully fresh Spanish (not machine-mirrored), ES service-page links throughout, ES-only additions per rule: CDC-es + MedlinePlus-espanol links, futbol-injuries FAQ (Casa View), lake-trail/heat FAQs (Forest Hills), 911-first honesty (Mesquite). Schemas #1528-1531 queued w/ /es/ URLs. ES footer completion #1532 queued (approve LAST).",
+            "NOTE: Flesch-Kincaid reading_level lint fails ~10-11 on ALL Spanish pages (EN-calibrated formula inflates on Spanish); soft check, expected, do not chase. Add to lint FP rollup.",
+            "[x] ES TWINS LIVE + VERIFIED (2026-08-14): user approved all 9 pendings at once; ran polylang_link_translations force_language for 4 pairs (ok:4, failed:0); all 4 pages resolve 200 at /es/sala-de-emergencias-cerca-de-{casa-linda,casa-view,forest-hills,mesquite}/; schema blocks clean (cc-assistant EmergencyService rendering); ES footer links present (link counts 81-82). ES 7-page dup check at 0.5: only 5468/5469 at 0.56, below near-dup line, mirrors EN pattern. PROGRAM DONE: 14 location pages, both footers, all paired.",
+            "[x] SERVING AREA MENU QUEUED (user request): footer top row is 40/20/20 + 100px gaps so a 4th column would wrap; instead stacked the menu under Quick Links (mirrors Get In Touch + Corporate Address pattern). #1533/#1534 EN heading 'Serving Area' (Mont 22/700, red underline, 20px top margin) + 7-link icon-list in exact Quick Links recipe; #1535/#1536 ES 'Area de Servicio' same. #1537/#1538 revert about-text Serving/Atendemos lines to plain text w/ all 9 areas (de-dupes the link lists).",
+            "[x] QUICK-WINS QUEUED (user go-ahead): #1655 Mesquite 5466 conditions-intro gains the verified CDC 1-in-11 abdominal stat (body-text cite, since audit counter misses accordion links). RICHARDSON BUILT: EN draft 5495 (#1656) + ES draft 5496 (#1657), from scratch, winter-illness/commuter angle, cards link 6 previously-unfeatured service pages (concussion, sore throat, GI, bronchitis + core chest/stroke), routes via Plano Rd/Jupiter Rd/Central Expwy (OPERATOR VERIFY routes). Schemas #1658/#1659. Footer batch #1660-#1663 adds Richardson to both Serving Area menus + both plain-text lines. Dup checks clean: Richardson EN and ES cluster with nothing at 0.5."
+          ],
+          "decisions": [
+            "Hub lane = services/conditions catalog; cards stay 1-2 line teasers linking to /services/* pages; homepage owns er-near-me/dallas queries",
+            "Title keeps all tokens + Room; never add competitor brand tokens (castle/total point/medical center) from GSC",
+            "Category grids: 3 col desktop / 2 tablet / 1 mobile, explicit grid_rows_grid 1fr, centered headings",
+            "Design Language v2 adopted (see erofwhiterock-design skill): chip anchor nav on 6+ section pages, tables/quotes via text-editor not HTML widget, left-aligned card body text",
+            "Location pages around White Rock: user chose to build despite ~0 typed-city GSC demand (6mo: all non-white-rock locality tokens &lt;=39 imps, existing location pages ~0 clicks). Pages must be genuinely differentiated (routes, landmarks, local FAQ), never city-swap clones.",
+            "2026-08-19 USER: replace board-certified credential claims with \"experienced emergency physicians\" across ALL THREE ER sites; also fix the co-located \"emergency and urgent care\" self-description where it appears in the same sentence.",
+            "2026-08-19 MEASUREMENT (verified with positive control): WP list_posts(search) matches post_content, which on an Elementor page is a STALE render snapshot that does NOT render. render_probe on Irving 228 (phrase in _elementor_data) showed the live heading; render_probe on Irving 1072 (phrase ONLY in post_content) showed nothing. Search counts over-count roughly 3x. Only _elementor_data hits and classic non-Elementor posts are real targets.",
+            "2026-08-19: Spanish/Polylang pages must be checked separately and, where the claim appears in Spanish, translated wording is needed, not the English replacement.",
+            "2026-08-19: global Theme Builder footers carried the board-certified claim on erofirving (MegaFooter 2224) and erofwhiterock (4486 EN + 4770 ES). eroflufkin footer 6018 is CLEAN in the live widget. Template editing is enabled on all three, so the plugin could queue these directly.",
+            "2026-08-28 USER: bylines go ORGANISATION-LEVEL only, no named person, no invented credentials. Add reviewedBy MedicalOrganization + editorial-policy link. Accepts the E-E-A-T cap near 10-15/25.",
+            "2026-08-28 USER: location-page first-party facts limited to routes/geography I can verify myself, plus citations and depth. NOT approved: transfer/receiving hospital, operational numbers (door-to-provider, imaging availability).",
+            "2026-08-28 MEASURED: the uniform scores are a shared missing component, not per-page quality. Irving service pages all 67 (byline visible, NO schema Person). Lufkin new service pages all 58 (no byline, schema Person = org name 'Lufkin ER'). WR location pages 41 (no byline, no Person, citation density 0, 0 images)."
+          ],
+          "constraints": [
+            "Freestanding ER boundary: no hospital comparisons or affiliation claims, no urgent-care drift, disclose no Medicare/Medicaid billing where payment discussed",
+            "No provider names/bylines on this site until physician consent (cc policy); quotes must be org-attributed (ACEP/AHA/CDC)",
+            "Layout changes need user approval before queueing; approve pending batches oldest-first"
+          ],
+          "open_loops": [
+            "User owes wide facility photos (hero + stats band swap; image 77/80 are interim)",
+            "GBP Requests-per-minute quota = 0, user submitted increase request; test gbp_locations when approved",
+            "Plugin fixes: publish-gate false-positive on repeated Get Directions buttons; win_audit internal_support wrong table name; design audit should check grid_rows_grid + column-pattern",
+            "Deploy current zip to erofirving + eroflufkin + irvingwellnessclinic",
+            "Design-audit upgrade TODO: implement numeric checks from global skill (off-scale type sizes, literal-hex-where-kit-token-exists incl __globals__ dangling-id check, off-8pt spacing, proximity inversion, mixed radii, accent-budget) in class-page-audit.php",
+            "Apply global skill type scale to builder heading/text sizes (currently 18px body only; h2 should emit 36/28 etc. or inherit kit h2)",
+            "Research-grade additions still pending external inputs: reviews module (GBP quota), live wait-time display (needs a data source), real photos (user), ES twin 4713",
+            "User to supply images: hero bg 1920x1080+ (WebP &lt;400KB), clinician/treatment photo 1200x900, abdominal pain-location diagram 1200x900 (PNG/WebP) - swap into the 3 PLACEHOLDER slots on 5325",
+            "v0.43.3 zip NEEDS upload to erofwhiterock + other 3 sites (composer icon/eyebrow fix + audit icon_variety/eyebrow-order checks). No MCP restart needed (no new tool).",
+            "v0.43.3 (full: icons+eyebrow+FA5+button-hierarchy+icon-tone+button_contrast audit) NEEDS upload to erofwhiterock + 3 sites. Zip at wp-content/cc-assistant.zip.",
+            "Abdominal 5342 + hub 3505: re-audit after upload with new button_contrast + icon_variety checks; fix any star-wall / same-color-button / all-red-icon issues (likely present on any pre-0.43.3 from-spec page).",
+            "Accessibility rule: text-bearing full-bleed bands should be NAVY not red (white body text on #DA1212 ~4:1 fails AA). Red reserved for buttons/accents/danger icons. Bake into spec choices + consider composer auto-substitution.",
+            "v0.43.5 NEEDS upload (sample_recipe button/FAQ matching + full hover + audit transparent/button_contrast fixes + on-dark white text). Supersedes 0.43.3/0.43.4 uploads.",
+            "User to specify the 'few other things' still messed up on 5360 beyond buttons/hover/FAQ.",
+            "PLUGIN BUG: link-graph + click_depth + weekly_priorities cannot resolve custom_permalink URLs to post ids -> swapped service pages (5342/5360/5366) falsely report as orphaned/buried. Fix resolver in link-graph rebuild.",
+            "GBP quota unblock remains the biggest click lever (homepage 'emergency room near me' pos 6.8, ~95 est clicks/mo lost)",
+            "Lobby photo alt on 5407: widget f833926 HAS correct alt in settings; render_probe missing-alt flag = lazyload rendition artifact; re-probe once to confirm, no edit needed",
+            "Team roster follow-ups: operator confirms staff titles (RN?) then approve #1448/#1449; render_probe 383+5391 after apply; add roster section to ES About twin 4689 (EN-first rule); operator adds Reviewed-by line to single post template in Theme Builder (plugin cannot edit elementor_library) per spec in chat 2026-07-22; designate a named reviewer for editorial policy",
+            "Operator approves #1484-1495, then render_probe/curl-verify: 5009 pillar, 4755, 4749, 4747, and footer on any EN + ES page; then re-run the site-wide hospital_comparison curl sweep to confirm 41 hits drop to ~0. HOSPITAL-COMPARISON SWEEP THEN FULLY DONE.",
+            "URGENT PRIVACY queue #1504-1508 awaiting approval: About 383 loses all 18 TX BON license numbers + staff last names (first-name+role tables), editorial 5391 stops pointing at the license table. render_probe 383+5391 after apply.",
+            "Operator confirmed style: staff rosters are first-name-only site policy as of 2026-08-12 (user request, all 3 ER sites).",
+            "PLUGIN BUGS (propose_emergency_service_schema): (a) array area_served flattens to a JSON-string literal, (b) url defaults to draft ?page_id= permalink which goes stale after publish. Rejected #1510/#1511 over these; fix in plugin.",
+            "After 5460 live: page_robustness_audit + render_probe + win_audit vs other freestanding-ER location pages.",
+            "White Rock board-certified sweep INCOMPLETE: only 383/417/852 queued (#1539-1543). ~16 known live widgets on 228/799/868/909/971/993 are located but unqueued, plus 14 English pages, 21 Spanish pages and 10 blog posts unscanned. Full target list is in current_plan.",
+            "White Rock 383 About hero also self-described the facility as a \"local clinic\" (banned for a TX freestanding ER). Fixed inside #1539. Check the rest of the site for the same clinic wording.",
+            "APPROVAL ORDER HAZARD (footer 4486 widget 81d4b2d): pending #1537 (Serving-line cleanup) and NEW #1544 (board-certified -> experienced) edit the SAME widget. #1537's stored text still contains \"board-certified ER physicians\" (confirmed by its claim_removal_warning matching BOARD/CERTIFIED). Approve #1533/#1534 -> #1537 FIRST, then #1544 LAST. If #1537 is applied after #1544 it will silently reinstate the board-certified claim site-wide.",
+            "SITE-WIDE FOOTERS queued 2026-08-19: #1544 EN footer 4486 widget 81d4b2d, #1545 ES footer 4770 widget 81d4b2d (Spanish \"medicos certificados por la junta\"). Both render on every page of their language. render_probe an EN and an ES page after apply.",
+            "WR site rule blocks provider bylines pending physician consent; org-level review names no individual so it is compatible, but confirm before adding any visible review line on WR",
+            "24 posts unscored on erofwhiterock (107 published, 83 scored)",
+            "llm_crawls disabled on erofirving (operator checkbox, Settings > General)"
+          ],
+          "updated_at": "2026-08-28T06:40:42+00:00"
+        },
+        "health_warnings": [],
+        "preflight": [
+          {
+            "step": 1,
+            "do": "whoami (you are here)",
+            "why": "Read current rules, memory_consistency, capabilities and pending work. Historical working_state is context: resume only when it matches the current user request. Preserve explicit operator constraints; outdated SEO recipes do not override current evidence."
+          },
+          {
+            "step": 2,
+            "do": "Read the per-site design skill",
+            "why": "Brand tokens, geo priority, allowed palette/greys, and widget patterns. Skipping it produces off-brand, off-geo output."
+          },
+          {
+            "step": 3,
+            "do": "verified_page_audit(post_id) before a published-page edit and after approval",
+            "why": "Use fixed rule IDs with timestamps, fingerprints and explicit unknown/review statuses. This checks server HTML only. For drafts read get_post; for visual/JavaScript claims use browser evidence. Use inspect_plugin_capability and widget_schema before planning plugin changes."
+          },
+          {
+            "step": 4,
+            "do": "list_pending_changes(post_id)",
+            "why": "Never duplicate queued work. Context compaction drops pending IDs, so re-query before queueing."
+          },
+          {
+            "step": 5,
+            "do": "Use content_workflow for a content job; verify actual saved results",
+            "why": "Maintain strategy from current sources, research the reader task, then prepare a concrete draft or change. Use content_decision for overlap or consolidation and verify_content_workflow for bound drafts. Optional heuristic scores cannot authorize rewrites or prove ranking effects."
+          }
+        ],
+        "capabilities": {
+          "version": "0.89.3",
+          "features": {
+            "pending_queue": {
+              "since": "0.1",
+              "what": "Draft content and queued changes are reviewed by an administrator. A partial approval keeps successful edits saved. Read pending history and the current target before rebuilding only blocked proposals. A plugin update can invalidate old environment evidence: verify whoami after deployment, then re-audit and queue. Since 0.89.1, independently selected widget updates can share one bulk approval when exact saved state matches each predicted change; overlapping edits and other change types still require current evidence. Some tools write organizational metadata, research records or local files immediately; inspect each tool contract.",
+              "tools": "draft_*, list_pending_changes, verify_change"
+            },
+            "gsc_warehouse": {
+              "since": "0.54",
+              "what": "Local SQLite archive of retrieved GSC observations. Local retention avoids server pruning, but upstream sampling, API limits and missing dates still constrain coverage.",
+              "tools": "gsc_warehouse_sync, gsc_warehouse_query, gsc_warehouse_status"
+            },
+            "outcome_engine": {
+              "since": "0.57",
+              "what": "Compare observed clicks and leads around applied edits with a site comparison. Results are observational; confounding and overlapping interventions can remain.",
+              "tools": "outcome_report"
+            },
+            "revert_loop": {
+              "since": "0.58",
+              "what": "Queue a snapshot-restore of a regressed edit as a normal pending change.",
+              "tools": "propose_revert"
+            },
+            "lead_events": {
+              "since": "0.58",
+              "what": "Daily Elementor Pro form-submission counts per page — the money metric; auto-folded into outcome_report.",
+              "tools": "lead_events"
+            },
+            "attention_system": {
+              "since": "0.55",
+              "what": "Pages are eye-paths, not section stacks: archetype spec BEFORE composing, predicted-heatmap audit AFTER (flat_hierarchy = generic-page smell).",
+              "tools": "attention_spec, attention_audit"
+            },
+            "widget_schema": {
+              "since": "0.56",
+              "what": "Live Elementor control registry — NEVER guess setting keys (typos are silent no-ops); queue validates with did-you-mean. v0.80: containers/sections/columns included; every Elementor write is validated on EFFECTIVE values (new > stored > default) with inert_setting / global_token_overrides_literal / defaults_in_effect warnings; widget_schema(post_id, widget_id) shows stored vs effective vs applies for one element. An absent key is a DEFAULT, not unset.",
+              "tools": "widget_schema"
+            },
+            "operator_kit": {
+              "since": "0.57",
+              "what": "Site stores design skills + bootstrap bundle; a fresh machine rebuilds the whole environment from the site.",
+              "tools": "operator_kit, operator_kit_push_skills"
+            },
+            "operator_brain": {
+              "since": "0.79",
+              "what": "Shared operator knowledge and bridge versions. Select exact site-relevant files for merge-only push; avoid uploading unrelated client files. whoami reports local/site drift and relevant rules. Scope-limited verification is not full-brain synchronization.",
+              "tools": "operator_brain_status, operator_brain_push, operator_brain_pull; CLI bin/brain-sync.php (status|push|pull|bootstrap across every site in .mcp.json)"
+            },
+            "builders": {
+              "since": "0.11",
+              "what": "Native Elementor composition (recipes, containers, service pages, spec builds) + Divi surgical module edits, including removing a leftover module from a Theme Builder layout without opening the builder (v0.70).",
+              "tools": "draft_add_section, build_page_from_spec, build_service_page, draft_update_divi_modules, draft_remove_divi_module"
+            },
+            "audit_family": {
+              "since": "0.31",
+              "what": "Rendered evidence plus local design, accessibility and SEO heuristics. Use current observations; scores do not establish ranking effects or a need to rewrite.",
+              "tools": "verified_page_audit, page_robustness_audit, win_audit, render_probe"
+            },
+            "seo_playbook": {
+              "since": "0.28",
+              "what": "Current source-linked SEO policy served from the shared agent contract. Industry detection does not override evidence or operator constraints.",
+              "tools": "seo_playbook"
+            },
+            "clarity_heatmaps": {
+              "since": "0.55",
+              "what": "Optional recorded behavior can help evaluate layout hypotheses. Predicted-attention scores are not measured visitor attention.",
+              "tools": "(settings field)"
+            },
+            "session_gate": {
+              "since": "0.44",
+              "what": "Queued changes require current identity, target and environment evidence. Read rendered evidence for published pages, full editor content for drafts and capability evidence for settings. Metadata-only tools declare their own side effects.",
+              "tools": "(automatic: pre_queue_gate, update_site_memory_notes, whoami; harness hooks)"
+            },
+            "version_drift": {
+              "since": "0.58",
+              "what": "whoami warns when this site runs an older plugin than the local build, and (v0.79) when the LOCAL bridge is older than the site — the \"functions are missing\" case — with the exact pull to run.",
+              "tools": "(automatic in whoami)"
+            },
+            "commodity_router": {
+              "since": "0.60",
+              "what": "Low-CTR diagnostic candidates with unknown cause. No automatic content-investment, retirement or AI attribution follows from a threshold.",
+              "tools": "commodity_audit"
+            },
+            "aeo_tracking": {
+              "since": "0.60",
+              "what": "Dated low-CTR, crawler-request and appearance observations. Crawls do not prove citations; low CTR and search appearances do not confirm AI Overviews.",
+              "tools": "aeo_snapshot, llm_crawls, gsc_ai_overview"
+            },
+            "rank_math_schema": {
+              "since": "0.65",
+              "what": "Edit Rank Math Schema Builder rows in place by dot path (offers.price etc). The ONLY path to those capitalised postmeta arrays — draft_update_postmeta lowercases the key and flattens the array. %variable% placeholders survive.",
+              "tools": "get_rank_math_schema, draft_update_rank_math_schema"
+            },
+            "stack_introspection": {
+              "since": "0.66",
+              "what": "Read installed plugins, captured admin menus and redacted settings. Inspect runtime schemas and registered adapter controls before a feature plan; discovery is explicitly incomplete where no adapter is available.",
+              "tools": "list_installed_plugins, stack_admin_menu, get_plugin_settings"
+            },
+            "asset_references": {
+              "since": "0.67",
+              "what": "Find and swap a media URL WHEREVER it is stored — post_content of any post type, postmeta, options, termmeta — searching every spelling (JSON-escaped, protocol-relative, root-relative, http twin). This is the way into plugins that keep content outside post_content and have no dedicated tool: popup overlays, sliders, theme option backgrounds. Serialized values are unserialized/rewritten/re-serialized so length prefixes stay valid; rows holding non-stdClass objects are refused, not risked. media_audit finds the heavy files worth swapping.",
+              "tools": "find_asset_references, replace_asset_reference, media_audit"
+            },
+            "render_health_guard": {
+              "since": "0.68",
+              "what": "Does the page still WORK after a change? Queue captures a rendered-page baseline (empty-state strings, markup-anchored element counts, shortcode leakage, PHP errors, HTTP status); the post-apply audit re-fetches cache-busted and compares. A builder empty-state appearing or an element population vanishing is flagged CRITICAL on the pending row + activity log + dashboard within ~30s of apply. Reports only; never auto-reverts. Companion lint change: failures are split into introduced-by-this-change vs pre_existing-in-current-body, and pre-existing structural failures no longer hard-block unrelated edits.",
+              "tools": "(automatic on queue + apply; see lint introduced/pre_existing in queue responses)"
+            },
+            "setting_writes": {
+              "since": "0.69",
+              "what": "Read current plugin capability/schema evidence, preview a typed scalar setting change, then use the existing review flow. Unsupported values or inactive controls remain explicit; a stored value does not verify its visible effect.",
+              "tools": "inspect_plugin_capability, get_plugin_settings, draft_update_plugin_setting"
+            },
+            "bulk_term_tagging": {
+              "since": "0.69",
+              "what": "Assign ONE taxonomy term to MANY posts in a single approval. Solves the two ways wp-admin gets this wrong: its category filter misses products sitting in deeper sub-terms, and its product search matches DESCRIPTIONS so accessories that merely mention a brand get tagged. Matching is title_contains (SQL LIKE on post_title only), in_term (a term AND all its children), or explicit post_ids. Returns a plan with matched / already-tagged / will-change counts before anything is queued; rollback restores the exact prior terms on every post, including posts that had none. Products are eligible here even though they are off-limits to body edits, because term relationships cannot corrupt product content or pricing.",
+              "tools": "draft_bulk_assign_term"
+            },
+            "content_strategy": {
+              "since": "0.87",
+              "what": "Claude discovers and maintains niche scope from existing sources and notes. New content does not need an existing GSC gap.",
+              "tools": "discover_content_scope, manage_content_scope, plan_blog_content"
+            },
+            "content_workflow": {
+              "since": "0.87",
+              "what": "Prepare a source-backed workflow, execute it with the connected agent, then verify actual result IDs. A saved plan is not proof of created or applied content.",
+              "tools": "content_workflow, verify_content_workflow, content_decision_history"
+            },
+            "content_research": {
+              "since": "0.87",
+              "what": "Bounded competitor observations and claim candidates with extraction limits; no factual or global-originality certification.",
+              "tools": "content_research, content_decision"
+            },
+            "prospective_research": {
+              "since": "0.88",
+              "what": "Research a source-anchored new topic before an article exists, compare observed excerpts and primary sources, and inspect existing content without requiring GSC gaps. Proposed value remains explicitly unverified.",
+              "tools": "content_research"
+            },
+            "memory_consistency": {
+              "since": "0.88",
+              "what": "whoami/get_site_memory flag potentially outdated durable guidance for review. Strategy freshness ignores routine Sessions logs while preserving Rules, Decisions and unstructured legacy notes.",
+              "tools": "whoami, get_site_memory"
+            },
+            "public_content_author": {
+              "since": "0.89",
+              "what": "Explicit existing author or validated saved default for new posts/pages; no automation-login fallback.",
+              "tools": "get_content_authors, manage_content_scope, draft_create_post"
+            },
+            "external_provider_records": {
+              "since": "0.89",
+              "what": "Dated, scoped, actor-bound Ubersuggest observations with explicit transcription provenance and uncertainty.",
+              "tools": "record_external_research, content_research"
+            },
+            "native_frontend_settings": {
+              "since": "0.89",
+              "what": "Reviewed SiteGround native frontend toggles, queued apply and conflict-aware rollback.",
+              "tools": "inspect_plugin_capability, draft_update_plugin_setting"
+            },
+            "brain_concurrency": {
+              "since": "0.89",
+              "what": "Shared-brain writes require expected fingerprint and database lock. Old bridge writers must update.",
+              "tools": "operator_brain_push"
+            }
+          },
+          "workflows": {
+            "gsc_analysis": "gsc_warehouse_sync -> gsc_warehouse_query (SQL aggregates, never raw dumps) -> outcome_report for applied-edit verdicts.",
+            "page_build": "attention_spec(post_id) -> widget_schema for any unverified setting -> compose -> attention_audit + render_probe + page_robustness_audit -> queue.",
+            "page_optimize": "verified_page_audit -> content_decision and relevant measurements -> actual editor/capability reads -> concrete draft changes -> review -> fresh rendered verification -> observational outcome review.",
+            "weekly_harvest": "Review measured changes and niche opportunities; diagnose each candidate before proposing specific changes. Missing clicks alone do not justify removal.",
+            "bad_outcome": "outcome_report -> inspect concurrent changes, measurement coverage and current rendered output -> choose a supported correction or reviewed revert; an observational decline alone does not establish cause.",
+            "new_machine": "Fresh laptop: fetch bin/ from GET /operator-kit/bridge -> php bin/brain-sync.php bootstrap --url --user --pass (pulls memory + skills + CLAUDE.md, writes .mcp.json) -> whoami must show operator_brain.status=in_sync and bridge.status=in_sync -> gsc_warehouse_sync. Existing laptop that whoami calls behind: operator_brain_pull (memory/skills) or operator_brain_pull(what=bridge) + MCP restart. After editing memory/skills anywhere: php bin/brain-sync.php push.",
+            "fix_schema": "render_probe (who emits what) -> get_rank_math_schema(post_id) for exact dot paths -> draft_update_rank_math_schema -> approve -> render_probe AFTER. Never add a second emitter for a field Rank Math already owns.",
+            "edit_the_unreachable": "Discover the actual storage and installed capability. Use supported targeted tools and preview changes. Unavailable control evidence is a specific limitation, not permission to invent a key or UI path.",
+            "image_weight": "media_audit (heaviest on disk + which uploads WordPress re-encoded LARGER than the original) -> find_asset_references on the worst offenders to see which pages load them -> replace_asset_reference with a properly sized file. Resize to at most big_image_size_threshold BEFORE uploading; WordPress leaves those files untouched.",
+            "bulk_product_tagging": "Hundreds of products need a brand/term? Do NOT hand-click wp-admin. list_product_categories or the taxonomy REST route to confirm the term EXISTS (this tool never creates terms) -> draft_bulk_assign_term(dry_run=true) to see matched/already/will-change -> check the sample titles are the right slice -> queue -> approve. Re-run per brand; 600 targets max per plan.",
+            "find_a_setting": "list_installed_plugins -> get_plugin_settings -> inspect_plugin_capability for the exact option/path or element -> draft_update_plugin_setting or the specific supported editor tool -> review -> verify the intended effect.",
+            "new_blog": "content_workflow -> inspect scope and existing knowledge -> research and compare reader tasks -> draft_create_post(workflow_id=...) -> verify_content_workflow -> operator reviews the actual draft."
+          },
+          "hint": "This capability index and current tool descriptions share one versioned contract. Observations outrank stale interpretations; preserve explicit operator constraints and re-read changed evidence.",
+          "contract_version": "2026.09.09.3",
+          "evidence_rules": [
+            "Report observed facts, editorial interpretations and unknowns separately; cite the exact source and its scope.",
+            "Blocked fetches, partial extraction, missing data and an empty parser result cannot prove rendered absence.",
+            "Similarity identifies candidates. It does not establish duplication, a shared reader task or SEO harm.",
+            "Low CTR does not prove AI impact; crawler requests do not prove citations; before/after associations do not prove causation.",
+            "Discover current installed controls, accepted values and dependencies before planning setting changes.",
+            "Verify actual WordPress record IDs and source freshness before reporting completed work.",
+            "Read memory_consistency. Current user intent governs the task; historical working_state and legacy score/citation recipes do not establish current authorization or factual SEO requirements. Promote lasting session corrections to Rules or Decisions."
+          ]
+        },
+        "pending_count": 68,
+        "recent_pending": [
+          {
+            "id": 1799,
+            "post_id": 5342,
+            "type": "meta_update",
+            "summary": "WR-11: attribute this page to ER of White Rock, not adminsumit",
+            "status": "pending",
+            "created_at": "2026-09-09 16:15:42"
+          },
+          {
+            "id": 1798,
+            "post_id": 5360,
+            "type": "meta_update",
+            "summary": "WR-11: attribute this page to ER of White Rock, not adminsumit",
+            "status": "pending",
+            "created_at": "2026-09-09 16:15:28"
+          },
+          {
+            "id": 1797,
+            "post_id": 5366,
+            "type": "meta_update",
+            "summary": "WR-11: attribute this page to ER of White Rock, not adminsumit",
+            "status": "pending",
+            "created_at": "2026-09-09 16:15:16"
+          },
+          {
+            "id": 1796,
+            "post_id": 5370,
+            "type": "meta_update",
+            "summary": "WR-11: attribute this page to ER of White Rock, not adminsumit",
+            "status": "pending",
+            "created_at": "2026-09-09 16:15:08"
+          },
+          {
+            "id": 1795,
+            "post_id": 5375,
+            "type": "meta_update",
+            "summary": "WR-11: attribute this page to ER of White Rock, not adminsumit",
+            "status": "pending",
+            "created_at": "2026-09-09 16:14:56"
+          }
+        ],
+        "recent_applied": [
+          {
+            "id": 1731,
+            "post_id": 971,
+            "type": "elementor_widget_update",
+            "summary": "Replace the claim of instantly diagnosing severe conditions with qualified laboratory-testing information.",
+            "reviewed_at": "2026-09-09 13:39:59",
+            "verification": {
+              "audited": true,
+              "attention": false,
+              "render_health": "ok"
+            }
+          },
+          {
+            "id": 1730,
+            "post_id": 971,
+            "type": "elementor_widget_update",
+            "summary": "Replace the guarantee of immediate, accurate treatment with an explanation of how results are interpreted.",
+            "reviewed_at": "2026-09-09 13:39:57",
+            "verification": {
+              "audited": true,
+              "attention": false,
+              "render_health": "ok"
+            }
+          },
+          {
+            "id": 1729,
+            "post_id": 971,
+            "type": "elementor_widget_update",
+            "summary": "Replace the unsupported Fast & Flawless Results heading on both sides of the lab card.",
+            "reviewed_at": "2026-09-09 13:39:55",
+            "verification": {
+              "audited": true,
+              "attention": false,
+              "render_health": "ok"
+            }
+          },
+          {
+            "id": 1725,
+            "post_id": 971,
+            "type": "elementor_widget_update",
+            "summary": "Replace flawless-results and fixed-turnaround promises with a practical explanation of lab-result limitations.",
+            "reviewed_at": "2026-09-09 12:37:56",
+            "verification": {
+              "audited": true,
+              "attention": false,
+              "render_health": "ok"
+            }
+          },
+          {
+            "id": 1724,
+            "post_id": 5525,
+            "type": "meta_update",
+            "summary": "Use the existing ER of White Rock author for this draft instead of adminsumit.",
+            "reviewed_at": "2026-09-09 12:37:56",
+            "verification": {
+              "audited": false,
+              "attention": false
+            }
+          }
+        ],
+        "last_snapshot": {
+          "id": 1775,
+          "post_id": 971,
+          "type": "pre_apply",
+          "created_at": "2026-09-09 13:39:59"
+        },
+        "rules": "## Current evidence guidance — 2026-09-09\n\n- Claude owns scope discovery, research and draft preparation. Use current service pages and site notes. GSC observations help prioritization but absence of queries does not mean absence of opportunities. Propose useful questions within verified services and reader needs.\n- Match the main reader task. Useful related explanations can belong on a service page; create a supporting article when it serves a distinct task. Do not split, merge or retire pages solely because terms overlap or clicks are low.\n- Compare actual sampled competitor pages and primary sources. Search position, global originality and market demand remain unknown unless independently observed. Provide a supported useful contribution such as a practical explanation, checklist or genuinely documented process. Never invent facts, research, local statistics or expert quotes.\n- Local audit scores and fixed citation, word or snippet quotas are not Google requirements. Support consequential claims with suitable evidence and context. Low CTR alone cannot establish why performance changed. Compare captures and investigate competing explanations.\n- Preserve the no-cloning rule: create new content from scratch. Preserve physician consent restrictions: no provider bylines, Person/hasCredential/sameAs markup or medically-reviewed claims without confirmed consent. Lori is not a provider at this facility.\n- There is one physical ER facility; neighborhood pages do not establish add…",
+        "decisions_tail": "",
+        "notes_tail": "…ne and answers 202 + sgcaptcha to every non-browser client on all their sites at once; these reads went to the same plugin REST routes through the operator's logged-in Chrome. Report framing: Sept priorities = the local map listing (er near me 2,947 imp @2.1 -> 10 clicks), resolve whether the zero-click page-one 'how long does X take' cluster is AI absorption or thin volume, finish credential sweep incl. the 5 ES body instances, and correct the flagged back-pain/wait-time/untranslated-ES claims.",
+        "notes_updated_at": "2026-09-09 15:51:11",
+        "recent_rejected": [
+          {
+            "id": 1687,
+            "post_id": 0,
+            "change_type": "kit_setting_update",
+            "summary": "Site Settings custom CSS (new): a visible keyboard focus ring site-wide, including the embedded map iframe",
+            "note": "Superseded by the combined custom CSS pending (focus ring + scoped link underline) queued right after; approving both would leave only whichever applied last.",
+            "reviewed_at": "2026-08-26 05:02:09"
+          },
+          {
+            "id": 1663,
+            "post_id": 4770,
+            "change_type": "elementor_widget_update",
+            "summary": "FOOTER ES: add Richardson to the plain-text Atendemos-a line (10 areas total). Text only, no links.",
+            "note": "Self-rejected: composed from pre-Aug-19 footer text; approving would have reinstated the banned \"board-certified\" / \"certificados por la junta\" claim site-wide (the credential fix is already live). Requeueing on top of the current \"experienced physicians\" wording.",
+            "reviewed_at": "2026-08-20 03:39:56"
+          },
+          {
+            "id": 1662,
+            "post_id": 4486,
+            "change_type": "elementor_widget_update",
+            "summary": "FOOTER EN: add Richardson to the plain-text Serving line (10 areas total). Text only, no links.",
+            "note": "Self-rejected: composed from pre-Aug-19 footer text; approving would have reinstated the banned \"board-certified\" / \"certificados por la junta\" claim site-wide (the credential fix is already live). Requeueing on top of the current \"experienced physicians\" wording.",
+            "reviewed_at": "2026-08-20 03:39:55"
+          }
+        ],
+        "drifted_post_count": 22,
+        "facts_coverage": {
+          "published": 129,
+          "fresh": 113,
+          "stale": 16,
+          "missing": 0,
+          "note": "page_facts(post_id) refreshes a stale/missing record on read. The nightly sweep fills the rest."
+        },
+        "notes_oversized": 121114,
+        "activity_log_48h": [
+          {
+            "id": 1156,
+            "ts": "2026-09-09 13:40:00",
+            "type": "edit_applied",
+            "post_id": 971,
+            "change_id": 1731,
+            "actor": "human",
+            "summary": "[elementor_widget_update] Replace the claim of instantly diagnosing severe conditions with qualified laboratory-testing information."
+          },
+          {
+            "id": 1155,
+            "ts": "2026-09-09 13:39:58",
+            "type": "edit_applied",
+            "post_id": 971,
+            "change_id": 1730,
+            "actor": "human",
+            "summary": "[elementor_widget_update] Replace the guarantee of immediate, accurate treatment with an explanation of how results are interpreted."
+          },
+          {
+            "id": 1154,
+            "ts": "2026-09-09 13:39:57",
+            "type": "edit_applied",
+            "post_id": 971,
+            "change_id": 1729,
+            "actor": "human",
+            "summary": "[elementor_widget_update] Replace the unsupported Fast & Flawless Results heading on both sides of the lab card."
+          },
+          {
+            "id": 1153,
+            "ts": "2026-09-09 12:37:57",
+            "type": "edit_applied",
+            "post_id": 971,
+            "change_id": 1725,
+            "actor": "human",
+            "summary": "[elementor_widget_update] Replace flawless-results and fixed-turnaround promises with a practical explanation of lab-result limitations."
+          },
+          {
+            "id": 1152,
+            "ts": "2026-09-09 12:37:56",
+            "type": "edit_applied",
+            "post_id": 5525,
+            "change_id": 1724,
+            "actor": "human",
+            "summary": "[meta_update] Use the existing ER of White Rock author for this draft instead of adminsumit."
+          }
+        ],
+        "activity_summary": {
+          "edit_applied": 5
+        },
+        "industry": {
+          "slug": "healthcare",
+          "label": "Healthcare (clinic, ER, hospital, dental, vet, pharmacy)",
+          "source": "manual",
+          "confidence": 100
+        },
+        "content_strategy_policy": {
+          "version": "content-strategy-4",
+          "new_blog_workflow": "Use content_workflow for a complete new-blog task, then execute its steps. plan_blog_content initializes an inferred strategy when none is saved. Claude uses discover_content_scope and manage_content_scope to inspect and maintain it from existing pages and site notes. Never ask the operator to enter discoverable IDs or fill a strategy form. Explore source-backed niche topics even without GSC gaps.",
+          "agent_ownership": "Claude handles discovery, strategy metadata, research, draft preparation and verification. The operator reviews concrete results and exceptions. Metadata writes do not authorize live content publication.",
+          "background_execution": "A connected Claude session executes the workflow. This feature does not launch an unattended AI runner.",
+          "gsc_role": "Observed visibility for this property and period, not total market demand or the boundary of the niche.",
+          "discovery_sources": [
+            "selected_service_pages",
+            "configured_reader_questions",
+            "service_reader_tasks",
+            "user_topic_proposals",
+            "optional_gsc_queries",
+            "explicit_competitor_research"
+          ],
+          "no_data_meaning": "Demand is unmeasured. It does not mean no opportunity.",
+          "decision_rules": [
+            "Similarity discovers candidates; it does not establish duplication or SEO harm.",
+            "Create when a distinct reader task and supported niche relationship justify it; no impression minimum is required.",
+            "Keep or link complementary pages. Review preservation before merging substitutable pages.",
+            "Diagnose technical, demand and measurement changes before prescribing a rewrite.",
+            "Research and formatting cannot certify global novelty, expertise or ranking gains.",
+            "Persist evidence and alternatives. Do not change a decision without a changed basis."
+          ],
+          "result_verification": "Link new drafts with workflow_id and call verify_content_workflow. Only actual records and current source observations support completion claims; a plan or generated text alone does not.",
+          "setting_workflow": "Read get_plugin_settings and inspect_plugin_capability. Valid input types do not certify an active feature or rendered effect; use current runtime controls and verify the outcome."
+        },
+        "memory_consistency": {
+          "version": "memory-context-2",
+          "notes_sha256": "b5812376fdb248dc1aa2caca6766f351c333c737078e6a3f35e0bdc906cee3ff",
+          "durable_notes_sha256": "1ecb186c724cef552eff89b8c8ad52913dcef25ea8fad1d56d37a6da1292e3ed",
+          "findings": [],
+          "finding_limit": 20,
+          "history_excluded_from_conflict_scan": true,
+          "limits": "Phrase matches are review prompts, including possible quotations or negations. No semantic guarantee, automatic correction or clean bill of health. Local files and external memories are not inspected.",
+          "precedence": "Follow the current user request and preserve explicit site constraints. Historical working state is context, not an instruction to switch tasks. Reconcile outdated SEO recipes against the current evidence contract; never invent service facts, consent or approval.",
+          "context_rule": "Site identity, unstructured notes, Rules and Decisions affect strategy freshness. Routine Sessions entries do not; promote new lasting constraints to Rules or Decisions."
+        },
+        "seo_playbook": {
+          "version": "2026.09.09.3",
+          "industry": "healthcare",
+          "top_rules": [
+            "For a complete new blog request, use content_workflow and execute its steps. Claude discovers and maintains strategy with discover_content_scope/manage_content_scope; no manual strategy form is required. Use plan_blog_content for topic proposals. Explore supported services, reader questions and useful explanations even with no GSC gaps or rows.",
+            "State the niche source, audience, reader task and supported contribution. Missing impressions means unmeasured demand, not no opportunity.",
+            "Inspect related stored and rendered content before claiming a gap. Similarity alone cannot certify duplication or absence.",
+            "Use a length and format that solve the reader task; no preferred Google word count or fixed quota of facts, quotes or headings.",
+            "Use content_decision before refresh or consolidation proposals. Preserve evidence IDs, alternatives, reader goals and the reason for changing an earlier assessment.",
+            "Related pages can serve distinct tasks. Keep/link or differentiate when useful; cluster size, low clicks and shared queries do not establish harmful cannibalization.",
+            "Diagnose technical state, measurement, query mix, demand and seasonality before prescribing a rewrite. Do not remove useful material because a local score is low.",
+            "A permanent merge needs a relevant destination and preservation of unique facts, useful sections, links and language relationships. Missing analytics is not proof of no value.",
+            "Use content_research to capture explicit comparable URLs and current own content. Record scope, fetch date and limitations. A blocked page is unknown.",
+            "Statistics, tables, quotation markup and authority links are surface observations, not verified first-party research or expertise.",
+            "Check primary-source support, attribution, practical usefulness and originality within the inspected sample. Do not invent evidence or claim global uniqueness.",
+            "No special AI markup, forced chunk size or citation quota guarantees Google visibility. Experimental GEO results do not establish organic ranking effects.",
+            "Preserve native GSC dimensions and raw counts. Query/page totals and page/appearance segments are separate datasets; do not allocate one into the other.",
+            "Check measurement version and re-synced dates. Unlisted historical dates may retain legacy inferred data until re-fetched.",
+            "Non-Web search appearances and low CTR do not establish AI Overviews or AI-caused click loss. A before/after change is an association unless stronger evidence supports causation.",
+            "Use current target-bound evidence and actual editor/plugin schemas before proposing settings or content changes. Parser absence is not proof of rendered absence.",
+            "Use descriptive contextual links where they help the next reader task. No ideal link count or mandatory repeated pillar placement applies.",
+            "Preserve coherent headings, accessible controls, supported facts, appropriate schema and language relationships. Assess actual defects rather than blindly follow a score.",
+            "Apply through the existing reviewed workflow, verify saved and served output, and distinguish completed writes from uncertain cache or transport states.",
+            "Inspect plugin capability evidence before setting changes and verify actual workflow results before claiming completion."
+          ],
+          "fit": {
+            "industry": "healthcare",
+            "status": "drift_detected",
+            "coverage": 10,
+            "unused_overlay_terms": [
+              "urgent",
+              "entity",
+              "service",
+              "reviewed",
+              "medicine",
+              "emergencyservice",
+              "medicalclinic",
+              "every",
+              "dental",
+              "intent",
+              "healthcare",
+              "provider"
+            ],
+            "missing_from_overlay": [
+              "white",
+              "rock",
+              "dallas",
+              "emergencias",
+              "sala",
+              "cerca",
+              "near",
+              "lake",
+              "treatment",
+              "tratamiento",
+              "emergencia",
+              "para"
+            ],
+            "hint": "Active overlay \"healthcare\" only matches 10% of the site's vocabulary. The site talks about: white, rock, dallas, emergencias, sala, cerca. Consider switching industry from Settings, or treat this overlay as partial guidance and verify each industry-specific recommendation against actual site content before proposing it."
+          },
+          "full_via": "seo_playbook"
+        },
+        "business_mode": {
+          "mode": "emergency",
+          "source": "auto",
+          "means": "Business-mode classification is context, not verified services, hours, licensing or schema eligibility. Confirm actual business facts and the page reader task before changing calls to action or structured data."
+        },
+        "page_standard": {
+          "doctrine": "Make the primary reader task clear. Service pages can include useful explanations that help the decision; distinct supporting articles should earn their own purpose.",
+          "layers": {
+            "1_intent": "Inspect the actual audience, task and supported business offering.",
+            "2_conversion": "Use clear headings, accessible navigation and a relevant next step supported by current service facts.",
+            "3_trust": "Support factual claims with appropriate reliable sources and authorized attribution. No fixed citation quota, invented expertise or assumed service hours."
+          },
+          "assessment": "Use verified_page_audit for current evidence. Local checklist scores do not prove ranking effects or prescribe a rewrite.",
+          "workflow": "content_workflow"
+        },
+        "evidence_policy": {
+          "enforced_by": "WordPress shared proposal queue",
+          "ttl_seconds": 600,
+          "scope": "WordPress user and Application Password/browser session",
+          "required_reads": [
+            "whoami",
+            "verified_page_audit for each published target",
+            "get_post(slim=false) for each draft/template",
+            "get_kit_settings for kit edits",
+            "get_plugin_settings for option edits"
+          ],
+          "approval": "The observed post and plugin/theme/kit/SEO environment must still match at approval. One selected bulk approval can combine independent widget updates when exact predicted state is verified. Other edits or later requests require fresh evidence. After deployment and related source edits, use refresh_publish_proposal with a current workflow to refresh an existing blog publication intent; do not duplicate its draft.",
+          "unknown": "Missing evidence, CAPTCHA and unsupported controls block proposals. Stored values do not prove visible effects or Google indexing."
+        },
+        "bootstrap_hint": "Start with whoami, get_site_memory, existing operator knowledge and list_pending_changes. For content tasks use content_workflow and execute its steps: Claude discovers and maintains the strategy from site evidence, researches, drafts and verifies; the operator reviews concrete results. Do not ask for manual strategy setup or post IDs that tools can discover. Check version_drift and refresh a stale bridge through operator_brain_pull(what=bridge). Read actual plugin/editor controls before proposing changes. Use verified_page_audit for published targets and get_post(slim=false) for drafts/templates. Business-mode detection and stored content are observations to verify, not authority to invent services, hours, credentials or claims. seo_playbook.top_rules is the shared current guidance; preserve explicit operator constraints. Report facts, interpretations and unknowns separately."
+      },
+      "relevant_rules": {
+        "memory_dir": "C:\\Users\\sumit/.claude/projects/c--Users-sumit-Local-Sites-plugintesting-app-public/memory",
+        "memory_present": true,
+        "hard_rules": [
+          {
+            "name": "feedback-build-from-scratch-never-duplicate",
+            "description": "HARD RULE — never duplicate/clone a page (build_service_page or copy). Every page is built from scratch with its own analyzed section set, intent, and 2026-standard check. Cloning leaves source-condition residue."
+          },
+          {
+            "name": "feedback-dom-is-ground-truth-not-parsers",
+            "description": "HARD RULE: never assert that a link/heading/element is MISSING from a page based on a plugin parser; the rendered DOM is the only ground truth. Parsers have blind spots and one produced a confident false gap that was acted on."
+          },
+          {
+            "name": "feedback-verify-service-exists-before-service-page",
+            "description": "HARD RULE — never recommend or build a service page for a service the clinic doesn't actually sell. Verify via service_inventory + Aesthetic-style service-card inventory on the relevant pillar BEFORE proposing anything"
+          },
+          {
+            "name": "feedback_never_claim_server_slow_without_control",
+            "description": "HARD RULE - never diagnose caching or server speed from an option value, a HEAD request, or a raw TTFB; each needs a specific control first"
+          },
+          {
+            "name": "feedback_never_noindex_pages",
+            "description": "HARD operator rule 2026-09-06: NEVER propose or queue noindex on any page, any site. A page near position 10 cannot earn clicks yet; noindex removes the chance. Zero-click pages are improved or merged. Plugin dead_inventory advice text was reworded to match."
+          },
+          {
+            "name": "feedback_never_pass_dollar_strings_through_shell",
+            "description": "HARD - a title or any text with \\\"$\\\" must never travel through a bash/PowerShell command line; the shell ate \\\"$1\\\" from \\\"$10,000\\\" twice (penny-cost 2026-09-05, car-loan-interest 2026-09-06) and the owner caught the mangled cold open on the first second of the video"
+          },
+          {
+            "name": "feedback_no_guessing_epistemic_discipline",
+            "description": "STRICT user prohibition on guessing — label every claim verified/measured/inferred; inference never drives live-site action untested"
+          },
+          {
+            "name": "feedback_probe_discipline_positive_controls",
+            "description": "HARD rule: my own probes are the #1 source of wrong findings — absence claims need a positive control, API names need a source grep, causes need change-and-remeasure"
+          }
+        ],
+        "site_rules": [
+          {
+            "name": "Always build the plugin zip yourself",
+            "description": "When the plugin needs deploying to a remote site, build the zip without asking. Use the Python zipfile recipe; don't offer \"should I zip\" — just do it."
+          },
+          {
+            "name": "Custom Permalinks plugin overrides slug-based URLs (silent desync)",
+            "description": "WordPress sites with the \"Custom Permalinks\" plugin active store a custom_permalink postmeta that overrides get_permalink() — slug changes via wp_update_post() do NOT auto-update it, leaving the stale custom URL in place forever"
+          },
+          {
+            "name": "Draft English version first, queue/approve it, then draft Spanish",
+            "description": "On bilingual sites, draft and queue the EN post first so the reviewer can see what each pending is about; only draft the ES counterpart after the EN is settled"
+          },
+          {
+            "name": "Geo-anchor priority — White Rock first, East Dallas second, generic Dallas almost never",
+            "description": "For erofwhiterock.com — own \"near White Rock Lake\" + neighborhood names. Use \"East Dallas\" when broader reach helps. Reserve generic \"Dallas\" for NAP/schema and rare referral context. Avoid keyword-stuffed \"in Dallas\" patterns that compete with hospital systems."
+          },
+          {
+            "name": "New blog posts must always include category assignment",
+            "description": "When creating a new post via cc-assistant, always pass category_ids; otherwise the post lands uncategorized and disrupts taxonomy alignment"
+          },
+          {
+            "name": "WP \"Delete\" on a duplicate plugin folder triggers uninstall.php for the SHARED plugin slug — wipes ALL data",
+            "description": "WordPress runs uninstall.php whenever the user clicks \"Delete\" in the Plugins list, REGARDLESS of whether another folder of the same plugin is still active. uninstall.php drops tables by table name (wp_cc_pending_changes, etc.) which is shared across all copies — so deleting one duplicate wipes data for the active copy too."
+          },
+          {
+            "name": "WordPress plugin zips on Windows must use forward slashes — never PowerShell Compress-Archive",
+            "description": "PowerShell's Compress-Archive AND .NET System.IO.Compression.ZipFile.CreateFromDirectory write backslash path separators on Windows, which violates the ZIP spec and breaks WordPress plugin uploads (creates new install folder per upload instead of overwriting). Use Python's zipfile module instead."
+          },
+          {
+            "name": "avg-position-expansion-artifact",
+            "description": "GSC site-wide avg position drops dramatically when a site publishes a batch of new pages, because the new URLs pull long-tail impressions at positions 50-90+ before they rank. Always frame avg position drops in expansion context before treating as damage."
+          },
+          {
+            "name": "cc-assistant Elementor parser must walk widget-internal headings",
+            "description": "icon-box, image-box, accordion, nested-accordion, and posts widgets render H3 tags but the parser only counted heading widgets — caused false 0-H3 flags"
+          },
+          {
+            "name": "cc-assistant suspicious_chars lint false-positive on Spanish meta",
+            "description": "Plugin's suspicious_chars lint soft-fails Spanish accented chars (á é í ó ú ñ) — misclassifies valid Latin-1 as suspicious. Items still queue."
+          },
+          {
+            "name": "cc-assistant-close-loop-v058",
+            "description": "v0.58.0 SHIPPED — propose_revert (snapshot_restore change type), lead-event logging + leads in outcome_report, whoami version-drift warning"
+          },
+          {
+            "name": "cc-assistant-v0-18-1-fix-for-race-safety-false-positive-on-sibling-pendings",
+            "description": "previous false positive where pre-apply guard refused sibling pendings within a single bulk batch; fixed in v0.18.1 by stamping _cc_assistant_last_internal_apply postmeta and comparing against max(queued_at, that)"
+          },
+          {
+            "name": "cc-assistant-v0-28-industry-playbook",
+            "description": "cc-assistant v0.28.0 made the SEO playbook industry-aware. Universal core + per-industry overlay composed at runtime, driven by CC_Assistant_Industry_Profile (auto-detect from schema + Yoast/Rank Math local-SEO type + WooCommerce + title keyword corpus; operator override in Settings → General → Industry)."
+          },
+          {
+            "name": "cc-assistant-v0601-audit-hardening",
+            "description": "v0.60.1 SHIPPED — full adversarial+security audit of v0.54-0.60 (2 agents), 22 findings ALL fixed; TLS verify default ON, uninstall guarded, propose_revert actually works now"
+          },
+          {
+            "name": "content-drafting-and-optimization-rules",
+            "description": "Four universal rules for every new post/page AND every optimization of an existing post/page: keyword-optimized (GSC + own knowledge), competitor-beat (gap fill), user-first, and unique-insight-data-with-expert-opinions allowed."
+          },
+          {
+            "name": "curl-before-schema-edit",
+            "description": "Before recommending ANY schema / JSON-LD edit, curl the live page and read what's actually there. Never hand the operator a 'replace placeholder X' template — you have full live-site access via the plugin + WebFetch/Bash. Use it."
+          },
+          {
+            "name": "curl-test-url-before-editing",
+            "description": "BEFORE queueing ANY edit on a WordPress post, curl-test the post's URL to verify (a) it returns 200 (not 301 redirect, not 404), (b) the rendered content actually matches the post being edited, AND (c) any internal links you're about to write actually resolve. Skipping this check stranded 12 widget edits on a redirected page in one session."
+          },
+          {
+            "name": "custom-permalinks-pagination-4site-diagnostic",
+            "description": "When pagination breaks on one bilingual ER site but works on its siblings, the Custom Permalinks postmeta trap is almost always the cause — diff the get_permalink() output across sites to expose it in 10 seconds"
+          },
+          {
+            "name": "elementor-image-widget-alt-source",
+            "description": "Elementor image alt has TWO render paths: rendered tag with class wp-image-N/attachment-<size> = wp_get_attachment_image = ATTACHMENT alt wins; bare tag = widget image.alt wins. Read the rendered tag to know which; when queueing blind, set BOTH."
+          },
+          {
+            "name": "elementor-pro-posts-widget-load-more-uses-url-pagination",
+            "description": "Elementor Pro \\\"Posts\\\" widget Load More is URL-based AJAX (fetches /blog/N/), not admin-ajax POST — so any 301 on /blog/N/ silently breaks Load More just like it breaks numbered pagination"
+          },
+          {
+            "name": "erofwhiterock-cloned-from-erofirving",
+            "description": "erofwhiterock.com was built as a clone of erofirving.com (ER of Irving) and not all the content was changed. Service pages especially are at risk of duplicate content / plagiarism with the source site. Verify before rewriting and treat content originality as a live initiative, not a finished state."
+          },
+          {
+            "name": "erofwhiterock-no-provider-bylines-yet",
+            "description": "On erofwhiterock.com specifically, do NOT propose adding provider bylines, schema Person entities, or \\\"Medically Reviewed by:\\\" lines on any page. Physicians have not yet given consent for their names to appear on the site."
+          },
+          {
+            "name": "expert-quotes-in-blogs",
+            "description": "User wants expert quotes (name + profession) and authority external links in blog posts; only real, verifiable quotes are acceptable"
+          },
+          {
+            "name": "feedback-elementor-grid-for-icon-box-rows",
+            "description": "Icon-box rows on irvingwellnessclinic service pillars must use container_type=grid with grid_columns_grid Nfr — flex-direction=row + flex-wrap=wrap makes them stack vertically because Elementor flex children default to content-width sizing"
+          },
+          {
+            "name": "feedback-no-red-hero-band",
+            "description": "Operator (2026-08-26) rejected the composer's default full-width brand-red hero band on the ER sites as \"too much for the eyes\"; hero/band backgrounds should use the Secondary navy token (#11468F), red stays for CTAs, icons and accents only."
+          },
+          {
+            "name": "feedback_erofwhiterock_current_evidence_policy",
+            "description": ""
+          },
+          {
+            "name": "feedback_location_page_doctrine",
+            "description": "2026 doctrine for local \\\"location\\\" / service-area landing pages across the ER/local sites — when to build, when NOT to, how to differentiate, where to place"
+          },
+          {
+            "name": "gmb-utm-is-intentional",
+            "description": "/?utm_source=google&utm_medium=gmb on every site is an INTENTIONAL GMB tracking parameter — never flag as cannibalization, never recommend removing"
+          },
+          {
+            "name": "google-2026-seo-doctrine",
+            "description": "Google's documented SEO rules as of May 2026 — AI Optimization Guide, March 2026 core update site-wide signal, FAQ deprecation, back-button hijacking spam policy, deprecated schema types, named ranking systems"
+          },
+          {
+            "name": "index_client_sites",
+            "description": "Client sites and engagements index — pointers to 36 memory files; open the ones the hook names"
+          }
+        ],
+        "total_memories": 251,
+        "tokens": [
+          "erofwhiterock",
+          "er of white rock"
+        ],
+        "hard_total": 8,
+        "site_total": 55,
+        "read_me": "hard_rules are the operator's non-negotiables (descriptions flagged HARD/STRICT); site_rules mention this site. Full text lives in the memory folder named above. If memory_present is false, pull the brain before working."
+      }
+    }
+  },
+  {
+    "name": "get_post",
+    "arguments": {
+      "id": 5092,
+      "slim": false
+    },
+    "isError": false,
+    "result": {
+      "id": 5092,
+      "title": "World Cup 2026 in Dallas: Why ER Visits Spike During Major Tournaments and How to Watch Safely",
+      "slug": "world-cup-2026-dallas-er-cardiac-risk",
+      "status": "publish",
+      "type": "post",
+      "content": "<p><strong>TL;DR.</strong> The FIFA World Cup arrives in the Dallas area on June 14, 2026, with nine matches at AT&amp;T Stadium in Arlington including a semifinal on July 14. Peer-reviewed studies show acute cardiac event risk more than doubles among committed fans on match days in host metros. Combine that with Texas summer heat, alcohol, late nights, and matchday tension, and ERs see a measurable spike. This guide covers what the research says, who is most at risk near White Rock Lake, the warning signs that should end your match early, and the practical steps to enjoy the tournament without ending up in our waiting room.</p>\n<p>For East Dallas viewers, the 2026 tournament is the largest sporting event the metro has ever hosted.</p>\n<p>AT&amp;T Stadium sits 28 miles from White Rock Lake. Bars, restaurants, and home viewing parties from Lakewood to Lake Highlands will fill on match days. The emergency-medicine literature on prior World Cups makes clear what that means for local ERs.</p>\n<h2>What the research actually says about World Cup heart attacks</h2>\n<p>The foundational study came out of the 2006 World Cup in Germany.</p>\n<p>Dr. Ute Wilbert-Lampen and colleagues at Ludwig Maximilian University Munich published their findings in the <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa0707427\" target=\"_blank\" rel=\"noopener noreferrer\">New England Journal of Medicine</a>: cardiac emergencies in the Munich greater area were <strong>2.66 times higher on German match days</strong> compared with control periods.</p>\n<p>The risk was sharply skewed by prior cardiac history. Patients with known coronary artery disease showed a <strong>3.26-fold increase</strong>. The peak risk window was two hours from kickoff, and the dramatic Germany vs Italy semifinal produced the highest single-day spike of the tournament.</p>\n<p>The Wilbert-Lampen findings have been reproduced in later tournaments. A 2014 <a href=\"https://www.bmj.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BMJ Open</a> review of the 2010 World Cup in South Africa documented elevated acute coronary syndrome admissions among older male spectators. A 2024 European Heart Journal analysis of the Euro 2020 tournament (played in 2021) extended the finding to younger fans, with stroke and atrial fibrillation also rising on high-stakes match days.</p>\n<p>Wilbert-Lampen summed up the mechanism in a single sentence: \"the combination of emotional stress, sympathetic surge, and dehydration during a 90-minute match can trigger a cardiac event in someone whose coronary arteries were already vulnerable.\"</p>\n<h2>Why Dallas is a special case in 2026</h2>\n<p>Three factors compound the standard World Cup cardiac risk for our catchment.</p>\n<p><strong>Heat.</strong> Dallas-area match days run mid-June to mid-July. Daily high temperatures average 92 to 98&deg;F with heat indices that routinely exceed 105&deg;F. Outdoor watch parties at Klyde Warren Park, lakeside, or in backyards push viewers into the heat-illness window covered in our <a href=\"https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/\">heat stroke guide</a>.</p>\n<p><strong>Alcohol.</strong> Studies of major sporting events consistently link match-day binge consumption to atrial fibrillation episodes (\"holiday heart syndrome\"), accidental injuries, and aspiration events. A 2023 review in the Journal of the American College of Cardiology pegged AFib episode incidence at 2.3 times baseline during national-team match days in host nations.</p>\n<p><strong>Sleep deprivation.</strong> Several Dallas-region matches will run into late evening hours. Some neutral fans will also watch overseas matches from earlier time zones. Sleep loss is a documented independent trigger for both heart attack and stroke.</p>\n<h2>Who in East Dallas is at the highest risk?</h2>\n<p>The literature points to three groups with elevated event probability:</p>\n<ol>\n<li><strong>Adults 50 and older with known cardiovascular disease.</strong> Prior heart attack, angina, atrial fibrillation, or stent placement. The 3.26-fold Wilbert-Lampen subgroup.</li>\n<li><strong>Adults with uncontrolled hypertension or diabetes.</strong> Especially if cardiology follow-up has lapsed or medication refills are overdue.</li>\n<li><strong>People with heavy alcohol patterns.</strong> A six-pack during a match counts. So does a high-octane tailgate at AT&amp;T Stadium, where afternoon kickoffs combine sun exposure, alcohol, and stadium walking.</li>\n</ol>\n<p>Younger viewers without prior cardiac history are not exempt. The Euro 2020 data showed otherwise-healthy adults in their 30s and 40s presenting with atrial fibrillation triggered by alcohol-plus-stress.</p>\n<h2>The warning signs that should end your match</h2>\n<p>Stop watching, leave the bar, or skip the rest of the game and call 911 or come to ER of White Rock if you experience any of these <a href=\"https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/\">cardiovascular warning signs</a>:</p>\n<ul>\n<li><strong>Chest pressure, squeezing, or pain</strong> lasting more than a few minutes. May radiate to jaw, neck, shoulder, or arm. The American Heart Association notes that women more often report fatigue, nausea, or back pain rather than classic chest pressure.</li>\n<li><strong>Sudden shortness of breath</strong> at rest, especially if paired with lightheadedness.</li>\n<li><strong>Heart palpitations</strong> that do not stop within 30 minutes, particularly with chest tightness or fainting.</li>\n<li><strong>Sudden weakness</strong> on one side of the body, face droop, slurred speech, or vision change. Stroke is time-critical; use the <a href=\"https://www.cdc.gov/stroke/signs-symptoms/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">F.A.S.T. test</a> from the CDC.</li>\n<li><strong>Loss of consciousness or near-fainting.</strong></li>\n<li><strong>Severe headache</strong> unlike any you have had before.</li>\n</ul>\n<p>The match is not worth missing the early window.</p>\n<h2>How alcohol and heat compound the risk</h2>\n<p>The combination is more dangerous than either alone.</p>\n<p>Alcohol is a vasodilator and a diuretic. It widens blood vessels (which can drop blood pressure), and it strips fluid from the body. In Texas summer outdoors, those effects accelerate dehydration, raise heart rate, and prime an unstable cardiac rhythm.</p>\n<p>The <a href=\"https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm\" target=\"_blank\" rel=\"noopener noreferrer\">CDC alcohol fact sheet</a> and a 2024 Lancet Public Health analysis both cite event-day patterns. Drinkers who exceed 5 drinks in 4 hours during a sporting event triple their AFib episode risk versus the same drinkers on non-event days.</p>\n<p>Dr. Jorge Brenes-Salazar, a cardiologist at the Mayo Clinic, put it bluntly: \"holiday heart syndrome is no longer a rare oddity; it is a predictable consequence of binge drinking, especially when paired with stress and dehydration.\"</p>\n<p>For East Dallas viewers planning to drink during the matches:</p>\n<ul>\n<li>Alternate every alcoholic drink with water.</li>\n<li>Eat before and during the match. An empty stomach amplifies absorption.</li>\n<li>Cap total drinks. The American Heart Association recommends no more than 2 drinks per day for men and 1 for women.</li>\n<li>If you have AFib or other arrhythmia history, talk to your cardiologist before the tournament about a \"dry tournament\" plan or a backup pill-in-pocket protocol.</li>\n</ul>\n<h2>For ticket holders: extra considerations for AT&amp;T Stadium</h2>\n<p>The day is long. The heat is brutal.</p>\n<ul>\n<li><strong>Cardiovascular medications.</strong> Bring your daily medications, including nitroglycerin if prescribed. Stadium security typically allows prescription bottles; check the FIFA bag policy ahead of time.</li>\n<li><strong>Pre-game hydration.</strong> Start drinking water the morning before and limit alcohol at the tailgate to a single drink before kickoff.</li>\n<li><strong>Sun protection.</strong> AT&amp;T Stadium has a retractable roof, but bowl temperatures during day matches still climb into the 90s in non-shaded sections.</li>\n<li><strong>Know the stadium first-aid stations.</strong> Every concourse has one. If you feel chest tightness or extreme dizziness, go immediately. Stadium medical teams can triage and call EMS faster than a return drive to East Dallas.</li>\n<li><strong>Plan a sober driver.</strong> Friday and weekend matches will produce gridlock on I-30 and the Tollway. The last thing you want is to drive home impaired through a backed-up corridor.</li>\n</ul>\n<h2>Watching matches with kids and older parents</h2>\n<p>Two crossover risks worth flagging.</p>\n<p><strong>For older parents</strong> in Casa View, Forest Hills, or Lake Highlands attending a backyard watch party: the heat-plus-stress combination is exactly the profile that has filled European ERs after match days. Keep elderly viewers indoors with air conditioning, hydrated, and out of the late-evening drinking pace.</p>\n<p><strong>For kids:</strong> the match itself is fine. The risk is the supervision drop. Pool drownings, kitchen burns, and unattended toddler injuries all spike during high-attention household events. Designate a non-viewing adult or use a watch-rotation system at home pool parties.</p>\n<h2>How ER of White Rock prepares for the tournament</h2>\n<p>Our facility at 10705 Northwest Highway is open 24/7 throughout the tournament. We have on-site EKG, cardiac labs (troponin results in under 30 minutes), CT for suspected stroke, and direct hospital coordination for any patient who needs admission.</p>\n<p>Practical local advantages during World Cup viewing weeks:</p>\n<ul>\n<li>We are minutes from Lake Highlands and Lakewood. No long hospital wait while a cardiac event window closes.</li>\n<li>Triage to evaluation typically happens within minutes of walk-in, unlike a hospital ER where high-volume nights extend door-to-doctor time by hours.</li>\n<li>Same-day discharge is the norm for patients ruled out for acute coronary syndrome, so a scare during a Saturday afternoon match does not eat your whole weekend.</li>\n</ul>\n<h2>Frequently Asked Questions</h2>\n<h3>Does watching sports really cause heart attacks?</h3>\n<p>For people with existing coronary artery disease, yes. The Wilbert-Lampen NEJM study showed a 2.66-fold spike in cardiac emergencies on Germany match days during the 2006 World Cup, with prior-MI patients at 3.26 times baseline. The mechanism is sympathetic surge: matchday emotion releases stress hormones that raise heart rate and blood pressure, narrow coronary arteries, and can rupture an unstable plaque.</p>\n<h3>Should people with heart conditions skip the World Cup?</h3>\n<p>No, but they should prepare. Take your medications on schedule, eat a normal meal before the match, limit alcohol to one drink, and watch in air conditioning. Have a written list of red-flag symptoms posted near the TV and know where the nearest ER is.</p>\n<h3>Why is alcohol such a big factor during World Cup viewing?</h3>\n<p>Alcohol triggers atrial fibrillation episodes (\"holiday heart\") and dehydrates the body, which strains cardiovascular load. JACC research links 5+ drinks in 4 hours during sporting events to a tripling of AFib episode risk.</p>\n<h3>Where are the AT&amp;T Stadium World Cup matches in 2026?</h3>\n<p>AT&amp;T Stadium in Arlington hosts nine FIFA World Cup 2026 matches between June 14 and July 14, including a quarterfinal and a semifinal. East Dallas viewers will see significant traffic on I-30 west during match days; budget extra travel time and a sober return plan.</p>\n<h3>Can the heat alone cause a cardiac event during a match?</h3>\n<p>Yes. Outdoor watch parties or tailgates above 100&deg;F heat index push the body into thermoregulatory strain, which raises heart rate, lowers blood pressure, and can trigger cardiac events in vulnerable viewers. See our <a href=\"https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/\">heat illness guide</a> for the full picture.</p>\n<h3>What if I have AFib or take blood thinners?</h3>\n<p>Talk to your cardiologist before the tournament. Many AFib patients have a pill-in-pocket protocol (oral antiarrhythmic taken at episode onset) that can avert an ER visit. If you do not have one, this is the time to ask.</p>\n<h3>Is it safe to drive home after a late-night match?</h3>\n<p>Only if sober and well-rested. Sleep deprivation impairs reaction time comparably to legal-limit alcohol. If you cannot stay alert, stay overnight or use a ride service.</p>\n<h2>The bottom line</h2>\n<p>The 2026 World Cup in Dallas is a once-in-a-generation event.</p>\n<p>The medical literature is clear: high-stakes match days raise cardiac and stroke event rates in host metros, especially among older fans, drinkers, and people with existing cardiovascular disease. Prepare like you would for a long outdoor day. Hydrate. Take medications. Eat real food. Cap alcohol. Watch the heat. Know the early warning signs.</p>\n<p>If anything feels wrong during a match, walk in to ER of White Rock or call (469) 943-2939. We are 24/7, minutes from your home, and ready to rule out a serious event before it becomes one.</p>",
+      "excerpt": "ER cardiac visits climb 25 to 30 percent during the World Cup. Match-day stress, dehydration, and missed warning signs explain why. Here is what to watch for during the 2026 Dallas matches.",
+      "modified": "2026-07-22 09:28:05",
+      "created": "2026-05-15 04:19:04",
+      "author": "ER of White Rock",
+      "author_id": 4,
+      "url": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/",
+      "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5092&action=edit",
+      "has_elementor": false,
+      "elementor_data": null,
+      "word_count": 1793
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "arguments": {
+      "post_id": 5092
+    },
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 5092,
+        "url": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/",
+        "captured_at_utc": "2026-09-09 16:15:57",
+        "body_sha1": "e9a8e30d2ef47b3b49313e87a1b7af503a0d0ed2",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "World Cup 2026 Dallas: Why ER Visits Spike on Match Days"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "World Cup 2026 in Dallas drives ER cardiac visits up 25 to 30 percent on match days. See risk signals, hydration thresholds, and when chest pain needs the ER."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/",
+            "requested_url": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "World Cup 2026 in Dallas: Why ER Visits Spike During Major Tournaments and How t"
+              },
+              {
+                "level": "h2",
+                "text": "Table of Contents"
+              },
+              {
+                "level": "h2",
+                "text": "What the research actually says about World Cup heart attacks"
+              },
+              {
+                "level": "h2",
+                "text": "Why Dallas is a special case in 2026"
+              },
+              {
+                "level": "h2",
+                "text": "Who in East Dallas is at the highest risk?"
+              },
+              {
+                "level": "h2",
+                "text": "The warning signs that should end your match"
+              },
+              {
+                "level": "h2",
+                "text": "How alcohol and heat compound the risk"
+              },
+              {
+                "level": "h2",
+                "text": "For ticket holders: extra considerations for AT&T Stadium"
+              },
+              {
+                "level": "h2",
+                "text": "Watching matches with kids and older parents"
+              },
+              {
+                "level": "h2",
+                "text": "How ER of White Rock prepares for the tournament"
+              },
+              {
+                "level": "h2",
+                "text": "Frequently Asked Questions"
+              },
+              {
+                "level": "h2",
+                "text": "The bottom line"
+              },
+              {
+                "level": "h2",
+                "text": "Latest Insights:"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "Does watching sports really cause heart attacks?"
+              },
+              {
+                "level": "h3",
+                "text": "Should people with heart conditions skip the World Cup?"
+              },
+              {
+                "level": "h3",
+                "text": "Why is alcohol such a big factor during World Cup viewing?"
+              },
+              {
+                "level": "h3",
+                "text": "Where are the AT&T Stadium World Cup matches in 2026?"
+              },
+              {
+                "level": "h3",
+                "text": "Can the heat alone cause a cardiac event during a match?"
+              },
+              {
+                "level": "h3",
+                "text": "What if I have AFib or take blood thinners?"
+              },
+              {
+                "level": "h3",
+                "text": "Is it safe to drive home after a late-night match?"
+              },
+              {
+                "level": "h3",
+                "text": "What to Tell the ER Team: A Medication and Symptom Note"
+              },
+              {
+                "level": "h3",
+                "text": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline"
+              },
+              {
+                "level": "h3",
+                "text": "Hit Your Head? When to Go to the ER and When to Watch at Home"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 7,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 80,
+            "internal": 68,
+            "content_internal": 14,
+            "listed": 80,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "d3cc61071a4acc5e1ff7bed2787fe41c4533519635db58bc7f224ba7175f7609",
+      "facts_sha256": "c4d432ae925ac13497b797d157221a33fec7b4d3e5c71ca96856afbdc713d7a8",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "draft_update_post_content",
+    "arguments": {
+      "post_id": 5092,
+      "content": "<p>The Dallas-area matches of the 2026 World Cup are over. The health questions raised by watch parties and long event days still matter: when can symptoms wait, how do heat and alcohol affect your plans, and what does the research actually show?</p>\n<p>A study of the 2006 World Cup found more cardiac emergencies on days when Germany played. It did not measure Dallas in 2026, and it does not show that every spectator faces the same risk. This guide separates that evidence from practical steps for watching future sporting events.</p>\n<p>For families around White Rock Lake, Lake Highlands and Lakewood, the useful plan is straightforward: recognize urgent symptoms, follow your prescribed care plan, and arrange a safe way home.</p>\n<h2>What the research actually says about World Cup heart attacks</h2>\n<p>Ute Wilbert-Lampen and colleagues studied cardiac emergencies in the greater Munich area during the 2006 World Cup. Their <a href=\"https://pubmed.ncbi.nlm.nih.gov/18234752/\">published study</a> found an incidence 2.66 times that of control periods on days Germany played.</p>\n<p>The 3.26-fold figure was for men, not the subgroup with coronary artery disease. This was an observational study of one tournament and region. It cannot establish the size of any change in Dallas ER visits in 2026 or predict one person’s risk.</p>\n<h2>Planning for summer events in Dallas</h2>\n<p>Dallas hosted matches during the summer. That setting makes planning for outdoor heat relevant, but it does not establish a local increase in cardiac emergencies. No Dallas 2026 patient dataset is presented here.</p>\n<p>For later events, check the forecast and the venue’s current guidance. An indoor seat does not remove exposure while walking, waiting outside or traveling. Our <a href=\"https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/\">heat illness guide</a> explains symptoms to watch for.</p>\n<h2>Who in East Dallas is at the highest risk?</h2>\n<p>People with existing heart conditions should discuss event plans with their own clinician. Age, heart disease, high blood pressure and alcohol use are among the factors discussed in the <a href=\"https://www.heart.org/en/health-topics/atrial-fibrillation/who-is-at-risk-for-atrial-fibrillation-af-or-afib\">American Heart Association’s AFib guidance</a>.</p>\n<p>Ask about your own symptoms, activity limits and medication schedule. Do not stop, add or change a medicine because of an article or a match schedule. Being young does not make new warning signs safe to ignore.</p>\n<h2>The warning signs that should end your match</h2>\n<p>Call 911 for possible heart attack or stroke symptoms. Do not wait for halftime, a ride home or an office callback. The <a href=\"https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack\">American Heart Association lists heart attack warning signs</a>, including chest discomfort, shortness of breath and discomfort in the arms, back, neck, jaw or stomach.</p>\n<ul><li>Chest pressure or discomfort, particularly with breathlessness, sweating or lightheadedness.</li><li>Sudden face drooping, arm weakness, speech trouble or other stroke warning signs.</li><li>Collapse or loss of consciousness.</li><li>Palpitations with chest pain, fainting or severe breathing difficulty.</li></ul>\n<p>Do not use a 30-minute waiting rule for palpitations with serious symptoms. Review the <a href=\"https://www.cdc.gov/stroke/signs-symptoms/index.html\">CDC’s stroke guidance</a> and our <a href=\"https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/\">cardiovascular emergencies guide</a>.</p>\n<h2>How alcohol and heat compound the risk</h2>\n<p>Heavy drinking is associated with several cardiovascular harms, including arrhythmias. The <a href=\"https://professional.heart.org/en/science-news/alcohol-use-and-cardiovascular-disease/top-things-to-know\">American Heart Association’s scientific statement</a> discusses those risks. It does not establish a fixed multiplier for a Dallas watch party.</p>\n<p>On hot days, plan cooling breaks and access to water. Follow any fluid restrictions your clinician has given you. The <a href=\"https://www.cdc.gov/heat-health/about/index.html\">CDC recommends staying cool, staying hydrated and knowing heat-illness symptoms</a>.</p>\n<p>Water, food or a designated driver does not make drinking medically safe for everyone. Ask your clinician whether you should avoid alcohol, especially if you have AFib or take medicines that interact with it.</p>\n<h2>For ticket holders: extra considerations for AT&amp;T Stadium</h2>\n<p>For future events, check the venue’s current rules for medication, water, bags and medical assistance. Do not rely on a policy from the World Cup for another event.</p>\n<ul><li>Keep a medication list and emergency contact available.</li><li>Locate medical assistance when you arrive; do not assume every concourse has a station.</li><li>Tell event staff and call 911 for serious symptoms.</li><li>Plan a sober driver or another safe ride before the event.</li></ul>\n<h2>Watching matches with kids and older parents</h2>\n<p>Choose a comfortable place to watch, allow breaks and check on family members during hot weather. Older adults and young children can need extra protection from heat. Keep children supervised around pools, roads and cooking areas, even during an exciting match.</p>\n<p>Agree in advance who will watch the children and who will help a relative who becomes unwell. This is a practical family plan, not a claim that injuries necessarily rise during every game.</p>\n<h2>Emergency care at ER of White Rock</h2>\n<p>ER of White Rock is at 10705 Northwest Hwy, Dallas, TX 75238 and is open 24/7. The team evaluates symptoms, determines appropriate tests and coordinates transfer when hospital care is needed.</p>\n<p>Testing and waiting times vary. Your care team will explain the tests, results and next steps for your condition. For suspected heart attack or stroke, call 911 so emergency responders can arrange appropriate care.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can watching a match cause a heart attack?</h3>\n<p>Research has found an association between stressful matches and cardiac emergencies in some settings. That does not mean a match will cause an event in every viewer. Discuss your individual risks with your clinician.</p>\n<h3>Should people with heart conditions skip sporting events?</h3>\n<p>There is no single answer for everyone. Ask your clinician about activity, heat, alcohol and symptoms that require help. Continue prescribed treatment unless your clinician changes it.</p>\n<h3>Why does alcohol matter?</h3>\n<p>Alcohol can contribute to heart rhythm problems. People with AFib should discuss alcohol use with their treating clinician; an arbitrary match-day drink limit is not a personalized safety plan.</p>\n<h3>When were the Dallas-area World Cup matches?</h3>\n<p>The Dallas-area matches took place in June and July 2026. The <a href=\"https://www.fifa.com/en/en/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums\">official FIFA schedule</a> lists the Dallas semifinal on July 14. Check current event information for future visits.</p>\n<h3>Can heat affect heart health?</h3>\n<p>Heat can worsen existing health conditions, including heart disease. Plan cooling breaks and ask your clinician about a heat action plan suited to your health and medicines.</p>\n<h3>What if I have AFib or take blood thinners?</h3>\n<p>Follow the treatment plan your clinician gave you. Do not start a rescue medicine or change a blood thinner without instructions. Seek urgent help for serious or unfamiliar symptoms.</p>\n<h3>Is it safe to drive home after a late match?</h3>\n<p>Arrange another ride if you have been drinking, feel too tired to drive safely or are unwell. Serious medical symptoms require emergency help, not a drive across town.</p>\n<h2>Plan ahead and act on symptoms</h2>\n<p>Keep your care plan, emergency contact and transport arrangements ready. Enjoy the event, but take new symptoms seriously. Call 911 for a possible heart attack, stroke or other life-threatening emergency.</p>",
+      "summary": "WR-09: correct outdated and unsupported World Cup medical claims",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1800,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "current_length": 13207,
+      "proposed_length": 8157,
+      "character_delta": -5050,
+      "lint": {
+        "pass": false,
+        "pass_count": 18,
+        "fail_count": 1,
+        "failed": [
+          "phone_number_preservation"
+        ],
+        "introduced": [
+          "phone_number_preservation"
+        ],
+        "pre_existing": []
+      },
+      "warnings": [],
+      "render_baseline": "captured"
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "arguments": {
+      "post_id": 5092,
+      "field": "post_title",
+      "value": "World Cup 2026 and Heart Health: What Research Shows",
+      "summary": "WR-09: align the World Cup post_title with the corrected evidence",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1801,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "arguments": {
+      "post_id": 5092,
+      "field": "post_excerpt",
+      "value": "What World Cup research shows about heart health, plus practical guidance on heat, alcohol and urgent symptoms for sports fans in East Dallas.",
+      "summary": "WR-09: align the World Cup post_excerpt with the corrected evidence",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1802,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "arguments": {
+      "post_id": 5092,
+      "logical_key": "title",
+      "value": "World Cup 2026 and Heart Health: What Research Shows",
+      "summary": "WR-09: correct World Cup SEO title",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1803,
+      "resolved_to": "rank_math_title",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "arguments": {
+      "post_id": 5092,
+      "logical_key": "description",
+      "value": "What World Cup research shows about heart health, plus practical guidance on heat, alcohol and urgent symptoms for sports fans in East Dallas.",
+      "summary": "WR-09: correct World Cup SEO description",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1804,
+      "resolved_to": "rank_math_description",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": []
+    }
+  },
+  {
+    "name": "get_post",
+    "arguments": {
+      "id": 5122,
+      "slim": false
+    },
+    "isError": false,
+    "result": {
+      "id": 5122,
+      "title": "Copa Mundial 2026 en Dallas: Por Qué las Visitas a la ER se Disparan Durante los Grandes Torneos y Cómo Mirar con Seguridad",
+      "slug": "copa-mundial-2026-dallas-er-cardiaco",
+      "status": "publish",
+      "type": "post",
+      "content": "<p><strong>TL;DR.</strong> La Copa Mundial de la FIFA llega al área de Dallas el 14 de junio de 2026, con nueve partidos en AT&amp;T Stadium en Arlington, incluida una semifinal el 14 de julio. Estudios revisados por pares muestran que el riesgo de evento cardíaco agudo más que se duplica entre los aficionados comprometidos en los días de partido en las ciudades anfitrionas. Combine eso con el calor del verano texano, el alcohol, las noches largas y la tensión del partido, y las ER ven un repunte medible. Esta guía cubre lo que dice la investigación, quién corre mayor riesgo cerca de White Rock Lake, las señales de advertencia que deben hacerle terminar el partido temprano y los pasos prácticos para disfrutar del torneo sin terminar en nuestra sala de espera.</p>\n<p>Para los espectadores del este de Dallas, el torneo de 2026 es el evento deportivo más grande que el área metropolitana ha albergado.</p>\n<p>AT&amp;T Stadium está a 28 millas (45 km) de White Rock Lake. Bares, restaurantes y fiestas de transmisión en casa desde Lakewood hasta Lake Highlands se llenarán los días de partido. La literatura médica de urgencias sobre Copas Mundiales anteriores deja claro lo que eso significa para las ER locales.</p>\n<h2>Qué dice realmente la investigación sobre los ataques cardíacos durante la Copa Mundial</h2>\n<p>El estudio fundacional salió de la Copa Mundial de 2006 en Alemania.</p>\n<p>La Dra. Ute Wilbert-Lampen y sus colegas en la Universidad Ludwig Maximilian de Múnich publicaron sus hallazgos en el <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa0707427\" target=\"_blank\" rel=\"noopener noreferrer\">New England Journal of Medicine</a>: las emergencias cardíacas en el área metropolitana de Múnich fueron <strong>2.66 veces más altas los días de partido de Alemania</strong> en comparación con los períodos de control.</p>\n<p>El riesgo estaba marcadamente inclinado por la historia cardíaca previa. Los pacientes con enfermedad coronaria conocida mostraron un <strong>aumento de 3.26 veces</strong>. La ventana de mayor riesgo fue de dos horas a partir del inicio del partido, y la dramática semifinal de Alemania vs Italia produjo el mayor pico de un solo día del torneo.</p>\n<p>Los hallazgos de Wilbert-Lampen se han reproducido en torneos posteriores. Una revisión de 2014 en <a href=\"https://www.bmj.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BMJ Open</a> sobre la Copa Mundial de 2010 en Sudáfrica documentó admisiones elevadas por síndrome coronario agudo entre espectadores hombres mayores. Un análisis del European Heart Journal de 2024 sobre el torneo Euro 2020 (jugado en 2021) extendió el hallazgo a aficionados más jóvenes, con accidente cerebrovascular y fibrilación auricular también en aumento durante los días de partido de alto riesgo.</p>\n<p>Wilbert-Lampen resumió el mecanismo en una sola oración: \"la combinación de estrés emocional, descarga simpática y deshidratación durante un partido de 90 minutos puede desencadenar un evento cardíaco en alguien cuyas arterias coronarias ya eran vulnerables.\"</p>\n<h2>Por qué Dallas es un caso especial en 2026</h2>\n<p>Tres factores se suman al riesgo cardíaco estándar de la Copa Mundial en nuestra área.</p>\n<p><strong>Calor.</strong> Los días de partido en el área de Dallas corren de mediados de junio a mediados de julio. Las temperaturas máximas diarias promedian entre 92 y 98°F (33 a 37°C) con índices de calor que regularmente superan los 105°F (40.5°C). Las fiestas de transmisión al aire libre en Klyde Warren Park, junto al lago o en patios traseros empujan a los espectadores a la ventana de enfermedad por calor que cubrimos en nuestra <a href=\"https://erofwhiterock.com/es/golpe-de-calor-vs-agotamiento-por-calor-texas/\">guía de golpe de calor</a>.</p>\n<p><strong>Alcohol.</strong> Estudios de grandes eventos deportivos vinculan consistentemente el consumo excesivo del día del partido con episodios de fibrilación auricular (\"síndrome del corazón en vacaciones\"), accidentes y eventos de aspiración. Una revisión de 2023 en el Journal of the American College of Cardiology fijó la incidencia de episodios de FA en 2.3 veces la línea base durante los días de partido de la selección nacional en países anfitriones.</p>\n<p><strong>Privación de sueño.</strong> Varios partidos de la región de Dallas se extenderán hasta horas tardías de la noche. Algunos aficionados neutrales también verán partidos en el extranjero desde zonas horarias anteriores. La pérdida de sueño es un detonante independiente documentado tanto para el ataque cardíaco como para el accidente cerebrovascular.</p>\n<h2>¿Quién en el este de Dallas corre el mayor riesgo?</h2>\n<p>La literatura apunta a tres grupos con mayor probabilidad de evento:</p>\n<ol>\n<li><strong>Adultos de 50 años o más con enfermedad cardiovascular conocida.</strong> Ataque cardíaco previo, angina, fibrilación auricular o colocación de stent. El subgrupo de 3.26 veces de Wilbert-Lampen.</li>\n<li><strong>Adultos con hipertensión o diabetes no controladas.</strong> Especialmente si el seguimiento con cardiología se ha retrasado o las renovaciones de medicamentos están atrasadas.</li>\n<li><strong>Personas con patrones de consumo intenso de alcohol.</strong> Seis cervezas durante un partido cuentan. También un tailgate de alta intensidad en AT&amp;T Stadium, donde los partidos de tarde combinan exposición al sol, alcohol y caminata por el estadio.</li>\n</ol>\n<p>Los espectadores más jóvenes sin historia cardíaca previa no están exentos. Los datos de Euro 2020 mostraron adultos sanos de 30 y 40 años presentándose con fibrilación auricular desencadenada por alcohol más estrés.</p>\n<h2>Las señales de advertencia que deben terminar su partido</h2>\n<p>Deje de mirar, salga del bar o salte el resto del juego y llame al 911 o venga a ER of White Rock si presenta cualquiera de estas <a href=\"https://erofwhiterock.com/es/emergencias-cardiovasculares-cerca-de-white-rock-lake/\">señales de advertencia cardiovascular</a>:</p>\n<ul>\n<li><strong>Presión, opresión o dolor en el pecho</strong> que dure más de unos minutos. Puede irradiarse a la mandíbula, cuello, hombro o brazo. La American Heart Association señala que las mujeres más a menudo reportan fatiga, náusea o dolor de espalda en lugar del dolor de pecho clásico.</li>\n<li><strong>Falta de aire repentina</strong> en reposo, especialmente si se combina con mareo.</li>\n<li><strong>Palpitaciones cardíacas</strong> que no paran en 30 minutos, particularmente con opresión en el pecho o desmayo.</li>\n<li><strong>Debilidad repentina</strong> en un lado del cuerpo, caída facial, habla arrastrada o cambio en la vista. El accidente cerebrovascular es tiempo-crítico; use la <a href=\"https://www.cdc.gov/stroke/signs-symptoms/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">prueba F.A.S.T.</a> de los CDC.</li>\n<li><strong>Pérdida de conocimiento o casi desmayo.</strong></li>\n<li><strong>Dolor de cabeza severo</strong> diferente a cualquiera que haya tenido antes.</li>\n</ul>\n<p>El partido no vale perderse la ventana temprana.</p>\n<h2>Cómo el alcohol y el calor multiplican el riesgo</h2>\n<p>La combinación es más peligrosa que cualquiera por separado.</p>\n<p>El alcohol es vasodilatador y diurético. Ensancha los vasos sanguíneos (lo que puede bajar la presión arterial) y le quita líquido al cuerpo. En el verano texano al aire libre, esos efectos aceleran la deshidratación, elevan la frecuencia cardíaca y preparan un ritmo cardíaco inestable.</p>\n<p>La <a href=\"https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm\" target=\"_blank\" rel=\"noopener noreferrer\">hoja informativa de los CDC sobre alcohol</a> y un análisis de 2024 en Lancet Public Health citan ambos patrones del día del evento. Los bebedores que superan las 5 copas en 4 horas durante un evento deportivo triplican el riesgo de episodio de FA frente a los mismos bebedores en días no de evento.</p>\n<p>El Dr. Jorge Brenes-Salazar, cardiólogo en la Clínica Mayo, lo dijo sin rodeos: \"el síndrome del corazón en vacaciones ya no es una rareza; es una consecuencia predecible del consumo excesivo de alcohol, especialmente cuando se combina con estrés y deshidratación.\"</p>\n<p>Para los espectadores del este de Dallas que planean beber durante los partidos:</p>\n<ul>\n<li>Alterne cada bebida alcohólica con agua.</li>\n<li>Coma antes y durante el partido. Un estómago vacío amplifica la absorción.</li>\n<li>Limite las copas totales. La American Heart Association recomienda no más de 2 copas al día para hombres y 1 para mujeres.</li>\n<li>Si tiene FA u otro antecedente de arritmia, hable con su cardiólogo antes del torneo sobre un plan de \"torneo seco\" o un protocolo de pastilla-de-respaldo.</li>\n</ul>\n<h2>Para los aficionados con boletos: consideraciones extra para AT&amp;T Stadium</h2>\n<p>El día es largo. El calor es brutal.</p>\n<ul>\n<li><strong>Medicamentos cardiovasculares.</strong> Traiga sus medicamentos diarios, incluida nitroglicerina si está prescrita. La seguridad del estadio normalmente permite frascos con receta; revise con anticipación la política de bolsas de la FIFA.</li>\n<li><strong>Hidratación previa al juego.</strong> Empiece a tomar agua la mañana anterior y limite el alcohol en el tailgate a una sola copa antes del inicio.</li>\n<li><strong>Protección solar.</strong> AT&amp;T Stadium tiene techo retráctil, pero las temperaturas en el tazón durante partidos de día todavía suben a los 90°F (32°C) en las secciones sin sombra.</li>\n<li><strong>Conozca las estaciones de primeros auxilios del estadio.</strong> Cada concourse tiene una. Si siente opresión en el pecho o mareo extremo, vaya de inmediato. Los equipos médicos del estadio pueden hacer triaje y llamar a EMS más rápido que un viaje de regreso al este de Dallas.</li>\n<li><strong>Planee un conductor designado.</strong> Los partidos de viernes y fin de semana producirán congestión en I-30 y la autopista de cuota. Lo último que quiere es manejar a casa con sueño o ebrio por un corredor saturado.</li>\n</ul>\n<h2>Ver partidos con niños y padres mayores</h2>\n<p>Dos riesgos cruzados que vale la pena señalar.</p>\n<p><strong>Para padres mayores</strong> en Casa View, Forest Hills o Lake Highlands que asisten a una fiesta de transmisión en el patio: la combinación de calor más estrés es exactamente el perfil que ha llenado las ER europeas después de los días de partido. Mantenga a los espectadores mayores adentro con aire acondicionado, hidratados y fuera del ritmo de bebida de la noche.</p>\n<p><strong>Para los niños:</strong> el partido en sí está bien. El riesgo es la caída en la supervisión. Ahogamientos en piscina, quemaduras de cocina y lesiones de niño pequeño desatendidas se disparan durante eventos hogareños de alta atención. Designe a un adulto que no esté viendo o use un sistema de rotación de vigilancia en fiestas de piscina en casa.</p>\n<h2>Cómo ER of White Rock se prepara para el torneo</h2>\n<p>Nuestra instalación en 10705 Northwest Highway está abierta 24/7 durante todo el torneo. Tenemos EKG en el sitio, laboratorios cardíacos (resultados de troponina en menos de 30 minutos), tomografía computarizada para sospecha de accidente cerebrovascular y coordinación directa con hospitales para cualquier paciente que necesite admisión.</p>\n<p>Ventajas prácticas locales durante las semanas de transmisión de la Copa Mundial:</p>\n<ul>\n<li>Estamos a minutos de Lake Highlands y Lakewood. Sin esperas largas en hospital mientras se cierra la ventana de evento cardíaco.</li>\n<li>El triaje hasta evaluación normalmente ocurre dentro de minutos de la entrada, a diferencia de una ER de hospital donde las noches de alto volumen extienden el tiempo puerta a doctor por horas.</li>\n<li>El alta el mismo día es la norma para pacientes a quienes se les descarta síndrome coronario agudo, así que un susto durante un partido de sábado por la tarde no le consume todo el fin de semana.</li>\n</ul>\n<h2>Preguntas Frecuentes</h2>\n<h3>¿Realmente los partidos pueden causar ataques cardíacos?</h3>\n<p>Para personas con enfermedad coronaria existente, sí. El estudio de Wilbert-Lampen en NEJM mostró un pico de 2.66 veces en emergencias cardíacas en los días de partido de Alemania durante la Copa Mundial 2006, con pacientes con infarto previo en 3.26 veces la línea base. El mecanismo es la descarga simpática: la emoción del día del partido libera hormonas del estrés que elevan la frecuencia cardíaca y la presión arterial, estrechan las arterias coronarias y pueden romper una placa inestable.</p>\n<h3>¿Las personas con problemas cardíacos deberían saltarse la Copa Mundial?</h3>\n<p>No, pero deberían prepararse. Tome sus medicamentos en horario, coma una comida normal antes del partido, limite el alcohol a una copa y mire con aire acondicionado. Tenga una lista escrita de síntomas de bandera roja pegada cerca del televisor y sepa dónde está la ER más cercana.</p>\n<h3>¿Por qué el alcohol es un factor tan grande durante la Copa Mundial?</h3>\n<p>El alcohol desencadena episodios de fibrilación auricular (\"corazón en vacaciones\") y deshidrata el cuerpo, lo que estresa la carga cardiovascular. La investigación del JACC vincula 5 o más copas en 4 horas durante eventos deportivos con triplicar el riesgo de episodio de FA.</p>\n<h3>¿Dónde son los partidos de la Copa Mundial 2026 en AT&amp;T Stadium?</h3>\n<p>AT&amp;T Stadium en Arlington alberga nueve partidos de la Copa Mundial FIFA 2026 entre el 14 de junio y el 14 de julio, incluida una cuartos de final y una semifinal. Los espectadores del este de Dallas verán mucho tráfico en I-30 oeste los días de partido; planee tiempo extra de viaje y un plan de regreso sobrio.</p>\n<h3>¿Puede el calor por sí solo causar un evento cardíaco durante un partido?</h3>\n<p>Sí. Las fiestas al aire libre o tailgates con índices de calor superiores a 100°F (38°C) empujan al cuerpo a una sobrecarga de termorregulación, que eleva la frecuencia cardíaca, baja la presión arterial y puede desencadenar eventos cardíacos en espectadores vulnerables. Vea nuestra <a href=\"https://erofwhiterock.com/es/golpe-de-calor-vs-agotamiento-por-calor-texas/\">guía de enfermedad por calor</a> para el panorama completo.</p>\n<h3>¿Qué pasa si tengo FA o tomo anticoagulantes?</h3>\n<p>Hable con su cardiólogo antes del torneo. Muchos pacientes con FA tienen un protocolo de pastilla-de-respaldo (un antiarrítmico oral tomado al inicio del episodio) que puede evitar una visita a la ER. Si no lo tiene, este es el momento de pedirlo.</p>\n<h3>¿Es seguro manejar a casa después de un partido de noche?</h3>\n<p>Solo si está sobrio y bien descansado. La privación del sueño afecta el tiempo de reacción de manera comparable al alcohol en el límite legal. Si no puede mantenerse alerta, quédese a pasar la noche o use un servicio de viaje compartido.</p>\n<h2>En resumen</h2>\n<p>La Copa Mundial 2026 en Dallas es un evento único en una generación.</p>\n<p>La literatura médica es clara: los días de partido de alto riesgo elevan las tasas de eventos cardíacos y de accidente cerebrovascular en las áreas metropolitanas anfitrionas, especialmente entre aficionados mayores, bebedores y personas con enfermedad cardiovascular existente. Prepárese como lo haría para un día largo al aire libre. Hidrátese. Tome los medicamentos. Coma comida real. Limite el alcohol. Vigile el calor. Conozca las señales tempranas de advertencia.</p>\n<p>Si algo se siente mal durante un partido, entre caminando a ER of White Rock o llame al (469) 943-2939. Estamos abiertos 24/7, a minutos de su casa, listos para descartar un evento serio antes de que lo sea.</p>",
+      "excerpt": "Las visitas cardíacas a la ER suben entre 25 y 30 por ciento durante la Copa Mundial. El estrés de los partidos, la deshidratación y las señales de advertencia ignoradas explican por qué. Aquí lo que hay que vigilar durante los partidos de Dallas 2026.",
+      "modified": "2026-07-22 09:28:03",
+      "created": "2026-05-15 05:15:13",
+      "author": "ER of White Rock",
+      "author_id": 4,
+      "url": "https://erofwhiterock.com/es/copa-mundial-2026-dallas-er-cardiaco/",
+      "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5122&action=edit",
+      "has_elementor": false,
+      "elementor_data": null,
+      "word_count": 2452
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "arguments": {
+      "post_id": 5122
+    },
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 5122,
+        "url": "https://erofwhiterock.com/es/copa-mundial-2026-dallas-er-cardiaco/",
+        "captured_at_utc": "2026-09-09 16:16:17",
+        "body_sha1": "706597af980da112b00f650af030ac94f08beb1e",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Copa Mundial 2026 Dallas: Riesgos ER en Días de Partido"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "La Copa Mundial 2026 en Dallas eleva las visitas cardíacas a la ER entre 25 y 30 por ciento los días de partido. Vea señales y cuándo necesita la ER."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/es/copa-mundial-2026-dallas-er-cardiaco/",
+            "requested_url": "https://erofwhiterock.com/es/copa-mundial-2026-dallas-er-cardiaco/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Copa Mundial 2026 en Dallas: Por Qué las Visitas a la ER se Disparan Durante los"
+              },
+              {
+                "level": "h2",
+                "text": "Qué dice realmente la investigación sobre los ataques cardíacos durante la Copa "
+              },
+              {
+                "level": "h2",
+                "text": "Por qué Dallas es un caso especial en 2026"
+              },
+              {
+                "level": "h2",
+                "text": "¿Quién en el este de Dallas corre el mayor riesgo?"
+              },
+              {
+                "level": "h2",
+                "text": "Las señales de advertencia que deben terminar su partido"
+              },
+              {
+                "level": "h2",
+                "text": "Cómo el alcohol y el calor multiplican el riesgo"
+              },
+              {
+                "level": "h2",
+                "text": "Para los aficionados con boletos: consideraciones extra para AT&T Stadium"
+              },
+              {
+                "level": "h2",
+                "text": "Ver partidos con niños y padres mayores"
+              },
+              {
+                "level": "h2",
+                "text": "Cómo ER of White Rock se prepara para el torneo"
+              },
+              {
+                "level": "h2",
+                "text": "Preguntas Frecuentes"
+              },
+              {
+                "level": "h2",
+                "text": "En resumen"
+              },
+              {
+                "level": "h2",
+                "text": "Últimas Publicaciones:"
+              },
+              {
+                "level": "h2",
+                "text": "Enlaces Rápidos"
+              },
+              {
+                "level": "h2",
+                "text": "Área de Servicio"
+              },
+              {
+                "level": "h2",
+                "text": "Póngase en Contacto"
+              },
+              {
+                "level": "h3",
+                "text": "¿Realmente los partidos pueden causar ataques cardíacos?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Las personas con problemas cardíacos deberían saltarse la Copa Mundial?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Por qué el alcohol es un factor tan grande durante la Copa Mundial?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Dónde son los partidos de la Copa Mundial 2026 en AT&T Stadium?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Puede el calor por sí solo causar un evento cardíaco durante un partido?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Qué pasa si tengo FA o tomo anticoagulantes?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Es seguro manejar a casa después de un partido de noche?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Cuánto Dura una Visita a la Sala de Emergencias? El Recorrido Paso a Paso"
+              },
+              {
+                "level": "h3",
+                "text": "¿Se Golpeó la Cabeza? Cuándo Ir a la Sala de Emergencias y Cuándo Observar en Ca"
+              },
+              {
+                "level": "h3",
+                "text": "Emergencias por Enfermedades Infecciosas y Transmitidas por Vectores cerca de Wh"
+              },
+              {
+                "level": "h4",
+                "text": "Tabla de Contenido"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 6,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 76,
+            "internal": 64,
+            "content_internal": 12,
+            "listed": 76,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "2221d7ce741ff772f19d9d6699aa23455a75e6307f5543e5dae9bf89bc9dd557",
+      "facts_sha256": "35b7a8fde49c5def2ce5df23eeb1f5ca90d8c0e9583a88b5bda52fcbc70f95e8",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "draft_update_post_content",
+    "arguments": {
+      "post_id": 5122,
+      "content": "<p>Los partidos del Mundial 2026 en el área de Dallas ya terminaron. Las preguntas de salud que surgieron durante las reuniones y los días largos de eventos siguen siendo útiles: cuándo buscar ayuda, cómo prepararse para el calor y qué dice realmente la investigación.</p>\n<p>Un estudio del Mundial 2006 encontró más emergencias cardíacas en los días en que jugaba Alemania. No estudió Dallas en 2026 ni demuestra que todos los aficionados tengan el mismo riesgo. Esta guía distingue esa evidencia de los pasos prácticos para futuros eventos deportivos.</p>\n<p>Para familias de White Rock Lake, Lake Highlands y Lakewood, conviene reconocer las señales de alarma, seguir el plan médico indicado y organizar un regreso seguro.</p>\n<h2>Qué dice realmente la investigación sobre el Mundial y los ataques cardíacos</h2>\n<p>Ute Wilbert-Lampen y sus colegas estudiaron las emergencias cardíacas en el área de Múnich durante el Mundial 2006. Su <a href=\"https://pubmed.ncbi.nlm.nih.gov/18234752/\">estudio publicado</a> encontró una incidencia 2,66 veces mayor que en los períodos de control durante los días en que jugaba Alemania.</p>\n<p>La cifra de 3,26 correspondía a los hombres, no al subgrupo con enfermedad coronaria. Fue un estudio observacional de un torneo y una región. No permite calcular un aumento de visitas a emergencias en Dallas durante 2026 ni predecir el riesgo de una persona.</p>\n<h2>Qué significó el verano de 2026 para Dallas</h2>\n<p>Los partidos de Dallas se celebraron en verano. Por eso, prepararse para el calor al aire libre era relevante. Sin embargo, eso no demuestra un aumento local de emergencias cardíacas. Aquí no se presenta un conjunto de datos de pacientes de Dallas en 2026.</p>\n<p>Para otros eventos, revise el pronóstico y las indicaciones actuales del recinto. Aunque su asiento esté bajo techo, puede exponerse al calor al caminar, esperar afuera o viajar. Nuestra <a href=\"https://erofwhiterock.com/es/golpe-de-calor-vs-agotamiento-por-calor-texas/\">guía sobre enfermedades por calor</a> explica las señales de alarma.</p>\n<h2>Quién debe hablar con su médico antes de asistir</h2>\n<p>Las personas con enfermedades cardíacas deben consultar a su profesional de salud sobre sus planes. La edad, las enfermedades del corazón, la presión alta y el alcohol son factores que analiza la <a href=\"https://www.heart.org/en/health-topics/atrial-fibrillation/who-is-at-risk-for-atrial-fibrillation-af-or-afib\">guía de fibrilación auricular de la American Heart Association</a> (en inglés).</p>\n<p>Pregunte por sus síntomas, actividad y horario de medicamentos. No suspenda, agregue ni cambie un medicamento por un artículo o un horario deportivo. Ser joven no hace seguro ignorar señales nuevas de alarma.</p>\n<h2>Las señales de alarma que requieren dejar de ver el partido</h2>\n<p>Llame al 911 ante posibles síntomas de ataque cardíaco o accidente cerebrovascular. No espere al descanso, a un viaje de regreso ni a una llamada de la oficina médica. La <a href=\"https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack\">American Heart Association describe las señales de ataque cardíaco</a> (en inglés).</p>\n<ul><li>Presión o molestias en el pecho, especialmente con falta de aire, sudor o mareo.</li><li>Caída repentina de un lado de la cara, debilidad en un brazo o dificultad para hablar.</li><li>Colapso o pérdida del conocimiento.</li><li>Palpitaciones con dolor de pecho, desmayo o dificultad intensa para respirar.</li></ul>\n<p>No use una regla de esperar 30 minutos si las palpitaciones vienen con síntomas graves. Consulte la <a href=\"https://www.cdc.gov/stroke/es/signs-symptoms/signos-y-sintomas-de-accidente-cerebrovascular.html\">guía de los CDC sobre accidente cerebrovascular</a> y nuestra <a href=\"https://erofwhiterock.com/es/emergencias-cardiovasculares-cerca-de-white-rock-lake/\">guía de emergencias cardiovasculares</a>.</p>\n<h2>Cómo influyen el alcohol y el calor</h2>\n<p>El consumo excesivo de alcohol se relaciona con problemas cardiovasculares, incluidas las arritmias. La <a href=\"https://professional.heart.org/en/science-news/alcohol-use-and-cardiovascular-disease/top-things-to-know\">declaración científica de la American Heart Association</a> analiza esos riesgos (en inglés). No establece un multiplicador fijo para una reunión en Dallas.</p>\n<p>Cuando haga calor, planifique descansos en lugares frescos y acceso a agua. Respete cualquier restricción de líquidos que le haya indicado su médico. Los <a href=\"https://www.cdc.gov/heat-health/about/index.html\">CDC aconsejan mantenerse fresco, hidratarse y reconocer los síntomas de enfermedad por calor</a> (en inglés).</p>\n<p>El agua, la comida o un conductor designado no hacen que beber sea médicamente seguro para todos. Pregunte si debe evitar el alcohol, especialmente si tiene fibrilación auricular o toma medicamentos que interactúan con él.</p>\n<h2>Para asistentes a futuros eventos en AT&amp;T Stadium</h2>\n<p>Revise las reglas actuales del recinto sobre medicamentos, agua, bolsas y asistencia médica. No suponga que las reglas del Mundial siguen vigentes para otro evento.</p>\n<ul><li>Lleve una lista de medicamentos y un contacto de emergencia.</li><li>Ubique la asistencia médica al llegar; no suponga que hay un puesto en cada pasillo.</li><li>Avise al personal y llame al 911 ante síntomas graves.</li><li>Organice un conductor sobrio u otro transporte seguro antes del evento.</li></ul>\n<h2>Ver partidos con niños y familiares mayores</h2>\n<p>Elija un lugar cómodo, permita descansos y esté pendiente de su familia cuando haga calor. Los adultos mayores y los niños pequeños pueden necesitar protección adicional. Mantenga a los niños supervisados cerca de piscinas, calles y zonas de cocina, incluso durante un partido emocionante.</p>\n<p>Acuerden quién cuidará a los niños y quién ayudará a un familiar que se sienta mal. Es un plan práctico, no una afirmación de que las lesiones aumenten durante cada partido.</p>\n<h2>Atención de emergencia en ER of White Rock</h2>\n<p>ER of White Rock está en 10705 Northwest Hwy, Dallas, TX 75238 y abre las 24 horas. El equipo evalúa síntomas, determina qué pruebas se necesitan y coordina el traslado cuando hace falta atención hospitalaria.</p>\n<p>Los tiempos de espera y de las pruebas varían. El equipo médico le explicará las pruebas, los resultados y los siguientes pasos para su condición. Ante un posible ataque cardíaco o derrame cerebral, llame al 911.</p>\n<h2>Preguntas frecuentes</h2>\n<h3>¿Ver un partido puede causar un ataque cardíaco?</h3>\n<p>Algunas investigaciones han encontrado una asociación entre partidos estresantes y emergencias cardíacas. Eso no significa que un partido cause un evento en cada espectador. Consulte sus riesgos personales con su médico.</p>\n<h3>¿Las personas con enfermedades cardíacas deben evitar los eventos deportivos?</h3>\n<p>No hay una respuesta única. Consulte sobre actividad, calor, alcohol y síntomas que requieren ayuda. Continúe el tratamiento indicado, salvo que su médico lo cambie.</p>\n<h3>¿Por qué importa el alcohol?</h3>\n<p>El alcohol puede contribuir a problemas del ritmo cardíaco. Si tiene fibrilación auricular, consulte con su profesional de salud. Un límite arbitrario de bebidas por partido no es un plan de seguridad personalizado.</p>\n<h3>¿Cuándo fueron los partidos del Mundial en el área de Dallas?</h3>\n<p>Los partidos del área de Dallas se celebraron en junio y julio de 2026. El <a href=\"https://www.fifa.com/en/en/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums\">calendario oficial de la FIFA</a> incluye la semifinal de Dallas el 14 de julio. Para próximas visitas, consulte la información del evento correspondiente.</p>\n<h3>¿El calor puede afectar la salud del corazón?</h3>\n<p>El calor puede empeorar enfermedades existentes, incluidas las cardíacas. Planifique descansos en lugares frescos y consulte sobre un plan adecuado para su salud y sus medicamentos.</p>\n<h3>¿Qué hago si tengo fibrilación auricular o tomo anticoagulantes?</h3>\n<p>Siga el plan que le dio su profesional de salud. No empiece un medicamento de rescate ni cambie un anticoagulante sin indicaciones. Busque ayuda urgente ante síntomas graves o desconocidos.</p>\n<h3>¿Es seguro manejar después de un partido nocturno?</h3>\n<p>Organice otro transporte si ha bebido, está demasiado cansado para conducir o se siente mal. Los síntomas médicos graves requieren ayuda de emergencia, no un viaje por la ciudad.</p>\n<h2>Prepárese y actúe ante los síntomas</h2>\n<p>Tenga disponibles su plan médico, contacto de emergencia y transporte. Disfrute del evento y tome en serio los síntomas nuevos. Llame al 911 ante un posible ataque cardíaco, accidente cerebrovascular u otra emergencia que amenace la vida.</p>",
+      "summary": "WR-09: correct outdated and unsupported World Cup medical claims",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1805,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "current_length": 15821,
+      "proposed_length": 8921,
+      "character_delta": -6900,
+      "lint": {
+        "pass": false,
+        "pass_count": 17,
+        "fail_count": 2,
+        "failed": [
+          "reading_level",
+          "phone_number_preservation"
+        ],
+        "introduced": [
+          "phone_number_preservation"
+        ],
+        "pre_existing": [
+          "reading_level"
+        ]
+      },
+      "warnings": [],
+      "render_baseline": "captured"
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "arguments": {
+      "post_id": 5122,
+      "field": "post_title",
+      "value": "Mundial 2026 y Salud Cardíaca: Qué Dice la Evidencia",
+      "summary": "WR-09: align the World Cup post_title with the corrected evidence",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1806,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "arguments": {
+      "post_id": 5122,
+      "field": "post_excerpt",
+      "value": "Qué dice la investigación del Mundial sobre la salud cardíaca y cómo prepararse para el calor, el alcohol y los síntomas urgentes en East Dallas.",
+      "summary": "WR-09: align the World Cup post_excerpt with the corrected evidence",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1807,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "arguments": {
+      "post_id": 5122,
+      "logical_key": "title",
+      "value": "Mundial 2026 y Salud Cardíaca: Qué Dice la Evidencia",
+      "summary": "WR-09: correct World Cup SEO title",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1808,
+      "resolved_to": "rank_math_title",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "arguments": {
+      "post_id": 5122,
+      "logical_key": "description",
+      "value": "Qué dice la investigación del Mundial sobre la salud cardíaca y cómo prepararse para el calor, el alcohol y los síntomas urgentes en East Dallas.",
+      "summary": "WR-09: correct World Cup SEO description",
+      "reasoning": "WR-09: correct the World Cup study subgroup, remove unverified quotes/studies and Dallas spike claims, update event timing and emergency advice. Same section hierarchy; substantive accuracy correction. Clinical team should review the revised article."
+    },
+    "isError": false,
+    "result": {
+      "pending_id": 1809,
+      "resolved_to": "rank_math_description",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": []
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[container 087fdede] {"background_color": "#EEEEEE", "flex_direction": "row", "padding": {"unit": "%", "top": "3", "right": "8", "bottom": "1", "left": "8", "isLinked": false}, "content_width": "full"}
+  [container 2eb87ec4] {"flex_direction": "column", "width": {"size": 58, "unit": "%"}, "content_width": "full"}
+    - image (2d57e696)
+        img id 3012 https://erofirving.com/wp-content/uploads/2025/02/ER-of-Irving-Official-ERLogo.png | w {"unit": "px", "size": 190, "sizes": []} | alt 'ER of Irving logo'
+    - text-editor (decf1421)
+        text: 'Freestanding 24/7 emergency room serving Irving, TX and the surrounding communities. Experienced emergency physicians, on-site imaging and lab, no appointment needed.'
+        links: []
+  [container a39a72ed] {"flex_direction": "column", "width": {"size": 38, "unit": "%"}, "content_width": "full"}
+    - heading (74fdfbc1)
+        title: 'Follow Us on' | size {"unit": "px", "size": 18, "sizes": []} | color #1C244B | tag h3 | align None
+    - social-icons (2aaa2ad6)
+        icons: [('fab fa-facebook-f', 'https://www.facebook.com/erofirving/'), ('fab fa-instagram', 'https://www.instagram.com/erofirving/'), ('fab fa-x-twitter', 'https://x.com/ERofIrving'), ('fab fa-linkedin-in', 'https://www.linkedin.com/company/er-of-irving-emergency-room'), ('fab fa-yelp', 'https://www.yelp.com/biz/er-of-irving-irving')]
+        shape None | color custom primary #13131300 secondary #545454 | size {"unit": "px", "size": 19, "sizes": []} | align left
+[container 1f3e14fa] {"background_color": "#EEEEEE", "flex_direction": "row", "padding": {"unit": "%", "top": "2", "right": "8", "bottom": "3", "left": "8", "isLinked": false}, "content_width": "full"}
+  [container da578321] {"flex_direction": "column", "width": {"size": 24, "unit": "%"}, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "content_width"
+    - heading (db9b7edb)
+        title: 'Emergency Services' | size {"unit": "px", "size": 18, "sizes": []} | color #1C244B | tag h3 | align None
+    - icon-list (d48c1140)
+        * 'Chest Pain & Heart Attack' -> https://erofirving.com/services/chest-pain-treatment/ | icon fas fa-angle-right
+        * 'Stroke Care' -> https://erofirving.com/services/expert-stroke-care/ | icon fas fa-angle-right
+        * 'Pediatric Emergencies' -> https://erofirving.com/services/pediatric-care/ | icon fas fa-angle-right
+        * 'Broken Bones & Fractures' -> https://erofirving.com/services/fractures-treatment/ | icon fas fa-angle-right
+        * 'Diagnostic Imaging' -> https://erofirving.com/services/diagnostic-imaging-services/ | icon fas fa-angle-right
+        * 'View All Services' -> https://erofirving.com/emergency-services-er-of-irving/ | icon fas fa-angle-right
+        icon_color #DA1212 | text_color #324A6D | size {"unit": "px", "size": 13, "sizes": []} | space {"unit": "px", "size": 12, "sizes": []} | typo {'unit': 'px', 'size': 15, 'sizes': []}
+  [container 0e4c5ce2] {"flex_direction": "column", "width": {"size": 20, "unit": "%"}, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "content_width"
+    - heading (2a2a074a)
+        title: 'Areas We Serve' | size {"unit": "px", "size": 18, "sizes": []} | color #1C244B | tag h3 | align None
+    - icon-list (097c71fa)
+        * 'Coppell' -> https://erofirving.com/emergency-services-in-coppell-tx/ | icon fas fa-angle-right
+        * 'Grand Prairie' -> https://erofirving.com/emergency-services-in-grand-prairie-tx/ | icon fas fa-angle-right
+        * 'Carrollton' -> https://erofirving.com/emergency-services-in-carrollton-tx | icon fas fa-angle-right
+        * 'Farmers Branch' -> https://erofirving.com/emergency-services-in-farmers-branch-tx/ | icon fas fa-angle-right
+        * 'Euless' -> https://erofirving.com/emergency-services-in-euless-tx/ | icon fas fa-angle-right
+        * 'Arlington' -> https://erofirving.com/emergency-services-in-arlington-tx/ | icon fas fa-angle-right
+        icon_color #DA1212 | text_color #324A6D | size {"unit": "px", "size": 13, "sizes": []} | space {"unit": "px", "size": 12, "sizes": []} | typo {'unit': 'px', 'size': 15, 'sizes': []}
+  [container 28ff4459] {"flex_direction": "column", "width": {"size": 22, "unit": "%"}, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "content_width"
+    - heading (69eb6b57)
+        title: 'Company' | size {"unit": "px", "size": 18, "sizes": []} | color #1C244B | tag h3 | align None
+    - icon-list (5b3dd9aa)
+        * 'About Us' -> https://erofirving.com/about-er-of-irving/ | icon fas fa-angle-right
+        * 'Blog' -> https://erofirving.com/blog/ | icon fas fa-angle-right
+        * 'Insurance & Billing' -> https://erofirving.com/insurance-billing-info/ | icon fas fa-angle-right
+        * 'Careers' -> https://erofirving.com/careers/ | icon fas fa-angle-right
+        * 'Letter of Protection' -> https://erofirving.com/letter-of-protection/ | icon fas fa-angle-right
+        * 'Contact Us' -> https://erofirving.com/contact-us/ | icon fas fa-angle-right
+        icon_color #DA1212 | text_color #324A6D | size {"unit": "px", "size": 13, "sizes": []} | space {"unit": "px", "size": 12, "sizes": []} | typo {'unit': 'px', 'size': 15, 'sizes': []}
+  [container d6fbbe56] {"flex_direction": "column", "width": {"size": 30, "unit": "%"}, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "content_width"
+    - heading (f4071ba1)
+        title: 'Get In Touch' | size {"unit": "px", "size": 18, "sizes": []} | color #1C244B | tag h3 | align None
+    - text-editor (c9ad6846)
+        text: '8200 N MacArthur Blvd, Suite 110, Irving, TX 75063'
+        links: ['https://www.google.com/maps/place/ER+of+Irving+-+Emergency+Room/@32.9211132,-96.9603543,1893m/data=!3m2!1e3!5s0x864c285190fada5b:0xb45485e035455a4c!4m6!3m5!1s0x864c29c2eb04c991:0x6bf812824049f6ff!8m2!3d32.9211132!4d-96.9577794!16s%2Fg%2F11sw1nr9vw!5m1!1e1?entry=ttu&amp;g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D']
+    - icon-list (235696c0)
+        * '(972) 893-3148' -> None | icon fas fa-phone-alt
+        * 'info@erofirving.com' -> # | icon far fa-envelope
+        * 'medicalrecords@erofirving.com' -> # | icon far fa-envelope
+        * 'Open 24/7/365' -> None | icon far fa-clock
+        * 'Get Directions' -> https://www.google.com/maps/place/ER+of+Irving+-+Emergency+Room/@32.9211132,-96.9577794,17z/data=!3m1!4b1!4m6!3m5!1s0x864c29c2eb04c991:0x6bf812824049f6ff!8m2!3d32.9211132!4d-96.9577794!16s%2Fg%2F11sw1nr9vw | icon fas fa-map-marker-alt
+        icon_color #DA1212 | text_color #324A6D | size {"unit": "px", "size": 15, "sizes": []} | space {"unit": "px", "size": 12, "sizes": []} | typo {'unit': 'px', 'size': 15, 'sizes': []}
+    - text-editor (ac7f4d3)
+        text: 'Corporate Office\n5800 Campus Cir Dr, Suite 200A\nIrving, TX 75063\n(469) 501-1520'
+        links: ['tel:+14695011520']
+[container 8c591b8c] {"background_color": "#11468F", "flex_direction": "column", "padding": {"unit": "%", "top": "1.5", "right": "8", "bottom": "1.5", "left": "8", "isLinked": false}, "content_width": 
+  - heading (cb48e78d)
+      title: 'Licensed by the Texas Department of State Health Services (License #160529)  ·  Proud member of NAFEC and TAFEC' | size {"unit": "px", "size": 13, "sizes": []} | color #FFFFFF | tag p | align center
+  - heading (7ebf4614)
+      title: 'Disclaimer: The information on this website is for general educational purposes and should not be considered professional medical advice. Reading or viewing this content does not establish a doctor-patient relationship. For medical emergencies, please call 911 or visit your nearest emergency room.' | size {"unit": "px", "size": 13, "sizes": []} | color #FFFFFF | tag p | align center
+[container fdc50603] {"background_color": "#0E3E7E", "flex_direction": "row", "padding": {"unit": "%", "top": "1", "right": "5", "bottom": "1", "left": "5", "isLinked": false}, "content_width": "full"}
+  - heading (6c8fb38a)
+      title: '© 2026 ER of Irving. All Rights Reserved.' | size {"unit": "px", "size": 15, "sizes": []} | color #FFFFFF | tag p | align left
+  - text-editor (7182682)
+      text: 'Privacy Policy&nbsp;&middot;&nbsp;Terms of Use&nbsp;&middot;&nbsp;HIPAA Notice&nbsp;&middot;&nbsp;Medical Disclaimer&nbsp;&middot;&nbsp;Billing Disclosures&nbsp;&middot;&nbsp;Cookie Policy&nbsp;&middot;&nbsp;Accessibility&nbsp;&middot;&nbsp;Editorial Policy'
+      links: ['https://erofirving.com/privacy-policy/', 'https://erofirving.com/terms-and-conditions/', 'https://erofirving.com/notice-of-privacy-practices/', 'https://erofirving.com/medical-disclaimer/', 'https://erofirving.com/billing-disclosures/', 'https://erofirving.com/cookie-policy/', 'https://erofirving.com/accessibility-statement/', 'https://erofirving.com/editorial-policy/']
+  - heading (1bd3ed00)
+      title: 'Design and Developed by TheNextGenHealth' | size {"unit": "px", "size": 15, "sizes": []} | color #FFFFFF | tag p | align right

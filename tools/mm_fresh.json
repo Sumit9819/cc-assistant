@@ -1,0 +1,32 @@
+[
+ {
+  "route": "cc-assistant/v1/posts/45/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/fresh_45.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/39/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/fresh_39.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/43/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/fresh_43.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/41/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/fresh_41.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/37/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/fresh_37.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/47/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/fresh_47.json"
+ }
+]

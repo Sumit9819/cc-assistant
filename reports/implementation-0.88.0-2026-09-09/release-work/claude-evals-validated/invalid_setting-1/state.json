@@ -1,0 +1,99 @@
+{
+  "trace": [
+    {
+      "tool": "get_site_memory",
+      "arguments": {},
+      "result": {
+        "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials.",
+        "memory_consistency": {
+          "findings": [],
+          "precedence": "Historical recipes do not establish ranking effects. Preserve actual operator constraints and use fresh evidence."
+        }
+      }
+    },
+    {
+      "tool": "get_plugin_settings",
+      "arguments": {
+        "slug": "repair-plugin"
+      },
+      "result": {
+        "slug": "repair-plugin",
+        "installed": true,
+        "active": true,
+        "version": "1.0.0",
+        "options": [
+          {
+            "option": "repair_options",
+            "value": {
+              "layout": "grid"
+            }
+          }
+        ],
+        "capability_evidence": {
+          "available_features": "unknown"
+        }
+      }
+    },
+    {
+      "tool": "inspect_plugin_capability",
+      "arguments": {
+        "slug": "repair-plugin",
+        "option_name": "repair_options",
+        "path": "layout",
+        "proposed_value": "orbit"
+      },
+      "result": {
+        "slug": "repair-plugin",
+        "installed": true,
+        "active": true,
+        "version": "1.0.0",
+        "controls": [
+          {
+            "option_name": "repair_options",
+            "path": "layout",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "grid",
+                "list"
+              ]
+            },
+            "schema_source": "wordpress_settings_registry_this_request",
+            "validation": {
+              "status": "rejected",
+              "code": "setting_schema_invalid",
+              "message": "orbit is not one of grid, list"
+            }
+          }
+        ],
+        "feature_effect": "unverified"
+      }
+    },
+    {
+      "tool": "draft_update_plugin_setting",
+      "arguments": {
+        "option_name": "repair_options",
+        "path": "layout",
+        "value": "orbit",
+        "dry_run": true,
+        "summary": "Dry run: check whether repair_options.layout accepts \"orbit\"",
+        "reasoning": "Operator requested layout=orbit. Verifying against the registered schema before any queueing; no substitute value will be proposed."
+      },
+      "result": {
+        "error": "setting_schema_invalid",
+        "message": "No setting change was queued."
+      }
+    },
+    {
+      "tool": "list_pending_changes",
+      "arguments": {},
+      "result": {
+        "pending": []
+      }
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

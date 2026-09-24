@@ -1,0 +1,128 @@
+{
+  "_note": "Definitive in-body image list for irvingwellnessclinic.com, built by VIEWING every file. Filenames on this channel are Canva template leftovers and repeatedly lie, so `title` below is what the graphic actually SAYS, not what the file is called. Excluded: featured-image deliveries, the operator-rejected Weight Loss.png, 2 files deleted from Slack, and superseded revisions.",
+  "channel": "C0B7GPVQCG3",
+  "total": 81,
+  "excluded": {
+    "rejected_by_operator": ["F0BJKQTQ1D3"],
+    "deleted_from_slack": ["F0BL69QN02H", "F0BLNV4R9S8"],
+    "brand_assets_not_blog": ["F0B7Y0BT482", "F0B7ZQRTMDF"],
+    "superseded_newest_wins": ["F0BB1N8CTMK", "F0BBZCUBD8Q", "F0BM3DG3XA4", "F0BKU78UNG7"],
+    "featured_images_already_placed": ["F0BKTRBFATD", "F0BKTU46UJF", "F0BL243A6E7", "F0BKZ2Q5FMY", "F0B9AS36MQB", "F0BABG0HLRE", "F0B9AS3PH19"]
+  },
+  "posts": [
+    { "post_id": 8563, "slug": "chemical-peel-treatment-guide", "anchor": 0, "viewed": true, "files": [
+      { "id": "F0BLSBE7HGE", "title": "How Chemical Peels Work" },
+      { "id": "F0BLSBF1Q3G", "title": "Common Conditions Treated" },
+      { "id": "F0BLSBF2CB0", "title": "Who Benefits Most" },
+      { "id": "F0BLN3UHX5H", "title": "Step-by-Step Procedure" } ] },
+
+    { "post_id": 9462, "slug": "weight-loss-resistance-causes", "viewed": true, "files": [
+      { "id": "F0BAD1RNKJ4", "title": "When Dieting Fails" },
+      { "id": "F0B9LJ0SUTT", "title": "Toxins and Hormonal Disruption" },
+      { "id": "F0B9LJ19AGH", "title": "Reigniting Metabolism Naturally", "defect": "Labels describe the PROBLEM (Toxin Block / Signal Disrupt / Fat Storage), not the solution the title promises." } ] },
+
+    { "post_id": 10043, "slug": "world-cup-2026-heat-safety-arlington-spectators", "anchor": 1, "viewed": true, "note": "7 images on a 1,983-word post is dense; consider trimming.", "files": [
+      { "id": "F0BAP9C8RHN", "title": "Unacclimatized Visitors" },
+      { "id": "F0BAZMBH125", "title": "Earliest Signs of Dehydration" },
+      { "id": "F0BBS525KSL", "title": "Heat Exhaustion vs Heat Stroke" },
+      { "id": "F0BAVQ4JSJ2", "title": "World Cup Gear List" },
+      { "id": "F0BARFGA03V", "title": "Hydration Guide" },
+      { "id": "F0BB1F5L0A0", "title": "Stadium Heat Safety" },
+      { "id": "F0BB84XNFSQ", "title": "Know Where To Go" } ] },
+
+    { "post_id": 9871, "slug": "choose-weight-loss-clinic", "viewed": true, "note": "Intro + exactly 7 questions + closing, matching the post title.", "files": [
+      { "id": "F0BB8NTEXCL", "title": "Choose Smart" },
+      { "id": "F0BB8NTK19S", "title": "Qualified Providers" },
+      { "id": "F0BBZCQT0CQ", "title": "Start Bloodwork" },
+      { "id": "F0BBZCRTV3J", "title": "FDA or Compounded" },
+      { "id": "F0BAPN04XB9", "title": "Transparent Pricing", "revision_of": "F0BB1N8CTMK" },
+      { "id": "F0BAPPX8XAT", "title": "Maintenance Plan", "revision_of": "F0BBZCUBD8Q", "note": "Newer version FIXES duplicated labels in the original." },
+      { "id": "F0BAYP2SDV1", "title": "Watch Progress" },
+      { "id": "F0BAPKSLXAB", "title": "Program vs Diet" },
+      { "id": "F0BB6V1TQBT", "title": "Red Flags to Avoid" } ] },
+
+    { "post_id": 10192, "slug": "not-losing-weight-on-semaglutide", "viewed": true, "files": [
+      { "id": "F0BKLR97CEM", "title": "When Does It Stop Working", "anchor": 1 },
+      { "id": "F0BKLRED265", "title": "On Semaglutide", "anchor": 2 },
+      { "id": "F0BKGU4BDQW", "title": "Medical Reasons", "anchor": 3 },
+      { "id": "F0BKLRUNK09", "title": "When Semaglutide Stops Working" },
+      { "id": "F0BKH2HU78W", "title": "Restart Your Progress" } ] },
+
+    { "post_id": 10191, "slug": "hormone-pellets-vs-injections-vs-creams", "anchor": 1, "viewed": true, "note": "REVISED SET (14:26). Supersedes the 13:47 batch entirely.", "files": [
+      { "id": "F0BL1U1PQJV", "title": "Pellets, Injections or Creams" },
+      { "id": "F0BKJKDCDBR", "title": "Pellets vs Injections vs Creams" },
+      { "id": "F0BKTPAK9EX", "title": "Hormone Pellet Therapy" },
+      { "id": "F0BKWN0H18V", "title": "Hormone Injections Pros and Cons", "defect": "Six icons with NO text labels. Unreadable to a screen reader; looks unfinished." },
+      { "id": "F0BL1U2T6BT", "title": "Hormone Creams and Gels", "defect": "Typo: 'Slow Tiration' should be 'Slow Titration'." },
+      { "id": "F0BLUASU68G", "title": "Compounded Hormones Society Positions" } ] },
+
+    { "post_id": 8559, "slug": "top-3-anti-aging-treatments-fine-lines-wrinkles", "anchor": 0, "viewed": "partial", "files": [
+      { "id": "F0BL9HZBQE6", "title": "UNVERIFIED - 1.png" },
+      { "id": "F0BL7414QEA", "title": "UNVERIFIED - 2.png" },
+      { "id": "F0BL5QPULLD", "title": "UNVERIFIED - 3.png" },
+      { "id": "F0BL6AF81CM", "title": "Restore Lost Volume" },
+      { "id": "F0BL9P8SKFU", "title": "Retinoids for Daily Care" } ] },
+
+    { "post_id": 8567, "slug": "empower-your-wellness-journey", "viewed": "partial", "files": [
+      { "id": "F0BLM6M3N01", "title": "UNVERIFIED - 1.png" },
+      { "id": "F0BLNV60X9S", "title": "UNVERIFIED - 3.png" },
+      { "id": "F0BLM6QCMT3", "title": "UNVERIFIED - 4.png" },
+      { "id": "F0BMDK478V6", "title": "Evidence-Based Nutrition" } ] },
+
+    { "post_id": 9402, "slug": "trt-benefits-for-men", "viewed": false, "files": [
+      { "id": "F0BBKM6AZ6G", "title": "UNVERIFIED - 16.png" },
+      { "id": "F0BCAAZCG80", "title": "UNVERIFIED - 17.png" },
+      { "id": "F0BBHTE8K4Z", "title": "UNVERIFIED - 18.png" },
+      { "id": "F0BBKM8UQ0L", "title": "UNVERIFIED - 19.png" },
+      { "id": "F0BB9MKKRLK", "title": "UNVERIFIED - 20.png" },
+      { "id": "F0BB0J7CWMV", "title": "UNVERIFIED - 21.png" } ] },
+
+    { "post_id": 9389, "slug": "progesterone-deficiency-symptoms", "viewed": false, "files": [
+      { "id": "F0BL3F5JMKN", "title": "UNVERIFIED - 5.png" },
+      { "id": "F0BKXQ9TMUN", "title": "UNVERIFIED - 6.png" },
+      { "id": "F0BL3F2DFUL", "title": "UNVERIFIED - 7.png" },
+      { "id": "F0BL3F43068", "title": "UNVERIFIED - 8.png" },
+      { "id": "F0BL3F56KB6", "title": "UNVERIFIED - 9.png" } ] },
+
+    { "post_id": 9398, "slug": "post-birth-control-syndrome", "viewed": false, "files": [
+      { "id": "F0BKZC0ET8S", "title": "UNVERIFIED - 1.png" },
+      { "id": "F0BKW3MHC21", "title": "UNVERIFIED - 2.png" },
+      { "id": "F0BKZBZ4CN6", "title": "UNVERIFIED - 3.png" },
+      { "id": "F0BKZBZUPCJ", "title": "UNVERIFIED - 4.png" } ] },
+
+    { "post_id": 10229, "slug": "skinvive-vs-dermal-filler", "viewed": false, "files": [
+      { "id": "F0BLD11622Y", "title": "UNVERIFIED - 10.png" },
+      { "id": "F0BL32PK66P", "title": "UNVERIFIED - 11.png" },
+      { "id": "F0BL61LF69K", "title": "UNVERIFIED - 12.png" } ] },
+
+    { "post_id": 8577, "slug": "functional-medicine-vs-conventional-medicine", "viewed": false, "files": [
+      { "id": "F0BMD7T7QH1", "title": "UNVERIFIED - 1.png" },
+      { "id": "F0BNDQWR2U8", "title": "UNVERIFIED - 2.png" },
+      { "id": "F0BMG4WQNAH", "title": "UNVERIFIED - 3.png" },
+      { "id": "F0BMKEWNPFU", "title": "UNVERIFIED - 4.png" } ] },
+
+    { "post_id": 8609, "slug": "gut-health-skin-connection", "viewed": false, "files": [
+      { "id": "F0BNP7M1RLY", "title": "UNVERIFIED - Untitled design" },
+      { "id": "F0BMYHZT5KN", "title": "UNVERIFIED - Untitled design (1)" },
+      { "id": "F0BMYHZ4PSQ", "title": "UNVERIFIED - Untitled design (2)" },
+      { "id": "F0BNP7MU2RE", "title": "UNVERIFIED - Untitled design (3)" } ] },
+
+    { "post_id": 8571, "slug": "wellness-assessment-guide-holistic-health-prevention", "anchor": 0, "viewed": false, "files": [
+      { "id": "F0BMDTG7GFR", "title": "UNVERIFIED - What Is a Wellness Assessment" },
+      { "id": "F0BMT9MDLCE", "title": "UNVERIFIED - Core Wellness Pillars" },
+      { "id": "F0BMRTSB1NH", "title": "UNVERIFIED - The Conversation" },
+      { "id": "F0BMZ20R0DA", "title": "UNVERIFIED - Benefits of Holistic Health" } ] },
+
+    { "post_id": 9270, "slug": "low-testosterone-brain-fog", "anchor": 0, "viewed": false, "files": [
+      { "id": "F0BQHAUPV0Q", "title": "UNVERIFIED - Brain Fog and Testosterone" },
+      { "id": "F0BPP03E1D0", "title": "UNVERIFIED - Recognizing Symptoms" },
+      { "id": "F0BPQUB1VRP", "title": "UNVERIFIED - Neurological Impact of Low T" },
+      { "id": "F0BP7JY5415", "title": "UNVERIFIED - Advanced Testing" } ] },
+
+    { "post_id": 9173, "slug": "estrogen-dominance-weight-loss", "anchor": 14, "viewed": false, "files": [
+      { "id": "F0BPVS0BELE", "title": "UNVERIFIED - What is Estrogen Dominance" },
+      { "id": "F0BPGDYRQTZ", "title": "UNVERIFIED - Hormonal Weight Gain" },
+      { "id": "F0BPU780UUD", "title": "UNVERIFIED - Correcting the Balance" },
+      { "id": "F0BPRHWNSM9", "title": "UNVERIFIED - When to Seek Care" } ] }
+  ]
+}

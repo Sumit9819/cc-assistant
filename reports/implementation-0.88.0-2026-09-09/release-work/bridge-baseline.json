@@ -1,0 +1,6 @@
+{
+  "bin/agent-contract.php": "effe6c4ab35ef5eca71ea20a86d86f4fc297281e30d142949c5159e5deabfabb",
+  "bin/mcp-server.php": "dea6fc00f5cdd1916aa746fd819620861d6d6d096ffca7d07146097a2492677a",
+  "bin/operator-brain.php": "7c45d0a9a7f6fb914b95d35b1dcdec68322c1b8ab2ff89c7450d49dcb2a49b45",
+  "bin/tool-catalog.php": "9d28d171560817ae1351ef879fdc2a9d3c267c04d2d6dc8f372112c733a45819"
+}

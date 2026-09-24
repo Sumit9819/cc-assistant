@@ -1,0 +1,71 @@
+{
+  "_note": "Featured image for erofirving post 4410, 'Should You Go to the ER After a Car Accident? Why Feeling Fine Can Fool You' (published 2026-08-11, featured_media 0). Frame B, cover-cropped so the photo fills the disc. Copy comes from the article's own thesis - adrenaline masks injury and some of it surfaces one to three days later - so the damage shown is modest rather than dramatic, which is what the page itself argues.",
+  "featured": [
+    {
+      "file": "erof-4410-bumper-dark",
+      "brand": "erofirving",
+      "post_id": 4410,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/gen/erof-crash-bumper.png",
+      "focus": "74% 50%",
+      "kicker": "Car Accidents",
+      "title": [
+        "",
+        "Feeling Fine",
+        " After a Car Crash?"
+      ],
+      "sub": "Adrenaline can hide an injury for hours.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A cracked and pushed-in front bumper on a parked silver sedan after a low-speed collision"
+    },
+    {
+      "file": "erof-4410-bumper-light",
+      "brand": "erofirving",
+      "post_id": 4410,
+      "layout": "photo-frame",
+      "frame": "b",
+      "photo": "src/gen/erof-crash-bumper.png",
+      "focus": "74% 50%",
+      "kicker": "Car Accidents",
+      "title": [
+        "",
+        "Feeling Fine",
+        " After a Car Crash?"
+      ],
+      "sub": "Adrenaline can hide an injury for hours.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A cracked and pushed-in front bumper on a parked silver sedan after a low-speed collision"
+    },
+    {
+      "file": "erof-4410-windshield-dark",
+      "brand": "erofirving",
+      "post_id": 4410,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/gen/erof-crash-windshield.png",
+      "focus": "85% 50%",
+      "kicker": "Car Accidents",
+      "title": [
+        "",
+        "Feeling Fine",
+        " After a Car Crash?"
+      ],
+      "sub": "Adrenaline can hide an injury for hours.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A single impact crack radiating across a car windshield, seen from outside the empty cabin"
+    }
+  ]
+}

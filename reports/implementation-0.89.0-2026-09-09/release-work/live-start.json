@@ -1,0 +1,1 @@
+[{"name":"whoami","arguments":{}},{"name":"get_post","arguments":{"id":5525,"slim":false}},{"name":"get_post","arguments":{"id":5437,"slim":true}},{"name":"get_content_scope","arguments":{}},{"name":"list_pending_changes","arguments":{}},{"name":"inspect_plugin_capability","arguments":{"slug":"sg-cachepress"}}]

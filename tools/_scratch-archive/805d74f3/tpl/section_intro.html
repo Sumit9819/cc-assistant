@@ -1,0 +1,55 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Sora"; src: url("../fonts/Sora[wght].ttf"); font-weight: 100 800; }
+  @font-face { font-family: "Manrope"; src: url("../fonts/Manrope[wght].ttf"); font-weight: 200 800; }
+  html, body { margin: 0; width: 1920px; height: 1080px; background: transparent; overflow: hidden; }
+  #dim { position: absolute; inset: 0; background: rgba(8,9,12,.88); }
+  #ghost { position: absolute; right: 64px; bottom: -40px; font: 800 720px/1 "Sora"; letter-spacing: -0.06em;
+           color: rgba(222,171,78,.10); font-variant-numeric: tabular-nums; }
+  #eyebrow { position: absolute; left: 120px; font: 700 30px "Manrope"; letter-spacing: 8px; color: #deab4e;
+             white-space: nowrap; }
+  /* Titles wrap inside a fixed column; nothing depends on their length. */
+  #title { position: absolute; left: 120px; width: 1180px; font: 600 104px/1.06 "Sora"; letter-spacing: -0.025em;
+           color: #f6f2eb; overflow-wrap: break-word; text-wrap: balance; }
+</style>
+<div id="dim"></div>
+<div id="ghost"></div>
+<div id="eyebrow"></div>
+<div id="title"></div>
+<script>
+  let S = { number: "01", title: "", duration: 3.5 };
+  const $ = (id) => document.getElementById(id);
+  const clamp = (t) => Math.min(Math.max(t, 0), 1);
+  const easeOut = (t) => 1 - Math.pow(1 - clamp(t), 3);
+
+  window.setup = (spec) => {
+    S = Object.assign(S, spec);
+    $("ghost").textContent = S.number;
+    $("eyebrow").textContent = `CHAPTER ${S.number}`;
+    $("title").textContent = S.title;
+    window.seek(0);
+  };
+
+  window.seek = (t) => {
+    const out = clamp((S.duration - t) / 0.6);
+    $("dim").style.opacity = Math.min(easeOut(t / 0.5), out);
+
+    // Vertical seat measured from the real title height each frame.
+    const th = $("title").getBoundingClientRect().height || 140;
+    const blockTop = (1080 - (52 + 34 + th)) / 2;
+
+    const e = easeOut(clamp((t - 0.3) / 0.7));
+    $("eyebrow").style.top = blockTop + "px";
+    $("eyebrow").style.opacity = Math.min(e, out);
+    $("eyebrow").style.letterSpacing = (8 + (1 - e) * 18) + "px";
+
+    const ti = easeOut(clamp((t - 0.7) / 0.9));
+    $("title").style.top = (blockTop + 82 + (1 - ti) * 44) + "px";
+    $("title").style.opacity = Math.min(ti, out);
+
+    const g = easeOut(clamp((t - 0.3) / 1.6));
+    $("ghost").style.opacity = Math.min(g, out);
+    $("ghost").style.transform = `translateY(${(1 - g) * 60}px)`;
+  };
+</script>

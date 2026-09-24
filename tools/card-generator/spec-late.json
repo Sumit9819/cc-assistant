@@ -1,0 +1,130 @@
+{
+ "_note": "Late US-spelling catches: Programme, Remodelling, speciality.",
+ "cards": [
+  {
+   "file": "what-functional-medicine-is",
+   "post_id": 8577,
+   "layout": "icons",
+   "subject": "functional medicine",
+   "heading": "Understanding the Basics: What is Functional Medicine?",
+   "title": [
+    "What ",
+    "Functional Medicine",
+    " Is"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Functional medicine looks for root causes, treats the body as one integrated system, and aims at long-term resolution",
+   "items": [
+    {
+     "icon": "target",
+     "label": "Root cause",
+     "note": "Why the symptom is happening at all"
+    },
+    {
+     "icon": "recycle",
+     "label": "One system",
+     "note": "Not organs split by specialty"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Long term",
+     "note": "Resolution rather than a band-aid"
+    }
+   ]
+  },
+  {
+   "file": "medical-program-vs-diet",
+   "post_id": 9871,
+   "layout": "compare",
+   "subject": "weight loss",
+   "heading": "Question 7: How Is the Program Different from a Diet?",
+   "title": [
+    "A Medical Program vs a Diet for ",
+    "Weight Loss",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A diet targets calories; a medical weight loss program tests for and treats the metabolic blocks that make restriction fail",
+   "columns": [
+    "A diet",
+    "A medical program"
+   ],
+   "rows": [
+    {
+     "label": "Targets",
+     "values": [
+      "Calories",
+      "The metabolic blocks underneath"
+     ]
+    },
+    {
+     "label": "The answer you want",
+     "values": [
+      "\"Eat less, move more\"",
+      "\"We test, treat the cause, and adjust\""
+     ]
+    },
+    {
+     "label": "Warning sign",
+     "values": [
+      "No testing at all",
+      "\"We just give you GLP-1\""
+     ]
+    }
+   ]
+  },
+  {
+   "file": "microneedling-healing-timeline",
+   "post_id": 6449,
+   "layout": "timeline",
+   "subject": "microneedling",
+   "heading": "What to Expect After Microneedling",
+   "title": [
+    "Healing After ",
+    "Microneedling",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Microneedling healing: flushed skin at first, tightness days 1 to 2, flaking days 3 to 5, brighter by week 1",
+   "nodes": [
+    {
+     "time": "Right after",
+     "label": "Flushed",
+     "note": "Like a mild sunburn"
+    },
+    {
+     "time": "Days 1-2",
+     "label": "Tight",
+     "note": "Light swelling and sensitivity"
+    },
+    {
+     "time": "Days 3-5",
+     "label": "Flaking",
+     "note": "Collagen production begins"
+    },
+    {
+     "time": "1 week",
+     "label": "Brighter",
+     "note": "Smoother and more refined"
+    },
+    {
+     "time": "Months",
+     "label": "Remodeling",
+     "note": "Improvement keeps building"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+[
+ {
+  "route": "cc-assistant/v1/draft/plugin-setting",
+  "method": "POST",
+  "body": {
+   "option_name": "cc_assistant_authority_domains",
+   "value": [
+    "ccohs.ca",
+    "www.ccohs.ca",
+    "canada.ca",
+    "www.canada.ca",
+    "ontario.ca",
+    "www.ontario.ca",
+    "worksafebc.com",
+    "www.worksafebc.com",
+    "aem.org",
+    "www.aem.org",
+    "landscapeontario.com",
+    "www.landscapeontario.com",
+    "csagroup.org",
+    "www.csagroup.org",
+    "tc.canada.ca",
+    "nrcan.gc.ca",
+    "www.nrcan.gc.ca",
+    "statcan.gc.ca",
+    "www.statcan.gc.ca"
+   ],
+   "allow_create": true,
+   "summary": "Add Canadian and equipment-industry authority domains to the citation whitelist",
+   "reasoning": "class-link-audit.php classify_link only credits TLD gov, TLD edu, or an exact host match in cc_assistant_authority_domains, whose shipped defaults are US health and science sites. Canadian federal domains are .gc.ca or .ca and never .gov, so on this site the correct sources (CCOHS, Government of Canada, WorkSafeBC) classify as unclassified and authority_links fails 6/6 even with real citations live in the DOM. Verified 2026-09-08: six CCOHS citations render correctly yet the gate still reports zero. Adding the hosts actually cited on this site plus the Canadian federal and provincial bodies and the two equipment-industry authorities already cited on the guides (AEM, Landscape Ontario)."
+  },
+  "out": "D:/cc-assistant/tools/out/authdom.json"
+ }
+]

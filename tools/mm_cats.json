@@ -1,0 +1,7 @@
+[
+ {
+  "route": "wp/v2/pages?slug[]=mini-excavators&slug[]=mini-skidsteers&slug[]=wheel-loaders&slug[]=tracked-mini-dumpers&slug[]=wheeled-mini-dumpers&slug[]=full-size-track-loaders&slug[]=concrete-buggies&slug[]=equipment&per_page=20&context=edit&_fields=id,slug,status,link,title",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/cats.json"
+ }
+]

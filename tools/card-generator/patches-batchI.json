@@ -1,0 +1,62 @@
+{
+ "6497": [
+  {
+   "search": "<h2><b>How Our BMI Calculator Works (Step by Step)</b></h2>",
+   "replace": "<h2><b>How Our BMI Calculator Works (Step by Step)</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-bmi-is-calculated.webp\" alt=\"A BMI calculator takes height and weight, divides weight by height squared, then matches the result to a CDC category\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>3. How we interpret your BMI result (adults 20+)</b></h3>",
+   "replace": "<h3><b>3. How we interpret your BMI result (adults 20+)</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/adult-bmi-categories.webp\" alt=\"Adult BMI categories: underweight under 18.5, healthy 18.5 to 25, overweight 25 to 30, obesity classes from 30 up\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>4. Adults vs. children and teens</b></h3>",
+   "replace": "<h3><b>4. Adults vs. children and teens</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/bmi-adults-vs-children.webp\" alt=\"Adult BMI uses fixed cut-offs; for ages 2 to 19 it is read as percentiles for age and sex on a separate calculator\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>The Limits of BMI (Why It\u2019s Not the Whole Story)</b></h2>",
+   "replace": "<h2><b>The Limits of BMI (Why It\u2019s Not the Whole Story)</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/when-bmi-is-misleading.webp\" alt=\"BMI misleads for muscular people, older adults with less muscle, different ethnic thresholds, and where fat is stored\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Other measures your provider may use</b></h3>",
+   "replace": "<h3><b>Other measures your provider may use</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/measures-beyond-bmi.webp\" alt=\"Beyond BMI a provider checks waist circumference, blood pressure and labs, fitness level, and eating, sleep and mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>How to Use Our BMI Calculator in a Healthy, Helpful Way</b></h2>",
+   "replace": "<h2><b>How to Use Our BMI Calculator in a Healthy, Helpful Way</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/using-your-bmi-result-well.webp\" alt=\"Use a BMI result well: enter honest numbers, notice the category and your reaction, ask a professional, recheck at visits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6220": [
+  {
+   "search": "<h2><b>What Healthy Weight Loss Actually Means</b></h2>",
+   "replace": "<h2><b>What Healthy Weight Loss Actually Means</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-healthy-weight-loss-means.webp\" alt=\"Healthy weight loss runs 0.5 to 2 pounds a week, counts non-scale wins, and treats BMI as a screening tool only\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Evidence-Based Nutrition Patterns That Work</b></h2>",
+   "replace": "<h2><b>Evidence-Based Nutrition Patterns That Work</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/sustainable-weight-loss-nutrition.webp\" alt=\"Sustainable weight loss nutrition: 20 to 40g protein per meal, 25 to 38g fiber daily, healthy fats, and water first\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Movement: Training for Fat Loss and Lifelong Health</b></h2>",
+   "replace": "<h2><b>Movement: Training for Fat Loss and Lifelong Health</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/movement-for-fat-loss.webp\" alt=\"Weight loss movement: 150 minutes of moderate aerobic activity weekly, strength on two days, and hourly movement breaks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Sleep, Stress, and the Metabolism Connection</b></h2>",
+   "replace": "<h2><b>Sleep, Stress, and the Metabolism Connection</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/sleep-stress-and-weight.webp\" alt=\"Sleep 7 to 9 hours, take short stress breaks, and keep protein and fiber snacks ready for your known trigger times\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Medical Weight Management: When Clinical Support Helps</b></h2>",
+   "replace": "<h2><b>Medical Weight Management: When Clinical Support Helps</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-weight-management-options.webp\" alt=\"Clinical weight loss support: eligibility review, coaching, FDA-approved medication, and surgery for qualified patients\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Special Considerations</b></h2>",
+   "replace": "<h2><b>Special Considerations</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-special-considerations.webp\" alt=\"Weight loss considerations for PCOS and menopause, diabetes, hypertension and lipids, and older adults\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Safety First: When to Seek Care</b></h2>",
+   "replace": "<h2><b>Safety First: When to Seek Care</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-when-to-seek-care.webp\" alt=\"Stop and call a clinician during weight loss for dizziness or fainting, chest pain or palpitations, or rapid unexplained loss\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>A 4-Week, Real-Life Kickstart</b></h2>",
+   "replace": "<h2><b>A 4-Week, Real-Life Kickstart</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/four-week-weight-loss-kickstart.webp\" alt=\"A four-week weight loss kickstart: foundations, then fiber and planning, then skills and social life, then review\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+﻿[
+    {
+        "File":  "includes\\class-gsc.php",
+        "SHA256":  "6FF8408F1C7DF7D463702C72BE0226CC5AE36DC628BFDA8A3C6868FE5B488D6A"
+    },
+    {
+        "File":  "includes\\class-verified-page-audit.php",
+        "SHA256":  "A41B3942781C7879E041449212E9610CC2E398D5AAC45D5041668BC5C2EFB557"
+    },
+    {
+        "File":  "includes\\class-evidence-gate.php",
+        "SHA256":  "FE7BB66BA593CF90DDED2734CBA6344C96F8EFC029F593F550054AEA62596BF6"
+    },
+    {
+        "File":  "includes\\class-stack-introspect.php",
+        "SHA256":  "19D6ADC2615C8E54FB898C41181AC083D24520F116A596C000A85BD3B8317861"
+    },
+    {
+        "File":  "includes\\class-seo-playbook.php",
+        "SHA256":  "7F6C3A7D53C8D560013A77B68C85CF0F80A5F04D8ADEC04CAB052688EB6649F9"
+    },
+    {
+        "File":  "includes\\class-rest-assets.php",
+        "SHA256":  "B025C4AAF222A107CD3B82E3773CD9026D2FD48B5C3D3EAB0DE0D11ACF081E40"
+    },
+    {
+        "File":  "bin\\mcp-server.php",
+        "SHA256":  "695FE42E804E4DE5DA789036AD180C824F818873ED24DAE4FDB3E98A200417C2"
+    },
+    {
+        "File":  "readme.txt",
+        "SHA256":  "6CDF2E52AABECE7A576777A01555BDE3D7AC1AA01A2CC775035FDB4A12A3C160"
+    }
+]

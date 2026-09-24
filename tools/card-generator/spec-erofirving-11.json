@@ -1,0 +1,183 @@
+{
+  "_note": "Batch 11. Six posts, 10 cards, first batch authored under the corrected placement rule (card directly below its section heading). 3116 leads it: four ranking headings on a post that had ZERO cards, the largest rank gap on the site. Cut on the read: 3978's two chest-pain candidates again, because cardneed flags them as already tabled in '4 Key Differences'; 2780 and 3796 likewise; 3921's 'What Pediatric-Friendly Emergency Care Looks Like' because it describes the facility rather than a decision the reader makes (same cut as batch 4); 3875's two candidates, cut on the batch-7 read and still valid; 3979's numbered sub-emergencies because that post already carries an overview card covering all eight; 3894's 'Don't Second-Guess Your Heart Health' because it is a call to action, not a decision aid. 3921's card deliberately answers 'is 103 an emergency' rather than repeating the age-and-temperature thresholds card already live on that post.",
+  "cards": [
+    {
+      "file": "erof-3116-traction-sites",
+      "post_id": 3116,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "skeletal traction",
+      "heading": "What is Skeletal Traction?",
+      "title": ["Where ", "Skeletal Traction", " Is Used"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine",
+      "items": [
+        { "icon": "bone", "label": "Distal femur" },
+        { "icon": "activity", "label": "Proximal tibia" },
+        { "icon": "brain", "label": "Cervical spine" }
+      ]
+    },
+    {
+      "file": "erof-3116-traction-types",
+      "post_id": 3116,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "skeletal traction",
+      "heading": "Types of Skeletal Traction",
+      "title": ["The Three Types of ", "Skeletal Traction", ""],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "The three types of skeletal traction: balanced traction using counterweights and pulleys, femoral traction for mid-thigh fractures, and tibial traction for lower leg injuries",
+      "items": [
+        { "icon": "scale", "label": "Balanced traction", "note": "Counterweights and pulleys allow movement" },
+        { "icon": "bone", "label": "Femoral traction", "note": "For mid-thigh fractures, through the femur" },
+        { "icon": "activity", "label": "Tibial traction", "note": "For lower leg injuries, through the tibia" }
+      ]
+    },
+    {
+      "file": "erof-3116-traction-procedure",
+      "post_id": 3116,
+      "brand": "erofirving",
+      "layout": "numbered",
+      "subject": "skeletal traction",
+      "heading": "Skeletal Traction Procedure",
+      "title": ["The ", "Skeletal Traction", " Procedure"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "The five stages of the skeletal traction procedure: preparation, pin or wire insertion, weight and pulley application, post-procedure monitoring, and traction maintenance",
+      "items": [
+        "Pre-procedure preparation",
+        "Pin or wire insertion",
+        "Weight and pulley application",
+        "Post-procedure monitoring",
+        "Traction maintenance"
+      ]
+    },
+    {
+      "file": "erof-3116-bone-stimulator",
+      "post_id": 3116,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "bone stimulator",
+      "heading": "How Bone Stimulators Support Skeletal Traction Recovery",
+      "title": ["When a ", "Bone Stimulator", " Helps"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Three situations where a bone stimulator helps recovery: slow healing after surgery, a history of smoking diabetes or osteoporosis, and injury to a weight-bearing bone",
+      "items": [
+        { "icon": "clock-3", "label": "Healing is slow after surgery", "note": "The process is taking time" },
+        { "icon": "user-round-search", "label": "Smoking, diabetes or osteoporosis", "note": "A previous history of any of these" },
+        { "icon": "weight", "label": "A weight-bearing bone", "note": "Such as the femur or the tibia" }
+      ]
+    },
+    {
+      "file": "erof-3921-is-103-an-emergency",
+      "post_id": 3921,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "fever",
+      "heading": "Understanding the 103",
+      "title": ["Is a 103°F ", "Fever", " an Emergency?"],
+      "logo": { "position": "top-right", "variant": "mark", "width": 48 },
+      "alt": "When a 103 degree fever is manageable at home and when it needs the ER: an older child still drinking and playing whose fever comes down with medicine, against a persistent fever that does not respond or comes with a stiff neck",
+      "columns": ["Often manageable at home", "Needs the ER"],
+      "rows": [
+        {
+          "label": "The child",
+          "values": ["Older, still drinking and playing", "Persistent fever, not improving"]
+        },
+        {
+          "label": "Response to medicine",
+          "values": ["The fever comes down", "It does not respond"]
+        },
+        {
+          "label": "Other signs",
+          "values": ["None of the red flags", "Stiff neck or extreme irritability"]
+        }
+      ]
+    },
+    {
+      "file": "erof-3854-dka-red-flags",
+      "post_id": 3854,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "DKA",
+      "heading": "Recognizing the Red Flags: DKA Symptoms",
+      "title": ["", "DKA", " Red Flags"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Four DKA red flags: fruity smelling breath, unquenchable thirst, frequent urination, and confusion or mental fatigue",
+      "items": [
+        { "icon": "waves", "label": "Fruity smelling breath", "note": "A distinctive sign of ketones" },
+        { "icon": "droplet", "label": "Unquenchable thirst", "note": "Polydipsia" },
+        { "icon": "droplets", "label": "Frequent urination", "note": "Polyuria" },
+        { "icon": "brain", "label": "Confusion or mental fatigue", "note": "Do not wait this out" }
+      ]
+    },
+    {
+      "file": "erof-3854-dka-er-treatment",
+      "post_id": 3854,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "DKA",
+      "heading": "How the ER Stabilizes Blood Sugar",
+      "title": ["How the ER Treats ", "DKA", ""],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy",
+      "steps": [
+        { "icon": "droplet", "label": "Fluid replacement", "note": "IV fluids treat dehydration and dilute excess sugar" },
+        { "icon": "flask-conical", "label": "Electrolytes", "note": "Replaced as insulin levels change" },
+        { "icon": "syringe", "label": "Insulin therapy", "note": "Brings blood sugar back down" }
+      ]
+    },
+    {
+      "file": "erof-3833-headache-er-red-flags",
+      "post_id": 3833,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "headache",
+      "heading": "When to Visit the ER for a Severe Headache",
+      "title": ["Severe ", "Headache", ": When to Go to the ER"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Five red flags that a severe headache needs the emergency room: sudden weakness on one side, speech difficulty, vision changes, fever with a stiff neck, and a first severe headache after age 50",
+      "items": [
+        { "icon": "activity", "label": "Sudden weakness or numbness", "note": "Face, arm or leg, often one side" },
+        { "icon": "users", "label": "Speech difficulty", "note": "Slurring, or trouble understanding" },
+        { "icon": "eye", "label": "Vision changes", "note": "Sudden blurring or loss of vision" },
+        { "icon": "thermometer", "label": "Fever with a stiff neck", "note": "Too stiff to touch your chest" },
+        { "icon": "calendar-days", "label": "First severe headache after 50", "note": "New onset needs evaluation" }
+      ]
+    },
+    {
+      "file": "erof-3937-rash-urgent-care",
+      "post_id": 3937,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "rash",
+      "heading": "Signs Your Rash Needs Urgent Care",
+      "title": ["When a Poison Ivy ", "Rash", " Needs Urgent Care"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Five signs a poison ivy rash needs urgent care: rash on the face or eyes, difficulty breathing after exposure, rash over more than a quarter of the body, itching that prevents sleep, and blisters oozing fluid or pus",
+      "items": [
+        { "icon": "eye", "label": "On the face or eyes", "note": "Do not treat this at home" },
+        { "icon": "waves", "label": "Difficulty breathing", "note": "After exposure to the plant" },
+        { "icon": "ruler-dimension-line", "label": "More than 25% of the body", "note": "Too widespread for home care" },
+        { "icon": "moon", "label": "Itching prevents sleep", "note": "Or normal daily tasks" },
+        { "icon": "droplet", "label": "Blisters oozing fluid or pus", "note": "A possible bacterial infection" }
+      ]
+    },
+    {
+      "file": "erof-3934-dvt-symptoms",
+      "post_id": 3934,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "DVT",
+      "heading": "Recognizing DVT Symptoms: More Than Just a Cramp",
+      "title": ["", "DVT", ": What to Look For"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Four DVT symptoms to look for, usually in one leg only: swelling with the calf or thigh visibly larger, redness or discoloration, warmth to the touch, and tenderness that can feel like a pulled muscle",
+      "items": [
+        { "icon": "trending-up", "label": "Swelling in one leg", "note": "The calf or thigh looks larger" },
+        { "icon": "droplet", "label": "Redness or discoloration", "note": "Over the swollen area" },
+        { "icon": "flame", "label": "Warm to the touch", "note": "Compared with the other leg" },
+        { "icon": "zap", "label": "Tenderness", "note": "It can feel like a pulled muscle" }
+      ]
+    }
+  ]
+}

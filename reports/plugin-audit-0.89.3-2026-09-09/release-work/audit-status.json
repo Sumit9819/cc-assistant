@@ -1,0 +1,74 @@
+{
+  "php_syntax_files": 202,
+  "php_test_files": 56,
+  "php_failures": [],
+  "live_version": "0.89.2",
+  "live_pending_count": 0,
+  "changed_files": [
+    "bin/agent-contract.php",
+    "bin/mcp-server.php",
+    "bin/operator-brain.php",
+    "bin/tool-catalog.php",
+    "bin/wcag-sweep.php",
+    "bin/wcag/axe-run.js",
+    "bin/wcag/form-observation.js",
+    "build-zip.py",
+    "cc-assistant.php",
+    "includes/class-apply.php",
+    "includes/class-industry-profile.php",
+    "includes/class-pending-changes.php",
+    "includes/class-playbook-fit.php",
+    "includes/class-pre-publish.php",
+    "includes/class-publication-recovery.php",
+    "includes/class-render-health.php",
+    "includes/class-rest-api.php",
+    "includes/class-rest-operator-kit.php",
+    "includes/class-rest-widget-schema.php",
+    "includes/class-reviews.php",
+    "includes/class-workflow-verifier.php",
+    "readme.txt",
+    "tests/.tmp-commodity/commodity-test-example.sqlite",
+    "tests/.tmp-kw/kw-test-example.sqlite",
+    "tests/.tmp-outcome/outcome-test-example.sqlite",
+    "tests/.tmp-warehouse/smoke-test-example.sqlite",
+    "tests/bridge-update-test.php",
+    "tests/new-draft-basis-test.php",
+    "tests/publication-recovery-test.php",
+    "tests/publication-status-test.php",
+    "tests/queue-evidence-race-test.php",
+    "tests/rendered-warm-test.php",
+    "tests/route-permissions-test.php",
+    "tests/supersede-concurrency-test.php",
+    "tests/uninstall-scope-test.php",
+    "tests/wcag-passive-forms-test.cjs",
+    "tests/widget-schema-target-test.php",
+    "tests/workflow-verifier-test.php",
+    "uninstall.php"
+  ],
+  "hook_registration": [
+    {
+      "settings_file": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.claude\\settings.local.json",
+      "has_cc_gate_reference": false,
+      "hook_events": []
+    },
+    {
+      "settings_file": "D:\\cc-assistant\\.claude\\settings.json",
+      "has_cc_gate_reference": true,
+      "hook_events": [
+        "PreToolUse",
+        "PostToolUse",
+        "Stop"
+      ]
+    },
+    {
+      "settings_file": "D:\\cc-assistant\\.claude\\settings.local.json",
+      "has_cc_gate_reference": false,
+      "hook_events": []
+    },
+    {
+      "settings_file": "C:\\Users\\sumit\\.claude\\settings.json",
+      "has_cc_gate_reference": false,
+      "hook_events": []
+    }
+  ]
+}

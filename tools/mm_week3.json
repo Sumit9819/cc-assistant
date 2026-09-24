@@ -1,0 +1,4 @@
+[
+  { "route": "cc-assistant/v1/posts/11/render-probe", "method": "GET",
+    "out": "D:/cc-assistant/tools/out/wk_probe11.json" }
+]

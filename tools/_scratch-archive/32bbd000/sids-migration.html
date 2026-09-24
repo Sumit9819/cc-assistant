@@ -1,0 +1,547 @@
+<title>Sid's Ponds Rebuild Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+
+<style>
+  :root{
+    --ground:#F4F5F8;
+    --surface:#FFFFFF;
+    --surface-2:#EAECF2;
+    --ink:#151B28;
+    --ink-2:#3B475C;
+    --muted:#6B7789;
+    --rule:#DCE0E8;
+    --rule-2:#C3CAD6;
+    --blue:#2D5BA9;
+    --blue-soft:#E2E9F6;
+    --keep:#186E5F;
+    --keep-soft:#DCEFEA;
+    --build:#A76A1F;
+    --build-soft:#F7EBD8;
+    --drop:#9E3A32;
+    --drop-soft:#F7E2E0;
+    --shadow:0 1px 2px rgba(21,27,40,.05),0 6px 16px rgba(21,27,40,.06);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0F131C;
+      --surface:#181E2A;
+      --surface-2:#212836;
+      --ink:#E8ECF3;
+      --ink-2:#BCC5D3;
+      --muted:#8794A6;
+      --rule:#2A3242;
+      --rule-2:#3A4457;
+      --blue:#7FA6E8;
+      --blue-soft:#1A2438;
+      --keep:#63C4B0;
+      --keep-soft:#122C28;
+      --build:#E0A960;
+      --build-soft:#2E2415;
+      --drop:#E58880;
+      --drop-soft:#301C1A;
+      --shadow:0 1px 2px rgba(0,0,0,.35),0 6px 16px rgba(0,0,0,.28);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0F131C;
+    --surface:#181E2A;
+    --surface-2:#212836;
+    --ink:#E8ECF3;
+    --ink-2:#BCC5D3;
+    --muted:#8794A6;
+    --rule:#2A3242;
+    --rule-2:#3A4457;
+    --blue:#7FA6E8;
+    --blue-soft:#1A2438;
+    --keep:#63C4B0;
+    --keep-soft:#122C28;
+    --build:#E0A960;
+    --build-soft:#2E2415;
+    --drop:#E58880;
+    --drop-soft:#301C1A;
+    --shadow:0 1px 2px rgba(0,0,0,.35),0 6px 16px rgba(0,0,0,.28);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--ground);color:var(--ink);
+    font-family:Karla,"Segoe UI",system-ui,sans-serif;
+    font-size:17px;line-height:1.68;margin:0;padding:0 20px 90px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1020px;margin:0 auto;}
+  .narrow{max-width:66ch;}
+
+  h1,h2,h3{font-family:"Bricolage Grotesque",Karla,sans-serif;text-wrap:balance;line-height:1.12;margin:0;}
+  h1{font-size:clamp(32px,5vw,52px);font-weight:800;letter-spacing:-.02em;}
+  h2{font-size:clamp(24px,3vw,33px);font-weight:700;letter-spacing:-.015em;}
+  h3{font-size:19px;font-weight:700;letter-spacing:-.005em;}
+  p{margin:0 0 1em;}
+  a{color:var(--blue);}
+  strong{font-weight:700;}
+
+  .num-eyebrow{
+    font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .num-eyebrow b{
+    background:var(--blue);color:#fff;width:24px;height:24px;border-radius:5px;
+    display:inline-flex;align-items:center;justify-content:center;font-size:12px;flex:none;
+  }
+
+  header.top{padding:62px 0 36px;border-bottom:3px solid var(--ink);}
+  header.top .kick{
+    font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--blue);margin:0 0 16px;
+  }
+  header.top p.lede{font-size:20.5px;line-height:1.55;color:var(--ink-2);margin:18px 0 0;max-width:62ch;}
+  .meta-row{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:24px;
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--muted);}
+
+  section{padding:48px 0;border-bottom:1px solid var(--rule);}
+  section:last-of-type{border-bottom:none;}
+
+  /* stat grid */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:2px;
+    background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin:26px 0;}
+  .stats div{background:var(--surface);padding:18px 20px;}
+  .stats .n{font-family:"IBM Plex Mono",monospace;font-size:26px;font-weight:600;
+    display:block;line-height:1.2;font-variant-numeric:tabular-nums;}
+  .stats .l{font-size:13.5px;color:var(--muted);display:block;margin-top:4px;}
+
+  /* the scope bar */
+  .scopebar{margin:28px 0 8px;}
+  .scopebar .row{display:grid;grid-template-columns:210px 1fr;gap:16px;align-items:center;margin-bottom:10px;}
+  .scopebar .cap{font-size:14.5px;color:var(--ink-2);text-align:right;line-height:1.35;}
+  .scopebar .bar{height:38px;border-radius:6px;display:flex;align-items:center;padding:0 14px;
+    font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;color:#fff;white-space:nowrap;}
+  .scopebar .b1{background:var(--muted);width:100%;}
+  .scopebar .b2{background:var(--keep);width:64%;}
+  .scopebar .b3{background:var(--build);width:9%;min-width:132px;}
+
+  /* triage columns */
+  .triage{display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));gap:14px;margin:26px 0;}
+  .tcol{background:var(--surface);border:1px solid var(--rule);border-radius:11px;
+    box-shadow:var(--shadow);overflow:hidden;}
+  .tcol .head{padding:16px 18px 14px;border-bottom:1px solid var(--rule);}
+  .tcol .head .cnt{font-family:"IBM Plex Mono",monospace;font-size:30px;font-weight:600;
+    display:block;line-height:1;font-variant-numeric:tabular-nums;}
+  .tcol .head .ttl{font-weight:700;font-size:15.5px;display:block;margin-top:7px;}
+  .tcol .head .sub{font-size:13px;color:var(--muted);display:block;margin-top:3px;line-height:1.45;}
+  .tcol.keep{border-top:5px solid var(--keep);} .tcol.keep .cnt{color:var(--keep);}
+  .tcol.build{border-top:5px solid var(--build);} .tcol.build .cnt{color:var(--build);}
+  .tcol.drop{border-top:5px solid var(--drop);} .tcol.drop .cnt{color:var(--drop);}
+  .tcol ul{list-style:none;margin:0;padding:12px 18px 16px;font-size:14px;line-height:1.55;}
+  .tcol li{padding:4px 0;border-bottom:1px dotted var(--rule);color:var(--ink-2);}
+  .tcol li:last-child{border-bottom:none;}
+  .tcol li b{color:var(--ink);font-weight:700;}
+  .tcol li em{font-style:normal;color:var(--muted);font-size:12.5px;display:block;}
+
+  /* callouts */
+  .call{border-radius:11px;padding:22px 24px;margin:24px 0;border:1px solid var(--rule-2);
+    background:var(--surface);box-shadow:var(--shadow);}
+  .call.blue{border-color:var(--blue);background:var(--blue-soft);}
+  .call.warnbox{border-color:var(--build);background:var(--build-soft);}
+  .call.stopbox{border-color:var(--drop);background:var(--drop-soft);}
+  .call.keepbox{border-color:var(--keep);background:var(--keep-soft);}
+  .call h3{margin-bottom:8px;}
+  .call p:last-child{margin-bottom:0;}
+  .call .tag{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;
+    letter-spacing:.11em;text-transform:uppercase;display:block;margin-bottom:8px;}
+  .call.blue .tag{color:var(--blue);}
+  .call.warnbox .tag{color:var(--build);}
+  .call.stopbox .tag{color:var(--drop);}
+  .call.keepbox .tag{color:var(--keep);}
+
+  /* tables */
+  .scroll{overflow-x:auto;margin:24px 0;border:1px solid var(--rule);border-radius:10px;background:var(--surface);}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:540px;}
+  th,td{padding:11px 16px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top;}
+  thead th{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muted);border-bottom:1.5px solid var(--rule-2);white-space:nowrap;}
+  tbody tr:last-child td{border-bottom:none;}
+  td.num,th.num{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .yes{color:var(--keep);font-weight:700;} .no{color:var(--drop);font-weight:700;}
+  code{font-family:"IBM Plex Mono",monospace;font-size:.87em;background:var(--surface-2);padding:1px 5px;border-radius:4px;}
+
+  /* phases */
+  .phases{display:grid;gap:0;margin:26px 0;}
+  .ph{display:grid;grid-template-columns:58px 1fr;gap:18px;}
+  .ph .spine{display:flex;flex-direction:column;align-items:center;}
+  .ph .dot{width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;flex:none;
+    display:flex;align-items:center;justify-content:center;font-family:"IBM Plex Mono",monospace;
+    font-size:14px;font-weight:600;margin-top:20px;}
+  .ph .line{width:2px;flex:1;background:var(--rule-2);min-height:14px;}
+  .ph:last-child .line{display:none;}
+  .ph .card{background:var(--surface);border:1px solid var(--rule);border-radius:10px;
+    padding:18px 20px;margin:14px 0 0;box-shadow:var(--shadow);}
+  .ph .card .hdr{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline;justify-content:space-between;}
+  .ph .card h3{font-family:Karla,sans-serif;font-size:16.5px;}
+  .ph .when{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);white-space:nowrap;}
+  .ph .card p{margin:8px 0 0;font-size:15px;color:var(--ink-2);}
+  .ph .live{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;
+    letter-spacing:.09em;text-transform:uppercase;padding:3px 9px;border-radius:20px;margin-top:10px;}
+  .ph .live.off{background:var(--keep-soft);color:var(--keep);}
+  .ph .live.on{background:var(--drop-soft);color:var(--drop);}
+
+  /* url map */
+  .urlmap{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin:24px 0;}
+  .urlmap .side{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;box-shadow:var(--shadow);}
+  .urlmap .side h3{font-size:13px;font-family:"IBM Plex Mono",monospace;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:10px;}
+  .urlmap .side p{font-family:"IBM Plex Mono",monospace;font-size:12.5px;margin:0 0 6px;color:var(--ink-2);word-break:break-all;line-height:1.5;}
+  .urlmap .side p:last-child{margin-bottom:0;}
+  .urlmap .eq{font-family:"Bricolage Grotesque",sans-serif;font-size:28px;font-weight:800;color:var(--keep);text-align:center;}
+  @media(max-width:640px){ .urlmap{grid-template-columns:1fr;} .urlmap .eq{transform:rotate(90deg);} }
+
+  .verdict{background:var(--ink);color:var(--ground);border-radius:12px;padding:26px 28px;margin:26px 0;}
+  .verdict .tag{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.13em;
+    text-transform:uppercase;opacity:.65;display:block;margin-bottom:9px;}
+  .verdict h3{font-family:"Bricolage Grotesque",sans-serif;font-size:23px;margin-bottom:10px;color:var(--ground);}
+  .verdict p{margin:0;opacity:.9;font-size:16px;}
+  .verdict p + p{margin-top:.8em;}
+
+  footer{padding:38px 0 0;color:var(--muted);font-size:14px;}
+  ul.plain{padding-left:20px;} ul.plain li{margin-bottom:.45em;}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <p class="kick">Sid&rsquo;s Ponds &middot; Platform decision brief</p>
+  <h1>Rebuilding on Elementor</h1>
+  <p class="lede">Why the move makes sense, which theme to use, what the plugin audit actually found, and how we get 511 pages across without losing a single ranking.</p>
+  <div class="meta-row">
+    <span>27 Aug 2026</span><span>Prepared for Sid&rsquo;s Ponds</span><span>All figures read from the live site</span>
+  </div>
+</header>
+
+<section>
+  <p class="num-eyebrow"><b>1</b> The short version</p>
+  <h2>The site looks enormous. The part we hand-build is small.</h2>
+  <p class="narrow">That is the single most important thing to understand before worrying about cost or risk. Sid&rsquo;s has 511 addresses on Google, but almost all of them are products and category listings, and those are <strong>data</strong>. Data moves across untouched. Only pages that were designed by hand need rebuilding, and there are eight of them.</p>
+
+  <div class="scopebar">
+    <div class="row"><div class="cap">Everything Google knows about</div><div class="bar b1">511 web addresses</div></div>
+    <div class="row"><div class="cap">Products and categories &mdash; move as data, no rebuild</div><div class="bar b2">322 products + 74 categories</div></div>
+    <div class="row"><div class="cap">Actually hand-designed</div><div class="bar b3">8 pages</div></div>
+  </div>
+  <p class="narrow" style="font-size:15px;color:var(--muted);margin-top:18px">Home, About, Contact, Delivery, Hardscaping, Outdoor Lighting, Partners and Blog. Plus the header, the footer, and the shared template behind product listings. That is the build.</p>
+
+  <div class="stats">
+    <div><span class="n">322</span><span class="l">Products</span></div>
+    <div><span class="n">74</span><span class="l">Product categories</span></div>
+    <div><span class="n">22</span><span class="l">Blog articles</span></div>
+    <div><span class="n">1,816</span><span class="l">Images in the library</span></div>
+    <div><span class="n">59</span><span class="l">Plugins installed</span></div>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>2</b> Why move</p>
+  <h2>The honest case</h2>
+  <p class="narrow">Let me be straight about something first, because it affects how you judge the rest. <strong>Elementor is not magically better than Divi.</strong> Both are page builders, both store your design in their own format, and both are a commitment. Swapping one for the other is not, by itself, a win.</p>
+  <p class="narrow">The real value is the <strong>clean rebuild</strong>. The current site has picked up four years of layers, and a fresh start is the only realistic way to shed them. Here is what is actually sitting on the site today, all of it measured rather than guessed:</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>What is there now</th><th>What it costs</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Three tracking systems doing the same job</strong><br><span style="color:var(--muted);font-size:13.5px">PixelYourSite, Pixel Manager, Google for WooCommerce, plus Site Kit and Meta</span></td><td>The Google Ads tag loads <strong>twice</strong>. Around <strong>570KB</strong> across four tag loads on every visit. PixelYourSite currently throws an error and tracks nothing.</td></tr>
+        <tr><td><strong>Five Divi add-on plugins</strong><br><span style="color:var(--muted);font-size:13.5px">BodyCommerce, Machine, Plus, DiviFlash, Dash</span></td><td>Each one adds weight to every page. DiviFlash alone loads <strong>32KB of styling that the homepage never uses</strong>.</td></tr>
+        <tr><td><strong>Fonts loading late</strong></td><td>Page content visibly jumps as it loads. Measured at <strong>0.365</strong>, where Google wants under 0.1. Caused entirely by five web fonts.</td></tr>
+        <tr><td><strong>A 110KB icon font</strong></td><td>Downloaded on every page to draw <strong>five small symbols</strong> in the footer.</td></tr>
+        <tr><td><strong>Oversized images</strong></td><td>62 images over 400KB in just the newest 500. The single largest is <strong>14.6MB</strong> and is used nowhere.</td></tr>
+        <tr><td><strong>Pinch-zoom switched off site-wide</strong></td><td>Comes from a Divi setting. On a store where people zoom into stone, plants and light fittings, that is a real usability cost as well as an accessibility failure.</td></tr>
+        <tr><td><strong>A broken product feed</strong></td><td>CTX Feed carries <strong>685 items, eight months out of date</strong>. This is why Google shopping listings are not running, which is the single biggest untapped opportunity on the site.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call blue">
+    <span class="tag">The point</span>
+    <p>Every one of these could in principle be fixed on the current site. In practice they have accumulated because fixing them one at a time on a live store is slow and risky. A rebuild fixes them all at once, on a staging site, where nothing can break for a customer.</p>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>3</b> The theme question</p>
+  <h2>Hello Elementor, with a child theme</h2>
+  <p class="narrow">A WordPress theme controls the parts of the site that are not page content. There are two sensible routes, and one of them is clearly right here.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>&nbsp;</th><th>Hello Elementor + child theme</th><th>Custom-coded theme</th></tr></thead>
+      <tbody>
+        <tr><td><strong>What it is</strong></td><td>A deliberately blank theme built by the Elementor team. Roughly 6KB of styling and almost no opinions.</td><td>A theme written from scratch in PHP for this site specifically.</td></tr>
+        <tr><td><strong>Who can edit the design later</strong></td><td class="yes">Anyone, visually</td><td class="no">A developer, in code</td></tr>
+        <tr><td><strong>Speed</strong></td><td>Adds almost nothing of its own. Elementor does the work.</td><td>Can be faster, but only if you also drop the page builder.</td></tr>
+        <tr><td><strong>Cost to build</strong></td><td>Low</td><td>High</td></tr>
+        <tr><td><strong>Cost to change in two years</strong></td><td>Low</td><td>High &mdash; back to a developer every time</td></tr>
+        <tr><td><strong>WooCommerce fit</strong></td><td>Designed for it. Works with Elementor&rsquo;s shop templates out of the box.</td><td>Every shop page template written and maintained by hand.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="verdict">
+    <span class="tag">Recommendation</span>
+    <h3>Hello Elementor, plus a small child theme</h3>
+    <p>A custom theme only makes sense if you are <em>not</em> using a page builder. If you build a custom theme and then run Elementor on top of it, you pay for both and get the benefits of neither.</p>
+    <p>The child theme is a small addition on top of Hello. It is where any custom code lives, so that updates to Hello never wipe it. It is an hour of setup and it saves real trouble later.</p>
+  </div>
+
+  <div class="call warnbox">
+    <span class="tag">One alternative, named honestly</span>
+    <p>There is a third route: a modern block theme with no page builder at all. It is the lightest option and it is where WordPress itself is heading. I am not recommending it here, because it is harder to edit without training and you have already chosen Elementor. But you should know it existed as a choice rather than find out later.</p>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>4</b> Compatibility</p>
+  <h2>What happens to your 59 plugins</h2>
+  <p class="narrow">This is usually the scariest part of a rebuild, and here it is genuinely reassuring. Almost nothing you depend on is tied to Divi. Payments, shipping, discounts, email, reviews, search, tax and SEO are all theme-independent and simply come across.</p>
+
+  <div class="call keepbox">
+    <span class="tag">The reassuring part</span>
+    <h3>The SEO work is safe</h3>
+    <p>Every page title, meta description and category write-up we have produced lives in Rank Math and in WordPress&rsquo;s own category records. None of it is stored inside Divi. It all comes across exactly as it is, and so do the product listings, reviews, order history and customer accounts.</p>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>5</b> The plugin audit</p>
+  <h2>What is actually being used</h2>
+  <p class="narrow">Rather than asking you which plugins matter, I read the stored settings of each one and checked eighteen pages of the live site for its output. That changed the answer substantially, and it changed it <em>away</em> from an aggressive cut.</p>
+
+  <div class="call stopbox">
+    <span class="tag">Correction to my earlier read</span>
+    <h3>Four plugins I had marked as removable are load-bearing</h3>
+    <p>My first pass tested four pages and concluded several plugins were idle. That method was too weak, and it produced false negatives in four different ways: a plugin deliberately hidden on the pages I sampled, a page that redirects when the basket is empty, a feature scoped to one product category, and scripts held back until a visitor accepts cookies. The settings are the reliable source. Anything below marked <strong>verified</strong> comes from stored configuration, not from guessing.</p>
+  </div>
+
+  <div class="scroll">
+    <table>
+      <caption>Every plugin I previously questioned, re-checked against its stored settings and the live site.</caption>
+      <thead><tr><th>Plugin</th><th>Verdict</th><th>Evidence</th></tr></thead>
+      <tbody>
+        <tr><td><strong>CURCY Multi Currency</strong></td><td class="yes">KEEP &mdash; verified</td><td>You sell in <strong>Canadian and US dollars</strong>, at a stored rate of 0.73482, live on cart and checkout. The switcher is deliberately hidden on the homepage and eight other pages, which is exactly where I first looked.</td></tr>
+        <tr><td><strong>Fluid Checkout</strong></td><td class="yes">KEEP &mdash; verified</td><td>Sixty settings configured since October 2023: single-step checkout, your cream brand colour, a custom logo, header and footer hidden, progress bar, sticky summary. My earlier check hit the basket page, because an empty basket redirects away from checkout.</td></tr>
+        <tr><td><strong>ClearSale</strong></td><td class="yes">KEEP &mdash; verified</td><td>Live fraud screening in <strong>production</strong> under your own account, checking every order in processing and on-hold across all payment methods including Affirm. This one protects real money.</td></tr>
+        <tr><td><strong>Themify Product Filter</strong></td><td class="yes">In use &mdash; verified</td><td>Four filter sets built in 2024, rendering on the Lighting, in-lite and Kichler category pages. I had tested the shop page and a pond category, where it correctly does not appear.</td></tr>
+        <tr><td><strong>WPC Smart Wishlist</strong></td><td class="yes">KEEP &mdash; verified</td><td>Renders on all 18 pages tested.</td></tr>
+        <tr><td><strong>Back In Stock Notifier</strong></td><td class="yes">KEEP &mdash; verified</td><td>Renders on 17 of 18. Also the one plugin that directly addresses your out-of-stock rankings.</td></tr>
+        <tr><td><strong>FiboSearch</strong></td><td class="yes">KEEP &mdash; verified</td><td>Renders on all 18 pages tested.</td></tr>
+        <tr><td><strong>Klaviyo</strong></td><td class="yes">KEEP &mdash; verified</td><td>Live but held back until cookie consent, which is correct behaviour. It appears by name in your cookie policy, which is how I confirmed it.</td></tr>
+        <tr><td><strong>Affirm</strong></td><td class="yes">KEEP &mdash; verified</td><td>Showing &ldquo;as low as&rdquo; instalment pricing on product pages.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="verdict">
+    <span class="tag">Revised target</span>
+    <h3>Roughly 32 to 39 plugins, not 12</h3>
+    <p>Twelve was reachable only by rewriting working, configured features as custom code. On a store doing real money, through a checkout that has been tuned for two years, with live fraud screening and two currencies, that is the wrong trade. You said nothing should break in the long term, and this is what that actually costs.</p>
+    <p>The cut is still substantial, and every removal below is either dead, duplicated, or dies with Divi anyway. Nothing working gets touched.</p>
+  </div>
+
+  <h3 style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;margin:34px 0 4px">Safe to remove</h3>
+  <div class="triage">
+    <div class="tcol drop">
+      <div class="head"><span class="cnt">6</span><span class="ttl">Die with Divi</span><span class="sub">No choice, and Elementor Pro covers all of it</span></div>
+      <ul>
+        <li><b>Divi BodyCommerce</b><em>&rarr; Elementor Pro WooCommerce Builder</em></li>
+        <li><b>Divi Machine</b><em>&rarr; Elementor Pro Loop Builder</em></li>
+        <li><b>Divi Plus</b>, <b>DiviFlash</b><em>&rarr; built into Elementor Pro</em></li>
+        <li><b>Divi Dash</b>, <b>Divi Responsive Helper</b><em>not needed</em></li>
+      </ul>
+    </div>
+    <div class="tcol drop">
+      <div class="head"><span class="cnt">8</span><span class="ttl">Dead or duplicated</span><span class="sub">Nothing depends on these</span></div>
+      <ul>
+        <li><b>WooCommerce Legacy REST API</b><em>retired by WooCommerce, a standing security risk</em></li>
+        <li><b>PixelYourSite</b><em>throwing an error and tracking nothing</em></li>
+        <li><b>WP Statistics</b><em>duplicates Google Analytics</em></li>
+        <li><b>Flying Scripts</b><em>exists to delay the tracking bloat we are removing</em></li>
+        <li><b>Bloom</b><em>silent on every page tested</em></li>
+        <li><b>AI Agent by SiteGround</b><em>host upsell</em></li>
+        <li><b>Copy &amp; Delete Posts</b>, <b>Delete Duplicate Products</b><em>one-off admin tools left installed</em></li>
+      </ul>
+    </div>
+    <div class="tcol drop">
+      <div class="head"><span class="cnt">5</span><span class="ttl">Housekeeping</span><span class="sub">Removed, or removed after the move</span></div>
+      <ul>
+        <li><b>Walmart Integration</b>, <b>Variation Images Gallery</b><em>already inactive</em></li>
+        <li><b>All-in-One WP Migration</b><em>used during the move, removed after</em></li>
+        <li><b>Broken Link Checker</b><em>run as an occasional external scan instead</em></li>
+        <li><b>Post Types Order</b><em>WooCommerce sorts products natively</em></li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Bricolage Grotesque',sans-serif;font-size:23px;margin:34px 0 4px">Still to resolve</h3>
+  <p class="narrow">These I could not settle from the outside. Each has a specific way to find out, and all of them get answered in Phase 1 rather than left as an open question for you.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Plugin</th><th>What I found</th><th>How we settle it</th></tr></thead>
+      <tbody>
+        <tr><td><strong>JWT Authentication</strong></td><td>Installed <strong>2 March 2026</strong>, and tokens have been issued, so something did connect. It predates your involvement.</td><td>Check the server access log for calls to the token route. If nothing has used it in 90 days, remove it. Until then it is an open door nobody is watching.</td></tr>
+        <tr><td><strong>Advanced Custom Fields</strong></td><td>No settings and no output found. Most likely installed to feed <strong>Divi Machine</strong>, which is going anyway.</td><td>List the field groups in the admin. If they only feed Divi Machine listings, ACF goes with it.</td></tr>
+        <tr><td><strong>Auto Coupons</strong>, <strong>Free Gifts</strong></td><td>Default settings, no front-end output. Both overlap with Discount Rules Pro.</td><td>Audit the coupon list for anything marked auto-apply, and check for an active free-gift rule. Free Gifts is also five major versions behind.</td></tr>
+        <tr><td><strong>PDF Embedder</strong>, <strong>Videopack</strong></td><td>No trace on 18 pages, but I did not test all 322 products.</td><td>Search the database for their shortcodes. Zero results means zero risk.</td></tr>
+        <tr><td><strong>Conditional Shipping and Payments</strong></td><td>Five major versions behind (2.2.0 against 3.1.4).</td><td>Read the configured rules. If there are none, remove. If there are, update it and keep it.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call warnbox">
+    <span class="tag">Two things worth fixing rather than removing</span>
+    <h3>Zero product reviews, on all 322 products</h3>
+    <p>I checked ten products across a busy category: <strong>no reviews, no star ratings, and the review form is not rendering at all</strong>. Customer Reviews for WooCommerce is installed and doing nothing visible. That is not really a plugin problem, it is a missed opportunity, because review stars in Google results lift click rates markedly. The rebuild is the moment to switch reviews back on and turn the request emails on properly.</p>
+    <p style="margin-top:.8em"><strong>ClearSale is running with debug mode enabled in production.</strong> Harmless, but it writes log files nobody reads. Worth turning off during the move.</p>
+  </div>
+
+  <div class="call blue">
+    <span class="tag">Where the weight actually goes</span>
+    <p>The speed gain does not come from the plugin count. It comes from the specific things being removed: <strong>13 of the homepage&rsquo;s 52 style and script files belong to the four Divi add-ons</strong>, four more come from duplicated tracking, and the 110KB icon font and 32KB of unused styling go with them. Keeping ClearSale, CURCY and Fluid Checkout costs almost nothing by comparison, and each one protects something that earns money.</p>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>6</b> Protecting the rankings</p>
+  <h2>The one rule that matters most</h2>
+  <p class="narrow">Sid&rsquo;s currently earns around <strong>100,000 non-brand impressions</strong> a quarter and holds page-one positions on genuinely valuable terms. A careless rebuild can lose that in a fortnight, and it is slow to win back. Almost all of that risk comes down to one thing: <strong>web addresses must not change</strong>.</p>
+
+  <div class="urlmap">
+    <div class="side">
+      <h3>Today</h3>
+      <p>/product-category/all-products/secure-outdoor-storage/</p>
+      <p>/product/all-products/magic-carpet-fertilizer/</p>
+      <p>/how-to-build-a-living-wall/</p>
+      <p>/outdoor-lighting-2/</p>
+    </div>
+    <div class="eq">=</div>
+    <div class="side">
+      <h3>After the rebuild</h3>
+      <p>/product-category/all-products/secure-outdoor-storage/</p>
+      <p>/product/all-products/magic-carpet-fertilizer/</p>
+      <p>/how-to-build-a-living-wall/</p>
+      <p>/outdoor-lighting-2/</p>
+    </div>
+  </div>
+  <p class="narrow" style="font-size:15px;color:var(--muted)">Identical, deliberately. Including the slightly awkward ones like <code>/outdoor-lighting-2/</code>. A tidier address is not worth a ranking.</p>
+
+  <p class="narrow">Alongside that, four checks run before anything goes live:</p>
+  <ul class="plain narrow">
+    <li><strong>Every address answered.</strong> All 511 are requested on the new site and must return a page, not an error.</li>
+    <li><strong>Every page title and description matched</strong> against the old site, one by one.</li>
+    <li><strong>Structured data preserved</strong>, so products keep their prices and stock status in search results.</li>
+    <li><strong>A full backup of the live site kept untouched</strong> for 30 days after launch, so reverting is always possible.</li>
+  </ul>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>7</b> How the move happens</p>
+  <h2>Six phases, and the shop never closes</h2>
+  <p class="narrow">The new site is built on a private staging address that customers never see. The live store keeps trading normally throughout. Only the final phase touches it, and that step is measured in minutes.</p>
+
+  <div class="phases">
+    <div class="ph">
+      <div class="spine"><div class="dot">1</div><div class="line"></div></div>
+      <div class="card">
+        <div class="hdr"><h3>Copy and freeze</h3><span class="when">Week 1</span></div>
+        <p>A complete copy of the live site is taken to staging. Every custom code snippet is read and catalogued. We agree exactly which plugins are retiring. Nothing is designed yet.</p>
+        <span class="live off">Live site unaffected</span>
+      </div>
+    </div>
+    <div class="ph">
+      <div class="spine"><div class="dot">2</div><div class="line"></div></div>
+      <div class="card">
+        <div class="hdr"><h3>Clean foundation</h3><span class="when">Week 1&ndash;2</span></div>
+        <p>Fresh WordPress, Hello Elementor and its child theme, Elementor Pro, WooCommerce, and only the plugins from the keep list. The Divi add-ons come off. Products, categories, orders, customers, images and all SEO settings are imported.</p>
+        <span class="live off">Live site unaffected</span>
+      </div>
+    </div>
+    <div class="ph">
+      <div class="spine"><div class="dot">3</div><div class="line"></div></div>
+      <div class="card">
+        <div class="hdr"><h3>Build the templates</h3><span class="when">Week 2&ndash;3</span></div>
+        <p>The pieces that appear everywhere: header, footer, product page, category listing, blog article, cart and checkout. Getting these right is most of the work, because 500 of the 511 addresses are drawn by them.</p>
+        <span class="live off">Live site unaffected</span>
+      </div>
+    </div>
+    <div class="ph">
+      <div class="spine"><div class="dot">4</div><div class="line"></div></div>
+      <div class="card">
+        <div class="hdr"><h3>Rebuild the eight pages</h3><span class="when">Week 3&ndash;4</span></div>
+        <p>Home, About, Contact, Delivery, Hardscaping, Outdoor Lighting, Partners, Blog. Rebuilt to match the current design unless you want changes. The 22 blog articles are simple stacks of text and pictures, so they convert almost mechanically rather than needing redesign.</p>
+        <span class="live off">Live site unaffected</span>
+      </div>
+    </div>
+    <div class="ph">
+      <div class="spine"><div class="dot">5</div><div class="line"></div></div>
+      <div class="card">
+        <div class="hdr"><h3>Check everything</h3><span class="when">Week 4&ndash;5</span></div>
+        <p>All 511 addresses tested. Titles and descriptions compared against the old site. A real test purchase put through end to end, including payment, tax, shipping and the invoice email. Speed and accessibility measured so we can prove the improvement rather than claim it.</p>
+        <span class="live off">Live site unaffected</span>
+      </div>
+    </div>
+    <div class="ph">
+      <div class="spine"><div class="dot">6</div><div class="line"></div></div>
+      <div class="card">
+        <div class="hdr"><h3>Switch over</h3><span class="when">One evening</span></div>
+        <p>Done outside trading hours. Orders paused for roughly thirty minutes, the new site takes over, the final orders are carried across, then a live re-test. Google is told to re-read the site the same night. The old site is kept, intact, for 30 days.</p>
+        <span class="live on">Short planned pause</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>8</b> What you get</p>
+  <h2>Where this actually pays off</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Gain</th><th>Why it follows from the rebuild</th></tr></thead>
+      <tbody>
+        <tr><td><strong>A faster store</strong></td><td>Five Divi add-ons, a 110KB icon font, 32KB of unused styling and two duplicate tracking scripts all leave at once. The font loading that causes the page to jump gets fixed properly rather than patched.</td></tr>
+        <tr><td><strong>Google shopping listings finally running</strong></td><td>The product feed is rebuilt from scratch as part of the move. Where these listings already appear for Sid&rsquo;s they earn roughly <strong>six times</strong> the clicks of ordinary search results. This is the biggest single opportunity on the site and it is currently switched off by a broken feed.</td></tr>
+        <tr><td><strong>You can edit your own site</strong></td><td>Elementor is materially easier to hand over than Divi with five add-ons layered on it. Fewer moving parts, one visual editor, and templates that behave predictably.</td></tr>
+        <tr><td><strong>Accessible and zoomable</strong></td><td>Pinch-zoom comes back. The known contrast and empty-link problems get fixed in the build rather than retrofitted.</td></tr>
+        <tr><td><strong>Fewer things to break</strong></td><td>Around 19 plugins removed, and with them 13 of the homepage&rsquo;s 52 style and script files. Every plugin removed is one fewer update to track and one fewer thing that can take the store offline on a Friday night.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call warnbox">
+    <span class="tag">What this does not fix</span>
+    <p>A rebuild does not sell anything on its own. The two biggest commercial problems on the site are still inventory: <strong>21,000 searches a quarter for bike storage with no bike products in stock</strong>, and hornwort ranking fifth while out of stock. Those need decisions from you, and they are worth more than everything in this document. The rebuild is the right moment to settle them, not a substitute for doing so.</p>
+  </div>
+</section>
+
+<section>
+  <p class="num-eyebrow"><b>9</b> To start</p>
+  <h2>Six decisions from you</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="num">#</th><th>Decision</th><th>Why it is needed early</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td><strong>Same design, or a refresh?</strong></td><td>Rebuilding the current look is faster and safer. A redesign is a fair thing to want, but it should be a deliberate choice, not something that happens by accident during a migration.</td></tr>
+        <tr><td class="num">2</td><td><strong>Which tracking stack stays?</strong></td><td>You have three. Keeping one means clean data. Keeping all three means duplicated numbers and a slower site.</td></tr>
+        <tr><td class="num">3</td><td><strong>The five &ldquo;loading but idle&rdquo; plugins</strong><br><span style="color:var(--muted);font-size:13.5px">Themify Filter, Fluid Checkout, CURCY, PDF Embedder / Videopack, JWT Auth</span></td><td>Answer the five questions in section 5 and each one either earns its place or comes off. CURCY alone loads 30 files on the homepage, so it is worth settling whether you sell in any currency but Canadian dollars.</td></tr>
+        <tr><td class="num">4</td><td><strong>Should we fix product reviews?</strong></td><td>All 322 products have zero reviews and the review form is not rendering. Turning this back on is cheap and review stars lift click rates in Google. It needs your say-so because it invites public feedback.</td></tr>
+        <tr><td class="num">5</td><td><strong>Do Klaviyo, Affirm, ClearSale and ClickShip all stay?</strong></td><td>All four are business tools rather than technical ones, so this is your call, not mine. Each one kept is one plugin kept.</td></tr>
+        <tr><td class="num">6</td><td><strong>Who holds the Elementor Pro licence?</strong></td><td>It is a paid, renewing licence. Worth settling ownership and renewal before the build starts.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p>Plugin counts, media sizes, page structures and address lists were read from the live sids-ponds.com installation on 27 August 2026. Search figures come from Google Search Console, 25 May to 22 August 2026, with brand searches excluded.</p>
+  <p>The plugin audit was done by loading four representative pages &mdash; homepage, a product category, a product and the cart &mdash; and checking each plugin&rsquo;s own files against what the pages actually delivered. A plugin appearing in those pages is proof it is working. A plugin <em>not</em> appearing is a reason to ask a question, not a reason to delete it, which is why section 5 separates the two. The plugin verdicts in section 5 come from stored settings plus output checks across 18 pages. Where I could not settle a plugin from outside, it is listed as unresolved with the specific test that settles it, rather than guessed at.</p>
+</footer>
+
+</div>

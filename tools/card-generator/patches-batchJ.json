@@ -1,0 +1,62 @@
+{
+ "8613": [
+  {
+   "search": "<h2><b>How Hormones Affect Your Daily Life</b></h2>",
+   "replace": "<h2><b>How Hormones Affect Your Daily Life</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-hormones-regulate.webp\" alt=\"Estrogen, progesterone and testosterone affect bone density, heart health, cognition and emotional stability\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Understanding the Different Forms of Estrogen Therapy</b></h3>",
+   "replace": "<h3><b>Understanding the Different Forms of Estrogen Therapy</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/systemic-vs-local-estrogen-therapy.webp\" alt=\"Systemic estrogen treats hot flashes through the bloodstream; local vaginal therapy has lower risk as little is absorbed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Weighing the Risks and Modern Safety Standards</b></h3>",
+   "replace": "<h3><b>Weighing the Risks and Modern Safety Standards</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hrt-modern-safety-standards.webp\" alt=\"HRT safety rests on timing before age 60, the lowest effective dose, and reviewing individual cancer and clot history\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6242": [
+  {
+   "search": "<h3 class=\"ql-align-justify\"><strong>Types of Hormone Therapy:</strong></h3>",
+   "replace": "<h3 class=\"ql-align-justify\"><strong>Types of Hormone Therapy:</strong></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-hormone-therapy.webp\" alt=\"Four hormone therapy types: estrogen, combined estrogen and progesterone, testosterone, and thyroid replacement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2 class=\"ql-align-justify\"><strong>Benefits of Hormone Therapy: How It Can Improve Your Quality of Life</strong></h2>",
+   "replace": "<h2 class=\"ql-align-justify\"><strong>Benefits of Hormone Therapy: How It Can Improve Your Quality of Life</strong></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-therapy-benefits.webp\" alt=\"Hormone therapy can ease menopause symptoms, steady mood and clarity, protect bone density, and help skin and hair\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3 class=\"ql-align-justify\"><strong>Risks and Considerations of Hormone Therapy</strong></h3>",
+   "replace": "<h3 class=\"ql-align-justify\"><strong>Risks and Considerations of Hormone Therapy</strong></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-therapy-risks-and-who-should-avoid.webp\" alt=\"Hormone therapy risks include clots, stroke and some cancers; avoid it with a history of breast cancer or liver disease\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3 class=\"ql-align-justify\"><strong>Alternatives to Hormone Therapy: What Are Your Options?</strong></h3>",
+   "replace": "<h3 class=\"ql-align-justify\"><strong>Alternatives to Hormone Therapy: What Are Your Options?</strong></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/alternatives-to-hormone-therapy.webp\" alt=\"Hormone therapy alternatives: non-hormonal medications like SSRIs, bioidentical hormones, and herbal supplements\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6246": [
+  {
+   "search": "<h3><b>Key Aspects of Wellness Coaching</b></h3>",
+   "replace": "<h3><b>Key Aspects of Wellness Coaching</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-wellness-coaching-covers.webp\" alt=\"Wellness coaching covers physical health, mental health, lifestyle choices and the behaviour changes that hold them\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>The Benefits of Wellness Coaching</b></h2>",
+   "replace": "<h2><b>The Benefits of Wellness Coaching</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/benefits-of-wellness-coaching.webp\" alt=\"Wellness coaching supports emotional health, chronic disease management, work-life balance and habits that last\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>How Wellness Coaching Works</b></h2>",
+   "replace": "<h2><b>How Wellness Coaching Works</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-wellness-coaching-works.webp\" alt=\"Wellness coaching runs from an initial assessment through SMART goal setting, regular check-ins and ongoing support\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6276": [
+  {
+   "search": "<h2><b>Popular Aesthetic Treatments and Their Uses</b></h2>",
+   "replace": "<h2><b>Popular Aesthetic Treatments and Their Uses</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/popular-aesthetic-treatments.webp\" alt=\"Popular aesthetic treatments: Botox and dermal fillers, laser skin treatments, body contouring and microneedling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>What to Consider Before Choosing Aesthetic Treatments</b></h2>",
+   "replace": "<h2><b>What to Consider Before Choosing Aesthetic Treatments</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/before-choosing-an-aesthetic-treatment.webp\" alt=\"Before an aesthetic treatment check the provider is licensed, that results vary between people, and the side effects\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>How to Choose the Right Aesthetic Treatment for You</b></h2>",
+   "replace": "<h2><b>How to Choose the Right Aesthetic Treatment for You</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choosing-the-right-aesthetic-treatment.webp\" alt=\"Choose an aesthetic treatment by consulting a licensed professional, setting real expectations, and planning the budget\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+PASS: Separate approvals preserve independent widgets through durable recovery proof
+PASS: Four independent widgets apply in one selected batch, with duplicate IDs applied once
+PASS: Actual saved Elementor tree contains every approved update
+PASS: Applied widget retains its own recovery snapshot #1
+PASS: Applied widget retains its own recovery snapshot #2
+PASS: Applied widget retains its own recovery snapshot #3
+PASS: Applied widget retains its own recovery snapshot #4
+PASS: Overlapping proposals cannot overwrite an earlier approved widget
+PASS: Already stale proposals receive no batch exception
+PASS: Evidence rejection leaves the proposal unclaimed
+PASS: Same-second external edit between siblings still blocks the remaining write
+PASS: Environment changes remain blocked even after a trusted sibling
+PASS: Unexpected side effects cannot become trusted evidence
+PASS: A proposal altered after selection cannot borrow the batch authorization
+PASS: Unselected proposals cannot join a batch
+PASS: A later selected request verifies the persisted snapshot chain independently
+PASS: Recovery failure prevents writes and cannot advance sibling evidence
+Batch regression checks passed: 17
+PASS: Section, title, SEO and author survive separate requests #1: 
+PASS: Section, title, SEO and author survive separate requests #2: 
+PASS: Section, title, SEO and author survive separate requests #3: 
+PASS: Section, title, SEO and author survive separate requests #4: 
+PASS: Mixed edits all persist without replacing prior content
+PASS: Article body, title, excerpt and both SEO fields apply together
+PASS: Article revisions remain intact
+PASS: Chain follows actual snapshot/application order, not proposal creation order
+PASS: A multi-step chain works after separate approval requests
+PASS: Section and individual-widget overlap remains blocked
+PASS: Competing writes to the same SEO key remain blocked
+PASS: Structural permalink change receives no continuation exception
+PASS: Incomplete or unapproved recovery history fails closed: missing_snapshot
+PASS: Incomplete or unapproved recovery history fails closed: missing_after
+PASS: Incomplete or unapproved recovery history fails closed: wrong_post
+PASS: Incomplete or unapproved recovery history fails closed: legacy_snapshot
+PASS: Incomplete or unapproved recovery history fails closed: not_approved
+PASS: A later legitimate approval cannot conceal an earlier external edit
+PASS: Altered approved payload cannot prove the recorded state transition
+PASS: Recovery snapshot and live state use identical stable fingerprints
+Continuation regression checks passed: 37
+PASS: Real approved payload can be replayed #1754
+PASS: Existing pending #1762 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1738
+PASS: Existing pending #1758 can continue through its actual approved payload
+PASS: Existing pending #1757 can continue through its actual approved payload
+PASS: Existing pending #1756 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1734
+PASS: Existing pending #1812 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1755
+PASS: Existing pending #1763 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1739
+PASS: Existing pending #1761 can continue through its actual approved payload
+PASS: Existing pending #1760 can continue through its actual approved payload
+PASS: Existing pending #1759 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1800
+PASS: Existing pending #1804 can continue through its actual approved payload
+PASS: Existing pending #1803 can continue through its actual approved payload
+PASS: Existing pending #1802 can continue through its actual approved payload
+PASS: Existing pending #1801 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1805
+PASS: Existing pending #1809 can continue through its actual approved payload
+PASS: Existing pending #1808 can continue through its actual approved payload
+PASS: Existing pending #1807 can continue through its actual approved payload
+PASS: Existing pending #1806 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1735
+PASS: Existing pending #1792 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1753
+PASS: Existing pending #1789 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1752
+PASS: Existing pending #1788 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1751
+PASS: Existing pending #1787 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1750
+PASS: Existing pending #1786 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1749
+PASS: Existing pending #1785 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1748
+PASS: Existing pending #1784 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1746
+PASS: Existing pending #1782 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1747
+PASS: Existing pending #1783 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1745
+PASS: Existing pending #1781 can continue through its actual approved payload
+PASS: Real approved payload can be replayed #1744
+PASS: Existing pending #1780 can continue through its actual approved payload
+PASS: All 28 incident proposals exercised against their related real approved payloads
+Live-payload replay cases: 28 across 18 targets. Production full-metadata snapshot proof remains an install-time check.

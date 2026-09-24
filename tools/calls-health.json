@@ -1,0 +1,3 @@
+[{"route":"cc-assistant/v1/whoami","method":"GET","out":"ekit-removal/h-w.json"},
+ {"route":"cc-assistant/v1/health","method":"GET","out":"ekit-removal/irv-health.json"},
+ {"route":"cc-assistant/v1/stack/plugins","method":"GET","out":"ekit-removal/irv-plugins2.json"}]

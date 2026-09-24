@@ -1,0 +1,80 @@
+{
+ "9170": [
+  {
+   "search": "<h2><b>Thyroid Function 101</b></h2>",
+   "replace": "<h2><b>Thyroid Function 101</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/thyroid-hormone-chain.webp\" alt=\"The thyroid chain: the brain releases TSH, the thyroid makes T4, and T4 converts to the active hormone T3\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Hypothyroidism vs Hashimoto\u2019s: Key Differences</b></h2>",
+   "replace": "<h2><b>Hypothyroidism vs Hashimoto\u2019s: Key Differences</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hypothyroidism-vs-hashimotos.webp\" alt=\"Hypothyroidism is an underactive thyroid; Hashimoto's is the autoimmune attack that most often causes it\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>When to Seek Medical Evaluation</b></h2>",
+   "replace": "<h2><b>When to Seek Medical Evaluation</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/thyroid-when-to-get-evaluated.webp\" alt=\"See a doctor for severe fatigue, weight change, hair thinning, depression, neck swelling or symptoms despite medication\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9298": [
+  {
+   "search": "<h2><b>Why OTC Melatonin Fails</b></h2>",
+   "replace": "<h2><b>Why OTC Melatonin Fails</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/why-otc-melatonin-fails.webp\" alt=\"OTC melatonin fails on unreliable dosing, downregulating your own production, and next-morning grogginess\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Circadian Rhythm Reset: Beyond the Pill</b></h3>",
+   "replace": "<h3><b>Circadian Rhythm Reset: Beyond the Pill</b></h3>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/circadian-rhythm-light-reset.webp\" alt=\"Reset your body clock with 15 minutes of morning sunlight and no blue light for an hour before bed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Advanced Restoration: Beyond Traditional Sleep Aids</b></h2>",
+   "replace": "<h2><b>Advanced Restoration: Beyond Traditional Sleep Aids</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/melatonin-vs-epitalon-vs-magnesium.webp\" alt=\"Melatonin replaces the hormone, Epitalon aims to support the pineal gland, magnesium glycinate calms the nervous system\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9273": [
+  {
+   "search": "<h2><b>What is Cortisol?</b></h2>",
+   "replace": "<h2><b>What is Cortisol?</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-cortisol-does.webp\" alt=\"Cortisol regulates blood pressure, reduces inflammation, steadies blood glucose and follows a daily rhythm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>High vs. Low Cortisol Signs: Identifying the Imbalance</b></h2>",
+   "replace": "<h2><b>High vs. Low Cortisol Signs: Identifying the Imbalance</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/high-vs-low-cortisol-signs.webp\" alt=\"High cortisol brings weight gain and stretch marks; low cortisol brings fatigue, low blood pressure and salt cravings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Functional Testing: Getting the Right Answers</b></h2>",
+   "replace": "<h2><b>Functional Testing: Getting the Right Answers</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/cortisol-testing-options.webp\" alt=\"Cortisol testing: a morning blood draw, saliva at four points, 24-hour urinary free cortisol, and the DUTCH test\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>When to Visit Urgent Care or an ER</b></h2>",
+   "replace": "<h2><b>When to Visit Urgent Care or an ER</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/adrenal-crisis-emergency-signs.webp\" alt=\"Adrenal crisis needs emergency care: sudden severe pain, severe vomiting and diarrhoea, or low blood pressure and collapse\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9292": [
+  {
+   "search": "<h3><b>Common Symptoms You Shouldn\u2019t Ignore</b></h3>",
+   "replace": "<h3><b>Common Symptoms You Shouldn\u2019t Ignore</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/perimenopause-common-symptoms.webp\" alt=\"Common perimenopause symptoms: hot flashes and night sweats, insomnia, mood changes, and brain fog\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Natural Relief: Evidence-Based Strategies</b></h2>",
+   "replace": "<h2><b>Natural Relief: Evidence-Based Strategies</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/perimenopause-natural-relief-options.webp\" alt=\"Perimenopause relief options: calcium and vitamin D, phytoestrogens, progesterone cream with caution, and pelvic care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>When to See a Medical Professional</b></h2>",
+   "replace": "<h2><b>When to See a Medical Professional</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/perimenopause-when-to-see-a-doctor.webp\" alt=\"See a doctor in perimenopause for very heavy bleeding, periods closer than 21 days, or severe depression or anxiety\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9295": [
+  {
+   "search": "<h2><b>What Actually Drives PCOS?</b></h2>",
+   "replace": "<h2><b>What Actually Drives PCOS?</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-root-causes.webp\" alt=\"PCOS root causes: genetics and environment, androgen excess, insulin resistance, inflammation and adrenal PCOS\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Androgen Excess: More Than Just a Hormone</b></h3>",
+   "replace": "<h3><b>Androgen Excess: More Than Just a Hormone</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-androgen-excess-signs.webp\" alt=\"Androgen excess in PCOS shows as facial hair growth, jawline cystic acne, and male-pattern hair thinning\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>The Insulin Connection</b></h2>",
+   "replace": "<h2><b>The Insulin Connection</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-insulin-connection.webp\" alt=\"In PCOS, cells resist insulin, the body makes more, and high insulin drives ovarian testosterone while SHBG falls\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Cycle Regulation Diet</b></h3>",
+   "replace": "<h3><b>Cycle Regulation Diet</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-cycle-regulation-diet.webp\" alt=\"A PCOS cycle-regulation plate: fiber first, protein at every meal, healthy fats, and anti-inflammatory colour\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

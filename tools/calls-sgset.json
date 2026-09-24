@@ -1,0 +1,2 @@
+[{"route":"cc-assistant/v1/whoami","method":"GET","out":"ekit-removal/x-w.json"},
+ {"route":"cc-assistant/v1/stack/settings?slug=siteground-optimizer","method":"GET","out":"ekit-removal/sg-irving.json"}]

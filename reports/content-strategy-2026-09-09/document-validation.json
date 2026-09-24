@@ -1,0 +1,115 @@
+{
+  "pdf_pages": 12,
+  "pages": [
+    {
+      "page": 1,
+      "words": 526,
+      "first_line": "CC Assistant content strategy and decision",
+      "last_line": "includes/class-page-intent.php; includes/class-pre-publish.php.",
+      "min_y": 33.34,
+      "max_y": 786.73,
+      "links": 12
+    },
+    {
+      "page": 2,
+      "words": 507,
+      "first_line": "What currently makes the advice unreliable",
+      "last_line": "9. Aggarwal et al., KDD 2024, GEO: Generative Engine Optimization.",
+      "min_y": 33.66,
+      "max_y": 681.73,
+      "links": 17
+    },
+    {
+      "page": 3,
+      "words": 490,
+      "first_line": "Competitor intelligence that produces evidence",
+      "last_line": "audit.php.",
+      "min_y": 33.66,
+      "max_y": 687.73,
+      "links": 3
+    },
+    {
+      "page": 4,
+      "words": 554,
+      "first_line": "Information gain becomes a reader-value brief",
+      "last_line": "1. Google Search Central, Creating helpful, reliable, people-first content.",
+      "min_y": 33.66,
+      "max_y": 706.48,
+      "links": 7
+    },
+    {
+      "page": 5,
+      "words": 527,
+      "first_line": "A decision engine that can explain and reconsider",
+      "last_line": "Roadmap.csv.",
+      "min_y": 33.66,
+      "max_y": 773.98,
+      "links": 2
+    },
+    {
+      "page": 6,
+      "words": 582,
+      "first_line": "When to link, differentiate, merge or leave alone",
+      "last_line": "includes/class-similarity.php.",
+      "min_y": 33.66,
+      "max_y": 747.73,
+      "links": 17
+    },
+    {
+      "page": 7,
+      "words": 525,
+      "first_line": "Revamp the right article, for the right reason",
+      "last_line": "8. Google Search Central, Google Search's core updates and your website.",
+      "min_y": 33.66,
+      "max_y": 725.98,
+      "links": 7
+    },
+    {
+      "page": 8,
+      "words": 522,
+      "first_line": "Contextual linking and safe consolidation",
+      "last_line": "16. Google Search Central, Redirects and Google Search.",
+      "min_y": 33.66,
+      "max_y": 654.73,
+      "links": 8
+    },
+    {
+      "page": 9,
+      "words": 541,
+      "first_line": "Additional features and a trustworthy learning loop",
+      "last_line": "structural time-series models.",
+      "min_y": 33.66,
+      "max_y": 726.73,
+      "links": 9
+    },
+    {
+      "page": 10,
+      "words": 490,
+      "first_line": "Implementation sequence and acceptance criteria",
+      "last_line": "Roadmap.csv.",
+      "min_y": 33.66,
+      "max_y": 773.98,
+      "links": 1
+    },
+    {
+      "page": 11,
+      "words": 461,
+      "first_line": "Sources",
+      "last_line": "Doorway abuse and scaled content abuse; relevance to mass-producing low-value location or query variants.",
+      "min_y": 33.66,
+      "max_y": 706.8,
+      "links": 26
+    },
+    {
+      "page": 12,
+      "words": 417,
+      "first_line": "Sources \u2014 continued",
+      "last_line": "series items supplement that work.",
+      "min_y": 33.66,
+      "max_y": 655.05,
+      "links": 10
+    }
+  ],
+  "unicode_replacement_character": false,
+  "source_count": 26
+}

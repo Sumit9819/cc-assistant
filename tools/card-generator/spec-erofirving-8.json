@@ -1,0 +1,518 @@
+{
+  "_note": "Batch 8. Eight posts, 16 candidates read, 12 cards kept. Cut on the read: 3879's two capability lists were replaced by ONE card, because the post also carries a pharmacy-is-enough section the shortlist missed, which turns it into a real decision card instead of two lists of what an ER owns; 3879 'What an ER Can Do That a Pharmacy Cannot' was facility marketing. 3937's two lists were merged into one card because they are two tiers of the same decision, urgent care versus ER. 3979 gets one overview card of its eight emergencies rather than repeating the F.A.S.T. and heart-attack lists that 3886 and 3978 already carry. 4008's dehydration-signs list was dropped as a near-duplicate of the 3201 card; its heat exhaustion versus heat stroke split is its own distinctive content and follows the post's h3 structure.",
+  "cards": [
+    {
+      "file": "erof-3879-pharmacy-or-er",
+      "post_id": 3879,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "pharmacy",
+      "heading": "When You Need More Than a Prescription",
+      "title": [
+        "24-Hour ",
+        "Pharmacy",
+        " or the ER?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "When a 24-hour pharmacy is enough and when to skip it for the emergency room",
+      "good": {
+        "icon": "pill",
+        "heading": "The pharmacy is enough",
+        "items": [
+          "OTC medicine for mild symptoms",
+          "Basic first aid supplies",
+          "Refills on maintenance medicine"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "Skip it, go to the ER",
+        "items": [
+          "Difficulty breathing",
+          "Chest pain or pressure",
+          "Neurological changes",
+          "Severe pain or injuries",
+          "High fever, or a young child"
+        ]
+      }
+    },
+    {
+      "file": "erof-3897-anaphylaxis-red-flags",
+      "post_id": 3897,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "anaphylaxis",
+      "heading": "Recognizing Red Flags: When a Throat Feels Tight or Breathing Changes",
+      "title": [
+        "After an EpiPen: ",
+        "Anaphylaxis",
+        " Red Flags"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four red flags that an allergic reaction is returning after an EpiPen: throat tightness, new hives, faintness, and severe stomach symptoms",
+      "items": [
+        {
+          "icon": "waves",
+          "label": "Throat tight, or a hoarse voice",
+          "note": "Or a persistent cough"
+        },
+        {
+          "icon": "droplet",
+          "label": "New hives or itching",
+          "note": "Or sudden paleness"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Faint, dizzy, weak pulse",
+          "note": "Rapid and thready"
+        },
+        {
+          "icon": "frown",
+          "label": "Severe cramps or vomiting",
+          "note": "Or diarrhea"
+        }
+      ]
+    },
+    {
+      "file": "erof-3897-anaphylaxis-er-care",
+      "post_id": 3897,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "anaphylaxis",
+      "heading": "Emergency Allergy Stabilization: What Happens at the Hospital?",
+      "title": [
+        "",
+        "Anaphylaxis",
+        ": What the ER Does"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation",
+      "steps": [
+        {
+          "icon": "heart-pulse",
+          "label": "Monitor vitals",
+          "note": "Blood pressure and heart rhythm"
+        },
+        {
+          "icon": "droplets",
+          "label": "IV fluids",
+          "note": "If blood pressure drops"
+        },
+        {
+          "icon": "waves",
+          "label": "Oxygen",
+          "note": "Support while the airway recovers"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Observation",
+          "note": "Most patients stay 4 to 6 hours"
+        }
+      ]
+    },
+    {
+      "file": "erof-3900-whiplash-symptoms",
+      "post_id": 3900,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "whiplash",
+      "heading": "Whiplash vs. Internal Bleeding: Understanding the Spectrum of Injuries",
+      "title": [
+        "",
+        "Whiplash",
+        " After a Crash"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three signs of whiplash after a car accident: neck stiffness, pain radiating into the shoulders or arms, and headaches at the base of the skull",
+      "items": [
+        {
+          "icon": "bone",
+          "label": "Neck stiffness",
+          "note": "And reduced range of motion"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Pain into shoulders or arms",
+          "note": "Radiating out from the neck"
+        },
+        {
+          "icon": "brain",
+          "label": "Headache at the skull base",
+          "note": "Where the neck meets the head"
+        }
+      ]
+    },
+    {
+      "file": "erof-3900-crash-er-red-flags",
+      "post_id": 3900,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "crash",
+      "heading": "When to Head to the ER Immediately: Red Flag Symptoms",
+      "title": [
+        "After a High-Speed ",
+        "Crash",
+        ": Go Now"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five red flag symptoms after a high-speed car accident that need the emergency room immediately",
+      "items": [
+        {
+          "icon": "moon",
+          "label": "Loss of consciousness",
+          "note": "Even for a few seconds"
+        },
+        {
+          "icon": "frown",
+          "label": "Severe abdominal pain",
+          "note": "It can mean organ trauma"
+        },
+        {
+          "icon": "brain",
+          "label": "Confusion or disorientation",
+          "note": "A possible concussion"
+        },
+        {
+          "icon": "activity",
+          "label": "Numbness or tingling",
+          "note": "Possible spine or nerve injury"
+        },
+        {
+          "icon": "waves",
+          "label": "Shortness of breath",
+          "note": "A collapsed lung or chest injury"
+        }
+      ]
+    },
+    {
+      "file": "erof-3937-rash-urgent-or-er",
+      "post_id": 3937,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "rash",
+      "heading": "Signs Your Rash Needs Urgent Care",
+      "title": [
+        "A Poison Ivy ",
+        "Rash",
+        ": Urgent Care or ER?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Poison ivy rash signs that need urgent care beside the signs that need the emergency room",
+      "good": {
+        "icon": "clipboard-check",
+        "heading": "Urgent care",
+        "items": [
+          "The rash covers over 25% of you",
+          "Itching that stops you sleeping",
+          "Blisters oozing fluid or pus"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "ER now",
+        "items": [
+          "Hives with tongue or throat swelling",
+          "A fever over 100°F",
+          "Widespread blisters, or in the mouth",
+          "Difficulty swallowing"
+        ]
+      }
+    },
+    {
+      "file": "erof-3979-eight-emergencies",
+      "post_id": 3979,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "emergencies",
+      "heading": "1. Stroke Symptoms (Face, Arm, Speech, Time)",
+      "title": [
+        "8 ",
+        "Emergencies",
+        " That Cannot Wait"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "The eight emergencies that need a 24-hour ER: stroke, heart attack, severe allergic reaction, high fever in young children, severe abdominal pain, sudden severe headache, difficulty breathing, and deep cuts or broken bones",
+      "items": [
+        {
+          "icon": "brain",
+          "label": "Stroke symptoms"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Heart attack signs"
+        },
+        {
+          "icon": "shield-alert",
+          "label": "Severe allergic reaction"
+        },
+        {
+          "icon": "baby",
+          "label": "High fever in young children"
+        },
+        {
+          "icon": "frown",
+          "label": "Severe abdominal pain"
+        },
+        {
+          "icon": "zap",
+          "label": "Sudden severe headache"
+        },
+        {
+          "icon": "waves",
+          "label": "Difficulty breathing"
+        },
+        {
+          "icon": "bandage",
+          "label": "Deep cuts and broken bones"
+        }
+      ]
+    },
+    {
+      "file": "erof-4008-heat-exhaustion-or-stroke",
+      "post_id": 4008,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "heat stroke",
+      "heading": "Understanding Heat-Related Illnesses: Heat Exhaustion vs. Heat Stroke",
+      "title": [
+        "Heat Exhaustion or ",
+        "Heat Stroke",
+        "?"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Heat exhaustion signs beside heat stroke signs, which are a medical emergency needing 911",
+      "good": {
+        "icon": "thermometer",
+        "heading": "Heat exhaustion",
+        "items": [
+          "Heavy sweating, cold clammy skin",
+          "A fast, weak pulse",
+          "Nausea or vomiting",
+          "Muscle cramps",
+          "Tiredness or weakness",
+          "Dizziness and fainting"
+        ]
+      },
+      "bad": {
+        "icon": "thermometer-sun",
+        "heading": "Heat stroke: call 911",
+        "items": [
+          "103°F or higher",
+          "Hot red skin, sweating may stop",
+          "A fast, strong pulse",
+          "Confusion or slurred speech",
+          "Passing out"
+        ]
+      }
+    },
+    {
+      "file": "erof-4345-food-poisoning-er",
+      "post_id": 4345,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "food poisoning",
+      "heading": "When Food Poisoning Becomes an Emergency",
+      "title": [
+        "When ",
+        "Food Poisoning",
+        " Needs the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs that food poisoning has become an emergency: bloody diarrhea, diarrhea past three days, high fever, inability to keep liquids down, and dehydration",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Bloody diarrhea",
+          "note": "Any amount"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Diarrhea past 3 days",
+          "note": "It is not settling"
+        },
+        {
+          "icon": "thermometer",
+          "label": "A fever over 102°F",
+          "note": "Measured, not guessed"
+        },
+        {
+          "icon": "frown",
+          "label": "Cannot keep liquids down",
+          "note": "Vomiting that will not stop"
+        },
+        {
+          "icon": "eye",
+          "label": "Signs of dehydration",
+          "note": "Little urine, dry mouth, dizzy standing"
+        }
+      ]
+    },
+    {
+      "file": "erof-4345-food-poisoning-recovery",
+      "post_id": 4345,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "food poisoning",
+      "heading": "How to Recover at Home",
+      "title": [
+        "Recovering from ",
+        "Food Poisoning",
+        " at Home"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four steps to recover from food poisoning at home, including when to avoid anti-diarrhea medicine",
+      "items": [
+        {
+          "icon": "droplets",
+          "label": "Sip clear fluids often",
+          "note": "Small amounts, not big gulps"
+        },
+        {
+          "icon": "wheat",
+          "label": "Ease into bland food",
+          "note": "Toast, rice or bananas"
+        },
+        {
+          "icon": "armchair",
+          "label": "Rest",
+          "note": "Skip alcohol and caffeine"
+        },
+        {
+          "icon": "ban",
+          "label": "No anti-diarrhea medicine",
+          "note": "Not with high fever or bloody stools"
+        }
+      ]
+    },
+    {
+      "file": "erof-4410-crash-symptoms",
+      "post_id": 4410,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "car accident",
+      "heading": "Go to the ER Now: Symptoms That Cannot Wait",
+      "title": [
+        "After a ",
+        "Car Accident",
+        ": Go Now"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six symptoms after a car accident that need the emergency room now, even if you feel fine at the scene",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain or breathlessness",
+          "note": "Bruised ribs and cardiac strain"
+        },
+        {
+          "icon": "brain",
+          "label": "A headache that builds",
+          "note": "Or any strike to the head"
+        },
+        {
+          "icon": "droplet",
+          "label": "Belly pain or seatbelt bruise",
+          "note": "A band of bruising can signal injury"
+        },
+        {
+          "icon": "activity",
+          "label": "Numbness or weakness",
+          "note": "In an arm or a leg"
+        },
+        {
+          "icon": "moon",
+          "label": "Confusion or drowsiness",
+          "note": "Or changes in vision"
+        },
+        {
+          "icon": "bone",
+          "label": "New neck or back pain",
+          "note": "Worse with movement"
+        }
+      ]
+    },
+    {
+      "file": "erof-4410-911-er-or-home",
+      "post_id": 4410,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "crash",
+      "heading": "911, ER, or Watch at Home?",
+      "title": [
+        "After a ",
+        "Crash",
+        ": 911, ER, or Home?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Whether to call 911, go to the ER today, or watch at home after a car accident",
+      "items": [
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "Bleeding, unconsciousness, suspected spine injury"
+        },
+        {
+          "icon": "door-open",
+          "label": "Go to the ER today",
+          "note": "Any head strike, or a highway-speed crash"
+        },
+        {
+          "icon": "eye",
+          "label": "Watch at home",
+          "note": "A minor bump, no symptoms, someone with you"
+        }
+      ]
+    }
+  ]
+}

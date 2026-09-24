@@ -1,0 +1,354 @@
+[
+  {
+    "post_id": 228,
+    "approved_ids": [
+      1754
+    ],
+    "pending_ids": [
+      1762
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 852,
+    "approved_ids": [
+      1738
+    ],
+    "pending_ids": [
+      1758,
+      1757,
+      1756
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 4667,
+    "approved_ids": [
+      1734
+    ],
+    "pending_ids": [
+      1812
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 4687,
+    "approved_ids": [
+      1755
+    ],
+    "pending_ids": [
+      1763
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 4745,
+    "approved_ids": [
+      1739
+    ],
+    "pending_ids": [
+      1761,
+      1760,
+      1759
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5092,
+    "approved_ids": [
+      1800
+    ],
+    "pending_ids": [
+      1804,
+      1803,
+      1802,
+      1801
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5122,
+    "approved_ids": [
+      1805
+    ],
+    "pending_ids": [
+      1809,
+      1808,
+      1807,
+      1806
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5391,
+    "approved_ids": [
+      1735
+    ],
+    "pending_ids": [
+      1792
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5460,
+    "approved_ids": [
+      1753
+    ],
+    "pending_ids": [
+      1789
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5462,
+    "approved_ids": [
+      1752
+    ],
+    "pending_ids": [
+      1788
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5463,
+    "approved_ids": [
+      1751
+    ],
+    "pending_ids": [
+      1787
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5466,
+    "approved_ids": [
+      1750
+    ],
+    "pending_ids": [
+      1786
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5468,
+    "approved_ids": [
+      1749
+    ],
+    "pending_ids": [
+      1785
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5469,
+    "approved_ids": [
+      1748
+    ],
+    "pending_ids": [
+      1784
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5470,
+    "approved_ids": [
+      1746
+    ],
+    "pending_ids": [
+      1782
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5471,
+    "approved_ids": [
+      1747
+    ],
+    "pending_ids": [
+      1783
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5495,
+    "approved_ids": [
+      1745
+    ],
+    "pending_ids": [
+      1781
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  },
+  {
+    "post_id": 5496,
+    "approved_ids": [
+      1744
+    ],
+    "pending_ids": [
+      1780
+    ],
+    "compared_fields": [
+      "elementor_data",
+      "content",
+      "title",
+      "excerpt",
+      "author_id",
+      "slug",
+      "status"
+    ],
+    "unexpected_differences": []
+  }
+]

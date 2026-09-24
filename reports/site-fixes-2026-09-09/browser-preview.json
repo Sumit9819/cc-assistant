@@ -1,0 +1,156 @@
+[
+  {
+    "id": 5525,
+    "status": 200,
+    "before": {
+      "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+      "lang": "en-US",
+      "canonical": "https://erofwhiterock.com/what-to-tell-er-team/",
+      "h1": {
+        "text": "What to Tell the ER Team: A Medication and Symptom Note",
+        "font": "55px",
+        "height": 275,
+        "left": 0,
+        "top": 273.171875
+      },
+      "violations": []
+    },
+    "after": {
+      "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+      "lang": "en-US",
+      "canonical": "https://erofwhiterock.com/what-to-tell-er-team/",
+      "h1": {
+        "text": "What to Tell the ER Team: A Medication and Symptom Note",
+        "font": "32px",
+        "height": 115.171875,
+        "left": 16,
+        "top": 309.171875
+      },
+      "violations": []
+    },
+    "scope": "Browser-only preview; no changes saved to WordPress"
+  },
+  {
+    "id": 5438,
+    "status": 200,
+    "before": {
+      "url": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "lang": "es-ES",
+      "canonical": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "h1": {
+        "text": "¿Cuánto Dura una Visita a la Sala de Emergencias? El Recorrido Paso a Paso",
+        "font": "55px",
+        "height": 330,
+        "left": 0,
+        "top": 244.171875
+      },
+      "violations": []
+    },
+    "after": {
+      "url": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "lang": "es-ES",
+      "canonical": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "h1": {
+        "text": "¿Cuánto Dura una Visita a la Sala de Emergencias? El Recorrido Paso a Paso",
+        "font": "32px",
+        "height": 153.5625,
+        "left": 16,
+        "top": 280.171875
+      },
+      "violations": []
+    },
+    "scope": "Browser-only preview; no changes saved to WordPress"
+  },
+  {
+    "id": 971,
+    "status": 200,
+    "before": {
+      "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "lang": "en-US",
+      "canonical": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "h1": {
+        "text": "Emergency & Rapid Laboratory Testing in White Rock, TX",
+        "font": "48px",
+        "height": 240,
+        "left": 0,
+        "top": 193.171875
+      },
+      "violations": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".elementor-element-2a6e509 > ul > li:nth-child(2) > a"
+              ],
+              "html": "<a href=\"https://erofwhiterock.com/services/pediatric-care/\">child spikes a dangerously high fever</a>"
+            },
+            {
+              "target": [
+                ".elementor-element-6fe9fbe > p > a"
+              ],
+              "html": "<a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "lang": "en-US",
+      "canonical": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "h1": {
+        "text": "Emergency & Rapid Laboratory Testing in White Rock, TX",
+        "font": "48px",
+        "height": 240,
+        "left": 0,
+        "top": 193.171875
+      },
+      "violations": []
+    },
+    "scope": "Browser-only preview; no changes saved to WordPress"
+  },
+  {
+    "id": 5496,
+    "status": 200,
+    "before": {
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+      "lang": "es-ES",
+      "canonical": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+      "h1": {
+        "text": "Sala de Emergencias 24/7 Cerca de Richardson, TX",
+        "font": "34px",
+        "height": 117.28125,
+        "left": 20,
+        "top": 339.359375
+      },
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "nodes": [
+            {
+              "target": [
+                "#elementor-tab-title-2081"
+              ],
+              "html": "<h3 id=\"elementor-tab-title-2081\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-2081\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">"
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+      "lang": "es-ES",
+      "canonical": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+      "h1": {
+        "text": "Sala de Emergencias 24/7 Cerca de Richardson, TX",
+        "font": "34px",
+        "height": 117.28125,
+        "left": 20,
+        "top": 339.359375
+      },
+      "violations": []
+    },
+    "scope": "Browser-only preview; no changes saved to WordPress"
+  }
+]

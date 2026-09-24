@@ -1,0 +1,81 @@
+{
+  "trace": [
+    {
+      "tool": "get_site_memory",
+      "arguments": {},
+      "result": {
+        "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials.",
+        "memory_consistency": {
+          "findings": [],
+          "precedence": "Historical recipes do not establish ranking effects. Preserve actual operator constraints and use fresh evidence."
+        }
+      }
+    },
+    {
+      "tool": "verified_page_audit",
+      "arguments": {
+        "post_id": 100
+      },
+      "result": {
+        "assessment": "unverified",
+        "usable": false,
+        "source": {
+          "post_id": 100,
+          "http_code": 200,
+          "error": "challenge_page",
+          "message": "SiteGround CAPTCHA challenge, requested page content unavailable."
+        },
+        "findings": [
+          {
+            "rule_id": "content.h1",
+            "status": "unknown",
+            "evidence": null
+          }
+        ]
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 100
+      },
+      "result": {
+        "post_id": 100,
+        "title": "Bicycle puncture repair",
+        "url": "https://fixture.invalid/puncture-repair/",
+        "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+        "coverage": "stored_content",
+        "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "content": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "verified_page_audit",
+      "arguments": {
+        "post_id": 100
+      },
+      "result": {
+        "assessment": "unverified",
+        "usable": false,
+        "source": {
+          "post_id": 100,
+          "http_code": 200,
+          "error": "challenge_page",
+          "message": "SiteGround CAPTCHA challenge, requested page content unavailable."
+        },
+        "findings": [
+          {
+            "rule_id": "content.h1",
+            "status": "unknown",
+            "evidence": null
+          }
+        ]
+      }
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

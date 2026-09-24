@@ -1,0 +1,58 @@
+[
+  {
+    "case": "prospective",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 1.0
+  },
+  {
+    "case": "memory_conflict",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  },
+  {
+    "case": "no_gsc",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  },
+  {
+    "case": "duplicates",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  },
+  {
+    "case": "captcha",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  },
+  {
+    "case": "invalid_setting",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  },
+  {
+    "case": "prepared_only",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  },
+  {
+    "case": "stale_source",
+    "trial": 1,
+    "passed": false,
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "seconds": 0.4
+  }
+]

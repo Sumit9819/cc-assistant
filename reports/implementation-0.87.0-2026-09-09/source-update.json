@@ -1,0 +1,17 @@
+{
+  "status": "source_and_active_bridge_updated",
+  "version": "0.87.0",
+  "source": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant",
+  "updated_source_files": 33,
+  "bridge_directory": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\wp-content\\plugins\\cc-assistant\\bin",
+  "bridge_files_updated": 5,
+  "bridge_restart_required": true,
+  "archive": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant-0.87.0.zip",
+  "archive_sha256": "4e3da13fa241d03041973f25151668a3e9c26bbb2900becec3595b32926e033d",
+  "source_backup": "D:\\cc-assistant\\reports\\implementation-0.87.0-2026-09-09\\cc-assistant-0.86.0-source-backup.zip",
+  "source_backup_sha256": "88546d78d41291df2f5fc2f3fa54347afc58283dff4cf5fa275e5a9a2a8db4c1",
+  "bridge_backup": "D:\\cc-assistant\\reports\\implementation-0.87.0-2026-09-09\\desktop-bridge-0.86.0-backup.zip",
+  "bridge_backup_sha256": "dcde192fab1e7a5f0a913789a3566d6a4cb23b80a714b04acf4bbd00d7c16a43",
+  "report": "D:\\cc-assistant\\reports\\implementation-0.87.0-2026-09-09\\IMPLEMENTATION-0.87.0.md",
+  "live_site_deployed": false
+}

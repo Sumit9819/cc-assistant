@@ -1,0 +1,112 @@
+[
+  {
+    "path": "cc-assistant.php",
+    "before_sha256": "a6c98055661031dba2aa3d086b3db60a4dbd3be383bffcecb6a3e0164a12567e",
+    "after_sha256": "30e883bb503481aca53c8a47efab94a501faca4f7b009437c6d35330b1d543ca"
+  },
+  {
+    "path": "EVIDENCE-AND-RESEARCH.md",
+    "before_sha256": null,
+    "after_sha256": "8e8ae07fe120d0427e17ef45dcc3254fd80ddd0f02c5743da265c49a622da281"
+  },
+  {
+    "path": "readme.txt",
+    "before_sha256": "c32ec26ea11e4435ea66bafd2fed15d6f293a97ed3a6b0c6a41127673cd3d1cf",
+    "after_sha256": "76311f1ad0446c8eb7b99d6b7a46844a230a0a3c5f782199a582a31cf846dc85"
+  },
+  {
+    "path": "bin/agent-contract.php",
+    "before_sha256": "effe6c4ab35ef5eca71ea20a86d86f4fc297281e30d142949c5159e5deabfabb",
+    "after_sha256": "242910ca3f78d4bd5b11bb4b7883746468262dca535521f28d3870ed77b71ea6"
+  },
+  {
+    "path": "bin/mcp-server.php",
+    "before_sha256": "dea6fc00f5cdd1916aa746fd819620861d6d6d096ffca7d07146097a2492677a",
+    "after_sha256": "6d1ad43c5b069909bf7af4361affc5734ab5fca60053aab038d7c9d98ccc75ee"
+  },
+  {
+    "path": "bin/operator-brain.php",
+    "before_sha256": "7c45d0a9a7f6fb914b95d35b1dcdec68322c1b8ab2ff89c7450d49dcb2a49b45",
+    "after_sha256": "818e2cc81b93ef266cb625f57cb47a62ba2904a8f76ed9fa546b339a4d8fca94"
+  },
+  {
+    "path": "bin/tool-catalog.php",
+    "before_sha256": "9d28d171560817ae1351ef879fdc2a9d3c267c04d2d6dc8f372112c733a45819",
+    "after_sha256": "c8f52cb43a42ae04e5cb6dcb590d43d2ef3686c94b5d20d4438454567cab70ee"
+  },
+  {
+    "path": "bootstrap/CLAUDE-md-template.md",
+    "before_sha256": "f28daab85ccec5bee0f82c3d3f704cd3721fc0ba7d68ef918fe9b740c23ecc34",
+    "after_sha256": "65ff3f0d88302bef49489578f14abe99754724c743c2c7cfcdba82d70d5ae5af"
+  },
+  {
+    "path": "includes/class-content-decisions.php",
+    "before_sha256": "6c040770f188f09f00f7039b48b63cd0564ca4219b3f93cab2accbd238e224e3",
+    "after_sha256": "23663f689a6741fa7b6203ae2af046ba06f61ed10dbfc474c7cebe8cb01d4026"
+  },
+  {
+    "path": "includes/class-content-scope.php",
+    "before_sha256": "316680f498a479b8afd1e2983f7184b1b5b88261db6b952b98c2a12ee13267ee",
+    "after_sha256": "8da5c744b63e23e5c850fc8684edb6d909be5e157f6a555b6d5d37f0d305b073"
+  },
+  {
+    "path": "includes/class-content-strategy.php",
+    "before_sha256": "7d993b0585ff228131781d4c1365bc8335640fe405eaf15314f007cd1946bd22",
+    "after_sha256": "177a887fd7e613934e8b0649eea3af7fb890e21cb51786b17948bc6ec3f74daa"
+  },
+  {
+    "path": "includes/class-content-workflow.php",
+    "before_sha256": "fc013d5ed8279498c0a6dee3939d3505173440b1aa06e857933a3fd998c68b49",
+    "after_sha256": "4a5dcb834cc2db7be6314bba73cf46e5a5d2832ae7e293bd146ed5fb7d72568e"
+  },
+  {
+    "path": "includes/class-memory-policy.php",
+    "before_sha256": null,
+    "after_sha256": "abf772c4a64ccf0bd7ef3c3b838bb9a132a08a0d43c6358d25adeb8df666e365"
+  },
+  {
+    "path": "includes/class-rest-api.php",
+    "before_sha256": "27b982a697952bbd8d97ea951b29fe552576f339fbeea33377fa73373671f11e",
+    "after_sha256": "7ced1c2d7583aac8cd1fcc5dfe2cc10b5e18160c36515ddf482dab44bd0416b8"
+  },
+  {
+    "path": "includes/class-rest-content-strategy.php",
+    "before_sha256": "52f0abdf909adf4de400fd2c4f28cf3c8366fb2686ba850cbae2d77d38371993",
+    "after_sha256": "1f093f642bc1c752d0e3fc2a9063970299d6185c6ca155715eb2d2f8f0107c7c"
+  },
+  {
+    "path": "includes/class-session-gate.php",
+    "before_sha256": "52056fe0dbb2d399b841217e6addcd79238a5175a745b872280d0bf694766a39",
+    "after_sha256": "8a9d74fcb40e371fae402d8e902341a8cee8bc8f1722d6e74c4b08fedff0724d"
+  },
+  {
+    "path": "includes/class-site-memory.php",
+    "before_sha256": "3fe4d7ccabc1c0a9c489b9264f26bb3398783a03977a02e78a52da27868e8df6",
+    "after_sha256": "38a6d1103bcf1f0e32e58ff2aa792d22e039fd6510c34c063160e9c981a65d05"
+  },
+  {
+    "path": "tests/memory-context-test.php",
+    "before_sha256": null,
+    "after_sha256": "90260c79109cf41368323bb68d562957999b716cac4c753be40d1410edc6dbc8"
+  },
+  {
+    "path": "tests/operator-brain-test.php",
+    "before_sha256": "19dfdebb4a146259e2be1205a52d2bd212136716018ed56644a9315ac89c2f89",
+    "after_sha256": "1ecd98dd926e6f45a94c2a24f7f340ad0a8fdca690fa5ad0d83b74c67e1fc1e8"
+  },
+  {
+    "path": "tests/prospective-research-test.php",
+    "before_sha256": null,
+    "after_sha256": "63a78750d1d2dea4d96ea60be2bfebb0652385fef3f1be85ffcf9e20e44ae232"
+  },
+  {
+    "path": "tests/evals/fixture-server.py",
+    "before_sha256": "36ca97e9635ac843c6f41c40c69b1396cd3349595682f0de7cce0e446257c254",
+    "after_sha256": "d8c52b82d70262719f15c8e17a8827d139c66b3f5aa5b9eae5516b53d0564743"
+  },
+  {
+    "path": "tests/evals/run.py",
+    "before_sha256": "df5af992162fe78598807fd175e15d3e389e43937f9e83923496f6e2e792199c",
+    "after_sha256": "ce815cc45a035fea9d463cf3a9991c2d8da358cf1dbc50095383b0b4a62643ea"
+  }
+]

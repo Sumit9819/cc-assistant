@@ -1,0 +1,58 @@
+﻿[
+    {
+        "path":  "cc-assistant.php",
+        "sha256":  "0096AB4CA77149023CAF55037F40D4B8EC9BAB9B1E627334DB3CA2DC0B984A97"
+    },
+    {
+        "path":  "includes/class-rest-api.php",
+        "sha256":  "69441DF7C5F87850601971B6690613EAFE7BBDDEA2DDB16323A10EF0940674AB"
+    },
+    {
+        "path":  "includes/class-win-audit.php",
+        "sha256":  "41659127A322A1E85DA33E20CB4675623A4EA9EA392CA8D8CAB6A8B1EC6314E8"
+    },
+    {
+        "path":  "includes/class-topical-authority.php",
+        "sha256":  "2C12C76113B3D18A93DA79D3A5987E878F4B4BD2ADDD3C4874F46FFD9E28099A"
+    },
+    {
+        "path":  "includes/class-similarity.php",
+        "sha256":  "A2710F96F5ED02C743B4AAED9DC628875C197ED58CE629EB51D51C3B5F1A5E89"
+    },
+    {
+        "path":  "includes/class-seo-tools.php",
+        "sha256":  "ECA29050F7F2E94160BFBF2C022BC0C7727A65C008BCA6EB0CEF75C5BCBFE875"
+    },
+    {
+        "path":  "includes/class-cannibalization-trends.php",
+        "sha256":  "2684AF78A17B7688077A9B5DA6DA183B273062188C7D669DBCB11981BE0FFA67"
+    },
+    {
+        "path":  "bin/warehouse.php",
+        "sha256":  "B63BB90329EDF60224CF660BD525A4C646E4D843D7BC49EC7C204DE70C703CBD"
+    },
+    {
+        "path":  "includes/class-topic-clusters.php",
+        "sha256":  "C1CFC18C8E72A6DB3B0901336404225F90A87AFE549F9FF601936B320D65E3AF"
+    },
+    {
+        "path":  "includes/class-internal-links.php",
+        "sha256":  "BACBB2DB9D4A9EFD899DCDB0FF9CFFE9CA3C39C82F980D750A312563E236F9D1"
+    },
+    {
+        "path":  "includes/class-link-audit.php",
+        "sha256":  "960F7135CDA251BDEECB61C549301A0BEF894EB3EEFA0E6E2545AD9B4519366B"
+    },
+    {
+        "path":  "includes/class-edit-outcomes.php",
+        "sha256":  "59390593A957A574DE5FAAFC6506B441680084DD4481E5792B325AA61CA40542"
+    },
+    {
+        "path":  "includes/class-page-intent.php",
+        "sha256":  "C86916BEAD39094A7257EF69B36A727721AFCD855C6A5BED41A483B0C6AB8B34"
+    },
+    {
+        "path":  "includes/class-pre-publish.php",
+        "sha256":  "BB819B6E169202C5D892926A4033ADF82E09B5A47E1B0E36903B5CEE7FBE4D47"
+    }
+]

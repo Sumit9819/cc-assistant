@@ -1,0 +1,1835 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.3"
+      }
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 2931,
+        "url": "https://erofwhiterock.com/blog/",
+        "captured_at_utc": "2026-09-09 15:11:56",
+        "body_sha1": "256312245b2cf089b1d819cc6267c045ce18873e",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Blog | ER of White Rock"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "ER of White Rock blog: emergency care guides, when-to-go-to-the-ER frameworks, and cardiac, trauma, pediatric, and digestive emergency resources."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "review",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/blog/2/",
+            "requested_url": "https://erofwhiterock.com/blog/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Our Blog"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "What to Tell the ER Team: A Medication and Symptom Note"
+              },
+              {
+                "level": "h3",
+                "text": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline"
+              },
+              {
+                "level": "h3",
+                "text": "Hit Your Head? When to Go to the ER and When to Watch at Home"
+              },
+              {
+                "level": "h3",
+                "text": "Infectious Disease and Vector-Borne Emergencies Near White Rock: When Bites, Bug"
+              },
+              {
+                "level": "h3",
+                "text": "Heat Stroke vs Heat Exhaustion: A Texas ER Triage Guide for Summer Near White Ro"
+              },
+              {
+                "level": "h3",
+                "text": "Drowning and Near-Drowning Near White Rock Lake: What Parents Miss and When to R"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 14,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 83,
+            "internal": 75,
+            "content_internal": 17,
+            "listed": 83,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 8,
+        "fail": 0,
+        "review": 1,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "c2b22167e3bf2980691a51b6c7af8a5306e0e9b851262bff799d7206bf201d63",
+      "facts_sha256": "9a1a96215301fe3720f5d6968dd637f33fb90c138613c1d459997f38c56a0754",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 2482,
+        "url": "https://erofwhiterock.com/services/expert-stroke-care/",
+        "captured_at_utc": "2026-09-09 15:12:01",
+        "body_sha1": "710130f3b9dd2c591321fe0941e065a58647b5f7",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "24/7 Emergency Stroke Care & Evaluation in White Rock, TX"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Emergency stroke care in White Rock, TX. ER of White Rock provides 24/7 CT imaging, F.A.S.T. evaluation, and rapid stabilization for stroke and brain bleeds."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/services/expert-stroke-care/",
+            "requested_url": "https://erofwhiterock.com/services/expert-stroke-care/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Emergency Stroke Care and Evaluation in White Rock, TX"
+              },
+              {
+                "level": "h2",
+                "text": "Get Immediate Emergency Stroke Care Now"
+              },
+              {
+                "level": "h2",
+                "text": "How to Recognize a Stroke: Act F.A.S.T."
+              },
+              {
+                "level": "h2",
+                "text": "Why Choose ER of White Rock for Stroke Emergencies?"
+              },
+              {
+                "level": "h2",
+                "text": "Understanding Your Stroke Risk Factors"
+              },
+              {
+                "level": "h2",
+                "text": "What to Do If You Suspect a Brain Bleed or Stroke"
+              },
+              {
+                "level": "h2",
+                "text": "ER of White Rock: Your Trusted Stroke Care Provider"
+              },
+              {
+                "level": "h2",
+                "text": "Visit ER of White Rock for Immediate Stroke Assessment"
+              },
+              {
+                "level": "h2",
+                "text": "Have a Routine Question? Send Us a Message"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "24/7 Rapid Triage"
+              },
+              {
+                "level": "h3",
+                "text": "24/7 Rapid Triage"
+              },
+              {
+                "level": "h3",
+                "text": "Advanced CT Imaging"
+              },
+              {
+                "level": "h3",
+                "text": "Advanced CT Imaging"
+              },
+              {
+                "level": "h3",
+                "text": "Expert Emergency Physicians"
+              },
+              {
+                "level": "h3",
+                "text": "Expert Emergency Physicians"
+              },
+              {
+                "level": "h3",
+                "text": "Clot-Busting Medication Coordination"
+              },
+              {
+                "level": "h3",
+                "text": "Clot-Busting Medication Coordination"
+              },
+              {
+                "level": "h3",
+                "text": "Seamless Specialist Transfers"
+              },
+              {
+                "level": "h3",
+                "text": "Seamless Specialist Transfers"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 4,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage",
+              "MedicalWebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 10,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 68,
+            "internal": 57,
+            "content_internal": 3,
+            "listed": 68,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "58f8eb2cf048c8d3463a22aa231178f68d9f0fc91ce50996a6cca13003f8cae5",
+      "facts_sha256": "a7ed5a454371227bd162535e0fc5ca79802026469274dac06f2155bb67adcce5",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 1091,
+        "url": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+        "captured_at_utc": "2026-09-09 15:12:06",
+        "body_sha1": "851f52a38ad9005a101f62cf427dee42b33b6f4d",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Appendicitis Treatment in White Rock, TX | Emergency ER 24/7"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Fast appendicitis diagnosis and emergency treatment in White Rock, TX. On-site CT imaging, lab, and surgical coordination 24/7 at ER of White Rock."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+            "requested_url": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Appendicitis Treatment in Dallas, TX – Fast & Reliable Emergency Care"
+              },
+              {
+                "level": "h2",
+                "text": "Get Appendicitis Treatment Today"
+              },
+              {
+                "level": "h2",
+                "text": "What is Appendicitis?"
+              },
+              {
+                "level": "h2",
+                "text": "Signs & Symptoms of Appendicitis"
+              },
+              {
+                "level": "h2",
+                "text": "Why Choose ER of White Rock for Appendicitis Treatment?"
+              },
+              {
+                "level": "h2",
+                "text": "What to Expect During Your Visit?"
+              },
+              {
+                "level": "h2",
+                "text": "Best ER for Initial Appendicitis Treatment in Dallas"
+              },
+              {
+                "level": "h2",
+                "text": "Contact ER of White Rock Today"
+              },
+              {
+                "level": "h2",
+                "text": "Have a Question? Send Us a Message"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "Triage & Evaluation"
+              },
+              {
+                "level": "h3",
+                "text": "Triage & Evaluation"
+              },
+              {
+                "level": "h3",
+                "text": "Diagnostic Testing"
+              },
+              {
+                "level": "h3",
+                "text": "Diagnostic Testing"
+              },
+              {
+                "level": "h3",
+                "text": "Treatment Plan"
+              },
+              {
+                "level": "h3",
+                "text": "Treatment Plan"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 10,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 67,
+            "internal": 58,
+            "content_internal": 4,
+            "listed": 67,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "0f26b02847e50a210e0c9e1248b02d1dda2e3028884e896e5f26b49d196b75fe",
+      "facts_sha256": "8ca58cb74b8182dc61e95bc9749e2cecaf6b6edc5cab9d37c6bb08fbc943229a",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 852,
+        "url": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+        "captured_at_utc": "2026-09-09 15:12:09",
+        "body_sha1": "247f309896b34bce8273506bea4c6ea5280ff7c2",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Diagnostic Imaging in White Rock, TX | MRI, CT, Ultrasound"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Accurate diagnostic imaging in White Rock, TX. MRI, CT scan, ultrasound, and 3D mammography with expert radiologists 24/7 at ER of White Rock."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+            "requested_url": "https://erofwhiterock.com/services/diagnostic-imaging-services/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Comprehensive Diagnostic Imaging Services in Dallas, TX"
+              },
+              {
+                "level": "h2",
+                "text": "Get Diagnostic Imaging Now"
+              },
+              {
+                "level": "h2",
+                "text": "Why Choose Us for Diagnostic Imaging in Dallas?"
+              },
+              {
+                "level": "h2",
+                "text": "Our Diagnostic Imaging Services"
+              },
+              {
+                "level": "h2",
+                "text": "Walk-In Imaging Clinics in Dallas – No Appointments Needed!"
+              },
+              {
+                "level": "h2",
+                "text": "Insurance & Payment Options"
+              },
+              {
+                "level": "h2",
+                "text": "Schedule Your Diagnostic Imaging Appointment Today"
+              },
+              {
+                "level": "h2",
+                "text": "Have a Question? Send Us a Message"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "Pediatric Radiology in Dallas, Texas"
+              },
+              {
+                "level": "h3",
+                "text": "Pediatric Radiology in Dallas, Texas"
+              },
+              {
+                "level": "h3",
+                "text": "Diagnostic Imaging for Sports Injuries in Dallas"
+              },
+              {
+                "level": "h3",
+                "text": "Diagnostic Imaging for Sports Injuries in Dallas"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 6,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 65,
+            "internal": 56,
+            "content_internal": 2,
+            "listed": 65,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "f953748b05b0409af97e8667f80e13c67a1f35bb498bffcf236d3fe48277102f",
+      "facts_sha256": "1e5fa76e1c1b9a5facefc6247e702689b72993bd72477eee646fba1af852513d",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 5525,
+        "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+        "captured_at_utc": "2026-09-09 15:12:11",
+        "body_sha1": "5ecd1d7c1b5af8d132a22508734da002a1918ada",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "What to Tell the ER Team: A Medication and Symptom Note | ER of White Rock"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "A practical note for sharing symptoms, medicines and questions with the emergency team. Preparing information should never delay urgent care."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/what-to-tell-er-team/",
+            "requested_url": "https://erofwhiterock.com/what-to-tell-er-team/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "What to Tell the ER Team: A Medication and Symptom Note"
+              },
+              {
+                "level": "h2",
+                "text": "Table of Contents"
+              },
+              {
+                "level": "h2",
+                "text": "Start with what changed"
+              },
+              {
+                "level": "h2",
+                "text": "Share medicines and previous reactions"
+              },
+              {
+                "level": "h2",
+                "text": "A note you can keep for a future visit"
+              },
+              {
+                "level": "h2",
+                "text": "Ask for a clear plan before leaving"
+              },
+              {
+                "level": "h2",
+                "text": "Latest Insights:"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "What to Tell the ER Team: A Medication and Symptom Note"
+              },
+              {
+                "level": "h3",
+                "text": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline"
+              },
+              {
+                "level": "h3",
+                "text": "Hit Your Head? When to Go to the ER and When to Watch at Home"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 6,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 77,
+            "internal": 66,
+            "content_internal": 12,
+            "listed": 77,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "4affce98cad2f54d044421a303db044ba4d03a1d2d34a4585a744f00467fc0a1",
+      "facts_sha256": "c623de3db7c218d992624fd7aef63109ce7544c9bb237faa517a5f8df58516f2",
+      "comparison": {
+        "status": "unchanged_findings",
+        "previous_captured_at_utc": "2026-09-09 13:51:31",
+        "rules_changed": false,
+        "body_changed": true,
+        "collection_changed": false,
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 971,
+        "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+        "captured_at_utc": "2026-09-09 15:12:14",
+        "body_sha1": "5cb55c1d9f7763edaf7b0d10ab15f0cc66d55bb3",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "24/7 ER Laboratory Testing & Blood Work in White Rock, TX"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "On-site emergency lab testing in White Rock, TX. CBC, blood cultures, cardiac enzymes, COVID, and strep with fast results from a COLA-certified lab 24/7."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+            "requested_url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Emergency & Rapid Laboratory Testing in White Rock, TX"
+              },
+              {
+                "level": "h2",
+                "text": "Get Laboratory Testing Services Now"
+              },
+              {
+                "level": "h2",
+                "text": "Why Choose ER of White Rock for Diagnostic Testing?"
+              },
+              {
+                "level": "h2",
+                "text": "Comprehensive ER Laboratory Testing"
+              },
+              {
+                "level": "h2",
+                "text": "Advanced Diagnostic Capabilities in White Rock, TX"
+              },
+              {
+                "level": "h2",
+                "text": "Who Relies on Our ER Laboratory Testing?"
+              },
+              {
+                "level": "h2",
+                "text": "How Our White Rock Laboratory Testing Works"
+              },
+              {
+                "level": "h2",
+                "text": "Why East Dallas Trusts Our On-Site Laboratory"
+              },
+              {
+                "level": "h2",
+                "text": "Get Fast Laboratory Results in White Rock, TX"
+              },
+              {
+                "level": "h2",
+                "text": "Have a Routine Question? Send Us a Message"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "COVID-19 & PCR Testing"
+              },
+              {
+                "level": "h3",
+                "text": "COVID-19 & PCR Testing"
+              },
+              {
+                "level": "h3",
+                "text": "RSV & Respiratory Panels"
+              },
+              {
+                "level": "h3",
+                "text": "RSV & Respiratory Panels"
+              },
+              {
+                "level": "h3",
+                "text": "Cardiac Enzyme Testing"
+              },
+              {
+                "level": "h3",
+                "text": "Cardiac Enzyme Testing"
+              },
+              {
+                "level": "h3",
+                "text": "Basic Metabolic Panel (BMP)"
+              },
+              {
+                "level": "h3",
+                "text": "Basic Metabolic Panel (BMP)"
+              },
+              {
+                "level": "h3",
+                "text": "Complete Blood Count (CBC)"
+              },
+              {
+                "level": "h3",
+                "text": "Complete Blood Count (CBC)"
+              },
+              {
+                "level": "h3",
+                "text": "Liver Function Panel"
+              },
+              {
+                "level": "h3",
+                "text": "Liver Function Panel"
+              },
+              {
+                "level": "h3",
+                "text": "Strep and Mono Testing"
+              },
+              {
+                "level": "h3",
+                "text": "Strep and Mono Testing"
+              },
+              {
+                "level": "h3",
+                "text": "Advanced Urinalysis"
+              },
+              {
+                "level": "h3",
+                "text": "Advanced Urinalysis"
+              },
+              {
+                "level": "h3",
+                "text": "Understanding Your Results"
+              },
+              {
+                "level": "h3",
+                "text": "Understanding Your Results"
+              },
+              {
+                "level": "h3",
+                "text": "Experienced Emergency Team"
+              },
+              {
+                "level": "h3",
+                "text": "Experienced Emergency Team"
+              },
+              {
+                "level": "h3",
+                "text": "Hyper-Local Convenience"
+              },
+              {
+                "level": "h3",
+                "text": "Hyper-Local Convenience"
+              },
+              {
+                "level": "h3",
+                "text": "Complete Diagnostic Power"
+              },
+              {
+                "level": "h3",
+                "text": "Complete Diagnostic Power"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 4,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage",
+              "MedicalWebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 8,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 69,
+            "internal": 59,
+            "content_internal": 5,
+            "listed": 69,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "1c15f6dec8e689e0eb305f1a4e3df5dca37f3fc2ebf0873fc65d9c17ffd55f2e",
+      "facts_sha256": "65fca515d16496f03334c76714cbbdeedd5a20ec6beb1128ec18663e446e44c0",
+      "comparison": {
+        "status": "unchanged_findings",
+        "previous_captured_at_utc": "2026-09-09 13:51:27",
+        "rules_changed": false,
+        "body_changed": true,
+        "collection_changed": false,
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "hreflang_audit",
+    "isError": false,
+    "result": {
+      "post_id": 5496,
+      "engine": "polylang",
+      "cluster": [
+        {
+          "lang": "en",
+          "post_id": 5496,
+          "page_url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+          "links": [],
+          "canonical": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+          "fetched": true,
+          "fetch_err": null
+        }
+      ],
+      "issues": [
+        {
+          "code": "hreflang_no_self_reference",
+          "severity": "high",
+          "message": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/: does not list itself in its own hreflang block. Every page must self-reference."
+        },
+        {
+          "code": "hreflang_reciprocity_missing",
+          "severity": "high",
+          "message": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/: does not link to cluster member https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson (en). Reciprocity is required."
+        }
+      ],
+      "verdict": "fail"
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/blog/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-09-05T05:39:00Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/blog/2/",
+      "google_canonical": "https://erofwhiterock.com/blog/",
+      "referring_urls": [
+        "https://erofwhiterock.com/es/articulos/",
+        "https://erofwhiterock.com/blog",
+        "https://erofwhiterock.com/blog/2/",
+        "https://erofwhiterock.com/es/blog"
+      ],
+      "sitemap": [],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=teDw_zxXjYNyxtLiYsc8kw&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "Canonical mismatch — you declared https://erofwhiterock.com/blog/2/ but Google chose https://erofwhiterock.com/blog/. Either accept Google's pick (the page is duplicate-content) or strengthen the user-canonical signal (link more, differentiate content, fix internal-link consistency).",
+      "has_issue": true
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Discovered - currently not indexed",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "user_canonical": "",
+      "google_canonical": "",
+      "referring_urls": [
+        "https://erofwhiterock.com/es/pruebas-de-laboratorio-de-emergencia-y-rapidas-en-white-rock-tx/",
+        "https://erofwhiterock.com/emergency-room-richardson-tx/",
+        "https://erofwhiterock.com/es/services/pediatric-care/",
+        "https://erofwhiterock.com/"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=6vov7oE2P-yikkuAKyv_QQ&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "Discovered but not indexed. Google found the URL but never crawled it. Add inbound internal links from authoritative pages (homepage / hub) to lift crawl priority.",
+      "has_issue": true
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/services/expert-stroke-care/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-22T20:45:34Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/services/expert-stroke-care/",
+      "google_canonical": "https://erofwhiterock.com/services/expert-stroke-care/",
+      "referring_urls": [
+        "https://erofwhiterock.com/services/high-fever-treatment/",
+        "https://erofwhiterock.com/es/services/pediatric-care/",
+        "https://erofwhiterock.com/services/diagnostic-imaging-services/"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=WHWB_TcsvCHKo_i1nLrnVw&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-07-23T06:54:47Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+      "google_canonical": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+      "referring_urls": [
+        "https://erofwhiterock.com/es/tratamiento-de-apendicitis-en-dallas-tx-atencion-de-emergencia-en-er-of-white/",
+        "https://erofwhiterock.com/",
+        "https://erofwhiterock.com/services/expert-stroke-care/"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=8lq-ZPBfoksK9z3yMdo3cA&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-27T18:34:39Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "google_canonical": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "referring_urls": [
+        "https://erofwhiterock.com/es/services/pediatric-care/",
+        "https://erofwhiterock.com/es/about-er-of-white-rock/"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=oXodK05O5WBUuM7Sz_3JZA&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-23T05:15:56Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "google_canonical": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "referring_urls": [
+        "https://erofwhiterock.com/es/emergency-services-er-of-white-rock-2/",
+        "https://erofwhiterock.com/",
+        "https://erofwhiterock.com/blog"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=U9hW9JzYbFTCW_lYlQnY2w&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-09-06T03:52:19Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+      "google_canonical": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+      "referring_urls": [
+        "https://erofwhiterock.com/services/high-fever-treatment/",
+        "https://erofwhiterock.com/",
+        "https://erofwhiterock.com/accessibility-statement/"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=GFsvNMoHdMrDNMlqeF_Cqw&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-22T09:05:47Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+      "google_canonical": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+      "referring_urls": [
+        "https://erofwhiterock.com/page-sitemap.xml"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/page-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=x1gyWA0yVaBaar8XBLVQOw&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-19T21:16:38Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "google_canonical": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "referring_urls": [
+        "https://erofwhiterock.com/",
+        "https://erofwhiterock.com/es/articulos/"
+      ],
+      "sitemap": [],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=V_1zXmyDlMrRq6IrXVtn_Q&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-29T12:48:54Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "google_canonical": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "referring_urls": [
+        "https://erofwhiterock.com/"
+      ],
+      "sitemap": [
+        "https://erofwhiterock.com/post-sitemap.xml",
+        "https://erofwhiterock.com/sitemap.xml",
+        "https://erofwhiterock.com/sitemap_index.xml"
+      ],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=qlF-dscV46Io73pHCrZQqg&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  }
+]

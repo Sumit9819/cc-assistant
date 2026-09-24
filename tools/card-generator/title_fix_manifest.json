@@ -1,0 +1,47 @@
+{
+ "spec-R1.json": [
+  "functional-vs-conventional-medicine"
+ ],
+ "spec-R3.json": [
+  "empower-movement-for-longevity",
+  "progesterone-and-fertility"
+ ],
+ "spec-R4.json": [
+  "trt-muscle-and-strength",
+  "trt-mood-and-clarity",
+  "trt-metabolic-health",
+  "skinvive-vs-filler-compared",
+  "skinvive-side-effects",
+  "semaglutide-non-responders"
+ ],
+ "spec-R5.json": [
+  "hormone-delivery-compared",
+  "hormone-pellets-pros-and-cons",
+  "hormone-injections-pros-and-cons",
+  "hormone-creams-pros-and-cons",
+  "heat-exhaustion-vs-heat-stroke"
+ ],
+ "spec-batchF.json": [
+  "melatonin-vs-epitalon-vs-magnesium"
+ ],
+ "spec-batchG.json": [
+  "tirzepatide-vs-semaglutide-weight-loss",
+  "medical-weight-loss-vs-dieting",
+  "medical-weight-loss-benefits-beyond-the-scale"
+ ],
+ "spec-batchH.json": [
+  "allergy-testing-myths-vs-facts"
+ ],
+ "spec-batchI.json": [
+  "bmi-adults-vs-children"
+ ],
+ "spec-batchJ.json": [
+  "hormone-therapy-risks-and-who-should-avoid"
+ ],
+ "spec-batchK.json": [
+  "medical-grade-vs-otc-skincare",
+  "skincare-ingredients-to-look-for",
+  "dermaplaning-aftercare",
+  "cosmetic-vs-reconstructive-care"
+ ]
+}

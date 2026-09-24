@@ -1,0 +1,57 @@
+[
+  {
+    "case": "provider_context",
+    "trial": 1,
+    "passed": true,
+    "checks": {
+      "cli_success": true,
+      "no_publication_claim": true,
+      "tool_evidence_used": true,
+      "provider_record_read": true,
+      "uncertainty_explicit": true,
+      "age_considered": true,
+      "competitor_claim_questioned": true,
+      "zero_does_not_close_niche": true,
+      "no_mutation": true
+    },
+    "seconds": 62.1,
+    "cost_usd": 0.163877,
+    "tools": [
+      "content_decision_history",
+      "whoami",
+      "seo_playbook",
+      "get_content_scope"
+    ],
+    "final": {
+      "status": "Reviewed the saved Ubersuggest research record; both assistant claims are unsupported by the stored evidence. Read-only analysis \u2014 no content created, no records written, no settings changed.",
+      "completed": true,
+      "published": false,
+      "post_id": null,
+      "evidence": [
+        "content_decision_history: provider=ubersuggest, provenance=agent_transcribed_from_connected_mcp; server_did_not_call_or_authenticate_provider_response",
+        "content_decision_history: 'bicycle puncture preparation' estimated_volume=0, provider_age_days=190, freshness_review=older_than_90_days_review_applicability",
+        "content_decision_history: 'recurring flat tire' has NO estimated_volume field and freshness_review=update_date_unknown (missing metric, not zero)",
+        "content_decision_history limits: 'Overlapping domains have not been verified as local business competitors.'; 'GSC is unavailable.'; 'No ranking or global originality claim is established.'",
+        "content_decision_history: overlap_domains includes 'unrelated-business.invalid', showing overlap is a discovery signal not a competitive finding",
+        "content_decision_history: provider scope location=Dallas TX, language=English (no device recorded)",
+        "whoami policy no_data_meaning: 'Demand is unmeasured. It does not mean no opportunity.'",
+        "whoami policy gsc_role: observed visibility for this property and period, not total market demand or the boundary of the niche",
+        "whoami decision_rules: 'Similarity discovers candidates; it does not establish duplication or SEO harm.'; 'Create when a distinct reader task and supported niche relationship justify it; no impression minimum is required.'",
+        "seo_playbook content_growth: 'Missing impressions means unmeasured demand, not no opportunity.'",
+        "seo_playbook measurement: query/page totals and page/appearance segments are separate datasets; do not allocate one into the other",
+        "get_content_scope: scope-cccccccccccccccccccccccccccccccc, freshness=source_hashes_match, single source post_id=100 'Bicycle puncture repair' (evidence post-100-bbbbbbbbbbbbbbbbbbbbbbbb)",
+        "get_content_scope: audience='Local bicycle owners'; excluded_topics=['motor vehicles','medical advice']; notes forbid inventing prices, credentials, opening hours or testimonials"
+      ],
+      "unknowns": [
+        "True search demand for either subject \u2014 provider figures are unauthenticated third-party estimates, and the 0 value is 190 days old",
+        "Any volume figure at all for 'recurring flat tire'; the field is absent and its update date is unknown",
+        "Whether the two overlap domains are local bicycle-repair competitors \u2014 actual pages have not been fetched or compared",
+        "First-party performance data: GSC is unavailable, so no impressions, clicks, CTR or position exist for this property",
+        "Whether the workshop's service area matches the provider's Dallas TX scope",
+        "Keyword difficulty, CPC, trend, seasonality, SERP composition, search intent and device \u2014 none recorded",
+        "Current rankings and any originality or competitive positioning claim \u2014 explicitly not established by this record",
+        "Whether other stored pages beyond post 100 overlap with a recurring-flat-tire topic; only one source is saved in scope and no inventory scan was run in this read-only session"
+      ]
+    }
+  }
+]

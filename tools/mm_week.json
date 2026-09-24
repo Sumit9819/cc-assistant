@@ -1,0 +1,10 @@
+[
+  { "route": "cc-assistant/v1/whoami", "method": "GET",
+    "out": "D:/cc-assistant/tools/out/wk_whoami.json" },
+  { "route": "wp/v2/posts?per_page=30&orderby=modified&order=desc&context=edit&_fields=id,title,status,date,date_gmt,modified,modified_gmt,link",
+    "method": "GET", "out": "D:/cc-assistant/tools/out/wk_posts.json" },
+  { "route": "wp/v2/pages?per_page=40&orderby=modified&order=desc&context=edit&_fields=id,title,status,modified,link",
+    "method": "GET", "out": "D:/cc-assistant/tools/out/wk_pages.json" },
+  { "route": "cc-assistant/v1/pending?status=all&per_page=100", "method": "GET",
+    "out": "D:/cc-assistant/tools/out/wk_pending.json" }
+]

@@ -1,0 +1,93 @@
+{
+  "_note": "Featured images for the four erofirving decision posts published 2026-09-23/24, all at featured_media 0. Same frame as the shipped 4410 image (photo-frame-dark, frame b, white reversed logo bottom-left) so the new posts sit in the listing as one set. Photos are Gemini object still lifes from prompts-erof-decision4.json; no people, no body parts, no labels, and the BP monitor display is blank so no reading is invented. Copy is lifted from each post's own lede.",
+  "featured": [
+    {
+      "file": "erof-4772-flu-er",
+      "brand": "erofirving",
+      "post_id": 4772,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/gen/erof-flu-bedside.png",
+      "focus": "47% 58%",
+      "kicker": "Flu",
+      "title": [
+        "When the ",
+        "Flu",
+        " Needs the ER"
+      ],
+      "sub": "The CDC warning signs adults should know.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "An unbranded digital thermometer, a steaming white mug of tea and loose tissues on a bedside table"
+    },
+    {
+      "file": "erof-4773-bp-180-120",
+      "brand": "erofirving",
+      "post_id": 4773,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/gen/erof-bp-monitor.png",
+      "focus": "40% 52%",
+      "kicker": "Blood Pressure",
+      "title": [
+        "The ",
+        "180/120",
+        " Rule"
+      ],
+      "sub": "When a high reading means call 911.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "An automatic blood pressure monitor with its cuff and coiled tube on a white table, the display switched off"
+    },
+    {
+      "file": "erof-4774-vomiting-er",
+      "brand": "erofirving",
+      "post_id": 4774,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/gen/erof-vomit-fluids.png",
+      "focus": "45% 62%",
+      "kicker": "Stomach Bugs",
+      "title": [
+        "When ",
+        "Vomiting",
+        " Needs the ER"
+      ],
+      "sub": "The signs dehydration is getting serious.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A glass of water, a small plate of saltine crackers and a bottle of water on a kitchen counter"
+    },
+    {
+      "file": "erof-4792-testicle-pain",
+      "brand": "erofirving",
+      "post_id": 4792,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/gen/erof-testicle-ultrasound.png",
+      "focus": "47% 62%",
+      "kicker": "Testicle Pain",
+      "title": [
+        "Sudden ",
+        "Testicle Pain",
+        "? Don't Wait"
+      ],
+      "sub": "Torsion needs surgery within hours.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "An ultrasound probe and its cable resting on a folded white towel beside a bottle of gel on an exam table"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+ {"name":"whoami","arguments":{}},
+ {"name":"list_pending_changes","arguments":{}},
+ {"name":"post_dossier","arguments":{"id":852}},
+ {"name":"post_dossier","arguments":{"id":5092}},
+ {"name":"post_dossier","arguments":{"id":4667}}
+]

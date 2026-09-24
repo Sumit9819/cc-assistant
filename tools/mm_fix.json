@@ -1,0 +1,250 @@
+[
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 45,
+   "widget_id": "3b5f74c4",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>Mammoth mini excavators are built to deliver powerful results in tight, demanding environments. Ranging from 2 to 3.5 tons, every model runs a premium Japanese <a href='https://www.kubotaengine.com/' target='_blank' rel='noopener' style='color:#017A12;'>Kubota</a> diesel engine: the D902 on the 20MT, the D1105 on the 27MT, and the D1703 on the flagship 35MT. Hydraulic thumb, quick-attach, swing boom, and high/low travel speed come standard, so you can dig trenches, shape landscapes, and load trucks in confined sites where larger machines simply can't operate. The <a href='https://www.ccohs.ca/oshanswers/hsprograms/trenching_excavation.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> notes that trenches 1.2 metres (4 feet) or deeper require a protective system unless cut entirely in stable rock.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_45_3b5f74c4.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 45,
+   "widget_id": "222f9499",
+   "settings": {
+    "editor": "<p style=\"text-align:center;margin:0;\">Match the excavator to your dig depth, operating weight, and access requirements. Still weighing an excavator against a skid steer? Read the <a href=\"https://mammothmachinery.ca/mini-excavator-vs-mini-skid-steer/\" style=\"color:#017A12;text-decoration:none;\">mini excavator vs mini skid steer guide</a>.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_45_222f9499.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 45,
+   "widget_id": "352a6433",
+   "settings": {
+    "ekit_accordion_items": [
+     {
+      "acc_title": "What can a mini excavator be used for?",
+      "acc_content": "<p style='margin:0;font-family:Alata;font-size:15px;line-height:1.65;color:#504532;'>Mini excavators handle digging trenches, footings, and foundations, plus landscaping, grading, plumbing and utility work, demolition, and material handling. With a hydraulic thumb and quick-attach, you can swap buckets, augers, and breakers in minutes. Their compact footprint lets them work in backyards, indoors, and confined sites where full-size machines can't reach, pairing well with our <a href='https://mammothmachinery.ca/tracked-mini-dumpers/' rel='noopener' style='color:#017A12;font-weight:600;'>tracked mini dumpers</a> for haul-away.</p>",
+      "_id": "b8f7172"
+     },
+     {
+      "acc_title": "What size mini excavator do I need?",
+      "acc_content": "<p style='margin:0;font-family:Alata;font-size:15px;line-height:1.65;color:#504532;'>It depends on access and dig depth. The 2-ton X-Cavator 20MT (39 in. minimum width) is ideal for tight residential and indoor work. The 2.7-ton 27MT is the all-round landscaper's choice with nearly 9.5 ft of dig depth. The 3.5-ton 35MT is the flagship: an enclosed AC/Heat cab, 31.1 kN dig force, and 10 ft 11 in of dig depth for larger excavation and all-day jobs. For a full breakdown by job type, read our <a href='https://mammothmachinery.ca/what-size-mini-excavator-do-i-need-best-2026-guide/' rel='noopener' style='color:#017A12;font-weight:600;'>mini excavator sizing guide</a>.</p>",
+      "_id": "3bcaabe"
+     },
+     {
+      "acc_title": "What engines power Mammoth mini excavators?",
+      "acc_content": "<p style='margin:0;font-family:Alata;font-size:15px;line-height:1.65;color:#504532;'>All three X-Cavators run dependable <a href='https://www.kubotaengine.com/' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Kubota</a> diesel engines: the D902 on the 20MT, the D1105 on the 27MT, and the D1703 on the flagship 35MT. The 20MT and 27MT pair a Japanese-made NACHI piston pump running at 3,045 PSI, and the 35MT delivers 26 GPM at 3,553 PSI for the hardest digging.</p>",
+      "_id": "b7972ea"
+     },
+     {
+      "acc_title": "Do Mammoth mini excavators come with attachments?",
+      "acc_content": "<p style='margin:0;font-family:Alata;font-size:15px;line-height:1.65;color:#504532;'>Yes. Every X-Cavator comes standard with a hydraulic thumb, quick-attach coupler, and swing boom, so you can change attachments fast and dig offset against walls and fences. A range of buckets, augers, and hydraulic breakers is available to customize the machine for digging, trenching, drilling, and demolition. See our guide to the <a href='https://mammothmachinery.ca/mini-excavator-attachments-canada/' rel='noopener' style='color:#017A12;font-weight:600;'>10 best mini excavator attachments for Canada</a> for what each one does.</p>",
+      "_id": "b8cbd76"
+     }
+    ]
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_45_352a6433.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "1266a25b",
+   "settings": {
+    "editor": "<p style='text-align:center;margin:0;'>Three loaders engineered for Canadian operators who need full-size capability in a tight footprint. Not sure which one? Read <a href='https://mammothmachinery.ca/how-to-choose-a-wheel-loader/' style='color:#017A12;text-decoration:none;'>how to choose a wheel loader</a>.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_39_1266a25b.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "10c1f909",
+   "settings": {
+    "editor": "<p style=\"text-align: left; margin: 0; line-height: 1.7;\">The X-Loader series redefines what a mini skid steer can do on a Canadian job site. With a 35\u2033 narrow profile, tight turning radius, and high-torque <a href=\"https://en.wikipedia.org/wiki/Yanmar\" target=\"_blank\" rel=\"noopener\">Yanmar diesel</a> hydraulics, these mini skid steers reach where full-size equipment can\u2019t: residential gates, indoor demolition, fenced yards, and tight landscaping sites. All three X-Loader mini skid steers ship with a universal quick-hitch plate compatible with 50+ professional attachments: bucket, auger, trencher, snow blower, and more. Pair your mini skid steer with Mammoth\u2019s <a href=\"https://mammothmachinery.ca/financing/\" target=\"_blank\" rel=\"noopener\">equipment financing</a> and get into the field faster. Compare models: the entry-level 50MT, the versatile 100MT, or the turbocharged 120MT Turbo for high-output commercial use. Weighing this class against a wheel loader instead? Compare <a href='https://mammothmachinery.ca/wheel-loader-vs-skid-steer/' style='color:#017A12;text-decoration:none;'>a wheel loader and a skid steer</a>. Whichever model you choose, respect its rated operating capacity. The <a href='https://www.ccohs.ca/oshanswers/safety_haz/landscaping/compact_loaders.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> warns that loading past rated capacity costs stability and steering control.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_43_10c1f909.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "587ca9cd",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>Mammoth tracked mini dumpers represent the highest level of performance in our lineup, engineered to handle demanding workloads with advanced rubber-track systems for superior stability and traction across uneven, muddy, or confined sites. Every model is powered by a reliable <a href='https://powerequipment.honda.com/' target='_blank' rel='noopener' style='color:#017A12;'>Honda GX-series engine</a> and driven by a US-made <a href='https://www.hydro-gear.com/' target='_blank' rel='noopener' style='color:#017A12;'>Hydro-Gear piston pump</a> for efficient, fully hydraulic operation. With load capacities from 1,350 to 2,850 lbs, equal to 5\u20136 standard wheelbarrows, and high-dump models reaching up to 82 in., these machines load directly into bins, trucks, and trailers with precision.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_41_587ca9cd.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "963fa9f",
+   "settings": {
+    "ekit_accordion_items": [
+     {
+      "acc_title": "What is a tracked mini dumper used for?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Tracked mini dumpers move heavy materials such as soil, gravel, concrete, sand, and debris across job sites where wheeled equipment struggles. Their rubber-track undercarriage grips mud, slopes, and soft ground, making them ideal for construction, landscaping, and agriculture. For a full walkthrough of how contractors use them, read our <a style=\"color: #017A12; font-weight: 600;\" href=\"https://mammothmachinery.ca/what-is-a-mini-dumper-complete-guide/\" rel=\"noopener\">complete mini dumper guide</a>. By replacing manual carrying, they also reduce the risk of <a style=\"color: #017A12; font-weight: 600;\" href=\"https://www.ccohs.ca/oshanswers/ergonomics/mmh/\" target=\"_blank\" rel=\"noopener\">manual material-handling injuries</a> on site.</p>",
+      "_id": "e8e061f"
+     },
+     {
+      "acc_title": "How much can a Mammoth tracked mini dumper carry?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Mammoth tracked mini dumpers carry from 1,350 lbs on the entry-level MT1350 up to 2,850 lbs on the MT2850 Track Carrier and MT1350CB Concrete Buggy, roughly 5\u20136 standard wheelbarrow loads in a single pass. High-lift models like the MT2200HL also raise loads up to 82 in. for direct loading into trucks and bins.</p>",
+      "_id": "83080ce"
+     },
+     {
+      "acc_title": "What's the difference between tracked and wheeled mini dumpers?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Tracked mini dumpers use a rubber-track undercarriage that spreads weight over a larger area, delivering superior traction and stability on mud, slopes, and uneven ground, plus higher payloads (up to 2,850 lbs). Wheeled models are lighter, faster, and better for firm, flat surfaces. If you need lower ground pressure and tough-terrain grip, choose tracked; for speed and maneuverability on hard ground, see our <a style=\"color: #017A12; font-weight: 600;\" href=\"https://mammothmachinery.ca/wheeled-mini-dumpers/\" rel=\"noopener\">wheeled mini dumpers</a>. For a spec-by-spec breakdown, read the <a style=\"color: #017A12; font-weight: 600;\" href=\"https://mammothmachinery.ca/wheeled-vs-tracked-mini-dumper-best-2026-guide/\" rel=\"noopener\">wheeled vs tracked mini dumper guide</a>.</p>",
+      "_id": "5656305"
+     },
+     {
+      "acc_title": "What engines power Mammoth tracked dumpers?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Every Mammoth tracked dumper runs on a dependable <a style=\"color: #017A12; font-weight: 600;\" href=\"https://powerequipment.honda.com/\" target=\"_blank\" rel=\"noopener\">Honda GX-series engine</a>: the GX390 (13\u201313.5 HP) on mid-range models and the GX690 (22 HP) on the MT2850 and MT1350CB. Power is delivered through a US-made Hydro-Gear piston pump for efficient, fully hydraulic operation and long-term reliability in tough Canadian conditions.</p>",
+      "_id": "3c726fc"
+     }
+    ]
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_41_963fa9f.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "21003aa",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>Mammoth wheeled mini dumpers bring professional-grade material handling to job sites of any size. The TT570 is powered by a trusted <a href='https://powerequipment.honda.com/' target='_blank' rel='noopener' style='color:#017A12;'>Honda GXV160 petrol engine</a>, while the eTT900 runs on dual 500W electric motors for clean, quiet operation, making both machines well-suited to a wide range of Canadian job sites including construction, landscaping, and agriculture. Designed with a stable 4-wheel configuration, these compact dumpers carry up to 900 lbs of soil, gravel, concrete, or organic material, reducing physical labour and keeping your crew moving from the first shift to the last. That reduction in physical labour matters. The <a href='https://www.ccohs.ca/oshanswers/ergonomics/mmh/hlth_haz.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> identifies manual material handling as the most common cause of occupational fatigue and low back pain.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_37_21003aa.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "5d36d9f0",
+   "settings": {
+    "ekit_accordion_items": [
+     {
+      "acc_title": "What can wheeled mini dumpers carry?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Mammoth wheeled mini dumpers carry 570 lbs on the TT570 and 900 lbs on the eTT900 per load. They handle a wide range of materials including soil, gravel, sand, mulch, concrete, debris, feed, and compost, making them suitable for landscaping, construction, and agricultural applications across Canada. Torn between wheels and tracks? Our <a style=\"color: #017A12; font-weight: 600;\" href=\"https://mammothmachinery.ca/wheeled-vs-tracked-mini-dumper-best-2026-guide/\" rel=\"noopener\">wheeled vs tracked mini dumper guide</a> breaks it down.</p>",
+      "_id": "c57efcf"
+     },
+     {
+      "acc_title": "What industries use wheeled mini dumpers?",
+      "acc_content": "<p style='margin:0;font-family:Alata;font-size:15px;line-height:1.65;color:#504532;'>Wheeled mini dumpers are used across construction, landscaping, and agriculture. Construction professionals rely on them for moving aggregates and debris across active sites. Landscapers, including members of <a href='https://landscapeontario.com/' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Landscape Ontario</a>, use them for soil, mulch, and stones on everything from residential to commercial projects. Agricultural operators depend on them for feed, compost, and harvest materials across large properties. Their compact, motorized design also makes them ideal for homeowners and property managers tackling medium to large jobs.</p>",
+      "_id": "4a403e7"
+     },
+     {
+      "acc_title": "Why choose Mammoth Machinery mini dumpers?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Mammoth Machinery is a Canadian company committed to building equipment that performs in real Canadian conditions. Every wheeled mini dumper is engineered for durability, ease of use, and long-term reliability. Our machines are backed by dedicated support and designed to reduce labour costs from day one.</p>",
+      "_id": "7d588b3"
+     },
+     {
+      "acc_title": "What\u2019s the difference between the TT570 and eTT900?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">The TT570 is our versatile standard model: a stable 4-wheel fixed design ideal for everyday material handling on flat and moderate terrain. The eTT900 adds articulating steering for enhanced manoeuvrability in tight spaces, slopes, and more demanding job sites. The TT570 carries 570 lbs and the eTT900 carries 900 lbs, and both are available for Canadian operators.</p>",
+      "_id": "1fca0e4"
+     }
+    ]
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_37_5d36d9f0.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 47,
+   "widget_id": "647bbc23",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>The Mammoth X-Loader 3000MT is a full-size stand-on track loader engineered to handle the toughest job-site demands. Powered by a liquid-cooled <a href='https://www.kubotaengine.com/' target='_blank' rel='noopener' style='color:#017A12;'>Kubota V2607</a> 74.3 HP diesel and driven by high-flow <a href='https://www.boschrexroth.com/' target='_blank' rel='noopener' style='color:#017A12;'>Bosch Rexroth</a> hydraulics (24.8 GPM at 4,000 PSI), it delivers serious power in a compact rubber-track footprint. The universal skid-steer attachment plate lets you switch from buckets to augers, trenchers, and grapples in seconds - so a single machine handles material handling, grading, excavation, and site prep across construction, landscaping, and agriculture. Power like this still has a ceiling. The <a href='https://www.ccohs.ca/oshanswers/safety_haz/landscaping/compact_loaders.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> warns that loading past a machine's rated capacity costs stability and steering control.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_47_647bbc23.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 47,
+   "widget_id": "5c14c1bf",
+   "settings": {
+    "html": "<div style='overflow-x:auto;border:1px solid #D4C4AC;border-radius:4px;background:#FFFFFF;'><table style='width:100%;min-width:640px;border-collapse:collapse;'><thead><tr><th style='padding:16px 18px;text-align:left;font-family:Alata;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#FFFFFF;background:#141414;font-weight:600;'>Specification</th><th style='padding:16px 18px;text-align:left;font-family:Alata;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#FFFFFF;background:#141414;font-weight:600;'>X-Loader 3000MT</th><th style='padding:16px 18px;text-align:left;font-family:Alata;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#FFFFFF;background:#141414;font-weight:600;'>X-Loader 2000MT</th></tr></thead><tbody><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Class</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>Full-Size Stand-On</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>Mini Track Loader</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Engine</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>Kubota V2607, 74.3 HP</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>Yanmar 4NTV88C, 48.3 HP</td></tr><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Rated Operating Capacity</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>3,000 lb</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>2,000 lb</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Hydraulic Flow</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>24.8 GPM</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>21.1 GPM</td></tr><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>System Pressure</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>4,000 PSI</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>3,046 PSI</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Travel Speed</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>0-8 KM/H</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>0-7.3 KM/H</td></tr><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Operating Weight</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>6,140 lb</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>5,338 lb</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Length</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>123 in.</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>105 in.</td></tr><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Width</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>55 in.</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>46.4 in.</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Height</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>66 in.</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>59 in.</td></tr><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Track Size</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>320 x 86 x 47</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>250 x 72 x 52</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Lift</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>118 in. hinge pin height</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>99 in. hinge pin (radial)</td></tr><tr style='background:#F4F4F4;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Attachment Plate</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>Universal Skid Steer</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>Universal Skid Steer</td></tr><tr style='background:#FFFFFF;border-bottom:1px solid #D4C4AC;'><td style='padding:15px 18px;font-weight:600;color:#141414;font-family:Alata;font-size:14px;'>Fuel Tank</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>80 L</td><td style='padding:15px 18px;color:#1A1C1C;font-family:Alata;font-size:14px;'>50 L</td></tr></tbody></table></div><p style='margin:18px 0 0;font-family:Alata,sans-serif;font-size:14px;color:#5A5A5A;'>Both loaders run genuine Japanese diesels, the <a href='https://www.kubotaengine.com/' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;text-decoration:none;'>Kubota</a> V2607 and the <a href='https://en.wikipedia.org/wiki/Yanmar' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;text-decoration:none;'>Yanmar</a> 4NTV88C.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_47_5c14c1bf.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 47,
+   "widget_id": "35480c00",
+   "settings": {
+    "ekit_accordion_items": [
+     {
+      "acc_title": "What's the difference between a track loader and a skid steer?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Both use the same universal attachment system, but a track loader (like the X-Loader 3000MT) rides on rubber tracks instead of wheels. Tracks spread the machine's weight over a larger area, giving lower ground pressure, better traction on mud, sand, and slopes, and less surface damage - ideal for soft or finished ground. Wheeled skid steers are faster and cheaper to maintain on hard, flat surfaces. Our <a style=\"color: #017A12; font-weight: 600;\" href=\"https://mammothmachinery.ca/skid-steer-vs-track-loader-best-2026-guide/\" rel=\"noopener\">skid steer vs track loader guide</a> compares them in detail.</p>",
+      "_id": "6f7be3e"
+     },
+     {
+      "acc_title": "What attachments fit the X-Loader 3000MT?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">The 3000MT uses a universal skid-steer attachment plate, so it accepts the full range of standard quick-attach tools - buckets, pallet forks, augers, trenchers, grapples, brush cutters, and more. Its high-flow hydraulic system (24.8 GPM at 4,000 PSI) has the power to run demanding hydraulic attachments without bogging down.</p>",
+      "_id": "92e6cfc"
+     },
+     {
+      "acc_title": "What engine powers the Mammoth track loader?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">The X-Loader 3000MT runs on a liquid-cooled <a style=\"color: #017A12; font-weight: 600;\" href=\"https://www.kubotaengine.com/\" target=\"_blank\" rel=\"noopener\">Kubota</a> V2607 74.3 HP diesel engine paired with a <a style=\"color: #017A12; font-weight: 600;\" href=\"https://www.boschrexroth.com/\" target=\"_blank\" rel=\"noopener\">Bosch Rexroth</a> pump and travel motors. With an 80 L fuel tank and radiator cooling, it's built for long, demanding workdays in Canadian conditions.</p>",
+      "_id": "2334496"
+     },
+     {
+      "acc_title": "What jobs is a full-size track loader best for?",
+      "acc_content": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">With a 3,000 lb rated operating capacity, the 3000MT excels at material handling, grading, site prep, excavation, and snow work across construction, landscaping, and agriculture. For digging trenches and foundations, pair it with one of our <a style=\"color: #017A12; font-weight: 600;\" href=\"https://mammothmachinery.ca/mini-excavators/\" rel=\"noopener\">mini excavators</a> to cover the full earthmoving workflow.</p>",
+      "_id": "1c8e974"
+     },
+     {
+      "acc_title": "What\u2019s the difference between the X-Loader 2000MT and 3000MT?",
+      "acc_content": "<p>The X-Loader 2000MT is Mammoth\u2019s mini track loader - smaller and lighter than the full-size 3000MT. It runs a 48.3 HP Yanmar diesel with a 2,000 lb rated operating capacity, versus the 3000MT\u2019s 74.3 HP Kubota and 3,000 lb capacity. The 2000MT is the better fit for tight-access sites and smaller-scale jobs, while both share the same universal skid-steer attachment plate.</p>",
+      "_id": "enw4qbu"
+     },
+     {
+      "acc_title": "What engine powers the X-Loader 2000MT?",
+      "acc_content": "<p>The X-Loader 2000MT runs a Yanmar 4NTV88C 48.3 HP diesel engine paired with a Hansa-TMP high-DP pump and Poclain piston drive motors. With a 50 L fuel tank and 60 L hydraulic tank, it delivers steady power for a full day of mini track loader work.</p>",
+      "_id": "zy6650e"
+     },
+     {
+      "acc_title": "What attachments fit the X-Loader 2000MT?",
+      "acc_content": "<p>The X-Loader 2000MT uses the same universal skid-steer attachment plate as the 3000MT, so it accepts standard quick-attach tools - buckets, pallet forks, augers, trenchers, and grapples. Its hydraulics deliver 21.1 GPM at 3,046 PSI, giving it enough flow to run most standard attachments in tight spaces.</p>",
+      "_id": "bv5xng5"
+     },
+     {
+      "acc_title": "What jobs is the X-Loader 2000MT mini track loader best for?",
+      "acc_content": "<p>With a 2,000 lb rated operating capacity and a 99 in. hinge pin height on its radial lift arm, the X-Loader 2000MT is built for landscaping, fencing, tight-access site work, and material handling where a full-size machine won\u2019t fit.</p>",
+      "_id": "9y6wvdn"
+     }
+    ]
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/fix_47_35480c00.json"
+ }
+]

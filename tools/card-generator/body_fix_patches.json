@@ -1,0 +1,746 @@
+{
+ "10043": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-heat-risk-factors.webp\" alt=\"Arlington heat risk: visitors arrive unacclimatized, pavement runs 30 to 60F hotter, and match day is 5 to 7 hours outdoors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-heat-risk-factors.webp\" alt=\"Arlington heat risk: visitors arrive unacclimatized, pavement runs 30 to 60F hotter, and match day is 5 to 7 hours outdoors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/earliest-signs-of-dehydration-matchday.webp\" alt=\"Earliest dehydration signs: persistent thirst, dry mouth, dark urine, headache, dizziness on standing, muscle cramps\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/earliest-signs-of-dehydration-matchday.webp\" alt=\"Earliest dehydration signs: persistent thirst, dry mouth, dark urine, headache, dizziness on standing, muscle cramps\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/heat-exhaustion-vs-heat-stroke.webp\" alt=\"Heat exhaustion means heavy sweating and an alert person; heat stroke means confusion and over 103F, and needs 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/heat-exhaustion-vs-heat-stroke.webp\" alt=\"Heat exhaustion means heavy sweating and an alert person; heat stroke means confusion and over 103F, and needs 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-matchday-heat-kit.webp\" alt=\"Match day heat kit: water bottle, electrolytes, wide-brim hat, SPF 30 or higher, a battery fan and a cooling towel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-matchday-heat-kit.webp\" alt=\"Match day heat kit: water bottle, electrolytes, wide-brim hat, SPF 30 or higher, a battery fan and a cooling towel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/matchday-hydration-schedule.webp\" alt=\"Match day hydration: 16 to 24 ounces two hours before, 4 to 8 ounces every 15 minutes during, 80 to 120 ounces total\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/matchday-hydration-schedule.webp\" alt=\"Match day hydration: 16 to 24 ounces two hours before, 4 to 8 ounces every 15 minutes during, 80 to 120 ounces total\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/feeling-sick-at-the-stadium.webp\" alt=\"If heat hits at the stadium: get to air conditioning, sip cool water with electrolytes, cool the neck and wrists\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/feeling-sick-at-the-stadium.webp\" alt=\"If heat hits at the stadium: get to air conditioning, sip cool water with electrolytes, cool the neck and wrists\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/er-vs-urgent-care-vs-hydration-clinic.webp\" alt=\"Call 911 for confusion or over 103F, urgent care for heat exhaustion not improving in 30 minutes, IV clinic for mild recovery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/er-vs-urgent-care-vs-hydration-clinic.webp\" alt=\"Call 911 for confusion or over 103F, urgent care for heat exhaustion not improving in 30 minutes, IV clinic for mild recovery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 7,
+  "alt": 0,
+  "src": 0
+ },
+ "10191": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/three-hormone-delivery-methods.webp\" alt=\"Hormone pellets sit under the hip skin for 3 to 6 months, injections dose weekly to biweekly, creams absorb daily\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/three-hormone-delivery-methods.webp\" alt=\"Hormone pellets sit under the hip skin for 3 to 6 months, injections dose weekly to biweekly, creams absorb daily\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-delivery-compared.webp\" alt=\"Pellets, injections and creams compared on dosing rhythm, level stability, adjustability, procedure and common friction\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-delivery-compared.webp\" alt=\"Pellets, injections and creams compared on dosing rhythm, level stability, adjustability, procedure and common friction\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-pros-and-cons.webp\" alt=\"Hormone pellets give steady levels with no shot day, but the dose is fixed until the pellet dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-pros-and-cons.webp\" alt=\"Hormone pellets give steady levels with no shot day, but the dose is fixed until the pellet dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-injections-pros-and-cons.webp\" alt=\"Hormone injections are inexpensive and easy to fine-tune, but levels wave between doses and some feel the trough\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-injections-pros-and-cons.webp\" alt=\"Hormone injections are inexpensive and easy to fine-tune, but levels wave between doses and some feel the trough\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-creams-pros-and-cons.webp\" alt=\"Hormone creams give the most physiologic rhythm and are easiest to adjust, but absorption varies and residue transfers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-creams-pros-and-cons.webp\" alt=\"Hormone creams give the most physiologic rhythm and are easiest to adjust, but absorption varies and residue transfers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/compounded-vs-fda-approved-hormones.webp\" alt=\"Endocrine Society and ACOG recommend FDA-approved hormone formulations where one exists; ask about dosing and rechecks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/compounded-vs-fda-approved-hormones.webp\" alt=\"Endocrine Society and ACOG recommend FDA-approved hormone formulations where one exists; ask about dosing and rechecks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 6,
+  "alt": 0,
+  "src": 0
+ },
+ "10192": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-plateau-timing.webp\" alt=\"A semaglutide plateau after 8 to 12 months is physiology; a stall in the first 3 months at full dose needs investigating\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-plateau-timing.webp\" alt=\"A semaglutide plateau after 8 to 12 months is physiology; a stall in the first 3 months at full dose needs investigating\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/habits-that-stall-semaglutide.webp\" alt=\"Three habits stall semaglutide progress: too little protein, no resistance training, and short sleep with unmanaged stress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/habits-that-stall-semaglutide.webp\" alt=\"Three habits stall semaglutide progress: too little protein, no resistance training, and short sleep with unmanaged stress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-reasons-semaglutide-stalls.webp\" alt=\"Untreated insulin resistance, thyroid dysfunction and sex-hormone imbalance can each blunt progress on semaglutide\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-reasons-semaglutide-stalls.webp\" alt=\"Untreated insulin resistance, thyroid dysfunction and sex-hormone imbalance can each blunt progress on semaglutide\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders-v2.webp\" alt=\"True non-response to semaglutide is real, does not predict non-response to tirzepatide, and a supervised switch can help\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders-v2.webp\" alt=\"True non-response to semaglutide is real, does not predict non-response to tirzepatide, and a supervised switch can help\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restarting-semaglutide-progress.webp\" alt=\"Five steps to restart semaglutide progress: confirm the dose, track composition, audit habits, get labs, then discuss switching\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restarting-semaglutide-progress.webp\" alt=\"Five steps to restart semaglutide progress: confirm the dose, track composition, audit habits, get labs, then discuss switching\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 5,
+  "alt": 0,
+  "src": 0
+ },
+ "10216": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-what-nad-does-v2.webp\" alt=\"NAD+ is a coenzyme used for cellular energy and DNA repair, and its levels fall with age\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-what-nad-does-v3.webp\" alt=\"NAD+ is a coenzyme used for cellular energy and DNA repair, and its levels fall with age\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-what-the-evidence-shows.webp\" alt=\"NAD+ evidence tiers: biochemistry established, IV raises levels in pilots, aging claims unsupported\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-what-the-evidence-shows.webp\" alt=\"NAD+ evidence tiers: biochemistry established, age decline documented, IV raises levels in pilots, aging claims unsupported\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-who-should-avoid.webp\" alt=\"NAD+ IV is not for pregnancy, kidney or heart failure, active cancer, or without a medication review\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-who-should-avoid.webp\" alt=\"NAD+ IV is not for pregnancy or breastfeeding, kidney or heart failure, active cancer, or without a medication review\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 2,
+  "src": 1
+ },
+ "10221": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-hair-removal-sessions-by-area.webp\" alt=\"Laser hair removal sessions by area: underarms, bikini and legs 6 to 8; back, chest and face 8 or more\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-hair-removal-sessions-by-area.webp\" alt=\"Laser hair removal session counts by area: underarms, bikini and legs 6 to 8, back, chest and face 8 or more\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-hair-removal-hair-color.webp\" alt=\"Dark coarse hair responds well to laser hair removal; grey, white, red and blonde respond poorly\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-hair-removal-hair-color.webp\" alt=\"Laser targets pigment, so dark coarse hair responds well while gray, white, red and blonde do not\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 2,
+  "src": 0
+ },
+ "10229": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-skinvive-is.webp\" alt=\"Skinvive is a hyaluronic acid microdroplet injectable, FDA approved May 2023 for cheek smoothness in adults over 21\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-skinvive-is.webp\" alt=\"Skinvive is a hyaluronic acid microdroplet injectable, FDA approved May 2023 for cheek smoothness in adults over 21\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared-v2.webp\" alt=\"Skinvive hydrates and smooths the skin surface in superficial microdroplets; dermal filler restores volume and reshapes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared-v2.webp\" alt=\"Skinvive hydrates and smooths the skin surface in superficial microdroplets; dermal filler restores volume and reshapes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects-v2.webp\" alt=\"Skinvive side effects are local and short-lived: small bumps, redness or bruising, temporary unevenness, and it dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects-v2.webp\" alt=\"Skinvive side effects are local and short-lived: small bumps, redness or bruising, temporary unevenness, and it dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 3,
+  "alt": 0,
+  "src": 0
+ },
+ "6220": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/sleep-stress-and-weight-v2.webp\" alt=\"Sleep 7 to 9 hours, take short stress breaks, and keep protein and fiber snacks ready for your known trigger times\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/sleep-stress-and-weight-v3.webp\" alt=\"Sleep 7 to 9 hours, take short stress breaks, and keep protein and fiber snacks ready for your known trigger times\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 0,
+  "src": 1
+ },
+ "6246": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-wellness-coaching-covers-v2.webp\" alt=\"Wellness coaching covers physical health, mental health, lifestyle choices and the behaviour changes that hold them\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-wellness-coaching-covers-v2.webp\" alt=\"Wellness coaching covers physical health, mental health, lifestyle choices and the behavior changes that hold them\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "6285": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-whats-in-the-bag-v2.webp\" alt=\"An IV hydration bag holds saline plus electrolytes, B vitamins, vitamin C, glutathione and amino acids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-whats-in-the-bag-v3.webp\" alt=\"An IV hydration bag starts with sterile saline plus electrolytes, B vitamins, vitamin C, glutathione and amino acids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-six-benefits.webp\" alt=\"Six IV hydration benefits: rehydration, energy, immune support, recovery, skin and wellness upkeep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-six-benefits.webp\" alt=\"Six IV hydration benefits: rapid rehydration, energy, immune support, recovery, skin, and wellness maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-who-should-avoid.webp\" alt=\"Avoid IV hydration with heart failure, kidney disease or electrolyte disorders; pregnancy needs clearance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-who-should-avoid.webp\" alt=\"IV hydration should be avoided with heart failure, kidney disease or electrolyte disorders, and needs clearance in pregnancy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-what-to-expect.webp\" alt=\"An IV hydration session: consultation and vitals, a 30 to 60 minute drip, then back to your day\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-what-to-expect.webp\" alt=\"An IV hydration session: consultation and vitals, a 30 to 60 minute drip in a recliner, then straight back to your day\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 4,
+  "src": 1
+ },
+ "6290": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-energy-who-benefits-v2.webp\" alt=\"Energy IV vitamin drips suit busy professionals, shift workers, frequent travellers and people recovering from burnout\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-energy-who-benefits-v2.webp\" alt=\"Energy IV vitamin drips suit busy professionals, shift workers, frequent travelers and people recovering from burnout\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-antioxidants-v2.webp\" alt=\"Glutathione and vitamin C neutralise free radicals, support the liver and kidneys, and back mitochondrial function\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-antioxidants-v2.webp\" alt=\"Glutathione and vitamin C neutralize free radicals, support the liver and kidneys, and back mitochondrial function\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 2,
+  "src": 0
+ },
+ "6296": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-ingredients-v2.webp\" alt=\"A Myers Cocktail holds vitamin C, B-complex vitamins, vitamin B12, magnesium and calcium\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-ingredients-v3.webp\" alt=\"A Myers Cocktail holds vitamin C, B-complex vitamins, vitamin B12, magnesium and calcium\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-who-it-suits-v2.webp\" alt=\"The Myers Cocktail suits chronic stress, athletes and travellers; check first in pregnancy or with kidney or heart conditions\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-who-it-suits-v2.webp\" alt=\"The Myers Cocktail suits chronic stress, athletes and travelers; check first in pregnancy or with kidney or heart conditions\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 1
+ },
+ "6300": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-what-it-can-and-cannot-fix-v2.webp\" alt=\"A hangover IV drip treats dehydration and electrolyte loss but cannot speed alcohol metabolism or replace rest\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-what-it-can-and-cannot-fix-v3.webp\" alt=\"A hangover IV drip treats dehydration and electrolyte loss but cannot speed alcohol metabolism or replace rest\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 0,
+  "src": 1
+ },
+ "6306": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-ingredients-and-cadence-v2.webp\" alt=\"IV formula drives frequency: B12 monthly or per labs, vitamin C needs screening, magnesium monitored, minerals individualised\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-ingredients-and-cadence-v2.webp\" alt=\"IV formula drives frequency: B12 monthly or per labs, vitamin C needs screening, magnesium monitored, minerals individualized\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "6353": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-whats-in-the-bag-v2.webp\" alt=\"An athlete's IV bag holds electrolytes, amino acids, B complex, vitamin C and glutathione\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-whats-in-the-bag-v3.webp\" alt=\"An athlete's IV bag holds electrolytes, amino acids, B complex, vitamin C and glutathione\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 0,
+  "src": 1
+ },
+ "6356": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-iv-therapy-fights-chronic-fatigue-1-what-causes-tiredness.webp\" alt=\"Six common drivers of fatigue: dehydration, low B12 or iron, low magnesium, hormone shifts, stress, poor sleep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-iv-therapy-fights-chronic-fatigue-1-what-causes-tiredness.webp\" alt=\"Six common drivers of fatigue: dehydration, low B12 or iron, low magnesium, hormone shifts, chronic stress, and poor sleep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-iv-therapy-fights-chronic-fatigue-2-which-drips-work-best.webp\" alt=\"Four fatigue drips compared on what they suit and how fast they work\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-iv-therapy-fights-chronic-fatigue-2-which-drips-work-best.webp\" alt=\"Four fatigue drips compared: Myers&#x27; Cocktail, B-complex with B12, NAD+, and hydration with electrolytes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-iv-therapy-fights-chronic-fatigue-3-b12-deficiency-rates.webp\" alt=\"3.6% of US adults are B12 deficient and a further 12.5% insufficient, per NIH NHANES data\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-iv-therapy-fights-chronic-fatigue-3-b12-deficiency-rates.webp\" alt=\"3.6 percent of US adults are B12 deficient and a further 12.5 percent are insufficient, per NIH NHANES data\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-fatigue-first-visit.webp\" alt=\"Four steps of a first IV visit: consult, catheter placement, a 30 to 45 minute infusion, same-day discharge\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-fatigue-first-visit.webp\" alt=\"Four steps of a first IV visit: consultation, catheter placement, a 30 to 45 minute drip, then same-day discharge\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-fatigue-when-to-see-a-doctor.webp\" alt=\"Five signs fatigue needs bloodwork: over six weeks, weight change, cold intolerance, breathlessness, after illness\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-fatigue-when-to-see-a-doctor.webp\" alt=\"Five signs fatigue needs bloodwork: lasting over six weeks, weight change, cold intolerance, breathlessness, or onset after illness\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 5,
+  "src": 0
+ },
+ "6359": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-what-it-does-v2.webp\" alt=\"Glutathione neutralises free radicals, recycles vitamins C and E, supports mitochondria and aids detoxification\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-what-it-does-v2.webp\" alt=\"Glutathione neutralizes free radicals, recycles vitamins C and E, supports mitochondria and aids detoxification\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "6441": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/movement-to-maintain-weight-loss-v2.webp\" alt=\"Protect weight loss with strength training, cardio and NEAT, aiming for about 150 minutes of moderate activity a week\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/movement-to-maintain-weight-loss-v3.webp\" alt=\"Protect weight loss with strength training, cardio and NEAT, aiming for about 150 minutes of moderate activity a week\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 0,
+  "src": 1
+ },
+ "6445": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-hypothyroidism-causes-weight-gain-v2.webp\" alt=\"Hypothyroidism adds weight through a slowed metabolism, fluid retention, and the fatigue that reduces daily movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-hypothyroidism-causes-weight-gain-v3.webp\" alt=\"Hypothyroidism adds weight through a slowed metabolism, fluid retention, and the fatigue that reduces daily movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 0,
+  "src": 1
+ },
+ "6492": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-mic-ingredients-v2.webp\" alt=\"A Lipo-B MIC injection holds methionine, inositol and choline, usually with B vitamins including B12\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-mic-ingredients-v3.webp\" alt=\"A Lipo-B MIC injection holds methionine, inositol and choline, usually with B vitamins including B12\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 0,
+  "src": 1
+ },
+ "6854": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/microneedling-aftercare-first-24-hours-v2.webp\" alt=\"First 24 hours after microneedling: cleanse gently, use a fragrance-free moisturiser, and apply mineral SPF 30\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/microneedling-aftercare-first-24-hours-v2.webp\" alt=\"First 24 hours after microneedling: cleanse gently, use a fragrance-free moisturizer, and apply mineral SPF 30\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "6867": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/why-professional-microneedling-is-safer-v2.webp\" alt=\"Professional microneedling is safer through sterilisation, needle depth chosen for your skin, and trained technique\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/why-professional-microneedling-is-safer-v2.webp\" alt=\"Professional microneedling is safer through sterilization, needle depth chosen for your skin, and trained technique\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "8139": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-genesis-vs-ipl-1-how-laser-genesis-works.webp\" alt=\"Laser Genesis heats the upper dermis, triggers the healing response, and builds new collagen\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-genesis-vs-ipl-1-how-laser-genesis-works.webp\" alt=\"Laser Genesis gently heats the upper dermis, triggers the healing response, and builds new collagen\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-genesis-vs-ipl-2-what-ipl-treats-v2.webp\" alt=\"IPL targets sun and age spots, broken capillaries, and rosacea-related flushing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-genesis-vs-ipl-2-what-ipl-treats-v2.webp\" alt=\"IPL targets sunspots and age spots, broken capillaries, and rosacea-related flushing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 2,
+  "src": 0
+ },
+ "8559": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-how-retinoids-work-v2.webp\" alt=\"Retinoids increase cell turnover, stimulate new collagen, and block the enzymes that break existing collagen down\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-how-retinoids-work-v2.webp\" alt=\"Retinoids increase cell turnover, stimulate new collagen, and block the enzymes that break existing collagen down\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/neuromodulator-treatment-timeline.webp\" alt=\"Neuromodulator injections take under 15 minutes, show change in 3 to 7 days, and last 3 to 4 months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/neuromodulator-treatment-timeline.webp\" alt=\"Neuromodulator injections take under 15 minutes, show change in 3 to 7 days, and last 3 to 4 months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-dermal-filler.webp\" alt=\"Three dermal filler types: hyaluronic acid, calcium hydroxylapatite for contouring, and poly-L-lactic acid\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-dermal-filler.webp\" alt=\"Three dermal filler types: hyaluronic acid, calcium hydroxylapatite for contouring, and poly-L-lactic acid\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-treatments-compared.webp\" alt=\"Retinoids, neuromodulators and dermal fillers compared on what they suit, how they are applied, and how long they last\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-treatments-compared.webp\" alt=\"Retinoids, neuromodulators and dermal fillers compared on what they suit, how they are applied, and how long they last\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 0,
+  "src": 0
+ },
+ "8563": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths-v2.webp\" alt=\"Light, medium and deep chemical peels compared by the skin layer reached, what each treats, and recovery time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths-v2.webp\" alt=\"Light, medium and deep chemical peels compared by the skin layer reached, what each treats, and recovery time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-it-treats.webp\" alt=\"Chemical peels treat sun damage and photoaging, acne scarring and texture, and hyperpigmentation including melasma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-it-treats.webp\" alt=\"Chemical peels treat sun damage and photoaging, acne scarring and texture, and hyperpigmentation including melasma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-who-should-wait.webp\" alt=\"Wait on a chemical peel with an active infection or cold sore, in pregnancy, after isotretinoin, or with keloid scarring\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-who-should-wait.webp\" alt=\"Wait on a chemical peel with an active infection or cold sore, in pregnancy, after isotretinoin, or with keloid scarring\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens-v2.webp\" alt=\"Chemical peel timeline: stop retinoids beforehand, a 5 to 10 minute application, then flaking over 3 to 7 days\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens-v2.webp\" alt=\"Chemical peel timeline: stop retinoids beforehand, a 5 to 10 minute application, then flaking over 3 to 7 days\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 0,
+  "src": 0
+ },
+ "8567": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-preventive-screenings.webp\" alt=\"Preventive care starts with a baseline, catches silent markers like blood pressure early, and treats your provider as a partner\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-preventive-screenings.webp\" alt=\"Preventive care starts with a baseline, catches silent markers like blood pressure early, and treats your provider as a partner\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition-v2.webp\" alt=\"Evidence-based nutrition: add fibre-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition-v2.webp\" alt=\"Evidence-based nutrition: add fiber-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity-v2.webp\" alt=\"Movement for longevity: 150 minutes of moderate aerobic activity weekly, strength work twice a week, and mood benefits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity-v2.webp\" alt=\"Movement for longevity: 150 minutes of moderate aerobic activity weekly, strength work twice a week, and mood benefits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-managing-stress.webp\" alt=\"Chronic stress causes digestive issues and headaches; breathing, meditation and connection lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-managing-stress.webp\" alt=\"Chronic stress causes digestive issues and headaches; breathing, meditation and connection lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 1,
+  "src": 0
+ },
+ "8571": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-a-wellness-assessment-establishes.webp\" alt=\"A wellness assessment sets a health baseline, finds silent risks early, and looks at the whole person not one complaint\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-a-wellness-assessment-establishes.webp\" alt=\"A wellness assessment sets a health baseline, finds silent risks early, and looks at the whole person not one complaint\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-three-pillars.webp\" alt=\"Wellness assessment pillars: clinical screenings and vitals, lifestyle and mental well-being, social determinants of health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-three-pillars.webp\" alt=\"Wellness assessment pillars: clinical screenings and vitals, lifestyle and mental well-being, social determinants of health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit-v2.webp\" alt=\"A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalised plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit-v2.webp\" alt=\"A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalized plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-long-term-benefits.webp\" alt=\"Regular wellness assessments bring peace of mind, cost savings against chronic illness, and an ongoing health partnership\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-long-term-benefits.webp\" alt=\"Regular wellness assessments bring peace of mind, cost savings against chronic illness, and an ongoing health partnership\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 1,
+  "src": 0
+ },
+ "8577": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-functional-medicine-is-v2.webp\" alt=\"Functional medicine looks for root causes, treats the body as one integrated system, and aims at long-term resolution\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-functional-medicine-is-v2.webp\" alt=\"Functional medicine looks for root causes, treats the body as one integrated system, and aims at long-term resolution\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine-v2.webp\" alt=\"Conventional medicine treats the leaves and leads on acute care; functional medicine tends the roots and suits chronic disease\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine-v2.webp\" alt=\"Conventional medicine treats the leaves and leads on acute care; functional medicine tends the roots and suits chronic disease\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-principles.webp\" alt=\"Functional medicine principles: patient-centered not disease-centered, longer appointments, and integrative evidence-based care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-principles.webp\" alt=\"Functional medicine principles: patient-centered not disease-centered, longer appointments, and integrative evidence-based care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation-v2.webp\" alt=\"A functional medicine consultation: a health history from birth, functional lab testing, then a personalised wellness plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation-v2.webp\" alt=\"A functional medicine consultation: a health history from birth, functional lab testing, then a personalized wellness plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 1,
+  "src": 0
+ },
+ "8609": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-skin-axis-how-it-works.webp\" alt=\"The gut-skin axis: dysbiosis drives inflammation, markers cross a compromised gut lining, and the skin barrier is disrupted\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-skin-axis-how-it-works.webp\" alt=\"The gut-skin axis: dysbiosis drives inflammation, markers cross a compromised gut lining, and the skin barrier is disrupted\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skin-conditions-linked-to-gut-health.webp\" alt=\"Acne, eczema and psoriasis, and rosacea are each linked to gut health, with rosacea tied to SIBO\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skin-conditions-linked-to-gut-health.webp\" alt=\"Acne, eczema and psoriasis, and rosacea are each linked to gut health, with rosacea tied to SIBO\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/signs-your-gut-affects-your-skin.webp\" alt=\"Gut signs showing on skin: frequent bloating, food sensitivities, sudden reactions to familiar products, sugar cravings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/signs-your-gut-affects-your-skin.webp\" alt=\"Gut signs showing on skin: frequent bloating, food sensitivities, sudden reactions to familiar products, sugar cravings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin-v2.webp\" alt=\"Support gut health with probiotics from fermented foods, prebiotic fibre, and 7 to 9 hours of sleep to lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin-v2.webp\" alt=\"Support gut health with probiotics from fermented foods, prebiotic fiber, and 7 to 9 hours of sleep to lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 1,
+  "src": 0
+ },
+ "8929": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/who-needs-iv-hydration-texas-heat-v2.webp\" alt=\"IV hydration matters most for outdoor workers, athletes, older adults and visitors not acclimatised to Texas heat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/who-needs-iv-hydration-texas-heat-v2.webp\" alt=\"IV hydration matters most for outdoor workers, athletes, older adults and visitors not acclimatized to Texas heat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "8933": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/abcde-rule-for-skin-spots-v2.webp\" alt=\"The ABCDE rule for skin spots: asymmetry, irregular border, more than one colour, diameter, and any evolving change\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/abcde-rule-for-skin-spots-v2.webp\" alt=\"The ABCDE rule for skin spots: asymmetry, irregular border, more than one color, diameter, and any evolving change\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "9173": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-estrogen-regulates.webp\" alt=\"Estrogen regulates the menstrual cycle, fat distribution, insulin sensitivity, bone density and cholesterol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-estrogen-regulates.webp\" alt=\"Estrogen regulates the menstrual cycle, fat distribution, insulin sensitivity, bone density and cholesterol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v2.webp\" alt=\"When estrogen is imbalanced fat storage rises, muscle mass falls, metabolism slows and water retention increases\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v3.webp\" alt=\"When estrogen is imbalanced fat storage rises, muscle mass falls, metabolism slows and water retention increases\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2-v2.webp\" alt=\"Restoring estrogen balance through liver support, nutrition and strength training, and BHRT under medical supervision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2-v2.webp\" alt=\"Restoring estrogen balance through liver support, nutrition and strength training, and BHRT under medical supervision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-when-to-see-a-provider.webp\" alt=\"See a provider for persistent unexplained weight gain, severe fatigue, heavy periods, mood instability or stalled weight loss\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-when-to-see-a-provider.webp\" alt=\"See a provider for persistent unexplained weight gain, severe fatigue, heavy periods, mood instability or stalled weight loss\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 0,
+  "src": 1
+ },
+ "9270": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain-v2.webp\" alt=\"The brain is dense with testosterone receptors, concentrated in the hippocampus, and under-fired when levels drop\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain-v2.webp\" alt=\"The brain is dense with testosterone receptors, concentrated in the hippocampus, and under-fired when levels drop\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-neurological-impact.webp\" alt=\"Testosterone acts as a neuroprotective agent and influences both spatial memory and verbal memory\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-neurological-impact.webp\" alt=\"Testosterone acts as a neuroprotective agent and influences both spatial memory and verbal memory\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-symptoms.webp\" alt=\"Low testosterone brain fog: trouble focusing, short-term memory gaps, mood changes, fatigue after sleep, lost motivation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-symptoms.webp\" alt=\"Low testosterone brain fog: trouble focusing, short-term memory gaps, mood changes, fatigue after sleep, lost motivation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/free-vs-total-testosterone.webp\" alt=\"Total testosterone counts everything in the blood including protein-bound; free testosterone is the active usable portion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/free-vs-total-testosterone.webp\" alt=\"Total testosterone counts everything in the blood including protein-bound; free testosterone is the active usable portion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 0,
+  "src": 0
+ },
+ "9273": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/adrenal-crisis-emergency-signs-v2.webp\" alt=\"Adrenal crisis needs emergency care: sudden severe pain, severe vomiting and diarrhoea, or low blood pressure and collapse\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/adrenal-crisis-emergency-signs-v2.webp\" alt=\"Adrenal crisis needs emergency care: sudden severe pain, severe vomiting and diarrhea, or low blood pressure and collapse\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "9295": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-cycle-regulation-diet-v2.webp\" alt=\"A PCOS cycle-regulation plate: fiber first, protein at every meal, healthy fats, and anti-inflammatory colour\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-cycle-regulation-diet-v2.webp\" alt=\"A PCOS cycle-regulation plate: fiber first, protein at every meal, healthy fats, and anti-inflammatory color\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 0
+ },
+ "9389": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-progesterone-does.webp\" alt=\"Progesterone counterbalances estrogen, is made after ovulation, and converts to a neurosteroid acting on GABA receptors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-progesterone-does.webp\" alt=\"Progesterone counterbalances estrogen, is made after ovulation, and converts to a neurosteroid acting on GABA receptors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-progesterone-warning-signs.webp\" alt=\"Low progesterone shows as anxiety, insomnia and irritability, and as heavy bleeding, spotting and shorter cycles\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-progesterone-warning-signs.webp\" alt=\"Low progesterone shows as anxiety, insomnia and irritability, and as heavy bleeding, spotting and shorter cycles\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/luteal-phase-window.webp\" alt=\"A healthy luteal phase runs 12 to 14 days; too little progesterone shortens it, which is a luteal phase defect\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/luteal-phase-window.webp\" alt=\"A healthy luteal phase runs 12 to 14 days; too little progesterone shortens it, which is a luteal phase defect\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility-v2.webp\" alt=\"Progesterone ripens the uterine lining, supports implantation, and is measured by tests used to investigate infertility\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility-v2.webp\" alt=\"Progesterone ripens the uterine lining, supports implantation, and is measured by tests used to investigate infertility\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels-v2.webp\" alt=\"Restoring progesterone: magnesium and B6, lowering cortisol, healthy fats for hormone synthesis, and BHRT with testing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels-v2.webp\" alt=\"Restoring progesterone: magnesium and B6, lowering cortisol, healthy fats for hormone synthesis, and BHRT with testing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 5,
+  "alt": 0,
+  "src": 0
+ },
+ "9398": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-post-birth-control-syndrome-is.webp\" alt=\"Hormonal contraceptives suppress the HPO axis; when they stop, the axis comes back online over weeks to months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-post-birth-control-syndrome-is.webp\" alt=\"Hormonal contraceptives suppress the HPO axis; when they stop, the axis comes back online over weeks to months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-symptoms.webp\" alt=\"After stopping birth control: cystic acne, libido changes, intense PMS, digestive issues and bloating, hair thinning\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-symptoms.webp\" alt=\"After stopping birth control: cystic acne, libido changes, intense PMS, digestive issues and bloating, hair thinning\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/contraceptive-nutrient-depletions.webp\" alt=\"Oral contraceptives can lower B2, B6, B12 and folate, plus magnesium for stress response and zinc for skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/contraceptive-nutrient-depletions.webp\" alt=\"Oral contraceptives can lower B2, B6, B12 and folate, plus magnesium for stress response and zinc for skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/returning-to-natural-cycles.webp\" alt=\"Recovery after birth control: healthy fats and protein-first meals, gut health to clear used hormones, and seed cycling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/returning-to-natural-cycles.webp\" alt=\"Recovery after birth control: healthy fats and protein-first meals, gut health to clear used hormones, and seed cycling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 4,
+  "alt": 0,
+  "src": 0
+ },
+ "9402": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-signs-in-men.webp\" alt=\"Low testosterone shows as fatigue sleep does not fix, brain fog, muscle loss despite training, and persistent low mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-signs-in-men.webp\" alt=\"Low testosterone shows as fatigue sleep does not fix, brain fog, muscle loss despite training, and persistent low mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength-v2.webp\" alt=\"TRT is anabolic: NIH studies show it can increase lean body mass and improve grip strength, a longevity indicator\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength-v2.webp\" alt=\"TRT is anabolic: NIH studies show it can increase lean body mass and improve grip strength, a longevity indicator\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity-v2.webp\" alt=\"Low testosterone is linked to depressive symptoms and anxiety; stabilising levels can clear fog and restore drive\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity-v2.webp\" alt=\"Low testosterone is linked to depressive symptoms and anxiety; stabilizing levels can clear fog and restore drive\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health-v2.webp\" alt=\"Restoring testosterone can improve insulin sensitivity, lower type 2 diabetes risk, and reduce visceral fat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health-v2.webp\" alt=\"Restoring testosterone can improve insulin sensitivity, lower type 2 diabetes risk, and reduce visceral fat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-clinical-monitoring.webp\" alt=\"TRT monitoring covers the injection route, hematocrit checks for erythrocytosis, and keeping estrogen in balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-clinical-monitoring.webp\" alt=\"TRT monitoring covers the injection route, hematocrit checks for erythrocytosis, and keeping estrogen in balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 5,
+  "alt": 1,
+  "src": 0
+ },
+ "9462": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-resistance-cellular-bottlenecks-v2.webp\" alt=\"Weight loss resistance at cell level: mitochondrial dysfunction, endocrine disruptors, low thyroid and high cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-resistance-cellular-bottlenecks-v3.webp\" alt=\"Weight loss resistance at cell level: mitochondrial dysfunction, endocrine disruptors, low thyroid and high cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/reversing-weight-loss-resistance-v2.webp\" alt=\"Reverse weight loss resistance with comprehensive metabolic testing, gut microbiome repair and a personalised plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/reversing-weight-loss-resistance-v3.webp\" alt=\"Reverse weight loss resistance with comprehensive metabolic testing, gut microbiome repair and a personalized plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 1,
+  "src": 2
+ },
+ "9465": {
+  "patches": [
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/insulin-resistance-how-common.webp\" alt=\"About 40% of US adults have insulin resistance and more than 1 in 3 has prediabetes, per Yale\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/insulin-resistance-how-common.webp\" alt=\"Yale reports insulin resistance in about 40 percent of US adults, and more than 1 in 3 has prediabetes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/insulin-resistance-three-levers.webp\" alt=\"Three levers compared: about 10% weight loss, 150 minutes of exercise weekly, a whole-food plate\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/insulin-resistance-three-levers.webp\" alt=\"Three evidence-based levers: about 10 percent weight loss, 150 minutes of exercise weekly, and a whole-food plate\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/insulin-resistance-nutrition.webp\" alt=\"Three dietary levers: fiber slows sugar absorption, protein and fats steady blood sugar, less added sugar\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/insulin-resistance-nutrition.webp\" alt=\"Three dietary levers: fiber to slow sugar absorption, protein and fats to steady blood sugar, less added sugar\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 0,
+  "alt": 3,
+  "src": 0
+ },
+ "9871": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/seven-questions-weight-loss-clinic.webp\" alt=\"Seven questions to ask a weight loss clinic, covering credentials, bloodwork, medication source, pricing and maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/seven-questions-weight-loss-clinic.webp\" alt=\"Seven questions to ask a weight loss clinic, covering credentials, bloodwork, medication source, pricing and maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-provider-credentials.webp\" alt=\"A weight loss clinic's prescriber should be a board-certified MD, DO or NP, verifiable on the state medical board\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-provider-credentials.webp\" alt=\"A weight loss clinic's prescriber should be a board-certified MD, DO or NP, verifiable on the state medical board\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-bloodwork-panel.webp\" alt=\"Before prescribing, a clinic should run a thyroid panel, fasting insulin, HbA1c and a hormone panel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-bloodwork-panel.webp\" alt=\"Before prescribing, a clinic should run a thyroid panel, fasting insulin, HbA1c and a hormone panel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fda-approved-vs-compounded-glp1.webp\" alt=\"FDA-approved GLP-1 means Ozempic, Mounjaro or Wegovy; compounded versions vary in active form, concentration and fillers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fda-approved-vs-compounded-glp1.webp\" alt=\"FDA-approved GLP-1 means Ozempic, Mounjaro or Wegovy; compounded versions vary in active form, concentration and fillers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-pricing-questions.webp\" alt=\"Ask a weight loss clinic the monthly cost, what it includes, what costs extra, and whether there is a contract\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-pricing-questions.webp\" alt=\"Ask a weight loss clinic the monthly cost, what it includes, what costs extra, and whether there is a contract\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-maintenance-plan.webp\" alt=\"A written maintenance plan should cover dose tapering, what happens when medication stops, habit anchors and check-ins\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-maintenance-plan.webp\" alt=\"A written maintenance plan should cover dose tapering, what happens when medication stops, habit anchors and check-ins\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-clinics-measure-results.webp\" alt=\"Real programs track body composition, waist circumference, resting metabolic rate and bloodwork, not scale weight alone\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-clinics-measure-results.webp\" alt=\"Real programs track body composition, waist circumference, resting metabolic rate and bloodwork, not scale weight alone\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-program-vs-diet.webp\" alt=\"A diet targets calories; a medical weight loss program tests for and treats the metabolic blocks that make restriction fail\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-program-vs-diet.webp\" alt=\"A diet targets calories; a medical weight loss program tests for and treats the metabolic blocks that make restriction fail\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-clinic-red-flags.webp\" alt=\"Weight loss clinic red flags: promised numbers, hidden pricing, no bloodwork, long contracts and stock photos, no credentials\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-clinic-red-flags.webp\" alt=\"Weight loss clinic red flags: promised numbers, hidden pricing, no bloodwork, long contracts and stock photos, no credentials\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "unnest": 9,
+  "alt": 0,
+  "src": 0
+ }
+}

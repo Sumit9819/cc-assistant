@@ -1,0 +1,1 @@
+[{"name": "get_post", "arguments": {"id": 5525, "slim": false}}, {"name": "verify_content_workflow", "arguments": {"workflow_id": "workflow-87ad22b181a57ee39ecea94e57aec221", "post_id": 5525}}, {"name": "list_pending_changes", "arguments": {"post_id": 5525}}]

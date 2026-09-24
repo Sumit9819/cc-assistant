@@ -1,0 +1,4 @@
+[{"route":"cc-assistant/v1/widget-schema/container","method":"GET","out":"ekit-removal/ws-container.json"},
+ {"route":"cc-assistant/v1/widget-schema/image","method":"GET","out":"ekit-removal/ws-image.json"},
+ {"route":"cc-assistant/v1/widget-schema/button","method":"GET","out":"ekit-removal/ws-button.json"},
+ {"route":"cc-assistant/v1/widget-schema/html","method":"GET","out":"ekit-removal/ws-html.json"}]

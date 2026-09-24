@@ -1,0 +1,221 @@
+{
+  "_note": "Batch 14, 2026-09-23. The three decision posts published today (4772 flu, 4773 blood pressure, 4774 vomiting and diarrhea), two cards each, read from cardneed's 8 candidates. Cut on the read: 4772 home care and 4774 home care are generic tips (the 3162 pattern); 4773 'Recheck First' is already row 2 of that post's own table; 4774 diarrhea would make three list cards in one post. Added off-score: 4772 'Better, Then Worse' is a sequence written as prose, which the detector cannot see as enumerable, and 4773's threshold section carries the one fact the table does not (either number alone counts). Every item is lifted from the target post's own body.",
+  "cards": [
+    {
+      "file": "erof-4772-flu-warning-signs",
+      "post_id": 4772,
+      "brand": "erofirving",
+      "layout": "numbered",
+      "subject": "flu",
+      "heading": "Flu Emergency Warning Signs in Adults",
+      "title": [
+        "9 ",
+        "Flu",
+        " Warning Signs That Need the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Nine CDC emergency warning signs of flu in adults: difficulty breathing, chest or belly pain or pressure, dizziness or confusion or trouble waking, seizures, not urinating, severe muscle pain, severe weakness or unsteadiness, a fever or cough that improves then returns worse, and a chronic condition getting worse",
+      "items": [
+        "Difficulty breathing or shortness of breath",
+        "Pain or pressure in the chest or belly",
+        "Dizziness, confusion, or trouble waking",
+        "Seizures",
+        "Not urinating",
+        "Severe muscle pain",
+        "Severe weakness or unsteadiness",
+        "Fever or cough that improves, then returns",
+        "A chronic condition getting worse"
+      ]
+    },
+    {
+      "file": "erof-4772-flu-better-then-worse",
+      "post_id": 4772,
+      "brand": "erofirving",
+      "layout": "timeline",
+      "subject": "flu",
+      "heading": "The Warning Sign People Miss: Better, Then Worse",
+      "title": [
+        "The ",
+        "Flu",
+        " Relapse People Miss"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The flu relapse pattern: the flu hits, the fever breaks and you feel better, then about two days later the fever and cough come back worse, which is a CDC warning sign to go to the ER",
+      "nodes": [
+        {
+          "time": "First",
+          "label": "Flu hits",
+          "note": "Fever, aches and cough"
+        },
+        {
+          "time": "Then",
+          "label": "Fever breaks",
+          "note": "You start to feel better"
+        },
+        {
+          "time": "2 days later",
+          "label": "It comes back",
+          "note": "Fever and cough return, worse"
+        },
+        {
+          "time": "Now",
+          "label": "Go to the ER",
+          "note": "A complication may have set in"
+        }
+      ]
+    },
+    {
+      "file": "erof-4773-180-120-threshold",
+      "post_id": 4773,
+      "brand": "erofirving",
+      "layout": "stat",
+      "subject": "blood pressure",
+      "heading": "What Blood Pressure Is Dangerously High?",
+      "title": [
+        "When ",
+        "Blood Pressure",
+        " Becomes a Crisis"
+      ],
+      "stat": "180/120",
+      "gloss": "or higher",
+      "statLine": "is a hypertensive crisis. Only one number has to cross the line: the top number or the bottom number.",
+      "source": "Cleveland Clinic",
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "A blood pressure reading of 180/120 or higher is a hypertensive crisis, and only one number has to cross the line: a top number of 180 or higher, or a bottom number of 120 or higher"
+    },
+    {
+      "file": "erof-4773-call-911-symptoms",
+      "post_id": 4773,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "blood pressure",
+      "heading": "High Reading With Symptoms: Call 911",
+      "title": [
+        "High Blood Pressure Plus Any of These: ",
+        "Call 911",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Call 911 if a blood pressure reading of 180/120 or higher comes with any of these six NHLBI symptoms: a sudden severe headache, difficulty breathing, sudden severe pain in the abdomen, chest or back, numbness or weakness, a sudden change in vision, or problems talking",
+      "items": [
+        {
+          "icon": "brain",
+          "label": "Severe headache",
+          "note": "Sudden and severe"
+        },
+        {
+          "icon": "waves",
+          "label": "Difficulty breathing"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Severe pain",
+          "note": "In the abdomen, chest, or back"
+        },
+        {
+          "icon": "activity",
+          "label": "Numbness or weakness"
+        },
+        {
+          "icon": "eye",
+          "label": "Vision change",
+          "note": "Sudden"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Problems talking"
+        }
+      ]
+    },
+    {
+      "file": "erof-4774-vomiting-er-signs",
+      "post_id": 4774,
+      "brand": "erofirving",
+      "layout": "numbered",
+      "subject": "vomiting",
+      "heading": "Vomiting: When to Go to the ER",
+      "title": [
+        "When ",
+        "Vomiting",
+        " Needs Care Now"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Eight MedlinePlus signs that vomiting needs care now: blood or coffee-colored material in the vomit, suspected poisoning, vomiting longer than 24 hours, no fluids kept down for 12 hours, no urine for 8 hours, severe belly pain, a headache or stiff neck, and vomiting 3 or more times in one day",
+      "items": [
+        "Blood or coffee-colored vomit: call 911",
+        "Suspected poisoning: call 911",
+        "Vomiting longer than 24 hours",
+        "No fluids kept down for 12 hours",
+        "No urine for 8 hours",
+        "Severe stomach or belly pain",
+        "A headache or stiff neck",
+        "Vomited 3 or more times in 1 day"
+      ]
+    },
+    {
+      "file": "erof-4774-dehydration-signs",
+      "post_id": 4774,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "Signs of Dehydration in Adults",
+      "title": [
+        "5 Signs of ",
+        "Dehydration",
+        " in Adults"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs of dehydration in adults: less or dark yellow urine, dizziness or lightheadedness, a dry mouth and more thirst, sunken eyes, and skin that does not bounce back when pinched",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Less or dark urine",
+          "note": "Urinating less often, or dark yellow"
+        },
+        {
+          "icon": "waves",
+          "label": "Dizziness",
+          "note": "Or feeling lightheaded"
+        },
+        {
+          "icon": "droplets",
+          "label": "Dry mouth",
+          "note": "And increased thirst"
+        },
+        {
+          "icon": "eye",
+          "label": "Sunken eyes"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Slow skin bounce-back",
+          "note": "Does not bounce back when pinched"
+        }
+      ]
+    }
+  ]
+}

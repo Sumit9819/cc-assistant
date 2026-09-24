@@ -1,0 +1,1 @@
+[{"route": "cc-assistant/v1/whoami", "method": "GET", "out": "_h-who.json"}, {"route": "cc-assistant/v1/stack/settings?slug=seo-by-rank-math", "method": "GET", "out": "_h-rm.json"}]

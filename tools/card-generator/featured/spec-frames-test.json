@@ -1,0 +1,113 @@
+{
+  "_note": "Frame test, 2026-09-08. Frames B, I, J, C and K on the same post, the same photograph and the same copy, so the frame is the only variable. Five on the navy ground and the same five on white, because a bracket or a slab behaves differently against each. K carries the brand mark itself rather than a drawn cross.",
+  "featured": [
+    {
+      "file": "frame-b-dark",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame-dark", "frame": "b",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "white", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-i-dark",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame-dark", "frame": "i",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "white", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-j-dark",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame-dark", "frame": "j",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "white", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-c-dark",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame-dark", "frame": "c",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "white", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-k-dark",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame-dark", "frame": "k",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-b-light",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame", "frame": "b",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "mark", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-i-light",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame", "frame": "i",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "mark", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-j-light",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame", "frame": "j",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "mark", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-c-light",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame", "frame": "c",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "logo": { "variant": "mark", "position": "bottom-left", "width": 68 },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    },
+    {
+      "file": "frame-k-light",
+      "brand": "eroflufkin", "post_id": 7053,
+      "layout": "photo-frame", "frame": "k",
+      "photo": "src/gen/er-copperhead.png", "focus": "center",
+      "kicker": "Snake Bites",
+      "title": ["Copperhead Bite: ", "First Aid", ""],
+      "sub": "What to do first, and when to come in.",
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles"
+    }
+  ]
+}

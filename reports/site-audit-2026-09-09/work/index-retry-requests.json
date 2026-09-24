@@ -1,0 +1,17 @@
+[
+  {
+    "name": "gsc_inspect_url",
+    "arguments": {
+      "post_id": 5366,
+      "force_refresh": true
+    }
+  },
+  {
+    "name": "gbp_locations",
+    "arguments": {}
+  },
+  {
+    "name": "list_pending_changes",
+    "arguments": {}
+  }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "id":  1,
+        "publisher":  "Google Search Central",
+        "title":  "Creating helpful, reliable, people-first content",
+        "date":  "Live documentation; updated 2025-12-10",
+        "url":  "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+        "note":  "Original value, first-hand expertise, content self-assessment, and avoidance of arbitrary length or superficial freshness.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  2,
+        "publisher":  "Google Search Central",
+        "title":  "Optimizing your website for generative AI features on Google Search",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+        "note":  "Non-commodity content and useful experiences; not a requirement to create a page for every query variation.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  3,
+        "publisher":  "Google Search Central",
+        "title":  "A guide to Google Search ranking systems",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
+        "note":  "Passage understanding, conceptual matching, and site diversity. A second URL is not automatically evidence of harmful competition.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  4,
+        "publisher":  "Google Search Central",
+        "title":  "Search Engine Optimization (SEO) Starter Guide",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "note":  "Duplicate content and general content guidance; similarity alone does not establish a spam penalty.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  5,
+        "publisher":  "Google Search Central",
+        "title":  "How to specify a canonical URL with rel=canonical and other methods",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+        "note":  "Canonicalization applies to duplicate or very similar URLs; signals and limitations.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  6,
+        "publisher":  "Google Search Central",
+        "title":  "Debugging drops in Google Search traffic",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+        "note":  "Separate technical, indexing, search demand, seasonal, and other explanations before prescribing a rewrite.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  7,
+        "publisher":  "Google Search Central",
+        "title":  "Link best practices for Google",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+        "note":  "Crawlable links, descriptive anchors, useful context, and no magical ideal link count.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  8,
+        "publisher":  "Google Search Central",
+        "title":  "Google Search\u0027s core updates and your website",
+        "date":  "Live documentation; updated 2025-12-10",
+        "url":  "https://developers.google.com/search/docs/appearance/core-updates",
+        "note":  "Avoid drastic responses to small movements; meaningful changes and variable observation times; deletion as a last resort.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  9,
+        "publisher":  "Aggarwal et al., KDD 2024",
+        "title":  "GEO: Generative Engine Optimization",
+        "date":  "arXiv v3, 2024-06-28",
+        "url":  "https://arxiv.org/html/2311.09735v3",
+        "note":  "Experimental generative-engine visibility. Section 9 explicitly does not evaluate effects on search rankings. Results are conditional on the studied systems and benchmark.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  10,
+        "publisher":  "Google LLC; WIPO patent publication",
+        "title":  "Contextual estimation of link information gain",
+        "date":  "Published 2020",
+        "url":  "https://patents.google.com/patent/WO2020081082A1/en",
+        "note":  "Primary patent document hosted by Google Patents. Describes additional information relative to previously viewed documents; publication does not demonstrate deployment as a universal ranking score.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  11,
+        "publisher":  "Brodersen et al.; Google Research",
+        "title":  "Inferring causal impact using Bayesian structural time-series models",
+        "date":  "Annals of Applied Statistics 9 (2015), 247–274",
+        "url":  "https://research.google/pubs/inferring-causal-impact-using-bayesian-structural-time-series-models/",
+        "note":  "Counterfactual methods for intervention analysis; a conceptual reference, not proof that an SEO edit caused a change.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  12,
+        "publisher":  "Google Search Central",
+        "title":  "How to move a site",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+        "note":  "Relevant URL mapping, consolidation destinations, and avoiding irrelevant bulk redirects.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  13,
+        "publisher":  "Google Search Central",
+        "title":  "Spam policies for Google web search",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/essentials/spam-policies",
+        "note":  "Doorway abuse and scaled content abuse; relevance to mass-producing low-value location or query variants.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  14,
+        "publisher":  "Google Search Console API",
+        "title":  "Search Analytics: query",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+        "note":  "Dimensions, Pacific Time date boundaries, data state, and incomplete top-row returns.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  15,
+        "publisher":  "Google Search Console Help",
+        "title":  "What are impressions, position, and clicks?",
+        "date":  "Live documentation",
+        "url":  "https://support.google.com/webmasters/answer/7042828",
+        "note":  "Impression-based average position, aggregation context, and variability of search results.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  16,
+        "publisher":  "Google Search Central",
+        "title":  "Redirects and Google Search",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+        "note":  "Permanent versus temporary redirects and indexing signals.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  17,
+        "publisher":  "Google Crawling Infrastructure",
+        "title":  "How HTTP status codes affect Google\u0027s crawlers",
+        "date":  "Live documentation; updated 2026-02-04",
+        "url":  "https://developers.google.com/crawling/docs/troubleshooting/http-status-codes",
+        "note":  "HTTP success does not guarantee indexing; 404/410 and other 4xx handling.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  18,
+        "publisher":  "Google Search Central",
+        "title":  "Tell Google about localized versions of your page",
+        "date":  "Live documentation",
+        "url":  "https://developers.google.com/search/docs/specialty/international/localized-versions",
+        "note":  "Language and regional alternatives are not inherently candidates for consolidation.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  19,
+        "publisher":  "CC Assistant local source",
+        "title":  "includes/class-rest-api.php; includes/class-win-audit.php",
+        "date":  "Installed version 0.84.0",
+        "url":  "",
+        "note":  "info_gain_signals at line 6404; WinAudit fingerprint and authority-host matching around lines 330–410; dim_info_gain at 555; dimension weights, status bands, intent and freshness logic. See source-hashes.json for the inspected files.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  20,
+        "publisher":  "CC Assistant local source",
+        "title":  "includes/class-topical-authority.php; includes/class-similarity.php",
+        "date":  "Installed version 0.84.0",
+        "url":  "",
+        "note":  "classify_cluster at 182 and recommendation at 203; title/body content_gaps at 291. Similarity uses corpus TF-IDF and weighted title/heading/body terms; Elementor extraction is present in the similarity module.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  21,
+        "publisher":  "CC Assistant local source",
+        "title":  "includes/class-seo-tools.php",
+        "date":  "Installed version 0.84.0",
+        "url":  "",
+        "note":  "cannibalization at 78; refresh_queue at 306; prepare_rewrite_brief at 759; competitor_brief at 993; brief_for_keyword at 1058; external_originality_check around 3147. Review findings distinguish suggestions/prompts from executed collection.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  22,
+        "publisher":  "CC Assistant local source",
+        "title":  "includes/class-cannibalization-trends.php; bin/warehouse.php",
+        "date":  "Installed version 0.84.0",
+        "url":  "",
+        "note":  "Trend collection labels summed candidate impressions leak_impressions. cc_commodity_classify around warehouse.php line 839 uses an assumed CTR curve and fixed thresholds.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  23,
+        "publisher":  "CC Assistant local source",
+        "title":  "includes/class-topic-clusters.php; includes/class-internal-links.php; includes/class-link-audit.php",
+        "date":  "Installed version 0.84.0",
+        "url":  "",
+        "note":  "Existing persistent pillar/supporting assignments, internal graph and link audit functionality; extend these modules rather than create a competing graph.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  24,
+        "publisher":  "CC Assistant local source",
+        "title":  "includes/class-edit-outcomes.php; includes/class-page-intent.php; includes/class-pre-publish.php",
+        "date":  "Installed version 0.84.0",
+        "url":  "",
+        "note":  "Existing outcome windows; coarse action/research intent policy; rewrite quality ratios with surgical/incremental exceptions. Preserve working safety and small-edit paths.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  25,
+        "publisher":  "Isolated local validation",
+        "title":  "strategy-probes.php and strategy-probe-results.json",
+        "date":  "Executed 2026-09-09",
+        "url":  "",
+        "note":  "Actual installed methods called with synthetic fixtures and stubbed WordPress helpers, PHP 8.2 plus mbstring. No WordPress bootstrap, database access, competitor fetching, or live changes. The position example is arithmetic, not an executed SQL fixture.",
+        "accessed":  "2026-09-09"
+    },
+    {
+        "id":  26,
+        "publisher":  "CC Assistant prior research",
+        "title":  "CC-Assistant-Research.pdf and CC-Assistant-Roadmap.csv",
+        "date":  "2026-09-09",
+        "url":  "",
+        "note":  "D:/cc-assistant/reports/research-2026-09-09/. Earlier reliability and technical SEO roadmap R01–R18 remains the foundation. New C-series items supplement that work.",
+        "accessed":  "2026-09-09"
+    }
+]

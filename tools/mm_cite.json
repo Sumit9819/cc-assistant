@@ -1,0 +1,74 @@
+[
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 45,
+   "widget_id": "3b5f74c4",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>Mammoth mini excavators are built to deliver powerful results in tight, demanding environments. Ranging from 2 to 3.5 tons, every model runs a premium Japanese <a href='https://en.wikipedia.org/wiki/Kubota' target='_blank' rel='noopener' style='color:#01B51B;'>Kubota</a> diesel engine: the D902 on the 20MT, the D1105 on the 27MT, and the D1703 on the flagship 35MT. Hydraulic thumb, quick-attach, swing boom, and high/low travel speed come standard, so you can dig trenches, shape landscapes, and load trucks in confined sites where larger machines simply can't operate. The <a href='https://www.ccohs.ca/oshanswers/hsprograms/trenching_excavation.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> notes that trenches 1.2 metres (4 feet) or deeper require a protective system unless cut entirely in stable rock.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/cite_45.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "1df8e041",
+   "settings": {
+    "editor": "<p style=\"text-align: left; margin: 0; line-height: 1.7;\">Mammoth compact wheel loaders bring full-size lift performance to job sites where conventional loaders won\u2019t fit. Powered by <a href=\"https://www.cummins.com/engines/off-highway\" target=\"_blank\" rel=\"noopener\">Cummins Tier 4 Final</a> diesel engines, the same trusted powerplant found across global construction fleets, every compact wheel loader in the Mammoth lineup delivers reliable, emission-compliant output from the first cold start of a Canadian winter through the hottest August pour. \u00b140\u00b0 articulation lets you turn within your own length, perfect for tight stockpiles, indoor recycling, dense urban builds, and snow-clearing in confined lots. Three compact wheel loaders for sale in Canada: the WL4500 (74 HP, 4,500 lb ROC), the TL5500 Telescopic (199 in. dump height), and the WL7500 flagship (121 HP, 7,400 lb ROC). Those ROC figures are limits, not targets. The <a href='https://www.ccohs.ca/oshanswers/safety_haz/landscaping/compact_loaders.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> warns that loading past a machine's rated capacity costs you stability and steering control.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/cite_39.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "10c1f909",
+   "settings": {
+    "editor": "<p style=\"text-align: left; margin: 0; line-height: 1.7;\">The X-Loader series redefines what a mini skid steer can do on a Canadian job site. With a 35\u2033 narrow profile, tight turning radius, and high-torque <a href=\"https://en.wikipedia.org/wiki/Yanmar\" target=\"_blank\" rel=\"noopener\">Yanmar diesel</a> hydraulics, these mini skid steers reach where full-size equipment can\u2019t: residential gates, indoor demolition, fenced yards, and tight landscaping sites. All three X-Loader mini skid steers ship with a universal quick-hitch plate compatible with 50+ professional attachments: bucket, auger, trencher, snow blower, and more. Pair your mini skid steer with Mammoth\u2019s <a href=\"https://mammothmachinery.ca/financing/\" target=\"_blank\" rel=\"noopener\">equipment financing</a> and get into the field faster. Compare models: the entry-level 50MT, the versatile 100MT, or the turbocharged 120MT Turbo for high-output commercial use. Weighing this class against a wheel loader instead? Compare <a href='https://mammothmachinery.ca/wheel-loader-vs-skid-steer/' style='color:#01B51B;text-decoration:none;'>a wheel loader and a skid steer</a>. Whichever model you choose, respect its rated operating capacity. The <a href='https://www.ccohs.ca/oshanswers/safety_haz/landscaping/compact_loaders.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> warns that loading past rated capacity costs stability and steering control.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/cite_43.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 47,
+   "widget_id": "647bbc23",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>The Mammoth X-Loader 3000MT is a full-size stand-on track loader engineered to handle the toughest job-site demands. Powered by a liquid-cooled <a href='https://en.wikipedia.org/wiki/Kubota' target='_blank' rel='noopener' style='color:#01B51B;'>Kubota V2607</a> 74.3 HP diesel and driven by high-flow <a href='https://www.boschrexroth.com/' target='_blank' rel='noopener' style='color:#01B51B;'>Bosch Rexroth</a> hydraulics (24.8 GPM at 4,000 PSI), it delivers serious power in a compact rubber-track footprint. The universal skid-steer attachment plate lets you switch from buckets to augers, trenchers, and grapples in seconds - so a single machine handles material handling, grading, excavation, and site prep across construction, landscaping, and agriculture. Power like this still has a ceiling. The <a href='https://www.ccohs.ca/oshanswers/safety_haz/landscaping/compact_loaders.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> warns that loading past a machine's rated capacity costs stability and steering control.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/cite_47.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "587ca9cd",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>Mammoth tracked mini dumpers represent the highest level of performance in our lineup, engineered to handle demanding workloads with advanced rubber-track systems for superior stability and traction across uneven, muddy, or confined sites. Every model is powered by a reliable <a href='https://powerequipment.honda.com/' target='_blank' rel='noopener' style='color:#01B51B;'>Honda GX-series engine</a> and driven by a US-made <a href='https://www.hydro-gear.com/' target='_blank' rel='noopener' style='color:#01B51B;'>Hydro-Gear piston pump</a> for efficient, fully hydraulic operation. With load capacities from 1,350 to 2,850 lbs, equal to 5\u20136 standard wheelbarrows, and high-dump models reaching up to 82 in., these machines load directly into bins, trucks, and trailers with precision. Those wheelbarrow trips are worth counting. The <a href='https://www.ccohs.ca/oshanswers/ergonomics/mmh/hlth_haz.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> identifies manual material handling as the most common cause of occupational fatigue and low back pain.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/cite_41.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "21003aa",
+   "settings": {
+    "editor": "<p style='text-align:left;margin:0;line-height:1.7;'>Mammoth wheeled mini dumpers bring professional-grade material handling to job sites of any size. The TT570 is powered by a trusted <a href='https://powerequipment.honda.com/' target='_blank' rel='noopener' style='color:#01B51B;'>Honda GXV160 petrol engine</a>, while the eTT900 runs on dual 500W electric motors for clean, quiet operation, making both machines well-suited to a wide range of Canadian job sites including construction, landscaping, and agriculture. Designed with a stable 4-wheel configuration, these compact dumpers carry up to 900 lbs of soil, gravel, concrete, or organic material, reducing physical labour and keeping your crew moving from the first shift to the last. That reduction in physical labour matters. The <a href='https://www.ccohs.ca/oshanswers/ergonomics/mmh/hlth_haz.html' target='_blank' rel='noopener' style='color:#017A12;font-weight:600;'>Canadian Centre for Occupational Health and Safety</a> identifies manual material handling as the most common cause of occupational fatigue and low back pain.</p>"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/cite_37.json"
+ }
+]

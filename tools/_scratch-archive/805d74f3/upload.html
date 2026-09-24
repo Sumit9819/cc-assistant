@@ -1,0 +1,94 @@
+<title>Upload Readiness</title>
+<style>
+:root { --ink:#14120f; --paper:#f6f2eb; --gold:#b9852c; --mute:#6b6259; --line:#e4ddd1; --panel:#fbf9f5; --ok:#2f7d4f; --gap:#b5432f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ink:#f1ece3; --paper:#151311; --gold:#deab4e; --mute:#a59b8d; --line:#2b2723; --panel:#1d1a17; --ok:#6fc08f; --gap:#e07a66; } }
+:root[data-theme="dark"] { --ink:#f1ece3; --paper:#151311; --gold:#deab4e; --mute:#a59b8d; --line:#2b2723; --panel:#1d1a17; --ok:#6fc08f; --gap:#e07a66; }
+body { background: var(--paper); color: var(--ink); font: 17px/1.55 Manrope, "Segoe UI", system-ui, sans-serif; margin: 0; }
+main { max-width: 1040px; margin: 0 auto; padding: 48px 28px 96px; }
+h1 { font: 800 42px/1.05 Sora, sans-serif; letter-spacing: -0.02em; margin: 0 0 8px; text-wrap: balance; }
+h2 { font: 800 25px/1.15 Sora, sans-serif; margin: 52px 0 8px; }
+p { max-width: 68ch; margin: 8px 0; }
+.lede { font-size: 19px; color: var(--mute); max-width: 70ch; }
+.eyebrow { font: 700 12px Manrope, sans-serif; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); }
+table { border-collapse: collapse; width: 100%; margin: 14px 0 6px; font-size: 15.5px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 700 12px Manrope, sans-serif; letter-spacing: 2px; text-transform: uppercase; color: var(--mute); }
+.ok { color: var(--ok); font-weight: 700; } .gap { color: var(--gap); font-weight: 700; } .part { color: var(--gold); font-weight: 700; }
+.wrap { overflow-x: auto; }
+blockquote { border-left: 3px solid var(--gold); margin: 12px 0; padding: 6px 16px; color: var(--mute); font-size: 15.5px; }
+.mark { font: 600 14px ui-monospace, Consolas, monospace; background: var(--panel); border: 1px solid var(--line); padding: 1px 6px; border-radius: 4px; }
+ol li, ul li { margin: 6px 0; }
+.src { font-size: 14px; color: var(--mute); }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700;800&family=Manrope:wght@400;600;700&display=swap">
+<main><div class="eyebrow">Faceless Video Studio · read on 6 September 2026</div>
+<h1>Upload Readiness</h1>
+<p class="lede">What YouTube asks for today, what the studio makes, and what was changed to close the gap. Every YouTube fact below comes from the page cited beside it; every studio fact was measured on the masters and the lab re-render today.</p>
+
+<h2>1. The files an upload needs</h2>
+<div class="wrap"><table>
+<tr><th>File</th><th>YouTube wants</th><th>Studio today</th><th>Status</th></tr>
+<tr><td>Master video</td><td>MP4, moov atom at the front (fast start), H.264 High profile, closed GOP of half the frame rate, 2 consecutive B-frames, 4:2:0, progressive; AAC-LC 48 kHz stereo at 384 kbps; 1080p at 8 Mbps for 24 to 30 fps; same frame rate as recorded. <span class="src">(YouTube Help 1722171)</span></td><td>MP4, H.264 High, 30 fps, 2 B-frames, 4:2:0. The three masters as measured this morning: moov atom at the END of the file, audio AAC 194 kbps MONO, video 2.8 Mbps. After the evening's changes (section 6): fast start, stereo, GOP 15, 4.9 Mbps.</td><td><span class="ok">fixed in section 6</span></td></tr>
+<tr><td>Thumbnail</td><td>JPG or PNG, 16:9, at least 1280×720, under 2 MB on mobile (YouTube now recommends 3840×2160 as the source); custom thumbnails need a phone-verified account. <span class="src">(SocialSizes, ThumbMagic, YouTube Help)</span></td><td>1280×720 JPG under 2 MB, three variants for a title test (<span class="mark">fvs thumbnail</span>). Not yet run for de minimis.</td><td><span class="part">works; 4K source optional</span></td></tr>
+<tr><td>Captions</td><td>Upload a caption file or let YouTube auto-caption; SRT accepted.</td><td><span class="mark">captions.srt</span> from the word timings, every master.</td><td><span class="ok">ready</span></td></tr>
+<tr><td>Shorts</td><td>Vertical 9:16, up to 3 minutes since October 2024; licensed music capped at 60 s, so longer Shorts need original or royalty-free audio. <span class="src">(Riverside, ShortSync)</span></td><td><span class="mark">fvs shorts</span> cuts 9:16 with burned captions; music beds are CC BY or synthesised.</td><td><span class="ok">ready</span></td></tr>
+</table></div>
+
+<h2>2. The text an upload needs</h2>
+<div class="wrap"><table>
+<tr><th>Field</th><th>Rule</th><th>Studio today</th><th>Status</th></tr>
+<tr><td>Title</td><td>Up to 100 characters.</td><td><span class="mark">metadata.json</span> title, with the three-variant test table.</td><td><span class="ok">ready</span></td></tr>
+<tr><td>Description</td><td>Up to 5,000 characters. Chapters: a timestamp list in the description, first at 00:00, at least three, ascending, each at least 10 s. <span class="src">(YouTube Help 9884579)</span></td><td>Built from the first paragraph, the chapters from the script headings (00:00 forced, ≥3, ≥10 s enforced), and the licence credits the music and stills oblige.</td><td><span class="ok">ready</span></td></tr>
+<tr><td>Tags</td><td>Up to 500 characters in total.</td><td>Tag list capped at 460 characters.</td><td><span class="ok">ready</span></td></tr>
+<tr><td>Altered or synthetic content</td><td>Disclose when a viewer could take it for a real person, place, scene or event: a realistic person's likeness, altered footage of real events or places, generated realistic scenes. Label appears in the expanded description; on sensitive topics (health, news, elections, finance) also on the player. Not required for animation, colour work, blur, or AI used for scripts and captions. YouTube may add the label itself and has said it will look at enforcement for creators who consistently do not disclose. <span class="src">(YouTube Blog: disclosing AI-generated content)</span></td><td><span class="mark">altered_content</span> is set in metadata.json whenever a generated still is in the cut; the studio never generates a real identifiable person and never presents generated imagery as a record of an event.</td><td><span class="ok">ready</span>: tick the box when the flag is true</td></tr>
+<tr><td>Category, language, audience, licence</td><td>Set in Studio at upload: category (Education or News &amp; Politics for ours), language, "not made for kids", Standard YouTube licence.</td><td>In metadata.json since this evening: category, language, made_for_kids, licence, plus a visibility note; <span class="mark">upload_checklist.md</span> lists them in Studio order.</td><td><span class="ok">ready</span></td></tr>
+<tr><td>End screen and cards</td><td>Set in Studio after upload; end screens need the last 5 to 20 s of a video over 25 s. Our outro holds the end card 8 s past the voice for exactly this.</td><td>End card scene exists; nothing to export, it is a Studio step.</td><td><span class="ok">ready</span></td></tr>
+</table></div>
+
+<h2>3. The rules that decide whether it earns</h2>
+<p>Read on the monetisation policy page today. The policy formerly called "repetitious content" is now "inauthentic content"; YouTube's July 2026 guidance split it into three named categories.</p>
+<blockquote>Not monetisable: "Similar or repetitive content with low educational value, commentary, narratives, or minimal variation across videos"; "AI-generated content made with generic or unoriginal templates giving the impression of mass production"; "Image slideshows, templated storylines, or scrolling text with minimal or no narrative". Allowed: "the substance of each video should be materially varied and deliver creative, educational, or other value", with the "same intro and outro" fine when "the bulk of your content is different". Also restricted: "AI-generated personas to deliver information on sensitive topics" such as health, legal or financial advice. <span class="src">(YouTube Help 1311392)</span></blockquote>
+<p>How the studio stands against each line: every video is written from primary .gov sources with its own argument and its own cut; the originality gate blocks repeated clips and structural sameness; no AI persona gives advice on health, finance, legal or political matters, which is a standing rule here. The one line to keep watching is "generic templates giving the impression of mass production": the device library is exactly a set of templates, and what keeps a video out of that category is that the substance, the footage and the documents differ every time. The card-versus-voice check added today guards the other half: nothing on screen that the voice does not say.</p>
+
+<h2>4. Uploading by hand or by API</h2>
+<p>Version 1 ends at the files and you upload by hand, and that is still the right call. Read on Google's own pages today:</p>
+<blockquote>"All videos uploaded via the videos.insert endpoint from unverified API projects created after 28 July 2020 will be restricted to private viewing mode." Lifting it means the project must "undergo an audit to verify compliance with the Terms of Service." Quota: "A call to this method has a quota cost of 1 unit in the Video Uploads quota bucket." Default allocation: "100 search.list calls, 100 videos.insert calls, and 10,000 units per day combined for all other endpoints." <span class="src">(Google Developers: videos.insert; getting-started)</span></blockquote>
+<p>Partner Program thresholds, read today on YouTube Help: "Get 1,000 subscribers with 4,000 qualified watch hours in the last 12 months" or "Get 1,000 subscribers with 10 million qualified Shorts views in the last 90 days". <span class="src">(YouTube Help 72851)</span></p>
+<p>Recommendation: keep manual upload. If an uploader is ever wanted, it starts with the audit form, not with code.</p>
+
+<h2>5. Before the first upload, once</h2>
+<ol>
+<li>Verify the channel with a phone number in Studio: unlocks custom thumbnails, videos over 15 minutes and live features.</li>
+<li>Decide the channel's category and default language once, and set the default upload visibility to Private so a video can be checked on YouTube's own player before it goes public.</li>
+<li>Read the Partner Program thresholds on the day you apply; they change, and the page above is the authority.</li>
+<li>Keep the credits block the studio writes into every description: it is what the music and stills licences require.</li>
+</ol>
+
+<h2>6. The gaps, built and measured</h2>
+<p>Approved and built the same evening; measured on the lab copy's re-render (ffprobe and an atom scan, 6 September 2026).</p>
+<div class="wrap"><table>
+<tr><th>#</th><th>Change</th><th>Measured on the lab render</th><th>Status</th></tr>
+<tr><td>U1</td><td>Fast start: moov atom moved to the front at mux time.</td><td>Atoms now read ftyp, moov, free, mdat. Before: ftyp, free, mdat, moov.</td><td><span class="ok">done</span></td></tr>
+<tr><td>U2</td><td>Stereo AAC-LC, 384 kbps requested.</td><td>2 channels at 48 kHz. ffprobe reports an average of 248 kbps against the 384 kbps requested; the native AAC encoder appears to settle lower on this material. Above YouTube's floor for quality either way, but not the number the spec names.</td><td><span class="part">done, one number short</span></td></tr>
+<tr><td>U3</td><td>Encode: crf 18, High profile, closed GOP of 15, two B-frames, 12 Mbps cap.</td><td>High profile, 2 B-frames, keyframes every 15 frames, video 4.9 Mbps (was 2.8). The 8 Mbps in the spec is a guidance figure for camera footage; a constant-quality encode of stock and graphics lands lower at the same visual quality, and YouTube re-encodes everything it receives.</td><td><span class="ok">done</span></td></tr>
+<tr><td>U4</td><td>metadata.json gains category, language, audience, licence and a visibility note.</td><td>Written for the lab copy: Education, en-US, not made for kids, Standard licence.</td><td><span class="ok">done</span></td></tr>
+<tr><td>U5</td><td>3840×2160 thumbnail source next to the 1280×720 file.</td><td>Written whenever the generated image is at least 2560 wide; smaller sources are not upscaled.</td><td><span class="ok">done</span></td></tr>
+<tr><td>U6</td><td><span class="mark">fvs package</span> writes <span class="mark">upload_checklist.md</span> in Studio order, with the disclosure line set from the flag.</td><td>Written for the lab copy; it flags the missing thumbnail and the empty tag list, which is correct for a lab copy.</td><td><span class="ok">done</span></td></tr>
+</table></div>
+<p>File size at these settings: 117 MB for 3 min 9 s. The three masters still carry the old encode; they are tests and were not re-rendered.</p>
+
+<h2>Sources read today</h2>
+<ul class="src">
+<li><a href="https://support.google.com/youtube/answer/1722171?hl=en">YouTube recommended upload encoding settings</a></li>
+<li><a href="https://support.google.com/youtube/answer/1311392?hl=en">YouTube channel monetization policies</a></li>
+<li><a href="https://blog.youtube/news-and-events/disclosing-ai-generated-content/">YouTube Blog: how we're helping creators disclose altered or synthetic content</a></li>
+<li><a href="https://support.google.com/youtube/answer/9884579?hl=en">YouTube Help: video chapters</a></li>
+<li><a href="https://developers.google.com/youtube/v3/docs/videos/insert">YouTube Data API: videos.insert</a></li>
+<li><a href="https://www.getphyllo.com/post/youtube-api-limits-how-to-calculate-api-usage-cost-and-fix-exceeded-api-quota">getphyllo: YouTube API quota limits 2026</a></li>
+<li><a href="https://www.blotato.com/blog/youtube-api-pricing">Blotato: YouTube API pricing 2026</a></li>
+<li><a href="https://socialsizes.io/youtube-thumbnail-size/">SocialSizes: thumbnail size 2026</a></li>
+<li><a href="https://www.thumbmagic.co/blog/youtube-thumbnail-size">ThumbMagic: thumbnail specs and safe zones</a></li>
+<li><a href="https://riverside.com/blog/how-long-can-youtube-shorts-be">Riverside: how long can Shorts be</a></li>
+<li><a href="https://www.shortsync.app/resources/youtube-shorts-upload-requirements-2026">ShortSync: Shorts upload requirements 2026</a></li>
+<li><a href="https://www.socialmediatoday.com/news/youtube-clarifies-monetization-update-inauthentic-repeated-content/752892/">Social Media Today: YouTube clarifies inauthentic content rules</a></li>
+</ul></main>

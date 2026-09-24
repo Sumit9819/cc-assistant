@@ -1,0 +1,46 @@
+{
+ "6300": [
+  {
+   "search": "<h2><b>What Exactly Happens to Your Body During a Hangover?</b></h2>",
+   "replace": "<h2><b>What Exactly Happens to Your Body During a Hangover?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-what-alcohol-does.webp\" alt=\"A hangover comes from dehydration, electrolyte loss, acetaldehyde, inflammation and blood sugar swings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>IV Drips for Hangovers: What\u2019s in the Bag?</b></h3>",
+   "replace": "<h3><b>IV Drips for Hangovers: What\u2019s in the Bag?</b></h3>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-contents.webp\" alt=\"A hangover IV drip holds saline, electrolytes, B12 and vitamin C, and sometimes anti-nausea medication\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Can an IV Drip Actually Cure a Hangover?</b></h2>",
+   "replace": "<h2><b>Can an IV Drip Actually Cure a Hangover?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-what-it-can-and-cannot-fix.webp\" alt=\"A hangover IV drip treats dehydration and electrolyte loss but cannot speed alcohol metabolism or replace rest\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Are There Any Risks or Downsides to Using IV Drips for Hangovers?</b></h2>",
+   "replace": "<h2><b>Are There Any Risks or Downsides to Using IV Drips for Hangovers?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-risks.webp\" alt=\"Hangover IV drip risks: infection at the needle site, unsterile technique outside a clinic, and overhydration\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Other Hangover Remedies: What Can You Do Instead?</b></h2>",
+   "replace": "<h2><b>Other Hangover Remedies: What Can You Do Instead?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-remedies-without-an-iv.webp\" alt=\"Hangover remedies without an IV: water or electrolyte drinks, easy-to-digest food, and sleep with light activity\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6306": [
+  {
+   "search": "<h2><b>The Core Question: How Often Should You Get IV Vitamin Therapy?</b></h2>",
+   "replace": "<h2><b>The Core Question: How Often Should You Get IV Vitamin Therapy?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-frequency-by-goal.webp\" alt=\"IV therapy frequency by goal: every 2 to 4 weeks for wellness, event-based for travel, monthly for maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Personalizing Your Schedule: A Simple 4-Step Framework</b></h2>",
+   "replace": "<h2><b>Personalizing Your Schedule: A Simple 4-Step Framework</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-frequency-framework.webp\" alt=\"Four steps to set IV therapy frequency: clarify the goal, screen and baseline, trial 2 to 3 visits, then maintain or taper\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>What Happens If You Get IV Drips Too Often?</b></h2>",
+   "replace": "<h2><b>What Happens If You Get IV Drips Too Often?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-too-often-downsides.webp\" alt=\"Too-frequent IV therapy risks vein irritation, fluid and electrolyte imbalance, diminishing returns and dependency\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Ingredients Matter: Why Formula Influences Frequency</b></h2>",
+   "replace": "<h2><b>Ingredients Matter: Why Formula Influences Frequency</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-ingredients-and-cadence.webp\" alt=\"IV formula drives frequency: B12 monthly or per labs, vitamin C needs screening, magnesium monitored, minerals individualised\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>When to Adjust Your Frequency</b></h2>",
+   "replace": "<h2><b>When to Adjust Your Frequency</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-when-to-adjust-frequency.webp\" alt=\"Space out IV therapy when benefits plateau; pause and call for breathlessness, chest pain, fever or a spreading IV site\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

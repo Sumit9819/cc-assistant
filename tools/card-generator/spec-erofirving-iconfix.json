@@ -1,0 +1,679 @@
+{
+  "_note": "Icon-in-disc ratio fix. The steps and icons layouts drew their icon at ~47% of the disc diameter, which the operator flagged as the glyph not covering the circle. ICON_IN_DISC is now 0.65, matching the list layout's long-standing 46px/30px circle. These are re-renders of the 17 cards already live in those two layouts; content, titles and alt text are unchanged, only the icon size differs. The -r2 suffix keeps the new file a distinct attachment so the live one is never overwritten.",
+  "cards": [
+    {
+      "file": "erof-3103-bone-bruise-care-r2",
+      "post_id": 3103,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "bone bruise",
+      "heading": "How to Heal a Bone Bruise Fast",
+      "title": [
+        "Healing a ",
+        "Bone Bruise",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation",
+      "steps": [
+        {
+          "icon": "armchair",
+          "label": "Rest",
+          "note": "No weight-bearing, crutches if needed"
+        },
+        {
+          "icon": "droplet",
+          "label": "Ice",
+          "note": "15 to 20 minutes, every 2 to 3 hours"
+        },
+        {
+          "icon": "bandage",
+          "label": "Compress",
+          "note": "Elastic wrap, not too tight"
+        },
+        {
+          "icon": "trending-up",
+          "label": "Elevate",
+          "note": "Above heart level"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Give it time",
+          "note": "2 to 8 weeks, no sports or lifting"
+        }
+      ]
+    },
+    {
+      "file": "erof-3116-traction-sites-r2",
+      "post_id": 3116,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "skeletal traction",
+      "heading": "What is Skeletal Traction?",
+      "title": [
+        "Where ",
+        "Skeletal Traction",
+        " Is Used"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine",
+      "items": [
+        {
+          "icon": "bone",
+          "label": "Distal femur"
+        },
+        {
+          "icon": "activity",
+          "label": "Proximal tibia"
+        },
+        {
+          "icon": "brain",
+          "label": "Cervical spine"
+        }
+      ]
+    },
+    {
+      "file": "erof-3792-snake-bite-first-aid-r2",
+      "post_id": 3792,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "snake bite",
+      "heading": "Immediate First Aid: The \"Dos\" and \"Don'ts\"",
+      "title": [
+        "",
+        "Snake Bite",
+        ": What to Do First"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently",
+      "steps": [
+        {
+          "icon": "footprints",
+          "label": "Move away",
+          "note": "Avoid a second bite"
+        },
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "Or get to emergency care now"
+        },
+        {
+          "icon": "armchair",
+          "label": "Keep it still",
+          "note": "At or just below heart level"
+        },
+        {
+          "icon": "shirt",
+          "label": "Remove jewelry",
+          "note": "And tight clothing, before swelling"
+        },
+        {
+          "icon": "droplets",
+          "label": "Wash gently",
+          "note": "Soap and water if you can"
+        }
+      ]
+    },
+    {
+      "file": "erof-3803-battery-red-flags-r2",
+      "post_id": 3803,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "battery",
+      "heading": "What are the red flags that a child swallowed a battery?",
+      "title": [
+        "Swallowed ",
+        "Battery",
+        ": Warning Signs"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six signs that a swallowed button battery is lodged in a child's throat",
+      "items": [
+        {
+          "icon": "utensils",
+          "label": "Trouble swallowing"
+        },
+        {
+          "icon": "droplet",
+          "label": "Excessive drooling"
+        },
+        {
+          "icon": "frown",
+          "label": "Vomiting"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain"
+        },
+        {
+          "icon": "waves",
+          "label": "Cough or wheeze"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Unexplained fever"
+        }
+      ]
+    },
+    {
+      "file": "erof-3808-rsv-infant-signs-r2",
+      "post_id": 3808,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "RSV",
+      "heading": "What are the tell-tale signs of RSV in an infant?",
+      "title": [
+        "",
+        "RSV",
+        " Signs in an Infant"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four signs of RSV in an infant, which typically peak on day three to five",
+      "items": [
+        {
+          "icon": "frown",
+          "label": "Irritable or floppy",
+          "note": "Extremes in either direction"
+        },
+        {
+          "icon": "baby",
+          "label": "Poor feeding",
+          "note": "Tiring out mid-feed"
+        },
+        {
+          "icon": "waves",
+          "label": "Barking wet cough",
+          "note": "Peaks on day three to five"
+        },
+        {
+          "icon": "activity",
+          "label": "Pauses in breathing",
+          "note": "Apnea, go to the ER"
+        }
+      ]
+    },
+    {
+      "file": "erof-3813-appendicitis-er-r2",
+      "post_id": 3813,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "appendicitis",
+      "heading": "What to Expect at the Clinic or ER",
+      "title": [
+        "",
+        "Appendicitis",
+        ": What the ER Does"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy",
+      "steps": [
+        {
+          "icon": "stethoscope",
+          "label": "Physical exam",
+          "note": "Guarding and rebound tenderness"
+        },
+        {
+          "icon": "flask-conical",
+          "label": "Blood tests",
+          "note": "A high white cell count signals infection"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Imaging",
+          "note": "Ultrasound or a CT scan"
+        },
+        {
+          "icon": "scissors",
+          "label": "Appendectomy",
+          "note": "The standard treatment if confirmed"
+        }
+      ]
+    },
+    {
+      "file": "erof-3813-appendicitis-pain-shift-r2",
+      "post_id": 3813,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "appendicitis",
+      "heading": "Recognizing Key Appendicitis Symptoms",
+      "title": [
+        "The ",
+        "Appendicitis",
+        " Pain Shift"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement",
+      "steps": [
+        {
+          "icon": "circle-dot",
+          "label": "Starts at the navel",
+          "note": "A dull, vague discomfort"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Migrates",
+          "note": "Toward the lower right abdomen"
+        },
+        {
+          "icon": "zap",
+          "label": "Turns sharp",
+          "note": "Intense and persistent, not on and off"
+        },
+        {
+          "icon": "waves",
+          "label": "Worse on movement",
+          "note": "Deep breaths, coughing, sneezing"
+        }
+      ]
+    },
+    {
+      "file": "erof-3816-scratched-cornea-r2",
+      "post_id": 3816,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "cornea",
+      "heading": "Scratched Cornea Symptoms: More Than Just an Irritation",
+      "title": [
+        "A Scratched ",
+        "Cornea",
+        ": What It Feels Like"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision",
+      "items": [
+        {
+          "icon": "circle-dot",
+          "label": "Grit or sand in the eye"
+        },
+        {
+          "icon": "droplet",
+          "label": "Tearing and redness"
+        },
+        {
+          "icon": "sun",
+          "label": "Light sensitivity"
+        },
+        {
+          "icon": "eye",
+          "label": "Blurred vision"
+        }
+      ]
+    },
+    {
+      "file": "erof-3825-dog-bite-first-aid-r2",
+      "post_id": 3825,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "dog bite",
+      "heading": "At-Home First Aid: What to Do in the First 10 Minutes",
+      "title": [
+        "",
+        "Dog Bite",
+        ": The First 10 Minutes"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound",
+      "steps": [
+        {
+          "icon": "bandage",
+          "label": "Pressure",
+          "note": "Clean cloth, firm, until it stops"
+        },
+        {
+          "icon": "droplets",
+          "label": "Wash",
+          "note": "Lukewarm water, several minutes"
+        },
+        {
+          "icon": "pill",
+          "label": "Ointment",
+          "note": "A thin layer of antibiotic cream"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Cover",
+          "note": "Sterile bandage, then get seen"
+        }
+      ]
+    },
+    {
+      "file": "erof-3850-workplace-first-steps-r2",
+      "post_id": 3850,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "workplace injury",
+      "heading": "First Steps: What to Do the Moment an Injury Occurs",
+      "title": [
+        "First Steps After a ",
+        "Workplace Injury",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing",
+      "steps": [
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "Heavy bleeding, loss of consciousness, trouble breathing"
+        },
+        {
+          "icon": "door-open",
+          "label": "Get to an ER",
+          "note": "Serious but not life-threatening: have a coworker drive"
+        },
+        {
+          "icon": "clipboard-check",
+          "label": "Tell your employer",
+          "note": "In writing. Texas allows 30 days, but do it the same day"
+        }
+      ]
+    },
+    {
+      "file": "erof-3854-dka-er-treatment-r2",
+      "post_id": 3854,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "DKA",
+      "heading": "How the ER Stabilizes Blood Sugar",
+      "title": [
+        "How the ER Treats ",
+        "DKA",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy",
+      "steps": [
+        {
+          "icon": "droplet",
+          "label": "Fluid replacement",
+          "note": "IV fluids treat dehydration and dilute excess sugar"
+        },
+        {
+          "icon": "flask-conical",
+          "label": "Electrolytes",
+          "note": "Replaced as insulin levels change"
+        },
+        {
+          "icon": "syringe",
+          "label": "Insulin therapy",
+          "note": "Brings blood sugar back down"
+        }
+      ]
+    },
+    {
+      "file": "erof-3862-sepsis-what-to-do-r2",
+      "post_id": 3862,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "sepsis",
+      "heading": "What to Do If You Suspect Sepsis",
+      "title": [
+        "If You Suspect ",
+        "Sepsis",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began",
+      "steps": [
+        {
+          "icon": "phone-call",
+          "label": "Go now or call 911",
+          "note": "The nearest emergency room"
+        },
+        {
+          "icon": "users",
+          "label": "Say the word sepsis",
+          "note": "Ask: could this be sepsis?"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Track the timeline",
+          "note": "When the shivering or confusion began"
+        }
+      ]
+    },
+    {
+      "file": "erof-3867-co-emergency-steps-r2",
+      "post_id": 3867,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "carbon monoxide",
+      "heading": "Immediate Steps: What to Do in an Emergency",
+      "title": [
+        "A ",
+        "Carbon Monoxide",
+        " Alarm: What to Do"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked",
+      "steps": [
+        {
+          "icon": "door-open",
+          "label": "Get out",
+          "note": "Do not stop for windows or the stove"
+        },
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "They find the source with proper gear"
+        },
+        {
+          "icon": "users",
+          "label": "Count heads",
+          "note": "Everyone and the pets, in fresh air"
+        },
+        {
+          "icon": "stethoscope",
+          "label": "Get checked",
+          "note": "Even if you feel fine"
+        }
+      ]
+    },
+    {
+      "file": "erof-3886-fast-signs-r2",
+      "post_id": 3886,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "stroke",
+      "heading": "The F.A.S.T. Method: 4 Warning Signs of Stroke",
+      "title": [
+        "Stroke: The ",
+        "F.A.S.T.",
+        " Warning Signs"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911",
+      "items": [
+        {
+          "icon": "smile",
+          "label": "F: Face drooping",
+          "note": "Ask them to smile. Does one side droop?"
+        },
+        {
+          "icon": "trending-down",
+          "label": "A: Arm weakness",
+          "note": "Raise both arms. Does one drift down?"
+        },
+        {
+          "icon": "waves",
+          "label": "S: Speech difficulty",
+          "note": "Words slurred or jumbled"
+        },
+        {
+          "icon": "phone-call",
+          "label": "T: Time to call 911",
+          "note": "Note when the symptoms started"
+        }
+      ]
+    },
+    {
+      "file": "erof-3897-anaphylaxis-er-care-r2",
+      "post_id": 3897,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "anaphylaxis",
+      "heading": "Emergency Allergy Stabilization: What Happens at the Hospital?",
+      "title": [
+        "",
+        "Anaphylaxis",
+        ": What the ER Does"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation",
+      "steps": [
+        {
+          "icon": "heart-pulse",
+          "label": "Monitor vitals",
+          "note": "Blood pressure and heart rhythm"
+        },
+        {
+          "icon": "droplets",
+          "label": "IV fluids",
+          "note": "If blood pressure drops"
+        },
+        {
+          "icon": "waves",
+          "label": "Oxygen",
+          "note": "Support while the airway recovers"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Observation",
+          "note": "Most patients stay 4 to 6 hours"
+        }
+      ]
+    },
+    {
+      "file": "erof-3924-abscess-treatment-r2",
+      "post_id": 3924,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "abscess",
+      "heading": "Diagnosis and Immediate Care",
+      "title": [
+        "Treating an ",
+        "Abscess",
+        " in the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids",
+      "steps": [
+        {
+          "icon": "syringe",
+          "label": "Drainage",
+          "note": "Aspiration, for immediate relief"
+        },
+        {
+          "icon": "pill",
+          "label": "Antibiotics",
+          "note": "High-dose, once it is drained"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Steroids",
+          "note": "To bring the swelling down"
+        }
+      ]
+    },
+    {
+      "file": "erof-3934-dvt-diagnosis-r2",
+      "post_id": 3934,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "DVT",
+      "heading": "How We Diagnose DVT: On-site Blood Tests and Imaging",
+      "title": [
+        "How the ER Diagnoses ",
+        "DVT",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed",
+      "steps": [
+        {
+          "icon": "flask-conical",
+          "label": "D-dimer",
+          "note": "A blood test for clot breakdown"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Duplex ultrasound",
+          "note": "Sound waves image the blood flow"
+        },
+        {
+          "icon": "microscope",
+          "label": "Venography",
+          "note": "If the ultrasound is not conclusive"
+        }
+      ]
+    }
+  ]
+}

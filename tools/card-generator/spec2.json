@@ -1,0 +1,47 @@
+{
+  "_note": "Four MORE layouts, on top of the icon row. Every figure and quote below is lifted from the post it belongs to, not invented.",
+  "cards": [
+    {
+      "file": "compare-delivery",
+      "layout": "compare",
+      "purpose": "Post 10191 has an H2 'Pellets vs Injections vs Creams: Comparison Chart'. Values are that table's own, condensed.",
+      "title": ["Pellets vs Injections vs ", "Creams", ""],
+      "columns": ["Pellets", "Injections", "Creams"],
+      "rows": [
+        { "label": "Dosing", "values": ["Every 3 to 6 months", "Weekly to biweekly", "Daily"] },
+        { "label": "Stability", "values": ["Steadiest levels", "Peaks then troughs", "Steady if consistent"] },
+        { "label": "Adjusting", "values": ["Fixed once implanted", "Change any dose", "Change day to day"] }
+      ]
+    },
+    {
+      "file": "steps-chemical-peel",
+      "layout": "steps",
+      "purpose": "Post 8563 H2 'The Procedure: What to Expect'. Replaces a generic 3-circle graphic with an actual sequence.",
+      "title": ["Chemical Peel, ", "Step by Step", ""],
+      "steps": [
+        { "icon": "clipboard-check", "label": "Prepare", "note": "Pause retinoids. Daily SPF 30 or higher." },
+        { "icon": "stethoscope", "label": "Treatment", "note": "Solution applied. Five to ten minutes." },
+        { "icon": "shield-check", "label": "Recover", "note": "Flaking for three to seven days." }
+      ]
+    },
+    {
+      "file": "stat-semaglutide",
+      "layout": "stat",
+      "purpose": "Post 10192 opens on this figure. STEP 1 reported 86.4% losing at least 5%, so 13.6% did not. Precise figure used, with the post's own 'roughly 1 in 7' as the plain-language gloss.",
+      "title": ["Not everyone ", "responds", ""],
+      "stat": "13.6%",
+      "statLine": "of participants did not lose 5% of their body weight",
+      "gloss": "roughly 1 in 7",
+      "source": "STEP 1 trial, 1,961 adults, 68 weeks",
+      "dots": { "total": 100, "filled": 14 }
+    },
+    {
+      "file": "quote-aronne",
+      "layout": "quote",
+      "purpose": "Post 10192 already carries this quote verbatim with its Weill Cornell link. Reproduced word for word, not paraphrased.",
+      "quote": "Even though drugs like tirzepatide and semaglutide work really well, better than anything we have ever seen, we still have people who don't respond to them.",
+      "attribution": "Dr. Louis Aronne",
+      "role": "Comprehensive Weight Control Center, Weill Cornell Medicine"
+    }
+  ]
+}

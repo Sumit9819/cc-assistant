@@ -1,0 +1,51 @@
+[
+  {
+    "post_id": 3365,
+    "patches": [
+      {
+        "search": "<h2><strong>What Are the Symptoms of a Stress Fracture?</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-sites.webp\" alt=\"The five places a stress fracture happens: the foot, shin, ankle, leg and heel\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>What Are the Symptoms of a Stress Fracture?</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>What Causes Stress Fractures and Who Is at Risk?</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-signs.webp\" alt=\"Stress fracture symptoms to look for: a vague ache after activity, constant pain even at rest, tenderness in one small spot, and sharp pain when hopping on that leg\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>What Causes Stress Fractures and Who Is at Risk?</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>Can You Walk with a Stress Fracture? </strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-healing.webp\" alt=\"How long a stress fracture takes to heal: six to eight weeks for the foot or shin, up to twelve weeks at other sites\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Can You Walk with a Stress Fracture? </strong></h2>"
+      },
+      {
+        "search": "<h2><strong>Frequently Asked Questions </strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-er.webp\" alt=\"Stress fracture red flags that need emergency care: severe pain, increasing swelling, being unable to bear weight, sudden worsening, numbness and visible deformity\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Frequently Asked Questions </strong></h2>"
+      }
+    ],
+    "summary": "Add 4 in-body triage card(s) to post 3365",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3162,
+    "patches": [
+      {
+        "search": "<h2>7 Expert Tips to Speed Up Muscle Strain Recovery</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-grades.webp\" alt=\"The three muscle strain grades compared: grade one is overstretched with minor discomfort, grade two is partially torn with limited mobility, grade three is torn completely and may need medical care\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>7 Expert Tips to Speed Up Muscle Strain Recovery</h2>"
+      },
+      {
+        "search": "<h2>&nbsp;Muscle Strain Recovery: What works for it and what doesn\u2019t?</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-recovery.webp\" alt=\"Seven ways to speed up muscle strain recovery: rest, ice, compression and elevation, gradual movement, hydration and nutrition, cold then heat therapy, physical therapy, imaging to monitor, and advanced therapies\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>&nbsp;Muscle Strain Recovery: What works for it and what doesn\u2019t?</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3162",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3858,
+    "patches": [
+      {
+        "search": "<h2>Safe Over-the-Counter Pain Relief, and What to Avoid</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-home-care.webp\" alt=\"Home remedies for kidney stone pain that actually help: drinking water through the day, heat on the back or flank, light walking, and citrate from lemon or lime juice with less salt\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Safe Over-the-Counter Pain Relief, and What to Avoid</h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3858",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  }
+]

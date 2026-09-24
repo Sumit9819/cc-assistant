@@ -1,0 +1,148 @@
+{
+  "_note": "BRAND DEMO ONLY. No post_id yet: erofirving.com is behind a SiteGround IP challenge, so the post inventory could not be read. Content is deliberately free of numeric claims, because no figure here has been verified against an allow-list source. Triage-decision framing per erofirving-design skill sections 14 and 18: ER vs urgent care vs primary care is an allowed comparison; hospital-ED comparison is not, and none appears.",
+  "cards": [
+    {
+      "file": "demo-erof-when-to-go-to-the-er",
+      "brand": "erofirving",
+      "layout": "checklist",
+      "subject": "emergency room",
+      "heading": "When should you go to the emergency room instead of urgent care?",
+      "title": [
+        "When to Go to the ",
+        "Emergency Room",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Two columns comparing symptoms that need an emergency room against symptoms urgent care can treat",
+      "good": {
+        "icon": "triangle-alert",
+        "heading": "Come to the ER",
+        "items": [
+          "Chest pressure or pain",
+          "One-sided weakness or slurred speech",
+          "Trouble breathing at rest",
+          "Deep wound that will not stop bleeding",
+          "Head injury with confusion or vomiting"
+        ]
+      },
+      "bad": {
+        "icon": "circle-check",
+        "heading": "Urgent care is enough",
+        "items": [
+          "Sore throat or earache",
+          "Mild sprain that bears weight",
+          "Rash with no fever",
+          "Cough without breathlessness",
+          "Prescription refill"
+        ]
+      },
+      "urgentSide": "good"
+    },
+    {
+      "file": "demo-erof-call-911",
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "911",
+      "heading": "When should you call 911 rather than drive to the ER?",
+      "title": [
+        "When to Call ",
+        "911",
+        " Instead of Driving"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs that mean calling 911 is safer than driving yourself to the emergency room",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain",
+          "note": "Treatment can begin in the ambulance"
+        },
+        {
+          "icon": "brain",
+          "label": "Stroke signs",
+          "note": "Face droop, arm weakness, speech trouble"
+        },
+        {
+          "icon": "activity",
+          "label": "Trouble breathing",
+          "note": "Oxygen is carried on board"
+        },
+        {
+          "icon": "droplet",
+          "label": "Heavy bleeding",
+          "note": "Pressure needs a second pair of hands"
+        },
+        {
+          "icon": "moon",
+          "label": "Fainting or seizure",
+          "note": "Driving risks a second casualty"
+        }
+      ]
+    },
+    {
+      "file": "demo-erof-where-to-go",
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "urgent care",
+      "heading": "ER, urgent care, or your own doctor: which one fits today?",
+      "title": [
+        "ER, ",
+        "Urgent Care",
+        ", or Your Doctor?"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Emergency room, urgent care and primary care compared on hours, imaging and what each is built for",
+      "columns": [
+        "ER of Irving",
+        "Urgent care",
+        "Primary care"
+      ],
+      "rows": [
+        {
+          "label": "Hours",
+          "values": [
+            "Open 24/7",
+            "Daytime and evening",
+            "Office hours"
+          ]
+        },
+        {
+          "label": "Appointment",
+          "values": [
+            "Not needed",
+            "Usually walk-in",
+            "Booked ahead"
+          ]
+        },
+        {
+          "label": "On-site imaging",
+          "values": [
+            "CT, X-ray, ultrasound",
+            "X-ray at some sites",
+            "Referred out"
+          ]
+        },
+        {
+          "label": "Built for",
+          "values": [
+            "Possible emergencies",
+            "Minor illness and injury",
+            "Ongoing care"
+          ]
+        }
+      ]
+    }
+  ]
+}

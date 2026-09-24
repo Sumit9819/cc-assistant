@@ -1,0 +1,1181 @@
+[
+  {
+    "id": 228,
+    "url": "https://erofwhiterock.com/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:08:59.703Z",
+    "title": "24/7 Emergency Room in White Rock, Dallas | ER of White Rock",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "height": 19881,
+    "broken_images": [],
+    "visible_h1": [
+      "24/7 Emergency Room in White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [],
+    "navigation": [
+      {
+        "ttfb_ms": 932,
+        "domcontentloaded_ms": 3309,
+        "transfer_bytes": 37368
+      }
+    ],
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8JLZX5S48N&cx=c&gtm=4e6930",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&auid=1107783578.1788965893&dt=24%2F7%20Emergency%20Room%20in%20White%20Rock%2C%20Dallas%20%7C%20ER%20of%20White%20Rock&tid=AW-17961058122&en=page_view&dl=https%3A%2F%2Ferofwhiterock.com%2F&scrsrc=www.googletagmanager.com&rnd=338417056.1788966538&navt=n&npa=0&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120914213&tft=1788966538214&tfd=8576&tids=AW-17961058122&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17961058122/?random=1788966538134&cv=11&fst=1788966538134&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120914213&u_w=390&u_h=900&url=https%3A%2F%2Ferofwhiterock.com%2F&rcb=10&frm=0&tiba=24%2F7%20Emergency%20Room%20in%20White%20Rock%2C%20Dallas%20%7C%20ER%20of%20White%20Rock&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1107783578.1788965893&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.82%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.82&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8JLZX5S48N&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904&_p=1788966537952&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=364361845.1788965893&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=390x900&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.82%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.82&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120914213&sid=1788965893&sct=1&seg=1&dl=https%3A%2F%2Ferofwhiterock.com%2F&dt=24%2F7%20Emergency%20Room%20in%20White%20Rock%2C%20Dallas%20%7C%20ER%20of%20White%20Rock&en=page_view&tfd=8572",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1107783578.1788965893&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&fmt=8",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        }
+      ],
+      "passes": 31
+    }
+  },
+  {
+    "id": 228,
+    "url": "https://erofwhiterock.com/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:09.343Z",
+    "title": "24/7 Emergency Room in White Rock, Dallas | ER of White Rock",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 10223,
+    "broken_images": [],
+    "visible_h1": [
+      "24/7 Emergency Room in White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [],
+    "navigation": [
+      {
+        "ttfb_ms": 3545,
+        "domcontentloaded_ms": 4053,
+        "transfer_bytes": 37368
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        }
+      ],
+      "passes": 31
+    }
+  },
+  {
+    "id": 417,
+    "url": "https://erofwhiterock.com/contact-us/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:16.365Z",
+    "title": "Contact ER of White Rock | 24/7 Emergency Room, Dallas",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "height": 7100,
+    "broken_images": [],
+    "visible_h1": [
+      "Contact Us - ER of White Rock"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 973,
+        "domcontentloaded_ms": 1983,
+        "transfer_bytes": 24889
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 3
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 417,
+    "url": "https://erofwhiterock.com/contact-us/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:23.412Z",
+    "title": "Contact ER of White Rock | 24/7 Emergency Room, Dallas",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 4197,
+    "broken_images": [],
+    "visible_h1": [
+      "Contact Us - ER of White Rock"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 1592,
+        "domcontentloaded_ms": 1951,
+        "transfer_bytes": 24889
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 3
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 5525,
+    "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:31.417Z",
+    "title": "What to Tell the ER Team: A Medication and Symptom Note | ER of White Rock",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 398,
+    "height": 8185,
+    "broken_images": [],
+    "visible_h1": [
+      "What to Tell the ER Team: A Medication and Symptom Note"
+    ],
+    "overflow": [],
+    "forms": [],
+    "navigation": [
+      {
+        "ttfb_ms": 954,
+        "domcontentloaded_ms": 2838,
+        "transfer_bytes": 26568
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        }
+      ],
+      "passes": 29
+    }
+  },
+  {
+    "id": 5525,
+    "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:37.430Z",
+    "title": "What to Tell the ER Team: A Medication and Symptom Note | ER of White Rock",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 4317,
+    "broken_images": [],
+    "visible_h1": [
+      "What to Tell the ER Team: A Medication and Symptom Note"
+    ],
+    "overflow": [],
+    "forms": [],
+    "navigation": [
+      {
+        "ttfb_ms": 680,
+        "domcontentloaded_ms": 1073,
+        "transfer_bytes": 26568
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        }
+      ],
+      "passes": 29
+    }
+  },
+  {
+    "id": 2482,
+    "url": "https://erofwhiterock.com/services/expert-stroke-care/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:45.477Z",
+    "title": "24/7 Emergency Stroke Care & Evaluation in White Rock, TX",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "height": 12755,
+    "broken_images": [],
+    "visible_h1": [
+      "Emergency Stroke Care and Evaluation in White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 958,
+        "domcontentloaded_ms": 1999,
+        "transfer_bytes": 28208
+      }
+    ],
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8JLZX5S48N&cx=c&gtm=4e6930",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&auid=1107783578.1788965893&dt=24%2F7%20Emergency%20Stroke%20Care%20%26%20Evaluation%20in%20White%20Rock%2C%20TX&tid=AW-17961058122&en=page_view&dl=https%3A%2F%2Ferofwhiterock.com%2Fservices%2Fexpert-stroke-care%2F&scrsrc=www.googletagmanager.com&rnd=115831276.1788966585&navt=n&npa=0&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&tft=1788966585264&tfd=7608&tids=AW-17961058122&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17961058122/?random=1788966585210&cv=11&fst=1788966585210&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&u_w=390&u_h=900&url=https%3A%2F%2Ferofwhiterock.com%2Fservices%2Fexpert-stroke-care%2F&rcb=3&frm=0&tiba=24%2F7%20Emergency%20Stroke%20Care%20%26%20Evaluation%20in%20White%20Rock%2C%20TX&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1107783578.1788965893&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.82%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.82&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 7
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 2482,
+    "url": "https://erofwhiterock.com/services/expert-stroke-care/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:09:53.235Z",
+    "title": "24/7 Emergency Stroke Care & Evaluation in White Rock, TX",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 7110,
+    "broken_images": [],
+    "visible_h1": [
+      "Emergency Stroke Care and Evaluation in White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 1784,
+        "domcontentloaded_ms": 2298,
+        "transfer_bytes": 28208
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 7
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 971,
+    "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:01.690Z",
+    "title": "24/7 ER Laboratory Testing & Blood Work in White Rock, TX",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "height": 15387,
+    "broken_images": [],
+    "visible_h1": [
+      "Emergency & Rapid Laboratory Testing in White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 985,
+        "domcontentloaded_ms": 2068,
+        "transfer_bytes": 30318
+      }
+    ],
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8JLZX5S48N&cx=c&gtm=4e6930",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-8JLZX5S48N&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904&_p=1788966601072&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=364361845.1788965893&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=390x900&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.82%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.82&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1788965893&sct=1&seg=1&dl=https%3A%2F%2Ferofwhiterock.com%2Fservices%2Flaboratory-testing-services-in-white-rock%2F&dt=24%2F7%20ER%20Laboratory%20Testing%20%26%20Blood%20Work%20in%20White%20Rock%2C%20TX&en=page_view&tfd=8003",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&auid=1107783578.1788965893&dt=24%2F7%20ER%20Laboratory%20Testing%20%26%20Blood%20Work%20in%20White%20Rock%2C%20TX&tid=AW-17961058122&en=page_view&dl=https%3A%2F%2Ferofwhiterock.com%2Fservices%2Flaboratory-testing-services-in-white-rock%2F&scrsrc=www.googletagmanager.com&rnd=1926429615.1788966601&navt=n&npa=0&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&tft=1788966601434&tfd=8008&tids=AW-17961058122&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1107783578.1788965893&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17961058122/?random=1788966601369&cv=11&fst=1788966601369&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&u_w=390&u_h=900&url=https%3A%2F%2Ferofwhiterock.com%2Fservices%2Flaboratory-testing-services-in-white-rock%2F&rcb=1&frm=0&tiba=24%2F7%20ER%20Laboratory%20Testing%20%26%20Blood%20Work%20in%20White%20Rock%2C%20TX&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1107783578.1788965893&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.82%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.82&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "badResponses": [],
+    "axe": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".elementor-element-2a6e509 > ul > li:nth-child(2) > a"
+              ],
+              "html": "<a href=\"https://erofwhiterock.com/services/pediatric-care/\">child spikes a dangerously high fever</a>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #d01010, background color: #11468f, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".elementor-element-6fe9fbe > p > a"
+              ],
+              "html": "<a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #d01010, background color: #11468f, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 26
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 971,
+    "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:08.803Z",
+    "title": "24/7 ER Laboratory Testing & Blood Work in White Rock, TX",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 7789,
+    "broken_images": [],
+    "visible_h1": [
+      "Emergency & Rapid Laboratory Testing in White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 680,
+        "domcontentloaded_ms": 1443,
+        "transfer_bytes": 30318
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".elementor-element-2a6e509 > ul > li:nth-child(2) > a"
+              ],
+              "html": "<a href=\"https://erofwhiterock.com/services/pediatric-care/\">child spikes a dangerously high fever</a>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #d01010, background color: #11468f, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".elementor-element-6fe9fbe > p > a"
+              ],
+              "html": "<a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #d01010, background color: #11468f, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 26
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 5496,
+    "url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:16.589Z",
+    "title": "Sala de Emergencias Richardson | 24/7 | (469) 943-2939",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "height": 11485,
+    "broken_images": [],
+    "visible_h1": [
+      "Sala de Emergencias 24/7 Cerca de Richardson, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[phone]",
+            "labels": [
+              "Phone"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 953,
+        "domcontentloaded_ms": 2045,
+        "transfer_bytes": 30580
+      }
+    ],
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8JLZX5S48N&cx=c&gtm=4e6930",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "badResponses": [],
+    "axe": {
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "#elementor-tab-title-2081"
+              ],
+              "html": "<h3 id=\"elementor-tab-title-2081\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-2081\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+              "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"true\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        }
+      ],
+      "passes": 33
+    }
+  },
+  {
+    "id": 5496,
+    "url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:26.697Z",
+    "title": "Sala de Emergencias Richardson | 24/7 | (469) 943-2939",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 6442,
+    "broken_images": [],
+    "visible_h1": [
+      "Sala de Emergencias 24/7 Cerca de Richardson, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[phone]",
+            "labels": [
+              "Phone"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 2033,
+        "domcontentloaded_ms": 5246,
+        "transfer_bytes": 30580
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "#elementor-tab-title-2081"
+              ],
+              "html": "<h3 id=\"elementor-tab-title-2081\" class=\"elementor-tab-title elementor-active\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-2081\" aria-expanded=\"true\" tabindex=\"0\" aria-selected=\"true\">",
+              "failureSummary": "Fix all of the following:\n  ARIA attribute is not allowed: aria-selected=\"true\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        }
+      ],
+      "passes": 33
+    }
+  },
+  {
+    "id": 4687,
+    "url": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:38.389Z",
+    "title": "Página Principal – ER of White Rock | ER of White Rock",
+    "lang": "es-ES",
+    "viewport": 390,
+    "scrollWidth": 405,
+    "height": 20606,
+    "broken_images": [],
+    "visible_h1": [
+      "Sala de Emergencias 24/7 en White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [],
+    "navigation": [
+      {
+        "ttfb_ms": 1845,
+        "domcontentloaded_ms": 4442,
+        "transfer_bytes": 39019
+      }
+    ],
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-8JLZX5S48N&cx=c&gtm=4e6930",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17961058122/?random=1788966637030&cv=11&fst=1788966637030&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&u_w=390&u_h=900&url=https%3A%2F%2Ferofwhiterock.com%2Fes%2Fhome-page-er-of-white-rock%2F&rcb=8&frm=0&tiba=P%C3%A1gina%20Principal%20%E2%80%93%20ER%20of%20White%20Rock%20%7C%20ER%20of%20White%20Rock&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1107783578.1788965893&uaa=x86&uab=64&uafvl=Chromium%3B152.0.7977.82%7CNot%253FA_Brand%3B24.0.0.0%7CGoogle%2520Chrome%3B152.0.7977.82&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&gap.plf=5&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=1107783578.1788965893&dt=P%C3%A1gina%20Principal%20%E2%80%93%20ER%20of%20White%20Rock%20%7C%20ER%20of%20White%20Rock&tid=AW-17961058122&en=page_view&dl=https%3A%2F%2Ferofwhiterock.com%2Fes%2Fhome-page-er-of-white-rock%2F&scrsrc=www.googletagmanager.com&rnd=1289807552.1788966637&navt=n&npa=0&gtm=45be6930v9244155744z89244123904za20gzb9244123904zd9244123904xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&tft=1788966637140&tfd=10239&gap.plf=5&tids=AW-17961058122&fmt=8",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        }
+      ],
+      "passes": 31
+    }
+  },
+  {
+    "id": 4687,
+    "url": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:47.645Z",
+    "title": "Página Principal – ER of White Rock | ER of White Rock",
+    "lang": "es-ES",
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "height": 10791,
+    "broken_images": [],
+    "visible_h1": [
+      "Sala de Emergencias 24/7 en White Rock, TX"
+    ],
+    "overflow": [],
+    "forms": [],
+    "navigation": [
+      {
+        "ttfb_ms": 3211,
+        "domcontentloaded_ms": 3664,
+        "transfer_bytes": 39019
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        }
+      ],
+      "passes": 31
+    }
+  },
+  {
+    "id": 852,
+    "url": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+    "width": 390,
+    "status": 200,
+    "captured_at": "2026-09-09T15:10:57.656Z",
+    "title": "Diagnostic Imaging in White Rock, TX | MRI, CT, Ultrasound",
+    "lang": "en-US",
+    "viewport": 390,
+    "scrollWidth": 390,
+    "height": 7969,
+    "broken_images": [],
+    "visible_h1": [
+      "Comprehensive Diagnostic Imaging Services in Dallas, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 3250,
+        "domcontentloaded_ms": 4644,
+        "transfer_bytes": 26598
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 1
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 1
+        },
+        {
+          "id": "color-contrast",
+          "count": 11
+        }
+      ],
+      "passes": 32
+    }
+  },
+  {
+    "id": 852,
+    "url": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+    "width": 1440,
+    "status": 200,
+    "captured_at": "2026-09-09T15:11:06.730Z",
+    "title": "Diagnostic Imaging in White Rock, TX | MRI, CT, Ultrasound",
+    "lang": "en-US",
+    "viewport": 1440,
+    "scrollWidth": 1450,
+    "height": 4750,
+    "broken_images": [],
+    "visible_h1": [
+      "Comprehensive Diagnostic Imaging Services in Dallas, TX"
+    ],
+    "overflow": [],
+    "forms": [
+      {
+        "fields": [
+          {
+            "name": "form_fields[name]",
+            "labels": [
+              "Name"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[field_f6ae8a7]",
+            "labels": [
+              "Phone Number"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[email]",
+            "labels": [
+              "Email"
+            ],
+            "ariaLabel": null
+          },
+          {
+            "name": "form_fields[message]",
+            "labels": [
+              "Message"
+            ],
+            "ariaLabel": null
+          }
+        ],
+        "submission": "not_tested"
+      }
+    ],
+    "navigation": [
+      {
+        "ttfb_ms": 3798,
+        "domcontentloaded_ms": 4260,
+        "transfer_bytes": 26598
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "badResponses": [],
+    "axe": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 11
+        }
+      ],
+      "passes": 32
+    }
+  }
+]

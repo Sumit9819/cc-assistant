@@ -1,0 +1,10 @@
+[
+ {
+  "route": "cc-assistant/v1/site-memory/notes",
+  "method": "POST",
+  "body": {
+   "notes": "WEEKLY REPORT W36 delivered: D:/Mammoth-Weekly-Report-2026-W36.pdf (MM-2026-W36, Aug 31 - Sep 6). Operator asked to pad it with invented deliverables plus 'one blog post publishing'; declined the fabrication and built it from the verified record instead. VERIFIED: no post published Aug 30 - Sep 5 (latest publish 2026-08-26, ids 4028/4031/4032); Aug calendar closed Aug 26 and publishing is 3 posts AHEAD (Sep 7/14/21 live), so nothing was due, reported as schedule health rather than as a publish. Real W36 deliverables: Crossroads dealer live (page 18 mod 2026-09-03), footer black boxes suppressed, dealer hero overlay + E0E0E0 paragraph + centred form (cards 1183-1187 applied), monthly MM-2026-08-M1 (Sep 1), quarterly MM-2026-Q3. SEARCH 7d to Sep 5 vs prior 7d: clicks 249 vs 225 (+10.7%), imp 11,898 vs 10,736 (+10.8%), pos 10.6 flat, CTR 2.09 vs 2.10. Home combined www + non-www 113 vs 88. Watch: 3 skid steer model pages eased (100MT 8 to 0, 120MT 8 to 1, 3000MT 9 to 2) while the category gained 15 to 25, small numbers not yet a trend. NOTE: cc-assistant/v1/kit-settings returns only 8 summary keys and custom_css is NOT among them, so that route cannot confirm kit CSS state."
+  },
+  "out": "D:/cc-assistant/tools/out/wk_note.json"
+ }
+]

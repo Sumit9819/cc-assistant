@@ -1,0 +1,660 @@
+{
+ "_note": "Batch A: 6449 microneedling guide, 6867 pro vs dermarolling, 6854 aftercare, 10219 Kybella. Four cards each, roughly one per 280-300 words. Definitional prose, CTAs and FAQ blocks skipped per policy.",
+ "cards": [
+  {
+   "file": "microneedling-what-it-treats",
+   "post_id": 6449,
+   "layout": "list",
+   "subject": "microneedling",
+   "heading": "What Microneedling Can Treat ",
+   "title": [
+    "What ",
+    "Microneedling",
+    " Can Treat"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Microneedling treats acne scars, fine lines, stretch marks, large pores and uneven skin tone",
+   "items": [
+    {
+     "icon": "scan-face",
+     "label": "Acne scars",
+     "note": "Breaks down old scar tissue, builds new collagen"
+    },
+    {
+     "icon": "waves",
+     "label": "Fine lines",
+     "note": "Elastin and collagen restore firmness"
+    },
+    {
+     "icon": "ruler-dimension-line",
+     "label": "Stretch marks",
+     "note": "Softens over multiple treatments"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Large pores",
+     "note": "Firmer, thicker skin refines them"
+    },
+    {
+     "icon": "sun",
+     "label": "Uneven tone",
+     "note": "Faster cell turnover brightens sun damage"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-side-effects-common-vs-rare",
+   "post_id": 6449,
+   "layout": "checklist",
+   "subject": "microneedling",
+   "heading": "Risks, Side Effects, and FDA Safety Guidance",
+   "title": [
+    "Microneedling ",
+    "Side Effects",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Common microneedling side effects resolve in days; infection, scarring and hyperpigmentation are rare",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Common, resolve in days",
+    "items": [
+     "Redness",
+     "Mild swelling",
+     "Tightness",
+     "Dryness",
+     "Pinpoint bleeding"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "Rare, but serious",
+    "items": [
+     "Infection",
+     "Scarring",
+     "Hyperpigmentation",
+     "Allergic reaction to serums"
+    ]
+   }
+  },
+  {
+   "file": "microneedling-treatment-types",
+   "post_id": 6449,
+   "layout": "list",
+   "subject": "microneedling",
+   "heading": "Types of Microneedling Treatments",
+   "title": [
+    "Types of ",
+    "Microneedling",
+    " Treatments"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Four microneedling routes: professional pen devices, PRP, radiofrequency, and at-home rollers the FDA warns against",
+   "items": [
+    {
+     "icon": "syringe",
+     "label": "Professional pen",
+     "note": "FDA-cleared, adjustable depth, sterile cartridge"
+    },
+    {
+     "icon": "droplet",
+     "label": "With PRP",
+     "note": "Platelet-rich plasma speeds healing"
+    },
+    {
+     "icon": "zap",
+     "label": "Radiofrequency",
+     "note": "Adds heat to tighten deeper layers"
+    },
+    {
+     "icon": "ban",
+     "label": "At-home rollers",
+     "note": "Not FDA-cleared, hygiene and injury risks"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-healing-timeline",
+   "post_id": 6449,
+   "layout": "timeline",
+   "subject": "microneedling",
+   "heading": "What to Expect After Microneedling",
+   "title": [
+    "Healing After ",
+    "Microneedling",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Microneedling healing: flushed skin at first, tightness days 1 to 2, flaking days 3 to 5, brighter by week 1",
+   "nodes": [
+    {
+     "time": "Right after",
+     "label": "Flushed",
+     "note": "Like a mild sunburn"
+    },
+    {
+     "time": "Days 1-2",
+     "label": "Tight",
+     "note": "Light swelling and sensitivity"
+    },
+    {
+     "time": "Days 3-5",
+     "label": "Flaking",
+     "note": "Collagen production begins"
+    },
+    {
+     "time": "1 week",
+     "label": "Brighter",
+     "note": "Smoother and more refined"
+    },
+    {
+     "time": "Months",
+     "label": "Remodeling",
+     "note": "Improvement keeps building"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-vs-dermarolling-compared",
+   "post_id": 6867,
+   "layout": "compare",
+   "subject": "microneedling",
+   "heading": "Understanding Microneedling and At-Home Dermarolling",
+   "title": [
+    "Professional ",
+    "Microneedling",
+    " vs Dermarolling"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Professional microneedling and at-home dermarolling compared on operator, setting, needle depth and aftercare",
+   "columns": [
+    "Professional microneedling",
+    "At-home dermarolling"
+   ],
+   "rows": [
+    {
+     "label": "Performed by",
+     "values": [
+      "A trained practitioner",
+      "You, unsupervised"
+     ]
+    },
+    {
+     "label": "Setting",
+     "values": [
+      "Sterile clinical room",
+      "Home, no sterilization protocol"
+     ]
+    },
+    {
+     "label": "Needle depth",
+     "values": [
+      "Chosen for your skin and concern",
+      "Fixed, and typically shorter"
+     ]
+    },
+    {
+     "label": "Aftercare",
+     "values": [
+      "Provided and monitored",
+      "Left to you"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "why-professional-microneedling-is-safer",
+   "post_id": 6867,
+   "layout": "list",
+   "subject": "microneedling",
+   "heading": "Safety Considerations: Why Professional Microneedling Is Safer",
+   "title": [
+    "Why Professional ",
+    "Microneedling",
+    " Is Safer"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Professional microneedling is safer through sterilization, needle depth chosen for your skin, and trained technique",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Infection control",
+     "note": "Tools sanitized between every treatment"
+    },
+    {
+     "icon": "ruler-dimension-line",
+     "label": "Depth precision",
+     "note": "Needle length matched to the concern"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Trained technique",
+     "note": "Thin skin near eyes handled safely"
+    }
+   ]
+  },
+  {
+   "file": "professional-microneedling-better-outcomes",
+   "post_id": 6867,
+   "layout": "icons",
+   "subject": "microneedling",
+   "heading": "Treatment Results: Why Professional Microneedling Delivers Better Outcomes",
+   "title": [
+    "Better Outcomes From Professional ",
+    "Microneedling",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Professional microneedling heals faster, gives more consistent results, and can be targeted to your concern",
+   "items": [
+    {
+     "icon": "heart-pulse",
+     "label": "Faster healing",
+     "note": "Fewer complications and less irritation"
+    },
+    {
+     "icon": "circle-check",
+     "label": "Consistent results",
+     "note": "Even improvement across sessions"
+    },
+    {
+     "icon": "target",
+     "label": "Targeted",
+     "note": "Tailored to scars, lines or stretch marks"
+    }
+   ]
+  },
+  {
+   "file": "at-home-dermarolling-risks",
+   "post_id": 6867,
+   "layout": "list",
+   "subject": "dermarolling",
+   "heading": "The Potential Risks of At-Home Dermarolling",
+   "title": [
+    "Risks of At-Home ",
+    "Dermarolling",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "At-home dermarolling risks: scarring, hyperpigmentation, collagen loss and lasting irritation",
+   "items": [
+    {
+     "icon": "triangle-alert",
+     "label": "Scarring",
+     "note": "Too much pressure or the wrong needle length"
+    },
+    {
+     "icon": "palette",
+     "label": "Hyperpigmentation",
+     "note": "Overuse damages the skin"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Collagen loss",
+     "note": "The opposite of what you wanted"
+    },
+    {
+     "icon": "flame",
+     "label": "Irritation",
+     "note": "Inflammation with no aftercare plan"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-aftercare-day-by-day",
+   "post_id": 6854,
+   "layout": "timeline",
+   "subject": "microneedling",
+   "heading": "Microneedling Aftercare: Day-by-Day Healing Guide",
+   "title": [
+    "Microneedling Aftercare",
+    ", Day by Day",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Microneedling aftercare day by day: redness on day 1, tightness day 2, peeling days 3 to 4, smoother by week 2",
+   "nodes": [
+    {
+     "time": "Day 1",
+     "label": "Red",
+     "note": "Like a mild sunburn, slightly swollen"
+    },
+    {
+     "time": "Day 2",
+     "label": "Tight",
+     "note": "Redness starts to fade, skin feels dry"
+    },
+    {
+     "time": "Days 3-4",
+     "label": "Peeling",
+     "note": "Light flaking, do not pick"
+    },
+    {
+     "time": "Days 5-7",
+     "label": "Smoother",
+     "note": "Redness much reduced"
+    },
+    {
+     "time": "Days 7-14",
+     "label": "Renewed",
+     "note": "Texture and tone visibly improved"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-aftercare-first-24-hours",
+   "post_id": 6854,
+   "layout": "icons",
+   "subject": "microneedling",
+   "heading": "Day 1 - Immediate Post-Treatment Care",
+   "title": [
+    "The First 24 Hours After ",
+    "Microneedling",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "First 24 hours after microneedling: cleanse gently, use a fragrance-free moisturizer, and apply mineral SPF 30",
+   "items": [
+    {
+     "icon": "droplets",
+     "label": "Cleanse gently",
+     "note": "Mild hydrating cleanser, no fragrance"
+    },
+    {
+     "icon": "droplet",
+     "label": "Moisturize",
+     "note": "Calming, fragrance-free formula"
+    },
+    {
+     "icon": "sun",
+     "label": "Mineral SPF 30",
+     "note": "Stay out of direct sun"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-aftercare-week-one-products",
+   "post_id": 6854,
+   "layout": "checklist",
+   "subject": "microneedling",
+   "heading": "Day 5-7 - Continued Healing and Skin Rejuvenation",
+   "title": [
+    "Skincare in ",
+    "Week One",
+    " After Microneedling"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "In week one after microneedling use hyaluronic acid and sunscreen, and keep off retinoids, AHAs and BHAs",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Safe to use now",
+    "items": [
+     "Gentle cleanser",
+     "Hyaluronic acid serum",
+     "Calming serums",
+     "Sunscreen, every day"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "Wait at least a week",
+    "items": [
+     "Retinoids",
+     "AHAs",
+     "BHAs",
+     "Alcohol-based products"
+    ]
+   }
+  },
+  {
+   "file": "microneedling-aftercare-mistakes",
+   "post_id": 6854,
+   "layout": "list",
+   "subject": "microneedling",
+   "heading": "Common Aftercare Mistakes to Avoid",
+   "title": [
+    "Common ",
+    "Microneedling Aftercare",
+    " Mistakes"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The three most common microneedling aftercare mistakes: picking flaking skin, skipping sunscreen, over-exfoliating",
+   "items": [
+    {
+     "icon": "ban",
+     "label": "Picking at flakes",
+     "note": "Scarring is the usual result"
+    },
+    {
+     "icon": "sun",
+     "label": "Skipping sunscreen",
+     "note": "Treated skin burns far more easily"
+    },
+    {
+     "icon": "triangle-alert",
+     "label": "Over-exfoliating",
+     "note": "Healing skin needs to be left alone"
+    }
+   ]
+  },
+  {
+   "file": "kybella-how-it-works",
+   "post_id": 10219,
+   "layout": "steps",
+   "subject": "Kybella",
+   "heading": "How does Kybella break down fat under the chin?",
+   "title": [
+    "How ",
+    "Kybella",
+    " Breaks Down Fat"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Kybella is deoxycholic acid injected under the chin; it breaks fat cell membranes and the body clears them",
+   "steps": [
+    {
+     "icon": "syringe",
+     "label": "Injected",
+     "note": "Deoxycholic acid into the fat pocket"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Cells break down",
+     "note": "The fat cell membrane is destroyed"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Cleared",
+     "note": "The body removes them over weeks"
+    }
+   ]
+  },
+  {
+   "file": "kybella-recovery-timeline",
+   "post_id": 10219,
+   "layout": "timeline",
+   "subject": "Kybella",
+   "heading": "What does Kybella recovery look like?",
+   "title": [
+    "What ",
+    "Kybella",
+    " Recovery Looks Like"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Kybella recovery: swelling starts in 24 hours, peaks days 2 to 4, settles by week 2, resolves by week 4",
+   "nodes": [
+    {
+     "time": "First 24h",
+     "label": "Swelling starts",
+     "note": "Tender and warm"
+    },
+    {
+     "time": "Days 2-4",
+     "label": "Peak swelling",
+     "note": "Chin may look fuller than before"
+    },
+    {
+     "time": "Week 1-2",
+     "label": "Settling",
+     "note": "Firm lumps are common"
+    },
+    {
+     "time": "Weeks 3-4",
+     "label": "Resolving",
+     "note": "Firmness fades"
+    },
+    {
+     "time": "1 month",
+     "label": "Next session",
+     "note": "Earliest a repeat is permitted"
+    }
+   ]
+  },
+  {
+   "file": "kybella-vs-fat-freezing-vs-neck-lift",
+   "post_id": 10219,
+   "layout": "compare",
+   "subject": "Kybella",
+   "heading": "How does Kybella compare to fat freezing and a neck lift?",
+   "title": [
+    "Kybella",
+    " vs Fat Freezing vs Neck Lift",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Kybella, fat freezing and a neck lift compared on type, sessions, downtime and whether they treat loose skin",
+   "columns": [
+    "Kybella",
+    "Fat freezing",
+    "Neck lift"
+   ],
+   "rows": [
+    {
+     "label": "Type",
+     "values": [
+      "Injectable drug",
+      "Cooling device",
+      "Surgery"
+     ]
+    },
+    {
+     "label": "Sessions",
+     "values": [
+      "Up to 6",
+      "Usually 1 to 3",
+      "One procedure"
+     ]
+    },
+    {
+     "label": "Downtime",
+     "values": [
+      "Swelling for days to weeks",
+      "Minimal",
+      "Weeks"
+     ]
+    },
+    {
+     "label": "Treats loose skin",
+     "values": [
+      "No",
+      "No",
+      "Yes"
+     ]
+    },
+    {
+     "label": "Offered here",
+     "values": [
+      "Yes",
+      "No",
+      "No"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "kybella-bruising-rate",
+   "post_id": 10219,
+   "layout": "stat",
+   "subject": "Kybella",
+   "heading": "What are the side effects of Kybella?",
+   "title": [
+    "How Often Does ",
+    "Kybella",
+    " Bruise?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Bruising affected 72 percent of Kybella trial subjects; 4 percent had a temporary uneven smile that resolved",
+   "stat": "72%",
+   "gloss": "4% had a temporary uneven smile",
+   "statLine": "of trial subjects bruised at the injection site",
+   "source": "FDA Kybella Phase III trial data",
+   "dots": {
+    "total": 100,
+    "filled": 72
+   }
+  }
+ ]
+}

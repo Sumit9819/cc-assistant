@@ -1,0 +1,221 @@
+{
+  "version": "0.89.0",
+  "source": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant",
+  "active_bridge": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\wp-content\\plugins\\cc-assistant\\bin",
+  "source_changes": [
+    {
+      "file": "AUTOMATION.md",
+      "before": null,
+      "after": "5526f194918320f4f0786fd019dc8c97844175571a0b47099c9cf8a1af178930"
+    },
+    {
+      "file": "build-zip.py",
+      "before": "fd5053f4c35b986406a89db20c13ce1fa3e9f4131c5624edf25b8e5da05fa6d1",
+      "after": "ddcfbd30e6eed226e793cae4efef1df3b26fea92976e389244459e06852b0d0f"
+    },
+    {
+      "file": "cc-assistant.php",
+      "before": "30e883bb503481aca53c8a47efab94a501faca4f7b009437c6d35330b1d543ca",
+      "after": "afa720011f39abd09b6df42aad9c2d6d64b0876a64597a92d8bc92052d123363"
+    },
+    {
+      "file": "CONNECTION.md",
+      "before": "e24b1768aa7a59b24b91f501caf2168c0c78217d004f1f6cdfbb93e6266fa558",
+      "after": "bda1f7590caf7b90711a0c8c1c34dcc1dd970d9f6614b6f1ab90b8ad93f529a3"
+    },
+    {
+      "file": "readme.txt",
+      "before": "76311f1ad0446c8eb7b99d6b7a46844a230a0a3c5f782199a582a31cf846dc85",
+      "after": "06cb47ebddda21cd048ef0528d74afbebccc727168c09ab85220b041ca8ff225"
+    },
+    {
+      "file": "bin/agent-contract.php",
+      "before": "242910ca3f78d4bd5b11bb4b7883746468262dca535521f28d3870ed77b71ea6",
+      "after": "4852f413b1bd59bfbb9c28e06dd6667d563b7f7aaffee322e07159aaa1053d08"
+    },
+    {
+      "file": "bin/automation-runner.py",
+      "before": null,
+      "after": "169669a2a811f1aebce089a168489e827bb23c64757bad60a61117d3943dbe49"
+    },
+    {
+      "file": "bin/content-tools.php",
+      "before": "93058f5ee5d1a05d73b302fc0fcfcb73b3a3e9f1fc05be7e1d3803892a010b6f",
+      "after": "9eaabffeccee821d1b3d0ada0a6bbebf97fa18ad7161f295d3e5b1f51fdff737"
+    },
+    {
+      "file": "bin/mcp-server.php",
+      "before": "6d1ad43c5b069909bf7af4361affc5734ab5fca60053aab038d7c9d98ccc75ee",
+      "after": "3871b5ff4b85c6784d44192d07f4f42ff46175885ce8e6714c767bd052db90f7"
+    },
+    {
+      "file": "bin/operator-brain.php",
+      "before": "818e2cc81b93ef266cb625f57cb47a62ba2904a8f76ed9fa546b339a4d8fca94",
+      "after": "37b86337e6fd6242c8fd06ceda6e2e65e0cedf17f5d88d2f83c6a2824c0c3a6b"
+    },
+    {
+      "file": "bin/tool-catalog.php",
+      "before": "c8f52cb43a42ae04e5cb6dcb590d43d2ef3686c94b5d20d4438454567cab70ee",
+      "after": "7d73dc4a3cb90d76ade5a64ec56cc9870ff904da6122d1695cce6ecfad91dba1"
+    },
+    {
+      "file": "includes/class-apply.php",
+      "before": "3bf1c771b8cfecd6f1b77ac992f213319041d2f154f94a21a1706149f9681413",
+      "after": "d7d6549007ebc99340b70c7fa287c3ee98862c67f77b70d012f90ee3f645337e"
+    },
+    {
+      "file": "includes/class-content-authors.php",
+      "before": null,
+      "after": "5c050d72e03756e4cd7e6feab9840c5ce0af50f36b245a95c538dc927af39009"
+    },
+    {
+      "file": "includes/class-content-decisions.php",
+      "before": "23663f689a6741fa7b6203ae2af046ba06f61ed10dbfc474c7cebe8cb01d4026",
+      "after": "704ed4a778fa1341281ccdc5375a8cea8caca76600009d5dadd4560bf7c2cffe"
+    },
+    {
+      "file": "includes/class-content-scope.php",
+      "before": "8da5c744b63e23e5c850fc8684edb6d909be5e157f6a555b6d5d37f0d305b073",
+      "after": "cb9cf890112cb7cd2336ef96a618c94fe5ba40fefa5614fc3030bb1453ec1031"
+    },
+    {
+      "file": "includes/class-content-strategy.php",
+      "before": "177a887fd7e613934e8b0649eea3af7fb890e21cb51786b17948bc6ec3f74daa",
+      "after": "5aedb5e003a71a361cb5a46f42a26553d2df039e39da8f0e7843eb55633e0800"
+    },
+    {
+      "file": "includes/class-content-workflow.php",
+      "before": "4a5dcb834cc2db7be6314bba73cf46e5a5d2832ae7e293bd146ed5fb7d72568e",
+      "after": "c65a9be2689265f02d3180ffcdeb3c4c96a4d3a5bfd0245e016a2559565204f5"
+    },
+    {
+      "file": "includes/class-external-research.php",
+      "before": null,
+      "after": "b6e991596cb05e3832c415d154626a68ed4557e12dd4b9b9cb224a294f9fe077"
+    },
+    {
+      "file": "includes/class-plugin-capability.php",
+      "before": "240bf7a924945b6a9e241c49491526fc95d44bda9b46d52f98b71ab138ca43ae",
+      "after": "56e470c7cde8607a27bfe5c0883870c95e1c2446ebf3b77f6613a55b824e70fc"
+    },
+    {
+      "file": "includes/class-rest-api.php",
+      "before": "7ced1c2d7583aac8cd1fcc5dfe2cc10b5e18160c36515ddf482dab44bd0416b8",
+      "after": "9c1688dc3bdd7a6b17a5b7fa058ca9bb720ac6a863e6c33e12840aa9ed4ddda5"
+    },
+    {
+      "file": "includes/class-rest-content-strategy.php",
+      "before": "1f093f642bc1c752d0e3fc2a9063970299d6185c6ca155715eb2d2f8f0107c7c",
+      "after": "d431e05f160d66c480a3f5079f90ed5a358665181e2d5926c587099cf1c35946"
+    },
+    {
+      "file": "includes/class-rest-operator-kit.php",
+      "before": "e3beb6f262af18b8d155588f5051cd2bac7de9deb46f1ff99ee9d06affa9ad39",
+      "after": "52785447a6b964d50e249883090e23812138c9dd87b45c4a9e6eb23414c3eb11"
+    },
+    {
+      "file": "includes/class-setting-writer.php",
+      "before": "7bfcaad9fe99534c17ffa1c3969a4a0bbc6d958b282dc3ce1335b4bbbea262c9",
+      "after": "6b576e73d9b1d4876eb3e1678eb2ef6ac3555adc07d9f49e735ed96e4c8adf1c"
+    },
+    {
+      "file": "includes/class-siteground-adapter.php",
+      "before": null,
+      "after": "ff42a730872ef8705df76ebd7e698026be643223ad272ab77c9011dce53bc8d7"
+    },
+    {
+      "file": "tests/automation-bridge-test.py",
+      "before": null,
+      "after": "33d606f11dc77351408b38f09cf57d71947634b0274dbd837dd496b27c1a955b"
+    },
+    {
+      "file": "tests/automation-runner-test.py",
+      "before": null,
+      "after": "979e57f4bee689ff24063e9d8dba3763737765040d4a0d2223f2332483f3645a"
+    },
+    {
+      "file": "tests/bridge-update-test.php",
+      "before": "6c77f400c13f5804425a426965bfe664c972969ca0c5a2b72ab53c4032b0adca",
+      "after": "66e9edfc191351522c675f84364ccfde223810255c08033e60f1e724d9f9ab0a"
+    },
+    {
+      "file": "tests/content-authors-test.php",
+      "before": null,
+      "after": "f2881fa544a54b7f9d845f0bf6dfc834816a3f92dd31b58b240c83b871af545e"
+    },
+    {
+      "file": "tests/content-strategy-test.php",
+      "before": "b70fdd5a295466e956765d68521d37106abefbdc3d9bec3361ba416228f4cb2a",
+      "after": "11f53d09fd544d2e10e00187a65bd408d545812573e24fc128427289985da43d"
+    },
+    {
+      "file": "tests/external-research-test.php",
+      "before": null,
+      "after": "f845964513ae72df0893c28af3206a45978f04dd498d8f12ebd5ef33d804d731"
+    },
+    {
+      "file": "tests/operator-brain-test.php",
+      "before": "1ecd98dd926e6f45a94c2a24f7f340ad0a8fdca690fa5ad0d83b74c67e1fc1e8",
+      "after": "94be2c4846d81e92dae067a63a2a39d8e50c10b3856d7ebfcd9375d3a35d169c"
+    },
+    {
+      "file": "tests/siteground-adapter-test.php",
+      "before": null,
+      "after": "59e7bca59915152619eadabfee046c559cc44c76ce04b53b3488c91b57583a5e"
+    },
+    {
+      "file": "tests/evals/fixture-server.py",
+      "before": "d8c52b82d70262719f15c8e17a8827d139c66b3f5aa5b9eae5516b53d0564743",
+      "after": "9de1c65fdee5a5bdf36d144489c9ca21fec3a97a4a11e50118ddae8371918950"
+    },
+    {
+      "file": "tests/evals/run.py",
+      "before": "ce815cc45a035fea9d463cf3a9991c2d8da358cf1dbc50095383b0b4a62643ea",
+      "after": "47aafe9c1d3c4efe8bff8ee6f19b0ad99173f980d173dc60529ace8b22b83723"
+    },
+    {
+      "file": "tests/fixtures/sg-cachepress/core/Options/Options.php",
+      "before": null,
+      "after": "6201de921ca3e1e1ab72d6fb5a22ef5a726945737986b548fc185ae9cf4f7cff"
+    },
+    {
+      "file": "tests/fixtures/sg-cachepress/core/Rest/Rest.php",
+      "before": null,
+      "after": "1d7e930265ef50bb6cc70bd72594a0df524990f99ed66e1a909efb0b35a87a77"
+    },
+    {
+      "file": "tests/fixtures/sg-cachepress/core/Rest/Rest_Helper_Options.php",
+      "before": null,
+      "after": "f30afd938195b1c35db836cf6ba38d41397fb44daf80c422fa253019c0d4e767"
+    }
+  ],
+  "bridge_changes": [
+    "agent-contract.php",
+    "automation-runner.py",
+    "browser-transport.mjs",
+    "content-tools.php",
+    "mcp-server.php",
+    "operator-brain.php",
+    "tool-catalog.php",
+    "browser/package.json"
+  ],
+  "package": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant-0.89.0.zip",
+  "sha256": "686378162355a543e5a6f8470f729a073475433f08c0982ab33acba45d44c9b3",
+  "zip_files": 155,
+  "required_runtime_files_verified": [
+    "cc-assistant.php",
+    "bin/mcp-server.php",
+    "bin/browser-transport.php",
+    "bin/browser-transport.mjs",
+    "bin/browser/package.json",
+    "bin/automation-runner.py",
+    "includes/class-content-authors.php",
+    "includes/class-external-research.php",
+    "includes/class-siteground-adapter.php"
+  ],
+  "php_syntax_files": 190,
+  "php_regression_files": 46,
+  "automation_config": "C:\\Users\\sumit\\.cc-assistant\\automation\\erofwhiterock\\config.json",
+  "scheduler_enabled": false,
+  "live_backend_installed": false
+}

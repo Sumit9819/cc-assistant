@@ -1,0 +1,414 @@
+<title>Faceless Studio Research Brief</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #F2F3F5;
+    --surface: #FFFFFF;
+    --ink: #1A1D24;
+    --muted: #5C6470;
+    --rule: #D6D9DE;
+    --accent: #C8922E;
+    --accent-soft: #F5E9D0;
+    --tag-official: #2F6B4F;
+    --tag-official-bg: #DFEEE6;
+    --tag-measured: #8A5F14;
+    --tag-measured-bg: #F5E9D0;
+    --tag-opinion: #5C6470;
+    --tag-opinion-bg: #E6E8EB;
+    --bad: #A43A2A;
+    --bad-bg: #F6E3DF;
+    --code-bg: #E9EBEE;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #15181E;
+      --surface: #1C2028;
+      --ink: #E6E8EB;
+      --muted: #9AA1AC;
+      --rule: #2A2F38;
+      --accent: #E8B24A;
+      --accent-soft: #3A3020;
+      --tag-official: #8FCDAE;
+      --tag-official-bg: #1F3A2E;
+      --tag-measured: #E8B24A;
+      --tag-measured-bg: #3A3020;
+      --tag-opinion: #9AA1AC;
+      --tag-opinion-bg: #262B34;
+      --bad: #E07A6A;
+      --bad-bg: #3A2320;
+      --code-bg: #232830;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #15181E;
+    --surface: #1C2028;
+    --ink: #E6E8EB;
+    --muted: #9AA1AC;
+    --rule: #2A2F38;
+    --accent: #E8B24A;
+    --accent-soft: #3A3020;
+    --tag-official: #8FCDAE;
+    --tag-official-bg: #1F3A2E;
+    --tag-measured: #E8B24A;
+    --tag-measured-bg: #3A3020;
+    --tag-opinion: #9AA1AC;
+    --tag-opinion-bg: #262B34;
+    --bad: #E07A6A;
+    --bad-bg: #3A2320;
+    --code-bg: #232830;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 68ch;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  h1, h2, h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-wrap: balance;
+    margin: 0;
+  }
+  h1 { font-size: 2.25rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.5rem; margin-top: 64px; }
+  h3 { font-size: 1.125rem; margin-top: 32px; font-weight: 500; }
+  p { margin: 14px 0; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  strong { font-weight: 600; }
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .lede { font-size: 1.15rem; color: var(--muted); margin-top: 14px; }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 8px 24px;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.78rem; color: var(--muted);
+    margin-top: 22px; padding-top: 18px;
+    border-top: 1px solid var(--rule);
+  }
+  hr.section { border: 0; border-top: 1px solid var(--rule); margin: 56px 0 0; }
+
+  .tag {
+    display: inline-block;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    padding: 2px 7px 1px;
+    border-radius: 3px;
+    vertical-align: 2px;
+    white-space: nowrap;
+  }
+  .tag.o { color: var(--tag-official); background: var(--tag-official-bg); }
+  .tag.m { color: var(--tag-measured); background: var(--tag-measured-bg); }
+  .tag.c { color: var(--tag-opinion); background: var(--tag-opinion-bg); }
+  .tag.x { color: var(--bad); background: var(--bad-bg); }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 10px 18px;
+    padding: 14px 16px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin: 18px 0 8px;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 8px; }
+
+  .summary {
+    display: grid; gap: 0;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    background: var(--surface);
+    margin: 24px 0 0;
+    overflow: hidden;
+  }
+  .summary > div {
+    padding: 16px 18px;
+    border-top: 1px solid var(--rule);
+  }
+  .summary > div:first-child { border-top: 0; }
+  .summary b {
+    display: block;
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+  .summary p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+  .tablewrap { overflow-x: auto; margin: 18px -8px; padding: 0 8px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 560px;
+    font-size: 0.92rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+  }
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 12px;
+    border-top: 1px solid var(--rule);
+  }
+  th {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-top: 0;
+    font-weight: 500;
+  }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.86rem; }
+  td.gap { font-weight: 500; }
+  td.gap.big { color: var(--bad); }
+  td.gap.ok { color: var(--tag-official); }
+
+  ul, ol { padding-left: 22px; margin: 12px 0; }
+  li { margin: 7px 0; }
+  li::marker { color: var(--muted); }
+
+  .priority { counter-reset: p; list-style: none; padding: 0; margin: 20px 0; }
+  .priority li {
+    counter-increment: p;
+    display: grid; grid-template-columns: 44px 1fr; gap: 14px;
+    padding: 16px 0; border-top: 1px solid var(--rule);
+    margin: 0;
+  }
+  .priority li:last-child { border-bottom: 1px solid var(--rule); }
+  .priority li::before {
+    content: counter(p, decimal-leading-zero);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 1.3rem; color: var(--accent); line-height: 1.1;
+    padding-top: 2px;
+  }
+  .priority b { display: block; font-weight: 600; margin-bottom: 4px; }
+  .priority small { color: var(--muted); font-size: 0.9rem; }
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin: 20px 0;
+  }
+  .callout p { margin: 6px 0; }
+  .wrong {
+    border-left: 3px solid var(--bad);
+    background: var(--bad-bg);
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin: 16px 0;
+  }
+  .wrong p { margin: 6px 0; }
+  .wrong b { color: var(--bad); }
+
+  code {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.86em;
+    background: var(--code-bg);
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  .snapshot {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.84rem;
+    line-height: 1.7;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 16px 18px;
+    overflow-x: auto;
+    white-space: pre;
+    margin: 18px 0;
+  }
+  .q { font-family: "IBM Plex Serif", Georgia, serif; font-size: 1.08rem; font-weight: 500; margin-top: 22px; }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<main>
+  <div class="eyebrow">Faceless Studio · Research brief · 25 Aug 2026</div>
+  <h1>What we've built, what the evidence says, and where the gaps are</h1>
+  <p class="lede">Four independent investigations, one honest picture. The pipeline works and has one finished video behind it. The evidence says the video's weaknesses are structural, not cosmetic, and most of them are writing problems before they are tooling problems.</p>
+  <div class="meta">
+    <span>1 codebase audit</span>
+    <span>3 research tracks</span>
+    <span>~270 tool calls</span>
+    <span>every claim graded</span>
+  </div>
+
+  <div class="legend">
+    <span><span class="tag o">official</span> YouTube's own statements or peer-reviewed research</span>
+    <span><span class="tag m">measured</span> counted by us, or creator data with numbers</span>
+    <span><span class="tag c">opinion</span> commentator or vendor claim, unsourced</span>
+  </div>
+
+  <h2>The five things that matter</h2>
+  <div class="summary">
+    <div><b>Our best structural asset is in the wrong place.</b><p>The script's "everyone got this wrong" refutation is the strongest-evidenced opening pattern in the literature (d ≈ 0.8). It's at 2:10, after a third of viewers have already left.</p></div>
+    <div><b>We have zero open loops. That's the biggest single gap.</b><p>The script is linear: problem, explanation, resolution. Every top channel analysed plants 3–4 payoffs and opens the next question in the same breath as closing the last. This is a writing change, not a feature.</p></div>
+    <div><b>Our cut rhythm is the slop signature.</b><p>Uniform 3–5 s cuts, standard deviation 0.82 s, zero held shots over 6 s in seven minutes. Research calls the uniform cut "a slop-clone heuristic, not observed practice." Top channels cut tight in minute one, widen later, burst at reveals.</p></div>
+    <div><b>Engagement is not what I assumed.</b><p>Comments are not an official ranking signal. The only engagement input YouTube documents weighting is predicted 4–5 star satisfaction. And since March, viewers are literally asked "did this feel like AI slop?" That survey is the real judge, not my originality gate.</p></div>
+    <div><b>We have no audience data, and nothing else can substitute for it.</b><p>Every improvement so far has been measured against research benchmarks. One published video would settle more than another week of my measurements.</p></div>
+  </div>
+
+  <hr class="section">
+  <h2>What we have built</h2>
+  <p>An independent audit of the codebase, not my memory of it. The pipeline is complete end to end and has produced a real video: script → voice → align → plan → assets → compose → shorts → thumbnail → package → originality gate. Every stage module is wired. Queries and cards survive re-planning, and the mix genuinely layers narration, music and effects with the ducking rules intended.</p>
+
+  <div class="snapshot">CURRENT MASTER · roman-concrete
+runtime          420 s  (7.0 min)     words     1,088  (155 wpm)
+shots            111    mean 3.37 s    sd 0.82 s    range 1.9–5.0
+shots over 6 s   0
+cards            13     one per 32 s   10.3% of runtime
+pauses over 1 s  9      longest 1.96 s
+loudness         narration 6.2 LU  →  master 3.7 LU
+music            no          sfx cues     15
+stills           unwired     open loops   none</div>
+
+  <h3>Scaffolding debt the audit found</h3>
+  <p>None of it blocks output. All of it is mine, from building fast.</p>
+  <ul>
+    <li><code>STAGES</code> carries two phantom entries — <code>script</code> and <code>graphics</code> — with no implementation. A finished project reports as <strong>9/11</strong> forever.</li>
+    <li><code>manifest.py</code> promises an <code>fvs run</code> command that does not exist. Eleven stages are driven by hand.</li>
+    <li>The Shorts scorer's "opens a section" bonus fires only for the first paragraph of the entire video. It is meaningless.</li>
+    <li>The <code>kind</code> field is vestigial: plan writes <code>"video"</code>, compose never reads it, and the originality gate checks for values nothing writes.</li>
+    <li><code>stills.py</code> is fully orphaned — Ken Burns is called from nowhere, including inside its own module. Two more dead functions, twelve stale card PNGs, one directory nothing writes to.</li>
+  </ul>
+
+  <hr class="section">
+  <h2>What the evidence says</h2>
+
+  <h3>Length</h3>
+  <p><span class="tag o">official</span> Guo, Kim &amp; Rubin, 6.9 million edX sessions: length was the strongest predictor of engagement; students rarely finished videos over 9 minutes; recommended ceiling ≤6. <span class="tag m">measured</span> The channels we'd be compared to don't operate there at all — I had each channel's last ~30 uploads counted: Half as Interesting median 7.8 min, Wendover 19.3, Kings &amp; Generals 19.8, Real Engineering 23.1, fern 27.3, RealLifeLore 33.0. Only one channel in the cohort ships under 10 minutes.</p>
+  <p>Our 7:00 sits between the lab optimum and the market. That is not a clear gap either way. What the evidence does say is that the <em>segments</em> are too small: a 56-study meta-analysis puts the segmenting effect at g ≈ 0.32–0.36, and the interpolated-question study found ~5.5-minute chunks reduced mind-wandering. We have ten chapters in seven minutes. Kings &amp; Generals uses 5–8 across twenty.</p>
+
+  <h3>The opening</h3>
+  <p><span class="tag o">official</span> Muller et al. 2008, 364 students, four controlled treatments: stating the common misconception and then refuting it beat plain exposition with effect sizes of <strong>d = 0.79 and 0.83</strong>. Low-prior-knowledge viewers gained most; experts were not harmed. <span class="tag m">measured</span> RealLifeLore's cold open, from the actual subtitle file: one dated superlative fact in sentence one, a stake by sentence three, no greeting, no "in this video."</p>
+  <div class="callout">
+    <p><strong>Our script already contains the refutation.</strong> "For decades these were read as evidence of sloppy work… Masic never accepted that reading." It is section four. The cold open is a durability comparison — accurate, and structurally the weaker of the two patterns we could lead with.</p>
+  </div>
+
+  <h3>Open loops and payoffs</h3>
+  <p><span class="tag o">official</span> The mechanism is Loewenstein's information gap; a 2025 meta-analysis confirms open goals pull attention until closed (the resumption effect) while finding no memory advantage — loops work as motivation, not recall. <span class="tag c">opinion</span> George Blackman's breakdown of a Johnny Harris video: 3–4 mini-payoffs per 10–15 minutes, the payoff is the <em>last</em> beat of a segment, and "as soon as one tension resolves, the audience needs to know what the next one is." No source gives a data-backed loop count; three per eight minutes is convention.</p>
+  <p>We have none. This is the largest gap in the table below and it is entirely a writing change.</p>
+
+  <h3>Shot rhythm</h3>
+  <p><span class="tag x">no data</span> No measured average-shot-length exists for any named channel. I looked for cut-rate analyses, Cinemetrics-style studies, editor interviews — nothing. <span class="tag c">opinion</span> What exists is vendor advice, but it is unanimous: tight in the first three minutes (10–20 s), widening to 25–40 s once the viewer is committed, with bursts at reveals. One reverse-engineered "fern clone" tutorial prescribes "cut every 3–5 seconds" — the research agent's verdict on that is worth quoting: <em>"a slop-clone heuristic, not observed practice."</em> The only rhythm evidence tied to a real retention graph: a video lost viewers where one confusing image held 20 s followed by 100+ s with no interrupt.</p>
+  <p>Our pipeline was built on the 3–5 s rule. That rule is the thing the top channels <em>don't</em> do.</p>
+
+  <h3>Section transitions and visual system</h3>
+  <p><span class="tag m">measured</span> Kings &amp; Generals: 5–8 chapter markers at 1.5–6 min spacing, with uppercase on-screen title cards at each. fern, Wendover, RealLifeLore, neo and Real Engineering had <em>zero</em> chapter markers on their latest uploads — their sectioning lives in the edit. <span class="tag c">opinion</span> The Vox-derived style: chapters marked "like book sections," lower-thirds slide in rather than cut, and the font, palette and animation curve never change mid-video. Sound: "the way to make something sound loud is to precede it with something very soft."</p>
+  <p>We have two full-frame section cards and one consistent visual system. We have no music, so the soft-before-loud contrast is unavailable to us.</p>
+
+  <h3>Maps, diagrams, archival</h3>
+  <p><span class="tag m">measured</span> RealLifeLore credits GEOlayers and MapTiler on its About page; Kings &amp; Generals' stated policy is "storytelling through an interactive map," scripting each scene with a visual description first and searching archival footage afterward; fern's staff list includes 3D animators and a head of fact-checking. <span class="tag c">opinion</span> The rule from the Vox analysis: "the map appears because the script needs geography, the chart because a number needs context." Vox's Joe Posner: use the form only when content is "distinctly visual" — b-roll alone does not suffice.</p>
+  <p>We have stat cards. We have no maps, diagrams or timelines, and the archival-stills module is built but unwired. For Roman concrete specifically, geography is light; a mechanism diagram (crack → water → calcium → calcite) is the missing visual.</p>
+
+  <h3>Writing for a flat voice</h3>
+  <p><span class="tag o">official</span> Berger, Moe &amp; Schweidel 2023, 600,000 reading sessions: concrete, familiar language and high-arousal <em>uncertain</em> emotions (anxious, exciting, hopeful) increased reading to the end; sad and cognitively heavy language reduced it. Ginns 2013 meta-analysis: conversational second-person style, d = 0.30 retention / 0.54 transfer. English end-focus: new information sits at the end of the clause where stress naturally falls — for a voice that cannot emphasise, <strong>putting the payload word last is the lever</strong>. <span class="tag x">no data</span> Short/long sentence alternation, per-minute fact density, and rhetorical questions have no retention evidence; they are practitioner convention.</p>
+  <p>Kokoro's flatness is a hard ceiling — measured across six voices, the best has 3.9 LU of range against 6–12 for programme audio. Qwen3-TTS 0.6B exists and fits in ~1 GB, but runs 3–5× slower than realtime on a high-end CPU and its prosody control is claimed, not tested by me. The realistic answer is that dynamics come from writing, pauses, music and effects — not from the voice.</p>
+
+  <h3>What the algorithm actually weights</h3>
+  <p><span class="tag o">official</span> YouTube's canonical statement names: clicks, watchtime, survey responses (only 4–5 stars count as "valued"), shares, likes, dislikes — weighted per viewer. <strong>Comments are not named in any official source.</strong> The Intro metric (% still watching at 30 s) is explicitly the thumbnail-title mismatch gauge. Creator Insider on session time: "probably isn't something the vast majority of creators should worry about unless/until we've really nailed the basics." <span class="tag c">opinion</span> "Satisfaction now outweighs watch time" and "comments outweigh likes" appear only on marketing blogs; no official source.</p>
+  <p><span class="tag m">measured</span> vidIQ, 10.2 million channels: median monthly growth 0.53% at under one upload a month, 2.18% at twelve or more — correlational, and not split by channel age. <span class="tag o">official</span> August 2026: Discovery is reserving home-page slots for new channels' videos. <span class="tag x">no data</span> The "first 10 videos" rule. Shorts-to-long-form conversion for documentaries. End-screen performance for this format.</p>
+
+  <h3>The policy, precisely</h3>
+  <p><span class="tag o">official</span> 15 July 2025: "repetitious" became "inauthentic content" — "generic or unoriginal templates," "image slideshows, templated storylines." 16 July 2026 clarification, three categories: generic/repetitive; "unsatisfying or off-putting"; and <strong>AI personas advising on health, finance, legal or political matters</strong>. AI disclosure "won't limit a video's audience or its eligibility to earn money." March 2026: viewers surveyed "did this feel like AI slop?" 24 August 2026: public views count from the first frame; earnings stay on Engaged Watch Hours.</p>
+  <div class="callout">
+    <p>The Roman concrete video is nowhere near the third category. But health and finance are your domains. If this channel ever puts a synthetic voice on a topic in either, presenting as an authority, that is the category by name. Worth knowing before a topic is chosen, not after.</p>
+  </div>
+  <p><span class="tag m">measured</span> Kapwing: 278 of the top 15,000 channels are all-AI; 104 of the first 500 videos served to a fresh account were slop. <span class="tag x">no data</span> No study measures whether viewers detect TTS narration specifically. The observable differentiators among winning channels are named narrators, on-screen fact-checking, original research hours, and a rigid visual system — not the presence of a face.</p>
+
+  <hr class="section">
+  <h2>Gap analysis</h2>
+  <p>Ours against the evidence. "Gap" is my judgment of severity; the evidence column is what it rests on.</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Dimension</th><th>Ours</th><th>Evidence</th><th>Gap</th></tr></thead>
+    <tbody>
+      <tr><td>Open loops</td><td>None; strictly linear</td><td>3–4 payoffs per video, universal among top channels <span class="tag c">opinion</span></td><td class="gap big">Largest</td></tr>
+      <tr><td>Cold open</td><td>Durability comparison</td><td>Refutation open d ≈ 0.8 <span class="tag o">official</span>; ours is buried at 2:10</td><td class="gap big">Large, cheap</td></tr>
+      <tr><td>Shot rhythm</td><td>Uniform, sd 0.82 s, no holds</td><td>Uniform cut = slop heuristic; variable is consensus <span class="tag c">opinion</span></td><td class="gap big">Large</td></tr>
+      <tr><td>Segments</td><td>10 chapters / 7 min</td><td>5–8 per 20 min <span class="tag m">measured</span>; ~5.5 min chunks <span class="tag o">official</span></td><td class="gap">Moderate</td></tr>
+      <tr><td>Music</td><td>Absent (parked)</td><td>Soft-before-loud is the transition device <span class="tag c">opinion</span>; programme dynamics can only come from here <span class="tag m">measured</span></td><td class="gap">Moderate</td></tr>
+      <tr><td>Diagrams / maps</td><td>Stat cards only</td><td>Map when geography, chart when a number <span class="tag c">opinion</span></td><td class="gap">Moderate, topic-dependent</td></tr>
+      <tr><td>Archival stills</td><td>Built, unwired</td><td>K&amp;G and RLL lean on archival <span class="tag m">measured</span></td><td class="gap">Moderate, mechanical</td></tr>
+      <tr><td>Section markers</td><td>2 full-frame cards</td><td>Title card + music drop <span class="tag m">measured</span></td><td class="gap">Small</td></tr>
+      <tr><td>Voice</td><td>Kokoro, 3.9 LU ceiling</td><td>No TTS-detection study <span class="tag x">no data</span>; named narrators differentiate <span class="tag m">measured</span></td><td class="gap">Ceiling; mitigate in writing</td></tr>
+      <tr><td>Sources on screen</td><td>Every card</td><td>An authorship signal <span class="tag c">opinion</span></td><td class="gap ok">Present</td></tr>
+      <tr><td>Visual consistency</td><td>One font, one palette</td><td>Never change mid-video <span class="tag c">opinion</span></td><td class="gap ok">Present</td></tr>
+      <tr><td>Sound design</td><td>15 cues in pauses</td><td>Supported <span class="tag c">opinion</span></td><td class="gap ok">Present</td></tr>
+      <tr><td>Length</td><td>7:00</td><td>≤6 lab optimum <span class="tag o">official</span>; 19 market median <span class="tag m">measured</span></td><td class="gap ok">Not a gap</td></tr>
+      <tr><td>Comment prompts</td><td>None</td><td>Not a ranking signal <span class="tag o">official</span></td><td class="gap ok">Not a gap</td></tr>
+      <tr><td>Audience data</td><td>None</td><td>Everything above is a proxy for it</td><td class="gap big">Total</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <hr class="section">
+  <h2>What I got wrong</h2>
+  <p>These are corrections to things I told you in this session, surfaced by the research rather than left to stand.</p>
+  <div class="wrong"><p><b>"155 wpm is at the fast end; the video never lets the viewer rest."</b></p><p>The strongest study on the question found faster speaking rate correlated with <em>higher</em> engagement. The claim was instinct, not evidence. Withdrawn. The held-shot problem stands on its own numbers.</p></div>
+  <div class="wrong"><p><b>The 3–5 second cut rhythm as a design principle.</b></p><p>I built the planner on it from a research summary. The competitive analysis found no channel that does it and one reverse-engineering tutorial that prescribes it. I built the slop heuristic and then measured myself against it.</p></div>
+  <div class="wrong"><p><b>Comments as an engagement lever.</b></p><p>I would have built a comment-prompt feature on assumption. No official YouTube source names comments as a signal.</p></div>
+  <div class="wrong"><p><b>Some of my earlier thumbnail numbers.</b></p><p>"+30% for under four words" and similar came from the same class of marketing blog the engagement research graded as opinion. The directional advice is fine; the percentages should not be repeated as data.</p></div>
+
+  <hr class="section">
+  <h2>What not to build on</h2>
+  <p>Claims that circulate confidently and have no support I could find. Listed so we don't spend effort on them.</p>
+  <ul>
+    <li>Any specific loop count per video. Three is convention.</li>
+    <li>Short/long sentence alternation as a measurable retention gain.</li>
+    <li>A per-minute fact-density target.</li>
+    <li>Rhetorical questions to the viewer as a retention device.</li>
+    <li>Session-time engineering, end-screen CTR benchmarks, "3–7%" figures.</li>
+    <li>The "first 10 videos" rule for new channels.</li>
+    <li>Shorts as a funnel to 7-minute documentaries. The bridge exists but only for viewers who already watch your Shorts, and there is no conversion data for this format.</li>
+    <li>Face-absence as an AI proxy. One journalist's assertion plus one creator's testimony. Not measured.</li>
+  </ul>
+
+  <hr class="section">
+  <h2>Recommended priorities</h2>
+  <p>Ordered by evidence strength divided by cost. The first three are writing and planning changes that need no new code.</p>
+  <ol class="priority">
+    <li><div><b>Rewrite the script with the refutation as the cold open and three planted loops.</b><small>d ≈ 0.8 for the opening pattern, the loop structure is universal among top channels, and it costs a rewrite plus a ~15-minute rebuild now that queries and cards survive re-planning. The single highest-yield change available.</small></div></li>
+    <li><div><b>Replace the uniform cut with a shaped rhythm: tight open, held shots later, bursts at reveals.</b><small>This is a planner change — the pace profiles exist, but they vary the window, not the <em>shape</em>. It needs deliberate holds and punch cuts, which is the mechanism I never built. It also directly addresses the slop-signature risk.</small></div></li>
+    <li><div><b>Cut sections from ten to five or six, with a music drop at each.</b><small>Segmenting evidence g ≈ 0.32; the market does 5–8. Music is the missing half of every transition device the research describes, and the loudness measurements proved dynamics cannot come from the voice.</small></div></li>
+    <li><div><b>Add one mechanism diagram card type.</b><small>The video's central idea is a four-step process. A stat card cannot show it; a simple animated-step diagram can. "The chart appears because a number needs context" — this is that number.</small></div></li>
+    <li><div><b>Wire stills and Ken Burns.</b><small>Built, verified, orphaned. Mechanical to connect. Adds the archival texture the top channels have and stock video cannot supply.</small></div></li>
+    <li><div><b>Clear the scaffolding debt.</b><small>Phantom stages, the missing <code>fvs run</code>, the Shorts scorer bug, dead code. An hour. Not urgent, but the 9/11 status line is misleading and should not persist.</small></div></li>
+    <li><div><b>Publish, and let the Intro metric and the satisfaction survey judge.</b><small>Nothing above is measurable without an audience. YouTube is currently reserving home-page slots for new channels. That window is worth more than another cycle of optimisation against proxies.</small></div></li>
+  </ol>
+
+  <hr class="section">
+  <h2>For discussion</h2>
+  <p>These are calls I can't make for you, and the report is not complete until they're made.</p>
+  <p class="q">Length: stay at 7 minutes, or move toward the market's 15–20?</p>
+  <p>The lab says shorter. The peers say longer. Longer means more research per video and a different economics. It also changes what "one video a week" costs.</p>
+  <p class="q">How much of the loop-and-payoff structure should be scripted by me versus a template I hand you?</p>
+  <p>I can write the next script to the eight-minute template the research produced. Or the template becomes a document and you shape the argument. The evidence favours the writing being authored, not generated — which cuts against my doing it every time.</p>
+  <p class="q">Does the health-and-finance policy line affect topic choice for this channel?</p>
+  <p>If the answer is "this channel stays on science, history and engineering," the third policy category is irrelevant. If finance is ever on the table, it needs a deliberate approach before the first such video, not a retrofit.</p>
+  <p class="q">Music: revisit now with the evidence, or after the first publish?</p>
+  <p>You parked it on taste. The research gives it a structural role I didn't have an argument for at the time. But taste is a legitimate veto, and I'd rather ask than override.</p>
+</main>

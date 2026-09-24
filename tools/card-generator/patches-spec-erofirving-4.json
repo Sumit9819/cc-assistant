@@ -1,0 +1,66 @@
+[
+  {
+    "post_id": 3886,
+    "patches": [
+      {
+        "search": "<h2><strong>Atypical Stroke Symptoms You Should Not Miss</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-fast-signs.webp\" alt=\"The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Atypical Stroke Symptoms You Should Not Miss</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>What Not To Do: 4 Mistakes That Cost Critical Minutes</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-first-five-minutes.webp\" alt=\"Five steps to take in the first five minutes of a suspected stroke\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>What Not To Do: 4 Mistakes That Cost Critical Minutes</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>FAQs</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-er-stroke-clock.webp\" alt=\"The stroke workup at ER of Irving: exam within fifteen minutes, CT within twenty five, results within forty five, treatment decision within sixty\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>FAQs</strong></h2>"
+      }
+    ],
+    "summary": "Add 3 in-body triage card(s) to post 3886",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3816,
+    "patches": [
+      {
+        "search": "<h2><b>Chemical Splashes in the Eye</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-eye-red-flags.webp\" alt=\"Five eye symptoms that need emergency care: severe pain, pain with headache or fever, sudden vision loss, halos around lights, and trauma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Chemical Splashes in the Eye</b></h2>"
+      },
+      {
+        "search": "<h2><b>When \"Seeing Spots\" is a Retinal Emergency</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-scratched-cornea.webp\" alt=\"Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>When \"Seeing Spots\" is a Retinal Emergency</b></h2>"
+      },
+      {
+        "search": "<h2><b>Sudden Vision Loss: Understanding the Risks</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-retinal-spots.webp\" alt=\"Three retinal emergency signs: flashes of light, a curtain across the vision, and a sudden shower of floaters\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Sudden Vision Loss: Understanding the Risks</b></h2>"
+      },
+      {
+        "search": "<h2><strong>Don't Wait, Protect Your Vision!</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-eye-what-not-to-do.webp\" alt=\"Three things not to do after an eye injury, and the one thing you should do\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Don't Wait, Protect Your Vision!</strong></h2>"
+      }
+    ],
+    "summary": "Add 4 in-body triage card(s) to post 3816",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3930,
+    "patches": [
+      {
+        "search": "<h2><b>Need Immediate Care for a Deep Cut in Irving, TX?</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-what-to-expect.webp\" alt=\"The four stages of having a deep cut closed: numbing, irrigation, closure, and aftercare\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Need Immediate Care for a Deep Cut in Irving, TX?</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3930",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3921,
+    "patches": [
+      {
+        "search": "<h2><b>What Pediatric-Friendly Emergency Care Looks Like</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-fever-home-care.webp\" alt=\"What to do and what to avoid when caring for a child's fever of 101 to 102 degrees at home\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>What Pediatric-Friendly Emergency Care Looks Like</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3921",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  }
+]

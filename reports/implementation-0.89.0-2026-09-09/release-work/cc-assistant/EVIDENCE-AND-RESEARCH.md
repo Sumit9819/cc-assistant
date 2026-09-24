@@ -1,0 +1,19 @@
+# Evidence and research, version 0.88.0
+
+Claude can research a proposed article before it exists. `content_research` retains the existing `post_id` mode and adds `topic`, `anchor_post_id`, `reader_goal` and `proposed_contribution`. Obtain the anchor from current `get_content_scope`; maintain stale scope through `manage_content_scope`. No GSC gap is required.
+
+For topic research, provide up to three `competitor_urls` and three `primary_source_urls`. Sources are caller-selected, and their claimed role is not independently certified. The plugin safely fetches bounded public excerpts and records capture conditions and failed/blocked responses. It does not search the web, verify search positions, certify facts or measure global novelty. Use Claude's available search tools to discover sources, then inspect actual evidence. The proposed contribution remains a hypothesis until supported.
+
+The result includes lexical candidates from paginated site inventory (`scan_limit`, `offset`), language and extraction coverage. These candidates are leads for editorial comparison, not duplicate verdicts. Inspect the actual reader tasks before choosing a new article, improving an existing answer, linking or deferring. Actor-scoped research records are retained under the existing 30-record/90-day limit.
+
+`whoami.session_recap.memory_consistency` and `get_site_memory.memory_consistency` expose possible obsolete durable recipes with stable rule IDs, excerpts, section names and hashes. Phrase matches can include negations or quotations; they are review prompts, not automatic corrections. The scan covers site notes, not every local file or skill. Current user intent governs the task; an old active job record cannot authorize unrelated work. Preserve explicit service facts and consent restrictions when reconciling recipes.
+
+Strategy context version `memory-context-2` includes site identity, Rules, Decisions and any preamble. Structured Sessions entries do not affect this hash. Unstructured legacy notes remain fully included so an old rule cannot be silently discarded. Promote lasting corrections from Sessions to Rules or Decisions. Existing profiles/workflows use the old context hash and need a fresh evidence review after this upgrade; old drafts remain stored. Do not create duplicate drafts merely because an older workflow is stale.
+
+Discovery classifies common utility, legal and translated pages as context instead of automatic service anchors. Classification is heuristic and context remains visible. Saved explicit profiles are preserved; Claude should review old selections and inspect any uncertain business role.
+
+`operator_brain_push(paths=[...])` accepts one to fifty exact collected paths. It merges just those files, never deletes other remote files, and verifies selected hashes. An invalid or empty selection is rejected. Omitting `paths` retains legacy full synchronization, including deletion of remote-only files: use it only for a deliberately reviewed whole dataset. A curated site brain need not match unrelated local client files. Concurrent remote changes are not protected by a server compare-and-swap transaction in this release; verify returned results and re-read conflicts.
+
+Publication still requires the existing review flow. Research and workflow records do not start an unattended Claude process. Capability and content verification remain partial; native SiteGround Optimizer execution, broader plugin adapters, scheduled model orchestration, external SERP data and causal outcome measurement are separate work.
+
+Primary guidance: [Google's people-first content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) and [AI features guidance](https://developers.google.com/search/docs/appearance/ai-features). Neither a fixed content quota nor a plugin score establishes rankings.

@@ -1,0 +1,3284 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.5"
+      }
+    }
+  },
+  {
+    "name": "gsc_warehouse_sync",
+    "isError": false,
+    "result": {
+      "site": "irvingwellnessclinic-com",
+      "db_path": "C:\\Users\\sumit\\.cc-assistant\\warehouse\\irvingwellnessclinic-com.sqlite",
+      "synced_dates": 7,
+      "rows_fetched": 2858,
+      "seconds": 10,
+      "coverage": {
+        "dates": 302,
+        "earliest": "2025-11-11",
+        "latest": "2026-09-08"
+      },
+      "backfill_remaining_dates": 0,
+      "db_size_mb": 19.2
+    }
+  },
+  {
+    "name": "list_theme_templates",
+    "isError": false,
+    "result": {
+      "templates": [
+        {
+          "id": 5,
+          "title": "Default Kit",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "kit",
+          "taxonomy_types": [],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-05-22 04:29:31",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=5&action=edit"
+        },
+        {
+          "id": 64,
+          "title": "Elementor Header #64",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "header",
+          "taxonomy_types": [
+            "header"
+          ],
+          "conditions": [
+            "include/general"
+          ],
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-08-26 05:48:30",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=64&action=edit"
+        },
+        {
+          "id": 68,
+          "title": "Elementor Footer #68",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "footer",
+          "taxonomy_types": [
+            "footer"
+          ],
+          "conditions": [
+            "include/general"
+          ],
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-08-26 08:10:43",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=68&action=edit"
+        },
+        {
+          "id": 184,
+          "title": "Non-IV Injections - NAD+ Injection (25mg-200mg)",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:54",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=184&action=edit"
+        },
+        {
+          "id": 187,
+          "title": "Biotin+ - Injection",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:26",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=187&action=edit"
+        },
+        {
+          "id": 190,
+          "title": "Lipo+ - Injection",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:38:44",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=190&action=edit"
+        },
+        {
+          "id": 193,
+          "title": "Micro-needling - Full Face - Single Session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:00",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=193&action=edit"
+        },
+        {
+          "id": 196,
+          "title": "Micro-needling - Full Face - 3 Session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:38:55",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=196&action=edit"
+        },
+        {
+          "id": 199,
+          "title": "D3 - Injections",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:10",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=199&action=edit"
+        },
+        {
+          "id": 202,
+          "title": "Glutathione - Injections",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:35:52",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=202&action=edit"
+        },
+        {
+          "id": 205,
+          "title": "PickUp Point",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:42:55",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=205&action=edit"
+        },
+        {
+          "id": 207,
+          "title": "Skinvive",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:06:14",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=207&action=edit"
+        },
+        {
+          "id": 211,
+          "title": "Homepage Popup",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": [
+            "include/general"
+          ],
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-08-25 09:22:11",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=211&action=edit"
+        },
+        {
+          "id": 213,
+          "title": "Male Pellet",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:38:47",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=213&action=edit"
+        },
+        {
+          "id": 216,
+          "title": "Female Pellet",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:14",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=216&action=edit"
+        },
+        {
+          "id": 219,
+          "title": "BioPro",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=219&action=edit"
+        },
+        {
+          "id": 222,
+          "title": "Kybella",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:24",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=222&action=edit"
+        },
+        {
+          "id": 225,
+          "title": "Microneedling 1 Treatment",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:06",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=225&action=edit"
+        },
+        {
+          "id": 228,
+          "title": "Microneedling 3 Treatment",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:11",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=228&action=edit"
+        },
+        {
+          "id": 231,
+          "title": "Microneedling with PRP 3 Treatment",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:38",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=231&action=edit"
+        },
+        {
+          "id": 234,
+          "title": "Microneedling with PRP 1 Treatment",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:15",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=234&action=edit"
+        },
+        {
+          "id": 237,
+          "title": "Body Contouring - Face Contouring - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:30:41",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=237&action=edit"
+        },
+        {
+          "id": 240,
+          "title": "Body Contouring - Buttocks - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:30:04",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=240&action=edit"
+        },
+        {
+          "id": 243,
+          "title": "Body Contouring - Buttocks - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:58",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=243&action=edit"
+        },
+        {
+          "id": 246,
+          "title": "Body Contouring - Arms - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:45",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=246&action=edit"
+        },
+        {
+          "id": 249,
+          "title": "Body Contouring - Arms - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:52",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=249&action=edit"
+        },
+        {
+          "id": 252,
+          "title": "Body Contouring - Upper Back - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:31:29",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=252&action=edit"
+        },
+        {
+          "id": 255,
+          "title": "Body Contouring - Upper Back - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:31:07",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=255&action=edit"
+        },
+        {
+          "id": 258,
+          "title": "Body Contouring - Legs - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:31:02",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=258&action=edit"
+        },
+        {
+          "id": 261,
+          "title": "Body Contouring - Legs - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:30:57",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=261&action=edit"
+        },
+        {
+          "id": 264,
+          "title": "Cherry Angioma - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:32:55",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=264&action=edit"
+        },
+        {
+          "id": 267,
+          "title": "Cherry Angioma - (3 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:32:51",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=267&action=edit"
+        },
+        {
+          "id": 270,
+          "title": "Crow's Feet - 5 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:00",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=270&action=edit"
+        },
+        {
+          "id": 273,
+          "title": "Crow's Feet - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:05",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=273&action=edit"
+        },
+        {
+          "id": 276,
+          "title": "Small Lines - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:09",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=276&action=edit"
+        },
+        {
+          "id": 279,
+          "title": "Small Lines - (5 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:06:20",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=279&action=edit"
+        },
+        {
+          "id": 282,
+          "title": "Lip Plumping - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:38:35",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=282&action=edit"
+        },
+        {
+          "id": 285,
+          "title": "Lip Plumping - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:38:40",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=285&action=edit"
+        },
+        {
+          "id": 288,
+          "title": "Fillers - 2 syringes",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:25",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=288&action=edit"
+        },
+        {
+          "id": 291,
+          "title": "Botox - Per Unit",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:31:26",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=291&action=edit"
+        },
+        {
+          "id": 294,
+          "title": "Fillers - 1 syringe",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=294&action=edit"
+        },
+        {
+          "id": 297,
+          "title": "Vascular Lesions - 1 Hour - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:45",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=297&action=edit"
+        },
+        {
+          "id": 300,
+          "title": "Stretch Marks & Scars - Large Area - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:14",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=300&action=edit"
+        },
+        {
+          "id": 303,
+          "title": "Skin Correction - Oral or Eye Area - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:29",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=303&action=edit"
+        },
+        {
+          "id": 306,
+          "title": "Skin Correction - Oral or Eye Area - Single Session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:36",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=306&action=edit"
+        },
+        {
+          "id": 309,
+          "title": "Skin Correction - Neck and Decolletage - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:17",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=309&action=edit"
+        },
+        {
+          "id": 312,
+          "title": "Skin Correction - Neck and Decolletage - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:40:17",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=312&action=edit"
+        },
+        {
+          "id": 315,
+          "title": "Skin Correction - Hands or Knees - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:40:09",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=315&action=edit"
+        },
+        {
+          "id": 318,
+          "title": "Skin Correction - Hands or Knees - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:40:13",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=318&action=edit"
+        },
+        {
+          "id": 321,
+          "title": "Skin Correction - Face and Neck - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:40:05",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=321&action=edit"
+        },
+        {
+          "id": 324,
+          "title": "Skin Correction - Face and Neck - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:40:01",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=324&action=edit"
+        },
+        {
+          "id": 327,
+          "title": "Vascular Lesions - 30 Min Session - (3 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:09:04",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=327&action=edit"
+        },
+        {
+          "id": 330,
+          "title": "Vascular Lesions - 30 Min - Single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:09:01",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=330&action=edit"
+        },
+        {
+          "id": 333,
+          "title": "Vascular Lesions - 1.5 Hour - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:08:56",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=333&action=edit"
+        },
+        {
+          "id": 336,
+          "title": "Vascular Lesions - 1.5 Hour - (3 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:08:48",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=336&action=edit"
+        },
+        {
+          "id": 339,
+          "title": "Vascular Lesions - 1 Hour Session - (3 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:08:43",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=339&action=edit"
+        },
+        {
+          "id": 342,
+          "title": "Body Contouring - Inner Thigh - Single Session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:30:51",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=342&action=edit"
+        },
+        {
+          "id": 345,
+          "title": "Body Contouring - Inner Thigh - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:30:45",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=345&action=edit"
+        },
+        {
+          "id": 348,
+          "title": "Body Contouring - Face Contouring - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:30:36",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=348&action=edit"
+        },
+        {
+          "id": 351,
+          "title": "Body Contouring - Abdomen - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:34",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=351&action=edit"
+        },
+        {
+          "id": 354,
+          "title": "Body Contouring - Abdomen - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:40",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=354&action=edit"
+        },
+        {
+          "id": 357,
+          "title": "blog-2",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "page",
+          "taxonomy_types": [
+            "page"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:43:44",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=357&action=edit"
+        },
+        {
+          "id": 360,
+          "title": "Book a discovery call",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "page",
+          "taxonomy_types": [
+            "page"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:43:44",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=360&action=edit"
+        },
+        {
+          "id": 362,
+          "title": "Skin Rejuvenation - Full Face Hyperpigmentation - (6 sessions)",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:54",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=362&action=edit"
+        },
+        {
+          "id": 365,
+          "title": "Skin Rejuvenation - Full Face Hyperpigmentation - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:58",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=365&action=edit"
+        },
+        {
+          "id": 368,
+          "title": "Skin Rejuvenation - Decolletage Hyperpigmentation - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:49",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=368&action=edit"
+        },
+        {
+          "id": 371,
+          "title": "Skin Rejuvenation - Decolletage Hyperpigmentation - (6 sessions)",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:05:43",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=371&action=edit"
+        },
+        {
+          "id": 374,
+          "title": "Skin Rejuvenation - Half Face Hyperpigmentation - Single Session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:06:09",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=374&action=edit"
+        },
+        {
+          "id": 377,
+          "title": "Skin Rejuvenation - Half Face Hyperpigmentation - (5 sessions)",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:06:04",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=377&action=edit"
+        },
+        {
+          "id": 380,
+          "title": "Half Face Acne Scars - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:16",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=380&action=edit"
+        },
+        {
+          "id": 383,
+          "title": "Half Face Acne Scars - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:01",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=383&action=edit"
+        },
+        {
+          "id": 386,
+          "title": "Full Face Acne Scars - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:59",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=386&action=edit"
+        },
+        {
+          "id": 389,
+          "title": "Full Face Acne Scars - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:46",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=389&action=edit"
+        },
+        {
+          "id": 392,
+          "title": "Stretch Marks & Scars - Small Area - (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:36",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=392&action=edit"
+        },
+        {
+          "id": 395,
+          "title": "Stretch Marks & Scars - Medium Area - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:28",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=395&action=edit"
+        },
+        {
+          "id": 398,
+          "title": "Stretch Marks & Scars - Small Area",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:32",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=398&action=edit"
+        },
+        {
+          "id": 401,
+          "title": "Stretch Marks & Scars - Large Area - single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:18",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=401&action=edit"
+        },
+        {
+          "id": 404,
+          "title": "Stretch Marks & Scars - Medium Area - (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:23",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=404&action=edit"
+        },
+        {
+          "id": 407,
+          "title": "Thyroid Optimization - Hormone Therapy - $150 per visit",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:07:41",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=407&action=edit"
+        },
+        {
+          "id": 410,
+          "title": "Laser Hair Removal - X-Small Area - $200",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:58",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=410&action=edit"
+        },
+        {
+          "id": 413,
+          "title": "Laser Hair Removal - X-Small Area - $1,200 (8 sessions)",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:54",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=413&action=edit"
+        },
+        {
+          "id": 416,
+          "title": "Laser Hair Removal - Small Area - $250 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:50",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=416&action=edit"
+        },
+        {
+          "id": 419,
+          "title": "Laser Hair Removal - Small Area - $1,800 (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:46",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=419&action=edit"
+        },
+        {
+          "id": 422,
+          "title": "Wrinkles & Texture - Neck Treatment - $2,750 (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=422&action=edit"
+        },
+        {
+          "id": 425,
+          "title": "Wrinkles & Texture - Hands or Partial Face - $250 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:24",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=425&action=edit"
+        },
+        {
+          "id": 428,
+          "title": "Wrinkles & Texture - Hands or Partial Face - $1,300 (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:29",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=428&action=edit"
+        },
+        {
+          "id": 431,
+          "title": "Wrinkles & Texture - Half Face - $400 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:35",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=431&action=edit"
+        },
+        {
+          "id": 434,
+          "title": "Wrinkles & Texture - Half Face - $2,100 (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:39",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=434&action=edit"
+        },
+        {
+          "id": 437,
+          "title": "Wrinkles & Texture - Full Face - $500 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:44",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=437&action=edit"
+        },
+        {
+          "id": 440,
+          "title": "Wrinkles & Texture - Full Face - $2,750 (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:11:04",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=440&action=edit"
+        },
+        {
+          "id": 443,
+          "title": "Wrinkles & Texture - Decolletage Treatment - $500 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:11:09",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=443&action=edit"
+        },
+        {
+          "id": 446,
+          "title": "Wrinkles & Texture - Decolletage Treatment - $2,750 (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:11:12",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=446&action=edit"
+        },
+        {
+          "id": 449,
+          "title": "Wellness Coaching - 6-Month Mastery - $450",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:11:15",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=449&action=edit"
+        },
+        {
+          "id": 452,
+          "title": "Wellness Appointment - New Patient",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:09:09",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=452&action=edit"
+        },
+        {
+          "id": 455,
+          "title": "Wellness Coaching - $125",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:09:14",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=455&action=edit"
+        },
+        {
+          "id": 458,
+          "title": "Wrinkles & Texture - Neck Treatment - $500 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 15:10:14",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=458&action=edit"
+        },
+        {
+          "id": 461,
+          "title": "Invisa-Red 6 Sessions - $275",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:48",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=461&action=edit"
+        },
+        {
+          "id": 464,
+          "title": "Service",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "page",
+          "taxonomy_types": [
+            "page"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:43:59",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=464&action=edit"
+        },
+        {
+          "id": 466,
+          "title": "B12 Shots",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:06",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=466&action=edit"
+        },
+        {
+          "id": 469,
+          "title": "Brainstrom IV",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:32:46",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=469&action=edit"
+        },
+        {
+          "id": 472,
+          "title": "Laser Hair Removal - Medium Area -$350 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:41",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=472&action=edit"
+        },
+        {
+          "id": 475,
+          "title": "Laser Hair Removal - Medium Area - $2,500 (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:37",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=475&action=edit"
+        },
+        {
+          "id": 478,
+          "title": "Laser Hair Removal - Large Area - $450 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:32",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=478&action=edit"
+        },
+        {
+          "id": 481,
+          "title": "Laser Hair Removal - Large Area - $3,500 (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:28",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=481&action=edit"
+        },
+        {
+          "id": 484,
+          "title": "Invisa-Red Single Session - $50",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:37:20",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=484&action=edit"
+        },
+        {
+          "id": 487,
+          "title": "Invisa-Red 12 Sessions - $499",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:44",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=487&action=edit"
+        },
+        {
+          "id": 490,
+          "title": "Half Face Acne Scars - $400 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:11",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=490&action=edit"
+        },
+        {
+          "id": 493,
+          "title": "Half Face Acne Scars - $2,300 (6 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:07",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=493&action=edit"
+        },
+        {
+          "id": 496,
+          "title": "Hair Removal Bundle - $8,500 package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:35:56",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=496&action=edit"
+        },
+        {
+          "id": 499,
+          "title": "GLP-1 Tirzepatide – 6 Months - $3,000 - MOST POPULAR",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:47",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=499&action=edit"
+        },
+        {
+          "id": 502,
+          "title": "GLP-1 Tirzepatide – 3 Months - $1,500",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:42",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=502&action=edit"
+        },
+        {
+          "id": 505,
+          "title": "GLP-1 Tirzepatide – 1 Month - $579",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:38",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=505&action=edit"
+        },
+        {
+          "id": 508,
+          "title": "GLP-1 Semaglutide – 6 Months - $2,094 - MOST POPULAR",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:34",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=508&action=edit"
+        },
+        {
+          "id": 511,
+          "title": "GLP-1 Semaglutide – 3 Months - $1,250",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:29",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=511&action=edit"
+        },
+        {
+          "id": 514,
+          "title": "GLP-1 Semaglutide – 1 Month - $499",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:24",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=514&action=edit"
+        },
+        {
+          "id": 517,
+          "title": "Full Face Acne Scars - $500 / single session",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:56",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=517&action=edit"
+        },
+        {
+          "id": 520,
+          "title": "Full Face Acne Scars - $3,750 (8 sessions) package",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:33:51",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=520&action=edit"
+        },
+        {
+          "id": 523,
+          "title": "Bioidentical Hormone Therapy - $250–$400",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:29:13",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=523&action=edit"
+        },
+        {
+          "id": 526,
+          "title": "Main_Header",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "header",
+          "taxonomy_types": [
+            "header"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=526&action=edit"
+        },
+        {
+          "id": 528,
+          "title": "Elementor Header #7200",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "header",
+          "taxonomy_types": [
+            "header"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=528&action=edit"
+        },
+        {
+          "id": 530,
+          "title": "Elementor Footer #7255",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "footer",
+          "taxonomy_types": [
+            "footer"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=530&action=edit"
+        },
+        {
+          "id": 533,
+          "title": "Medical Weight Loss",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-post",
+          "taxonomy_types": [
+            "single-post"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:20",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=533&action=edit"
+        },
+        {
+          "id": 537,
+          "title": "IV Hydration Therapy",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-post",
+          "taxonomy_types": [
+            "single-post"
+          ],
+          "conditions": [
+            "include/singular/post"
+          ],
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-08-25 09:21:37",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=537&action=edit"
+        },
+        {
+          "id": 541,
+          "title": "Medical Aesthetic",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-post",
+          "taxonomy_types": [
+            "single-post"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:20",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=541&action=edit"
+        },
+        {
+          "id": 545,
+          "title": "Hormone Therapy",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-post",
+          "taxonomy_types": [
+            "single-post"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:20",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=545&action=edit"
+        },
+        {
+          "id": 549,
+          "title": "Wellness Coaching",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-post",
+          "taxonomy_types": [
+            "single-post"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:21",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=549&action=edit"
+        },
+        {
+          "id": 553,
+          "title": "Featured Blog",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-post",
+          "taxonomy_types": [
+            "single-post"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:21",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=553&action=edit"
+        },
+        {
+          "id": 557,
+          "title": "Refined Footer",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "footer",
+          "taxonomy_types": [
+            "footer"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:21",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=557&action=edit"
+        },
+        {
+          "id": 559,
+          "title": "Contact Us",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "single-page",
+          "taxonomy_types": [
+            "single-page"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-27 10:44:21",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=559&action=edit"
+        },
+        {
+          "id": 562,
+          "title": "$50 Consult Popup",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:28:57",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=562&action=edit"
+        },
+        {
+          "id": 565,
+          "title": "Mayers' Cocktail",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:38:51",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=565&action=edit"
+        },
+        {
+          "id": 568,
+          "title": "Hangover IV",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:36:19",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=568&action=edit"
+        },
+        {
+          "id": 571,
+          "title": "Glutathione",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:34:50",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=571&action=edit"
+        },
+        {
+          "id": 574,
+          "title": "NAD+ 250mg",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:42",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=574&action=edit"
+        },
+        {
+          "id": 577,
+          "title": "NAD+ 500mg",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-03-30 13:39:47",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=577&action=edit"
+        },
+        {
+          "id": 10147,
+          "title": "25$ Booking Consult",
+          "post_type": "elementor_library",
+          "status": "publish",
+          "template_type": "popup",
+          "taxonomy_types": [
+            "popup"
+          ],
+          "conditions": "",
+          "has_elementor_data": true,
+          "edit_mode": "builder",
+          "modified": "2026-07-15 07:33:04",
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10147&action=edit"
+        }
+      ],
+      "count": 136,
+      "conditions_cache": {
+        "elementor_body_end": {
+          "9621": [
+            "include/general"
+          ]
+        },
+        "elementor_head": {
+          "133": [
+            "include/general"
+          ],
+          "134": [
+            "include/general"
+          ],
+          "9612": [
+            "include/singular/page/610"
+          ]
+        },
+        "single": {
+          "537": [
+            "include/singular/post"
+          ]
+        },
+        "popup": {
+          "211": [
+            "include/general"
+          ]
+        },
+        "elementor_body_start": {
+          "135": [
+            "include/general"
+          ]
+        },
+        "footer": {
+          "68": [
+            "include/general"
+          ]
+        },
+        "header": {
+          "64": [
+            "include/general"
+          ]
+        }
+      },
+      "note": "A published template renders only when it appears in conditions_cache. Missing there but present in conditions meta => run refresh_theme_builder_conditions."
+    }
+  },
+  {
+    "name": "get_plugin_settings",
+    "isError": false,
+    "result": {
+      "slug": "seo-by-rank-math",
+      "type": "plugin",
+      "name": "Rank Math SEO",
+      "installed": true,
+      "active": true,
+      "version": "1.0.276",
+      "captured_at_utc": "2026-09-10 04:45:28",
+      "capability_evidence": {
+        "source": "installed_files_and_stored_options",
+        "complete": false,
+        "option_ownership": "heuristic",
+        "available_features": "unknown",
+        "license_entitlements": "unknown",
+        "effective_runtime_values": "unknown",
+        "instruction": "Only the listed storage and registry facts were observed. Never invent controls, accepted values, UI locations or Pro features. Inspect the installed runtime schema or exact-version vendor documentation before a feature plan; absence here does not establish absence of a feature."
+      },
+      "text_domain": "seo-by-rank-math",
+      "prefixes_tried": [
+        "seo-by-rank-math",
+        "seo-by-rank-math_",
+        "seo_by_rank_math",
+        "seo_by_rank_math_",
+        "seobyrankmath",
+        "seobyrankmath_",
+        "sbrm_"
+      ],
+      "source_scan_found": 91,
+      "wrapper_prefixes": [],
+      "options_found": 20,
+      "options": [
+        {
+          "option": "rank-math-options-general",
+          "autoload": "auto",
+          "value": "[array of 81 items, omitted for size]",
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "rank-math-options-instant-indexing",
+          "autoload": "auto",
+          "value": {
+            "bing_post_types": [
+              "post",
+              "page"
+            ],
+            "indexnow_api_key": "[redacted: key matched a credential pattern]"
+          },
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "rank-math-options-sitemap",
+          "autoload": "auto",
+          "value": {
+            "items_per_page": "200",
+            "include_images": "on",
+            "include_featured_image": "on",
+            "exclude_roles": [
+              "contributor",
+              "subscriber"
+            ],
+            "html_sitemap": "on",
+            "html_sitemap_display": "shortcode",
+            "html_sitemap_sort": "published",
+            "html_sitemap_seo_titles": "titles",
+            "authors_sitemap": true,
+            "pt_post_sitemap": "on",
+            "pt_page_sitemap": "on",
+            "pt_attachment_sitemap": "off",
+            "pt_e-floating-buttons_sitemap": "off",
+            "pt_product_sitemap": true,
+            "pt_web-story_sitemap": false,
+            "tax_category_sitemap": "off",
+            "tax_post_tag_sitemap": "off",
+            "html_sitemap_shortcode": "[rank_math_html_sitemap]",
+            "html_sitemap_show_dates": "on",
+            "pt_post_html_sitemap": "on",
+            "pt_page_html_sitemap": "on",
+            "pt_attachment_html_sitemap": "off",
+            "pt_e-floating-buttons_html_sitemap": "off",
+            "tax_category_html_sitemap": "on",
+            "tax_category_include_empty": "off",
+            "tax_post_tag_html_sitemap": "off",
+            "tax_post_tag_include_empty": "off",
+            "video_sitemap_post_type": [
+              "post",
+              "page",
+              "attachment",
+              "e-floating-buttons"
+            ]
+          },
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "rank-math-options-titles",
+          "autoload": "auto",
+          "value": "[array of 153 items, omitted for size]",
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "rank_math_aioseo_block_posts",
+          "autoload": "off",
+          "value": {
+            "posts": [],
+            "count": 0
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_analytics_installed",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_ca_credits",
+          "autoload": "auto",
+          "value": {
+            "credits": 750,
+            "plan": "free",
+            "refresh_date": 1789058183,
+            "usage_details": {
+              "fix_seo_tests": {
+                "used": 0,
+                "remaining": 0
+              },
+              "research": {
+                "used": 0,
+                "remaining": 0
+              },
+              "generate_image_alt_v2": {
+                "used": 0,
+                "remaining": 0
+              },
+              "seo_meta": {
+                "used": 0,
+                "remaining": 5
+              },
+              "write": {
+                "used": 0,
+                "remaining": 1
+              },
+              "bulk_seo_meta": {
+                "used": 0,
+                "remaining": 0
+              },
+              "long_form_content": {
+                "used": 0,
+                "remaining": 1
+              },
+              "suggest_link_opportunities": {
+                "used": 0,
+                "remaining": 0
+              },
+              "related_posts": {
+                "used": 0,
+                "remaining": 0
+              },
+              "opengraph": {
+                "used": 0,
+                "remaining": 1
+              },
+              "continue_writing": {
+                "used": 0,
+                "remaining": 1
+              },
+              "topic_research": {
+                "used": 0,
+                "remaining": 1
+              },
+              "chat": {
+                "used": 0,
+                "remaining": 2
+              },
+              "product_description": {
+                "used": 0,
+                "remaining": 1
+              },
+              "generate_image_alt": {
+                "used": 0,
+                "remaining": 0
+              },
+              "paragraph_rewriter": {
+                "used": 0,
+                "remaining": 1
+              },
+              "blog_post_idea": {
+                "used": 0,
+                "remaining": 1
+              },
+              "blog_post_outline": {
+                "used": 0,
+                "remaining": 1
+              },
+              "text_summarizer": {
+                "used": 0,
+                "remaining": 1
+              },
+              "seo_description": {
+                "used": 0,
+                "remaining": 1
+              },
+              "frequently_asked_questions": {
+                "used": 0,
+                "remaining": 1
+              },
+              "paragraph": {
+                "used": 0,
+                "remaining": 1
+              },
+              "ai_command": {
+                "used": 0,
+                "remaining": 1
+              },
+              "seo_title": {
+                "used": 0,
+                "remaining": 1
+              },
+              "blog_post_introduction": {
+                "used": 0,
+                "remaining": 1
+              },
+              "facebook_post": {
+                "used": 0,
+                "remaining": 1
+              },
+              "post_title": {
+                "used": 0,
+                "remaining": 1
+              },
+              "youtube_video_script": {
+                "used": 0,
+                "remaining": 1
+              },
+              "fix_grammar": {
+                "used": 0,
+                "remaining": 1
+              },
+              "tweet": {
+                "used": 0,
+                "remaining": 1
+              },
+              "blog_post_conclusion": {
+                "used": 0,
+                "remaining": 1
+              },
+              "company_bio": {
+                "used": 0,
+                "remaining": 1
+              },
+              "product_review": {
+                "used": 0,
+                "remaining": 1
+              },
+              "recipe": {
+                "used": 0,
+                "remaining": 1
+              },
+              "suggest_links": {
+                "used": 0,
+                "remaining": 0
+              },
+              "freeform_writing": {
+                "used": 0,
+                "remaining": 1
+              },
+              "spin": {
+                "used": 0,
+                "remaining": 1
+              },
+              "keyword_variations": {
+                "used": 0,
+                "remaining": 0
+              },
+              "analogy": {
+                "used": 0,
+                "remaining": 1
+              },
+              "youtube_video_description": {
+                "used": 0,
+                "remaining": 1
+              },
+              "product_pros_and_cons": {
+                "used": 0,
+                "remaining": 1
+              },
+              "testimonial": {
+                "used": 0,
+                "remaining": 1
+              },
+              "instagram_caption": {
+                "used": 0,
+                "remaining": 1
+              },
+              "email": {
+                "used": 0,
+                "remaining": 1
+              },
+              "hero": {
+                "used": 0,
+                "remaining": 1
+              },
+              "aida": {
+                "used": 0,
+                "remaining": 1
+              },
+              "comment_reply": {
+                "used": 0,
+                "remaining": 1
+              },
+              "personal_bio": {
+                "used": 0,
+                "remaining": 1
+              },
+              "tweet_reply": {
+                "used": 0,
+                "remaining": 1
+              },
+              "main_points": {
+                "used": 0,
+                "remaining": 1
+              },
+              "idca": {
+                "used": 0,
+                "remaining": 1
+              },
+              "sentence_expander": {
+                "used": 0,
+                "remaining": 1
+              },
+              "bab": {
+                "used": 0,
+                "remaining": 1
+              },
+              "podcast_episode_outline": {
+                "used": 0,
+                "remaining": 1
+              },
+              "email_reply": {
+                "used": 0,
+                "remaining": 1
+              },
+              "pas": {
+                "used": 0,
+                "remaining": 1
+              },
+              "job_description": {
+                "used": 0,
+                "remaining": 1
+              },
+              "facebook_comment_reply": {
+                "used": 0,
+                "remaining": 1
+              },
+              "bulk_keyword_intent": {
+                "used": 0,
+                "remaining": 0
+              },
+              "keyword_intent": {
+                "used": 0,
+                "remaining": 0
+              }
+            }
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_content_ai_viewed",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_db_version",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_indexnow_log",
+          "autoload": "off",
+          "value": "[array of 100 items, omitted for size]",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_install_date",
+          "autoload": "auto",
+          "value": "1774423198",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_modules",
+          "autoload": "auto",
+          "value": [
+            "link-counter",
+            "analytics",
+            "seo-analysis",
+            "sitemap",
+            "rich-snippet",
+            "woocommerce",
+            "buddypress",
+            "bbpress",
+            "acf",
+            "web-stories",
+            "content-ai",
+            "instant-indexing",
+            "404-monitor",
+            "image-seo",
+            "llms-txt",
+            "redirections",
+            "ai-visibility",
+            "marketplace"
+          ],
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_pro_notice_added",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_pro_notice_date",
+          "autoload": "off",
+          "value": "1775287207",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_prompts_updated",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_registration_skip",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_review_posts_converted",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_version",
+          "autoload": "off",
+          "value": "1.0.276",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_yoast_block_posts",
+          "autoload": "off",
+          "value": {
+            "posts": [],
+            "count": 0
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "site_logo",
+          "autoload": "auto",
+          "value": "66",
+          "via": "source-scan (referenced, may belong to another plugin)"
+        }
+      ],
+      "redaction_note": "Values matching credential patterns are replaced with a marker. The assistant is told a setting exists but never receives its value.",
+      "heuristic_warning": "WordPress has no formal plugin-to-option mapping. Options are found two ways: by name prefix derived from the slug and text domain, and by scanning the plugin's own PHP for get_option()/update_option() literals (rows marked via=source-scan). A setting stored under a name built at runtime, e.g. concatenated from a variable, is invisible to both. Absence here is NOT proof the plugin is unconfigured.",
+      "registered_setting_schemas": []
+    }
+  },
+  {
+    "name": "gbp_locations",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":429,\"body\":\"{\\\"code\\\":\\\"gbp_api_error\\\",\\\"message\\\":\\\"Quota exceeded for quota metric 'Requests' and limit 'Requests per minute' of service 'mybusinessaccountmanagement.googleapis.com' for consumer 'project_number:604124129643'.\\\",\\\"data\\\":{\\\"status\\\":429}}\"}"
+    }
+  },
+  {
+    "name": "review_health",
+    "isError": false,
+    "result": {
+      "configured": true,
+      "has_api_key": true,
+      "has_place_id": true,
+      "last_error": "The caller does not have permission",
+      "thresholds": {
+        "min_reviews": 20,
+        "min_rating": 4.5,
+        "max_newest_days": 90,
+        "source": "BrightLocal Local Consumer Review Survey 2026 (n=1,002, stated intent)"
+      },
+      "limits": "Places API returns max 5 reviews and no owner replies; total and rating are exact, velocity is estimated, response rate is unavailable.",
+      "rating": 0,
+      "total": 0,
+      "sampled_reviews": 0,
+      "fetched_at": null,
+      "fetch_age_hours": null,
+      "storage_policy": "Metrics only: rating, review count and the newest review timestamp. Review text and author details are never stored.",
+      "checks": {
+        "review_count": {
+          "value": 0,
+          "floor": 20,
+          "pass": false
+        },
+        "rating": {
+          "value": 0,
+          "floor": 4.5,
+          "pass": false
+        },
+        "recency": {
+          "value": null,
+          "floor": 90,
+          "pass": false
+        }
+      },
+      "issues": [
+        "0 reviews, 20 short of the 20 that 47% of consumers treat as a floor.",
+        "Newest-review age unknown — re-fetch to store publish times."
+      ],
+      "verdict": "error",
+      "reviews": [],
+      "evidence_policy": {
+        "classification": "heuristic",
+        "google_score": false,
+        "instruction": "Local scores and action suggestions are hypotheses. Check source age, coverage, verified_page_audit and installed plugin capabilities. Do not use this result alone to claim defects, guarantees or authorize destructive changes."
+      }
+    }
+  },
+  {
+    "name": "redirect_audit",
+    "isError": false,
+    "result": {
+      "available": true,
+      "active_redirects": 17,
+      "finding_count": 0,
+      "findings": [],
+      "verdict": "clean"
+    }
+  },
+  {
+    "name": "click_depth_audit",
+    "isError": false,
+    "result": {
+      "roots": [
+        8
+      ],
+      "max_depth_warn": 4,
+      "histogram": {
+        "0": 1,
+        "1": 22,
+        "2": 39,
+        "3": 16,
+        "4": 3,
+        "unreachable": 3
+      },
+      "pages": [
+        {
+          "post_id": 10088,
+          "title": "Editorial and Medical Review Policy",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10088&action=edit"
+        },
+        {
+          "post_id": 10253,
+          "title": "Book Appointment",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10253&action=edit"
+        },
+        {
+          "post_id": 10192,
+          "title": "Not Losing Weight on Semaglutide? 5 Research-Backed Reasons and Fixes",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10192&action=edit"
+        },
+        {
+          "post_id": 6492,
+          "title": "Lipo-B (MIC) Injections: A Fat-Burning Boost Explained",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6492&action=edit"
+        },
+        {
+          "post_id": 6497,
+          "title": "How Our BMI Calculator Works (And What Your Number Really Means)",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6497&action=edit"
+        },
+        {
+          "post_id": 7656,
+          "title": "The Essential Guide to Allergy Testing: How to Identify Your Triggers and Take Control",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=7656&action=edit"
+        },
+        {
+          "post_id": 10145,
+          "title": "Free New Patient Consultations",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10145&action=edit"
+        },
+        {
+          "post_id": 10043,
+          "title": "Heat Illness at FIFA World Cup 2026 Matches in Arlington, TX: A Spectator&#8217;s Safety Guide",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10043&action=edit"
+        },
+        {
+          "post_id": 10191,
+          "title": "Hormone Pellets vs Injections vs Creams: Pros, Cons, and How to Choose",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10191&action=edit"
+        },
+        {
+          "post_id": 10216,
+          "title": "NAD+ IV Therapy Benefits: What the Research Shows and What It Does Not",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10216&action=edit"
+        },
+        {
+          "post_id": 10219,
+          "title": "Double Chin Treatment Without Surgery: How Kybella Works and Who It Suits",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10219&action=edit"
+        },
+        {
+          "post_id": 10221,
+          "title": "How Many Laser Hair Removal Sessions Do You Need? Area by Area",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10221&action=edit"
+        },
+        {
+          "post_id": 10229,
+          "title": "Skinvive vs Dermal Filler: Which One Do You Actually Need?",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10229&action=edit"
+        },
+        {
+          "post_id": 6220,
+          "title": "Sustainable Weight Loss That Works: A Clinician-Backed Guide You Can Trust",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6220&action=edit"
+        },
+        {
+          "post_id": 6306,
+          "title": "How Often Should You Get IV Vitamin Therapy?",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6306&action=edit"
+        },
+        {
+          "post_id": 6867,
+          "title": "Microneedling vs. At-Home Dermarolling: Why Professional is Safer",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6867&action=edit"
+        },
+        {
+          "post_id": 8370,
+          "title": "Dermaplaning: The Secret to Smooth Skin and Flawless Makeup",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8370&action=edit"
+        },
+        {
+          "post_id": 8563,
+          "title": "What Is a Chemical Peel? (And Is It Right for You?)",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8563&action=edit"
+        },
+        {
+          "post_id": 8567,
+          "title": "5 Ways to Empower Your Wellness Journey Today",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8567&action=edit"
+        },
+        {
+          "post_id": 8609,
+          "title": "The Link Between Gut Health and Your Skin",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8609&action=edit"
+        },
+        {
+          "post_id": 9295,
+          "title": "PCOS Root Causes: Beyond the Pill and Insulin Resistance",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9295&action=edit"
+        },
+        {
+          "post_id": 9398,
+          "title": "Post-Birth Control Syndrome: Rebalancing Hormones Naturally",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9398&action=edit"
+        },
+        {
+          "post_id": 9871,
+          "title": "How to Choose a Weight Loss Clinic: 7 Questions to Ask First",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9871&action=edit"
+        },
+        {
+          "post_id": 6242,
+          "title": "Understanding Hormone Therapy: What You Need to Know for Better Health and Wellness",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6242&action=edit"
+        },
+        {
+          "post_id": 6246,
+          "title": "The Importance of Wellness Coaching for Your Health Journey",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6246&action=edit"
+        },
+        {
+          "post_id": 6276,
+          "title": "The Complete Guide to Aesthetic Treatments: Enhancing Your Natural Beauty Safely",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6276&action=edit"
+        },
+        {
+          "post_id": 6285,
+          "title": "What Is IV Hydration Therapy? A Beginner’s Guide",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6285&action=edit"
+        },
+        {
+          "post_id": 6290,
+          "title": "7 Surprising Benefits of IV Vitamin Drips",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6290&action=edit"
+        },
+        {
+          "post_id": 6296,
+          "title": "The Myers’ Cocktail: What Is It and Why Is It So Popular?",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6296&action=edit"
+        },
+        {
+          "post_id": 6300,
+          "title": "Can an IV Drip Really Cure a Hangover? The Science Explained",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6300&action=edit"
+        },
+        {
+          "post_id": 6310,
+          "title": "How to Prepare for Your First IV Therapy Session in Irving",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6310&action=edit"
+        },
+        {
+          "post_id": 6314,
+          "title": "Immune Boosting IV Drips: Fact vs. Fiction (Flu Season Guide)",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6314&action=edit"
+        },
+        {
+          "post_id": 6353,
+          "title": "The Athlete&#8217;s Secret: How IV Therapy Speeds Up Workout Recovery",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6353&action=edit"
+        },
+        {
+          "post_id": 6356,
+          "title": "&#8220;I&#8217;m So Tired&#8221;: How IV Therapy Can Help Fight Chronic Fatigue",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6356&action=edit"
+        },
+        {
+          "post_id": 6359,
+          "title": "Glutathione IV Drips: The “Master Antioxidant” Explained",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6359&action=edit"
+        },
+        {
+          "post_id": 6363,
+          "title": "IV Therapy for Migraine Relief: How It Works",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6363&action=edit"
+        },
+        {
+          "post_id": 6441,
+          "title": "5 Habits to Maintain Your Weight Loss Results Long-Term",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6441&action=edit"
+        },
+        {
+          "post_id": 6445,
+          "title": "The Role of Hormones in Weight Gain: Is It Your Thyroid?",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6445&action=edit"
+        },
+        {
+          "post_id": 6449,
+          "title": "What Is Microneedling? The Ultimate Guide to Collagen Induction Therapy",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6449&action=edit"
+        },
+        {
+          "post_id": 6481,
+          "title": "What Is Medical Weight Loss (And How Is It Different from Dieting?)",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6481&action=edit"
+        },
+        {
+          "post_id": 6854,
+          "title": "Microneedling Aftercare: Your Day-by-Day Healing Guide",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=6854&action=edit"
+        },
+        {
+          "post_id": 8139,
+          "title": "Laser Genesis vs. IPL: Which Treatment is Right for My Skin?",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8139&action=edit"
+        },
+        {
+          "post_id": 8359,
+          "title": "What Are &#8220;Cosmetic Treatments&#8221;? A Guide to Our Services",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8359&action=edit"
+        },
+        {
+          "post_id": 8363,
+          "title": "Building the Perfect Medical-Grade Skincare Routine",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8363&action=edit"
+        },
+        {
+          "post_id": 8559,
+          "title": "The Top 3 Anti-Aging Treatments for Fine Lines and Wrinkles",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8559&action=edit"
+        },
+        {
+          "post_id": 8571,
+          "title": "What is a Wellness Assessment? A Compassionate Guide to Your Holistic Health",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8571&action=edit"
+        },
+        {
+          "post_id": 8577,
+          "title": "What Is Functional Medicine? (And How It&#8217;s Different)",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8577&action=edit"
+        },
+        {
+          "post_id": 8613,
+          "title": "Hormone Replacement Therapy: A Guide for Men and Women",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8613&action=edit"
+        },
+        {
+          "post_id": 8929,
+          "title": "Beat the Texas Heat: How IV Hydration Prevents Dehydration",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8929&action=edit"
+        },
+        {
+          "post_id": 8933,
+          "title": "3 Ways to Rejuvenate Your Skin After a Long DFW Summer",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8933&action=edit"
+        },
+        {
+          "post_id": 9170,
+          "title": "The Critical Difference Between Hypothyroidism vs Hashimoto’s: Powerful Testing Guide",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9170&action=edit"
+        },
+        {
+          "post_id": 9173,
+          "title": "Estrogen Dominance &#038; Weight Loss Resistance Explained",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9173&action=edit"
+        },
+        {
+          "post_id": 9270,
+          "title": "Low Testosterone and Brain Fog: Symptoms &#038; TRT Solutions",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9270&action=edit"
+        },
+        {
+          "post_id": 9273,
+          "title": "Cortisol Imbalance Symptoms: Is It Adrenal Fatigue?",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9273&action=edit"
+        },
+        {
+          "post_id": 9292,
+          "title": "Natural Perimenopause Relief Options That Actually Work",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9292&action=edit"
+        },
+        {
+          "post_id": 9298,
+          "title": "Melatonin Alternatives: Advanced Peptides for Sleep",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9298&action=edit"
+        },
+        {
+          "post_id": 9389,
+          "title": "Hidden Progesterone Deficiency Symptoms in Your 30s &#038; 40s",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9389&action=edit"
+        },
+        {
+          "post_id": 9402,
+          "title": "TRT Benefits for Men: Muscle, Mood, and Metabolic Health",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9402&action=edit"
+        },
+        {
+          "post_id": 9456,
+          "title": "Semaglutide vs Tirzepatide for Weight Loss: What the Head-to-Head Trial Shows",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9456&action=edit"
+        },
+        {
+          "post_id": 9462,
+          "title": "Weight Loss Resistance Causes: A Deep Dive into Metabolism",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9462&action=edit"
+        },
+        {
+          "post_id": 9465,
+          "title": "How to Reverse Insulin Resistance: Symptoms &#038; Solutions",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9465&action=edit"
+        },
+        {
+          "post_id": 46,
+          "title": "Health and Wellness Services",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=46&action=edit"
+        },
+        {
+          "post_id": 57,
+          "title": "About Us",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=57&action=edit"
+        },
+        {
+          "post_id": 77,
+          "title": "Blog",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=77&action=edit"
+        },
+        {
+          "post_id": 88,
+          "title": "Shop",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=88&action=edit"
+        },
+        {
+          "post_id": 115,
+          "title": "Contact Us",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=115&action=edit"
+        },
+        {
+          "post_id": 128,
+          "title": "Book Appointment",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=128&action=edit"
+        },
+        {
+          "post_id": 137,
+          "title": "IV Therapy in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=137&action=edit"
+        },
+        {
+          "post_id": 610,
+          "title": "Medical Weight Loss in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=610&action=edit"
+        },
+        {
+          "post_id": 618,
+          "title": "Aesthetic Treatments in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=618&action=edit"
+        },
+        {
+          "post_id": 623,
+          "title": "Hormone Therapy in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=623&action=edit"
+        },
+        {
+          "post_id": 631,
+          "title": "Wellness Coaching in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=631&action=edit"
+        },
+        {
+          "post_id": 637,
+          "title": "Refund and Returns Policy",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=637&action=edit"
+        },
+        {
+          "post_id": 642,
+          "title": "Terms and Conditions",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=642&action=edit"
+        },
+        {
+          "post_id": 647,
+          "title": "Privacy Policy",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=647&action=edit"
+        },
+        {
+          "post_id": 652,
+          "title": "Cookie Policy",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=652&action=edit"
+        },
+        {
+          "post_id": 924,
+          "title": "Lori Secerovic, APRN, FNP-C",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=924&action=edit"
+        },
+        {
+          "post_id": 9925,
+          "title": "Botox in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9925&action=edit"
+        },
+        {
+          "post_id": 9991,
+          "title": "Microneedling in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=9991&action=edit"
+        },
+        {
+          "post_id": 10120,
+          "title": "Dermal Fillers in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10120&action=edit"
+        },
+        {
+          "post_id": 10166,
+          "title": "Semaglutide Weight Loss in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10166&action=edit"
+        },
+        {
+          "post_id": 10167,
+          "title": "Tirzepatide Weight Loss in Irving, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10167&action=edit"
+        },
+        {
+          "post_id": 10275,
+          "title": "Accessibility Statement",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=10275&action=edit"
+        },
+        {
+          "post_id": 8,
+          "title": "Med Spa and Wellness Clinic in Irving, TX",
+          "depth": 0,
+          "buried": false,
+          "edit_url": "https://irvingwellnessclinic.com/wp-admin/post.php?post=8&action=edit"
+        }
+      ],
+      "recent_filtered": 0
+    }
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "_note": "Post 9465, 'How to Reverse Insulin Resistance', 1,138 words. Already carries ONE in-body image under 'Recognizing the Physical Signs', so that heading is left alone. Three added, giving one per 285 words. Both expert quotes are already rendered as styled blockquotes in the body, so quote cards would duplicate existing treatment. FAQ excluded by policy; the key/lock analogy and 'Fasting Insulin Labs' are prose with nothing enumerable.",
+  "cards": [
+    {
+      "file": "insulin-resistance-how-common",
+      "layout": "stat",
+      "heading": "The Silent Epidemic of Insulin Resistance",
+      "title": [
+        "How Common Is ",
+        "Insulin Resistance",
+        "?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Yale reports insulin resistance in about 40 percent of US adults, and more than 1 in 3 has prediabetes",
+      "stat": "40%",
+      "gloss": "more than 1 in 3 has prediabetes",
+      "statLine": "of U.S. adults have insulin resistance, many without knowing",
+      "source": "Yale School of Medicine",
+      "dots": {
+        "total": 100,
+        "filled": 40
+      },
+      "subject": "insulin resistance",
+      "old_file": "reverse-insulin-resistance-1-how-common"
+    },
+    {
+      "file": "insulin-resistance-three-levers",
+      "layout": "compare",
+      "heading": "How Do You Reverse Insulin Resistance?",
+      "title": [
+        "Three Levers That Reverse ",
+        "Insulin Resistance",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Three evidence-based levers: about 10 percent weight loss, 150 minutes of exercise weekly, and a whole-food plate",
+      "columns": [
+        "Weight loss",
+        "Exercise",
+        "Whole-food diet"
+      ],
+      "rows": [
+        {
+          "label": "How it works",
+          "values": [
+            "Cuts the liver and visceral fat driving resistance",
+            "Muscles take up glucose without insulin",
+            "Slows sugar absorption, fewer insulin spikes"
+          ]
+        },
+        {
+          "label": "Target",
+          "values": [
+            "About 10% of body weight",
+            "150 minutes a week",
+            "Two-thirds plants per plate"
+          ]
+        }
+      ],
+      "subject": "insulin resistance",
+      "old_file": "reverse-insulin-resistance-2-three-levers"
+    },
+    {
+      "file": "insulin-resistance-nutrition",
+      "layout": "icons",
+      "heading": "Nutrition as Medicine",
+      "title": [
+        "Eating to Reverse ",
+        "Insulin Resistance",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Three dietary levers: fiber to slow sugar absorption, protein and fats to steady blood sugar, less added sugar",
+      "items": [
+        {
+          "icon": "wheat",
+          "label": "Fiber First",
+          "note": "Beans, lentils and vegetables slow sugar absorption"
+        },
+        {
+          "icon": "egg",
+          "label": "Steady Fuel",
+          "note": "Protein and healthy fats stop spikes and crashes"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Less Added Sugar",
+          "note": "FDA advises under 10% of daily calories"
+        }
+      ],
+      "subject": "insulin resistance",
+      "old_file": "reverse-insulin-resistance-3-nutrition"
+    }
+  ]
+}

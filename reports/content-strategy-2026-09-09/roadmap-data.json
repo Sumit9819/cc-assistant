@@ -1,0 +1,152 @@
+[
+  [
+    "C01",
+    "P0",
+    "Replace unsupported action labels with typed observations",
+    "M",
+    "Cluster-size merge advice; STOP/CITE_PLAY; local winning/originality labels",
+    "Size or one-impression threshold alone cannot authorize a strategic action; unsupported measures are clearly labeled",
+    "R03,R04,R06",
+    "19,20,22,25"
+  ],
+  [
+    "C02",
+    "P0",
+    "Correct cannibalization aggregation and exposure terminology",
+    "M",
+    "Impression-weighted position; compatible dimensions; data readiness; historical trend naming",
+    "99 impressions at position 2 and one at 80 aggregate to 2.78; candidate impressions are never reported as proven lost traffic",
+    "R01,R06",
+    "14,15,21,22,25"
+  ],
+  [
+    "C03",
+    "P0",
+    "Verify information signals and qualify experimental claims",
+    "S-M",
+    "Hostname boundaries; attribution; first-party provenance; remove unsupported ranking lifts",
+    "Lookalike .gov host, DO, generic quote and competitor price do not establish authority; GEO findings retain study limitations",
+    "R03,R06",
+    "9,19,25"
+  ],
+  [
+    "C04",
+    "P0",
+    "Share substantive content snapshots across SEO tools",
+    "M",
+    "Editor and rendered content; Elementor; hashes; extraction coverage; CAPTCHA states",
+    "Originality analysis can use substantive Elementor content and distinguishes blocked, partial and complete observations",
+    "R06,R08,R09,R12",
+    "19,20,21"
+  ],
+  [
+    "C05",
+    "P1",
+    "Add reproducible competitor intelligence",
+    "M-L",
+    "Explicit URLs or configured SERP provider; location/device/query provenance; task and claim matrices",
+    "Every competitor claim links to a dated snapshot; unverified rankings and incomplete fetches remain explicit",
+    "C04,R06",
+    "1,2,14,19,21"
+  ],
+  [
+    "C06",
+    "P1",
+    "Replace novelty score with a reader-value and claim ledger",
+    "M-L",
+    "Contribution type; attribution; method; comparison coverage; evidence assignments",
+    "Brief separates verified value, standard baseline and proposed research; never claims global uniqueness from sample similarity",
+    "C04,C05,R06,R16",
+    "1,2,9,10,19,21"
+  ],
+  [
+    "C07",
+    "P1",
+    "Create persistent evidence-based decision records",
+    "L",
+    "Eligibility rules; alternatives; preservation requirements; revision history; capability validation",
+    "Same evidence and policy preserve action eligibility; changed recommendations explain the changed basis",
+    "C01,C02,R05,R06,R10",
+    "20,21,24,26"
+  ],
+  [
+    "C08",
+    "P1",
+    "Diagnose relatedness, duplication and possible cannibalization separately",
+    "M-L",
+    "Pairwise purposes; repeated segmented GSC observations; unique value and dependencies",
+    "Healthy clusters, distinct tasks and translations are protected; editorial duplicate cases do not claim measured harm without evidence",
+    "C02,C04,C07,R15",
+    "3,4,5,14,15,18,20"
+  ],
+  [
+    "C09",
+    "P2",
+    "Add diagnosis-first refresh and revamp plans",
+    "M-L",
+    "Cause hypotheses; scope selection; preservation map; concrete diff; observation state",
+    "Known technical faults do not trigger prose rewrites; targeted edits preserve designated sections and saved/rendered content",
+    "C06,C07,C08,R10,R11,R12",
+    "6,8,21,24"
+  ],
+  [
+    "C10",
+    "P2",
+    "Add contextual internal-link proposals",
+    "M",
+    "Passage-specific anchors; relationship type; canonical/language/status checks; graph reuse",
+    "Suggestions explain the reader benefit, avoid duplicate placements and verify final rendered links",
+    "C04,C07,R10,R15",
+    "7,21,23"
+  ],
+  [
+    "C11",
+    "P2",
+    "Add guarded consolidation and retirement change sets",
+    "L",
+    "Source-destination preservation; exact redirects; link updates; failure recovery; monitoring",
+    "Destination verification precedes retirement; no irrelevant bulk redirects; all material dependencies are reviewed",
+    "C07,C08,C09,R05,R10,R11,R12",
+    "5,12,16,17,18"
+  ],
+  [
+    "C12",
+    "P3",
+    "Build an evidence-backed editorial portfolio",
+    "M",
+    "Reader-task coverage; approved questions; opportunity prioritization; multimedia/tool briefs",
+    "Each content proposal names a real need, supported contribution and cost; no automatic query/location variant proliferation",
+    "C05,C06,C07",
+    "1,2,13,23"
+  ],
+  [
+    "C13",
+    "P3",
+    "Add claim freshness and cross-page consistency monitoring",
+    "M-L",
+    "Fact ownership; citation support; expiry; contradiction alerts; expert review assignments",
+    "Changed business facts identify affected content and owner; citation presence is distinct from verified support",
+    "C04,C06,R16",
+    "19,24,26"
+  ],
+  [
+    "C14",
+    "P3",
+    "Extend edit outcomes with intervention-aware analysis",
+    "M-L",
+    "Change registry; readiness; confounders; useful outcomes; reviewed corrections",
+    "Before/after associations are not labeled causal wins; absent conversions and insufficient observation remain explicit",
+    "C07,C09,C11,R01,R14",
+    "6,8,11,24"
+  ],
+  [
+    "C15",
+    "P1-P3",
+    "Add decision evaluations and bounded research operations",
+    "M",
+    "Labeled cases; policy regression gates; prompt-injection fixtures; provider budgets; cache freshness",
+    "Agreed high-impact fixtures have no unsupported actions; every job exposes scope, coverage, budget and limitations",
+    "C01-C14,R18",
+    "19,20,21,25,26"
+  ]
+]

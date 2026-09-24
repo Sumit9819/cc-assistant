@@ -1,0 +1,243 @@
+<title>Reference Hunt Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Barlow+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+  /* Single committed visual world: the studio's own dark palette, so this
+     brief looks like the videos it is briefing. Painted explicitly. */
+  :root {
+    --ground:  #14120f;
+    --panel:   #1d1a16;
+    --line:    #332e27;
+    --ink:     #f2ece0;
+    --muted:   #a2988a;
+    --gold:    #deab4e;
+    --rust:    #b4735a;
+    --sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    --display: "Fraunces", Georgia, serif;
+    --label: "Barlow Condensed", "Arial Narrow", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink);
+         font-family: var(--sans); font-size: 16px; line-height: 1.6; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 52px 26px 90px; }
+
+  .eyebrow { font-family: var(--label); text-transform: uppercase;
+             letter-spacing: .28em; font-size: 12.5px; color: var(--gold); margin: 0 0 14px; }
+  h1 { font-family: var(--display); font-weight: 600; font-size: clamp(32px, 5vw, 50px);
+       line-height: 1.07; margin: 0 0 16px; text-wrap: balance;
+       font-variation-settings: "opsz" 144; }
+  .lede { margin: 0; color: var(--muted); font-size: 17.5px; max-width: 60ch; }
+
+  .how { display: flex; flex-wrap: wrap; gap: 14px; margin: 34px 0 8px; }
+  .step { flex: 1 1 220px; border: 1px solid var(--line); padding: 15px 17px; }
+  .step b { display: block; font-family: var(--label); text-transform: uppercase;
+            letter-spacing: .16em; font-size: 12px; color: var(--gold); margin-bottom: 5px; }
+  .step span { font-size: 14.5px; color: var(--muted); }
+  .step code { color: var(--ink); font-size: 13.5px; }
+
+  h2.rank { font-family: var(--display); font-weight: 600; font-size: 26px;
+            margin: 52px 0 6px; font-variation-settings: "opsz" 60; }
+  .subnote { margin: 0 0 22px; color: var(--muted); font-size: 15px; max-width: 68ch; }
+
+  .field { border: 1px solid var(--line); background: var(--panel);
+           padding: 22px 24px; margin-bottom: 16px; }
+  .field.top { border-color: var(--gold); }
+  .fhead { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+           margin-bottom: 4px; }
+  .fhead h3 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0;
+              font-variation-settings: "opsz" 40; }
+  .tag { font-family: var(--label); text-transform: uppercase; letter-spacing: .14em;
+         font-size: 11px; padding: 3px 9px; border: 1px solid var(--line); color: var(--muted); }
+  .tag.hot { background: var(--gold); color: var(--ground); border-color: var(--gold); }
+  .tag.gap { color: var(--rust); border-color: var(--rust); }
+
+  .state { margin: 8px 0 16px; font-size: 15px; color: var(--muted); }
+  .state b { color: var(--ink); font-weight: 500; }
+
+  .qs { display: flex; flex-direction: column; gap: 7px; margin: 0 0 16px;
+        padding: 14px 16px; background: #0e0c0a; border-left: 2px solid var(--gold); }
+  .qs span { font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+             font-size: 14px; color: var(--ink); }
+  .look { font-size: 14.5px; color: var(--muted); margin: 0; }
+  .look b { color: var(--ink); font-weight: 500; }
+  .fname { margin-top: 12px; font-family: var(--label); letter-spacing: .1em;
+           font-size: 13px; color: var(--gold); text-transform: uppercase; }
+
+  .cols { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+  .skip { border: 1px solid var(--line); padding: 20px 22px; margin-top: 16px; }
+  .skip h3 { font-family: var(--label); text-transform: uppercase; letter-spacing: .18em;
+             font-size: 12.5px; color: var(--muted); margin: 0 0 12px; }
+  .skip ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 14.5px; }
+  .skip li { margin-bottom: 6px; }
+  .skip b { color: var(--ink); font-weight: 500; }
+
+  footer { margin-top: 46px; padding-top: 20px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 13.5px; max-width: 74ch; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Faceless Studio &middot; design reference</p>
+  <h1>Reference hunt brief</h1>
+  <p class="lede">Six things worth collecting, ranked by how much they would change
+  the videos. Pinterest is a still-image medium, so it is strong for everything on
+  this page and weak for motion &mdash; that half is at the bottom, pointed elsewhere.</p>
+
+  <div class="how">
+    <div class="step"><b>1 &middot; Browse</b><span>Search the queries below. Ignore
+    anything that is a template pack or a mockup of a mockup.</span></div>
+    <div class="step"><b>2 &middot; Save</b><span>Screenshot or save the image. Five
+    good ones beat fifty.</span></div>
+    <div class="step"><b>3 &middot; Name</b><span>Use the prefix on each card:
+    <code>thumb_01.jpg</code>, <code>data_02.png</code>. One folder, any location.</span></div>
+  </div>
+
+  <h2 class="rank">The static half &mdash; where Pinterest earns its keep</h2>
+  <p class="subnote">Ranked by leverage. The first two would change more than the
+  other four combined.</p>
+
+  <div class="field top">
+    <div class="fhead"><h3>Thumbnails</h3><span class="tag hot">highest leverage</span></div>
+    <p class="state">Everything upstream is wasted if nobody clicks. We have a
+    working <b>build</b> process &mdash; generate the image, burn the text locally,
+    three A/B candidates &mdash; but <b>no visual system</b>: no fixed type treatment,
+    no repeatable composition, nothing that makes two of our videos look like the
+    same channel.</p>
+    <div class="qs">
+      <span>documentary youtube thumbnail design</span>
+      <span>science youtube thumbnail minimal</span>
+      <span>history channel thumbnail typography</span>
+      <span>bold type over photo poster</span>
+    </div>
+    <p class="look">Look for: <b>how few words</b> they get away with, where the
+    subject sits against the text, and how they hold contrast at phone size. Squint
+    at it &mdash; if it still reads, save it.</p>
+    <p class="fname">save as &nbsp;thumb_01</p>
+  </div>
+
+  <div class="field top">
+    <div class="fhead"><h3>Number and comparison graphics</h3><span class="tag gap">we have none</span></div>
+    <p class="state">Our stat card shows <b>a number and a caption</b>, and that is
+    the whole vocabulary. The script says fifty years against two thousand, and eight
+    percent of global emissions &mdash; comparisons that a bar, a scale or a ratio
+    would land far harder than text. There is <b>no chart capability in the pipeline
+    at all</b>. This is the biggest missing component.</p>
+    <div class="qs">
+      <span>data visualization infographic minimal</span>
+      <span>comparison infographic design</span>
+      <span>editorial chart design magazine</span>
+      <span>bar chart poster design</span>
+    </div>
+    <p class="look">Look for: how a <b>single comparison</b> is made to fill a frame,
+    and how the label sits relative to the figure. Skip dashboards and anything with
+    more than two series.</p>
+    <p class="fname">save as &nbsp;data_01</p>
+  </div>
+
+  <div class="field">
+    <div class="fhead"><h3>Timelines and process steps</h3><span class="tag gap">one, hand-built</span></div>
+    <p class="state">The crack-healing scene is our only process graphic and I built
+    it from scratch twice today. The script also wants a <b>timeline</b> &mdash; day
+    one, days seven to twenty-one, day thirty &mdash; and we have no way to draw one.</p>
+    <div class="qs">
+      <span>timeline infographic design minimal</span>
+      <span>process diagram graphic design</span>
+      <span>step by step infographic layout</span>
+    </div>
+    <p class="look">Look for: how they show <b>duration</b> versus <b>sequence</b>,
+    and how many steps before it stops being readable.</p>
+    <p class="fname">save as &nbsp;time_01</p>
+  </div>
+
+  <div class="field">
+    <div class="fhead"><h3>Card layout and type</h3><span class="tag">refinement</span></div>
+    <p class="state">Cards work &mdash; Fraunces, Barlow Condensed, directional
+    scrims, no panels. You liked the chapter and number cards. This is about pushing
+    a system that already holds, not fixing one that does not.</p>
+    <div class="qs">
+      <span>editorial title card typography</span>
+      <span>documentary title sequence design</span>
+      <span>serif display type layout poster</span>
+    </div>
+    <p class="look">Look for: <b>type pairings</b> and how much empty space they
+    leave. Anything where the type alone carries the frame.</p>
+    <p class="fname">save as &nbsp;card_01</p>
+  </div>
+
+  <div class="field">
+    <div class="fhead"><h3>Source and citation treatments</h3><span class="tag gap">barely used</span></div>
+    <p class="state">Every figure we show carries a real source, and we put it in
+    <b>small caps under the number</b> and nowhere else. Visible sourcing is a
+    credibility signal we are paying for and not spending.</p>
+    <div class="qs">
+      <span>lower third design broadcast</span>
+      <span>news graphics source citation design</span>
+      <span>caption credit typography layout</span>
+    </div>
+    <p class="look">Look for: how a citation stays <b>legible but subordinate</b> to
+    the thing it supports.</p>
+    <p class="fname">save as &nbsp;cite_01</p>
+  </div>
+
+  <div class="field">
+    <div class="fhead"><h3>Colour and grade</h3><span class="tag">lowest priority</span></div>
+    <p class="state">Our grade already unifies six unrelated stock sources without
+    going muddy, measured. Only worth collecting if something genuinely stops you.</p>
+    <div class="qs">
+      <span>documentary color grading stills</span>
+      <span>muted earth tone color palette photography</span>
+    </div>
+    <p class="look">Look for: palettes that hold up across <b>wildly different
+    footage</b>, which is our actual constraint.</p>
+    <p class="fname">save as &nbsp;grade_01</p>
+  </div>
+
+  <h2 class="rank">The motion half &mdash; look somewhere else</h2>
+  <p class="subnote">Pinterest is stills. Timing, easing and transitions cannot be
+  judged from a frozen frame, and these are exactly where our system is most
+  invented rather than benchmarked.</p>
+
+  <div class="cols">
+    <div class="skip">
+      <h3>What we most need motion reference for</h3>
+      <ul>
+        <li><b>Section transitions.</b> We have precisely one: a dip to black. That
+        is the most basic transition that exists.</li>
+        <li><b>Stat card animation.</b> Count-up plus a rule that draws. Functional,
+        generic.</li>
+        <li><b>Caption animation.</b> Just rebuilt with a word-by-word gold
+        highlight, never compared against anything.</li>
+      </ul>
+    </div>
+    <div class="skip">
+      <h3>Where to actually look</h3>
+      <ul>
+        <li><b>Dribbble</b> &mdash; hosts looping video previews, so motion is
+        visible. Search <i>motion graphics transition</i>, <i>kinetic typography</i>.</li>
+        <li><b>Real videos in the niche.</b> The most honest reference. When
+        something makes you re-watch it, note the timestamp and send me the link
+        plus the time &mdash; that beats any mood board.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="skip">
+    <h3>Do not spend time on</h3>
+    <ul>
+      <li><b>Subtitle styling</b> &mdash; rebuilt today: studio face at 124px,
+      word-by-word gold, cues that break on sentences.</li>
+      <li><b>Specimen and mechanism imagery</b> &mdash; Gemini covers it, 16:9,
+      better than any stock.</li>
+      <li><b>Intro and end cards</b> &mdash; built, though a strong reference would
+      still be welcome for the end card, which is untested.</li>
+    </ul>
+  </div>
+
+  <footer>
+    Send the folder and I will read every image, tell you which ideas survive
+    contact with a 1080p documentary frame, and build the ones that do into the
+    card and scene system. Concrete beats comprehensive: five images you actually
+    like will change more than a hundred saved out of duty.
+  </footer>
+</div>

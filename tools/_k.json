@@ -1,0 +1,4 @@
+[
+  { "route": "wp/v2/posts?per_page=100&offset=100&status=publish&_fields=id,title", "method": "GET", "out": "_page2.json" },
+  { "route": "cc-assistant/v1/kit-settings", "method": "GET", "out": "_kit.json" }
+]

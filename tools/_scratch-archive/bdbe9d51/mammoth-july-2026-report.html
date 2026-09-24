@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Mammoth Machinery — July 2026 SEO Report</title>
+<style>
+  @page { size: A4; margin: 14mm 13mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: #1a1a1a; font-size: 10.5pt; line-height: 1.55; }
+  .mono { font-family: Consolas, "Courier New", monospace; }
+  .kicker { font-family: Consolas, monospace; font-size: 8pt; letter-spacing: 2.5px; color: #555; text-transform: uppercase; }
+  h1 { font-size: 26pt; font-weight: 800; margin: 4px 0 2px; }
+  .sub { color: #444; font-size: 10pt; margin-bottom: 14px; }
+  .headmeta { text-align: right; font-family: Consolas, monospace; font-size: 8.5pt; color: #333; }
+  .headmeta b { font-size: 9pt; }
+  .headrow { display: flex; justify-content: space-between; align-items: flex-start; }
+  .hero { background: #16181d; color: #fff; border-left: 5px solid #f2a516; border-radius: 10px; padding: 22px 26px; margin: 10px 0 22px; }
+  .hero .kicker { color: #9aa0a8; }
+  .stats { display: flex; gap: 34px; margin: 14px 0 16px; }
+  .stat .n { font-size: 24pt; font-weight: 800; }
+  .stat .lbl { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 2px; color: #9aa0a8; text-transform: uppercase; }
+  .stat .cap { font-size: 8pt; color: #8b919a; }
+  .up { display: inline-block; background: #1d5c33; color: #7fe0a0; font-family: Consolas, monospace; font-size: 8pt; border-radius: 10px; padding: 1px 8px; vertical-align: middle; margin-left: 6px; }
+  .hero p { font-size: 10.5pt; color: #d7dade; border-top: 1px solid #2c2f36; padding-top: 12px; }
+  .hero b, .hero strong { color: #fff; }
+  .gold { color: #f2a516; font-weight: 700; }
+  .sec { display: flex; align-items: baseline; gap: 10px; border-bottom: 2.5px solid #16181d; padding-bottom: 5px; margin: 24px 0 10px; }
+  .sec .num { background: #fdeecd; color: #8a5c00; font-family: Consolas, monospace; font-weight: 700; font-size: 9pt; padding: 2px 7px; border-radius: 4px; }
+  .sec h2 { font-size: 15pt; font-weight: 800; flex: 1; }
+  .sec .src { font-size: 8.5pt; color: #666; }
+  .cards2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .card { border: 1px solid #e3e3e3; border-radius: 8px; padding: 12px 14px; background: #fff; }
+  .card h4 { font-size: 10.5pt; }
+  .card .path { font-family: Consolas, monospace; font-size: 8pt; color: #777; }
+  .pending { border: 1.5px dashed #d5a021; background: #fffaf0; color: #7a5a10; }
+  .pending .tag { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1.5px; background: #f7e6bb; padding: 1px 7px; border-radius: 8px; }
+  .statrow { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid #e3e3e3; border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
+  .statrow > div { padding: 12px 12px; border-right: 1px solid #eee; }
+  .statrow > div:last-child { border-right: none; }
+  .statrow .n { font-size: 17pt; font-weight: 800; }
+  .statrow .l { font-size: 8pt; color: #555; line-height: 1.35; }
+  .block { border: 1px solid #e3e3e3; border-radius: 8px; margin-bottom: 12px; page-break-inside: avoid; }
+  .block .bh { display: flex; align-items: center; gap: 9px; padding: 9px 14px; border-bottom: 1px solid #eee; background: #fafafa; border-radius: 8px 8px 0 0; }
+  .block .bh .ltr { font-family: Consolas, monospace; color: #999; font-size: 9pt; }
+  .block .bh h3 { font-size: 11.5pt; flex: 1; }
+  .badge { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; padding: 2px 9px; border-radius: 9px; }
+  .b-green { background: #e3f6e9; color: #17692f; }
+  .b-live { background: #16181d; color: #7fe0a0; }
+  .block .bb { padding: 11px 14px; }
+  .block .bb p { margin-bottom: 7px; }
+  .block .bb ul { margin: 2px 0 6px 16px; }
+  .block .bb li { margin-bottom: 4px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 9px; margin-top: 8px; }
+  .mini { border: 1px solid #e7e7e7; border-radius: 7px; padding: 9px 11px; }
+  .mini .ph { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #8a5c00; }
+  .mini h5 { font-size: 9.5pt; margin: 2px 0 3px; }
+  .mini p { font-size: 8.5pt; color: #444; }
+  .blog { border: 1px solid #e3e3e3; border-radius: 8px; padding: 11px 14px; }
+  .blog .cat { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #888; }
+  .blog h4 { font-size: 11pt; margin: 3px 0 7px; }
+  .kw { font-family: Consolas, monospace; font-size: 8pt; background: #fdeecd; color: #6b4a00; padding: 1px 7px; border-radius: 4px; }
+  .wc { font-family: Consolas, monospace; font-size: 8.5pt; color: #333; margin-left: 8px; }
+  .foot { border-top: 1px solid #ddd; margin-top: 26px; padding-top: 10px; display: flex; justify-content: space-between; font-family: Consolas, monospace; font-size: 8.5pt; color: #555; }
+  .fn { font-size: 8pt; color: #666; margin-top: 14px; }
+  .fn sup { color: #8a5c00; }
+</style></head><body>
+
+<div class="headrow">
+  <div>
+    <div class="kicker">Monthly SEO Performance Report</div>
+    <h1>Mammoth Machinery</h1>
+    <div class="sub"><b>July 2026</b> &nbsp;·&nbsp; Reporting period: July 1&ndash;31 &nbsp;·&nbsp; mammothmachinery.ca</div>
+  </div>
+  <div class="headmeta">
+    <b>REPORT NO. MM&#8209;2026&#8209;07</b><br>
+    Prepared by GrowthBoss<br>
+    <u>shree@growthboss.co</u>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="kicker">Search Performance &nbsp;·&nbsp; Google Search Console &nbsp;·&nbsp; July 1&ndash;31 vs June 1&ndash;30</div>
+  <div class="stats">
+    <div class="stat"><div class="lbl">Clicks</div><div class="n">866<span class="up">&#9650; 49%</span></div><div class="cap">Visits from Google search results</div></div>
+    <div class="stat"><div class="lbl">Impressions</div><div class="n">24.7K<span class="up">&#9650; 89%</span></div><div class="cap">Times the site appeared in search</div></div>
+    <div class="stat"><div class="lbl">Click&#8209;through rate<sup>1</sup></div><div class="n">3.5%</div><div class="cap">Clicks &divide; impressions</div></div>
+    <div class="stat"><div class="lbl">Avg. position</div><div class="n">10.4<span class="up">&#9650; from 13.7</span></div><div class="cap">Across all queries</div></div>
+  </div>
+  <p>The strongest month in the site's history: <b>866 clicks</b> in July against 581 in June, up <span class="gold">49%</span>, with impressions up <span class="gold">89%</span> to 24.7K and <strong>average position improving from 13.7 to 10.4</strong> &mdash; the whole site now ranks more than three spots higher than a month ago. Searches for the brand itself <strong>doubled</strong> over the previous period (&ldquo;mammoth machinery&rdquo;: 96 &rarr; 193 clicks), and against last year the growth is even sharper: clicks up <strong>88.7% year&#8209;over&#8209;year</strong><sup>1</sup>, with average position improving from 31.3 to 10.6.</p>
+</div>
+
+<div class="sec"><span class="num">01</span><h2>What moved in search</h2><span class="src">Source: Google Search Console</span></div>
+<p style="margin-bottom:9px;">The pages and queries bringing people to the site, and how they changed versus the previous 28 days.</p>
+<div class="cards2">
+  <div class="card">
+    <h4 style="font-family:Consolas,monospace;font-size:8.5pt;letter-spacing:1.5px;color:#555;">TOP PAGES BY CLICKS</h4>
+    <table style="width:100%;border-collapse:collapse;font-size:9.5pt;margin-top:6px;">
+      <tr><td style="padding:4px 0;"><b>Homepage</b></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 58%</td><td style="text-align:right;font-weight:700;">375</td></tr>
+      <tr><td style="padding:4px 0;"><b>Mini Skid Steers</b> <span class="path">/mini-skidsteers/</span></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 63%</td><td style="text-align:right;font-weight:700;">78</td></tr>
+      <tr><td style="padding:4px 0;"><b>Tracked Mini Dumpers</b> <span class="path">/tracked-mini-dumpers/</span></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 120%</td><td style="text-align:right;font-weight:700;">66</td></tr>
+      <tr><td style="padding:4px 0;"><b>Mini Excavators</b> <span class="path">/mini-excavators/</span></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 83%</td><td style="text-align:right;font-weight:700;">64</td></tr>
+      <tr><td style="padding:4px 0;"><b>Homepage</b> <span class="path">www. variant</span></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 18%</td><td style="text-align:right;font-weight:700;">52</td></tr>
+      <tr><td style="padding:4px 0;"><b>X&#8209;Loader 100MT</b> <span class="path">/x-loader-100mt-mini-skid-steer/</span></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 367%</td><td style="text-align:right;font-weight:700;">28</td></tr>
+      <tr><td style="padding:4px 0;"><b>Wheel Loaders</b> <span class="path">/wheel-loaders/</span></td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 71%</td><td style="text-align:right;font-weight:700;">24</td></tr>
+    </table>
+  </div>
+  <div>
+    <div class="card" style="margin-bottom:10px;">
+      <h4 style="font-family:Consolas,monospace;font-size:8.5pt;letter-spacing:1.5px;color:#555;">QUERIES TRENDING UP &middot; NEW DEMAND</h4>
+      <table style="width:100%;border-collapse:collapse;font-size:9.5pt;margin-top:6px;">
+        <tr><td style="padding:3px 0;">mammoth machinery</td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 101%</td><td style="text-align:right;font-weight:700;">+97</td></tr>
+        <tr><td style="padding:3px 0;">mammoth mini skid steer</td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 100%</td><td style="text-align:right;font-weight:700;">+10</td></tr>
+        <tr><td style="padding:3px 0;">mammoth equipment</td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 43%</td><td style="text-align:right;font-weight:700;">+9</td></tr>
+        <tr><td style="padding:3px 0;">mini excavator canada</td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; New</td><td style="text-align:right;font-weight:700;">+6</td></tr>
+        <tr><td style="padding:3px 0;">mini dumper</td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 400%</td><td style="text-align:right;font-weight:700;">+4</td></tr>
+        <tr><td style="padding:3px 0;">mammoth equipment canada</td><td class="mono" style="color:#17692f;font-size:8pt;">&#9650; 100%</td><td style="text-align:right;font-weight:700;">+3</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h4 style="font-family:Consolas,monospace;font-size:8.5pt;letter-spacing:1.5px;color:#555;">CLICKS BY COUNTRY</h4>
+      <table style="width:100%;border-collapse:collapse;font-size:9.5pt;margin-top:6px;">
+        <tr><td style="padding:3px 0;">&#127464;&#127462; Canada</td><td style="text-align:right;font-weight:700;">84%</td></tr>
+        <tr><td style="padding:3px 0;">&#127482;&#127480; United States</td><td style="text-align:right;font-weight:700;">8%</td></tr>
+        <tr><td style="padding:3px 0;">&#127475;&#127477; Nepal</td><td style="text-align:right;font-weight:700;">2%</td></tr>
+        <tr><td style="padding:3px 0;">&#127468;&#127463; United Kingdom</td><td style="text-align:right;font-weight:700;">1%</td></tr>
+        <tr><td style="padding:3px 0;">&#127463;&#127479; Brazil</td><td style="text-align:right;font-weight:700;">1%</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="card" style="margin-top:10px;">
+  <h4>The pattern behind the numbers</h4>
+  <p style="font-size:9.5pt;">Six of the seven top click&#8209;gainers are pages we rebuilt &mdash; and the breakout is a <b>product page</b>: the X&#8209;Loader 100MT, up <b>367%</b> after its full-depth rebuild. Canada&#8209;wide impressions grew 85% (10.3K &rarr; 19.2K), so the site is surfacing for far more Canadian buyers than a month ago; converting those to clicks is August's focus.</p>
+</div>
+
+<div class="sec"><span class="num">02</span><h2>What we shipped this month</h2><span class="src">July 2026</span></div>
+<div class="statrow">
+  <div><div class="n">34</div><div class="l">Permanent redirects restoring lost search traffic</div></div>
+  <div><div class="n">21</div><div class="l">Product pages rebuilt to full depth</div></div>
+  <div><div class="n">22</div><div class="l">Machines fact&#8209;checked against the 2026 catalog</div></div>
+  <div><div class="n">4 <span style="font-size:9pt;font-family:Consolas,monospace;">blogs</span></div><div class="l">6,046 words published</div></div>
+  <div><div class="n">13</div><div class="l">Pages given manufacturer citations</div></div>
+</div>
+
+<div class="block">
+  <div class="bh"><span class="ltr">A</span><h3>Traffic recovery: the URL migration fix</h3><span class="badge b-live">&#9679; LIVE JULY 31</span></div>
+  <div class="bb">
+    <p>The spring URL restructure had left <b>29 old page addresses returning &ldquo;not found&rdquo;</b> &mdash; addresses that had earned roughly <b>2,600 clicks</b> over the prior 16 months, about 30% of all historical search traffic, including the site's single biggest legacy page (the old mini skid steer category, 885 clicks). Google kept sending people to dead ends.</p>
+    <p>We mapped every dead URL to its correct successor page and shipped <b>34 permanent (301) redirects</b>, then re-verified each one live: every redirect resolves in a single hop, with no chains and no dead ends remaining. The authority those old pages earned now flows to the pages that replaced them.</p>
+  </div>
+</div>
+
+<div class="block">
+  <div class="bh"><span class="ltr">B</span><h3>Every product page rebuilt to full depth</h3><span class="badge b-green">&#10003; 21 PAGES</span></div>
+  <div class="bb">
+    <p>Each of the 21 equipment pages now follows one proven structure, built out page by page through July:</p>
+    <ul>
+      <li><b>&ldquo;What is it built for?&rdquo;</b> &mdash; a buyer-decision section answering the question searchers actually ask</li>
+      <li><b>Lineup comparison table</b> &mdash; price, engine, capacity and key specs against sibling models, so buyers can step up or down without leaving the site</li>
+      <li><b>Warranty, financing &amp; dealer support</b> block with a clear call to action</li>
+      <li><b>FAQ section</b> answering the questions Canadian contractors search for</li>
+    </ul>
+    <p>Alongside the structure: a single correct headline (H1) on every page and a standardized price display (&ldquo;$XX,XXX CAD&rdquo;) across the lineup.</p>
+  </div>
+</div>
+
+<div class="block">
+  <div class="bh"><span class="ltr">C</span><h3>Catalog accuracy pass &amp; manufacturer citations</h3><span class="badge b-green">&#10003; 22 MACHINES + 6 CATEGORIES</span></div>
+  <div class="bb">
+    <p>Every specification on every machine page and category page was checked line-by-line against the official 2026 Mammoth catalog &mdash; engines, capacities, dimensions, weights &mdash; and corrected where the site had drifted from the spec sheet. Five discontinued models were confirmed absent and their old URLs folded into the redirect work in Section A.</p>
+    <p>To strengthen trust signals, <b>13 pages now cite the component manufacturers directly</b> (Cummins, Honda, Kubota, Yanmar) &mdash; the exact engines named on each machine's spec sheet, linked to authoritative sources.</p>
+  </div>
+</div>
+
+<div class="block">
+  <div class="bh"><span class="ltr">D</span><h3>Hidden product content made visible: X&#8209;Loader 2000MT</h3><span class="badge b-green">&#10003; TEMPLATE FIX</span></div>
+  <div class="bb">
+    <p>The 2000MT product page had <b>654 words of specifications, FAQ and buying copy that never rendered</b> &mdash; the product page template was missing the element that displays a product's description. We fixed it at the template level and rebuilt the presentation to match the machine pages (styled spec table, FAQ accordion, correct dealer buttons), so the page's full content is now visible to buyers and to Google.</p>
+  </div>
+</div>
+
+<div class="sec"><span class="num">03</span><h2>Content published</h2><span class="src">4 articles &middot; 6,046 words</span></div>
+<p style="margin-bottom:9px;">Four search-targeted guides for Canadian contractors &mdash; each built on a real buyer keyword, each linking into the matching product category.</p>
+<div class="cards2">
+  <div class="blog"><div class="cat">BLOG 05 &middot; CONCRETE BUGGIES</div><h4>Concrete Buggy Canada: Best 2026 Uses &amp; Specs Guide</h4><span class="kw">what is a concrete buggy</span><span class="wc">1,578 words</span></div>
+  <div class="blog"><div class="cat">BLOG 06 &middot; MINI DUMPERS</div><h4>High Dump Mini Dumper: 7 Reasons It's the Best Pick</h4><span class="kw">high dump mini dumper</span><span class="wc">1,378 words</span></div>
+  <div class="blog"><div class="cat">BLOG 07 &middot; MINI EXCAVATORS</div><h4>Mini Excavator Attachments: 10 Best for Canada 2026</h4><span class="kw">mini excavator attachments</span><span class="wc">1,836 words</span></div>
+  <div class="blog"><div class="cat">BLOG 08 &middot; SKID STEERS</div><h4>Mini Skid Steer vs Full Size: Best 2026 Canada Guide</h4><span class="kw">mini skid steer vs full size</span><span class="wc">1,254 words</span></div>
+</div>
+
+<div class="sec"><span class="num">04</span><h2>What's next: August</h2></div>
+<div class="cards2">
+  <div class="card">
+    <h4>&#128200; Measure what July shipped</h4>
+    <ul style="margin:6px 0 0 16px; font-size:9.5pt;">
+      <li>Track the 34 redirects as Google reprocesses the recovered URLs</li>
+      <li>Score July's rebuilds on clicks and leads once a clean 28&#8209;day window closes</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h4>&#128295; Technical &amp; conversion</h4>
+    <ul style="margin:6px 0 0 16px; font-size:9.5pt;">
+      <li>Complete product schema with live pricing on every machine page (shipped in the first days of August)</li>
+      <li>Conversion upgrades to Find a Dealer, Financing and the Equipment hub</li>
+      <li>Site speed program: image compression &amp; WebP delivery for the media library</li>
+      <li>Site-wide copy consistency pass to the house style guide</li>
+    </ul>
+  </div>
+</div>
+
+<div class="fn"><sup>1</sup> Click-through rate is derived from clicks &divide; impressions (866 &divide; ~24,700). Headline figures compare the calendar months July 1&ndash;31 vs June 1&ndash;30 as reported by Google Search Console. The page, query and country breakdowns in Section 01 use Search Console's last-28-days comparison view. Year-over-year compares July 1&ndash;29, 2026 with the same days in 2025. All figures: Google Search Console.</div>
+
+<div class="foot">
+  <b style="color:#111;">GrowthBoss</b>
+  <span>Prepared for Mammoth Machinery &middot; July 2026<br>shree@growthboss.co &middot; Data: Google Search Console</span>
+</div>
+
+</body></html>

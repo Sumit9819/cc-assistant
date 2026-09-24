@@ -1,0 +1,3 @@
+[{"route":"cc-assistant/v1/widget-schema/nav-menu","method":"GET","out":"ekit-removal/ws-nav.json"},
+ {"route":"cc-assistant/v1/widget-schema/social-icons","method":"GET","out":"ekit-removal/ws-soc.json"},
+ {"route":"cc-assistant/v1/widget-schema/icon-list","method":"GET","out":"ekit-removal/ws-iconlist.json"}]

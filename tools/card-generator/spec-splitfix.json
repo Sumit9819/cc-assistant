@@ -1,0 +1,115 @@
+{
+ "_note": "Highlight-splits-a-word fix.",
+ "cards": [
+  {
+   "file": "anti-aging-how-retinoids-work",
+   "post_id": 8559,
+   "layout": "icons",
+   "subject": "retinoid",
+   "heading": "1. Topical Retinoids: The Gold Standard for Daily Care",
+   "title": [
+    "How ",
+    "Retinoids",
+    " Work on Skin"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Retinoids increase cell turnover, stimulate new collagen, and block the enzymes that break existing collagen down",
+   "items": [
+    {
+     "icon": "recycle",
+     "label": "Cell turnover",
+     "note": "Old damaged cells shed, fresh ones replace them"
+    },
+    {
+     "icon": "trending-up",
+     "label": "New collagen",
+     "note": "Stimulates the protein behind firmness"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Less breakdown",
+     "note": "Inhibits the enzymes that degrade collagen"
+    }
+   ]
+  },
+  {
+   "file": "compounded-vs-fda-approved-hormones",
+   "post_id": 10191,
+   "layout": "list",
+   "subject": "hormone",
+   "heading": "Compounded vs FDA-Approved Hormones: What Medical Societies Say",
+   "title": [
+    "Compounded vs FDA-Approved ",
+    "Hormones",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Endocrine Society and ACOG recommend FDA-approved hormone formulations where one exists; ask about dosing and rechecks",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "FDA-approved first",
+     "note": "Endocrine Society and ACOG, where one exists"
+    },
+    {
+     "icon": "triangle-alert",
+     "label": "The pellet criticism",
+     "note": "Targets unmonitored dosing, not the method"
+    },
+    {
+     "icon": "clipboard-list",
+     "label": "Ask three things",
+     "note": "Formulation, starting dose, recheck schedule"
+    }
+   ]
+  },
+  {
+   "file": "what-hormones-regulate",
+   "post_id": 8613,
+   "layout": "icons",
+   "subject": "hormone",
+   "heading": "How Hormones Affect Your Daily Life",
+   "title": [
+    "What ",
+    "Hormones",
+    " Regulate Day to Day"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Estrogen, progesterone and testosterone affect bone density, heart health, cognition and emotional stability",
+   "items": [
+    {
+     "icon": "bone",
+     "label": "Bone density",
+     "note": "Protection against fractures"
+    },
+    {
+     "icon": "heart-pulse",
+     "label": "Heart health",
+     "note": "Cholesterol and vascular function"
+    },
+    {
+     "icon": "brain",
+     "label": "Cognition",
+     "note": "Focus and memory"
+    },
+    {
+     "icon": "smile",
+     "label": "Mood",
+     "note": "Serotonin regulation"
+    }
+   ]
+  }
+ ]
+}

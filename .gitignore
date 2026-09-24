@@ -1,0 +1,68 @@
+# ---- SECRETS: never commit ------------------------------------------------
+# Site app passwords and API keys live here.
+.mcp.json
+.mcp.json.*
+*.env
+.env
+.env.*
+**/credentials*.json
+**/client_secret*.json
+**/service-account*.json
+*.pem
+*.key
+
+# Signed-in browser profiles hold live session cookies (Google, WordPress).
+.browser-profiles/
+**/.chrome-profile/
+**/*browser-profile*/
+**/chrome-profile*/
+**/_browser/
+
+# Backups can contain site data, DB rows and browser profiles.
+backups/
+
+# ---- Runtimes, builds, caches ---------------------------------------------
+php/
+dist/
+**/node_modules/
+**/__pycache__/
+*.pyc
+**/cache/
+**/.cache/
+
+# ---- Large or generated binaries ------------------------------------------
+# Models are re-downloadable (see featured/README.md "Models").
+*.onnx
+*.dll
+*.exe
+*.wasm
+*.zip
+*.sqlite
+*.sqlite3
+*.db
+# Rendered images are outputs of versioned specs; keep the specs, not the pixels.
+*.png
+*.webp
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+*.pdf
+
+# Generated output folders
+**/out/
+**/cut/
+**/src/stock/
+**/src/gen/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Any copy of an MCP config (one held all 9 site app passwords: c-project-mcp.before.json)
+**/mcp.json
+**/*mcp*.before.json
+**/*-mcp.json
+**/*.mcp.json

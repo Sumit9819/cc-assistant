@@ -1,0 +1,14 @@
+{
+  "version": "0.85.0",
+  "tool_count": 169,
+  "new_tools": [
+    "get_content_scope",
+    "plan_blog_content",
+    "content_research",
+    "content_decision",
+    "content_decision_history"
+  ],
+  "duplicate_names": false,
+  "stderr": "",
+  "scope": "Real stdio initialize/tools-list; fixture credentials, no network or live site calls."
+}

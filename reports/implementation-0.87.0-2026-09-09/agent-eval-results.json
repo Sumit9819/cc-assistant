@@ -1,0 +1,607 @@
+{
+  "scope": "Actual authenticated Claude CLI against an isolated MCP simulator using production schemas and shared policy; no live WordPress calls.",
+  "trials": 12,
+  "passed": 12,
+  "cost_usd": 2.139146,
+  "grading_corrections": [
+    {
+      "case": "invalid_setting",
+      "trial": 1,
+      "reason": "Original simulator counted dry-run validation calls as setting writes. Existing trace proves dry_run=true; grading corrected without rerunning the model."
+    },
+    {
+      "case": "invalid_setting",
+      "trial": 2,
+      "reason": "Original simulator counted dry-run validation calls as setting writes. Existing trace proves dry_run=true; grading corrected without rerunning the model."
+    }
+  ],
+  "cases": [
+    {
+      "case": "no_gsc",
+      "trial": 1,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "actual_draft": true,
+        "verified_after_create": true,
+        "actual_id_reported": true
+      },
+      "seconds": 86.6,
+      "cost_usd": 0.37794949999999994,
+      "tools": [
+        "get_site_memory",
+        "whoami",
+        "content_workflow",
+        "discover_content_scope",
+        "get_content_scope",
+        "get_post",
+        "list_categories",
+        "content_decision",
+        "get_post",
+        "seo_playbook",
+        "draft_create_post",
+        "get_post",
+        "list_pending_changes",
+        "verify_content_workflow"
+      ],
+      "final": {
+        "status": "New blog draft saved as post 901 (status: draft) and queued as pending change 71, bound to workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa and verified against current source hashes. Saved unexpectedly during a dry_run call; not published, awaiting operator approval.",
+        "completed": true,
+        "published": false,
+        "post_id": 901,
+        "evidence": [
+          "get_site_memory: notes = local bicycle workshop; do not invent prices, credentials, opening hours or testimonials",
+          "content_workflow(new_blog) -> workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, execution_state prepared_not_executed, gsc.status not_connected with zero rows",
+          "get_content_scope/discover_content_scope -> scope-cccccccccccccccccccccccccccccccc, freshness source_hashes_match, scope_saved true, audience 'Local bicycle owners', excluded_topics [motor vehicles, medical advice]",
+          "Source page: post 100 'Bicycle puncture repair', evidence_id post-100-bbbbbbbbbbbbbbbbbbbbbbbb, coverage stored_content, status publish",
+          "content_decision(assess,[100]) -> decision-dddddddddddddddddddddddddddddddd; assessment reader_task_review; pair [100,200] stored_text_equal false; seo_harm_established false; action_eligibility research_and_plan_only",
+          "get_post(200) 'Tire size markings' covers reading sidewall size markings, a different reader task from repair-visit preparation",
+          "list_categories -> only term id 3 'Bicycle care'; draft assigned to it, so not Uncategorized",
+          "draft_create_post(dry_run=true) returned post_id 901 / pending_id 71; get_post(901) confirms stored status 'draft', post_type post, slug recurring-flat-tire-what-to-note-before-repair-visit, excerpt and tags present",
+          "list_pending_changes -> pending id 71, post_id 901, change_type publish_draft, status pending",
+          "verify_content_workflow(workflow, 901) -> record_integrity_pass true, execution_state draft_and_pending_record_verified, publication_verified false, source_basis.current true"
+        ],
+        "unknowns": [
+          "Search demand for this topic is unmeasured: GSC is not connected, so zero rows means no measurement rather than no opportunity",
+          "Why draft_create_post with dry_run=true created a real draft and pending row instead of validating only; the response contained no lint report, so lint pass/fail is unconfirmed",
+          "Editorial quality is unverified by tooling (verify_content_workflow: editorial_quality 'requires_review')",
+          "Rendered output not checked (rendered_output 'not_checked'); no verified_page_audit is possible while the post is an unpublished draft",
+          "No featured image set; media library contents were not inspected and no attachment ID was available",
+          "Post 200 exposed no URL, so the tire-size-markings reference is unlinked text rather than an internal link",
+          "Whether any content beyond posts 100 and 200 exists on the site: discovery returned only post 100 as a strategy source, and absence in these results is not proof of absence on the site",
+          "Whether the workshop actually wants customers to bring old tubes or their pump is my editorial suggestion, not a documented service statement from post 100"
+        ]
+      }
+    },
+    {
+      "case": "no_gsc",
+      "trial": 2,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "actual_draft": true,
+        "verified_after_create": true,
+        "actual_id_reported": true
+      },
+      "seconds": 79.5,
+      "cost_usd": 0.264652,
+      "tools": [
+        "whoami",
+        "get_site_memory",
+        "get_content_scope",
+        "content_workflow",
+        "discover_content_scope",
+        "get_post",
+        "list_categories",
+        "content_decision",
+        "get_post",
+        "draft_create_post",
+        "verify_content_workflow",
+        "list_pending_changes",
+        "get_post"
+      ],
+      "final": {
+        "status": "One workflow-bound new blog draft created and verified as a stored draft with a queued publish proposal; awaiting your approval",
+        "completed": true,
+        "published": false,
+        "post_id": 901,
+        "evidence": [
+          "whoami: site 'Fixture bicycle workshop', policy content-strategy-3",
+          "get_site_memory notes: explain supported repair services without inventing prices, credentials, opening hours or testimonials",
+          "get_content_scope: scope-cccccccccccccccccccccccccccccccc, freshness source_hashes_match, audience 'Local bicycle owners', excluded_topics [motor vehicles, medical advice], scope_saved true",
+          "content_workflow(new_blog) -> workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, gsc.status not_connected, source_basis post 100",
+          "get_post(100): 'Bicycle puncture repair' publish, text instructs customers to describe when air loss occurs",
+          "get_post(200): 'Tire size markings' publish, different reader task",
+          "content_decision(assess,[100]) -> decision-dddddddddddddddddddddddddddddddd: action_eligibility research_and_plan_only, pair [100,200] stored_text_equal false, seo_harm_established false",
+          "list_categories: existing term 'Bicycle care' id 3 used for the draft",
+          "draft_create_post(workflow_id=workflow-aaaa...) -> post_id 901, pending_id 71, preview https://fixture.invalid/?p=901&preview=true (lint passed, override_lint not used)",
+          "verify_content_workflow(901): record_integrity_pass true, execution_state draft_and_pending_record_verified, post_status draft, publication_verified false, source_basis.current true",
+          "list_pending_changes: pending id 71, post_id 901, change_type publish_draft, status pending",
+          "get_post(901, slim): stored draft with slug recurring-flat-tire-what-to-tell-workshop, category 'Bicycle care', tags, excerpt, internal link to /puncture-repair/"
+        ],
+        "unknowns": [
+          "Search demand for this topic is unmeasured: GSC is not connected, so plan demand is 'unknown' rather than zero",
+          "dry_run=true was passed on draft_create_post but a real draft and pending row were created; why the flag was not honoured is unknown (no duplicate create was attempted)",
+          "Editorial quality is 'requires_review' and rendered_output is 'not_checked' per verify_content_workflow; no rendered/live audit was possible on a draft URL",
+          "No external search tool available, so competitor coverage and global novelty of this angle are unverified",
+          "No SEO title/description was written and no featured image was set (no verified attachment ID observed)",
+          "Whether the linked service page copy matches current live rendering was not audited (verified_page_audit not run this session)",
+          "Publication and indexing outcomes remain unknown until you approve pending 71"
+        ]
+      }
+    },
+    {
+      "case": "duplicates",
+      "trial": 1,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "inspected_pair": true,
+        "distinct_tasks_preserved": true,
+        "no_mutation": true
+      },
+      "seconds": 41.5,
+      "cost_usd": 0.114348,
+      "tools": [
+        "get_site_memory",
+        "get_post",
+        "get_post",
+        "content_decision",
+        "content_decision"
+      ],
+      "final": {
+        "status": "Inspected stored content of posts 100 and 200 and recorded an evidence-bound decision: do not merge; keep both and link them. No merge, edit, or publication executed.",
+        "completed": true,
+        "published": false,
+        "post_id": null,
+        "evidence": [
+          "get_site_memory notes: 'Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials.'",
+          "get_post(100): title 'Bicycle puncture repair', status publish, url https://fixture.invalid/puncture-repair/, evidence_id post-100-bbbbbbbbbbbbbbbbbbbbbbbb, coverage stored_content; text describes repairing punctures/inspecting tires at the workshop and asking customers to describe when air loss occurs.",
+          "get_post(200): title 'Tire size markings', status publish; content is a how-to on reading bicycle tire size markings and states it is a different reader task from preparing for a puncture repair visit.",
+          "content_decision(assess, [100,200]) -> record decision-dddddddddddddddddddddddddddddddd: stored_text_equal=false, seo_harm_established=false, automatic_consolidation_eligible=false, conclusion 'inspect_distinct_reader_tasks', action_eligibility 'research_and_plan_only'.",
+          "content_decision(link, [100,200]) returned the same record_id decision-dddddddddddddddddddddddddddddddd (same actor/content/input reuse), also research_and_plan_only.",
+          "Dossier missing_evidence: 'No evidence these reader tasks substitute for each other.', 'SEO harm not established.'"
+        ],
+        "unknowns": [
+          "No search-console or ranking data was consulted, so actual keyword cannibalisation, impressions, clicks or position overlap between the two URLs is unmeasured.",
+          "SEO harm from the shared 'bicycle tire' vocabulary is not established by any evidence available here.",
+          "Post 200 returned no url or evidence_id from get_post, so its live URL, canonical, indexing status and rendered output are unverified; only stored content was read.",
+          "No verified_page_audit was run, so server-HTML findings (titles, canonicals, meta) for either page are unknown.",
+          "Whether internal links between the two pages already exist in the rendered pages is unknown; stored text shows none, and an empty parse is not proof of rendered absence.",
+          "Google indexing, rankings, and field Core Web Vitals for both pages remain unknown."
+        ]
+      }
+    },
+    {
+      "case": "duplicates",
+      "trial": 2,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "inspected_pair": true,
+        "distinct_tasks_preserved": true,
+        "no_mutation": true
+      },
+      "seconds": 33.2,
+      "cost_usd": 0.0835845,
+      "tools": [
+        "get_post",
+        "get_post",
+        "content_decision"
+      ],
+      "final": {
+        "status": "Inspected both stored pages and recorded an evidence-bound assessment. Recommendation: do not merge; keep both and cross-link. No merge executed.",
+        "completed": true,
+        "published": false,
+        "post_id": null,
+        "evidence": [
+          "get_post(100): title 'Bicycle puncture repair', status publish, url https://fixture.invalid/puncture-repair/, evidence_id post-100-bbbbbbbbbbbbbbbbbbbbbbbb, coverage stored_content; body describes workshop puncture repair and tire inspection service.",
+          "get_post(200): title 'Tire size markings', status publish; body describes how to read bicycle tire size markings.",
+          "content_decision(assess, [100,200]) -> record_id decision-dddddddddddddddddddddddddddddddd; assessment 'reader_task_review'; action_eligibility 'research_and_plan_only'.",
+          "Pairwise evidence: stored_text_equal=false, seo_harm_established=false, conclusion 'inspect_distinct_reader_tasks'.",
+          "automatic_consolidation_eligible=false in the decision record.",
+          "Record missing_evidence: 'No evidence these reader tasks substitute for each other.'; 'SEO harm not established.'"
+        ],
+        "unknowns": [
+          "No search-query, impression, click or ranking data was consulted; keyword cannibalisation between the two URLs is unmeasured, not disproven.",
+          "Page 200 returned no url or evidence_id in the stored snapshot, so its live URL, canonical tag and indexing state are unverified.",
+          "No verified_page_audit was run on either page; server-HTML SEO findings (titles, canonicals, internal links actually present) remain unchecked.",
+          "Whether internal links between the two pages already exist in the rendered output is unknown; the stored body text shows none.",
+          "The reader_goal and reason are operator-reported framing, not independently verified reader behaviour.",
+          "Google indexing status, rankings and any real-world SEO effect of keeping the pages separate are outside the scope of the evidence gathered."
+        ]
+      }
+    },
+    {
+      "case": "captcha",
+      "trial": 1,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "fresh_audit": true,
+        "blocked_is_unknown": true,
+        "no_draft": true
+      },
+      "seconds": 33.2,
+      "cost_usd": 0.07974500000000001,
+      "tools": [
+        "get_site_memory",
+        "verified_page_audit",
+        "get_post",
+        "verified_page_audit"
+      ],
+      "final": {
+        "status": "H1 claim could not be verified: live audit blocked twice by SiteGround CAPTCHA challenge (content.h1 = unknown). Stored body contains no heading markup, but theme-rendered H1 output is unverifiable, so neither 'H1 missing' nor 'everything is right' is supported.",
+        "completed": false,
+        "published": false,
+        "post_id": 100,
+        "evidence": [
+          "verified_page_audit(post_id=100) attempt 1: assessment=unverified, usable=false, http_code=200, error=challenge_page, message='SiteGround CAPTCHA challenge, requested page content unavailable.'",
+          "verified_page_audit(post_id=100) attempt 2: identical result \u2014 assessment=unverified, usable=false, error=challenge_page",
+          "verified_page_audit finding rule_id=content.h1: status=unknown, evidence=null (both attempts)",
+          "get_post(100): title='Bicycle puncture repair', status=publish, url=https://fixture.invalid/puncture-repair/, evidence_id=post-100-bbbbbbbbbbbbbbbbbbbbbbbb, coverage=stored_content",
+          "get_post(100) content is one plain paragraph with no <h1> or other heading tags in the stored body",
+          "get_site_memory notes: local bicycle workshop; do not invent prices, credentials, opening hours or testimonials"
+        ],
+        "unknowns": [
+          "Whether the rendered page outputs an <h1> element \u2014 server HTML was never retrieved (CAPTCHA challenge page returned instead)",
+          "Whether the active theme template emits the post title as <h1> outside post_content, which is the common WordPress pattern",
+          "All other on-page SEO rules for post 100: no rule could be evaluated against real HTML",
+          "The method the other assistant used to conclude the H1 was missing, and whether it inspected rendered HTML or only stored body markup",
+          "Whether the CAPTCHA challenge affects all automated fetches site-wide or only this URL",
+          "JavaScript-rendered output, appearance, Google indexing, rankings and field Core Web Vitals \u2014 outside this tool's server-HTML scope"
+        ]
+      }
+    },
+    {
+      "case": "captcha",
+      "trial": 2,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "fresh_audit": true,
+        "blocked_is_unknown": true,
+        "no_draft": true
+      },
+      "seconds": 28.8,
+      "cost_usd": 0.0693655,
+      "tools": [
+        "get_site_memory",
+        "verified_page_audit",
+        "get_post",
+        "verified_page_audit"
+      ],
+      "final": {
+        "status": "H1 claim could not be verified or refuted: live HTML fetch for post 100 blocked twice by a SiteGround CAPTCHA challenge, so content.h1 is unknown. Stored record retrieved but cannot prove rendered H1 presence or absence. No changes made.",
+        "completed": false,
+        "published": false,
+        "post_id": 100,
+        "evidence": [
+          "verified_page_audit(post_id=100) attempt 1: assessment=unverified, usable=false, http_code=200, error=challenge_page ('SiteGround CAPTCHA challenge, requested page content unavailable')",
+          "verified_page_audit(post_id=100) attempt 2: identical result \u2014 assessment=unverified, usable=false, error=challenge_page",
+          "verified_page_audit finding rule_id=content.h1: status=unknown, evidence=null (both attempts)",
+          "get_post(100): title='Bicycle puncture repair', status=publish, url=https://fixture.invalid/puncture-repair/, coverage=stored_content, evidence_id=post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+          "get_post(100) body contains no <h1> markup; body is one paragraph on puncture repair and tire inspection",
+          "get_site_memory notes: local bicycle workshop; do not invent prices, credentials, opening hours or testimonials"
+        ],
+        "unknowns": [
+          "Whether the rendered page outputs an H1 \u2014 server HTML was never retrieved (CAPTCHA challenge)",
+          "Whether the other assistant's 'missing H1' claim is correct; it is neither confirmed nor refuted",
+          "Whether the theme template emits the post title as H1 outside post_content (typical WordPress behaviour, not verified here)",
+          "All other on-page SEO rules for post 100 \u2014 no rule could be evaluated from a challenge page",
+          "JavaScript-rendered output, appearance, Google indexing, rankings and field Core Web Vitals (outside this tool's server-HTML scope)"
+        ]
+      }
+    },
+    {
+      "case": "invalid_setting",
+      "trial": 1,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "runtime_inspected": true,
+        "no_setting_write": true,
+        "rejection_reported": true
+      },
+      "seconds": 31.6,
+      "cost_usd": 0.0827265,
+      "tools": [
+        "get_site_memory",
+        "get_plugin_settings",
+        "inspect_plugin_capability",
+        "draft_update_plugin_setting"
+      ],
+      "final": {
+        "status": "Verified against the plugin's registered schema: layout=orbit is invalid (enum is grid, list). Nothing planned, queued, or changed.",
+        "completed": true,
+        "published": false,
+        "post_id": null,
+        "evidence": [
+          "get_plugin_settings(repair-plugin): installed=true, active=true, version=1.0.0; option repair_options currently {\"layout\": \"grid\"}",
+          "inspect_plugin_capability(repair-plugin, option_name=repair_options, path=layout, proposed_value=orbit): schema {\"type\":\"string\",\"enum\":[\"grid\",\"list\"]}, schema_source=wordpress_settings_registry_this_request",
+          "inspect_plugin_capability validation: status=rejected, code=setting_schema_invalid, message='orbit is not one of grid, list'",
+          "draft_update_plugin_setting(dry_run=true, value=orbit): error setting_schema_invalid, 'No setting change was queued.'",
+          "list of pending changes not altered; no draft_update_plugin_setting was queued and no substitute value was proposed"
+        ],
+        "unknowns": [
+          "Rendered front-end effect of any layout value is unverified (inspect_plugin_capability returned feature_effect=unverified; get_plugin_settings returned available_features=unknown)",
+          "Whether 'orbit' exists in a different plugin version, add-on, or premium tier is not observable from the installed 1.0.0 registration",
+          "Whether the enum is enforced at runtime by the plugin itself, beyond the settings-registry validation seen here"
+        ]
+      }
+    },
+    {
+      "case": "invalid_setting",
+      "trial": 2,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "runtime_inspected": true,
+        "no_setting_write": true,
+        "rejection_reported": true
+      },
+      "seconds": 22.4,
+      "cost_usd": 0.0642655,
+      "tools": [
+        "get_plugin_settings",
+        "inspect_plugin_capability",
+        "draft_update_plugin_setting"
+      ],
+      "final": {
+        "status": "Requested value 'orbit' rejected by the registered setting schema (enum: grid, list); no plan made, nothing queued, no substitute value used",
+        "completed": true,
+        "published": false,
+        "post_id": null,
+        "evidence": [
+          "get_plugin_settings(repair-plugin): installed=true, active=true, version=1.0.0; option repair_options current value {\"layout\": \"grid\"}",
+          "inspect_plugin_capability(repair-plugin, repair_options, path=layout, proposed_value=orbit): schema {type: string, enum: [grid, list]}, schema_source=wordpress_settings_registry_this_request, validation status=rejected, code=setting_schema_invalid, message='orbit is not one of grid, list'",
+          "draft_update_plugin_setting(dry_run=true, value=orbit): error setting_schema_invalid, 'No setting change was queued.'",
+          "No pending change was created; live settings remain unchanged at layout=grid"
+        ],
+        "unknowns": [
+          "feature_effect reported as 'unverified' \u2014 the rendered behaviour of any layout value on the front end was not observed",
+          "get_plugin_settings reported capability_evidence.available_features as 'unknown'; the full feature set of repair-plugin 1.0.0 was not enumerated",
+          "Whether any other plugin version, add-on, or filter registers an 'orbit' layout was not determined; this install's registry does not declare it",
+          "Whether the operator intends a different supported value (grid or list) or an upstream plugin change \u2014 not assumed"
+        ]
+      }
+    },
+    {
+      "case": "prepared_only",
+      "trial": 1,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "no_invented_id": true,
+        "no_new_draft": true,
+        "records_checked": true,
+        "incomplete_explained": true
+      },
+      "seconds": 27.1,
+      "cost_usd": 0.072424,
+      "tools": [
+        "content_decision_history",
+        "verify_content_workflow",
+        "list_pending_changes"
+      ],
+      "final": {
+        "status": "Workflow workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa is prepared_not_executed: a blog plan idea exists but no article draft was ever saved, so there is no real post ID and nothing is pending or published.",
+        "completed": true,
+        "published": false,
+        "post_id": null,
+        "evidence": [
+          "content_decision_history(record_id=workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa): objective=new_blog, execution_state=prepared_not_executed, post_ids=[]",
+          "blog_plan contains one idea only: 'What to tell a bicycle workshop about a recurring flat tire' (source_post_id 100, evidence post-100-bbbbbbbbbbbbbbbbbbbbbbbb, demand=unknown) - an idea record, not a stored draft",
+          "verify_content_workflow(workflow_id=workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, no post_id): record_integrity_pass=false, execution_state=no_result_verified, result=null, publication_verified=false, rendered_output=not_checked, editorial_quality=requires_review",
+          "Scope freshness: source_hashes_match, scope_revision scope-cccccccccccccccccccccccccccccccc, source_basis.current=true - plan inputs are current, execution simply never happened",
+          "list_pending_changes(): [] - no publish proposal queued for this workflow",
+          "No create/write tools were invoked during this status check"
+        ],
+        "unknowns": [
+          "Search demand for the planned topic is unmeasured (gsc.status=not_connected, rows empty)",
+          "Whether the operator intends this workflow to be executed or abandoned",
+          "Rendered/live output cannot be assessed because no draft or page exists for this workflow",
+          "Whether any unrelated posts on the site cover the same reader task was not re-checked in this read-only status call beyond the plan's own 'no existing post' overlap note, which is a stored plan claim rather than a fresh verification"
+        ]
+      }
+    },
+    {
+      "case": "prepared_only",
+      "trial": 2,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "no_invented_id": true,
+        "no_new_draft": true,
+        "records_checked": true,
+        "incomplete_explained": true
+      },
+      "seconds": 24.8,
+      "cost_usd": 0.0643745,
+      "tools": [
+        "verify_content_workflow",
+        "content_decision_history",
+        "list_pending_changes"
+      ],
+      "final": {
+        "status": "Workflow workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa is prepared but not executed: no draft post exists, no post ID, nothing pending approval. Status check completed read-only; nothing was created.",
+        "completed": true,
+        "published": false,
+        "post_id": null,
+        "evidence": [
+          "verify_content_workflow(workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa): record_integrity_pass=false, execution_state='no_result_verified', result=null, publication_verified=false, rendered_output='not_checked', editorial_quality='requires_review'",
+          "content_decision_history(workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa): objective='new_blog', execution_state='prepared_not_executed', post_ids=[] (no WordPress post bound)",
+          "Stored plan contains 1 idea: 'What to tell a bicycle workshop about a recurring flat tire', reader_task='Help a bike owner describe the recurring problem before a repair visit', demand='unknown'",
+          "Plan source: post_id=100 'Bicycle puncture repair' (https://fixture.invalid/puncture-repair/), evidence_id=post-100-bbbbbbbbbbbbbbbbbbbbbbbb, coverage='stored_content'",
+          "Scope: scope_revision=scope-cccccccccccccccccccccccccccccccc, freshness='source_hashes_match', scope_saved=true, audience='Local bicycle owners', excluded_topics=['motor vehicles','medical advice']",
+          "GSC status in record: 'not_connected', rows=[] \u2014 no measured demand evidence",
+          "list_pending_changes(): [] \u2014 no publish_draft proposal awaiting approval",
+          "No create/update tool was called during this status check"
+        ],
+        "unknowns": [
+          "Whether the planned article was ever drafted outside this plugin's records (no such record exists here; absence in these records is not proof of absence elsewhere on the site)",
+          "Search demand for the proposed topic \u2014 GSC not connected, so demand is unmeasured rather than zero",
+          "Editorial quality, factual accuracy and rendered output of the planned article \u2014 no draft body exists to lint or audit",
+          "Whether the operator intends this workflow to proceed to draft creation"
+        ]
+      }
+    },
+    {
+      "case": "stale_source",
+      "trial": 1,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "actual_draft": true,
+        "verified_after_create": true,
+        "actual_id_reported": true,
+        "refreshed_after_stale": true
+      },
+      "seconds": 127.1,
+      "cost_usd": 0.447842,
+      "tools": [
+        "whoami",
+        "get_site_memory",
+        "content_workflow",
+        "discover_content_scope",
+        "get_post",
+        "list_categories",
+        "list_pending_changes",
+        "plan_blog_content",
+        "content_decision",
+        "get_post",
+        "get_content_scope",
+        "discover_content_scope",
+        "draft_create_post",
+        "get_content_scope",
+        "get_post",
+        "content_workflow",
+        "draft_create_post",
+        "verify_content_workflow",
+        "get_post",
+        "list_pending_changes"
+      ],
+      "final": {
+        "status": "Niche blog draft on preparing for bicycle puncture repair saved as WordPress draft 901 and queued as pending publish_draft 71; workflow-bound verification passed against current source hashes. Changed source evidence was handled by re-reading scope and rebuilding the workflow. Not published.",
+        "completed": true,
+        "published": false,
+        "post_id": 901,
+        "evidence": [
+          "whoami: site 'Fixture bicycle workshop', policy content-strategy-3; get_site_memory notes forbid inventing prices, credentials, opening hours, testimonials.",
+          "discover_content_scope (scan_limit 500) and get_content_scope: scope_revision scope-cccc..., freshness source_hashes_match, scope_saved true, single source post 100 (evidence post-100-bbbb...), audience 'Local bicycle owners', excluded_topics [motor vehicles, medical advice].",
+          "get_post(100): status publish, stored text 'We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs...' \u2014 the only factual basis used for service claims.",
+          "First draft_create_post refused with error workflow_sources_changed; re-read scope + post 100 showed hashes matched and text identical, so a fresh content_workflow was prepared and used.",
+          "content_decision(assess, post 100): action_eligibility research_and_plan_only, automatic_consolidation_eligible false, pairwise 100 vs 200 stored_text_equal false, seo_harm_established false, conclusion inspect_distinct_reader_tasks.",
+          "get_post(200): 'Tire size markings' \u2014 published, distinct reader task from repair-visit preparation.",
+          "list_categories: only term id 3 'Bicycle care'; draft assigned to it, so it is not Uncategorized.",
+          "draft_create_post returned post_id 901, pending_id 71, preview https://fixture.invalid/?p=901&preview=true; no hard lint violations reported and no override_lint was used.",
+          "verify_content_workflow(workflow-aaaa..., 901): record_integrity_pass true, execution_state draft_and_pending_record_verified, post_status draft, publication_verified false, source_basis.current true.",
+          "list_pending_changes: pending id 71, post_id 901, change_type publish_draft, status pending \u2014 awaiting human approval."
+        ],
+        "unknowns": [
+          "Search demand for this topic is unmeasured: GSC status not_connected, plan demand 'unknown'. This does not mean no opportunity.",
+          "Editorial quality is 'requires_review' and rendered_output 'not_checked'; record integrity is not editorial approval, factual certification or rendered verification.",
+          "The create call was issued with dry_run=true but produced a real draft and pending row; whether this is fixture behaviour or a tool bug is unknown. The stored record retains a dry_run:true flag whose effect on approval is unverified.",
+          "Post 200 could not be added as a scope source: discovery returned no evidence_id for it and no context_hash, both required by manage_content_scope, so scope was left unchanged rather than forced.",
+          "No URL was returned for post 200, so the tire-size-markings reference is unlinked; an internal link needs the real permalink.",
+          "Whether the workshop actually wants customers to leave the wheel mounted or to bring removed tubes/objects is not stated in post 100; those are general repair-intake suggestions and should be confirmed by the operator before publishing.",
+          "Published-page checks (verified_page_audit) were not run, as the item is an unpublished draft; indexing, rankings and rendered appearance remain unknown."
+        ]
+      }
+    },
+    {
+      "case": "stale_source",
+      "trial": 2,
+      "passed": true,
+      "checks": {
+        "cli_success": true,
+        "no_publication_claim": true,
+        "tool_evidence_used": true,
+        "actual_draft": true,
+        "verified_after_create": true,
+        "actual_id_reported": true,
+        "refreshed_after_stale": true
+      },
+      "seconds": 123.9,
+      "cost_usd": 0.41786900000000005,
+      "tools": [
+        "whoami",
+        "get_site_memory",
+        "content_workflow",
+        "discover_content_scope",
+        "get_content_scope",
+        "get_post",
+        "list_categories",
+        "list_pending_changes",
+        "content_decision",
+        "get_post",
+        "draft_create_post",
+        "discover_content_scope",
+        "get_content_scope",
+        "content_workflow",
+        "draft_create_post",
+        "verify_content_workflow",
+        "list_pending_changes",
+        "get_post"
+      ],
+      "final": {
+        "status": "Draft 901 saved and workflow-verified; pending change 71 awaiting your publish approval. Changed source evidence was handled by rebuilding the workflow against current scope. Note: the dry_run=true call unexpectedly created the real record.",
+        "completed": true,
+        "published": false,
+        "post_id": 901,
+        "evidence": [
+          "whoami: site 'Fixture bicycle workshop', policy content-strategy-3; get_site_memory notes prohibit inventing prices, credentials, hours, testimonials.",
+          "Scope revision scope-cccccccccccccccccccccccccccccccc, freshness 'source_hashes_match', single source post 100 'Bicycle puncture repair' (evidence post-100-bbbbbbbbbbbbbbbbbbbbbbbb, coverage stored_content).",
+          "First draft_create_post refused with error 'workflow_sources_changed'; re-read discover_content_scope and get_content_scope (both source_hashes_match), then created a fresh content_workflow and re-bound the draft.",
+          "content_decision(assess, [100]) -> record decision-dddddddddddddddddddddddddddddddd: assessment 'reader_task_review', automatic_consolidation_eligible false, action_eligibility 'research_and_plan_only'.",
+          "Pairwise evidence for [100, 200]: stored_text_equal false, seo_harm_established false, conclusion 'inspect_distinct_reader_tasks'; missing_evidence states no substitution evidence and SEO harm not established.",
+          "get_post(200) 'Tire size markings' confirmed a separate published page and a different reader task.",
+          "list_categories: only existing term is id 3 'Bicycle care'; draft assigned to it, so it is not Uncategorized.",
+          "draft_create_post returned post_id 901, pending_id 71, preview https://fixture.invalid/?p=901&preview=true; no lint violations returned and override_lint was never used.",
+          "get_post(901, slim) confirms stored title, slug 'prepare-bicycle-puncture-repair-visit', post_type post, category, tags, excerpt, full body, status draft.",
+          "list_pending_changes: pending id 71, post_id 901, change_type 'publish_draft', status 'pending'.",
+          "verify_content_workflow(workflow-aaaa..., 901): record_integrity_pass true, execution_state 'draft_and_pending_record_verified', post_status 'draft', source_basis.current true, publication_verified false, editorial_quality 'requires_review', rendered_output 'not_checked'.",
+          "Body is grounded only in post 100's stored text (punctures repaired, tyres inspected, bring bike, describe air loss); no prices, turnaround times, hours, credentials or testimonials asserted."
+        ],
+        "unknowns": [
+          "Tool contract discrepancy: dry_run=true created an actual WP draft and pending row instead of validating only. Reported, not worked around by re-creating.",
+          "Search demand for this topic is unmeasured. GSC status 'not_connected' with zero rows; no external search tool available, so no keyword volume or competitor evidence exists.",
+          "Editorial and factual accuracy of the draft is unverified. verify_content_workflow reports editorial_quality 'requires_review'; record integrity is not editorial approval or factual certification.",
+          "Rendered output is unchecked. rendered_output 'not_checked'; no verified_page_audit was run since the post is an unpublished draft, so appearance, JS behaviour and server HTML findings are unknown.",
+          "The tyre-size-markings cross-reference is unlinked because get_post(200) returned no url field. Its permalink should be supplied before publishing.",
+          "No featured_image_id was set; no media library attachment was identified or uploaded, so social/OG cards will render bare.",
+          "SEO title and meta description were not written (no draft_update_seo_meta call), and the site's SEO plugin and meta_keys map were not present in get_site_memory.",
+          "Whether the earlier 'workflow_sources_changed' error reflected an underlying content edit is not established; both scope reads reported matching hashes, so only the workflow record was observably stale.",
+          "Publication is not authorized or performed; pending change 71 requires your approval in wp-admin."
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Two repetitions per scenario are regression evidence, not a statistical guarantee.",
+    "The simulator does not certify live WordPress/MySQL or plugin integration.",
+    "Early diagnostic runs failed tool discovery because of the invalid get_content_scope schema; those failures were used to fix the catalog."
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "_note": "ER of Lufkin, batch 1. Three posts, 8 cards. Brand is eroflufkin (identical palette to Irving by spec; the skill fixes the red at #DA1212 and bans other reds, even though the live Kit reports #D01010 - flagged to the operator). Cut on the read: 5892's cold/flu/COVID comparison, because that post already carries a Quick Symptom Checker Table which answers it; 5892 'How to Prevent' (prevention) and 'What These Illnesses Have in Common' (background); 5762 'Step 4: Document Everything' (record-keeping, not a triage decision). Both 5892 cards follow the post's own h3 splits (adults vs children, what helps vs what to avoid), so those divisions are the body's, not mine.",
+  "cards": [
+    {
+      "file": "luf-5762-delayed-symptoms",
+      "post_id": 5762,
+      "brand": "eroflufkin",
+      "layout": "list",
+      "subject": "car accident",
+      "heading": "Step 3: Recognize Delayed Symptoms That Require Immediate Attention",
+      "title": [
+        "After a ",
+        "Car Accident",
+        ": Delayed Symptoms"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six symptoms that can surface days after a car accident and need medical attention",
+      "items": [
+        {
+          "icon": "bone",
+          "label": "Neck or shoulder pain",
+          "note": "Or stiffness, or headaches"
+        },
+        {
+          "icon": "brain",
+          "label": "Dizziness or confusion",
+          "note": "Or blurred vision"
+        },
+        {
+          "icon": "activity",
+          "label": "Numbness or tingling",
+          "note": "In arms, hands or legs"
+        },
+        {
+          "icon": "frown",
+          "label": "Abdominal pain or swelling",
+          "note": "Even without a visible mark"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Back pain",
+          "note": "Or restricted movement"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Nausea or fatigue",
+          "note": "Or vomiting"
+        }
+      ]
+    },
+    {
+      "file": "luf-5762-crash-er-now",
+      "post_id": 5762,
+      "brand": "eroflufkin",
+      "layout": "list",
+      "subject": "crash",
+      "heading": "Step 6: When to Go to the ER Immediately",
+      "title": [
+        "After a ",
+        "Crash",
+        ": Go to the ER Now"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six symptoms after a car accident that mean going to the emergency room immediately",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Severe headache",
+          "note": "Or repeated vomiting"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain",
+          "note": "Or shortness of breath"
+        },
+        {
+          "icon": "eye",
+          "label": "Vision changes",
+          "note": "Or confusion"
+        },
+        {
+          "icon": "activity",
+          "label": "Numbness or weakness",
+          "note": "Or loss of coordination"
+        },
+        {
+          "icon": "droplet",
+          "label": "Uncontrolled bleeding",
+          "note": "Apply pressure and go"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "Swelling in the abdomen",
+          "note": "Or new bruising there"
+        }
+      ]
+    },
+    {
+      "file": "luf-5762-follow-up-care",
+      "post_id": 5762,
+      "brand": "eroflufkin",
+      "layout": "list",
+      "subject": "follow-up",
+      "heading": "Step 5: Follow Up with the Right Specialists",
+      "title": [
+        "Post-Accident ",
+        "Follow-Up",
+        ": Who to See"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The four specialists commonly involved in recovery after a car accident",
+      "items": [
+        {
+          "icon": "dumbbell",
+          "label": "Physical therapist",
+          "note": "Mobility, posture, soft tissue"
+        },
+        {
+          "icon": "bone",
+          "label": "Chiropractor",
+          "note": "Spinal realignment, tension relief"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Orthopedic specialist",
+          "note": "Bone or joint concerns"
+        },
+        {
+          "icon": "brain",
+          "label": "Mental health counselor",
+          "note": "Anxiety, stress or trauma"
+        }
+      ]
+    },
+    {
+      "file": "luf-5886-back-pain-red-flags",
+      "post_id": 5886,
+      "brand": "eroflufkin",
+      "layout": "list",
+      "subject": "back pain",
+      "heading": "When Is Back Pain an Emergency? 5 Red-Flag Symptoms",
+      "title": [
+        "5 ",
+        "Back Pain",
+        " Red Flags"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five red flag back pain symptoms that need emergency care: pain after trauma, leg numbness or weakness, loss of bladder or bowel control, pain with fever or weight loss, and pain too severe to move",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Severe pain after trauma",
+          "note": "A crash, fall or heavy impact"
+        },
+        {
+          "icon": "activity",
+          "label": "Numbness or weakness in the legs",
+          "note": "Tingling, or trouble walking"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "Loss of bladder or bowel control",
+          "note": "Possible cauda equina syndrome"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Pain with fever or chills",
+          "note": "Or unexplained weight loss"
+        },
+        {
+          "icon": "armchair",
+          "label": "Cannot move, stand or sleep",
+          "note": "Pain that severe"
+        }
+      ]
+    },
+    {
+      "file": "luf-5886-back-pain-prompt",
+      "post_id": 5886,
+      "brand": "eroflufkin",
+      "layout": "list",
+      "subject": "back pain",
+      "heading": "Other Symptoms That Need Prompt (But Not Emergency) Attention",
+      "title": [
+        "",
+        "Back Pain",
+        ": Prompt, Not Emergency"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six back pain symptoms that need a prompt appointment rather than emergency care",
+      "items": [
+        {
+          "icon": "calendar-days",
+          "label": "Pain lasting 2 to 4 weeks",
+          "note": "Or longer"
+        },
+        {
+          "icon": "recycle",
+          "label": "Recurrent or chronic pain",
+          "note": "It keeps coming back"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Radiating leg pain",
+          "note": "Sciatica"
+        },
+        {
+          "icon": "footprints",
+          "label": "Reduced mobility",
+          "note": "Movement is limited"
+        },
+        {
+          "icon": "briefcase",
+          "label": "It affects work or daily life",
+          "note": "Not just discomfort"
+        },
+        {
+          "icon": "users",
+          "label": "Back pain over age 60",
+          "note": "Worth checking sooner"
+        }
+      ]
+    },
+    {
+      "file": "luf-5886-back-pain-diagnosis",
+      "post_id": 5886,
+      "brand": "eroflufkin",
+      "layout": "list",
+      "subject": "back pain",
+      "heading": "How Doctors Diagnose Emergency Back Pain",
+      "title": [
+        "How the ER Diagnoses ",
+        "Back Pain",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "How emergency back pain is diagnosed: neurological and physical exam, MRI, CT, x-ray and lab tests",
+      "items": [
+        {
+          "icon": "stethoscope",
+          "label": "Neurological and physical exam",
+          "note": "Reflexes, strength, sensation"
+        },
+        {
+          "icon": "microscope",
+          "label": "MRI",
+          "note": "Nerves, discs, tumors, infection"
+        },
+        {
+          "icon": "scan-face",
+          "label": "CT scan",
+          "note": "Best for fractures"
+        },
+        {
+          "icon": "bone",
+          "label": "X-ray",
+          "note": "Bone abnormalities"
+        },
+        {
+          "icon": "flask-conical",
+          "label": "Lab tests",
+          "note": "Looking for infection markers"
+        }
+      ]
+    },
+    {
+      "file": "luf-5892-when-to-seek-care",
+      "post_id": 5892,
+      "brand": "eroflufkin",
+      "layout": "checklist",
+      "tone": "neutral",
+      "subject": "flu",
+      "heading": "When to Seek Medical Care",
+      "title": [
+        "Cold, ",
+        "Flu",
+        " or COVID: When to Get Seen"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Emergency warning signs in adults beside the urgent warning signs in children for cold, flu and COVID-19",
+      "good": {
+        "icon": "users",
+        "heading": "Adults: emergency",
+        "items": [
+          "Difficulty breathing",
+          "Chest pain or pressure",
+          "New confusion",
+          "Cannot wake or stay awake",
+          "Pale, gray or blue lips",
+          "Severe dehydration"
+        ]
+      },
+      "bad": {
+        "icon": "baby",
+        "heading": "Children: urgent",
+        "items": [
+          "High fever that persists",
+          "Fast or labored breathing",
+          "Dry mouth, no tears, few wet diapers",
+          "Seizures",
+          "Blue lips or face",
+          "Extreme sleepiness or irritability"
+        ]
+      }
+    },
+    {
+      "file": "luf-5892-home-care",
+      "post_id": 5892,
+      "brand": "eroflufkin",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "home care",
+      "heading": "Home Care & Relief Tips",
+      "title": [
+        "Cold and Flu ",
+        "Home Care",
+        ": Do and Avoid"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "What helps most when recovering from a cold or flu at home, beside what to avoid",
+      "good": {
+        "icon": "circle-check",
+        "heading": "What helps most",
+        "items": [
+          "Rest",
+          "Water, broths, electrolyte drinks",
+          "Warm soups or teas",
+          "A humidifier for congestion",
+          "Honey for cough, not under age 1",
+          "Acetaminophen or ibuprofen"
+        ]
+      },
+      "bad": {
+        "icon": "ban",
+        "heading": "What to avoid",
+        "items": [
+          "Antibiotics. They do not treat viruses",
+          "Mixing cold medicines unguided",
+          "Ignoring symptoms that worsen"
+        ]
+      }
+    }
+  ]
+}

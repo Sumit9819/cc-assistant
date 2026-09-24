@@ -1,0 +1,86 @@
+{
+  "trace": [
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 100
+      },
+      "result": {
+        "post_id": 100,
+        "title": "Bicycle puncture repair",
+        "url": "https://fixture.invalid/puncture-repair/",
+        "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+        "coverage": "stored_content",
+        "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "content": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 200
+      },
+      "result": {
+        "post_id": 200,
+        "title": "Tire size markings",
+        "content": "How to read the size markings on a bicycle tire. Different reader task from preparing for a puncture repair visit.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "content_decision",
+      "arguments": {
+        "action": "assess",
+        "post_ids": [
+          100,
+          200
+        ],
+        "reader_goal": "Operator-reported: decide whether a reader looking for bicycle tire information is better served by one combined page or two. Page 100 serves someone with a flat who wants a repair service visit; page 200 serves someone decoding the numbers printed on a tire sidewall (e.g. to buy a replacement).",
+        "reason": "Operator asked whether shared mention of \"bicycle tires\" justifies an SEO merge. Inspected both stored pages: 100 is a workshop puncture-repair service page, 200 is an informational how-to-read-tire-size-markings page. Shared vocabulary only; different reader tasks and different page types. Assessing merge vs keep/link before any action."
+      },
+      "result": {
+        "record_id": "decision-dddddddddddddddddddddddddddddddd",
+        "record": {
+          "assessment": "reader_task_review",
+          "automatic_consolidation_eligible": false,
+          "action_eligibility": "research_and_plan_only",
+          "pairwise_evidence": [
+            {
+              "post_ids": [
+                100,
+                200
+              ],
+              "stored_text_equal": false,
+              "seo_harm_established": false,
+              "conclusion": "inspect_distinct_reader_tasks"
+            }
+          ],
+          "source_snapshots": [
+            {
+              "post_id": 100,
+              "title": "Bicycle puncture repair",
+              "url": "https://fixture.invalid/puncture-repair/",
+              "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "coverage": "stored_content",
+              "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+            },
+            {
+              "post_id": 200,
+              "title": "Tire size markings",
+              "text": "Read bicycle tire size markings."
+            }
+          ],
+          "missing_evidence": [
+            "No evidence these reader tasks substitute for each other.",
+            "SEO harm not established."
+          ]
+        }
+      }
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

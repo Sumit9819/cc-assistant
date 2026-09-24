@@ -1,0 +1,26 @@
+{
+  "version": "0.89.1",
+  "sha256": "f92d66a0e71a088ced62310032d54b6cbee34260cd30b560b8ac386c5c4dfb28",
+  "release": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant-0.89.1.zip",
+  "changed": [
+    "cc-assistant.php",
+    "readme.txt",
+    "bin/agent-contract.php",
+    "bin/mcp-server.php",
+    "includes/class-apply.php",
+    "includes/class-evidence-gate.php",
+    "includes/class-integrity.php",
+    "tests/fixtures/safety-harness.php",
+    "admin/views/pending.php"
+  ],
+  "added": [
+    "includes/class-approval-batch.php",
+    "tests/approval-batch-test.php"
+  ],
+  "php_syntax_files": 192,
+  "php_test_files": 47,
+  "mcp_tool_count": 176,
+  "live_backend_observed": "0.87.0",
+  "live_writes_in_this_fix": false,
+  "source_and_bridge_match_archive": true
+}

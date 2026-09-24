@@ -1,0 +1,3 @@
+[{"route":"cc-assistant/v1/whoami","method":"GET","out":"ekit-removal/w11.json"},
+ {"route":"cc-assistant/v1/theme-templates","method":"GET","out":"ekit-removal/tpl5.json"},
+ {"route":"cc-assistant/v1/pending","method":"GET","out":"ekit-removal/pend5.json"}]

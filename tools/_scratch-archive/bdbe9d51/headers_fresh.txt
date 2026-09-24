@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 03 Sep 2026 04:16:32 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+SG-F-Cache: BYPASS
+X-Cache-Enabled: True
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Link: <https://mammothmachinery.ca/wp-json/>; rel="https://api.w.org/", <https://mammothmachinery.ca/wp-json/wp/v2/pages/11>; rel="alternate"; title="JSON"; type="application/json", <https://mammothmachinery.ca/>; rel=shortlink
+Set-Cookie: _fbp=fb.1.1788408992221.1889488391.AQECAQIB; expires=Wed, 02 Dec 2026 04:16:32 GMT; Max-Age=7776000; path=/; domain=mammothmachinery.ca; secure; SameSite=Lax
+X-Httpd: 1
+Host-Header: 6b7412fb82ca5edfd0917e3957f05d89
+X-Proxy-Cache: MISS
+X-Proxy-Cache-Info: 0 NC:000000 UP:SKIP_CACHE_SET_COOKIE
+

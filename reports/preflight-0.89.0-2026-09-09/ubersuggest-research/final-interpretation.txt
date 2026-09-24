@@ -1,0 +1,80 @@
+## Research Summary
+
+**8/8 Ubersuggest calls used.** Two were **denied by permissions** (`match_keywords`, `keyword_overview`) — reporting that as the actual result rather than substituting guesses. I continued with independent permitted reads only. No projects, articles, or crawls were created.
+
+### What the domain already has (don't rebuild it)
+
+The single most important finding: **`/emergency-lab-testing-white-rock-tx/` is already the site's strongest content asset.** It ranks for ~18 lab-timing queries at positions 8–30, including "how long does bloodwork take" (3,600 US vol, pos 14), "how long does a blood test take in the er" (880, pos 11), and "how long does blood work take in the er" (880, pos 9). This *is* the "emergency room lab tests" brief. It should be expanded/optimized, not duplicated — a new competing page would likely cannibalize it.
+
+Also existing: `/how-long-does-an-er-visit-take/` (pos 5 for "how long is a typical er visit"), `/when-to-go-to-er-after-hitting-head/`, and a Spanish page at `/es/cuando-ir-a-emergencias-golpe-en-la-cabeza/`.
+
+### Location parameters
+
+`location_suggest` returned 8 distinct "Dallas" entries across 7 states. **Dallas, Texas = 1026339**; US national = 2840. I pulled both, and they differ materially — see the caveat below.
+
+```json
+{
+  "provider": "Ubersuggest MCP (session account: hello@focusyourfinance.com)",
+  "location_basis": {
+    "national": {"locId": 2840, "label": "United States", "use": "all volume/CPC/SD estimates below unless marked dallas"},
+    "dallas": {"locId": 1026339, "label": "Dallas, Texas, United States", "use": "city-level comparison only; low confidence"},
+    "note": "domain_overview and competitors were run at locId 2840. Its keyword rows are tagged en:2840, i.e. national-index data that happens to contain Dallas-local query strings. They are NOT Dallas-locId measurements."
+  },
+  "language": "en",
+  "keyword_observations": [
+    {"keyword": "what to bring to emergency room", "national_volume_est": 110, "national_cpc_usd": 9.9, "national_sd": 35, "national_pd": 5, "search_intent": "informational", "dallas_volume_est": 10, "dallas_sd": 5, "site_currently_ranks": false, "source": "keyword_suggestions"},
+    {"keyword": "when to go to er for dehydration", "national_volume_est": 320, "national_cpc_usd": 3.29, "national_sd": 23, "national_pd": 5, "search_intent": "informational", "dallas_volume_est": 10, "dallas_sd": 5, "site_currently_ranks": false, "source": "keyword_suggestions", "dallas_variants_observed": ["dehydration when to go to er", "when should i go to the er for dehydration", "when should you go to the er for dehydration"]},
+    {"keyword": "emergency room lab tests", "national_volume_est": "NO DATA — returned as empty object, no metrics in index", "dallas_volume_est": 0, "dallas_sd": 4, "site_currently_ranks": true, "existing_url": "/emergency-lab-testing-white-rock-tx/", "note": "head term has no measurable volume, but the long-tail cluster the existing page already ranks for does: 'how long does bloodwork take' 3600, 'how long does a blood test take in the er' 880, 'how long does blood work take in the er' 880, 'how long do blood tests take' 720 (all national est.)", "source": "keyword_suggestions + domain_overview"},
+    {"keyword": "er discharge instructions", "national_volume_est": "UNAVAILABLE — keyword_overview permission denied", "dallas_volume_est": "not queried (call budget exhausted)", "site_currently_ranks": "not observed in the 50 organic rows returned", "source": "none"},
+    {"keyword": "white rock medical center", "national_volume_est": 6600, "national_position": 19, "note": "high-volume third-party brand term; site ranks p19. Brand-confusion query, not a patient guide topic", "source": "domain_overview"}
+  ],
+  "domain_overview": {
+    "domain_authority": 7, "organic_keywords": 120, "monthly_organic_traffic_est": 327,
+    "backlinks": 342, "referring_domains": 120,
+    "trend_est": "searchTraffic rose 32 -> 327 and keywords 7 -> 120 between 202602 and 202608",
+    "all_values": "Ubersuggest estimates, not measured analytics"
+  },
+  "sampled_competitors": {
+    "plausibly_in_niche": [
+      {"domain": "visitcompletecare.com", "common_keywords": 42, "da": 33, "organic": 24675, "traffic_est": 69478},
+      {"domain": "whiterockmedicalcenter.com", "common_keywords": 25, "da": 19, "organic": 185, "traffic_est": 618},
+      {"domain": "getfocushealth.com", "common_keywords": 21, "da": 9, "organic": 148, "traffic_est": 124},
+      {"domain": "scer247.com", "common_keywords": 18, "da": 6, "organic": 9835, "traffic_est": 29953}
+    ],
+    "returned_but_geographically_or_topically_off": [
+      {"domain": "nyp.org", "da": 69, "why": "New York health system"},
+      {"domain": "baptisthealth.com", "da": 60}, {"domain": "towerhealth.org", "da": 52, "why": "Pennsylvania"},
+      {"domain": "adventisthealthcare.com", "da": 52, "why": "Maryland"},
+      {"domain": "southtexashealthsystemedinburg.com", "da": 24, "why": "Edinburg, ~500mi away"},
+      {"domain": "mydurable.com", "da": 40, "why": "0 organic keywords / 0 traffic but 140k backlinks; likely index noise"}
+    ],
+    "sampling_note": "auto-detected by shared-keyword overlap at locId 2840, so large national hospital systems surface as 'competitors' without competing for White Rock / East Dallas patients"
+  },
+  "source_tool_names": ["auth_status", "location_suggest", "domain_overview", "competitors", "keyword_suggestions"],
+  "denied_or_unavailable": [
+    {"tool": "match_keywords", "result": "permission denied — intended batch metrics for all 4 briefs in one call"},
+    {"tool": "keyword_overview", "result": "permission denied — 'er discharge instructions' metrics never retrieved"},
+    {"note": "batch metrics WERE supported via keyword_suggestions, but it caps at 3 seed keywords, which is why the 4th brief has no data"}
+  ],
+  "uncertainties": [
+    "Session is authenticated as hello@focusyourfinance.com, not the shree@growthboss.co in my context — confirm this is the intended account.",
+    "All Dallas (1026339) rows share one updated_at timestamp and collapse to volume 10/0 with SD 4-5. This looks like a uniform low-granularity city backfill; do not treat Dallas volumes as reliable demand signals or compare their SD to national SD.",
+    "'er discharge instructions' has zero retrieved data. Its value is unproven either way.",
+    "No serp_analysis was run, so I have not observed who actually ranks for the four target queries or whether SERPs are dominated by Mayo/Cleveland Clinic-class health publishers.",
+    "Volume, traffic, DA and CPC are all third-party model estimates.",
+    "The 50 organic rows are a sample, not the full 120-keyword set.",
+    "No wait times, service lines, physician credentials, pricing, or reviewer identities were retrieved by any call — none may be asserted in content."
+  ],
+  "candidate_reader_tasks": [
+    {"task": "Know what to physically bring and have ready before leaving for the ER", "seed": "what to bring to emergency room", "national_volume_est": 110, "status": "gap — no ranking page observed", "format": "short checklist page (ID, insurance card, medication list, caregiver contact); no invented intake process"},
+    {"task": "Decide whether dehydration symptoms warrant the ER now or can wait", "seed": "when to go to er for dehydration", "national_volume_est": 320, "status": "gap — no ranking page observed", "format": "symptom-threshold triage guide; mirrors the existing head-injury 'when to go' page pattern, which already ranks"},
+    {"task": "Understand how long ER blood work takes and why results lag", "seed": "lab-timing cluster", "national_volume_est": "3600 + 880 + 880 + 720 across variants", "status": "PRESERVE AND EXPAND /emergency-lab-testing-white-rock-tx/ — ranks p8-30 already; biggest near-term upside is improving these positions, not new pages"},
+    {"task": "Know what happens after discharge and which symptoms mean come back", "seed": "er discharge instructions", "national_volume_est": "unknown (denied)", "status": "unvalidated — re-run metrics before committing"},
+    {"task": "Estimate total ER visit duration", "seed": "how long does an er visit take", "status": "PRESERVE /how-long-does-an-er-visit-take/ (p5 on one variant, p22 on another)"},
+    {"task": "Spanish-language 'when to go to the ER' guidance", "status": "existing /es/ page ranks p58; an under-exploited direction given East Dallas, but I retrieved no Spanish keyword metrics to size it"}
+  ],
+  "guarantees": "none — no fact, volume, or ranking outcome is guaranteed"
+}
+```
+
+**Two things I'd flag before any content work:** the lab-testing page is a genuine ranking asset and the "emergency room lab tests" brief should become an optimization of it rather than a new article; and the account email mismatch is worth confirming. To validate `er discharge instructions` and size the Spanish opportunity, `keyword_overview`/`match_keywords` permissions would need to be granted.

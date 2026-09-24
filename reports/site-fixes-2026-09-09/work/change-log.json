@@ -1,0 +1,1155 @@
+[
+  {
+    "post_id": 2482,
+    "widget_id": "d7f4d6f",
+    "field": "editor",
+    "before": "<p>When a stroke happens, every single minute determines your brain health and recovery. At ER of White Rock, our 24/7 freestanding emergency room provides immediate, life-saving evaluations for severe stroke symptoms. We utilize advanced on-site CT imaging to determine if you are experiencing a blood clot or a brain bleed. Our experienced emergency physicians are ready to stabilize your condition with minimal wait times right here in East Dallas.</p>",
+    "after": "<p>If you suspect a stroke, call 911 for an ambulance. Do not drive or wait for symptoms to pass.</p><p>ER of White Rock provides emergency evaluation, CT imaging and initial stabilization 24 hours a day. When specialist care is needed, we coordinate transfer to an appropriate facility.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "7a40c42e",
+    "field": "title",
+    "before": "Get Immediate Emergency Stroke Care Now",
+    "after": "Suspected Stroke? Call 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "7a40c42e",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "261e9fcc",
+    "field": "title",
+    "before": "How to Recognize a Stroke: Act F.A.S.T.",
+    "after": "Stroke Warning Signs: Act Immediately",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "111e7fa0",
+    "field": "editor",
+    "before": "<p>A stroke is a critical medical emergency that cuts off blood flow to the brain. Recognizing the warning signs early can save a life. The <a href=\"https://www.cdc.gov/stroke/signs-symptoms/index.html\">CDC recommends the F.A.S.T. method</a> to identify a stroke:</p><ul><li><strong>Face Drooping:</strong> Does one side of the face droop or feel completely numb?</li><li><strong>Arm Weakness:</strong> Ask the person to raise both arms. Does one arm drift downward?</li><li><strong>Speech Difficulty:</strong> Is their speech suddenly slurred or impossible to understand?</li><li><strong>Time to Call 911:</strong> If you observe any of these signs, seek emergency stroke care immediately.</li></ul><p>Mini strokes, clinically known as transient ischemic attacks (TIAs), produce similar symptoms and are a massive warning sign of a future stroke. Risk factors like high blood pressure, diabetes, and smoking drastically increase your chances of a neurological event. Do not ignore these symptoms.</p><p>Our stroke evaluation at ER of White Rock includes immediate diagnostic imaging, vital sign stabilization, and coordination of thrombolytic therapies for ischemic and hemorrhagic strokes.</p><p>Stroke recognition is one piece of broader cardiovascular awareness. Our <a href=\"https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">cardiovascular emergencies guide near White Rock</a> covers heart attack, stroke, and blood clot warning signs.</p>",
+    "after": "<p>Sudden loss of balance or vision, face drooping, arm weakness and speech trouble can signal a stroke. A sudden severe headache is another warning sign. <a href=\"https://www.cdc.gov/stroke/signs-symptoms/index.html\">CDC guidance recommends calling 911</a>, even if the symptoms go away.</p><p>Treatment depends on whether a clot blocks blood flow or there is bleeding in the brain. Clot-busting medicines may help selected patients with an ischemic stroke; they do not treat a hemorrhagic stroke. See the <a href=\"https://www.nhlbi.nih.gov/health/stroke/treatment\">NIH treatment guidance</a>.</p><p>Stroke recognition is one piece of broader cardiovascular awareness. Our <a href=\"https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">cardiovascular emergencies guide near White Rock</a> covers heart attack, stroke, and blood clot warning signs.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "6931d24a",
+    "field": "description_text_b",
+    "before": "Stroke emergencies do not wait for business hours. Our doors are always open, ensuring you completely bypass the standard hospital waiting room for immediate medical attention.",
+    "after": "Our emergency team is available around the clock. For suspected stroke, call 911 so emergency responders can determine the appropriate destination.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "627745bb",
+    "field": "description_text_b",
+    "before": "We feature state-of-the-art CT scanners on-site to instantly look inside the brain. This allows our team to quickly diagnose whether you have an ischemic stroke or a hemorrhagic stroke.",
+    "after": "CT imaging helps evaluate possible bleeding in the brain. Clinicians interpret the images alongside symptoms and the neurological examination.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "af6b803",
+    "field": "title_text_a",
+    "before": "Clot-Busting Medication Coordination",
+    "after": "Treatment Assessment",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "af6b803",
+    "field": "title_text_b",
+    "before": "Clot-Busting Medication Coordination",
+    "after": "Treatment Assessment",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "af6b803",
+    "field": "description_text_b",
+    "before": "For ischemic strokes, time is critical. We quickly assess your eligibility for life-saving thrombolytic therapies to break up dangerous brain clots.",
+    "after": "Decisions about medicines and procedures depend on stroke type, symptom timing and the medical team’s assessment.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "641727e",
+    "field": "description_text_b",
+    "before": "Once stabilized, we coordinate direct medical transport to the highest-rated comprehensive stroke centers in Dallas for advanced neurosurgery or ongoing neurological care.",
+    "after": "We coordinate medical transfer when neurological care, neurosurgery or other specialist services are needed.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "b492b12",
+    "field": "editor",
+    "before": "<p>If you or a family member show signs of a stroke, take these exact steps to ensure the best possible medical outcome:</p><ul><li><strong>Note the Exact Time:</strong> Look at the clock the moment symptoms begin. This critical detail dictates which medications our doctors can safely use.</li><li><strong>Keep the Patient Awake:</strong> Do not let them go to sleep to see if the symptoms pass. Keep them alert.</li><li><strong>Do Not Give Aspirin or Food:</strong> If they are having a brain bleed, blood thinners like aspirin can be fatal. If their throat muscles are affected, food or water can cause choking.</li><li><strong>Act Immediately:</strong> Call 911 or drive directly to our Dallas emergency room.</li></ul>",
+    "after": "<p>If someone has stroke warning signs:</p><ul><li><strong>Call 911:</strong> Request an ambulance immediately.</li><li><strong>Record the time:</strong> Note when symptoms began or when the person was last known to be well.</li><li><strong>Follow instructions:</strong> Stay with the person and follow the 911 dispatcher’s directions.</li><li><strong>Do not wait:</strong> Do not delay to see whether symptoms improve.</li></ul>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "1db51ab2",
+    "field": "text",
+    "before": "Call Us Now",
+    "after": "Call 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "1db51ab2",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "bdf1e05",
+    "field": "text",
+    "before": "Get Immediate Care Now",
+    "after": "Call 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "bdf1e05",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "b6242da",
+    "field": "text",
+    "before": "Call Us Now",
+    "after": "Call 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "b6242da",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "640abf8",
+    "field": "editor",
+    "before": "<p>At ER of White Rock, we are committed to delivering top-tier initial stroke care in Dallas, Texas. Our rapid-response team, advanced diagnostic technology, and coordinated specialist referrals ensure that every patient receives immediate assessment and highly accurate care coordination.</p>",
+    "after": "<p>Our team evaluates symptoms, provides initial stabilization and coordinates specialist care when needed. Care depends on each patient’s condition and needs.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "4270172",
+    "field": "title",
+    "before": "Visit ER of White Rock for Immediate Stroke Assessment",
+    "after": "Call 911 for a Suspected Stroke",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "4f886c3",
+    "field": "editor",
+    "before": "<p>If you need emergency stroke evaluation in Dallas, do not wait. Visit the ER of White Rock immediately for expert diagnosis, emergency stabilization, and coordinated specialist care. Time is brain tissue, and your health is our absolute priority.</p>",
+    "after": "<p>Stroke is an emergency. Call 911, do not drive, and do not wait for an office callback or contact-form response.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "d5977fa",
+    "field": "html",
+    "before": "<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"MedicalWebPage\",\r\n  \"name\": \"Emergency Stroke Care and Evaluation in White Rock\",\r\n  \"url\": \"https://erofwhiterock.com/services/expert-stroke-care/\",\r\n  \"description\": \"24/7 freestanding emergency room providing immediate stroke evaluations, advanced CT imaging, and initial neurological stabilization with minimal wait times.\",\r\n  \"specialty\": \"https://schema.org/Emergency\",\r\n  \"about\": {\r\n    \"@type\": \"MedicalTherapy\",\r\n    \"name\": \"Emergency Stroke Evaluation and Stabilization\",\r\n    \"description\": \"Immediate diagnostic imaging, vital sign stabilization, and coordination of thrombolytic therapies for ischemic and hemorrhagic strokes.\",\r\n    \"healthCondition\": [\r\n      {\r\n        \"@type\": \"MedicalCondition\",\r\n        \"name\": \"Stroke\",\r\n        \"alternateName\": [\"Cerebrovascular Accident\", \"Brain Bleed\", \"Ischemic Stroke\"],\r\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Stroke\"\r\n      },\r\n      {\r\n        \"@type\": \"MedicalCondition\",\r\n        \"name\": \"Transient ischemic attack\",\r\n        \"alternateName\": [\"Mini Stroke\", \"TIA\"],\r\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Transient_ischemic_attack\"\r\n      }\r\n    ]\r\n  },\r\n  \"provider\": {\r\n    \"@type\": \"EmergencyService\",\r\n    \"name\": \"ER of White Rock\",\r\n    \"url\": \"https://erofwhiterock.com/\",\r\n    \"telephone\": \"+1-469-943-2939\",\r\n    \"address\": {\r\n      \"@type\": \"PostalAddress\",\r\n      \"streetAddress\": \"10705 Northwest Hwy\",\r\n      \"addressLocality\": \"Dallas\",\r\n      \"addressRegion\": \"TX\",\r\n      \"postalCode\": \"75238\",\r\n      \"addressCountry\": \"US\"\r\n    }\r\n  }\r\n}\r\n</script>",
+    "after": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"MedicalWebPage\",\n  \"name\": \"Emergency Stroke Care and Evaluation in White Rock\",\n  \"url\": \"https://erofwhiterock.com/services/expert-stroke-care/\",\n  \"description\": \"Emergency evaluation, CT imaging and initial stabilization. Call 911 for a suspected stroke.\",\n  \"specialty\": \"https://schema.org/Emergency\",\n  \"about\": {\n    \"@type\": \"MedicalTherapy\",\n    \"name\": \"Emergency Stroke Evaluation and Stabilization\",\n    \"description\": \"Treatment depends on stroke type. Specialist care and transfer are coordinated according to medical assessment.\",\n    \"healthCondition\": [\n      {\n        \"@type\": \"MedicalCondition\",\n        \"name\": \"Stroke\",\n        \"alternateName\": [\n          \"Cerebrovascular Accident\",\n          \"Brain Bleed\",\n          \"Ischemic Stroke\"\n        ],\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Stroke\"\n      },\n      {\n        \"@type\": \"MedicalCondition\",\n        \"name\": \"Transient ischemic attack\",\n        \"alternateName\": [\n          \"Mini Stroke\",\n          \"TIA\"\n        ],\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Transient_ischemic_attack\"\n      }\n    ]\n  },\n  \"provider\": {\n    \"@type\": \"EmergencyService\",\n    \"name\": \"ER of White Rock\",\n    \"url\": \"https://erofwhiterock.com/\",\n    \"telephone\": \"+1-469-943-2939\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"streetAddress\": \"10705 Northwest Hwy\",\n      \"addressLocality\": \"Dallas\",\n      \"addressRegion\": \"TX\",\n      \"postalCode\": \"75238\",\n      \"addressCountry\": \"US\"\n    }\n  },\n  \"inLanguage\": \"en\"\n}</script>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "4b311a94",
+    "field": "editor",
+    "before": "<p>While our East Dallas facility is here to provide life-saving care, understanding stroke prevention is just as important for protecting your family. The <a href=\"https://www.ninds.nih.gov/health-information/disorders/stroke\">NIH NINDS</a> identifies high blood pressure as the leading cause of strokes and brain bleeds. If you or a loved one have a history of hypertension, taking proactive steps is vital:</p><ul><li><strong>Manage Blood Pressure:</strong> Check your levels regularly and take all prescribed medications.</li><li><strong>Control Diabetes:</strong> High blood sugar damages blood vessels over time and increases clot risks.</li><li><strong>Quit Smoking:</strong> Smoking thickens your blood and drastically increases the chance of plaque buildup.</li><li><strong>Watch for Warning Signs:</strong> Sudden dizziness, severe unexplained headaches, or temporary vision loss are warning signs that require an immediate ER evaluation.</li></ul>",
+    "after": "<p>While our East Dallas facility is here to provide life-saving care, understanding stroke prevention is just as important for protecting your family. The <a href=\"https://www.ninds.nih.gov/health-information/disorders/stroke\">NIH NINDS</a> identifies high blood pressure as the leading cause of strokes and brain bleeds. If you or a loved one have a history of hypertension, taking proactive steps is vital:</p><ul><li><strong>Manage Blood Pressure:</strong> Check your levels regularly and take all prescribed medications.</li><li><strong>Control Diabetes:</strong> High blood sugar damages blood vessels over time and increases clot risks.</li><li><strong>Quit Smoking:</strong> Smoking thickens your blood and drastically increases the chance of plaque buildup.</li><li><strong>Watch for Warning Signs:</strong> Sudden dizziness, severe unexplained headaches, or temporary vision loss are warning signs that require calling 911 immediately.</li></ul>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "d7f4d6f",
+    "field": "editor",
+    "before": "<p>Cuando ocurre un derrame cerebral, cada minuto determina la salud de su cerebro y su recuperación. En ER of White Rock, nuestra sala de emergencias independiente 24/7 brinda evaluaciones inmediatas y que salvan vidas para síntomas severos de derrame cerebral. Utilizamos imágenes CT avanzadas en el sitio para determinar si está experimentando un coágulo de sangre o un sangrado cerebral. Nuestros médicos de emergencia con experiencia están listos para estabilizar su condición con tiempos de espera mínimos aquí mismo en East Dallas.</p>",
+    "after": "<p>Si sospecha un accidente cerebrovascular, llame al 911 para pedir una ambulancia. No conduzca ni espere a que los síntomas desaparezcan.</p><p>ER of White Rock ofrece evaluación de emergencia, tomografía computarizada y estabilización inicial las 24 horas. Cuando se necesita atención especializada, coordinamos el traslado al centro adecuado.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "7a40c42e",
+    "field": "title",
+    "before": "Obtenga atención de emergencia inmediata para accidentes cerebrovasculares ahora",
+    "after": "¿Sospecha un derrame cerebral? Llame al 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "7a40c42e",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "261e9fcc",
+    "field": "title",
+    "before": "Cómo reconocer un accidente cerebrovascular: actúe F.A.S.T.",
+    "after": "Señales de un accidente cerebrovascular: actúe de inmediato",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "111e7fa0",
+    "field": "editor",
+    "before": "<p>Un derrame cerebral es una emergencia médica crítica que interrumpe el flujo sanguíneo al cerebro. Reconocer las señales de advertencia tempranamente puede salvar una vida. Use el método F.A.S.T. para identificar un derrame cerebral:</p><ul><li><strong>Caída facial (Face Drooping):</strong> ¿Se cae un lado de la cara o se siente completamente entumecido?</li><li><strong>Debilidad en el brazo (Arm Weakness):</strong> Pídale a la persona que levante ambos brazos. ¿Se desvía un brazo hacia abajo?</li><li><strong>Dificultad para hablar (Speech Difficulty):</strong> ¿Su habla está repentinamente arrastrada o es imposible de entender?</li><li><strong>Hora de llamar al 911 (Time to Call 911):</strong> Si observa cualquiera de estas señales, busque <a href=\"/atencion-emergencia-accidentes-cerebrovasculares-dallas/\">atención de emergencia para derrame cerebral</a> de inmediato.</li></ul><p>Los mini derrames cerebrales, clínicamente conocidos como TIAs, producen síntomas similares y son una enorme señal de advertencia de un futuro derrame cerebral. Los factores de riesgo como la presión arterial alta, la diabetes y el tabaquismo aumentan drásticamente sus posibilidades de tener un evento neurológico. No ignore estos síntomas.</p><p>Para más información sobre síntomas, factores de riesgo y prevención del accidente cerebrovascular, consulte la <a href=\"https://medlineplus.gov/spanish/stroke.html\" target=\"_blank\" rel=\"noopener noreferrer\">guía sobre derrame cerebral de MedlinePlus (Biblioteca Nacional de Medicina, NIH)</a> y los <a href=\"https://www.cdc.gov/stroke/about/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">recursos de los CDC sobre accidente cerebrovascular</a>.</p><p>El reconocimiento del derrame cerebral es una pieza de la conciencia cardiovascular más amplia. Nuestra <a href=\"https://erofwhiterock.com/es/emergencias-cardiovasculares-cerca-de-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de emergencias cardiovasculares cerca de White Rock</a> cubre ataque al corazón, derrame cerebral y señales de coágulo sanguíneo.</p>",
+    "after": "<p>La pérdida repentina del equilibrio o de la visión, la caída de un lado de la cara, la debilidad en un brazo y la dificultad para hablar pueden ser señales de un accidente cerebrovascular. Un dolor de cabeza repentino e intenso también requiere atención inmediata. <a href=\"https://www.cdc.gov/stroke/es/signs-symptoms/signos-y-sintomas-de-accidente-cerebrovascular.html\">Los CDC recomiendan llamar al 911</a>, incluso si los síntomas desaparecen.</p><p>El tratamiento depende de si un coágulo bloquea el flujo sanguíneo o si hay sangrado en el cerebro. Los medicamentos para disolver coágulos pueden ayudar a algunos pacientes con un accidente cerebrovascular isquémico; no tratan un derrame hemorrágico. Consulte la <a href=\"https://www.nhlbi.nih.gov/health/stroke/treatment\">guía de tratamiento del NIH</a> (en inglés).</p><p>El reconocimiento del derrame cerebral es una pieza de la conciencia cardiovascular más amplia. Nuestra <a href=\"https://erofwhiterock.com/es/emergencias-cardiovasculares-cerca-de-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de emergencias cardiovasculares cerca de White Rock</a> cubre ataque al corazón, derrame cerebral y señales de coágulo sanguíneo.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "6931d24a",
+    "field": "description_text_b",
+    "before": "Las emergencias por derrame cerebral no esperan al horario de oficina. Nuestras puertas están siempre abiertas, lo que le permite evitar por completo la sala de espera estándar del hospital para recibir atención médica inmediata.",
+    "after": "Nuestro equipo de emergencia está disponible las 24 horas. Si sospecha un derrame cerebral, llame al 911 para que los servicios de emergencia determinen el destino adecuado.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "627745bb",
+    "field": "description_text_b",
+    "before": "Contamos con tomógrafos CT de última generación en el sitio para examinar el cerebro al instante. Esto permite a nuestro equipo diagnosticar rápidamente si usted tiene un derrame cerebral isquémico o hemorrágico.",
+    "after": "La tomografía ayuda a evaluar un posible sangrado cerebral. Los médicos interpretan las imágenes junto con los síntomas y la evaluación neurológica.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "af6b803",
+    "field": "title_text_a",
+    "before": "Coordinación de Medicamentos para Disolver Coágulos",
+    "after": "Evaluación del tratamiento",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "af6b803",
+    "field": "title_text_b",
+    "before": "Coordinación de Medicamentos para Disolver Coágulos",
+    "after": "Evaluación del tratamiento",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "af6b803",
+    "field": "description_text_b",
+    "before": "Para los accidentes cerebrovasculares isquémicos, el tiempo es crítico. Evaluamos rápidamente su elegibilidad para terapias trombolíticas que salvan vidas y disuelven coágulos peligrosos en el cerebro.",
+    "after": "Las decisiones sobre medicamentos y procedimientos dependen del tipo de accidente cerebrovascular, el momento de inicio y la evaluación del equipo médico.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "641727e",
+    "field": "description_text_b",
+    "before": "Una vez estabilizado, coordinamos el transporte médico directo a los centros integrales de accidentes cerebrovasculares mejor calificados de Dallas para neurocirugía avanzada o atención neurológica continua.",
+    "after": "Coordinamos el traslado médico cuando se necesita atención neurológica, neurocirugía u otros servicios especializados.",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "b492b12",
+    "field": "editor",
+    "before": "<p>Si usted o un familiar muestran signos de un accidente cerebrovascular, siga estos pasos exactos para asegurar el mejor resultado médico posible:</p><ul><li><strong>Anote la hora exacta:</strong> Mire el reloj en el momento en que comienzan los síntomas. Este detalle crítico determina qué medicamentos pueden usar nuestros médicos de manera segura.</li><li><strong>Mantenga al paciente despierto:</strong> No permita que se duerma para ver si los síntomas pasan. Manténgalo alerta.</li><li><strong>No le dé aspirina ni comida:</strong> Si está teniendo un sangrado cerebral, los anticoagulantes como la aspirina pueden ser fatales. Si los músculos de la garganta están afectados, la comida o el agua pueden causar asfixia.</li><li><strong>Actúe inmediatamente:</strong> Llame al 911 o diríjase directamente a nuestra sala de emergencias en Dallas.</li></ul>",
+    "after": "<p>Ante señales de un accidente cerebrovascular:</p><ul><li><strong>Llame al 911:</strong> Pida una ambulancia de inmediato.</li><li><strong>Anote la hora:</strong> Indique cuándo comenzaron los síntomas o cuándo la persona estaba bien por última vez.</li><li><strong>Siga las instrucciones:</strong> Permanezca con la persona y siga las indicaciones del operador del 911.</li><li><strong>No espere:</strong> No deje pasar el tiempo para ver si los síntomas mejoran.</li></ul>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "1db51ab2",
+    "field": "text",
+    "before": "Llámenos Ahora",
+    "after": "Llame al 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "1db51ab2",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "bdf1e05",
+    "field": "text",
+    "before": "Obtenga atención inmediata ahora",
+    "after": "Llame al 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "bdf1e05",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "b6242da",
+    "field": "text",
+    "before": "Llámenos Ahora",
+    "after": "Llame al 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "b6242da",
+    "field": "link",
+    "before": {
+      "url": "tel:4699432939",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "tel:911",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "640abf8",
+    "field": "editor",
+    "before": "<p>En ER of White Rock, nos comprometemos a brindar atención inicial de primer nivel para derrames cerebrales en Dallas, Texas. Nuestro equipo de respuesta rápida, la tecnología avanzada de diagnóstico y las referencias coordinadas a especialistas garantizan que cada paciente reciba una evaluación inmediata y una coordinación de atención altamente precisa.</p>",
+    "after": "<p>Nuestro equipo evalúa los síntomas, brinda estabilización inicial y coordina la atención especializada cuando se necesita. La atención depende de la condición y las necesidades de cada paciente.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "4270172",
+    "field": "title",
+    "before": "Visite ER of White Rock para Evaluación Inmediata de Derrame Cerebral",
+    "after": "Si sospecha un derrame cerebral, llame al 911",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "4f886c3",
+    "field": "editor",
+    "before": "<p>Si necesita evaluación de emergencia por accidente cerebrovascular en Dallas, no espere. Visite ER of White Rock inmediatamente para un diagnóstico experto, estabilización de emergencia y atención coordinada de especialistas. El tiempo es tejido cerebral, y su salud es nuestra prioridad absoluta.</p>",
+    "after": "<p>El accidente cerebrovascular es una emergencia. Llame al 911, no conduzca y no espere una respuesta por teléfono o formulario de nuestra oficina.</p>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "d5977fa",
+    "field": "html",
+    "before": "<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"MedicalWebPage\",\r\n  \"name\": \"Atención y Evaluación de Emergencia para Derrame Cerebral en White Rock\",\r\n  \"url\": \"https://erofwhiterock.com/services/expert-stroke-care/\",\r\n  \"description\": \"Sala de emergencias independiente 24/7 que brinda evaluaciones inmediatas de derrame cerebral, imágenes CT avanzadas y estabilización neurológica inicial con tiempos de espera mínimos.\",\r\n  \"specialty\": \"https://schema.org/Emergency\",\r\n  \"about\": {\r\n    \"@type\": \"MedicalTherapy\",\r\n    \"name\": \"Evaluación y Estabilización de Emergencia para Derrame Cerebral\",\r\n    \"description\": \"Imágenes diagnósticas inmediatas, estabilización de signos vitales y coordinación de terapias trombolíticas para derrames cerebrales isquémicos y hemorrágicos.\",\r\n    \"healthCondition\": [\r\n      {\r\n        \"@type\": \"MedicalCondition\",\r\n        \"name\": \"Derrame cerebral\",\r\n        \"alternateName\": [\"Accidente Cerebrovascular\", \"Sangrado Cerebral\", \"Derrame Cerebral Isquémico\"],\r\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Stroke\"\r\n      },\r\n      {\r\n        \"@type\": \"MedicalCondition\",\r\n        \"name\": \"Ataque isquémico transitorio\",\r\n        \"alternateName\": [\"Mini Derrame Cerebral\", \"TIA\"],\r\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Transient_ischemic_attack\"\r\n      }\r\n    ]\r\n  },\r\n  \"provider\": {\r\n    \"@type\": \"EmergencyService\",\r\n    \"name\": \"ER of White Rock\",\r\n    \"url\": \"https://erofwhiterock.com/\",\r\n    \"telephone\": \"+1-469-943-2939\",\r\n    \"address\": {\r\n      \"@type\": \"PostalAddress\",\r\n      \"streetAddress\": \"10705 Northwest Hwy\",\r\n      \"addressLocality\": \"Dallas\",\r\n      \"addressRegion\": \"TX\",\r\n      \"postalCode\": \"75238\",\r\n      \"addressCountry\": \"US\"\r\n    }\r\n  }\r\n}\r\n</script>",
+    "after": "<script type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"MedicalWebPage\",\n  \"name\": \"Atención y Evaluación de Emergencia para Derrame Cerebral en White Rock\",\n  \"url\": \"https://erofwhiterock.com/es/atencion-experta-para-derrame-cerebral-en-white-rock-texas-er-of-white-rock/\",\n  \"description\": \"Evaluación de emergencia, tomografía y estabilización inicial. Si sospecha un accidente cerebrovascular, llame al 911.\",\n  \"specialty\": \"https://schema.org/Emergency\",\n  \"about\": {\n    \"@type\": \"MedicalTherapy\",\n    \"name\": \"Evaluación y Estabilización de Emergencia para Derrame Cerebral\",\n    \"description\": \"El tratamiento depende del tipo de accidente cerebrovascular. Se coordina atención especializada y traslado según la evaluación médica.\",\n    \"healthCondition\": [\n      {\n        \"@type\": \"MedicalCondition\",\n        \"name\": \"Derrame cerebral\",\n        \"alternateName\": [\n          \"Accidente Cerebrovascular\",\n          \"Sangrado Cerebral\",\n          \"Derrame Cerebral Isquémico\"\n        ],\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Stroke\"\n      },\n      {\n        \"@type\": \"MedicalCondition\",\n        \"name\": \"Ataque isquémico transitorio\",\n        \"alternateName\": [\n          \"Mini Derrame Cerebral\",\n          \"TIA\"\n        ],\n        \"sameAs\": \"https://en.wikipedia.org/wiki/Transient_ischemic_attack\"\n      }\n    ]\n  },\n  \"provider\": {\n    \"@type\": \"EmergencyService\",\n    \"name\": \"ER of White Rock\",\n    \"url\": \"https://erofwhiterock.com/\",\n    \"telephone\": \"+1-469-943-2939\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"streetAddress\": \"10705 Northwest Hwy\",\n      \"addressLocality\": \"Dallas\",\n      \"addressRegion\": \"TX\",\n      \"postalCode\": \"75238\",\n      \"addressCountry\": \"US\"\n    }\n  },\n  \"inLanguage\": \"es\"\n}</script>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "4b311a94",
+    "field": "editor",
+    "before": "<p>Si bien nuestra instalación de East Dallas está aquí para brindar atención que salva vidas, comprender la prevención de derrames cerebrales es igual de importante para proteger a su familia. La presión arterial alta es la causa principal de derrames cerebrales y sangrados cerebrales. Si usted o un ser querido tiene un historial de hipertensión, tomar medidas proactivas es vital:</p><ul><li><strong>Controle la Presión Arterial:</strong> Revise sus niveles regularmente y tome todos los medicamentos recetados.</li><li><strong>Controle la Diabetes:</strong> El azúcar alta en la sangre daña los vasos sanguíneos con el tiempo y aumenta los riesgos de coágulos.</li><li><strong>Deje de Fumar:</strong> Fumar espesa su sangre y aumenta drásticamente la posibilidad de acumulación de placa.</li><li><strong>Esté atento a las Señales de Advertencia:</strong> Mareo repentino, dolores de cabeza severos inexplicables o pérdida temporal de la visión son señales de advertencia que requieren una evaluación inmediata en la sala de emergencias.</li></ul>",
+    "after": "<p>Si bien nuestra instalación de East Dallas está aquí para brindar atención que salva vidas, comprender la prevención de derrames cerebrales es igual de importante para proteger a su familia. La presión arterial alta es la causa principal de derrames cerebrales y sangrados cerebrales. Si usted o un ser querido tiene un historial de hipertensión, tomar medidas proactivas es vital:</p><ul><li><strong>Controle la Presión Arterial:</strong> Revise sus niveles regularmente y tome todos los medicamentos recetados.</li><li><strong>Controle la Diabetes:</strong> El azúcar alta en la sangre daña los vasos sanguíneos con el tiempo y aumenta los riesgos de coágulos.</li><li><strong>Deje de Fumar:</strong> Fumar espesa su sangre y aumenta drásticamente la posibilidad de acumulación de placa.</li><li><strong>Esté atento a las Señales de Advertencia:</strong> Mareo repentino, dolores de cabeza severos inexplicables o pérdida temporal de la visión son señales de advertencia que requieren llamar al 911 de inmediato.</li></ul>",
+    "reason": "WR-01: correct stroke guidance and schema using CDC/NIH; remove unverified guarantees and rankings."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "5fcfb78c",
+    "field": "link",
+    "before": {
+      "url": "https://www.google.com/maps/place/Total+Point+Emergency+Center+-+Dallas/@32.9211132,-96.9603543,16z/data=!3m1!4b1!4m6!3m5!1s0x864c29c2eb04c991:0x6bf812824049f6ff!8m2!3d32.9211132!4d-96.9577794!16s%2Fg%2F11sw1nr9vw?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoASAFQAw%3D%3D",
+      "is_external": "on",
+      "nofollow": "",
+      "custom_attributes": ""
+    },
+    "after": {
+      "url": "https://www.google.com/maps/place/ER+of+White+Rock+-+Emergency+Room/@32.8646409,-96.7000306,732m/data=!3m2!1e3!4b1!4m6!3m5!1s0x864ea131f0fa1a1f:0x4aa8c9e03bdf42c2!8m2!3d32.8646409!4d-96.7000306!16s%2Fg%2F11vynyfmnc",
+      "is_external": "on",
+      "nofollow": ""
+    },
+    "reason": "WR-01: replace directions to the wrong facility."
+  },
+  {
+    "post_id": 4667,
+    "widget_id": "b22b0e6",
+    "field": "editor",
+    "before": "<p>Medically reviewed by the <a href=\"https://erofwhiterock.com/editorial-policy/\">ER of White Rock Nursing Team</a> |</p>",
+    "after": "<p>Medically reviewed by the <a href=\"https://erofwhiterock.com/editorial-policy/\">ER of White Rock Clinical Team</a> |</p>",
+    "reason": "WR-04: operator confirms a multidisciplinary review team; preserve collective credit."
+  },
+  {
+    "post_id": 5391,
+    "widget_id": "db32d1f",
+    "field": "editor",
+    "before": "<p><strong>Reviewed by: the ER of White Rock nursing team.</strong> Our reviewers are Texas-licensed registered nurses. You can meet the team on our <a href=\"https://erofwhiterock.com/about-er-of-white-rock/\">About page</a>.</p>",
+    "after": "<p><strong>Reviewed by the ER of White Rock clinical team.</strong> Our review team includes nurses, physicians and other healthcare practitioners. Learn about our team on the <a href=\"https://erofwhiterock.com/about-er-of-white-rock/\">About page</a>.</p>",
+    "reason": "WR-04: align the policy with the operator-confirmed review team."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "2e27245d",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you experience sudden, sharp abdominal pain, it could be a sign of appendicitis. At <a href=\"https://erofwhiterock.com\"><strong>Emergency Room of Dallas</strong></a>, we provide <strong>comprehensive initial appendicitis evaluation in Dallas, TX</strong>, ensuring prompt diagnosis and expert medical assessment. Our state-of-the-art emergency facility is equipped to handle acute abdominal pain and provide immediate diagnostic services.</p><p>Appendicitis is one of the most urgent digestive emergencies we treat. Our <a href=\"https://erofwhiterock.com/stomach-pain-digestive-emergencies-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">stomach pain and digestive emergencies guide near White Rock</a> covers food poisoning, abdominal pain, and dehydration alongside it.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you experience sudden, sharp abdominal pain, it could be a sign of appendicitis. At <a href=\"https://erofwhiterock.com\"><strong>ER of White Rock</strong></a>, we provide <strong>comprehensive initial appendicitis evaluation in Dallas, TX</strong>, ensuring prompt diagnosis and expert medical assessment. Our state-of-the-art emergency facility is equipped to handle acute abdominal pain and provide immediate diagnostic services.</p><p>Appendicitis is one of the most urgent digestive emergencies we treat. Our <a href=\"https://erofwhiterock.com/stomach-pain-digestive-emergencies-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">stomach pain and digestive emergencies guide near White Rock</a> covers food poisoning, abdominal pain, and dehydration alongside it.</p></div></div></div>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "6bdbae2f",
+    "field": "editor",
+    "before": "<p><strong>ER of White Rock</strong> is open <strong>24/7</strong>, ensuring you receive immediate care whenever symptoms appear. Our facility is fully equipped to handle emergency surgeries and pain management for <strong>appendicitis treatment in Dallas, TX</strong>.</p>",
+    "after": "<p><strong>ER of White Rock</strong> is open <strong>24/7</strong> to evaluate appendicitis symptoms and provide initial care. If surgery is needed, we coordinate care with specialists and transfer to an appropriate facility.</p>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "48c3a2d2",
+    "field": "editor",
+    "before": "<p>Our medical team conducts thorough evaluations, including:</p><ul><li>Physical examinations</li><li>Blood tests to check for infection</li><li><a href=\"https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/\"><strong>Imaging tests in Dallas, TX</strong></a> (Ultrasound, CT scan) for an accurate diagnosis</li></ul>",
+    "after": "<p>Our medical team conducts thorough evaluations, including:</p><ul><li>Physical examinations</li><li>Blood tests to check for infection</li><li><a href=\"https://erofwhiterock.com/services/diagnostic-imaging-services/\"><strong>Imaging tests in Dallas, TX</strong></a> (Ultrasound, CT scan) for an accurate diagnosis</li></ul>",
+    "reason": "WR-06: imaging anchor must link to imaging, not laboratory testing."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "4e116328",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Recognizing the early signs of appendicitis can help you seek medical care before complications arise. Common symptoms include:</p><ul><li>Severe pain in the lower right abdomen</li><li>Nausea and vomiting</li><li>Loss of appetite</li><li>Fever and chills</li><li>Swelling or tenderness in the abdominal area</li><li>Difficulty passing gas or experiencing constipation</li></ul><p>If you or a loved one is experiencing these symptoms, visit <strong>ER of White Rock</strong> immediately for <strong>urgent care for appendicitis near me in Dallas</strong>.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Recognizing the early signs of appendicitis can help you seek medical care before complications arise. Common symptoms include:</p><ul><li>Severe pain in the lower right abdomen</li><li>Nausea and vomiting</li><li>Loss of appetite</li><li>Fever and chills</li><li>Swelling or tenderness in the abdominal area</li><li>Difficulty passing gas or experiencing constipation</li></ul><p>If you or a loved one is experiencing these symptoms, visit <strong>ER of White Rock</strong> immediately for <strong>emergency evaluation for possible appendicitis</strong>.</p></div></div></div>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "18797cab",
+    "field": "editor",
+    "before": "<p>Seeking <strong>urgent care for appendicitis near me in Dallas</strong>? Here’s what you can expect when you visit <strong>ER of White Rock</strong>:</p>",
+    "after": "<p>Here is what to expect during an evaluation for possible appendicitis at <strong>ER of White Rock</strong>:</p>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "6dd9b06e",
+    "field": "title",
+    "before": "Best ER for Initial Appendicitis Treatment in Dallas",
+    "after": "Initial Appendicitis Evaluation in White Rock",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 1091,
+    "widget_id": "4b2e13e",
+    "field": "editor",
+    "before": "<p>When it comes to appendicitis evaluation in Dallas, TX, choosing the right emergency care provider is crucial. ER of White Rock is recognized as the best facility for initial appendicitis assessment in Dallas, offering exceptional patient care with minimal wait times and seamless specialist referrals.</p><p>If you suspect appendicitis, don't wait—visit ER of White Rock for immediate medical evaluation. We are committed to providing the best emergency care for appendicitis assessment in Dallas, TX, ensuring you receive proper diagnosis and appropriate specialist referrals when you need them most.</p>",
+    "after": "<p>If you suspect appendicitis, seek medical care without delay. Our team evaluates symptoms and determines which tests and initial treatments are needed.</p><p>When surgery or hospital care is required, we coordinate specialist care. Do not wait for a contact-form response before seeking help for urgent symptoms.</p>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 4717,
+    "widget_id": "6bdbae2f",
+    "field": "editor",
+    "before": "<p><strong>ER of White Rock</strong> está abierto <strong>24/7</strong>, asegurando que reciba atención inmediata cada vez que aparezcan los síntomas. Nuestras instalaciones están completamente equipadas para manejar cirugías de emergencia y manejo del dolor para el <strong>tratamiento de apendicitis en Dallas, TX</strong>.</p>",
+    "after": "<p><strong>ER of White Rock</strong> está abierto las <strong>24 horas</strong> para evaluar síntomas de apendicitis y brindar atención inicial. Si necesita cirugía, coordinamos la atención con especialistas y el traslado al centro adecuado.</p>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 4717,
+    "widget_id": "48c3a2d2",
+    "field": "editor",
+    "before": "<p>Nuestro equipo médico realiza evaluaciones exhaustivas, incluyendo:</p><ul><li>Exámenes físicos</li><li>Análisis de sangre para verificar infecciones</li><li><a href=\"https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/\"><strong>Pruebas de imágenes en Dallas, TX</strong></a> (Ultrasonido, exploración CT) para un diagnóstico preciso</li></ul>",
+    "after": "<p>Nuestro equipo médico realiza evaluaciones exhaustivas, incluyendo:</p><ul><li>Exámenes físicos</li><li>Análisis de sangre para verificar infecciones</li><li><a href=\"https://erofwhiterock.com/es/servicios-de-imagenes-diagnosticas-en-dallas-tx-mri-ct-scan-ultrasonido/\"><strong>Pruebas de imágenes en Dallas, TX</strong></a> (Ultrasonido, exploración CT) para un diagnóstico preciso</li></ul>",
+    "reason": "WR-06: imaging anchor must link to imaging, not laboratory testing."
+  },
+  {
+    "post_id": 4717,
+    "widget_id": "4e116328",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Reconocer los signos tempranos de apendicitis puede ayudarle a buscar atencion medica antes de que surjan complicaciones. Los sintomas comunes incluyen:</p><ul><li>Dolor severo en la parte inferior derecha del abdomen</li><li>Nauseas y vomitos</li><li>Perdida de apetito</li><li>Fiebre y escalofrios</li><li>Hinchazon o sensibilidad en el area abdominal</li><li>Dificultad para expulsar gases o experimentar estrenimiento</li></ul><p>Si usted o un ser querido esta experimentando estos sintomas, visite <strong>ER of White Rock</strong> de inmediato para <strong>atencion urgente para apendicitis cerca de mi en Dallas</strong>.</p><p>Para más información sobre síntomas y diagnóstico de la apendicitis, consulte la <a href=\"https://medlineplus.gov/spanish/appendicitis.html\" target=\"_blank\" rel=\"noopener noreferrer\">guía sobre apendicitis de MedlinePlus (Biblioteca Nacional de Medicina, NIH)</a>.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Reconocer los signos tempranos de apendicitis puede ayudarle a buscar atencion medica antes de que surjan complicaciones. Los sintomas comunes incluyen:</p><ul><li>Dolor severo en la parte inferior derecha del abdomen</li><li>Nauseas y vomitos</li><li>Perdida de apetito</li><li>Fiebre y escalofrios</li><li>Hinchazon o sensibilidad en el area abdominal</li><li>Dificultad para expulsar gases o experimentar estrenimiento</li></ul><p>Si usted o un ser querido esta experimentando estos sintomas, visite <strong>ER of White Rock</strong> de inmediato para <strong>una evaluación de emergencia por posible apendicitis</strong>.</p><p>Para más información sobre síntomas y diagnóstico de la apendicitis, consulte la <a href=\"https://medlineplus.gov/spanish/appendicitis.html\" target=\"_blank\" rel=\"noopener noreferrer\">guía sobre apendicitis de MedlinePlus (Biblioteca Nacional de Medicina, NIH)</a>.</p></div></div></div>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 4717,
+    "widget_id": "18797cab",
+    "field": "editor",
+    "before": "<p>¿Busca <strong>atención urgente para apendicitis cerca de mí en Dallas</strong>? Esto es lo que puede esperar cuando visita <strong>ER of White Rock</strong>:</p>",
+    "after": "<p>Esto es lo que puede esperar durante una evaluación por posible apendicitis en <strong>ER of White Rock</strong>:</p>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 4717,
+    "widget_id": "6dd9b06e",
+    "field": "title",
+    "before": "Mejor Sala de Emergencias para el Tratamiento Inicial de Apendicitis en Dallas",
+    "after": "Evaluación inicial de apendicitis en White Rock",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 4717,
+    "widget_id": "4b2e13e",
+    "field": "editor",
+    "before": "<p>Cuando se trata de la evaluación de apendicitis en Dallas, TX, elegir al proveedor de atención de emergencia correcto es crucial. ER of White Rock es reconocido como la mejor instalación para la evaluación inicial de apendicitis en Dallas, ofreciendo atención excepcional al paciente con tiempos de espera mínimos y referencias fluidas a especialistas.</p><p>Si sospecha apendicitis, no espere—visite ER of White Rock para una evaluación médica inmediata. Estamos comprometidos a brindar la mejor atención de emergencia para la evaluación de apendicitis en Dallas, TX, asegurando que reciba un diagnóstico adecuado y referencias apropiadas a especialistas cuando más las necesite.</p>",
+    "after": "<p>Si sospecha apendicitis, busque atención médica sin demora. Nuestro equipo evalúa los síntomas y determina qué pruebas y cuidados iniciales se necesitan.</p><p>Cuando se requiere cirugía o atención hospitalaria, coordinamos la atención con especialistas. No espere una respuesta a un formulario para buscar ayuda por síntomas urgentes.</p>",
+    "reason": "WR-02: align appendicitis copy with the existing evaluation and surgical referral model."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "1b7effd6",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>At <b><a href=\"https://erofwhiterock.com/\" target=\"_blank\" rel=\"noopener\">ER of White Rock</a></b>, we specialize in providing <strong>advanced <a href=\"https://medlineplus.gov/diagnosticimaging.html\" target=\"_blank\" rel=\"noopener\">diagnostic imaging services</a> in Dallas, Texas</strong>, ensuring accurate and timely diagnoses for patients of all ages. Our state-of-the-art imaging technology, combined with a team of highly skilled radiologists, delivers precise results that help physicians develop effective treatment plans. Whether you need a<strong> CT scan, ultrasonido, X-ray or Digital X-ray services, </strong>we are your trusted partner for reliable medical imaging.</p><p>On-site imaging is what separates emergency care from urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">freestanding ER vs hospital ER guide near White Rock</a> explains how diagnostics differ between the two settings.</p></div></div></div>",
+    "after": "<p>At <a href=\"https://erofwhiterock.com/\">ER of White Rock</a>, diagnostic imaging supports the evaluation of urgent illnesses and injuries. The medical team determines whether CT, X-ray or ultrasound is appropriate for your symptoms and examination.</p><p>Learn about <a href=\"https://medlineplus.gov/diagnosticimaging.html\">diagnostic imaging from MedlinePlus</a>.</p><p>On-site imaging is what separates emergency care from urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guide to emergency care near White Rock</a> explains how diagnostics differ between the two settings.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "18eeeb63",
+    "field": "title",
+    "before": "Walk-In Imaging Clinics in Dallas – No Appointments Needed!",
+    "after": "Imaging During Your Emergency Evaluation",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "152a3ba0",
+    "field": "editor",
+    "before": "<p>We understand that medical needs can arise unexpectedly. That’s why we offer <strong>walk-in imaging services in Dallas</strong> for urgent diagnostic needs. Whether you need a CT scan or ultrasound, our team is ready to assist you without the hassle of scheduling an appointment.</p>",
+    "after": "<p>You can walk in for emergency care. A clinician evaluates your symptoms before deciding which imaging tests are needed. For routine scans or an outside imaging order, call first to confirm availability.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "3c93f0ad",
+    "field": "title_text_a",
+    "before": "Pediatric Radiology in Dallas, Texas",
+    "after": "Imaging for Children",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "3c93f0ad",
+    "field": "title_text_b",
+    "before": "Pediatric Radiology in Dallas, Texas",
+    "after": "Imaging for Children",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "3c93f0ad",
+    "field": "description_text_b",
+    "before": "Children require specialized imaging care, and our pediatric radiologists are trained to provide safe, child-friendly imaging services tailored for young patients.",
+    "after": "The team considers a child’s age, symptoms and medical need before ordering imaging. Ask us how the scan will be performed.",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "1c394420",
+    "field": "editor",
+    "before": "<p>We accept most major private and commercial insurance plans and offer<strong> radiology services in Dallas, TX</strong> to ensure affordable access to high-quality imaging. Our team is happy to assist with insurance claims and payment plans.</p>",
+    "after": "<p>Coverage, deductibles and other costs depend on your plan and the services you receive. Our facility is listed as out of network in our <a href=\"https://erofwhiterock.com/insurance-billing-info/\">insurance and billing information</a>. For non-urgent questions, contact our billing team or your insurer.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "271fad8",
+    "field": "title",
+    "before": "Schedule Your Diagnostic Imaging Appointment Today",
+    "after": "Questions About Diagnostic Imaging",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 852,
+    "widget_id": "b03a203",
+    "field": "editor",
+    "before": "<p>If you’re looking for <strong>affordable and reliable diagnostic imaging services in Dallas, Texas</strong>, contact ER of White Rock today. Our expert team is here to provide <strong>fast, accurate, and compassionate imaging services</strong> to help you and your healthcare provider make informed decisions about your health.</p>",
+    "after": "<p>Call for non-urgent questions about imaging, outside orders or billing. If you think you have a life-threatening emergency, call 911.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "1b7effd6",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>En <b><a href=\"https://erofwhiterock.com/\" target=\"_blank\" rel=\"noopener\">ER of White Rock</a></b>, nos especializamos en brindar <strong>servicios avanzados de imagenologia diagnostica en Dallas, Texas</strong>, asegurando diagnosticos precisos y oportunos para pacientes de todas las edades. Nuestra tecnologia de imagen de vanguardia, combinada con un equipo de radiologos altamente capacitados, ofrece resultados precisos que ayudan a los medicos a desarrollar planes de tratamiento efectivos. Ya sea que necesite un<strong> CT scan, ultrasonido, X-Ray o servicios de X-Ray Digital, </strong>somos su socio confiable para imagenes medicas confiables.</p><p>La imagenología en el sitio es lo que separa la atención de emergencia de las urgencias menores. Nuestra <a href=\"https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de sala de emergencias independiente vs hospital cerca de White Rock</a> explica cómo difieren los diagnósticos entre los dos entornos.</p></div></div></div>",
+    "after": "<p>En <a href=\"https://erofwhiterock.com/es/home-page-er-of-white-rock/\">ER of White Rock</a>, las imágenes diagnósticas apoyan la evaluación de enfermedades y lesiones urgentes. El equipo médico determina si necesita tomografía computarizada, radiografías o ultrasonido según sus síntomas y examen.</p><p>La imagenología en el sitio es lo que separa la atención de emergencia de las urgencias menores. Nuestra <a href=\"https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de atención de emergencia cerca de White Rock</a> explica cómo difieren los diagnósticos entre los dos entornos.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "18eeeb63",
+    "field": "title",
+    "before": "Clínicas de imágenes sin cita previa en Dallas: ¡no se requieren citas!",
+    "after": "Imágenes como parte de su evaluación de emergencia",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "152a3ba0",
+    "field": "editor",
+    "before": "<p>Entendemos que las necesidades médicas pueden surgir inesperadamente. Por eso ofrecemos <strong>servicios de imagenología sin cita previa en Dallas</strong> para necesidades diagnósticas urgentes. Ya sea que necesite una CT o un ultrasonido, nuestro equipo está listo para ayudarle sin la molestia de programar una cita.</p>",
+    "after": "<p>Puede acudir sin cita para recibir atención de emergencia. Un profesional evalúa sus síntomas antes de decidir qué estudios necesita. Para consultas sobre un estudio de rutina o una orden externa, llame primero y confirme la disponibilidad.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "3c93f0ad",
+    "field": "title_text_a",
+    "before": "Radiología pediátrica en Dallas, Texas",
+    "after": "Imágenes para niños",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "3c93f0ad",
+    "field": "title_text_b",
+    "before": "Radiología pediátrica en Dallas, Texas",
+    "after": "Imágenes para niños",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "3c93f0ad",
+    "field": "description_text_b",
+    "before": "Los niños requieren atención de imágenes especializada, y nuestros radiólogos pediátricos están capacitados para brindar servicios de imágenes seguros y amigables para los niños, adaptados a pacientes jóvenes.",
+    "after": "El equipo considera la edad, los síntomas y la necesidad médica antes de solicitar imágenes para un niño. Puede preguntarnos cómo se realizará el estudio.",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "1c394420",
+    "field": "editor",
+    "before": "<p>We accept most major private and commercial insurance plans and offer<strong> radiology services in Dallas, TX</strong> to ensure affordable access to high-quality imaging. Our team is happy to assist with insurance claims and payment plans.</p>",
+    "after": "<p>La cobertura, los deducibles y otros costos dependen de su plan y de los servicios recibidos. Nuestro centro figura como fuera de la red en nuestra <a href=\"https://erofwhiterock.com/insurance-billing-info/\">información de seguros y facturación</a> (en inglés). Para preguntas no urgentes, contacte a nuestro equipo de facturación o a su aseguradora.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "271fad8",
+    "field": "title",
+    "before": "Programe hoy su cita de diagnóstico por imágenes",
+    "after": "Preguntas sobre imágenes diagnósticas",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 4745,
+    "widget_id": "b03a203",
+    "field": "editor",
+    "before": "<p>Si está buscando <strong>servicios de imágenes diagnósticas asequibles y confiables en Dallas, Texas</strong>, contacte a ER of White Rock hoy. Nuestro equipo experto está aquí para proporcionar <strong>servicios de imágenes rápidos, precisos y compasivos</strong> para ayudarle a usted y a su proveedor de atención médica a tomar decisiones informadas sobre su salud.</p>",
+    "after": "<p>Llame para consultas no urgentes sobre imágenes, órdenes externas o facturación. Si cree que tiene una emergencia que pone en peligro su vida, llame al 911.</p>",
+    "reason": "WR-03: describe imaging in emergency care; remove unsupported MRI/mammography and specialist guarantees."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "6fe9fbe",
+    "field": "editor",
+    "before": "<p>Fill out the form below, and our administrative team will respond within 24 hours. This form is strictly for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. If you suspect a traumatic brain injury, do not use this form. Call 911 or drive to our emergency room immediately.</p>",
+    "after": "<p>Use this form for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. It is not monitored for emergencies. If you think you have a medical emergency, call 911 and do not wait for a form response.</p>",
+    "reason": "WR-09: correct copied contact warning; contact forms are for non-urgent questions."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "6fe9fbe",
+    "field": "editor",
+    "before": "<p>Complete el formulario a continuación y nuestro equipo administrativo responderá dentro de 24 horas. Este formulario es estrictamente para preguntas rutinarias y <a href=\"https://erofwhiterock.com/insurance-billing-info/\">consultas de facturación</a>. Si sospecha una lesión cerebral traumática, no use este formulario. Llame al 911 o diríjase a nuestra sala de emergencias de inmediato.</p>",
+    "after": "<p>Use este formulario para preguntas de rutina y <a href=\"https://erofwhiterock.com/insurance-billing-info/\">consultas de facturación</a>. No se supervisa para emergencias. Si cree que tiene una emergencia médica, llame al 911 y no espere una respuesta por este medio.</p>",
+    "reason": "WR-09: correct copied contact warning; contact forms are for non-urgent questions."
+  },
+  {
+    "post_id": 2482,
+    "widget_id": "898932f",
+    "field": "editor",
+    "before": "<p>Fill out the form below, and our administrative team will respond within 24 hours. This form is strictly for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. If you suspect a traumatic brain injury, do not use this form. Call 911 or drive to our emergency room immediately.</p>",
+    "after": "<p>Use this form for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. It is not monitored for emergencies. If you think you have a medical emergency, call 911 and do not wait for a form response.</p>",
+    "reason": "WR-09: correct copied contact warning; contact forms are for non-urgent questions."
+  },
+  {
+    "post_id": 4739,
+    "widget_id": "898932f",
+    "field": "editor",
+    "before": "<p>Complete el formulario a continuación y nuestro equipo administrativo responderá dentro de 24 horas. Este formulario es estrictamente para preguntas rutinarias y <a href=\"https://erofwhiterock.com/insurance-billing-info/\">consultas de facturación</a>. Si sospecha una lesión cerebral traumática, no use este formulario. Llame al 911 o diríjase a nuestra sala de emergencias de inmediato.</p>",
+    "after": "<p>Use este formulario para preguntas de rutina y <a href=\"https://erofwhiterock.com/insurance-billing-info/\">consultas de facturación</a>. No se supervisa para emergencias. Si cree que tiene una emergencia médica, llame al 911 y no espere una respuesta por este medio.</p>",
+    "reason": "WR-09: correct copied contact warning; contact forms are for non-urgent questions."
+  },
+  {
+    "post_id": 868,
+    "widget_id": "6b00912",
+    "field": "editor",
+    "before": "<p>Fill out the form below, and our administrative team will respond within 24 hours. This form is strictly for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. If you suspect a traumatic brain injury, do not use this form. Call 911 or drive to our emergency room immediately.</p>",
+    "after": "<p>Use this form for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. It is not monitored for emergencies. If you think you have a medical emergency, call 911 and do not wait for a form response.</p>",
+    "reason": "WR-09: correct copied contact warning; contact forms are for non-urgent questions."
+  },
+  {
+    "post_id": 4705,
+    "widget_id": "6b00912",
+    "field": "editor",
+    "before": "<p>Complete el formulario a continuación y nuestro equipo administrativo responderá dentro de 24 horas. Este formulario es estrictamente para preguntas rutinarias y <a href=\"https://erofwhiterock.com/insurance-billing-info/\">consultas de facturación</a>. Si sospecha una lesión cerebral traumática, no use este formulario. Llame al 911 o diríjase a nuestra sala de emergencias de inmediato.</p>",
+    "after": "<p>Use este formulario para preguntas de rutina y <a href=\"https://erofwhiterock.com/insurance-billing-info/\">consultas de facturación</a>. No se supervisa para emergencias. Si cree que tiene una emergencia médica, llame al 911 y no espere una respuesta por este medio.</p>",
+    "reason": "WR-09: correct copied contact warning; contact forms are for non-urgent questions."
+  },
+  {
+    "post_id": 5496,
+    "widget_id": "d09084c",
+    "field": "editor",
+    "before": "<p>El tiempo medio de puerta a proveedor es menos de 10 minutos, en cada visita. Cuatro pasos de la puerta a las respuestas.</p>",
+    "after": "<p>La atención comienza con una evaluación de sus síntomas. Los tiempos de espera y de las pruebas varían según sus necesidades y la demanda de atención.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5495,
+    "widget_id": "5fa714e",
+    "field": "editor",
+    "before": "<p>Median door-to-provider time is under 10 minutes, every visit. Four steps from door to answers.</p>",
+    "after": "<p>Care begins with an assessment of your symptoms. Waiting and testing times vary with your medical needs and current demand for care.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5470,
+    "widget_id": "869f894",
+    "field": "editor",
+    "before": "<p>El tiempo medio de puerta a proveedor es menos de 10 minutos, en cada visita. De la llegada a las respuestas, este es el camino.</p>",
+    "after": "<p>La atención comienza con una evaluación de sus síntomas. Los tiempos de espera y de las pruebas varían según sus necesidades y la demanda de atención.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5471,
+    "widget_id": "e744caa",
+    "field": "editor",
+    "before": "<p>El tiempo medio de puerta a proveedor es menos de 10 minutos, en cada visita. Una visita típica se ve así.</p>",
+    "after": "<p>La atención comienza con una evaluación de sus síntomas. Los tiempos de espera y de las pruebas varían según sus necesidades y la demanda de atención.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5469,
+    "widget_id": "d8d71b8",
+    "field": "editor",
+    "before": "<p>Nuestro tiempo medio de puerta a proveedor es menos de 10 minutos, en cada visita. Así funciona desde que llega.</p>",
+    "after": "<p>La atención comienza con una evaluación de sus síntomas. Los tiempos de espera y de las pruebas varían según sus necesidades y la demanda de atención.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5468,
+    "widget_id": "c9a62c4",
+    "field": "editor",
+    "before": "<p>Nuestro tiempo medio de puerta a proveedor es menos de 10 minutos, en cada visita.</p>",
+    "after": "<p>La atención comienza con una evaluación de sus síntomas. Los tiempos de espera y de las pruebas varían según sus necesidades y la demanda de atención.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5466,
+    "widget_id": "426635f",
+    "field": "editor",
+    "before": "<p>Median door-to-provider time is under 10 minutes, every visit. A typical visit looks like this.</p>",
+    "after": "<p>Care begins with an assessment of your symptoms. Waiting and testing times vary with your medical needs and current demand for care.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5463,
+    "widget_id": "06e806e",
+    "field": "editor",
+    "before": "<p>Median door-to-provider time is under 10 minutes, every visit. From arrival to answers, here is the path.</p>",
+    "after": "<p>Care begins with an assessment of your symptoms. Waiting and testing times vary with your medical needs and current demand for care.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5462,
+    "widget_id": "06fd896",
+    "field": "editor",
+    "before": "<p>Our median door-to-provider time is under 10 minutes, every visit. Here is how it works from the moment you arrive.</p>",
+    "after": "<p>Care begins with an assessment of your symptoms. Waiting and testing times vary with your medical needs and current demand for care.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 5460,
+    "widget_id": "e6dcada",
+    "field": "editor",
+    "before": "<p>Our median door-to-provider time is under 10 minutes, every visit.</p>",
+    "after": "<p>Care begins with an assessment of your symptoms. Waiting and testing times vary with your medical needs and current demand for care.</p>",
+    "reason": "WR-05: remove unsupported every-visit wait guarantee."
+  },
+  {
+    "post_id": 228,
+    "widget_id": "87eca3b",
+    "field": "description_text",
+    "before": "Our team consists of specialists trained in emergency medicine, providing the same level of care as a major hospital with a personal touch.\n\n",
+    "after": "Our team provides emergency care and explains your evaluation, treatment and next steps.",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 228,
+    "widget_id": "ce2fe0e",
+    "field": "description_text",
+    "before": "Every physician on our team holds board certification in emergency medicine. Our nursing staff is trained in trauma care and pediatric emergencies.\n",
+    "after": "Our team includes emergency physicians and nursing staff who care for urgent illnesses and injuries.",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 228,
+    "widget_id": "2218e78",
+    "field": "editor",
+    "before": "<p>When your child is hurting, every second counts. You need more than just an emergency room. You need a team that understands the unique physiological and emotional needs of children. ER of White Rock provides specialized pediatric care in a calm, kid-friendly environment designed to reduce anxiety for both patients and parents.</p><p><strong>Why Choose ER of White Rock for Your Child?</strong></p><p>Our facility bridges the gap between clinical excellence and compassionate care. We prioritize your child's comfort through:</p><ul><li><strong>Pediatric Specialists:</strong> Our physicians and nurses are trained specifically in pediatric emergency protocols.</li><li><strong>Child-Centered Environment:</strong> A clean, quiet, and less intimidating atmosphere than traditional city hospitals.</li><li><strong>Clear Communication:</strong> We skip the medical jargon. You get honest answers and a clear plan of action.</li><li><strong>Family-First Approach:</strong> We keep you involved and informed at every stage of the treatment process.</li></ul>",
+    "after": "<p>When your child is hurting, every second counts. You need more than just an emergency room. You need a team that understands the unique physiological and emotional needs of children. ER of White Rock provides specialized pediatric care in a calm, kid-friendly environment designed to reduce anxiety for both patients and parents.</p><p><strong>Why Choose ER of White Rock for Your Child?</strong></p><p>Our facility bridges the gap between clinical excellence and compassionate care. We prioritize your child's comfort through:</p><ul><li><strong>Pediatric Specialists:</strong> Our physicians and nurses are trained specifically in pediatric emergency protocols.</li><li><strong>Child-Centered Environment:</strong> A calm environment designed to support children and their families.</li><li><strong>Clear Communication:</strong> We skip the medical jargon. You get honest answers and a clear plan of action.</li><li><strong>Family-First Approach:</strong> We keep you involved and informed at every stage of the treatment process.</li></ul>",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 228,
+    "widget_id": "467b1f3",
+    "field": "editor",
+    "before": "<p>We believe high-end medical care should be accessible and transparent. We honor all private insurance plans (Aetna, BlueCross BlueShield, Cigna, United Healthcare, etc.) at in-network rates for emergency services, per Texas law.</p>",
+    "after": "<p>We accept most private and commercial insurance plans, but our facility is out of network. Accepting insurance does not mean participating in its network. Check your coverage and costs with your insurer and read our <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing information</a>.</p>",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 228,
+    "widget_id": "1663f42",
+    "field": "title",
+    "before": "<b>Disclaimer:</b> By law, freestanding emergency centers cannot accept Medicaid, Medicare, or TRICARE. We apologize for any inconvenience.\n",
+    "after": "<b>Notice:</b> ER of White Rock does not participate in Medicare, Medicaid or TRICARE.",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 4687,
+    "widget_id": "87eca3b",
+    "field": "description_text",
+    "before": "Nuestro equipo está compuesto por especialistas capacitados en medicina de emergencia, brindando el mismo nivel de atención que un gran hospital con un toque personal.\n\n",
+    "after": "Nuestro equipo brinda atención de emergencia y se comunica con usted sobre la evaluación, el tratamiento y los siguientes pasos.",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 4687,
+    "widget_id": "ce2fe0e",
+    "field": "description_text",
+    "before": "Cada médico de nuestro equipo cuenta con certificación de la junta en medicina de emergencia. Nuestro personal de enfermería está capacitado en atención de trauma y emergencias pediátricas.\n",
+    "after": "Nuestro equipo incluye médicos de emergencia y personal de enfermería que atienden enfermedades y lesiones urgentes.",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 4687,
+    "widget_id": "2218e78",
+    "field": "editor",
+    "before": "<p>Cuando su hijo está sufriendo, cada segundo cuenta. Necesita más que una simple sala de emergencias. Necesita un equipo que entienda las necesidades fisiológicas y emocionales únicas de los niños. ER of White Rock brinda atención pediátrica especializada en un ambiente tranquilo y amigable para los niños, diseñado para reducir la ansiedad tanto de los pacientes como de los padres.</p><p><strong>¿Por qué elegir ER of White Rock para su hijo?</strong></p><p>Nuestras instalaciones cierran la brecha entre la excelencia clínica y la atención compasiva. Priorizamos el bienestar de su hijo a través de:</p><ul><li><strong>Especialistas Pediátricos:</strong> Nuestros médicos y enfermeras están capacitados específicamente en protocolos de emergencia pediátrica.</li><li><strong>Entorno Centrado en el Niño:</strong> Un ambiente limpio, tranquilo y menos intimidante que los hospitales tradicionales de la ciudad.</li><li><strong>Comunicación Clara:</strong> Nos saltamos la jerga médica. Recibe respuestas honestas y un plan de acción claro.</li><li><strong>Enfoque Centrado en la Familia:</strong> Lo mantenemos involucrado e informado en cada etapa del proceso de tratamiento.</li></ul>",
+    "after": "<p>Cuando su hijo está sufriendo, cada segundo cuenta. Necesita más que una simple sala de emergencias. Necesita un equipo que entienda las necesidades fisiológicas y emocionales únicas de los niños. ER of White Rock brinda atención pediátrica especializada en un ambiente tranquilo y amigable para los niños, diseñado para reducir la ansiedad tanto de los pacientes como de los padres.</p><p><strong>¿Por qué elegir ER of White Rock para su hijo?</strong></p><p>Nuestras instalaciones cierran la brecha entre la excelencia clínica y la atención compasiva. Priorizamos el bienestar de su hijo a través de:</p><ul><li><strong>Especialistas Pediátricos:</strong> Nuestros médicos y enfermeras están capacitados específicamente en protocolos de emergencia pediátrica.</li><li><strong>Entorno Centrado en el Niño:</strong> Un ambiente tranquilo pensado para ayudar a los niños y sus familias a sentirse acompañados.</li><li><strong>Comunicación Clara:</strong> Nos saltamos la jerga médica. Recibe respuestas honestas y un plan de acción claro.</li><li><strong>Enfoque Centrado en la Familia:</strong> Lo mantenemos involucrado e informado en cada etapa del proceso de tratamiento.</li></ul>",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 4687,
+    "widget_id": "467b1f3",
+    "field": "editor",
+    "before": "<p>Creemos que la atención médica de alta calidad debe ser accesible y transparente. Honramos todos los planes de seguro privados (Aetna, BlueCross BlueShield, Cigna, United Healthcare, etc.) a tarifas dentro de la red para servicios de emergencia, conforme a la ley de Texas.</p>",
+    "after": "<p>Aceptamos la mayoría de los planes privados y comerciales, pero nuestro centro está fuera de la red. Aceptar un seguro no significa participar en su red. Consulte los detalles de su cobertura y costos con su aseguradora y revise nuestra <a href=\"https://erofwhiterock.com/insurance-billing-info/\">información de facturación</a> (en inglés).</p>",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 4687,
+    "widget_id": "1663f42",
+    "field": "title",
+    "before": "<b>Aviso:</b> Por ley, los centros de emergencia independientes no pueden aceptar Medicaid, Medicare ni TRICARE. Lamentamos cualquier inconveniente.\n",
+    "after": "<b>Aviso:</b> ER of White Rock no participa en Medicare, Medicaid ni TRICARE.",
+    "reason": "WR-05: qualify operational claims and align insurance wording with published facility disclosures."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "46afe405",
+    "field": "title_text_a",
+    "before": "Resultados Rápidos e Impecables",
+    "after": "Cómo entender sus resultados",
+    "reason": "WR-09: bring the Spanish results heading into line with the approved English correction."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "46afe405",
+    "field": "title_text_b",
+    "before": "Resultados Rápidos e Impecables",
+    "after": "Cómo entender sus resultados",
+    "reason": "WR-09: bring the Spanish results heading into line with the approved English correction."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "77684669",
+    "field": "description_text_b",
+    "before": "Sus resultados de laboratorio no solo se procesan; son revisados al instante por médicos de sala de emergencias experimentados para garantizar un tratamiento inmediato y preciso.",
+    "after": "Su médico considera los resultados junto con sus síntomas, antecedentes y examen. Pregunte qué significan los hallazgos y si necesita seguimiento.",
+    "reason": "WR-09: translate the approved English explanation of clinical interpretation."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "2a6ed6d9",
+    "field": "description_text_b",
+    "before": "Desde paneles cardíacos que salvan vidas hasta detección rápida de enfermedades infecciosas, nuestra sala de emergencias independiente cuenta con la maquinaria avanzada para diagnosticar afecciones graves al instante.",
+    "after": "Las pruebas de laboratorio aportan información para evaluar sus síntomas. Algunos resultados pueden requerir pruebas adicionales o seguimiento.",
+    "reason": "WR-09: translate the approved English explanation of test limitations."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "1ffbaf62",
+    "field": "editor",
+    "before": "<p>No enviamos sus muestras críticas a través de la ciudad a una instalación de terceros. Al procesar sus pruebas en el sitio, eliminamos los retrasos y aceleramos su tratamiento. Aquí está por qué nuestra instalación es la mejor opción para pruebas rápidas:</p><ul><li><strong>Laboratorio Certificado por COLA:</strong> Nuestra instalación cumple con los estándares nacionales más estrictos de control de calidad, asegurando que sus resultados sean impecables y altamente precisos.</li><li><strong>Resultados en Minutos, No Días:</strong> Nos especializamos en pruebas de emergencia STAT. Para la mayoría de los paneles críticos, su médico tendrá los datos que necesita para tratarlo en una hora.</li><li><strong>Precios Asequibles y Transparentes:</strong> Creemos en una facturación honesta. Procesamos la mayoría de los planes de seguro comercial principales y estamos comprometidos con una política estricta de no facturación de saldos.</li><li><strong>Privacidad Total y Cumplimiento:</strong> Sus datos médicos son estrictamente confidenciales y totalmente conformes con HIPAA. Ofrecemos procesamiento discreto para enfermedades infecciosas y paneles especializados.</li></ul>",
+    "after": "<p>El laboratorio apoya la evaluación de emergencia. Su médico decide qué pruebas se necesitan y le explica los resultados disponibles.</p><ul><li><strong>Interpretación clínica:</strong> Ninguna prueba es perfecta. Los resultados se consideran junto con los síntomas y el examen.</li><li><strong>Tiempos variables:</strong> Algunas pruebas tardan más o requieren estudios adicionales. Pregunte cuándo y cómo recibirá los resultados pendientes.</li><li><strong>Facturación:</strong> Consulte nuestra <a href=\"https://erofwhiterock.com/insurance-billing-info/\">información de seguros y facturación</a>.</li><li><strong>Privacidad:</strong> Consulte nuestra política de privacidad para conocer cómo se maneja su información.</li></ul>",
+    "reason": "WR-09: remove perfect-result and fixed-turnaround promises in Spanish."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "8a94fb1",
+    "field": "editor",
+    "before": "<p>Our state-of-the-art lab is equipped to run a massive array of critical diagnostic tests to pinpoint exactly what is happening inside your body.</p>",
+    "after": "<p>Laboratory tests help the medical team assess your symptoms and decide the next steps in your care.</p>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "75441c43",
+    "field": "editor",
+    "before": "<p>With a reputation for excellence, our <strong>Dallas-based laboratory testing services</strong> are trusted by thousands. We blend cutting-edge technology with a patient-first approach, ensuring top-tier service and accurate results every time.</p>",
+    "after": "<p>ER of White Rock provides laboratory testing as part of emergency care. Ask what each result means and whether follow-up is needed.</p>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "260980fe",
+    "field": "editor",
+    "before": "<p>When you are experiencing a medical emergency, rapid blood analysis is our first line of defense. Our on-site laboratory is equipped to run comprehensive emergency blood tests to instantly identify severe infections, organ failure, and metabolic crises.</p><ul><li><strong>Complete Blood Count (CBC):</strong> We instantly check your red and white blood cells to detect severe bacterial infections, acute blood loss, or dangerous immune responses.</li><li><strong>Comprehensive Metabolic Panels:</strong> We evaluate your kidney function, liver health, and electrolyte balance to diagnose severe dehydration or diabetic emergencies.</li><li><strong>Cardiac &amp; Coagulation Panels:</strong> For patients with chest pain, we run immediate cardiac enzyme tests to detect active heart attacks and blood tests to rule out life-threatening blood clots.</li><li><strong>Rapid Urinalysis:</strong> We rapidly analyze urine samples to detect painful urinary tract infections (UTIs), kidney stones, and severe kidney distress so we can administer IV antibiotics immediately.</li></ul>",
+    "after": "<p>Blood and urine tests provide information to help evaluate an illness or injury. Your clinician decides which tests are needed.</p><ul><li><strong>Complete blood count:</strong> Measures blood cells and can offer clues about anemia or infection.</li><li><strong>Metabolic panel:</strong> Helps assess glucose, electrolytes and organ function.</li><li><strong>Cardiac and coagulation tests:</strong> Are interpreted alongside symptoms, examination and other tests. One result does not rule out every emergency.</li><li><strong>Urinalysis:</strong> May help evaluate urinary symptoms. Treatment depends on the findings and medical assessment.</li></ul>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "231ddd11",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you are facing a medical crisis or need fast diagnostic answers, waiting days for an outside lab is not an option. At <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, our 24/7 freestanding ER features a fully equipped, COLA-certified on-site laboratory. Whether you require life-saving cardiac panels, complex blood cultures, or rapid viral testing, our experienced emergency physicians rely on our in-house technology to deliver precise results in minutes. Experience highly capable diagnostic medicine with minimal wait times right here in East Dallas.</p><p>On-site lab testing is the core differentiator between emergency care and urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">freestanding ER vs hospital ER guide near White Rock</a> explains how diagnostics differ between the two settings.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you are facing a medical crisis or need fast diagnostic answers, waiting days for an outside lab is not an option. At <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, our 24/7 freestanding ER features a fully equipped, COLA-certified on-site laboratory. Whether you require life-saving cardiac panels, complex blood cultures, or rapid viral testing, our experienced emergency physicians rely on our in-house technology to deliver results that support clinical evaluation. Experience highly capable diagnostic medicine with minimal wait times right here in East Dallas.</p><p>On-site lab testing is the core differentiator between emergency care and urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">freestanding ER vs hospital ER guide near White Rock</a> explains how diagnostics differ between the two settings.</p></div></div></div>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "407ce12a",
+    "field": "editor",
+    "before": "<p>Medical emergencies do not operate on a schedule, and neither do we. We have streamlined our laboratory process to get you evaluated and tested immediately.</p><ul><li><strong>Step 1: Walk-In 24/7</strong> Do not wait for an appointment. Drive directly to our modern facility anytime, day or night, and experience our standard of minimal wait times.</li><li><strong>Step 2: Rapid Physician Triage</strong> If you are experiencing pain or severe symptoms, our experienced emergency doctors will evaluate you instantly to determine exactly which lab tests are required to save your life.</li><li><strong>Step 3: On-Site Sample Collection</strong> Our skilled, compassionate registered nurses will draw your blood or collect necessary swabs quickly and safely in a private room.</li><li><strong>Step 4: Fast, Accurate Results</strong> Your samples are walked directly to our in-house lab. Most critical test results are delivered straight to your attending physician within one hour.</li></ul>",
+    "after": "<p>Medical emergencies do not operate on a schedule, and neither do we. We have streamlined our laboratory process to get you evaluated and tested immediately.</p><ul><li><strong>Step 1: Walk-In 24/7</strong> Do not wait for an appointment. Drive directly to our modern facility anytime, day or night, and experience our standard of minimal wait times.</li><li><strong>Step 2: Rapid Physician Triage</strong> If you are experiencing pain or severe symptoms, our experienced emergency doctors will evaluate you instantly to determine exactly which lab tests are required to save your life.</li><li><strong>Step 3: On-Site Sample Collection</strong> Our skilled, compassionate registered nurses will draw your blood or collect necessary swabs quickly and safely in a private room.</li><li><strong>Step 4: Fast, Accurate Results</strong> Your samples are walked directly to our in-house lab. Timing varies by test. Before leaving, ask which results are still pending and how follow-up will be arranged.</li></ul>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "231ddd11",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you are facing a medical crisis or need fast diagnostic answers, waiting days for an outside lab is not an option. At <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, our 24/7 freestanding ER features a fully equipped, COLA-certified on-site laboratory. Whether you require life-saving cardiac panels, complex blood cultures, or rapid viral testing, our experienced emergency physicians rely on our in-house technology to deliver results that support clinical evaluation. Experience highly capable diagnostic medicine with minimal wait times right here in East Dallas.</p><p>On-site lab testing is the core differentiator between emergency care and urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">freestanding ER vs hospital ER guide near White Rock</a> explains how diagnostics differ between the two settings.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you are facing a medical crisis or need fast diagnostic answers, waiting days for an outside lab is not an option. At <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, our 24/7 freestanding ER features a fully equipped, COLA-certified on-site laboratory. Whether you require life-saving cardiac panels, complex blood cultures, or rapid viral testing, our experienced emergency physicians rely on our in-house technology to deliver results that support clinical evaluation. Experience highly capable diagnostic medicine with minimal wait times right here in East Dallas.</p><p>On-site lab testing is the core differentiator between emergency care and urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guide to emergency care near White Rock</a> explains how diagnostics differ between the two settings.</p></div></div></div>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "7f81724",
+    "field": "description_text_b",
+    "before": "We offer rapid COVID-19 testing and highly accurate PCR tests to detect active infections. Whether you have a high fever or severe respiratory symptoms, we provide definitive answers fast.",
+    "after": "COVID-19 tests help assess possible infection. Your clinician interprets results in light of symptoms and test timing.",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "5a5be3b",
+    "field": "description_text_b",
+    "before": "A CBC is the foundation of emergency diagnostics. It allows our doctors to instantly detect systemic infections, severe anemia, and dangerous immune system disorders.",
+    "after": "A complete blood count measures blood cells and can provide clues about anemia or infection. It is interpreted alongside other clinical findings.",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "4e089f1",
+    "field": "description_text_b",
+    "before": "Severe throat pain combined with a fever requires fast identification. We provide rapid strep tests and mono tests to diagnose the exact bacterial or viral strain causing your agony.",
+    "after": "Strep or mononucleosis tests can help evaluate a sore throat. The team determines which tests are appropriate for your symptoms.",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "2a6e509",
+    "field": "custom_css",
+    "before": null,
+    "after": "\nselector a, selector a:hover, selector a:focus { color: #FFFFFF !important; text-decoration: underline; }\nselector a:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 3px; }",
+    "reason": "WR-13: white underlined links on the existing navy section meet text contrast requirements."
+  },
+  {
+    "post_id": 971,
+    "widget_id": "6fe9fbe",
+    "field": "custom_css",
+    "before": null,
+    "after": "\nselector a, selector a:hover, selector a:focus { color: #FFFFFF !important; text-decoration: underline; }\nselector a:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 3px; }",
+    "reason": "WR-13: white underlined links on the existing navy section meet text contrast requirements."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "8a94fb1",
+    "field": "editor",
+    "before": "<p>Nuestro laboratorio de última generación está equipado para realizar una enorme variedad de pruebas diagnósticas críticas para identificar exactamente lo que está sucediendo dentro de su cuerpo.</p>",
+    "after": "<p>Las pruebas de laboratorio ayudan al equipo médico a evaluar sus síntomas y decidir los siguientes pasos.</p>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "75441c43",
+    "field": "editor",
+    "before": "<p>Con una reputación de excelencia, miles confían en nuestros <strong>servicios de pruebas de laboratorio con sede en Dallas</strong>. Combinamos tecnología de vanguardia con un enfoque centrado en el paciente, asegurando un servicio de primer nivel y resultados precisos en todo momento.</p>",
+    "after": "<p>ER of White Rock ofrece pruebas de laboratorio como parte de la atención de emergencia. Pregunte qué significa cada resultado y si necesita seguimiento.</p>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "260980fe",
+    "field": "editor",
+    "before": "<p>Cuando está experimentando una emergencia médica, el análisis de sangre rápido es nuestra primera línea de defensa. Nuestro laboratorio en el sitio está equipado para realizar análisis de sangre de emergencia completos para identificar instantáneamente infecciones severas, falla de órganos y crisis metabólicas.</p><ul><li><strong>Conteo Sanguíneo Completo (CBC):</strong> Verificamos instantáneamente sus glóbulos rojos y blancos para detectar infecciones bacterianas severas, pérdida aguda de sangre o respuestas inmunes peligrosas.</li><li><strong>Paneles Metabólicos Completos:</strong> Evaluamos su función renal, salud hepática y equilibrio de electrolitos para diagnosticar deshidratación severa o emergencias diabéticas.</li><li><strong>Paneles Cardíacos y de Coagulación:</strong> Para pacientes con dolor en el pecho, realizamos pruebas inmediatas de enzimas cardíacas para detectar ataques cardíacos activos y análisis de sangre para descartar coágulos sanguíneos que ponen en peligro la vida.</li><li><strong>Análisis de Orina Rápido:</strong> Analizamos rápidamente muestras de orina para detectar infecciones dolorosas del tracto urinario (UTI), cálculos renales y angustia renal severa para que podamos administrar antibióticos IV de inmediato.</li></ul>",
+    "after": "<p>Los análisis de sangre y orina aportan información para evaluar una enfermedad o lesión. El médico determina cuáles son necesarios.</p><ul><li><strong>Hemograma:</strong> Mide las células sanguíneas y puede aportar indicios de anemia o infección.</li><li><strong>Panel metabólico:</strong> Ayuda a evaluar glucosa, electrolitos y función de órganos.</li><li><strong>Pruebas cardíacas y de coagulación:</strong> Se interpretan junto con los síntomas, el examen y otras pruebas. Un resultado aislado no descarta todas las emergencias.</li><li><strong>Análisis de orina:</strong> Puede ayudar a evaluar síntomas urinarios. El tratamiento depende de los hallazgos y la evaluación médica.</li></ul>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "231ddd11",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Cuando enfrenta una crisis médica o necesita respuestas diagnósticas rápidas, esperar días por un laboratorio externo no es una opción. En <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, nuestra sala de emergencias independiente 24/7 cuenta con un laboratorio completamente equipado y certificado por COLA en el sitio. Ya sea que necesite paneles cardíacos que salvan vidas, hemocultivos complejos o pruebas virales rápidas, nuestros médicos de emergencia con experiencia confían en nuestra tecnología interna para brindar resultados precisos en minutos. Experimente medicina diagnóstica altamente capaz con tiempos de espera mínimos aquí mismo en East Dallas.</p><p>Las pruebas de laboratorio en el sitio son la diferencia central entre atención de emergencia y urgencias menores. Nuestra <a href=\"https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de sala de emergencias independiente vs hospital cerca de White Rock</a> explica cómo difieren los diagnósticos entre los dos entornos.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Cuando enfrenta una crisis médica o necesita respuestas diagnósticas rápidas, esperar días por un laboratorio externo no es una opción. En <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, nuestra sala de emergencias independiente 24/7 cuenta con un laboratorio completamente equipado y certificado por COLA en el sitio. Ya sea que necesite paneles cardíacos que salvan vidas, hemocultivos complejos o pruebas virales rápidas, nuestros médicos de emergencia con experiencia confían en nuestra tecnología interna para brindar resultados que apoyan la evaluación médica. Experimente medicina diagnóstica altamente capaz con tiempos de espera mínimos aquí mismo en East Dallas.</p><p>Las pruebas de laboratorio en el sitio son la diferencia central entre atención de emergencia y urgencias menores. Nuestra <a href=\"https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de sala de emergencias independiente vs hospital cerca de White Rock</a> explica cómo difieren los diagnósticos entre los dos entornos.</p></div></div></div>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "407ce12a",
+    "field": "editor",
+    "before": "<p>Las emergencias médicas no operan según un horario, y nosotros tampoco. Hemos optimizado nuestro proceso de laboratorio para evaluarle y hacerle pruebas de inmediato.</p><ul><li><strong>Paso 1: Visita sin cita 24/7</strong> No espere una cita. Diríjase directamente a nuestras instalaciones modernas en cualquier momento, día o noche, y experimente nuestro estándar de tiempos de espera mínimos.</li><li><strong>Paso 2: Triaje médico rápido</strong> Si está experimentando dolor o síntomas severos, nuestros médicos de emergencia con experiencia le evaluarán instantáneamente para determinar exactamente qué pruebas de laboratorio se requieren para salvar su vida.</li><li><strong>Paso 3: Recolección de muestras en el sitio</strong> Nuestras enfermeras registradas, capacitadas y compasivas, le sacarán sangre o recolectarán los hisopos necesarios rápida y seguramente en una habitación privada.</li><li><strong>Paso 4: Resultados rápidos y precisos</strong> Sus muestras se llevan directamente a nuestro laboratorio interno. La mayoría de los resultados de pruebas críticas se entregan directamente a su médico tratante dentro de una hora.</li></ul>",
+    "after": "<p>Las emergencias médicas no operan según un horario, y nosotros tampoco. Hemos optimizado nuestro proceso de laboratorio para evaluarle y hacerle pruebas de inmediato.</p><ul><li><strong>Paso 1: Visita sin cita 24/7</strong> No espere una cita. Diríjase directamente a nuestras instalaciones modernas en cualquier momento, día o noche, y experimente nuestro estándar de tiempos de espera mínimos.</li><li><strong>Paso 2: Triaje médico rápido</strong> Si está experimentando dolor o síntomas severos, nuestros médicos de emergencia con experiencia le evaluarán instantáneamente para determinar exactamente qué pruebas de laboratorio se requieren para salvar su vida.</li><li><strong>Paso 3: Recolección de muestras en el sitio</strong> Nuestras enfermeras registradas, capacitadas y compasivas, le sacarán sangre o recolectarán los hisopos necesarios rápida y seguramente en una habitación privada.</li><li><strong>Paso 4: Resultados rápidos y precisos</strong> Sus muestras se llevan directamente a nuestro laboratorio interno. Los tiempos varían según la prueba. Antes de irse, pregunte qué resultados siguen pendientes y cómo recibirá el seguimiento.</li></ul>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "231ddd11",
+    "field": "editor",
+    "before": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Cuando enfrenta una crisis médica o necesita respuestas diagnósticas rápidas, esperar días por un laboratorio externo no es una opción. En <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, nuestra sala de emergencias independiente 24/7 cuenta con un laboratorio completamente equipado y certificado por COLA en el sitio. Ya sea que necesite paneles cardíacos que salvan vidas, hemocultivos complejos o pruebas virales rápidas, nuestros médicos de emergencia con experiencia confían en nuestra tecnología interna para brindar resultados que apoyan la evaluación médica. Experimente medicina diagnóstica altamente capaz con tiempos de espera mínimos aquí mismo en East Dallas.</p><p>Las pruebas de laboratorio en el sitio son la diferencia central entre atención de emergencia y urgencias menores. Nuestra <a href=\"https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de sala de emergencias independiente vs hospital cerca de White Rock</a> explica cómo difieren los diagnósticos entre los dos entornos.</p></div></div></div>",
+    "after": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>Cuando enfrenta una crisis médica o necesita respuestas diagnósticas rápidas, esperar días por un laboratorio externo no es una opción. En <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, nuestra sala de emergencias independiente 24/7 cuenta con un laboratorio completamente equipado y certificado por COLA en el sitio. Ya sea que necesite paneles cardíacos que salvan vidas, hemocultivos complejos o pruebas virales rápidas, nuestros médicos de emergencia con experiencia confían en nuestra tecnología interna para brindar resultados que apoyan la evaluación médica. Experimente medicina diagnóstica altamente capaz con tiempos de espera mínimos aquí mismo en East Dallas.</p><p>Las pruebas de laboratorio en el sitio son la diferencia central entre atención de emergencia y urgencias menores. Nuestra <a href=\"https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">guía de atención de emergencia cerca de White Rock</a> explica cómo difieren los diagnósticos entre los dos entornos.</p></div></div></div>",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "7f81724",
+    "field": "description_text_b",
+    "before": "Ofrecemos pruebas rápidas de COVID-19 y pruebas PCR altamente precisas para detectar infecciones activas. Ya sea que tenga fiebre alta o síntomas respiratorios graves, brindamos respuestas definitivas rápidamente.",
+    "after": "Las pruebas de COVID-19 ayudan a evaluar una posible infección. Su médico interpreta los resultados según los síntomas y el momento de la prueba.",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "5a5be3b",
+    "field": "description_text_b",
+    "before": "Un CBC es la base del diagnóstico de emergencia. Permite a nuestros médicos detectar al instante infecciones sistémicas, anemia grave y trastornos peligrosos del sistema inmunitario.",
+    "after": "Un hemograma mide las células sanguíneas y puede aportar información sobre anemia o infección. Se interpreta junto con otros hallazgos clínicos.",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "4e089f1",
+    "field": "description_text_b",
+    "before": "El dolor de garganta intenso combinado con fiebre requiere una identificación rápida. Ofrecemos pruebas rápidas de estreptococo y mononucleosis para diagnosticar la cepa bacteriana o viral exacta que le causa malestar.",
+    "after": "Las pruebas de estreptococo o mononucleosis pueden ayudar a evaluar un dolor de garganta. El equipo determina cuáles son adecuadas según sus síntomas.",
+    "reason": "WR-09: remove laboratory certainty/turnaround guarantees; preserve diagnostic context."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "2a6e509",
+    "field": "custom_css",
+    "before": null,
+    "after": "\nselector a, selector a:hover, selector a:focus { color: #FFFFFF !important; text-decoration: underline; }\nselector a:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 3px; }",
+    "reason": "WR-13: white underlined links on the existing navy section meet text contrast requirements."
+  },
+  {
+    "post_id": 4747,
+    "widget_id": "6fe9fbe",
+    "field": "custom_css",
+    "before": null,
+    "after": "\nselector a, selector a:hover, selector a:focus { color: #FFFFFF !important; text-decoration: underline; }\nselector a:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 3px; }",
+    "reason": "WR-13: white underlined links on the existing navy section meet text contrast requirements."
+  }
+]

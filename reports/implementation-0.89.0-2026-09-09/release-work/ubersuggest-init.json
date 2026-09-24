@@ -1,0 +1,5 @@
+{
+  "status": 401,
+  "www_authenticate": "Bearer error=\"invalid_token\", error_description=\"Missing Authorization header\", resource_metadata=\"https://ubersuggest-mcp.neilpatelapi.com/.well-known/oauth-protected-resource/mcp\"",
+  "body": "{\"error\":\"invalid_token\",\"error_description\":\"Missing Authorization header\"}"
+}

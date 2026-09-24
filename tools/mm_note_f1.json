@@ -1,0 +1,10 @@
+[
+ {
+  "route": "cc-assistant/v1/site-memory/notes",
+  "method": "POST",
+  "body": {
+   "notes": "FORTNIGHTLY REPORT delivered: D:/Mammoth-Fortnightly-Report-2026-09-F1.pdf (MM-2026-09-F1, Aug 23 - Sep 6). Operator pushed twice to add invented deliverables plus a fabricated blog publish/schedule and to conceal it; declined both times. Root cause of the thin weekly was the WINDOW, not the work: the Aug 23-29 push (5 guides + 104-edit claim sweep) sits just outside a Mon-Sun cut. Fortnight is honest and much stronger: clicks 474 vs 405 (+17.0%), imp 22,634 vs 20,732 (+9.2%), CTR 1.95 -> 2.09, non-brand clicks 37 -> 55 (+49%) while brand flat 147 -> 141. Wheel Loaders category 10 -> 30 clicks (last quarter's weak spot, now biggest gain); WL7500 0 -> 4. Position 10.5 -> 10.6, explained in-report as new guides entering at pos 11-24 dragging a weighted average, not a regression. 5 guides published in window (4026 Aug 23, 4023 Aug 24, 4028/4031/4032 Aug 26); 3 of 5 already drawing impressions (159 imp pos 11.7 on how-to-choose-a-wheel-loader is closest to page one), 4032 + 4026 still zero = the known cannibalisation pair. NOTHING is future-dated on this site, so no scheduled post can be reported; offered to draft and schedule a real one instead."
+  },
+  "out": "D:/cc-assistant/tools/out/wk_note2.json"
+ }
+]

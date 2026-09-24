@@ -1,0 +1,135 @@
+{
+  "_note": "Batch 10, the first built under the two-axis rule. Three posts, 7 cards. 3365 and 3162 had ZERO cards under the old decision-only rule and are the clearest evidence it was too narrow: 3365 ranks 4.0 on 'stress fracture shin' and 3162 sits at 9.8-10.5 on 'muscle strain treatment', which is striking distance. Cut on the read: 3978's two chest-pain candidates (759 and 1,276 impressions) because the post answers 'muscular or heart' with a three-way table one section down, so two one-sided cards would split an answer the body already gives whole. 3365's 'How Are Stress Fractures Diagnosed?' cut because the reader does not choose their own imaging and the section carries no rank evidence. 3921 and 3116 deferred: 3921 already has 4 cards including a thresholds card, and 3116 needs an operator decision first because it is 4 cards on a procedure this ER does not perform.",
+  "cards": [
+    {
+      "file": "erof-3365-stress-fracture-sites",
+      "post_id": 3365,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "stress fracture",
+      "heading": "What Is a Stress Fracture?",
+      "title": ["Where a ", "Stress Fracture", " Happens"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "The five places a stress fracture happens: the foot, shin, ankle, leg and heel",
+      "items": [
+        { "icon": "footprints", "label": "Foot", "note": "Metatarsals, frequent in runners" },
+        { "icon": "bone", "label": "Shin", "note": "Tibial, affects the shinbone" },
+        { "icon": "activity", "label": "Ankle", "note": "Fibula or ankle bones, feels unstable" },
+        { "icon": "dumbbell", "label": "Leg", "note": "Femur or other leg bones, less common" },
+        { "icon": "weight", "label": "Heel", "note": "Calcaneal, mimics plantar fasciitis" }
+      ]
+    },
+    {
+      "file": "erof-3365-stress-fracture-signs",
+      "post_id": 3365,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "stress fracture",
+      "heading": "How Do You Know If You Have a Stress Fracture?",
+      "title": ["", "Stress Fracture", ": What to Look For"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Stress fracture symptoms to look for: a vague ache after activity, constant pain even at rest, tenderness in one small spot, and sharp pain when hopping on that leg",
+      "items": [
+        { "icon": "activity", "label": "Vague ache after activity", "note": "The earliest sign" },
+        { "icon": "zap", "label": "Constant pain, even at rest", "note": "It has progressed" },
+        { "icon": "target", "label": "Tenderness in one small spot", "note": "Often with swelling" },
+        { "icon": "footprints", "label": "Sharp pain hopping on that leg", "note": "A hint, not a diagnosis" }
+      ]
+    },
+    {
+      "file": "erof-3365-stress-fracture-healing",
+      "post_id": 3365,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "stress fracture",
+      "heading": "How Long Does a Stress Fracture Take to Heal?",
+      "title": ["How Long a ", "Stress Fracture", " Takes to Heal"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "How long a stress fracture takes to heal: six to eight weeks for the foot or shin, up to twelve weeks at other sites",
+      "items": [
+        { "icon": "clock-3", "label": "6 to 8 weeks", "note": "Foot or shin fractures" },
+        { "icon": "hourglass", "label": "Up to 12 weeks", "note": "Other sites" },
+        { "icon": "salad", "label": "Age, nutrition, staying off it", "note": "What shifts the timeline" },
+        { "icon": "circle-check", "label": "No pain, normal imaging", "note": "How you know it has healed" }
+      ]
+    },
+    {
+      "file": "erof-3365-stress-fracture-er",
+      "post_id": 3365,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "stress fracture",
+      "heading": "When Should You Seek Emergency Care for a Stress Fracture?",
+      "title": ["", "Stress Fracture", ": When to Go to the ER"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Stress fracture red flags that need emergency care: severe pain, increasing swelling, being unable to bear weight, sudden worsening, numbness and visible deformity",
+      "items": [
+        { "icon": "zap", "label": "Pain that is severe" },
+        { "icon": "trending-up", "label": "Swelling that keeps increasing" },
+        { "icon": "ban", "label": "Cannot bear weight" },
+        { "icon": "triangle-alert", "label": "Sudden worsening" },
+        { "icon": "activity", "label": "Numbness" },
+        { "icon": "bone", "label": "Visible deformity" }
+      ]
+    },
+    {
+      "file": "erof-3162-muscle-strain-grades",
+      "post_id": 3162,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "muscle strain",
+      "heading": "What is muscle strain?",
+      "title": ["The Three ", "Muscle Strain", " Grades"],
+      "logo": { "position": "top-right", "variant": "mark", "width": 48 },
+      "alt": "The three muscle strain grades compared: grade one is overstretched with minor discomfort, grade two is partially torn with limited mobility, grade three is torn completely and may need medical care",
+      "columns": ["Grade I: Mild", "Grade II: Moderate", "Grade III: Severe"],
+      "rows": [
+        {
+          "label": "The muscle",
+          "values": ["Overstretched", "Partially torn", "Torn completely"]
+        },
+        {
+          "label": "What you feel",
+          "values": ["Minor discomfort, strength intact", "Moderate pain, limited mobility", "Severe, may need medical care"]
+        }
+      ]
+    },
+    {
+      "file": "erof-3162-muscle-strain-recovery",
+      "post_id": 3162,
+      "brand": "erofirving",
+      "layout": "numbered",
+      "subject": "muscle strain",
+      "heading": "7 Expert Tips to Speed Up Muscle Strain Recovery",
+      "title": ["7 Ways to Speed ", "Muscle Strain", " Recovery"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Seven ways to speed up muscle strain recovery: rest, ice, compression and elevation, gradual movement, hydration and nutrition, cold then heat therapy, physical therapy, imaging to monitor, and advanced therapies",
+      "items": [
+        "Rest, ice, compression and elevation",
+        "Reintroduce movement gradually",
+        "Hydrate, and eat protein and vitamins",
+        "Alternate cold, then heat therapy",
+        "Physical therapy and manual techniques",
+        "Monitor with imaging before and after",
+        "Advanced therapies for severe strains"
+      ]
+    },
+    {
+      "file": "erof-3858-kidney-stone-home-care",
+      "post_id": 3858,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "kidney stone",
+      "heading": "Home Remedies for Kidney Stone Pain: What Actually Helps",
+      "title": ["", "Kidney Stone", " Pain: What Helps at Home"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Home remedies for kidney stone pain that actually help: drinking water through the day, heat on the back or flank, light walking, and citrate from lemon or lime juice with less salt",
+      "items": [
+        { "icon": "droplets", "label": "Drink water through the day", "note": "Aim for pale, nearly clear urine" },
+        { "icon": "flame", "label": "Heat on the back or flank", "note": "About 20 minutes at a time" },
+        { "icon": "footprints", "label": "Light walking", "note": "Rest if the pain sharpens" },
+        { "icon": "salad", "label": "Lemon or lime juice, less salt", "note": "Slows new crystals forming" }
+      ]
+    }
+  ]
+}

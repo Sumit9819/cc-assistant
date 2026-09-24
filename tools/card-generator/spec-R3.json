@@ -1,0 +1,464 @@
+{
+ "_note": "Replacement batch R3: 8567 (4 of its 5 images; the restorative-sleep card added earlier stays), 9389, 9398. Positional swaps at the same sections.",
+ "cards": [
+  {
+   "file": "empower-preventive-screenings",
+   "post_id": 8567,
+   "layout": "icons",
+   "subject": "preventive care",
+   "heading": "1. Prioritize Preventive Screenings and Routine Checkups",
+   "title": [
+    "Where ",
+    "Preventive Care",
+    " Starts"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Preventive care starts with a baseline, catches silent markers like blood pressure early, and treats your provider as a partner",
+   "items": [
+    {
+     "icon": "clipboard-list",
+     "label": "A baseline",
+     "note": "Knowing where you actually stand"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Silent markers",
+     "note": "High blood pressure has no symptoms"
+    },
+    {
+     "icon": "users",
+     "label": "A partnership",
+     "note": "Ask which screenings suit your age"
+    }
+   ]
+  },
+  {
+   "file": "empower-evidence-based-nutrition",
+   "post_id": 8567,
+   "layout": "icons",
+   "subject": "nutrition",
+   "heading": "2. Fuel Your Body with Evidence-Based Nutrition",
+   "title": [
+    "Evidence-Based ",
+    "Nutrition",
+    " in Three Parts"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Evidence-based nutrition: add fiber-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks",
+   "items": [
+    {
+     "icon": "apple",
+     "label": "Add, don't subtract",
+     "note": "More fiber-rich fruit, veg and whole grains"
+    },
+    {
+     "icon": "droplet",
+     "label": "Hydration",
+     "note": "Energy, digestion and cognition"
+    },
+    {
+     "icon": "candy-off",
+     "label": "Skip sweet drinks",
+     "note": "A major source of added sugar"
+    }
+   ]
+  },
+  {
+   "file": "empower-movement-for-longevity",
+   "post_id": 8567,
+   "layout": "icons",
+   "subject": "movement",
+   "heading": "3. Move for Longevity, Not Just Fitness",
+   "title": [
+    "Movement",
+    " for Longevity",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Movement for longevity: 150 minutes of moderate aerobic activity weekly, strength work twice a week, and mood benefits",
+   "items": [
+    {
+     "icon": "heart-pulse",
+     "label": "150 minutes",
+     "note": "Moderate aerobic activity each week"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Two days",
+     "note": "Muscle-strengthening activity"
+    },
+    {
+     "icon": "brain",
+     "label": "Mood lift",
+     "note": "Endorphins ease anxiety and low mood"
+    }
+   ]
+  },
+  {
+   "file": "empower-managing-stress",
+   "post_id": 8567,
+   "layout": "icons",
+   "subject": "stress",
+   "heading": "5. Manage Stress Through Mindful Connection",
+   "title": [
+    "Managing ",
+    "Stress",
+    " Mindfully"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Chronic stress causes digestive issues and headaches; breathing, meditation and connection lower cortisol",
+   "items": [
+    {
+     "icon": "frown",
+     "label": "The physical toll",
+     "note": "Digestive issues, headaches, lost sleep"
+    },
+    {
+     "icon": "brain",
+     "label": "Calming practice",
+     "note": "Breathing, meditation, time outdoors"
+    },
+    {
+     "icon": "users",
+     "label": "A support system",
+     "note": "Friends, family, or a professional"
+    }
+   ]
+  },
+  {
+   "file": "what-progesterone-does",
+   "post_id": 9389,
+   "layout": "icons",
+   "subject": "progesterone",
+   "heading": "Importance of Progesterone: The Body’s Natural \"Peacekeeper\"",
+   "title": [
+    "What ",
+    "Progesterone",
+    " Does"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Progesterone counterbalances estrogen, is made after ovulation, and converts to a neurosteroid acting on GABA receptors",
+   "items": [
+    {
+     "icon": "scale",
+     "label": "Counterbalance",
+     "note": "It steadies what estrogen builds"
+    },
+    {
+     "icon": "calendar-days",
+     "label": "After ovulation",
+     "note": "Made by the corpus luteum"
+    },
+    {
+     "icon": "brain",
+     "label": "Natural calm",
+     "note": "A neurosteroid acting on GABA"
+    }
+   ]
+  },
+  {
+   "file": "low-progesterone-warning-signs",
+   "post_id": 9389,
+   "layout": "checklist",
+   "subject": "progesterone",
+   "tone": "neutral",
+   "heading": "Early Warning Signs: Identifying Hidden Symptoms",
+   "title": [
+    "Early Signs of Low ",
+    "Progesterone",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Low progesterone shows as anxiety, insomnia and irritability, and as heavy bleeding, spotting and shorter cycles",
+   "good": {
+    "icon": "brain",
+    "heading": "Mental and emotional",
+    "items": [
+     "Anxiety, feeling on edge",
+     "Trouble staying asleep",
+     "A short fuse, out of character"
+    ]
+   },
+   "bad": {
+    "icon": "calendar-days",
+    "heading": "In your cycle",
+    "items": [
+     "Heavy bleeding",
+     "Spotting before the period",
+     "Cycles shortening, 28 days to 24"
+    ]
+   }
+  },
+  {
+   "file": "luteal-phase-window",
+   "post_id": 9389,
+   "layout": "stat",
+   "subject": "progesterone",
+   "heading": "Hidden Impact: Luteal Phase Defects and Hormonal Gaps",
+   "title": [
+    "The Luteal Phase and ",
+    "Progesterone",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A healthy luteal phase runs 12 to 14 days; too little progesterone shortens it, which is a luteal phase defect",
+   "stat": "12-14",
+   "gloss": "days between ovulation and your period",
+   "statLine": "the window a healthy luteal phase needs for proper hormonal signalling",
+   "source": "National Institutes of Health"
+  },
+  {
+   "file": "progesterone-and-fertility",
+   "post_id": 9389,
+   "layout": "icons",
+   "subject": "progesterone",
+   "heading": "Fertility Impacts: Thinking About Your Future Family",
+   "title": [
+    "Progesterone",
+    " and Fertility",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Progesterone ripens the uterine lining, supports implantation, and is measured by tests used to investigate infertility",
+   "items": [
+    {
+     "icon": "circle-dot",
+     "label": "Ripens the lining",
+     "note": "So a fertilized egg can implant"
+    },
+    {
+     "icon": "baby",
+     "label": "Sustains it",
+     "note": "Too little and the lining breaks down early"
+    },
+    {
+     "icon": "beaker",
+     "label": "Measured",
+     "note": "Tests used to investigate infertility"
+    }
+   ]
+  },
+  {
+   "file": "restoring-progesterone-levels",
+   "post_id": 9389,
+   "layout": "list",
+   "subject": "progesterone",
+   "heading": "Restoring Levels: How to Get Your Balance Back",
+   "title": [
+    "Restoring ",
+    "Progesterone",
+    " Levels"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Restoring progesterone: magnesium and B6, lowering cortisol, healthy fats for hormone synthesis, and BHRT with testing",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "Magnesium and B6",
+     "note": "The corpus luteum needs both"
+    },
+    {
+     "icon": "moon",
+     "label": "Lower cortisol",
+     "note": "Stress is a progesterone thief"
+    },
+    {
+     "icon": "salad",
+     "label": "Healthy fats",
+     "note": "Hormones are built from cholesterol"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "BHRT",
+     "note": "Individualized, with your levels tested"
+    }
+   ]
+  },
+  {
+   "file": "what-post-birth-control-syndrome-is",
+   "post_id": 9398,
+   "layout": "steps",
+   "subject": "birth control",
+   "heading": "What is Post-Birth Control Syndrome (PBCS)?",
+   "title": [
+    "What Happens After ",
+    "Birth Control",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hormonal contraceptives suppress the HPO axis; when they stop, the axis comes back online over weeks to months",
+   "steps": [
+    {
+     "icon": "ban",
+     "label": "Suppressed",
+     "note": "Synthetic hormones quiet the HPO axis"
+    },
+    {
+     "icon": "door-open",
+     "label": "Removed",
+     "note": "The body must remember how to produce its own"
+    },
+    {
+     "icon": "recycle",
+     "label": "Recalibrating",
+     "note": "Weeks for some, several months for others"
+    }
+   ]
+  },
+  {
+   "file": "post-birth-control-symptoms",
+   "post_id": 9398,
+   "layout": "list",
+   "subject": "birth control",
+   "heading": "Common Symptoms Patients Experience",
+   "title": [
+    "Common Symptoms After Stopping ",
+    "Birth Control",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "After stopping birth control: cystic acne, libido changes, intense PMS, digestive issues and bloating, hair thinning",
+   "items": [
+    {
+     "icon": "scan-face",
+     "label": "Cystic acne",
+     "note": "Or newly oily skin"
+    },
+    {
+     "icon": "heart",
+     "label": "Libido changes",
+     "note": "In either direction"
+    },
+    {
+     "icon": "frown",
+     "label": "Intense PMS",
+     "note": "Or sudden mood crashes"
+    },
+    {
+     "icon": "waves",
+     "label": "Digestive issues",
+     "note": "Bloating and irregularity"
+    },
+    {
+     "icon": "scissors",
+     "label": "Hair thinning",
+     "note": "Often temporary through the transition"
+    }
+   ]
+  },
+  {
+   "file": "contraceptive-nutrient-depletions",
+   "post_id": 9398,
+   "layout": "list",
+   "subject": "birth control",
+   "heading": "Common Nutrient Depletions Caused by Hormonal Contraceptives",
+   "title": [
+    "Nutrients ",
+    "Birth Control",
+    " Can Deplete"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Oral contraceptives can lower B2, B6, B12 and folate, plus magnesium for stress response and zinc for skin",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "B vitamins and folate",
+     "note": "B2, B6, B12; B6 builds serotonin and dopamine"
+    },
+    {
+     "icon": "moon",
+     "label": "Magnesium",
+     "note": "Regulates the stress response and insulin"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Zinc",
+     "note": "Skin health and follicle development"
+    }
+   ]
+  },
+  {
+   "file": "returning-to-natural-cycles",
+   "post_id": 9398,
+   "layout": "icons",
+   "subject": "birth control",
+   "heading": "Roadmap to Natural Cycles: Supporting Your Body’s Recovery",
+   "title": [
+    "Recovering Natural Cycles After ",
+    "Birth Control",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Recovery after birth control: healthy fats and protein-first meals, gut health to clear used hormones, and seed cycling",
+   "items": [
+    {
+     "icon": "salad",
+     "label": "Fats and protein",
+     "note": "The backbone of hormone synthesis"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Gut health",
+     "note": "It clears used hormones, or reabsorbs them"
+    },
+    {
+     "icon": "wheat",
+     "label": "Seed cycling",
+     "note": "Support for each phase of the cycle"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap">
+<style>
+/* Brand hexes taken from the palette Sumit posted in #designfor-sumit on
+   2026-06-03, not eyeballed from a screenshot. */
+:root{
+  --green:#003017;
+  --sage:#96A681;
+  --yellow:#FFD900;
+  --ground:#f7f8f4;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:628px}
+body{
+  background:var(--ground);
+  font-family:Poppins,system-ui,sans-serif;
+  position:relative;
+  overflow:hidden;
+}
+/* Soft organic shapes standing in for the washed-out photo the Canva set
+   uses. Keeps the light, airy feel without needing a stock image. */
+.blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:.5}
+.b1{width:520px;height:420px;background:#e4ebdc;top:-160px;right:-90px}
+.b2{width:380px;height:320px;background:#eef2e8;bottom:-130px;left:-90px}
+.b3{width:230px;height:200px;background:#f0ead4;bottom:-70px;right:180px;opacity:.55}
+
+.mark{position:absolute;top:34px;left:44px}
+
+h1{
+  position:absolute;top:70px;left:0;width:100%;
+  text-align:center;font-weight:700;font-size:50px;
+  letter-spacing:-.5px;color:var(--green);
+}
+h1 em{font-style:normal;color:var(--yellow)}
+
+.row{
+  position:absolute;top:214px;left:0;width:100%;
+  display:flex;justify-content:center;gap:104px;
+}
+.item{width:236px;display:flex;flex-direction:column;align-items:center}
+.disc{
+  width:186px;height:186px;border-radius:50%;
+  border:2px solid var(--sage);
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(255,255,255,.62);
+  position:relative;
+}
+.tick{
+  position:absolute;right:6px;bottom:6px;
+  width:44px;height:44px;border-radius:50%;
+  background:var(--yellow);
+  display:flex;align-items:center;justify-content:center;
+}
+.label{
+  margin-top:26px;font-weight:600;font-size:27px;color:var(--green);
+  text-align:center;line-height:1.2;
+}
+.rule{width:46px;height:3px;background:var(--yellow);margin-top:12px;border-radius:2px}
+</style>
+
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+<div class="blob b3"></div>
+
+<!-- Clinic mark: four leaves in a ring, matching the logo on every other card -->
+<svg class="mark" width="62" height="62" viewBox="0 0 100 100" fill="none" stroke="#003017" stroke-width="4">
+  <path d="M50 12c14 0 24 10 24 22 0 10-9 16-24 16S26 44 26 34c0-12 10-22 24-22Z"/>
+  <path d="M50 88c-14 0-24-10-24-22 0-10 9-16 24-16s24 6 24 16c0 12-10 22-24 22Z"/>
+  <path d="M12 50c0-14 10-24 22-24 10 0 16 9 16 24s-6 24-16 24c-12 0-22-10-22-24Z"/>
+  <path d="M88 50c0 14-10 24-22 24-10 0-16-9-16-24s6-24 16-24c12 0 22 10 22 24Z"/>
+</svg>
+
+<h1>Master <em>Restorative</em> Sleep</h1>
+
+<div class="row">
+
+  <div class="item">
+    <div class="disc">
+      <svg width="92" height="92" viewBox="0 0 96 96" fill="none" stroke="#003017" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M62 14a30 30 0 1 0 22 40 26 26 0 0 1-22-40Z" fill="#e8eee2"/>
+        <path d="M24 22l4 8 8 4-8 4-4 8-4-8-8-4 8-4 4-8Z" fill="#FFD900" stroke="#FFD900"/>
+        <path d="M74 74l2.6 5.4L82 82l-5.4 2.6L74 90l-2.6-5.4L66 82l5.4-2.6L74 74Z" fill="#FFD900" stroke="#FFD900"/>
+      </svg>
+      <div class="tick">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#003017" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></svg>
+      </div>
+    </div>
+    <div class="label">Consistent</div>
+    <div class="rule"></div>
+  </div>
+
+  <div class="item">
+    <div class="disc">
+      <svg width="92" height="92" viewBox="0 0 96 96" fill="none" stroke="#003017" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="14" y="34" width="68" height="34" rx="9" fill="#e8eee2"/>
+        <path d="M14 68v10M82 68v10"/>
+        <rect x="24" y="24" width="30" height="16" rx="7" fill="#fff"/>
+        <path d="M62 46h14"/>
+        <path d="M48 20c6 0 6 6 12 6" stroke="#96A681"/>
+        <path d="M44 12c7 0 7 7 14 7" stroke="#96A681"/>
+      </svg>
+      <div class="tick">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#003017" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></svg>
+      </div>
+    </div>
+    <div class="label">Unplug</div>
+    <div class="rule"></div>
+  </div>
+
+  <div class="item">
+    <div class="disc">
+      <svg width="92" height="92" viewBox="0 0 96 96" fill="none" stroke="#003017" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="48" cy="48" r="27" fill="#e8eee2"/>
+        <path d="M48 32v17l11 7"/>
+        <path d="M48 8v8M48 80v8M8 48h8M80 48h8"/>
+        <circle cx="48" cy="48" r="4" fill="#FFD900" stroke="#FFD900"/>
+      </svg>
+      <div class="tick">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#003017" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></svg>
+      </div>
+    </div>
+    <div class="label">Repair</div>
+    <div class="rule"></div>
+  </div>
+
+</div>

@@ -1,0 +1,10 @@
+[
+  {
+    "route": "cc-assistant/v1/site-memory/notes",
+    "method": "POST",
+    "body": {
+      "notes": "Banner cleanup queued: 1229 (3081, 2), 1230 (3097, 3), 1231 (3103, 3), 1232 (3116, 3), 1233 (3162, 3), 1234 (3201, 3), 1235 (3365, 3) = 20 heading-echo banners removed. Operator decision: when a decorative banner that only repeats its heading sits above a card, the BANNER goes and the card stays. Signature of one: alt text = heading verbatim, filename = heading slugified, stock photo with the heading in a red caption bar. Scope chosen was every banner on the 7 affected posts, not just the 13 stacked ones, so no post is left with a banner under one heading and none under the next. After this, every remaining inline image on those 7 posts is a card. NOT touched: 2780's two real photographs above cards (own alt text, describe something the heading does not) and 3091. image_preservation fails on all 7 and SHOULD: the plugin counts inline img before/after so a human sees image loss before approving. Per-post drops 3081 4->2, 3097 5->2, 3103 6->3, 3116 7->4, 3162 5->2, 3201 6->3, 3365 7->4. Attachments all stay in the library at the same URLs, nothing deleted, reversible with a forward patch. AUDIT TRAP: first count said 61 banners on 28 posts, wrong 2.5x because the regex matched the img INSIDE cc-card figures; mask cards first, real number 24 on 9 posts."
+    },
+    "out": "card-generator/_rm/note.json"
+  }
+]

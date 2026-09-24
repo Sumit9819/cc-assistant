@@ -1,0 +1,7 @@
+[
+ {
+  "route": "cc-assistant/v1/redirect-audit",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/red_audit.json"
+ }
+]

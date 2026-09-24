@@ -1,0 +1,14 @@
+[
+ {
+  "route": "cc-assistant/v1/draft/redirect",
+  "method": "POST",
+  "body": {
+   "source": "/product-category/mini-excavators/full-size-track-loaders/",
+   "destination": "https://mammothmachinery.ca/full-size-track-loaders/",
+   "http_code": 301,
+   "summary": "301 the nested full-size-track-loaders category URL to the live category page",
+   "reasoning": "Live at HTTP 200 with 145 words and no H1, a thin duplicate of the Full Size Track Loaders category. Its canonical points at /product-category/full-size-track-loaders/, which itself 301s, so the canonical currently targets a redirect instead of a live page. Pointing straight at /full-size-track-loaders/ (verified 200) removes the thin duplicate and the canonical-to-redirect hop in one step. Found in the Search Console crawled-not-indexed report; it is the only genuine page fault among the 71 URLs listed."
+  },
+  "out": "D:/cc-assistant/tools/out/mkred.json"
+ }
+]

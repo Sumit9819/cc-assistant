@@ -1,0 +1,359 @@
+{
+  "_note": "Batch 5. Fourteen candidates read, nine cards kept. Cut on the read: 3081 'Does ER Have X-Ray Services for All Conditions' and 'What Can ER X-Rays Detect' both answer the same question as 'When to Choose the ER for an X-Ray', so one card carries that decision instead of three. 3977 'How ER of Irving Diagnoses' was dropped because its imaging step restates the 'Why X-Rays Sometimes Miss' card. 3091 'What to Expect During IV Hydration' was dropped because it repeats the 30-to-60-minute figure and one of its three items is a comparison against other providers. 3097 'How Is It Diagnosed' was dropped as clinical process on a low-acuity condition, not a decision the reader makes.",
+  "cards": [
+    {
+      "file": "erof-3081-when-er-xray",
+      "post_id": 3081,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "x-ray",
+      "heading": "When to Choose the Emergency Room for an X-Ray",
+      "title": [
+        "When to Choose the ER for an ",
+        "X-Ray",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five situations where the emergency room is the right place for an x-ray",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Acute pain, not life-threatening"
+        },
+        {
+          "icon": "dumbbell",
+          "label": "A sports injury"
+        },
+        {
+          "icon": "waves",
+          "label": "Breathing problems"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain"
+        },
+        {
+          "icon": "frown",
+          "label": "Persistent abdominal pain"
+        }
+      ]
+    },
+    {
+      "file": "erof-3081-xray-what-to-expect",
+      "post_id": 3081,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "x-ray",
+      "heading": "What to Expect When Getting an X-Ray at the Emergency Room",
+      "title": [
+        "Getting an ",
+        "X-Ray",
+        " at the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The three stages of an emergency room x-ray: check in, imaging in five to ten minutes, results in twenty to thirty minutes",
+      "steps": [
+        {
+          "icon": "door-open",
+          "label": "Check in",
+          "note": "Walk in, no appointment needed"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Imaging",
+          "note": "Quick and painless, 5 to 10 minutes"
+        },
+        {
+          "icon": "clipboard-check",
+          "label": "Results",
+          "note": "Discussed with you in 20 to 30 minutes"
+        }
+      ]
+    },
+    {
+      "file": "erof-3977-hairline-signs",
+      "post_id": 3977,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "hairline fracture",
+      "heading": "7 Symptoms of a Hairline Fracture",
+      "title": [
+        "7 Signs of a ",
+        "Hairline Fracture",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Seven signs of a hairline fracture: pain at one exact spot, worse with activity, swelling without heavy bruising, tenderness when pressed, no relief from rest, weakness bearing weight, and pain worse at night",
+      "items": [
+        {
+          "icon": "target",
+          "label": "Pain at one exact spot"
+        },
+        {
+          "icon": "trending-up",
+          "label": "Worse with activity"
+        },
+        {
+          "icon": "droplet",
+          "label": "Swelling, little bruising"
+        },
+        {
+          "icon": "bone",
+          "label": "Tender when you press it"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Rest does not settle it"
+        },
+        {
+          "icon": "weight",
+          "label": "Weak on weight or grip"
+        },
+        {
+          "icon": "moon",
+          "label": "Worse at night"
+        }
+      ]
+    },
+    {
+      "file": "erof-3977-er-now-or-wait",
+      "post_id": 3977,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "hairline fracture",
+      "heading": "When to Visit the ER vs Wait",
+      "title": [
+        "",
+        "Hairline Fracture",
+        ": ER Now or Wait?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs that a suspected hairline fracture needs the emergency room rather than waiting",
+      "items": [
+        {
+          "icon": "weight",
+          "label": "Cannot bear weight at all",
+          "note": "Not even a few steps"
+        },
+        {
+          "icon": "zap",
+          "label": "Sharp, constant pain at rest",
+          "note": "It does not ease off"
+        },
+        {
+          "icon": "droplet",
+          "label": "Badly swollen or deformed",
+          "note": "Visible change in shape"
+        },
+        {
+          "icon": "bone",
+          "label": "Hip, pelvis or skull",
+          "note": "Any suspected fracture there"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Numbness or color change",
+          "note": "Tingling, or the limb changes color"
+        }
+      ]
+    },
+    {
+      "file": "erof-3977-xray-looks-normal",
+      "post_id": 3977,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "x-ray",
+      "heading": "Why X-Rays Sometimes Miss Hairline Fractures",
+      "title": [
+        "When the ",
+        "X-Ray",
+        " Looks Normal"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three next steps when an x-ray does not show a suspected hairline fracture: repeat the x-ray, a CT scan, or an MRI",
+      "items": [
+        {
+          "icon": "calendar-days",
+          "label": "Repeat the x-ray",
+          "note": "In 10 to 14 days, once the callus shows"
+        },
+        {
+          "icon": "scan-face",
+          "label": "CT scan",
+          "note": "Higher resolution imaging"
+        },
+        {
+          "icon": "microscope",
+          "label": "MRI",
+          "note": "When soft tissue and marrow matter"
+        }
+      ]
+    },
+    {
+      "file": "erof-3091-when-iv-needed",
+      "post_id": 3091,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "When Do I Need an IV for Dehydration?",
+      "title": [
+        "When ",
+        "Dehydration",
+        " Needs an IV"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three signs that dehydration needs IV fluids: unrelenting thirst, dizziness or fainting, and dark urine with confusion",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Thirst that will not quit",
+          "note": "Or a dry mouth that stays dry"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Dizziness or fainting",
+          "note": "Or a racing pulse"
+        },
+        {
+          "icon": "eye",
+          "label": "Dark urine, sunken eyes",
+          "note": "Or confusion"
+        }
+      ]
+    },
+    {
+      "file": "erof-3091-iv-how-long",
+      "post_id": 3091,
+      "brand": "erofirving",
+      "layout": "stat",
+      "subject": "IV hydration",
+      "heading": "How Long Does IV Hydration Last?",
+      "title": [
+        "How Long ",
+        "IV Hydration",
+        " Takes"
+      ],
+      "stat": "30 to 60",
+      "gloss": "minutes per session",
+      "statLine": "is a typical IV session, and the steadier energy and vitals can last one to two days afterwards",
+      "source": "ER of Irving",
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "A typical IV hydration session takes thirty to sixty minutes"
+    },
+    {
+      "file": "erof-3097-slipping-rib-signs",
+      "post_id": 3097,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "slipping rib",
+      "heading": "What Are the Symptoms of Slipping Rib Syndrome?",
+      "title": [
+        "Signs of ",
+        "Slipping Rib",
+        " Syndrome"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five symptoms of slipping rib syndrome: sharp lower chest pain, a clicking or popping sensation, a lingering dull ache, pain radiating to the back, and tenderness over the rib",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Sharp pain, lower chest",
+          "note": "Or the side, or upper abdomen"
+        },
+        {
+          "icon": "circle-dot",
+          "label": "Clicking or popping",
+          "note": "On moving, breathing or pressing"
+        },
+        {
+          "icon": "hourglass",
+          "label": "A dull ache that lingers",
+          "note": "After the sharp episodes pass"
+        },
+        {
+          "icon": "trending-down",
+          "label": "Pain into back or shoulder",
+          "note": "Easy to mistake for back pain"
+        },
+        {
+          "icon": "bone",
+          "label": "Tender to the touch",
+          "note": "Right over the affected rib"
+        }
+      ]
+    },
+    {
+      "file": "erof-3097-slipping-rib-when-seen",
+      "post_id": 3097,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "slipping rib",
+      "heading": "When Should You Seek Medical Attention?",
+      "title": [
+        "",
+        "Slipping Rib",
+        ": When to Get Seen"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four signs that slipping rib pain needs medical attention rather than waiting",
+      "items": [
+        {
+          "icon": "triangle-alert",
+          "label": "Sudden, severe or worsening",
+          "note": "The pain is escalating"
+        },
+        {
+          "icon": "waves",
+          "label": "Trouble breathing",
+          "note": "Or tightness in the chest"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Fever, swelling or redness",
+          "note": "Alongside the rib pain"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "It feels like heart pain",
+          "note": "Or radiates to the arm or jaw"
+        }
+      ]
+    }
+  ]
+}

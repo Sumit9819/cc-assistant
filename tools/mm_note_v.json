@@ -1,0 +1,10 @@
+[
+ {
+  "route": "cc-assistant/v1/site-memory/notes",
+  "method": "POST",
+  "body": {
+   "notes": "VERIFIED 2026-09-08 after 1195-1206 applied. Queue empty. Re-measured every green link in the rendered DOM with accordions expanded: 60 green links across the 6 category pages, ZERO failing AA (was 26 failing at 2.62-2.75:1). 5 kubotaengine.com links live, 0 Kubota wikipedia links left, 3 Yanmar wikipedia links deliberately retained (no verifiable destination from this IP). ccohs links now 6 total, confirming my redundant sentence was removed from 41 and its pre-existing accordion citation survived. render_probe on 41/47/45: all http 200, schema verdict warn, 80/81/76 links with 1 truly_empty each, 1 missing alt each. All three of those are the KNOWN pre-existing site-wide items, unchanged by this work: the empty tel: eael-wrapper-link, the Facebook pixel noscript img (not a real image), and the info-level Rank Math breadcrumb_position_string. No regressions. CATEGORY PAGE SCOPE NOW CLOSED. Remaining open items on this site: (1) build the concrete-buggy commercial page (\"concrete buggy\" pos 8.0, 243 impr, ZERO clicks, served by a guide, no commercial page exists) and the skid-steer-attachments page (home ranks pos 1.2 for \"skid steer attachments\", 95 impr, zero clicks, no page) - both need operator approval as new builds; (2) author \"Mammoth\" user id 2 has a 0-char bio, operator wp-admin task, fails site-wide; (3) media weight 257/383 images over 150KB, 210MB library, 6.4MB PNG; (4) plugin fix: widen classify_link to credit gc.ca and Canadian federal hosts, authority_links misreports on every non-US client; (5) normalise the failing #01B51B inline link green on the GUIDES (category pages are now done); (6) retry Yanmar repointing from a different egress IP; (7) rotate the exposed WP app password, STILL OPEN."
+  },
+  "out": "D:/cc-assistant/tools/out/vnote.json"
+ }
+]

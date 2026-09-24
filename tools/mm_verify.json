@@ -1,0 +1,37 @@
+[
+ {
+  "route": "cc-assistant/v1/pending",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pend_after.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/45/pre-publish-check",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/after_45.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/39/pre-publish-check",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/after_39.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/43/pre-publish-check",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/after_43.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/41/pre-publish-check",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/after_41.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/37/pre-publish-check",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/after_37.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/47/pre-publish-check",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/after_47.json"
+ }
+]

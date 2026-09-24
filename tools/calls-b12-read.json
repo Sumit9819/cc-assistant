@@ -1,0 +1,5 @@
+[
+  {"route":"cc-assistant/v1/whoami","method":"GET","out":"card-generator/b12-whoami.json"},
+  {"route":"cc-assistant/v1/pending?per_page=30","method":"GET","out":"card-generator/b12-pending.json"},
+  {"route":"wp/v2/posts?include=3937,3886,3897,3858,3813,3081&context=edit&per_page=10","method":"GET","out":"card-generator/b12-bodies.json"}
+]

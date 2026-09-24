@@ -1,0 +1,6 @@
+[
+  { "route": "cc-assistant/v1/site-memory", "method": "GET",
+    "out": "D:/cc-assistant/tools/out/wk_memory.json" },
+  { "route": "cc-assistant/v1/kit-settings", "method": "GET",
+    "out": "D:/cc-assistant/tools/out/wk_kit.json" }
+]

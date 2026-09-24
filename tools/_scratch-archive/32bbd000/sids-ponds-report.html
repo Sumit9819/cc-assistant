@@ -1,0 +1,508 @@
+<title>Sid's Ponds Work Record</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --ground:#FAFAF7;
+  --paper:#FFFFFF;
+  --sunk:#F2F3EE;
+  --ink:#16211B;
+  --body:#2E3A33;
+  --muted:#66736B;
+  --faint:#8E9A92;
+  --rule:#DFE3DA;
+  --rule-strong:#C6CDBF;
+  --accent:#3D6B3F;
+  --accent-tint:#EAF0E6;
+  --good:#2F7D52;
+  --good-tint:#E4F0E8;
+  --warn:#96631C;
+  --warn-tint:#F5EEE0;
+  --crit:#9E3B32;
+  --shadow:0 1px 2px rgba(22,33,27,.05), 0 8px 24px -16px rgba(22,33,27,.22);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#10150F;
+    --paper:#171E19;
+    --sunk:#1D2620;
+    --ink:#E9EEE6;
+    --body:#C4CEC4;
+    --muted:#8E9B8E;
+    --faint:#6F7C71;
+    --rule:#2A342C;
+    --rule-strong:#3A4740;
+    --accent:#8CBB74;
+    --accent-tint:#1E2A1E;
+    --good:#67B183;
+    --good-tint:#1A2A20;
+    --warn:#C9974A;
+    --warn-tint:#2A2317;
+    --crit:#D2776B;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#10150F;
+  --paper:#171E19;
+  --sunk:#1D2620;
+  --ink:#E9EEE6;
+  --body:#C4CEC4;
+  --muted:#8E9B8E;
+  --faint:#6F7C71;
+  --rule:#2A342C;
+  --rule-strong:#3A4740;
+  --accent:#8CBB74;
+  --accent-tint:#1E2A1E;
+  --good:#67B183;
+  --good-tint:#1A2A20;
+  --warn:#C9974A;
+  --warn-tint:#2A2317;
+  --crit:#D2776B;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--body);
+  font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  font-size:17px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:940px;margin:0 auto;padding:0 28px 96px;}
+
+/* ---------- masthead ---------- */
+.masthead{padding:72px 0 0;}
+.eyebrow{
+  font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 18px;
+}
+h1{
+  font-family:"Newsreader",Georgia,serif;
+  font-weight:500;
+  font-size:clamp(34px,5.2vw,50px);
+  line-height:1.12;
+  letter-spacing:-.015em;
+  color:var(--ink);
+  margin:0 0 20px;
+  text-wrap:balance;
+}
+.standfirst{
+  font-size:19px;line-height:1.6;color:var(--muted);
+  max-width:62ch;margin:0 0 32px;
+}
+.meta-row{
+  display:flex;flex-wrap:wrap;gap:0 36px;
+  padding:20px 0;border-top:1px solid var(--rule);border-bottom:2px solid var(--rule-strong);
+  margin-bottom:64px;
+}
+.meta-item{display:flex;flex-direction:column;gap:3px;}
+.meta-k{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:500;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--faint);
+}
+.meta-v{font-size:15px;font-weight:600;color:var(--ink);}
+
+/* ---------- sections ---------- */
+section{margin-bottom:64px;}
+.sec-head{
+  display:flex;align-items:baseline;gap:14px;
+  border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:26px;
+}
+h2{
+  font-family:"Newsreader",Georgia,serif;
+  font-weight:500;font-size:27px;line-height:1.25;color:var(--ink);
+  margin:0;letter-spacing:-.01em;
+}
+.sec-tag{
+  margin-left:auto;flex-shrink:0;
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:500;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--faint);
+}
+h3{
+  font-family:"Source Sans 3",sans-serif;
+  font-size:17px;font-weight:700;color:var(--ink);
+  margin:0 0 8px;letter-spacing:-.005em;
+}
+p{margin:0 0 16px;max-width:72ch;}
+p:last-child{margin-bottom:0;}
+strong{color:var(--ink);font-weight:600;}
+.lede{font-size:18px;color:var(--body);}
+
+/* ---------- work items ---------- */
+.items{display:flex;flex-direction:column;gap:2px;}
+.item{
+  display:grid;grid-template-columns:88px 1fr;gap:22px;
+  padding:20px 0;border-top:1px solid var(--rule);
+}
+.item:first-child{border-top:none;}
+.item-date{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--faint);
+  padding-top:2px;font-variant-numeric:tabular-nums;
+}
+.item-body p{font-size:16px;color:var(--muted);margin:0;}
+.item-body h3{margin-bottom:5px;}
+
+/* ---------- data tables ---------- */
+.tablewrap{overflow-x:auto;margin:0 0 20px;-webkit-overflow-scrolling:touch;}
+table{
+  width:100%;border-collapse:collapse;
+  font-size:15px;font-variant-numeric:tabular-nums;
+  min-width:520px;
+}
+caption{
+  text-align:left;font-family:"IBM Plex Mono",monospace;
+  font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--faint);padding-bottom:10px;
+}
+th{
+  text-align:left;font-weight:600;font-size:11.5px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--muted);
+  padding:0 14px 8px 0;border-bottom:1.5px solid var(--rule-strong);
+}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--rule);color:var(--body);}
+th.num,td.num{text-align:right;padding-right:0;}
+tbody tr:last-child td{border-bottom:none;}
+.q{color:var(--ink);font-weight:500;}
+.mono{font-family:"IBM Plex Mono",monospace;font-size:13.5px;}
+
+/* ---------- before/after ---------- */
+.ba{
+  display:inline-flex;align-items:center;gap:7px;
+  font-family:"IBM Plex Mono",monospace;font-size:13.5px;font-variant-numeric:tabular-nums;
+}
+.ba .from{color:var(--faint);}
+.ba .arrow{color:var(--rule-strong);}
+.ba .to{color:var(--good);font-weight:600;}
+
+/* ---------- callout ---------- */
+.callout{
+  background:var(--accent-tint);
+  border-left:3px solid var(--accent);
+  padding:22px 26px;margin:0 0 24px;border-radius:0 4px 4px 0;
+}
+.callout p{color:var(--body);margin-bottom:10px;}
+.callout p:last-child{margin-bottom:0;}
+.callout .kicker{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--accent);
+  display:block;margin-bottom:8px;
+}
+
+/* ---------- stat strip ---------- */
+.stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);
+  margin:0 0 26px;border-radius:4px;overflow:hidden;
+}
+.stat{background:var(--paper);padding:20px 22px;}
+.stat-n{
+  font-family:"Newsreader",Georgia,serif;font-size:32px;font-weight:500;
+  color:var(--ink);line-height:1;font-variant-numeric:tabular-nums;
+  display:block;margin-bottom:7px;letter-spacing:-.02em;
+}
+.stat-l{font-size:13.5px;color:var(--muted);line-height:1.4;}
+
+/* ---------- bot bars ---------- */
+.bots{display:flex;flex-direction:column;gap:14px;margin:0 0 24px;}
+.bot{display:grid;grid-template-columns:180px 1fr 64px;gap:16px;align-items:center;}
+.bot-n{font-size:15px;color:var(--ink);font-weight:500;}
+.bot-track{height:9px;background:var(--sunk);border-radius:5px;overflow:hidden;}
+.bot-fill{height:100%;background:var(--accent);border-radius:5px;}
+.bot-v{
+  font-family:"IBM Plex Mono",monospace;font-size:13.5px;color:var(--muted);
+  text-align:right;font-variant-numeric:tabular-nums;
+}
+.bot.absent .bot-n{color:var(--faint);}
+.bot.absent .bot-fill{background:var(--rule-strong);}
+
+/* ---------- verify list ---------- */
+.checks{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0;}
+.checks li{
+  display:grid;grid-template-columns:20px 1fr;gap:14px;align-items:start;
+  padding:13px 0;border-bottom:1px solid var(--rule);font-size:16px;
+}
+.checks li:last-child{border-bottom:none;}
+.tick{
+  width:18px;height:18px;border-radius:50%;background:var(--good-tint);
+  color:var(--good);font-size:11px;font-weight:700;line-height:18px;
+  text-align:center;margin-top:3px;
+}
+.checks .what{color:var(--body);}
+.checks .what b{color:var(--ink);font-weight:600;}
+
+footer{
+  border-top:2px solid var(--rule-strong);margin-top:80px;padding-top:22px;
+  font-size:14px;color:var(--faint);
+}
+
+@media (max-width:620px){
+  .wrap{padding:0 20px 64px;}
+  .masthead{padding-top:48px;}
+  .item{grid-template-columns:1fr;gap:6px;}
+  .item-date{padding-top:0;}
+  .bot{grid-template-columns:1fr 52px;}
+  .bot-track{grid-column:1 / -1;order:3;}
+  .meta-row{gap:18px 28px;}
+}
+@media print{
+  body{background:#fff;font-size:11.5pt;}
+  .wrap{max-width:none;padding:0 0 12pt;}
+  section{margin-bottom:26pt;page-break-inside:avoid;}
+  .masthead{padding-top:0;}
+  .meta-row{margin-bottom:30pt;}
+  h1{font-size:27pt;}
+  h2{font-size:16pt;}
+  .stat-n{font-size:20pt;}
+  footer{margin-top:30pt;}
+}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">Sid&rsquo;s Ponds &middot; Search &amp; Site Performance</p>
+  <h1>Work Record</h1>
+  <p class="standfirst">Search and on-site improvements completed for sids-ponds.com between 12 and 19 August 2026. Every item below is live on the site and has been verified on the published page.</p>
+
+  <div class="meta-row">
+    <div class="meta-item"><span class="meta-k">Period</span><span class="meta-v">12&ndash;19 Aug 2026</span></div>
+    <div class="meta-item"><span class="meta-k">Changes live</span><span class="meta-v">14</span></div>
+    <div class="meta-item"><span class="meta-k">Content pages updated</span><span class="meta-v">8</span></div>
+    <div class="meta-item"><span class="meta-k">Issued</span><span class="meta-v">19 August 2026</span></div>
+  </div>
+</header>
+
+<!-- ============ HEADLINE ITEM ============ -->
+<section>
+  <div class="sec-head">
+    <h2>The Outdoor Lighting page</h2>
+    <span class="sec-tag">Technical fix + content</span>
+  </div>
+
+  <p class="lede">The Outdoor Lighting page carried a technical fault that was quietly keeping it out of Google&rsquo;s index of the site. That has been corrected, and the page has been brought in line with what people are actually searching for.</p>
+
+  <div class="callout">
+    <span class="kicker">What was wrong</span>
+    <p>The page told Google that its master copy lived at a different web address &mdash; but that address redirected straight back to the page itself. A circular instruction.</p>
+    <p>The visible consequence: the page was <strong>missing from the site&rsquo;s sitemap</strong>, the file that tells Google which pages exist. It has now been added.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><span class="stat-n">15</span><span class="stat-l">Pages now listed in the sitemap, up from 14</span></div>
+    <div class="stat"><span class="stat-n">7</span><span class="stat-l">Local searches this page is Google&rsquo;s first choice for</span></div>
+    <div class="stat"><span class="stat-n">1,337</span><span class="stat-l">Searches it appeared in over 90 days</span></div>
+  </div>
+
+  <h3>It ranked for phrases it never actually said</h3>
+  <p>The page appears in Google results for a set of local lighting searches, yet several of those exact phrases appeared nowhere in its text. The wording has been corrected so the page now says what it is being found for &mdash; without changing the layout or adding new sections.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>Phrase count in the page text</caption>
+      <thead>
+        <tr><th>Phrase</th><th class="num">Before</th><th class="num">After</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="q">landscape lighting</td><td class="num mono">0</td><td class="num"><span class="ba"><span class="to">3</span></span></td></tr>
+        <tr><td class="q">path lighting</td><td class="num mono">0</td><td class="num"><span class="ba"><span class="to">1</span></span></td></tr>
+        <tr><td class="q">energy-efficient</td><td class="num mono">0</td><td class="num"><span class="ba"><span class="to">1</span></span></td></tr>
+        <tr><td class="q">install / installation</td><td class="num mono">0</td><td class="num"><span class="ba"><span class="to">3</span></span></td></tr>
+        <tr><td class="q">cost</td><td class="num mono">0</td><td class="num"><span class="ba"><span class="to">1</span></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Where the page currently stands</h3>
+  <p>Google already treats this page as the best answer on the site for every one of these local searches. The positions below are its 90-day averages to 16 August, before this week&rsquo;s changes had time to take effect. They are the baseline the next report will measure against.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>Local lighting searches &middot; 90 days to 16 Aug 2026</caption>
+      <thead>
+        <tr><th>Search term</th><th class="num">Appearances</th><th class="num">Avg. position</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="q">outdoor lighting mississauga</td><td class="num mono">355</td><td class="num mono">22.7</td></tr>
+        <tr><td class="q">landscape lighting mississauga</td><td class="num mono">305</td><td class="num mono">31.5</td></tr>
+        <tr><td class="q">energy-efficient outdoor lighting mississauga</td><td class="num mono">287</td><td class="num mono">33.6</td></tr>
+        <tr><td class="q">types of landscape lighting mississauga</td><td class="num mono">154</td><td class="num mono">32.0</td></tr>
+        <tr><td class="q">path lighting mississauga</td><td class="num mono">82</td><td class="num mono">20.0</td></tr>
+        <tr><td class="q">outdoor lighting installation mississauga</td><td class="num mono">76</td><td class="num mono">32.6</td></tr>
+        <tr><td class="q">landscape lighting cost mississauga</td><td class="num mono">78</td><td class="num mono">50.2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Two questions added, answered honestly</h3>
+  <p>People search for lighting <em>installation</em> and lighting <em>cost</em> in Mississauga. The page now answers both. The installation answer states plainly that Sid&rsquo;s supplies the fixtures rather than installing them, and points the reader toward planning help at the yard. The cost answer explains what drives the price and links to the live per-fixture pricing rather than quoting a figure.</p>
+</section>
+
+<!-- ============ CATEGORY PAGES ============ -->
+<section>
+  <div class="sec-head">
+    <h2>Category pages rewritten</h2>
+    <span class="sec-tag">Content</span>
+  </div>
+
+  <p>Three product category pages were sitting in positions 10&ndash;25 on Google &mdash; close enough to matter, but with descriptions that did not use the words customers type. Each was rewritten around its own real search terms, and missing links to sub-categories were added so the ranges are reachable.</p>
+
+  <div class="items">
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>Pumps &amp; Filters</h3>
+        <p>Rewritten around pond pump and filter buying questions that were sitting at positions 10&ndash;14 with almost no clicks.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>Outdoor Fire Features</h3>
+        <p>Expanded from 215 words into a proper landing page for fire bowl and fire insert searches, with links to all seven sub-categories added. A separate missing link to the Fire Bowls range was also restored.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>Lighting</h3>
+        <p>Rewritten for local lighting searches. The page was competing for &ldquo;outdoor lighting mississauga&rdquo; without the word Mississauga appearing anywhere on it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LINKS ============ -->
+<section>
+  <div class="sec-head">
+    <h2>Links between pages</h2>
+    <span class="sec-tag">Site structure</span>
+  </div>
+
+  <p>Guides on the site were not passing readers &mdash; or Google &mdash; through to the product pages they discuss. Four links were added or repaired, each woven into a sentence that already existed rather than bolted on as a &ldquo;related posts&rdquo; block.</p>
+
+  <div class="items">
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>Fall maintenance guide &rarr; Outdoor Lighting</h3>
+        <p>The phrase &ldquo;landscape lighting&rdquo; already appeared in the text and now links through. This page previously had only two links pointing to it from the site&rsquo;s own content.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>Winter pond guide &rarr; Fish &amp; Plants</h3>
+        <p>&ldquo;Koi and goldfish&rdquo; now links to the category that sells them.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>End-of-season pond guide &rarr; Fish &amp; Plants</h3>
+        <p>&ldquo;Marginal pond plants&rdquo; now links to the category that sells them.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">19 Aug</div>
+      <div class="item-body">
+        <h3>Spring landscaping guide &mdash; link repaired</h3>
+        <p>A raw web address showing as link text was replaced with a readable description, and the link no longer forces a new browser tab.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORE PAGES ============ -->
+<section>
+  <div class="sec-head">
+    <h2>Product and store pages</h2>
+    <span class="sec-tag">Housekeeping</span>
+  </div>
+
+  <div class="items">
+    <div class="item">
+      <div class="item-date">17 Aug</div>
+      <div class="item-body">
+        <h3>Currency switcher moved off the price</h3>
+        <p>The floating currency selector sat on the left edge of product pages, directly over the price. It now sits on the right, clear of it.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">17 Aug</div>
+      <div class="item-body">
+        <h3>Empty element removed from 56 product pages</h3>
+        <p>The in-lite product template carried a button block that rendered nothing at all, leaving a gap in the layout on every page using it.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-date">18 Aug</div>
+      <div class="item-body">
+        <h3>Duplicate page templates retired</h3>
+        <p>The Kichler product template existed in triplicate. Two copies were confirmed identical to the third and switched off; all 45 affected product pages were checked and render exactly as before. The remaining template was confirmed as the one that must stay, because the site&rsquo;s standard product template does not show an Add to Cart button on these items.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AI CRAWLERS ============ -->
+<section>
+  <div class="sec-head">
+    <h2>AI assistant activity</h2>
+    <span class="sec-tag">30 days to 19 Aug</span>
+  </div>
+
+  <p class="lede">The site records visits from the automated readers that feed AI assistants such as ChatGPT and Meta AI. Here is what they did over the last 30 days.</p>
+
+  <div class="stats">
+    <div class="stat"><span class="stat-n">451</span><span class="stat-l">AI reader visits in 30 days</span></div>
+    <div class="stat"><span class="stat-n">5</span><span class="stat-l">Distinct AI readers seen</span></div>
+    <div class="stat"><span class="stat-n">423</span><span class="stat-l">Of those 451 visits came from one reader</span></div>
+  </div>
+
+  <div class="bots">
+    <div class="bot"><span class="bot-n">Meta&nbsp;AI</span><span class="bot-track"><span class="bot-fill" style="width:100%"></span></span><span class="bot-v">423</span></div>
+    <div class="bot"><span class="bot-n">ChatGPT</span><span class="bot-track"><span class="bot-fill" style="width:4.3%"></span></span><span class="bot-v">18</span></div>
+    <div class="bot"><span class="bot-n">You.com</span><span class="bot-track"><span class="bot-fill" style="width:1.9%"></span></span><span class="bot-v">8</span></div>
+    <div class="bot"><span class="bot-n">Amazon</span><span class="bot-track"><span class="bot-fill" style="width:0.6%"></span></span><span class="bot-v">1</span></div>
+    <div class="bot"><span class="bot-n">OpenAI Search</span><span class="bot-track"><span class="bot-fill" style="width:0.6%"></span></span><span class="bot-v">1</span></div>
+    <div class="bot absent"><span class="bot-n">Claude</span><span class="bot-track"><span class="bot-fill" style="width:0%"></span></span><span class="bot-v">0</span></div>
+    <div class="bot absent"><span class="bot-n">Perplexity</span><span class="bot-track"><span class="bot-fill" style="width:0%"></span></span><span class="bot-v">0</span></div>
+    <div class="bot absent"><span class="bot-n">Google&nbsp;AI</span><span class="bot-track"><span class="bot-fill" style="width:0%"></span></span><span class="bot-v">0</span></div>
+  </div>
+
+  <p><strong>What the pattern shows.</strong> Activity is heavily concentrated in one reader, and it is not reading the parts of the site that describe the business. Of its visits, <strong>114 landed on the checkout page</strong>, and most of the rest went to filtered and paginated product listings &mdash; the same product range viewed through different sorting and currency options &mdash; rather than the guides, category descriptions and landing pages.</p>
+
+  <p>The readers most associated with answering shopping questions in AI assistants &mdash; Claude, Perplexity and Google&rsquo;s AI crawler &mdash; recorded no visits in this period. The content work described in this report is the groundwork that makes a site worth citing when they do arrive: clear category descriptions, real answers to real questions, and pages that state plainly what the business sells and where.</p>
+</section>
+
+<!-- ============ VERIFICATION ============ -->
+<section>
+  <div class="sec-head">
+    <h2>How each change was confirmed</h2>
+    <span class="sec-tag">Verification</span>
+  </div>
+
+  <p>Every item was checked on the live published page after going in, not assumed from the edit itself.</p>
+
+  <ul class="checks">
+    <li><span class="tick">&#10003;</span><span class="what"><b>Outdoor Lighting page instruction to Google</b> &mdash; re-read from the published page; now correctly points to itself, no faults reported.</span></li>
+    <li><span class="tick">&#10003;</span><span class="what"><b>Sitemap</b> &mdash; re-fetched; grew from 14 to 15 pages and now includes the Outdoor Lighting page.</span></li>
+    <li><span class="tick">&#10003;</span><span class="what"><b>Page wording</b> &mdash; the five target phrases counted on the live page, all previously at zero.</span></li>
+    <li><span class="tick">&#10003;</span><span class="what"><b>Page structure</b> &mdash; heading outline re-read; the two new questions are present, the page still has exactly one main heading, and its Google data markup is unchanged.</span></li>
+    <li><span class="tick">&#10003;</span><span class="what"><b>New link</b> &mdash; found live in the fall maintenance guide with the intended wording.</span></li>
+    <li><span class="tick">&#10003;</span><span class="what"><b>Installation claim</b> &mdash; checked across the home, about, hardscaping, delivery and contact pages before writing, to confirm the site does not advertise installation. It does not, and the new answer says so.</span></li>
+    <li><span class="tick">&#10003;</span><span class="what"><b>Product templates</b> &mdash; all 45 affected product pages compared before and after the duplicate templates were retired; output identical.</span></li>
+  </ul>
+</section>
+
+<footer>
+  Sid&rsquo;s Ponds &middot; Search &amp; Site Performance &middot; Work completed 12&ndash;19 August 2026 &middot; Issued 19 August 2026
+</footer>
+
+</div>

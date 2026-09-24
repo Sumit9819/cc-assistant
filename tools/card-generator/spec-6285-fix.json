@@ -1,0 +1,56 @@
+{
+  "_note": "Post 6285, IV hydration beginner guide, 1,394 words, no existing in-body images. Four graphics, one per 349 words. 'Who Can Benefit' skipped because its six audiences overlap the six benefits already carded; the definition, 'Is IV Therapy Right for You', the booking CTA and the FAQ are excluded.",
+  "cards": [
+    {
+      "file": "iv-hydration-six-benefits",
+      "post_id": 6285,
+      "layout": "list",
+      "subject": "IV hydration",
+      "heading": "Key Benefits of IV Hydration Therapy",
+      "title": [
+        "Six Benefits of ",
+        "IV Hydration",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Six IV hydration benefits: rapid rehydration, energy, immune support, recovery, skin, and wellness maintenance",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Rapid rehydration",
+          "note": "Bypasses digestion entirely"
+        },
+        {
+          "icon": "zap",
+          "label": "Energy and focus",
+          "note": "Replenishes electrolytes quickly"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Immune support",
+          "note": "Vitamin C, B-complex and zinc"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Faster recovery",
+          "note": "After workouts or illness"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Skin support",
+          "note": "Antioxidant blends reduce oxidative stress"
+        },
+        {
+          "icon": "circle-check",
+          "label": "Wellness upkeep",
+          "note": "Useful in hot climates and active routines"
+        }
+      ],
+      "old_file": "iv-hydration-key-benefits"
+    }
+  ]
+}

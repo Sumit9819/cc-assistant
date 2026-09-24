@@ -1,0 +1,11 @@
+{
+  "_note": "Round 2 on the carbon monoxide object. The first one was a round white puck that reads as a ceiling smoke alarm, because that is what a round white puck looks like. A plug-in alarm is visually distinct at a glance, which is what a 400px listing tile needs.",
+  "images": [
+    {
+      "name": "er-co-plugin",
+      "brand": "eroflufkin",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A small rectangular white plug-in carbon monoxide alarm standing upright on a plain seamless light grey surface, its two flat plug pins visible at the back, a dark inactive display panel and a single round button on the front, photographed at a low three-quarter angle, no lettering, no logos, no numbers on the display"
+    }
+  ]
+}

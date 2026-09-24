@@ -1,0 +1,60 @@
+[
+  {
+    "post_id": 3365,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-sites.webp\" alt=\"The five places a stress fracture happens: the foot, shin, ankle, leg and heel\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>What Is a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3367 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/What-Is-a-Stress-Fracture-scaled.webp\" alt=\"What Is a Stress Fracture\" width=\"2560\" height=\"1378\" />\r\n\r\nA stress fracture is a tiny crack in a bone that develops over time due to repeated impact or overload, rather than a single traumatic event. Unlike a complete fracture from a fall or accident, stress fractures build up gradually, often from activities like running, jumping, or even walking on hard surfaces with improper footwear. They're essentially the bone's way of saying it's been pushed too far without enough recovery time.\r\n",
+        "replace": "<h2><strong>What Is a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3367 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/What-Is-a-Stress-Fracture-scaled.webp\" alt=\"What Is a Stress Fracture\" width=\"2560\" height=\"1378\" />\r\n\r\nA stress fracture is a tiny crack in a bone that develops over time due to repeated impact or overload, rather than a single traumatic event. Unlike a complete fracture from a fall or accident, stress fractures build up gradually, often from activities like running, jumping, or even walking on hard surfaces with improper footwear. They're essentially the bone's way of saying it's been pushed too far without enough recovery time.\r\n\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-sites.webp\" alt=\"The five places a stress fracture happens: the foot, shin, ankle, leg and heel\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-signs.webp\" alt=\"Stress fracture symptoms to look for: a vague ache after activity, constant pain even at rest, tenderness in one small spot, and sharp pain when hopping on that leg\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Do You Know If You Have a Stress Fracture?</strong></h2>\nDistinguishing a stress fracture from a less severe stress injury (like a bone bruise or reaction) involves noting progression. A stress injury might resolve with rest, while a fracture persists or worsens.\r\n",
+        "replace": "<h2><strong>How Do You Know If You Have a Stress Fracture?</strong></h2>\nDistinguishing a stress fracture from a less severe stress injury (like a bone bruise or reaction) involves noting progression. A stress injury might resolve with rest, while a fracture persists or worsens.\r\n\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-signs.webp\" alt=\"Stress fracture symptoms to look for: a vague ache after activity, constant pain even at rest, tenderness in one small spot, and sharp pain when hopping on that leg\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-healing.webp\" alt=\"How long a stress fracture takes to heal: six to eight weeks for the foot or shin, up to twelve weeks at other sites\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Long Does a Stress Fracture Take to Heal?</strong></h2>\nHealing timelines depend on location, severity, and compliance.\r\n",
+        "replace": "<h2><strong>How Long Does a Stress Fracture Take to Heal?</strong></h2>\nHealing timelines depend on location, severity, and compliance.\r\n\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-healing.webp\" alt=\"How long a stress fracture takes to heal: six to eight weeks for the foot or shin, up to twelve weeks at other sites\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-er.webp\" alt=\"Stress fracture red flags that need emergency care: severe pain, increasing swelling, being unable to bear weight, sudden worsening, numbness and visible deformity\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When Should You Seek Emergency Care for a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3368 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/When-Should-You-Seek-Emergency-Care-for-a-Stress-Fracture-scaled.webp\" alt=\"When Should You Seek Emergency Care for a Stress Fracture\" width=\"2560\" height=\"1378\" />\r\n\r\nIf pain is severe, swelling increases, or you can't bear weight, seek care immediately.\r\n",
+        "replace": "<h2><strong>When Should You Seek Emergency Care for a Stress Fracture?</strong></h2>\n<img class=\"aligncenter wp-image-3368 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/When-Should-You-Seek-Emergency-Care-for-a-Stress-Fracture-scaled.webp\" alt=\"When Should You Seek Emergency Care for a Stress Fracture\" width=\"2560\" height=\"1378\" />\r\n\r\nIf pain is severe, swelling increases, or you can't bear weight, seek care immediately.\r\n\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3365-stress-fracture-er.webp\" alt=\"Stress fracture red flags that need emergency care: severe pain, increasing swelling, being unable to bear weight, sudden worsening, numbness and visible deformity\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Card placement fix on post 3365: move 4 card(s)",
+    "reasoning": "Placement fix. No new images, no copy changes, no attachment changes. Cards were landing immediately after the h2, which on these posts is where the existing stock photo sits, so a card ended up stacked directly on another image with no text between them. Each card moves to a point with prose above it and prose or a subheading below it. Where a section has no such point, the card is removed from the body rather than left stacked; its attachment stays in the media library."
+  },
+  {
+    "post_id": 3162,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-grades.webp\" alt=\"The three muscle strain grades compared: grade one is overstretched with minor discomfort, grade two is partially torn with limited mobility, grade three is torn completely and may need medical care\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>What is muscle strain?</h2>\n<img class=\"aligncenter wp-image-3166 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-muscle-strain-1024x551.webp\" alt=\"What is muscle strain\" width=\"1024\" height=\"551\">\r\n\r\nBefore learning more about the seven expert techniques of recovery, let's discover what muscle strain actually is. It is a strain, often referred to as a pulled muscle, that happens due to torn or overstretched muscle fibres. Although it can happen anywhere, it is most common in the chest, calves, abdomen, and lower back.\r\n",
+        "replace": "<h2>What is muscle strain?</h2>\n<img class=\"aligncenter wp-image-3166 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-muscle-strain-1024x551.webp\" alt=\"What is muscle strain\" width=\"1024\" height=\"551\">\r\n\r\nBefore learning more about the seven expert techniques of recovery, let's discover what muscle strain actually is. It is a strain, often referred to as a pulled muscle, that happens due to torn or overstretched muscle fibres. Although it can happen anywhere, it is most common in the chest, calves, abdomen, and lower back.\r\n\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-grades.webp\" alt=\"The three muscle strain grades compared: grade one is overstretched with minor discomfort, grade two is partially torn with limited mobility, grade three is torn completely and may need medical care\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3162-muscle-strain-recovery.webp\" alt=\"Seven ways to speed up muscle strain recovery: rest, ice, compression and elevation, gradual movement, hydration and nutrition, cold then heat therapy, physical therapy, imaging to monitor, and advanced therapies\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n",
+        "replace": ""
+      }
+    ],
+    "summary": "Card placement fix on post 3162: move 1 card(s) and remove 1 card(s)",
+    "reasoning": "Placement fix. No new images, no copy changes, no attachment changes. Cards were landing immediately after the h2, which on these posts is where the existing stock photo sits, so a card ended up stacked directly on another image with no text between them. Each card moves to a point with prose above it and prose or a subheading below it. Where a section has no such point, the card is removed from the body rather than left stacked; its attachment stays in the media library."
+  }
+]

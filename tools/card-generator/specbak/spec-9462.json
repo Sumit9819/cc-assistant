@@ -1,0 +1,51 @@
+{
+  "_note": "Post 9462, weight loss resistance causes, 925 words, 3 cards at one per ~308. Replaces the existing Canva set, two of which the body references at 800x439 intermediate size against a 1920x1053 original and therefore render soft on a full-width body.",
+  "cards": [
+    {
+      "file": "weight-loss-resistance-survival-switch",
+      "post_id": 9462,
+      "layout": "steps",
+      "subject": "weight loss resistance",
+      "heading": "When Dieting Fails: Understanding the Survival Switch",
+      "title": ["Why Dieting Triggers ", "Weight Loss Resistance", ""],
+      "logo": { "position": "bottom-right", "variant": "green", "width": 150 },
+      "alt": "Drastic calorie cuts trigger adaptive thermogenesis: the metabolic rate slows and hunger hormones rise, so loss stalls",
+      "steps": [
+        { "icon": "candy-off", "label": "Restrict hard", "note": "Calories cut drastically" },
+        { "icon": "trending-down", "label": "Famine signal", "note": "Adaptive thermogenesis slows the metabolic rate" },
+        { "icon": "utensils", "label": "Hunger climbs", "note": "Hormones push back and loss stalls" }
+      ]
+    },
+    {
+      "file": "weight-loss-resistance-cellular-bottlenecks",
+      "post_id": 9462,
+      "layout": "list",
+      "subject": "weight loss resistance",
+      "heading": "Cellular Bottlenecks: The Science of Stalled Progress",
+      "title": ["Cellular Causes of ", "Weight Loss Resistance", ""],
+      "logo": { "position": "bottom-right", "variant": "green", "width": 150 },
+      "alt": "Weight loss resistance at cell level: mitochondrial dysfunction, endocrine disruptors, low thyroid and high cortisol",
+      "items": [
+        { "icon": "zap", "label": "Mitochondrial dysfunction", "note": "The cellular batteries turn nutrients into energy" },
+        { "icon": "ban", "label": "Endocrine disruptors", "note": "Heavy metals and BPA jam hormone signals" },
+        { "icon": "stethoscope", "label": "Underactive thyroid", "note": "The master controller of metabolism" },
+        { "icon": "activity", "label": "High cortisol", "note": "Abdominal fat and comfort-food cravings" }
+      ]
+    },
+    {
+      "file": "reversing-weight-loss-resistance",
+      "post_id": 9462,
+      "layout": "icons",
+      "subject": "weight loss resistance",
+      "heading": "Reigniting Metabolism: Beyond the Calorie Deficit",
+      "title": ["Reversing ", "Weight Loss Resistance", ""],
+      "logo": { "position": "bottom-right", "variant": "green", "width": 150 },
+      "alt": "Reverse weight loss resistance with comprehensive metabolic testing, gut microbiome repair and a personalised plan",
+      "items": [
+        { "icon": "microscope", "label": "Metabolic testing", "note": "Inflammation markers, deficiencies, hormones" },
+        { "icon": "flask-conical", "label": "Gut microbiome", "note": "Shapes how you harvest energy from food" },
+        { "icon": "sliders-horizontal", "label": "Personalised plan", "note": "Nutrient density, stress, strategic movement" }
+      ]
+    }
+  ]
+}

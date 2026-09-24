@@ -1,0 +1,300 @@
+{
+  "_note": "Batch 13. Seven cards, seven posts, read from the 27 remaining candidates rather than taken on score. Spread deliberately: 3850 has ZERO cards, 3879 and 4008 have one each. Cut on the read, with reasons: 3978's two chest-pain sections are still tabled in '4 Key Differences' (fifth time), 3796 and 2780 likewise; 3894's 'Don't Second-Guess Your Heart Health' is a call to action; 3921's pediatric-care section describes the facility; 3879's 'What an ER Can Do That a Pharmacy Cannot' turned out to be facility feature bullets (experienced physicians, on-site labs, open 24/7) rather than a decision; 3081's two X-ray sections largely duplicate each other and the items are generic ('digestive issues', 'urinary tract complications'), which is the answered-elsewhere pattern the detector misses when neither section carries a table; 3875's 'What to Expect During Your Visit' is 561 characters of prose and a phone number with nothing to enumerate; 3979's numbered sub-emergencies are already covered by that post's overview card; 3097's differential list is a clinician rule-out, not a patient decision. Held rather than cut: 3825's dog-bite closure section is genuinely good but the decision is the doctor's, and 3977, 3091, 3803, 3365 are all process sections on posts that already carry three or more cards.",
+  "cards": [
+    {
+      "file": "erof-3879-skip-the-pharmacy",
+      "post_id": 3879,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "Pharmacy",
+      "heading": "Signs You Need a Doctor Right Now",
+      "title": [
+        "When to ",
+        "Skip the Pharmacy",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs to skip the pharmacy and go straight to an emergency room: difficulty breathing, chest pain or pressure, neurological changes such as slurred speech, severe pain or injury, and any fever in an infant under three months",
+      "items": [
+        {
+          "icon": "waves",
+          "label": "Difficulty breathing",
+          "note": "Wheezing, gasping, or no full breath"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain or pressure",
+          "note": "Squeezing, or spreading to arm or jaw"
+        },
+        {
+          "icon": "brain",
+          "label": "Neurological changes",
+          "note": "Slurred speech, facial drooping, weakness"
+        },
+        {
+          "icon": "bandage",
+          "label": "Severe pain or injury",
+          "note": "Bleeding you cannot stop, a deformed limb"
+        },
+        {
+          "icon": "thermometer",
+          "label": "High fever",
+          "note": "Any fever in an infant under three months"
+        }
+      ]
+    },
+    {
+      "file": "erof-3882-burn-needs-er",
+      "post_id": 3882,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "Burn",
+      "heading": "When to Seek Professional Wound Care",
+      "title": [
+        "When a ",
+        "Burn",
+        " Needs the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs a burn needs emergency care: it is on the face, hands, feet or a major joint, it is larger than three inches, blisters are numerous or the pain is unmanageable, it is chemical or electrical, or there is difficulty breathing after a fire",
+      "items": [
+        {
+          "icon": "target",
+          "label": "A sensitive location",
+          "note": "Face, hands, feet, genitals or a major joint"
+        },
+        {
+          "icon": "ruler-dimension-line",
+          "label": "Larger than three inches",
+          "note": "Across, in any direction"
+        },
+        {
+          "icon": "droplet",
+          "label": "A deep second-degree burn",
+          "note": "Numerous blisters, or unmanageable pain"
+        },
+        {
+          "icon": "zap",
+          "label": "Chemical or electrical",
+          "note": "Damage can hide deep under the skin"
+        },
+        {
+          "icon": "waves",
+          "label": "Difficulty breathing",
+          "note": "Smoke or airway burns are life-threatening"
+        }
+      ]
+    },
+    {
+      "file": "erof-4008-dehydration-adults-kids",
+      "post_id": 4008,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "dehydration",
+      "heading": "Spotting the Signs Early",
+      "title": [
+        "Spotting ",
+        "Dehydration",
+        " at the Match"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "Early dehydration signs in adult fans against young fans: extreme thirst and a dry mouth against a dry tongue and lips, dark urine against fewer than six wet diapers, fatigue or brain fog against listlessness or irritability, and dizziness against no tears when crying",
+      "columns": [
+        "Adult fans",
+        "Young fans"
+      ],
+      "rows": [
+        {
+          "label": "Mouth and thirst",
+          "values": [
+            "Extreme thirst, very dry mouth",
+            "Dry tongue and lips"
+          ]
+        },
+        {
+          "label": "Urine",
+          "values": [
+            "Dark, and less of it",
+            "Fewer than six wet diapers"
+          ]
+        },
+        {
+          "label": "Energy",
+          "values": [
+            "Fatigue or brain fog",
+            "Listless or irritable"
+          ]
+        },
+        {
+          "label": "Head and eyes",
+          "values": [
+            "Dizzy or lightheaded",
+            "No tears crying, sunken eyes"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "erof-3867-co-alarm-checklist",
+      "post_id": 3867,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "tone": "neutral",
+      "subject": "CO Alarm",
+      "heading": "Why CO Detectors Save Lives",
+      "title": [
+        "Your ",
+        "CO Alarm",
+        " Checklist"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "A carbon monoxide alarm checklist: place one on every level of the home and one right outside every sleeping area, then test each alarm monthly, change the batteries every six months and replace the unit after five to seven years",
+      "good": {
+        "icon": "door-open",
+        "heading": "Where they go",
+        "items": [
+          "One on every level of the home",
+          "One right outside every sleeping area"
+        ]
+      },
+      "bad": {
+        "icon": "clipboard-check",
+        "heading": "Keeping them working",
+        "items": [
+          "Test each alarm monthly",
+          "New batteries every six months",
+          "Replace the unit after 5 to 7 years"
+        ]
+      }
+    },
+    {
+      "file": "erof-3850-workplace-first-steps",
+      "post_id": 3850,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "workplace injury",
+      "heading": "First Steps: What to Do the Moment an Injury Occurs",
+      "title": [
+        "First Steps After a ",
+        "Workplace Injury",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing",
+      "steps": [
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "Heavy bleeding, loss of consciousness, trouble breathing"
+        },
+        {
+          "icon": "door-open",
+          "label": "Get to an ER",
+          "note": "Serious but not life-threatening: have a coworker drive"
+        },
+        {
+          "icon": "clipboard-check",
+          "label": "Tell your employer",
+          "note": "In writing. Texas allows 30 days, but do it the same day"
+        }
+      ]
+    },
+    {
+      "file": "erof-3918-gout-at-night",
+      "post_id": 3918,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "gout",
+      "heading": "Why Gout Usually Hits at Night",
+      "title": [
+        "Why ",
+        "Gout",
+        " Strikes at Night"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three reasons gout attacks begin between midnight and 8 AM: body temperature drops and uric acid is less soluble when cooler, overnight fluid loss concentrates uric acid, and cortisol is at its lowest",
+      "items": [
+        {
+          "icon": "thermometer",
+          "label": "Your body cools down",
+          "note": "Uric acid is less soluble at lower temperatures"
+        },
+        {
+          "icon": "droplet",
+          "label": "You lose fluid overnight",
+          "note": "Breathing and sweating concentrate uric acid"
+        },
+        {
+          "icon": "moon",
+          "label": "Cortisol is at its lowest",
+          "note": "The hormone that suppresses inflammation dips"
+        }
+      ]
+    },
+    {
+      "file": "erof-3201-dehydration-untreated",
+      "post_id": 3201,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "What Happens If You Are Dehydrated",
+      "title": [
+        "What Untreated ",
+        "Dehydration",
+        " Does"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four things untreated dehydration can lead to: electrolyte imbalance affecting heart rhythm, heat exhaustion or heat stroke above 104 degrees Fahrenheit, kidney strain that can cause stones or acute injury, and hypovolemic shock",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Electrolyte imbalance",
+          "note": "Sodium, potassium and magnesium fall out of balance"
+        },
+        {
+          "icon": "thermometer-sun",
+          "label": "Heat exhaustion or heat stroke",
+          "note": "Heat stroke means a temperature above 104°F"
+        },
+        {
+          "icon": "droplets",
+          "label": "Kidney strain",
+          "note": "Can lead to stones or acute kidney injury"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Shock",
+          "note": "Blood pressure drops dangerously low"
+        }
+      ]
+    }
+  ]
+}

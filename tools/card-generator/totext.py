@@ -1,0 +1,17 @@
+import html, re, sys, os
+os.makedirs("text", exist_ok=True)
+for pid in sys.argv[1:]:
+    s = open(f"bodies/{pid}.html", encoding="utf-8").read()
+    s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
+    s = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", s, flags=re.S|re.I)
+    s = re.sub(r"<h([1-6])[^>]*>", lambda m: "\n\n"+"#"*int(m.group(1))+" ", s, flags=re.I)
+    s = re.sub(r"</h[1-6]>", "\n", s, flags=re.I)
+    s = re.sub(r"<li[^>]*>", "\n- ", s, flags=re.I)
+    s = re.sub(r"</(p|div|ul|ol|tr|blockquote|figure)>", "\n", s, flags=re.I)
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = html.unescape(s)
+    s = re.sub(r"[ \t]+", " ", s)
+    s = re.sub(r"\n\s*\n\s*\n+", "\n\n", s).strip()
+    open(f"text/{pid}.txt", "w", encoding="utf-8").write(s)
+    print(pid, len(s.split()), "words ->", f"text/{pid}.txt")

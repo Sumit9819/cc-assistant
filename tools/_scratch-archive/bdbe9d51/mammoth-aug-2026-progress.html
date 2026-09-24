@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mammoth Machinery — August 2026 Progress Report</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: A4; margin: 11mm; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1c1c1c; font-size: 10.5pt; line-height: 1.55; }
+  .mono { font-family: Consolas, monaco, monospace; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #141414; padding-bottom: 10px; }
+  .brand { font-size: 15pt; font-weight: 800; letter-spacing: 0.5px; }
+  .brand span { color: #E8890C; }
+  .docid { font-family: Consolas, monospace; font-size: 8pt; color: #777; }
+  .sub { margin: 8px 0 14px; color: #555; font-size: 9.5pt; }
+  .hero { background: #141414; color: #fff; border-left: 5px solid #E8890C; border-radius: 8px; padding: 22px 26px 18px; }
+  .kicker { font-family: Consolas, monospace; font-size: 8pt; letter-spacing: 2px; color: #E8890C; text-transform: uppercase; margin-bottom: 12px; }
+  .stats { display: flex; gap: 26px; margin-bottom: 14px; }
+  .stat { flex: 1; }
+  .stat .lbl { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #9a9a9a; text-transform: uppercase; }
+  .stat .n { font-size: 21pt; font-weight: 800; line-height: 1.15; }
+  .stat .n .up { font-size: 9pt; color: #43d963; font-weight: 700; margin-left: 5px; }
+  .stat .cap { font-size: 8pt; color: #bbb; }
+  .hero p { font-size: 9.5pt; color: #ddd; }
+  .hero b, .hero strong { color: #fff; }
+  .gold { color: #E8890C; font-weight: 700; }
+  .sec { margin-top: 18px; }
+  .chip { display: inline-block; background: #141414; color: #fff; font-family: Consolas, monospace; font-size: 8.5pt; padding: 3px 10px; border-radius: 4px; margin-right: 8px; }
+  .sec h2 { display: inline; font-size: 13pt; }
+  .sec .body { margin-top: 8px; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .card { border: 1px solid #e2e2e2; border-radius: 8px; padding: 12px 14px; }
+  .card h4 { font-size: 10pt; margin-bottom: 4px; }
+  .card p { font-size: 9pt; color: #444; }
+  .card .tag { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; color: #E8890C; text-transform: uppercase; }
+  table { width: 100%; border-collapse: collapse; font-size: 9pt; margin-top: 8px; }
+  th { text-align: left; font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; text-transform: uppercase; color: #666; border-bottom: 2px solid #141414; padding: 4px 8px 4px 0; }
+  td { padding: 5px 8px 5px 0; border-bottom: 1px solid #eee; vertical-align: top; }
+  .ok { color: #17692f; font-weight: 700; }
+  .fn { font-size: 7.5pt; color: #888; margin-top: 16px; border-top: 1px solid #ddd; padding-top: 7px; }
+  .footer { margin-top: 14px; font-family: Consolas, monospace; font-size: 7.5pt; color: #999; display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">GROWTH<span>BOSS</span></div>
+  <div class="docid">PROGRESS REPORT &nbsp;MM-2026-08-P1</div>
+</div>
+<div class="sub"><b>Mammoth Machinery</b> &nbsp;·&nbsp; Mid-August progress update &nbsp;·&nbsp; Work completed Aug 1&ndash;14, 2026 &nbsp;·&nbsp; mammothmachinery.ca</div>
+
+<div class="hero">
+  <div class="kicker">August momentum &nbsp;·&nbsp; Google Search Console &nbsp;·&nbsp; Aug 1&ndash;9 vs July daily average</div>
+  <div class="stats">
+    <div class="stat"><div class="lbl">Clicks / day</div><div class="n">34.8<span class="up">&#9650; 24%</span></div><div class="cap">vs 27.9 per day in July</div></div>
+    <div class="stat"><div class="lbl">Impressions / day</div><div class="n">1,021<span class="up">&#9650; 28%</span></div><div class="cap">vs 797 per day in July</div></div>
+    <div class="stat"><div class="lbl">Best day on record</div><div class="n">51</div><div class="cap">clicks on Aug 7 &mdash; highest single day tracked</div></div>
+    <div class="stat"><div class="lbl">Avg. position</div><div class="n">9.3&ndash;10</div><div class="cap">holding top-10 site-wide</div></div>
+  </div>
+  <p>August is running <span class="gold">24% ahead of July's record pace</span> just nine days in. The work below happened this sprint: the content engine restarted, every high-traffic search snippet rebuilt on real query data, and the first wave of site speed work shipped.</p>
+</div>
+
+<div class="sec">
+  <span class="chip">01</span><h2>Content Engine: Two New Buyer Guides Live, Weekly Schedule Locked</h2>
+  <div class="body cards">
+    <div class="card"><span class="tag">Published Aug 11</span>
+      <h4>How Does Equipment Financing Work in Canada?</h4>
+      <p>Full buyer's guide: loan vs lease, what lenders check, application steps. Every fact verified against BDC (Canada's business development bank), with expert quotes from a named BDC account manager, linked to source.</p>
+    </div>
+    <div class="card"><span class="tag">Published Aug 12</span>
+      <h4>What Does a 5-Year Equipment Warranty Actually Cover?</h4>
+      <p>Coverage explained in plain language: the year/hour dual clock, what the machine maker vs the engine maker covers, registration rules. Anchored entirely to Mammoth's published warranty terms.</p>
+    </div>
+  </div>
+  <div class="body"><p style="font-size:9pt;">Both guides match the site's design system, cross-link each other and the money pages, and target the financing and warranty questions buyers research before purchase. The publishing calendar is now locked: <b>one guide every Monday through September 21</b>. The third guide, &ldquo;Mini Excavator vs Mini Skid Steer&rdquo;, is written, built, and set for Monday Aug 17.</p></div>
+</div>
+
+<div class="sec">
+  <span class="chip">02</span><h2>Search Snippet Optimization: 10 Data-Driven Changes Across 7 Key Pages</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">Using page-by-page Search Console query data, we rebuilt the titles and descriptions Google shows for the site's highest-traffic pages. These pages were being shown to thousands of buyers who weren't clicking &mdash; the snippets now lead with what no competitor shows: <b>real CAD prices and the 5-year / 3,000-hour warranty</b>.</p>
+    <table>
+      <tr><th>Page</th><th>What changed</th><th>The data behind it</th></tr>
+      <tr><td><b>Wheel Loaders</b></td><td>Price-led title and description ("from $68,999 CAD")</td><td>~5,000 impressions, 0.34% click rate on its money query</td></tr>
+      <tr><td><b>Mini Excavators</b></td><td>"For Sale" title + from-price description ($37,999 CAD)</td><td>7,700 impressions; buyers searching prices found none in the snippet</td></tr>
+      <tr><td><b>Find a Dealer</b></td><td>"Near You" title matching local searcher intent</td><td>~100 "dealer near me" impressions at striking distance, zero clicks</td></tr>
+      <tr><td><b>Equipment hub</b></td><td>Cleaner lineup description with prices + warranty</td><td>1,800 impressions as a brand sitelink</td></tr>
+      <tr><td><b>Homepage + 2 more</b></td><td>Financing messaging standardized (see note)</td><td>Homepage snippet alone: 18,000 impressions</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;">Every change carries built-in 28-day success tracking &mdash; results get scored automatically against real clicks in the September report. As part of this pass, search snippets were standardized to cite only confirmed offers: verified CAD pricing and the published warranty terms.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">03</span><h2>Site Speed Sprint: Lighter Pages Across the Whole Site</h2>
+  <div class="body">
+    <table>
+      <tr><th>Speed work</th><th>Verified result</th></tr>
+      <tr><td><b>Modern WebP image delivery enabled</b></td><td class="ok">Site logo on every page: 478 KB &rarr; 103 KB (&minus;78%); converted site-wide</td></tr>
+      <tr><td><b>Two oversized homepage photos replaced</b> with optimized versions</td><td class="ok">Homepage image weight cut ~90%: 4.7 MB &rarr; ~0.5 MB per visit</td></tr>
+      <tr><td><b>Unused store code unloaded</b> from all non-product pages (the online-store module was shipping its full checkout scripts to every visitor)</td><td class="ok">Homepage: 51 script files &rarr; 35; roughly 50 KB less JavaScript per page</td></tr>
+      <tr><td><b>Legacy compatibility script removed</b></td><td class="ok">One less file on every page load</td></tr>
+      <tr><td><b>Core Web Vitals</b> (Google's real-user speed metrics that affect ranking)</td><td class="ok">Passing on mobile and desktop; this sprint widens the margin</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;">Why it matters: most Mammoth buyers arrive on mobile (5.4% click rate vs 2.6% on desktop), often from job sites on cellular connections. Lighter pages mean fewer lost visitors before the page loads. Machine pages keep their full functionality, including the related-machines carousels, verified after every change.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">04</span><h2>Scoreboard &amp; What's Next</h2>
+  <div class="body">
+    <table>
+      <tr><th>Signal</th><th>Status</th></tr>
+      <tr><td>Product snippets in Google (from July's schema work)</td><td class="ok">173 clicks at 7.9% CTR over 3 months &mdash; nearly triple the site average</td></tr>
+      <tr><td>Merchant listings</td><td class="ok">27 clicks at 14.1% CTR &mdash; price data earning premium placements</td></tr>
+      <tr><td>Mini Skid Steers page</td><td class="ok">Impressions doubled in August (~100 &rarr; ~230/day) &mdash; deliberately untouched while climbing</td></tr>
+      <tr><td>Next: Aug 17 + weekly</td><td>New buyer guide every Monday through Sep 21</td></tr>
+      <tr><td>Next: ~Sep 9</td><td>Automatic 28-day scoring of every snippet change against real clicks</td></tr>
+      <tr><td>Recommended</td><td>Google review push via dealers &mdash; the #2 local ranking factor; strongest remaining untapped lever</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="fn"><sup>&nbsp;</sup>All search figures: Google Search Console, pulled Aug 12, 2026. August pace compares Aug 1&ndash;9 daily averages against July 1&ndash;31 daily averages (34.8 vs 27.9 clicks/day; 1,021 vs 797 impressions/day). "Best day on record" refers to the highest single-day click count in the available tracking data. All speed figures (file sizes, script counts) verified by direct measurement of live server responses before and after each change.</div>
+
+<div class="footer"><div>GROWTHBOSS &middot; SEO PROGRESS REPORT</div><div>MM-2026-08-P1 &middot; CONFIDENTIAL</div></div>
+
+</body>
+</html>

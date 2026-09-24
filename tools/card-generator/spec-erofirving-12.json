@@ -1,0 +1,21 @@
+{
+  "_note": "Batch 12, the statistics pass. The operator asked whether the site should carry graphs or statistic cards. Measured first: 21 sentences on the whole site contain a percentage, and none of them is a series, so there is no bar or line chart to draw without inventing data. Six single figures looked cardable and each was checked against its own cited source. FOUR FAILED. 3886 says '87% of strokes are ischemic, per MedlinePlus' and medlineplus.gov/stroke.html says 80%. 3937's 85% and 3897's 20% are attributed to MedlinePlus pages that carry no percentage at all. 3858's '80% of stones under 4mm pass' has no source and the NIH literature ranges from 38% to 95%. 3081's 'over 80% of emergency rooms' cites 'industry surveys', which names nobody. 3897 is left alone because 'up to 20%' does sit at the top of the published 0.4 to 23.3 percent range, so it is cherry-picked rather than false, and choosing a replacement is a clinical call. That leaves ONE card: 3937's urushiol figure, which is real and verified verbatim at NIEHS, and which is the first card on this site to use the stat layout's dot grid. Not carded on purpose: 3813's appendicitis lifetime risk and 3875's 155.4M annual ED visits are both verified but neither number changes what a reader does next, and 3862's verified 1.7M sepsis figure sits in the intro with no heading above it, so the placement rule has nowhere to put it.",
+  "cards": [
+    {
+      "file": "erof-3937-urushiol-85",
+      "post_id": 3937,
+      "brand": "erofirving",
+      "layout": "stat",
+      "subject": "urushiol",
+      "heading": "Understanding the Itch",
+      "title": ["Almost Everyone Reacts to ", "Urushiol", ""],
+      "stat": "85%",
+      "gloss": "of the population",
+      "statLine": "will have some reaction to urushiol at some point in their lifetime. It is the oil in poison ivy, oak and sumac.",
+      "source": "NIEHS, National Institutes of Health",
+      "dots": { "total": 100, "filled": 85 },
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "About 85 percent of the population will have some reaction to urushiol, the oil in poison ivy, oak and sumac, at some point in their lifetime"
+    }
+  ]
+}

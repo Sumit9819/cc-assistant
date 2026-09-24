@@ -1,0 +1,97 @@
+{
+  "version": "0.89.2",
+  "sha256": "be2b1229b153f989dc6034b4a4a5850dc433790768ba381076badc82b62d4ab8",
+  "release": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant-0.89.2.zip",
+  "changed": [
+    "cc-assistant.php",
+    "readme.txt",
+    "bin/agent-contract.php",
+    "bin/mcp-server.php",
+    "bin/tool-catalog.php",
+    "includes/class-evidence-gate.php",
+    "includes/class-rest-api.php",
+    "includes/class-rest-content-strategy.php",
+    "includes/class-workflow-verifier.php",
+    "tests/content-scope-test.php",
+    "tests/content-strategy-test.php",
+    "tests/workflow-verifier-test.php",
+    "tests/fixtures/safety-harness.php"
+  ],
+  "added": [
+    "includes/class-publication-recovery.php",
+    "tests/publication-recovery-test.php"
+  ],
+  "php_syntax_files": 194,
+  "php_test_files": 48,
+  "publication_recovery_assertions": 29,
+  "mcp_tool_count": 177,
+  "source_and_bridge_match_archive": true,
+  "production_backend_last_observed": "0.89.1",
+  "live_publication_refreshed": false,
+  "live_pending_count": 0,
+  "live_lab_proposals_approved": [
+    1729,
+    1730,
+    1731
+  ],
+  "live_blog_status": "publish",
+  "original_publication_proposal_status": "rejected",
+  "saved_lab_changes_verified": true,
+  "public_audits": [
+    {
+      "source": {
+        "post_id": 971,
+        "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+        "captured_at_utc": "2026-09-09 13:51:27",
+        "body_sha1": "68cfa9fb9d95ba7bb34951ee34f5b97a02a32748",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "usable": true,
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "assessment": "partial"
+    },
+    {
+      "source": {
+        "post_id": 5525,
+        "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+        "captured_at_utc": "2026-09-09 13:51:31",
+        "body_sha1": "dd149005b67a3f73efc6552532e2438407e0d576",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "usable": true,
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "assessment": "partial"
+    }
+  ],
+  "scope_freshness": {
+    "status": "source_hashes_match",
+    "changed_post_ids": [],
+    "unavailable_post_ids": [],
+    "context_changed": false,
+    "new_page_discovery": "Use discover_content_scope periodically; unchanged selected pages do not prove that no new services exist."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "source_updated_and_package_verified",
+  "version": "0.85.0",
+  "source": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant",
+  "updated_files": 31,
+  "archive": "D:\\cc-assistant\\wp-content\\plugins\\cc-assistant-0.85.0.zip",
+  "archive_sha256": "1c3027a4c9240ce3fb5783834816102e9e2641f7974988277b2300beb212a133",
+  "backup": "D:\\cc-assistant\\reports\\implementation-0.85.0-2026-09-09\\cc-assistant-0.84.0-source-backup.zip",
+  "backup_sha256": "928a2c914f980f3ac25144c64445f14c08075e9ed6c21eb81d1466ffe45fc393",
+  "report": "D:\\cc-assistant\\reports\\implementation-0.85.0-2026-09-09\\IMPLEMENTATION-0.85.0.md",
+  "live_site_deployed": false
+}

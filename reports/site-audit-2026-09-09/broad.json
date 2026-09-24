@@ -1,0 +1,3094 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.3"
+      }
+    }
+  },
+  {
+    "name": "list_posts",
+    "isError": false,
+    "result": {
+      "posts": [
+        {
+          "id": 4426,
+          "title": "Food Poisoning vs Stomach Bug: How to Tell the Difference and When to Get Emergency Care",
+          "slug": "treatment-severe-food-poisoning-dallas",
+          "status": "publish",
+          "type": "post",
+          "modified": "2026-07-22 09:28:18",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4426&action=edit",
+          "url": "https://erofwhiterock.com/treatment-severe-food-poisoning-dallas/",
+          "word_count": 1501,
+          "lang": "en",
+          "translations": {
+            "en": 4426,
+            "es": 5069
+          }
+        },
+        {
+          "id": 4421,
+          "title": "The Complete Parent's Guide to Pediatric Emergencies: When to Take Your Child to the ER",
+          "slug": "pediatric-emergency-room-white-rock-parents-guide",
+          "status": "publish",
+          "type": "post",
+          "modified": "2026-08-19 04:55:01",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4421&action=edit",
+          "url": "https://erofwhiterock.com/pediatric-emergency-room-white-rock-parents-guide/",
+          "word_count": 3035,
+          "lang": "en",
+          "translations": {
+            "en": 4421,
+            "es": 5067
+          }
+        },
+        {
+          "id": 3650,
+          "title": "Emergency Room Near Garland, TX",
+          "slug": "emergency-room-garland-tx",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:52",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3650&action=edit",
+          "url": "https://erofwhiterock.com/emergency-room-garland-tx/",
+          "word_count": 1133,
+          "lang": "en",
+          "translations": {
+            "en": 3650,
+            "es": 4755
+          }
+        },
+        {
+          "id": 3635,
+          "title": "Local Emergency Room in Lake Highlands, TX",
+          "slug": "emergency-room-lake-highlands-tx",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:55:03",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3635&action=edit",
+          "url": "https://erofwhiterock.com/emergency-room-lake-highlands-tx/",
+          "word_count": 1187,
+          "lang": "en",
+          "translations": {
+            "en": 3635,
+            "es": 4753
+          }
+        },
+        {
+          "id": 3505,
+          "title": "Emergency Room Services & Conditions We Treat",
+          "slug": "emergency-services-er-of-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:56",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3505&action=edit",
+          "url": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+          "word_count": 1227,
+          "lang": "en",
+          "translations": {
+            "en": 3505,
+            "es": 4751
+          }
+        },
+        {
+          "id": 3457,
+          "title": "Emergency Room Near Lakewood, TX",
+          "slug": "emergency-room-lakewood-tx",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:52",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3457&action=edit",
+          "url": "https://erofwhiterock.com/emergency-room-lakewood-tx/",
+          "word_count": 1320,
+          "lang": "en",
+          "translations": {
+            "en": 3457,
+            "es": 4749
+          }
+        },
+        {
+          "id": 2931,
+          "title": "Blog",
+          "slug": "blog",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-05-22 06:19:59",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2931&action=edit",
+          "url": "https://erofwhiterock.com/blog/",
+          "word_count": 4,
+          "lang": "en",
+          "translations": {
+            "en": 2931,
+            "es": 4699
+          }
+        },
+        {
+          "id": 2595,
+          "title": "Career",
+          "slug": "career",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-25 08:07:23",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2595&action=edit",
+          "url": "https://erofwhiterock.com/careers/",
+          "word_count": 18,
+          "lang": "en",
+          "translations": {
+            "en": 2595,
+            "es": 4697
+          }
+        },
+        {
+          "id": 2516,
+          "title": "Chest Pain Treatment in Dallas, TX | ER of White Rock",
+          "slug": "chest-pain-treatment",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:50",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2516&action=edit",
+          "url": "https://erofwhiterock.com/services/chest-pain-treatment/",
+          "word_count": 2325,
+          "lang": "en",
+          "translations": {
+            "en": 2516,
+            "es": 4741
+          }
+        },
+        {
+          "id": 2482,
+          "title": "Expert Stroke Care in White Rock, Texas | ER of White Rock",
+          "slug": "expert-stroke-care",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:41",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2482&action=edit",
+          "url": "https://erofwhiterock.com/services/expert-stroke-care/",
+          "word_count": 773,
+          "lang": "en",
+          "translations": {
+            "en": 2482,
+            "es": 4739
+          }
+        },
+        {
+          "id": 2453,
+          "title": "Expert Pediatric Care in Dallas, TX | ER of White Rock",
+          "slug": "pediatric-care",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:49",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2453&action=edit",
+          "url": "https://erofwhiterock.com/services/pediatric-care/",
+          "word_count": 1153,
+          "lang": "en",
+          "translations": {
+            "en": 2453,
+            "es": 4737
+          }
+        },
+        {
+          "id": 2198,
+          "title": "Ins. & Billing Info",
+          "slug": "insurance-billing-info",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-25 08:07:20",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2198&action=edit",
+          "url": "https://erofwhiterock.com/insurance-billing-info/",
+          "word_count": 89,
+          "lang": "en",
+          "translations": {
+            "en": 2198,
+            "es": 4695
+          }
+        },
+        {
+          "id": 1396,
+          "title": "Emergency Care for Breathing Problems in Dallas, TX | ER of White Rock",
+          "slug": "emergency-care-for-breathing-problems",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-02-12 12:35:17",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1396&action=edit",
+          "url": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+          "word_count": 987,
+          "lang": "en",
+          "translations": {
+            "en": 1396,
+            "es": 4729
+          }
+        },
+        {
+          "id": 1374,
+          "title": "Emergency Treatment of Fractures in Dallas, TX | ER of White Rock",
+          "slug": "fractures-treatment",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:29",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1374&action=edit",
+          "url": "https://erofwhiterock.com/services/fractures-treatment/",
+          "word_count": 923,
+          "lang": "en",
+          "translations": {
+            "en": 1374,
+            "es": 4727
+          }
+        },
+        {
+          "id": 1338,
+          "title": "Eye Injuries Emergency Care in Dallas, TX | ER of White Rock",
+          "slug": "eye-injuries",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-02-25 04:52:14",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1338&action=edit",
+          "url": "https://erofwhiterock.com/services/eye-injuries/",
+          "word_count": 774,
+          "lang": "en",
+          "translations": {
+            "en": 1338,
+            "es": 4725
+          }
+        },
+        {
+          "id": 1317,
+          "title": "High Fever ER in White Rock & East Dallas | ER of White Rock",
+          "slug": "high-fever-treatment",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-25 09:22:06",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1317&action=edit",
+          "url": "https://erofwhiterock.com/services/high-fever-treatment/",
+          "word_count": 2089,
+          "lang": "en",
+          "translations": {
+            "en": 1317,
+            "es": 4723
+          }
+        },
+        {
+          "id": 1295,
+          "title": "Expert Blood Clot Treatment in Dallas, TX | ER of White Rock",
+          "slug": "blood-clot-treatment",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-02-12 12:43:21",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1295&action=edit",
+          "url": "https://erofwhiterock.com/services/blood-clot-treatment/",
+          "word_count": 588,
+          "lang": "en",
+          "translations": {
+            "en": 1295,
+            "es": 4721
+          }
+        },
+        {
+          "id": 1267,
+          "title": "Expert Rashes Treatment in White Rock, TX | ER of White Rock",
+          "slug": "rashes-treatment",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:28",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1267&action=edit",
+          "url": "https://erofwhiterock.com/services/rashes-treatment/",
+          "word_count": 711,
+          "lang": "en",
+          "translations": {
+            "en": 1267,
+            "es": 4719
+          }
+        },
+        {
+          "id": 1091,
+          "title": "Appendicitis Treatment in Dallas, TX | Emergency Care at ER of White Rock",
+          "slug": "appendicitis-treatment-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-02-12 11:11:04",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1091&action=edit",
+          "url": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+          "word_count": 597,
+          "lang": "en",
+          "translations": {
+            "en": 1091,
+            "es": 4717
+          }
+        },
+        {
+          "id": 1072,
+          "title": "Dehydration Treatment in Dallas, TX | ER of White Rock",
+          "slug": "dehydration-treatment-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:37",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1072&action=edit",
+          "url": "https://erofwhiterock.com/services/dehydration-treatment-in-white-rock/",
+          "word_count": 695,
+          "lang": "en",
+          "translations": {
+            "en": 1072,
+            "es": 4715
+          }
+        },
+        {
+          "id": 1010,
+          "title": "Back Pain Treatment in Dallas, TX | Expert Pain Relief Solutions",
+          "slug": "back-pain-treatment-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:35",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1010&action=edit",
+          "url": "https://erofwhiterock.com/services/back-pain-treatment-in-white-rock/",
+          "word_count": 812,
+          "lang": "en",
+          "translations": {
+            "en": 1010,
+            "es": 4711
+          }
+        },
+        {
+          "id": 993,
+          "title": "Expert Food Poisoning Treatment in White Rock, TX | ER of White Rock",
+          "slug": "expert-food-poisoning-treatment-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:24",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=993&action=edit",
+          "url": "https://erofwhiterock.com/services/food-poisoning-treatment-in-white-rock/",
+          "word_count": 1396,
+          "lang": "en",
+          "translations": {
+            "en": 993,
+            "es": 4709
+          }
+        },
+        {
+          "id": 971,
+          "title": "Emergency & Rapid Laboratory Testing in White Rock, TX",
+          "slug": "laboratory-testing-services-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-09-09 13:40:00",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=971&action=edit",
+          "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+          "word_count": 1630,
+          "lang": "en",
+          "translations": {
+            "en": 971,
+            "es": 4747
+          }
+        },
+        {
+          "id": 909,
+          "title": "Effective Bronchitis Treatment in Dallas, TX | ER of White Rock",
+          "slug": "effective-bronchitis-treatment-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:18",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=909&action=edit",
+          "url": "https://erofwhiterock.com/services/bronchitis-treatment-in-white-rock/",
+          "word_count": 1114,
+          "lang": "en",
+          "translations": {
+            "en": 909,
+            "es": 4707
+          }
+        },
+        {
+          "id": 868,
+          "title": "Sore Throat Treatment in Dallas, TX - ER of White Rock",
+          "slug": "sore-throat-treatment-in-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:25",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=868&action=edit",
+          "url": "https://erofwhiterock.com/services/sore-throat-treatment-in-white-rock/",
+          "word_count": 1800,
+          "lang": "en",
+          "translations": {
+            "en": 868,
+            "es": 4705
+          }
+        },
+        {
+          "id": 852,
+          "title": "Diagnostic Imaging Services in Dallas, TX | MRI, CT Scan, Ultrasound",
+          "slug": "comprehensive-diagnostic-imaging-services",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:26:48",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=852&action=edit",
+          "url": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+          "word_count": 572,
+          "lang": "en",
+          "translations": {
+            "en": 852,
+            "es": 4745
+          }
+        },
+        {
+          "id": 799,
+          "title": "Comprehensive Gastrointestinal Disease Treatment in Dallas, TX – ER of White Rock",
+          "slug": "comprehensive-gastrointestinal-disease-treatment",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-19 04:54:15",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=799&action=edit",
+          "url": "https://erofwhiterock.com/services/gastrointestinal-disease-treatment/",
+          "word_count": 818,
+          "lang": "en",
+          "translations": {
+            "en": 799,
+            "es": 4703
+          }
+        },
+        {
+          "id": 417,
+          "title": "Contact Us",
+          "slug": "contact-us",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-25 08:07:22",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=417&action=edit",
+          "url": "https://erofwhiterock.com/contact-us/",
+          "word_count": 343,
+          "lang": "en",
+          "translations": {
+            "en": 417,
+            "es": 4691
+          }
+        },
+        {
+          "id": 383,
+          "title": "About Us - ER of White Rock",
+          "slug": "about-er-of-white-rock",
+          "status": "publish",
+          "type": "page",
+          "modified": "2026-08-25 09:22:01",
+          "author": "ER of White Rock",
+          "author_id": 4,
+          "has_elementor": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=383&action=edit",
+          "url": "https://erofwhiterock.com/about-er-of-white-rock/",
+          "word_count": 583,
+          "lang": "en",
+          "translations": {
+            "en": 383,
+            "es": 4689
+          }
+        }
+      ],
+      "total": 129,
+      "pages": 2
+    }
+  },
+  {
+    "name": "list_installed_plugins",
+    "isError": false,
+    "result": {
+      "total": 15,
+      "active": 15,
+      "plugins": [
+        {
+          "slug": "sg-ai-studio",
+          "file": "sg-ai-studio/sg-ai-studio.php",
+          "name": "AI Agent by SiteGround",
+          "version": "1.3.0",
+          "active": true,
+          "text_domain": "sg-ai-studio"
+        },
+        {
+          "slug": "better-search-replace",
+          "file": "better-search-replace/better-search-replace.php",
+          "name": "Better Search Replace",
+          "version": "1.4.11",
+          "active": true,
+          "text_domain": "better-search-replace"
+        },
+        {
+          "slug": "cc-assistant",
+          "file": "cc-assistant/cc-assistant.php",
+          "name": "CC Assistant",
+          "version": "0.89.3",
+          "active": true,
+          "text_domain": "cc-assistant"
+        },
+        {
+          "slug": "classic-editor",
+          "file": "classic-editor/classic-editor.php",
+          "name": "Classic Editor",
+          "version": "1.7.0",
+          "active": true,
+          "text_domain": "classic-editor"
+        },
+        {
+          "slug": "connect-polylang-elementor",
+          "file": "connect-polylang-elementor/connect-polylang-elementor.php",
+          "name": "Connect Polylang for Elementor",
+          "version": "2.5.5",
+          "active": true,
+          "text_domain": "connect-polylang-elementor"
+        },
+        {
+          "slug": "custom-permalinks",
+          "file": "custom-permalinks/custom-permalinks.php",
+          "name": "Custom Permalinks",
+          "version": "3.2.0",
+          "active": true,
+          "text_domain": "custom-permalinks"
+        },
+        {
+          "slug": "elementor",
+          "file": "elementor/elementor.php",
+          "name": "Elementor",
+          "version": "4.2.3",
+          "active": true,
+          "text_domain": "elementor",
+          "update_available": "4.2.4"
+        },
+        {
+          "slug": "elementor-pro",
+          "file": "elementor-pro/elementor-pro.php",
+          "name": "Elementor Pro",
+          "version": "4.0.2",
+          "active": true,
+          "text_domain": "elementor-pro"
+        },
+        {
+          "slug": "flying-scripts",
+          "file": "flying-scripts/flying-scripts.php",
+          "name": "Flying Scripts",
+          "version": "1.2.4",
+          "active": true,
+          "text_domain": "flying-scripts"
+        },
+        {
+          "slug": "force-post-thumbnails",
+          "file": "force-post-thumbnails/force-post-thumbnails.php",
+          "name": "Force Post Thumbnails Support",
+          "version": "1.0.0",
+          "active": true,
+          "text_domain": "force-post-thumbnails"
+        },
+        {
+          "slug": "polylang",
+          "file": "polylang/polylang.php",
+          "name": "Polylang",
+          "version": "3.8.7",
+          "active": true,
+          "text_domain": "polylang",
+          "update_available": "3.8.9"
+        },
+        {
+          "slug": "seo-by-rank-math",
+          "file": "seo-by-rank-math/rank-math.php",
+          "name": "Rank Math SEO",
+          "version": "1.0.276",
+          "active": true,
+          "text_domain": "seo-by-rank-math",
+          "update_available": "1.0.278"
+        },
+        {
+          "slug": "simple-history",
+          "file": "simple-history/index.php",
+          "name": "Simple History",
+          "version": "5.30.0",
+          "active": true,
+          "text_domain": "simple-history",
+          "update_available": "5.32.0"
+        },
+        {
+          "slug": "sg-cachepress",
+          "file": "sg-cachepress/sg-cachepress.php",
+          "name": "Speed Optimizer",
+          "version": "7.8.1",
+          "active": true,
+          "text_domain": "sg-cachepress",
+          "update_available": "7.8.2"
+        },
+        {
+          "slug": "wp-file-manager",
+          "file": "wp-file-manager/file_folder_manager.php",
+          "name": "WP File Manager",
+          "version": "8.0.4",
+          "active": true,
+          "text_domain": "wp-file-manager"
+        }
+      ]
+    }
+  },
+  {
+    "name": "content_audits",
+    "isError": false,
+    "result": {
+      "issues": [],
+      "count": 0,
+      "generated_at": "2026-09-09 14:56:31",
+      "cached": false
+    }
+  },
+  {
+    "name": "redirect_audit",
+    "isError": false,
+    "result": {
+      "available": true,
+      "active_redirects": 24,
+      "finding_count": 1,
+      "findings": [
+        {
+          "type": "redirect_chain",
+          "severity": "warn",
+          "redirect_id": 21,
+          "source": "es/emergency-services-er-of-white-rock-2/",
+          "destination": "https://erofwhiterock.com/es/servicios-de-emergencia-en-dallas-tx-atencion-er-24-7-er-of-white-rock/",
+          "message": "Destination is itself redirected (redirect #24) — a chain. Point the source directly at the final URL."
+        }
+      ],
+      "verdict": "warn"
+    }
+  },
+  {
+    "name": "click_depth_audit",
+    "isError": false,
+    "result": {
+      "roots": [
+        228
+      ],
+      "max_depth_warn": 4,
+      "histogram": {
+        "0": 1,
+        "1": 87,
+        "2": 19,
+        "3": 13,
+        "4": 4,
+        "unreachable": 5
+      },
+      "pages": [
+        {
+          "post_id": 5419,
+          "title": "Hit Your Head? When to Go to the ER and When to Watch at Home",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5419&action=edit"
+        },
+        {
+          "post_id": 5424,
+          "title": "¿Se Golpeó la Cabeza? Cuándo Ir a la Sala de Emergencias y Cuándo Observar en Casa",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5424&action=edit"
+        },
+        {
+          "post_id": 5437,
+          "title": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5437&action=edit"
+        },
+        {
+          "post_id": 5438,
+          "title": "¿Cuánto Dura una Visita a la Sala de Emergencias? El Recorrido Paso a Paso",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5438&action=edit"
+        },
+        {
+          "post_id": 5525,
+          "title": "What to Tell the ER Team: A Medication and Symptom Note",
+          "depth": null,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5525&action=edit"
+        },
+        {
+          "post_id": 5121,
+          "title": "Golpe de Calor vs Agotamiento por Calor: Guía de Triaje ER en Texas para el Verano cerca de White Rock Lake",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5121&action=edit"
+        },
+        {
+          "post_id": 5122,
+          "title": "Copa Mundial 2026 en Dallas: Por Qué las Visitas a la ER se Disparan Durante los Grandes Torneos y Cómo Mirar con Seguridad",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5122&action=edit"
+        },
+        {
+          "post_id": 5123,
+          "title": "Ahogamiento y Casi Ahogamiento cerca de White Rock Lake: Lo Que los Padres No Ven y Cuándo Llegar a la ER",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5123&action=edit"
+        },
+        {
+          "post_id": 5124,
+          "title": "Picaduras de Garrapata, Virus del Nilo Occidental y Otras Emergencias Transmitidas por Vectores cerca de White Rock Lake: Cuándo Llegar a la ER",
+          "depth": 4,
+          "buried": true,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5124&action=edit"
+        },
+        {
+          "post_id": 5010,
+          "title": "¿Esa Erupción es Peligrosa? Señales de Alerta para Acudir a Urgencias",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5010&action=edit"
+        },
+        {
+          "post_id": 5011,
+          "title": "Pruebas de Laboratorio de Emergencia en Sitio: Por Qué los Diagnósticos Sin Espera Salvan Vidas",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5011&action=edit"
+        },
+        {
+          "post_id": 5012,
+          "title": "A Simple Cold or Something Worse? When a Sore Throat Needs the ER",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5012&action=edit"
+        },
+        {
+          "post_id": 5039,
+          "title": "Time Is Brain: Recognizing Stroke Symptoms with the F.A.S.T. Method",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5039&action=edit"
+        },
+        {
+          "post_id": 5040,
+          "title": "The Silent Threat: How to Recognize the Warning Signs of a Blood Clot",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5040&action=edit"
+        },
+        {
+          "post_id": 5055,
+          "title": "Sprain or Fracture? How to Tell and When to Visit Our ER Near White Rock",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5055&action=edit"
+        },
+        {
+          "post_id": 5069,
+          "title": "Intoxicación Alimentaria vs Gastroenteritis Viral: Cómo Distinguirlas y Cuándo Buscar Atención de Emergencia",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5069&action=edit"
+        },
+        {
+          "post_id": 5091,
+          "title": "Heat Stroke vs Heat Exhaustion: A Texas ER Triage Guide for Summer Near White Rock Lake",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5091&action=edit"
+        },
+        {
+          "post_id": 5092,
+          "title": "World Cup 2026 in Dallas: Why ER Visits Spike During Major Tournaments and How to Watch Safely",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5092&action=edit"
+        },
+        {
+          "post_id": 5093,
+          "title": "Drowning and Near-Drowning Near White Rock Lake: What Parents Miss and When to Reach the ER",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5093&action=edit"
+        },
+        {
+          "post_id": 5094,
+          "title": "Tick Bites, West Nile, and Other Vector-Borne Emergencies Near White Rock Lake: When to Reach the ER",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5094&action=edit"
+        },
+        {
+          "post_id": 5134,
+          "title": "Infectious Disease and Vector-Borne Emergencies Near White Rock: When Bites, Bugs, and Severe Infections Need the ER",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5134&action=edit"
+        },
+        {
+          "post_id": 5136,
+          "title": "Emergencias por Enfermedades Infecciosas y Transmitidas por Vectores cerca de White Rock: Cuándo Picaduras, Insectos e Infecciones Graves Requieren la Sala de Emergencias",
+          "depth": 3,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5136&action=edit"
+        },
+        {
+          "post_id": 2595,
+          "title": "Career",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2595&action=edit"
+        },
+        {
+          "post_id": 4697,
+          "title": "Carreras",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4697&action=edit"
+        },
+        {
+          "post_id": 4421,
+          "title": "The Complete Parent&#8217;s Guide to Pediatric Emergencies: When to Take Your Child to the ER",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4421&action=edit"
+        },
+        {
+          "post_id": 4426,
+          "title": "Food Poisoning vs Stomach Bug: How to Tell the Difference and When to Get Emergency Care",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4426&action=edit"
+        },
+        {
+          "post_id": 4430,
+          "title": "¿Es un esguince o una fractura? ¿Cuándo acudir a nuestra sala de emergencias en White Rock?",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4430&action=edit"
+        },
+        {
+          "post_id": 4435,
+          "title": "El tiempo es cerebro: cómo reconocer los síntomas de un derrame cerebral con el método F.A.S.T.",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4435&action=edit"
+        },
+        {
+          "post_id": 4481,
+          "title": "Is That Rash Dangerous? Warning Signs You Need an Emergency Room",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4481&action=edit"
+        },
+        {
+          "post_id": 4503,
+          "title": "La amenaza silenciosa: cómo reconocer las señales de alerta de un coágulo de sangre",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4503&action=edit"
+        },
+        {
+          "post_id": 4635,
+          "title": "On-Site ER Lab Testing: How No-Wait Diagnostics Save Lives in Emergencies",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4635&action=edit"
+        },
+        {
+          "post_id": 4638,
+          "title": "¿Un simple resfriado o algo peor? ¿Cuándo un dolor de garganta requiere una visita a urgencias?",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4638&action=edit"
+        },
+        {
+          "post_id": 4986,
+          "title": "Freestanding ER vs Hospital ER Near White Rock Lake: How to Choose the Right Emergency Room",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4986&action=edit"
+        },
+        {
+          "post_id": 5009,
+          "title": "Sala de Emergencias Independiente vs Hospital cerca de White Rock Lake: Cómo Elegir la Sala Adecuada",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5009&action=edit"
+        },
+        {
+          "post_id": 5032,
+          "title": "Cardiovascular Emergencies Near White Rock: Heart Attack, Stroke, and Blood Clot Recognition Guide",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5032&action=edit"
+        },
+        {
+          "post_id": 5041,
+          "title": "Emergencias Cardiovasculares cerca de White Rock: Ataque al Corazón, Derrame Cerebral y Coágulos de Sangre",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5041&action=edit"
+        },
+        {
+          "post_id": 5054,
+          "title": "Bone, Joint, and Trauma Emergencies Near White Rock: Fractures, Head Injuries, and Eye Injury Care",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5054&action=edit"
+        },
+        {
+          "post_id": 5058,
+          "title": "Emergencias de Huesos, Articulaciones y Trauma cerca de White Rock: Fracturas, Lesiones de Cabeza y Cuidado de Lesiones Oculares",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5058&action=edit"
+        },
+        {
+          "post_id": 5061,
+          "title": "Stomach Pain and Digestive Emergencies Near White Rock: Appendicitis, Food Poisoning, and Severe Abdominal Pain Care",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5061&action=edit"
+        },
+        {
+          "post_id": 5063,
+          "title": "Dolor de Estómago y Emergencias Digestivas cerca de White Rock: Apendicitis, Intoxicación Alimentaria y Dolor Abdominal Severo",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5063&action=edit"
+        },
+        {
+          "post_id": 5067,
+          "title": "Guía Completa para Padres sobre Emergencias Pediátricas cerca de White Rock: Cuándo Llevar a Su Hijo a la Sala de Emergencias",
+          "depth": 2,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5067&action=edit"
+        },
+        {
+          "post_id": 383,
+          "title": "About Us &#8211; ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=383&action=edit"
+        },
+        {
+          "post_id": 417,
+          "title": "Contact Us",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=417&action=edit"
+        },
+        {
+          "post_id": 799,
+          "title": "Comprehensive Gastrointestinal Disease Treatment in Dallas, TX – ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=799&action=edit"
+        },
+        {
+          "post_id": 852,
+          "title": "Diagnostic Imaging Services in Dallas, TX | MRI, CT Scan, Ultrasound",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=852&action=edit"
+        },
+        {
+          "post_id": 868,
+          "title": "Sore Throat Treatment in Dallas, TX &#8211; ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=868&action=edit"
+        },
+        {
+          "post_id": 909,
+          "title": "Effective Bronchitis Treatment in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=909&action=edit"
+        },
+        {
+          "post_id": 971,
+          "title": "Emergency &#038; Rapid Laboratory Testing in White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=971&action=edit"
+        },
+        {
+          "post_id": 993,
+          "title": "Expert Food Poisoning Treatment in White Rock, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=993&action=edit"
+        },
+        {
+          "post_id": 1010,
+          "title": "Back Pain Treatment in Dallas, TX | Expert Pain Relief Solutions",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1010&action=edit"
+        },
+        {
+          "post_id": 1072,
+          "title": "Dehydration Treatment in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1072&action=edit"
+        },
+        {
+          "post_id": 1091,
+          "title": "Appendicitis Treatment in Dallas, TX | Emergency Care at ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1091&action=edit"
+        },
+        {
+          "post_id": 1267,
+          "title": "Expert Rashes Treatment in White Rock, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1267&action=edit"
+        },
+        {
+          "post_id": 1295,
+          "title": "Expert Blood Clot Treatment in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1295&action=edit"
+        },
+        {
+          "post_id": 1317,
+          "title": "High Fever ER in White Rock &#038; East Dallas | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1317&action=edit"
+        },
+        {
+          "post_id": 1338,
+          "title": "Eye Injuries Emergency Care in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1338&action=edit"
+        },
+        {
+          "post_id": 1374,
+          "title": "Emergency Treatment of Fractures in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1374&action=edit"
+        },
+        {
+          "post_id": 1396,
+          "title": "Emergency Care for Breathing Problems in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=1396&action=edit"
+        },
+        {
+          "post_id": 2198,
+          "title": "Ins. &#038; Billing Info",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2198&action=edit"
+        },
+        {
+          "post_id": 2453,
+          "title": "Expert Pediatric Care in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2453&action=edit"
+        },
+        {
+          "post_id": 2482,
+          "title": "Expert Stroke Care in White Rock, Texas | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2482&action=edit"
+        },
+        {
+          "post_id": 2516,
+          "title": "Chest Pain Treatment in Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2516&action=edit"
+        },
+        {
+          "post_id": 2931,
+          "title": "Blog",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=2931&action=edit"
+        },
+        {
+          "post_id": 3457,
+          "title": "Emergency Room Near Lakewood, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3457&action=edit"
+        },
+        {
+          "post_id": 3505,
+          "title": "Emergency Room Services &#038; Conditions We Treat",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3505&action=edit"
+        },
+        {
+          "post_id": 3635,
+          "title": "Local Emergency Room in Lake Highlands, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3635&action=edit"
+        },
+        {
+          "post_id": 3650,
+          "title": "Emergency Room Near Garland, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=3650&action=edit"
+        },
+        {
+          "post_id": 4643,
+          "title": "HIPAA Notice of Privacy Practices",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4643&action=edit"
+        },
+        {
+          "post_id": 4647,
+          "title": "Privacy Policy",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4647&action=edit"
+        },
+        {
+          "post_id": 4650,
+          "title": "Terms and Conditions of Use",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4650&action=edit"
+        },
+        {
+          "post_id": 4652,
+          "title": "Medical Disclaimer",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4652&action=edit"
+        },
+        {
+          "post_id": 4655,
+          "title": "Billing Disclosures &#038; Patient Financial Rights",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4655&action=edit"
+        },
+        {
+          "post_id": 4657,
+          "title": "Accessibility Statement",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4657&action=edit"
+        },
+        {
+          "post_id": 4687,
+          "title": "Página Principal – ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4687&action=edit"
+        },
+        {
+          "post_id": 4689,
+          "title": "Acerca de Nosotros &#8211; ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4689&action=edit"
+        },
+        {
+          "post_id": 4691,
+          "title": "Contáctenos",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4691&action=edit"
+        },
+        {
+          "post_id": 4695,
+          "title": "Información de Seguros y Facturación",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4695&action=edit"
+        },
+        {
+          "post_id": 4699,
+          "title": "Blog",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4699&action=edit"
+        },
+        {
+          "post_id": 4703,
+          "title": "Comprehensive Gastrointestinal Disease Treatment in Dallas, TX – ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4703&action=edit"
+        },
+        {
+          "post_id": 4705,
+          "title": "Tratamiento del Dolor de Garganta en Dallas, TX &#8211; ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4705&action=edit"
+        },
+        {
+          "post_id": 4707,
+          "title": "Tratamiento Efectivo de Bronquitis en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4707&action=edit"
+        },
+        {
+          "post_id": 4709,
+          "title": "Tratamiento Experto de Intoxicación Alimentaria en White Rock, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4709&action=edit"
+        },
+        {
+          "post_id": 4711,
+          "title": "Tratamiento del Dolor de Espalda en Dallas, TX | Soluciones Expertas de Alivio del Dolor",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4711&action=edit"
+        },
+        {
+          "post_id": 4715,
+          "title": "Tratamiento de Deshidratación en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4715&action=edit"
+        },
+        {
+          "post_id": 4717,
+          "title": "Tratamiento de Apendicitis en Dallas, TX | Atención de Emergencia en ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4717&action=edit"
+        },
+        {
+          "post_id": 4719,
+          "title": "Tratamiento Experto de Erupciones Cutáneas en White Rock, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4719&action=edit"
+        },
+        {
+          "post_id": 4721,
+          "title": "Tratamiento Experto de Coágulos Sanguíneos en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4721&action=edit"
+        },
+        {
+          "post_id": 4723,
+          "title": "High Fever Care in Dallas, TX – Immediate &#038; Expert Treatment",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4723&action=edit"
+        },
+        {
+          "post_id": 4725,
+          "title": "Atención de Emergencia para Lesiones Oculares en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4725&action=edit"
+        },
+        {
+          "post_id": 4727,
+          "title": "Tratamiento de Emergencia para Fracturas en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4727&action=edit"
+        },
+        {
+          "post_id": 4729,
+          "title": "Atención de Emergencia para Problemas Respiratorios en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4729&action=edit"
+        },
+        {
+          "post_id": 4737,
+          "title": "Atención Pediátrica Experta en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4737&action=edit"
+        },
+        {
+          "post_id": 4739,
+          "title": "Atención Experta para Derrame Cerebral en White Rock, Texas | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4739&action=edit"
+        },
+        {
+          "post_id": 4741,
+          "title": "Tratamiento del Dolor de Pecho en Dallas, TX | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4741&action=edit"
+        },
+        {
+          "post_id": 4745,
+          "title": "Servicios de Imágenes Diagnósticas en Dallas, TX | MRI, CT Scan, Ultrasonido",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4745&action=edit"
+        },
+        {
+          "post_id": 4747,
+          "title": "Pruebas de Laboratorio de Emergencia y Rápidas en White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4747&action=edit"
+        },
+        {
+          "post_id": 4749,
+          "title": "Sala de Emergencias Cerca de Lakewood, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4749&action=edit"
+        },
+        {
+          "post_id": 4751,
+          "title": "Servicios de Emergencia en Dallas, TX | Atención ER 24/7 | ER of White Rock",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4751&action=edit"
+        },
+        {
+          "post_id": 4753,
+          "title": "Sala de Emergencias Local en Lake Highlands, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4753&action=edit"
+        },
+        {
+          "post_id": 4755,
+          "title": "Sala de Emergencias Cerca de Garland, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4755&action=edit"
+        },
+        {
+          "post_id": 4757,
+          "title": "Aviso de Prácticas de Privacidad de HIPAA",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4757&action=edit"
+        },
+        {
+          "post_id": 4758,
+          "title": "Política de Privacidad",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4758&action=edit"
+        },
+        {
+          "post_id": 4759,
+          "title": "Términos y Condiciones de Uso",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4759&action=edit"
+        },
+        {
+          "post_id": 4760,
+          "title": "Aviso Legal Médico",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4760&action=edit"
+        },
+        {
+          "post_id": 4761,
+          "title": "Divulgaciones de Facturación y Derechos Financieros del Paciente",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4761&action=edit"
+        },
+        {
+          "post_id": 4762,
+          "title": "Declaración de Accesibilidad",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=4762&action=edit"
+        },
+        {
+          "post_id": 5342,
+          "title": "Emergency Abdominal Pain Treatment in White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5342&action=edit"
+        },
+        {
+          "post_id": 5360,
+          "title": "Emergency Head Injury Treatment in White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5360&action=edit"
+        },
+        {
+          "post_id": 5366,
+          "title": "Tratamiento de Emergencia para Lesiones en la Cabeza en White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5366&action=edit"
+        },
+        {
+          "post_id": 5370,
+          "title": "Tratamiento de Emergencia para el Dolor Abdominal en White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5370&action=edit"
+        },
+        {
+          "post_id": 5375,
+          "title": "Concussion Treatment in White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5375&action=edit"
+        },
+        {
+          "post_id": 5378,
+          "title": "Tratamiento de Conmoción Cerebral en White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5378&action=edit"
+        },
+        {
+          "post_id": 5390,
+          "title": "Traumatic Brain Injury (TBI) Treatment in White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5390&action=edit"
+        },
+        {
+          "post_id": 5391,
+          "title": "Editorial and Medical Review Policy",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5391&action=edit"
+        },
+        {
+          "post_id": 5394,
+          "title": "Tratamiento de Lesión Cerebral Traumática (LCT) en White Rock, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5394&action=edit"
+        },
+        {
+          "post_id": 5407,
+          "title": "Letter of Protection",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5407&action=edit"
+        },
+        {
+          "post_id": 5460,
+          "title": "Emergency Room Near Casa Linda, Dallas, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5460&action=edit"
+        },
+        {
+          "post_id": 5462,
+          "title": "Emergency Room Near Casa View, Dallas, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5462&action=edit"
+        },
+        {
+          "post_id": 5463,
+          "title": "Emergency Room Near Forest Hills, Dallas, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5463&action=edit"
+        },
+        {
+          "post_id": 5466,
+          "title": "Emergency Room Near Mesquite, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5466&action=edit"
+        },
+        {
+          "post_id": 5468,
+          "title": "Sala de Emergencias Cerca de Casa Linda, Dallas, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5468&action=edit"
+        },
+        {
+          "post_id": 5469,
+          "title": "Sala de Emergencias Cerca de Casa View, Dallas, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5469&action=edit"
+        },
+        {
+          "post_id": 5470,
+          "title": "Sala de Emergencias Cerca de Forest Hills, Dallas, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5470&action=edit"
+        },
+        {
+          "post_id": 5471,
+          "title": "Sala de Emergencias Cerca de Mesquite, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5471&action=edit"
+        },
+        {
+          "post_id": 5495,
+          "title": "Emergency Room Near Richardson, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5495&action=edit"
+        },
+        {
+          "post_id": 5496,
+          "title": "Sala de Emergencias Cerca de Richardson, TX",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5496&action=edit"
+        },
+        {
+          "post_id": 5510,
+          "title": "Cookie Policy",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5510&action=edit"
+        },
+        {
+          "post_id": 5511,
+          "title": "Política de Cookies",
+          "depth": 1,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5511&action=edit"
+        },
+        {
+          "post_id": 228,
+          "title": "Home Page – ER of White Rock",
+          "depth": 0,
+          "buried": false,
+          "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=228&action=edit"
+        }
+      ],
+      "recent_filtered": 0
+    }
+  },
+  {
+    "name": "get_content_authors",
+    "isError": false,
+    "result": {
+      "authors": [
+        {
+          "id": 4,
+          "display_name": "ER of White Rock"
+        },
+        {
+          "id": 7,
+          "display_name": "adminsumit"
+        }
+      ],
+      "default_author": {
+        "id": 4,
+        "display_name": "ER of White Rock"
+      },
+      "coverage": "Up to fifty existing users with published posts/pages and content-author capability. Login names, emails and credentials are not returned.",
+      "limit_reached": false,
+      "next_step": "Claude: choose the site-appropriate existing author, normally its established organization author when that matches the operator instruction. Save author_id and expected_author_name in manage_content_scope. Authorship is attribution, not proof of expertise or medical review."
+    }
+  },
+  {
+    "name": "get_plugin_settings",
+    "isError": false,
+    "result": {
+      "slug": "seo-by-rank-math",
+      "type": "plugin",
+      "name": "Rank Math SEO",
+      "installed": true,
+      "active": true,
+      "version": "1.0.276",
+      "captured_at_utc": "2026-09-09 14:56:41",
+      "capability_evidence": {
+        "source": "installed_files_and_stored_options",
+        "complete": false,
+        "option_ownership": "heuristic",
+        "available_features": "unknown",
+        "license_entitlements": "unknown",
+        "effective_runtime_values": "unknown",
+        "instruction": "Only the listed storage and registry facts were observed. Never invent controls, accepted values, UI locations or Pro features. Inspect the installed runtime schema or exact-version vendor documentation before a feature plan; absence here does not establish absence of a feature."
+      },
+      "text_domain": "seo-by-rank-math",
+      "prefixes_tried": [
+        "seo-by-rank-math",
+        "seo-by-rank-math_",
+        "seo_by_rank_math",
+        "seo_by_rank_math_",
+        "seobyrankmath",
+        "seobyrankmath_",
+        "sbrm_"
+      ],
+      "source_scan_found": 91,
+      "wrapper_prefixes": [],
+      "options_found": 27,
+      "options": [
+        {
+          "option": "elementor_maintenance_mode_exclude_mode",
+          "autoload": "auto",
+          "value": "logged_in",
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "elementor_maintenance_mode_exclude_roles",
+          "autoload": "auto",
+          "value": [],
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "elementor_maintenance_mode_mode",
+          "autoload": "auto",
+          "value": "",
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "elementor_maintenance_mode_template_id",
+          "autoload": "auto",
+          "value": "",
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "rank-math-options-instant-indexing",
+          "autoload": "auto",
+          "value": {
+            "bing_post_types": [
+              "post",
+              "page"
+            ],
+            "indexnow_api_key": "[redacted: key matched a credential pattern]"
+          },
+          "via": "source-scan (referenced, may belong to another plugin)"
+        },
+        {
+          "option": "rank_math_already_upgraded",
+          "autoload": "auto",
+          "value": "1740954047",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_analytics_all_services",
+          "autoload": "auto",
+          "value": {
+            "isVerified": false,
+            "inSearchConsole": false,
+            "hasSitemap": false,
+            "hasAnalytics": false,
+            "hasAnalyticsProperty": false,
+            "homeUrl": "https://erofwhiterock.com/",
+            "sites": {
+              "sc-domain:erofwhiterock.com": "sc-domain:erofwhiterock.com"
+            },
+            "accounts": []
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_db_version",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_google_analytic_options",
+          "autoload": "auto",
+          "value": {
+            "adsense_id": false,
+            "account_id": false,
+            "property_id": false,
+            "view_id": false,
+            "measurement_id": false,
+            "stream_name": false,
+            "country": false,
+            "install_code": false,
+            "anonymize_ip": false,
+            "local_ga_js": false,
+            "exclude_loggedin": false
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_google_analytic_profile",
+          "autoload": "auto",
+          "value": {
+            "country": false,
+            "profile": false,
+            "enable_index_status": false
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_install_date",
+          "autoload": "auto",
+          "value": "1738776025",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_is_configured",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_known_post_types",
+          "autoload": "auto",
+          "value": {
+            "post": "post",
+            "page": "page",
+            "attachment": "attachment",
+            "e-floating-buttons": "e-floating-buttons",
+            "elementor_library": "elementor_library",
+            "elementskit_content": "elementskit_content",
+            "elementskit_template": "elementskit_template",
+            "elementskit_widget": "elementskit_widget"
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_modules",
+          "autoload": "auto",
+          "value": {
+            "0": "link-counter",
+            "2": "seo-analysis",
+            "5": "woocommerce",
+            "6": "buddypress",
+            "7": "bbpress",
+            "8": "acf",
+            "9": "web-stories",
+            "11": "instant-indexing",
+            "15": "image-seo",
+            "16": "404-monitor",
+            "18": "llms-txt",
+            "21": "redirections",
+            "22": "sitemap",
+            "23": "ai-visibility"
+          },
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_pro_notice_added",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_pro_notice_date",
+          "autoload": "off",
+          "value": "1740669325",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_pro_notice_delayed",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_react_settings_ui",
+          "autoload": "off",
+          "value": "on",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_registration_skip",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_review_notice_added",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_review_notice_date",
+          "autoload": "off",
+          "value": "1746465264",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_review_notice_delayed",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_review_posts_converted",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_siteurl_mismatch_notice_dismissed",
+          "autoload": "auto",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_version",
+          "autoload": "off",
+          "value": "1.0.276",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_wizard_completed",
+          "autoload": "off",
+          "value": "1",
+          "via": "source-scan"
+        },
+        {
+          "option": "rank_math_yoast_block_posts",
+          "autoload": "off",
+          "value": {
+            "posts": [],
+            "count": 0
+          },
+          "via": "source-scan"
+        }
+      ],
+      "redaction_note": "Values matching credential patterns are replaced with a marker. The assistant is told a setting exists but never receives its value.",
+      "heuristic_warning": "WordPress has no formal plugin-to-option mapping. Options are found two ways: by name prefix derived from the slug and text domain, and by scanning the plugin's own PHP for get_option()/update_option() literals (rows marked via=source-scan). A setting stored under a name built at runtime, e.g. concatenated from a variable, is invisible to both. Absence here is NOT proof the plugin is unconfigured.",
+      "registered_setting_schemas": []
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 228,
+        "url": "https://erofwhiterock.com/",
+        "captured_at_utc": "2026-09-09 14:56:44",
+        "body_sha1": "fe30d29e1eb8fd67badd1aeb7c2f23d4bf202ae5",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "24/7 Emergency Room in White Rock, Dallas | ER of White Rock"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "24/7 freestanding emergency room in White Rock, TX. Board-certified physicians, no wait times, on-site CT, X-ray, and lab. Walk-ins welcome. (469) 943-2939."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/",
+            "requested_url": "https://erofwhiterock.com/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "24/7 Emergency Room in White Rock, TX"
+              },
+              {
+                "level": "h2",
+                "text": "Minimal Wait Time"
+              },
+              {
+                "level": "h2",
+                "text": "Experienced Emergency Physicians"
+              },
+              {
+                "level": "h2",
+                "text": "On-Site Advanced Imaging"
+              },
+              {
+                "level": "h2",
+                "text": "Comprehensive Emergency Services"
+              },
+              {
+                "level": "h2",
+                "text": "Why White Rock and Lake Highlands Families Choose Us"
+              },
+              {
+                "level": "h2",
+                "text": "Pediatric Emergency Care in White Rock"
+              },
+              {
+                "level": "h2",
+                "text": "Advanced On-Site Diagnostics"
+              },
+              {
+                "level": "h2",
+                "text": "When Should You Go to the Emergency Room?"
+              },
+              {
+                "level": "h2",
+                "text": "A Proud Member of NAFEC and TAFEC"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Our Community"
+              },
+              {
+                "level": "h2",
+                "text": "Insurance, Self-Pay and Transparent Billing"
+              },
+              {
+                "level": "h2",
+                "text": "Find Us - Right Off Northwest Highway"
+              },
+              {
+                "level": "h2",
+                "text": "Frequently Asked Questions"
+              },
+              {
+                "level": "h2",
+                "text": "Latest Insights"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "Chest Pain & Stroke Care"
+              },
+              {
+                "level": "h3",
+                "text": "Broken Bones & Fractures"
+              },
+              {
+                "level": "h3",
+                "text": "Pediatric Emergencies"
+              },
+              {
+                "level": "h3",
+                "text": "Severe Allergic Reactions"
+              },
+              {
+                "level": "h3",
+                "text": "Head Injuries & Concussions"
+              },
+              {
+                "level": "h3",
+                "text": "Diagnostic Imaging"
+              },
+              {
+                "level": "h3",
+                "text": "Open 24 Hours a Day, Every Day of the Year"
+              },
+              {
+                "level": "h3",
+                "text": "Experienced Physicians and Trauma-Trained Nurses"
+              },
+              {
+                "level": "h3",
+                "text": "Advanced Imaging and Laboratory Services On-Site"
+              },
+              {
+                "level": "h3",
+                "text": "Transparent and Affordable Pricing"
+              },
+              {
+                "level": "h3",
+                "text": "Full Lab"
+              },
+              {
+                "level": "h3",
+                "text": "Digital X-Ray"
+              },
+              {
+                "level": "h3",
+                "text": "Multi-Slice CT"
+              },
+              {
+                "level": "h3",
+                "text": "EKG & Cardiac"
+              },
+              {
+                "level": "h3",
+                "text": "Address"
+              },
+              {
+                "level": "h3",
+                "text": "Phone"
+              },
+              {
+                "level": "h3",
+                "text": "Hours"
+              },
+              {
+                "level": "h3",
+                "text": "What is the difference between a freestanding ER and an urgent care?"
+              },
+              {
+                "level": "h3",
+                "text": "How long is the wait time at ER of White Rock?"
+              },
+              {
+                "level": "h3",
+                "text": "What conditions should I go to the ER for?"
+              },
+              {
+                "level": "h3",
+                "text": "Does ER of White Rock treat children?"
+              },
+              {
+                "level": "h3",
+                "text": "Where is ER of White Rock located and how do I get there?"
+              },
+              {
+                "level": "h3",
+                "text": "Does ER of White Rock accept insurance?"
+              },
+              {
+                "level": "h3",
+                "text": "Is ER of White Rock open 24 hours?"
+              },
+              {
+                "level": "h3",
+                "text": "Do I need an appointment to visit ER of White Rock?"
+              },
+              {
+                "level": "h3",
+                "text": "What to Tell the ER Team: A Medication and Symptom Note"
+              },
+              {
+                "level": "h3",
+                "text": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline"
+              },
+              {
+                "level": "h3",
+                "text": "Hit Your Head? When to Go to the ER and When to Watch at Home"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 3,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "FAQPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 25,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 86,
+            "internal": 76,
+            "content_internal": 22,
+            "listed": 86,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "b019ad6f319b76748d671007371ff13a85d985b3d30d6967ec6ce0a2432caa10",
+      "facts_sha256": "279373779dc2c468ce3158b8ec939f1178d50ff758c96dcad7ce808a01ce0e14",
+      "comparison": {
+        "status": "changed_findings",
+        "previous_captured_at_utc": "2026-09-08 14:59:26",
+        "rules_changed": false,
+        "body_changed": true,
+        "collection_changed": false,
+        "changes": [
+          {
+            "rule_id": "content.h1",
+            "before": {
+              "rule_id": "content.h1",
+              "status": "pass",
+              "evidence": {
+                "count": 1,
+                "outline": [
+                  {
+                    "level": "h1",
+                    "text": "24/7 Emergency Room in White Rock, TX"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Minimal Wait Time"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Experienced Emergency Physicians"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "On-Site Advanced Imaging"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Comprehensive Emergency Services"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Why White Rock and Lake Highlands Families Choose Us"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Pediatric Emergency Care in White Rock"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Advanced On-Site Diagnostics"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "When Should You Go to the Emergency Room?"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "A Proud Member of NAFEC and TAFEC"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Serving Our Community"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Insurance, Self-Pay and Transparent Billing"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Find Us - Right Off Northwest Highway"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Frequently Asked Questions"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Latest Insights"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Quick Links"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Serving Area"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Get In Touch"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Corporate Address"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Chest Pain & Stroke Care"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Broken Bones & Fractures"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Pediatric Emergencies"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Severe Allergic Reactions"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Head Injuries & Concussions"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Diagnostic Imaging"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Open 24 Hours a Day, Every Day of the Year"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Experienced Physicians and Trauma-Trained Nurses"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Advanced Imaging and Laboratory Services On-Site"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Transparent and Affordable Pricing"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Full Lab"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Digital X-Ray"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Multi-Slice CT"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "EKG & Cardiac"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Address"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Phone"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Hours"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "What is the difference between a freestanding ER and an urgent care?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "How long is the wait time at ER of White Rock?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "What conditions should I go to the ER for?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Does ER of White Rock treat children?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Where is ER of White Rock located and how do I get there?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Does ER of White Rock accept insurance?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Is ER of White Rock open 24 hours?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Do I need an appointment to visit ER of White Rock?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Hit Your Head? When to Go to the ER and When to Watch at Home"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Infectious Disease and Vector-Borne Emergencies Near White Rock: When Bites, Bug"
+                  }
+                ]
+              },
+              "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+            },
+            "after": {
+              "rule_id": "content.h1",
+              "status": "pass",
+              "evidence": {
+                "count": 1,
+                "outline": [
+                  {
+                    "level": "h1",
+                    "text": "24/7 Emergency Room in White Rock, TX"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Minimal Wait Time"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Experienced Emergency Physicians"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "On-Site Advanced Imaging"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Comprehensive Emergency Services"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Why White Rock and Lake Highlands Families Choose Us"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Pediatric Emergency Care in White Rock"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Advanced On-Site Diagnostics"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "When Should You Go to the Emergency Room?"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "A Proud Member of NAFEC and TAFEC"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Serving Our Community"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Insurance, Self-Pay and Transparent Billing"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Find Us - Right Off Northwest Highway"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Frequently Asked Questions"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Latest Insights"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Quick Links"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Serving Area"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Get In Touch"
+                  },
+                  {
+                    "level": "h2",
+                    "text": "Corporate Address"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Chest Pain & Stroke Care"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Broken Bones & Fractures"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Pediatric Emergencies"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Severe Allergic Reactions"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Head Injuries & Concussions"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Diagnostic Imaging"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Open 24 Hours a Day, Every Day of the Year"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Experienced Physicians and Trauma-Trained Nurses"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Advanced Imaging and Laboratory Services On-Site"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Transparent and Affordable Pricing"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Full Lab"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Digital X-Ray"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Multi-Slice CT"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "EKG & Cardiac"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Address"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Phone"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Hours"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "What is the difference between a freestanding ER and an urgent care?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "How long is the wait time at ER of White Rock?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "What conditions should I go to the ER for?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Does ER of White Rock treat children?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Where is ER of White Rock located and how do I get there?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Does ER of White Rock accept insurance?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Is ER of White Rock open 24 hours?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Do I need an appointment to visit ER of White Rock?"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "What to Tell the ER Team: A Medication and Symptom Note"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "How Long Does an ER Visit Take? A Step by Step Look at the Timeline"
+                  },
+                  {
+                    "level": "h3",
+                    "text": "Hit Your Head? When to Go to the ER and When to Watch at Home"
+                  }
+                ]
+              },
+              "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+            },
+            "change_type": "changed"
+          },
+          {
+            "rule_id": "accessibility.image_alt",
+            "before": {
+              "rule_id": "accessibility.image_alt",
+              "status": "pass",
+              "evidence": {
+                "total": 27,
+                "absent_attribute": 0,
+                "empty_attribute": 0
+              },
+              "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+            },
+            "after": {
+              "rule_id": "accessibility.image_alt",
+              "status": "pass",
+              "evidence": {
+                "total": 25,
+                "absent_attribute": 0,
+                "empty_attribute": 0
+              },
+              "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+            },
+            "change_type": "changed"
+          },
+          {
+            "rule_id": "links.inventory",
+            "before": {
+              "rule_id": "links.inventory",
+              "status": "pass",
+              "evidence": {
+                "total": 87,
+                "internal": 77,
+                "content_internal": 23,
+                "listed": 87,
+                "truncated": false
+              },
+              "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+            },
+            "after": {
+              "rule_id": "links.inventory",
+              "status": "pass",
+              "evidence": {
+                "total": 86,
+                "internal": 76,
+                "content_internal": 22,
+                "listed": 86,
+                "truncated": false
+              },
+              "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+            },
+            "change_type": "changed"
+          }
+        ]
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "isError": false,
+    "result": {
+      "rules_version": "1.0.0",
+      "usable": true,
+      "assessment": "partial",
+      "source": {
+        "post_id": 5496,
+        "url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+        "captured_at_utc": "2026-09-09 14:56:46",
+        "body_sha1": "7aa1e5ed8ccace21127f804cf5ffc7d7af4a9ae3",
+        "http_code": 200,
+        "cache_state": "miss",
+        "method": "server_html",
+        "javascript_executed": false,
+        "cache_freshness_proven": true,
+        "error": null,
+        "message": null
+      },
+      "findings": [
+        {
+          "rule_id": "seo.title",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "Sala de Emergencias Richardson | 24/7 | (469) 943-2939"
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.description",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "value": "ER of White Rock atiende a Richardson con emergencias 24/7 sin cita, en 10705 Northwest Hwy, Dallas, bajando por Plano Road. CT, rayos X y laboratorio en el sitio."
+          },
+          "meaning": "Checks presence and uniqueness only. Wording, search intent and snippet choice require separate review; no rigid character limit."
+        },
+        {
+          "rule_id": "seo.canonical",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "href": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+            "requested_url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/"
+          },
+          "meaning": "Self-referencing absolute canonical observed when pass. A different, missing or duplicate canonical needs intent review. Google selection and destination status are untested."
+        },
+        {
+          "rule_id": "seo.index_directives",
+          "status": "pass",
+          "evidence": {
+            "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+            "googlebot_meta": "",
+            "x_robots_tag": ""
+          },
+          "meaning": "Checks observed noindex/none directives, including HTTP headers. A restriction may be intentional or user-agent scoped. No restriction does not prove indexability; robots.txt and Google indexing are separate."
+        },
+        {
+          "rule_id": "content.h1",
+          "status": "pass",
+          "evidence": {
+            "count": 1,
+            "outline": [
+              {
+                "level": "h1",
+                "text": "Sala de Emergencias 24/7 Cerca de Richardson, TX"
+              },
+              {
+                "level": "h2",
+                "text": "¿Qué Tratamos?"
+              },
+              {
+                "level": "h2",
+                "text": "¿Cómo Es Su Visita?"
+              },
+              {
+                "level": "h2",
+                "text": "Preguntas Sobre Emergencias en Richardson"
+              },
+              {
+                "level": "h2",
+                "text": "Cómo Llegar Desde Richardson"
+              },
+              {
+                "level": "h2",
+                "text": "Atención de Emergencia al Sur de Richardson"
+              },
+              {
+                "level": "h2",
+                "text": "¿No Es una Emergencia?"
+              },
+              {
+                "level": "h2",
+                "text": "Quick Links"
+              },
+              {
+                "level": "h2",
+                "text": "Serving Area"
+              },
+              {
+                "level": "h2",
+                "text": "Get In Touch"
+              },
+              {
+                "level": "h2",
+                "text": "Corporate Address"
+              },
+              {
+                "level": "h3",
+                "text": "Entre directamente"
+              },
+              {
+                "level": "h3",
+                "text": "Triaje primero"
+              },
+              {
+                "level": "h3",
+                "text": "Diagnóstico en el sitio"
+              },
+              {
+                "level": "h3",
+                "text": "Tratamiento o traslado"
+              },
+              {
+                "level": "h3",
+                "text": "¿Atienden a Richardson?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Qué hago si la situación pone en riesgo la vida?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Cuándo necesita un dolor de garganta o una tos ir a emergencias?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Funciona mi seguro aquí?"
+              },
+              {
+                "level": "h3",
+                "text": "¿Necesito referencia o cita?"
+              },
+              {
+                "level": "h3",
+                "text": "Desde el centro de Richardson"
+              },
+              {
+                "level": "h3",
+                "text": "Desde el este de Richardson"
+              },
+              {
+                "level": "h3",
+                "text": "Desde el lado de Central Expressway"
+              },
+              {
+                "level": "h4",
+                "text": "Dolor de Pecho y Síntomas Cardíacos"
+              },
+              {
+                "level": "h4",
+                "text": "Señales de Derrame Cerebral"
+              },
+              {
+                "level": "h4",
+                "text": "Conmoción Cerebral"
+              },
+              {
+                "level": "h4",
+                "text": "Dolor de Garganta Severo y Estreptococo"
+              },
+              {
+                "level": "h4",
+                "text": "Emergencias Gastrointestinales"
+              },
+              {
+                "level": "h4",
+                "text": "Bronquitis y Neumonía"
+              }
+            ]
+          },
+          "meaning": "Heading structure observation. Multiple H1s are not an automatic SEO failure. Visual hierarchy and hidden headings need browser review."
+        },
+        {
+          "rule_id": "schema.json_syntax",
+          "status": "pass",
+          "evidence": {
+            "block_count": 4,
+            "invalid_blocks": 0,
+            "types": [
+              "EmergencyService",
+              "MedicalBusiness",
+              "WebSite",
+              "WebPage"
+            ]
+          },
+          "meaning": "Valid JSON syntax only. This does not validate Google eligibility, factual accuracy or rich-result appearance. No JSON-LD is not automatically a defect."
+        },
+        {
+          "rule_id": "schema.local_lint",
+          "status": "pass",
+          "evidence": [],
+          "meaning": "Local heuristic lint; potential issues need review against visible content and the applicable schema documentation."
+        },
+        {
+          "rule_id": "accessibility.image_alt",
+          "status": "pass",
+          "evidence": {
+            "total": 4,
+            "absent_attribute": 0,
+            "empty_attribute": 0
+          },
+          "meaning": "Empty alt may correctly mark decoration. Missing attributes and meaningful images need context review. Text quality and CSS background images are not assessed."
+        },
+        {
+          "rule_id": "links.inventory",
+          "status": "pass",
+          "evidence": {
+            "total": 79,
+            "internal": 66,
+            "content_internal": 12,
+            "listed": 79,
+            "truncated": false
+          },
+          "meaning": "Inventory collected; pass means the count was obtained, not that links are healthy or sufficient. Destinations and topic relevance were not checked."
+        },
+        {
+          "rule_id": "google.indexing",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires Google Search Console URL Inspection evidence with its own observation time."
+        },
+        {
+          "rule_id": "performance.field_cwv",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires field measurements; no Core Web Vitals conclusion from this HTML."
+        },
+        {
+          "rule_id": "browser.appearance",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires browser rendering at relevant viewports, JavaScript and interaction checks."
+        },
+        {
+          "rule_id": "content.accuracy",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires subject-matter and search-intent review; word count is not a quality test."
+        },
+        {
+          "rule_id": "crawl.robots_and_sitemap",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Requires separate robots.txt, sitemap and crawl checks."
+        },
+        {
+          "rule_id": "links.destinations",
+          "status": "unknown",
+          "evidence": null,
+          "meaning": "Destination URLs were not fetched; no broken-link verdict is available."
+        }
+      ],
+      "counts": {
+        "pass": 9,
+        "fail": 0,
+        "review": 0,
+        "unknown": 6,
+        "not_applicable": 0
+      },
+      "findings_sha256": "1fc045c59d7ee6e91b2aa47494acff6702a75d9140bcbab4c2b695a1023bb50f",
+      "facts_sha256": "98418390248d794b4d34b477a61932262bbf320a168ec85fb76e3a27cbd7d0ae",
+      "comparison": {
+        "status": "no_previous_audit",
+        "changes": []
+      },
+      "history_saved": true,
+      "reporting_instruction": "Report rule ID, status, observed evidence and capture time. Describe changes using comparison. Unknown is not pass or fail; review needs human context. Do not claim all SEO, Google indexing, visual design or plugin behaviour is correct."
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "robots_txt_state": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-09-09T08:37:13Z",
+      "crawled_as": "MOBILE",
+      "user_canonical": "https://erofwhiterock.com/",
+      "google_canonical": "https://erofwhiterock.com/",
+      "referring_urls": [
+        "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+        "https://erofwhiterock.com/es/tratamiento-experto-de-coagulos-sanguineos-en-dallas-tx-er-of-white-rock/",
+        "https://erofwhiterock.com/es/",
+        "https://erofwhiterock.com/services/diagnostic-imaging-services/"
+      ],
+      "sitemap": [],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=oDbF7y7MFgfgOdr2j_awHA&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": false
+    }
+  },
+  {
+    "name": "gsc_inspect_url",
+    "isError": false,
+    "result": {
+      "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+      "site_url": "https://erofwhiterock.com/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "crawled_as": "",
+      "user_canonical": "",
+      "google_canonical": "",
+      "referring_urls": [],
+      "sitemap": [],
+      "inspection_link": "https://search.google.com/search-console/inspect?resource_id=https://erofwhiterock.com/&id=qCEAoooRbbUU2DABzi4L7g&utm_medium=link&utm_source=api",
+      "mobile_usability_verdict": "VERDICT_UNSPECIFIED",
+      "suggested_fix": "",
+      "has_issue": true
+    }
+  }
+]

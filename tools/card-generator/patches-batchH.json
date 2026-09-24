@@ -1,0 +1,42 @@
+{
+ "6492": [
+  {
+   "search": "<h2><b>What Are Lipo-B (MIC) Injections, Really?</b></h2>",
+   "replace": "<h2><b>What Are Lipo-B (MIC) Injections, Really?</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-mic-ingredients.webp\" alt=\"A Lipo-B MIC injection holds methionine, inositol and choline, usually with B vitamins including B12\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>What Lipo-B (MIC) Injections </b><b><i>Are Not</i></b></h2>",
+   "replace": "<h2><b>What Lipo-B (MIC) Injections </b><b><i>Are Not</i></b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-what-it-is-and-is-not.webp\" alt=\"Lipo-B is nutrient support inside a supervised plan, not an FDA-approved weight-loss drug or a fat-melting shot\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Who Should Be Cautious or Avoid MIC/Lipo-B?</b></h3>",
+   "replace": "<h3><b>Who Should Be Cautious or Avoid MIC/Lipo-B?</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-who-should-be-cautious.webp\" alt=\"Take extra care with Lipo-B if you have heart, liver or kidney disease, a psychiatric history, or ingredient allergies\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3><b>Beware of Unapproved \"Fat-Dissolving\" Injections Online</b></h3>",
+   "replace": "<h3><b>Beware of Unapproved \"Fat-Dissolving\" Injections Online</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/never-self-inject-fat-dissolvers.webp\" alt=\"The FDA warns unapproved fat-dissolving injections have caused infections, scarring and tissue damage; never self-inject\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>What to Expect if You Start Lipo-B Injections</b></h2>",
+   "replace": "<h2><b>What to Expect if You Start Lipo-B Injections</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-what-to-expect.webp\" alt=\"Starting Lipo-B: a consultation with labs and other options, an intramuscular injection visit, then tracked follow-up\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "7656": [
+  {
+   "search": "<h2 class=\"wp-block-heading\"><b>The Different Types of Allergy Tests</b></h2>",
+   "replace": "<h2 class=\"wp-block-heading\"><b>The Different Types of Allergy Tests</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-allergy-tests.webp\" alt=\"Three allergy tests: skin prick in 15 to 20 minutes, a blood IgE test in days, and a 48-hour patch test\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2 class=\"wp-block-heading\"><b>Preparing for Your Allergy Test Appointment</b></h2>",
+   "replace": "<h2 class=\"wp-block-heading\"><b>Preparing for Your Allergy Test Appointment</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/preparing-for-an-allergy-test.webp\" alt=\"Before an allergy test: tell your doctor about antihistamines, avoid named foods if tested, and wear short sleeves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h3 class=\"wp-block-heading\"><b>Treatment Options Post-Test</b></h3>",
+   "replace": "<h3 class=\"wp-block-heading\"><b>Treatment Options Post-Test</b></h3>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/allergy-treatment-options.webp\" alt=\"Allergy treatment after testing: medications, immunotherapy shots for severe cases, and targeted avoidance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2 class=\"wp-block-heading\"><b>Common Misconceptions About Allergy Testing</b></h2>",
+   "replace": "<h2 class=\"wp-block-heading\"><b>Common Misconceptions About Allergy Testing</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/allergy-testing-myths-vs-facts.webp\" alt=\"Allergy testing myths: that it hurts, that only food causes allergies, and that testing is only for severe reactions\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

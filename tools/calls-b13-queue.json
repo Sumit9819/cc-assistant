@@ -1,0 +1,149 @@
+[
+  {
+    "route": "cc-assistant/v1/posts/3879/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-3879.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3882/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-3882.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/4008/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-4008.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3867/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-3867.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3850/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-3850.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3918/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-3918.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3201/render-probe",
+    "method": "GET",
+    "out": "card-generator/_q13/probe-3201.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3879,
+      "patches": [
+        {
+          "search": "<h2><b>Signs You Need a Doctor Right Now</b></h2>",
+          "replace": "<h2><b>Signs You Need a Doctor Right Now</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3879-skip-the-pharmacy.webp\" alt=\"Five signs to skip the pharmacy and go straight to an emergency room: difficulty breathing, chest pain or pressure, neurological changes such as slurred speech, severe pain or injury, and any fever in an infant under three months\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 3879",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-3879.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3882,
+      "patches": [
+        {
+          "search": "<h2><b>When to Seek Professional Wound Care and Burn Treatment: ER Services</b></h2>",
+          "replace": "<h2><b>When to Seek Professional Wound Care and Burn Treatment: ER Services</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-needs-er.webp\" alt=\"Five signs a burn needs emergency care: it is on the face, hands, feet or a major joint, it is larger than three inches, blisters are numerous or the pain is unmanageable, it is chemical or electrical, or there is difficulty breathing after a fire\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 3882",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-3882.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 4008,
+      "patches": [
+        {
+          "search": "<h2><b>Don\u2019t Let Dehydration Ruin the Match: Spotting the Signs Early</b></h2>",
+          "replace": "<h2><b>Don\u2019t Let Dehydration Ruin the Match: Spotting the Signs Early</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4008-dehydration-adults-kids.webp\" alt=\"Early dehydration signs in adult fans against young fans: extreme thirst and a dry mouth against a dry tongue and lips, dark urine against fewer than six wet diapers, fatigue or brain fog against listlessness or irritability, and dizziness against no tears when crying\" width=\"1200\" height=\"654\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 4008",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-4008.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3867,
+      "patches": [
+        {
+          "search": "<h2><b>Why CO Detectors Save Lives</b></h2>",
+          "replace": "<h2><b>Why CO Detectors Save Lives</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-alarm-checklist.webp\" alt=\"A carbon monoxide alarm checklist: place one on every level of the home and one right outside every sleeping area, then test each alarm monthly, change the batteries every six months and replace the unit after five to seven years\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 3867",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-3867.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3850,
+      "patches": [
+        {
+          "search": "<h2><b>First Steps: What to Do the Moment an Injury Occurs</b></h2>",
+          "replace": "<h2><b>First Steps: What to Do the Moment an Injury Occurs</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3850-workplace-first-steps.webp\" alt=\"The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 3850",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-3850.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3918,
+      "patches": [
+        {
+          "search": "<h2><b>Why Gout Usually Hits at Night</b></h2>",
+          "replace": "<h2><b>Why Gout Usually Hits at Night</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-at-night.webp\" alt=\"Three reasons gout attacks begin between midnight and 8 AM: body temperature drops and uric acid is less soluble when cooler, overnight fluid loss concentrates uric acid, and cortisol is at its lowest\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 3918",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-3918.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3201,
+      "patches": [
+        {
+          "search": "<h2><strong>What Happens If You Are Dehydrated?</strong></h2>\r\n<img class=\"aligncenter wp-image-3205 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/What-Happens-If-You-Are-Dehydrated-1024x551.webp\" alt=\"What Happens If You Are Dehydrated\" width=\"1024\" height=\"551\">",
+          "replace": "<h2><strong>What Happens If You Are Dehydrated?</strong></h2>\r\n<img class=\"aligncenter wp-image-3205 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/What-Happens-If-You-Are-Dehydrated-1024x551.webp\" alt=\"What Happens If You Are Dehydrated\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-untreated.webp\" alt=\"Four things untreated dehydration can lead to: electrolyte imbalance affecting heart rhythm, heat exhaustion or heat stroke above 104 degrees Fahrenheit, kidney strain that can cause stones or acute injury, and hypovolemic shock\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Add 1 in-body triage card(s) to post 3201",
+      "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+    },
+    "out": "card-generator/_q13/queued-3201.json"
+  }
+]

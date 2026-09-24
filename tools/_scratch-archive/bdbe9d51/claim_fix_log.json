@@ -1,0 +1,594 @@
+[
+ {
+  "pid": 11,
+  "label": "home",
+  "wid": "3845aa53",
+  "key": "editor",
+  "before": "<p>Mammoth Machinery is Canada’s leading compact heavy equipment Canada manufacturer, trusted by contractors, landscapers, and crews from coast to coast. Every machine is backed by our industry-leading 5-Year / 3,000-Hour Warranty and available with financing from 1.99% to 0% APR.</p>",
+  "after": "<p>Mammoth Machinery is Canada’s leading compact heavy equipment Canada manufacturer, trusted by contractors, landscapers, and crews from coast to coast. Every machine is backed by our industry-leading 5-Year / 3,000-Hour Warranty and available with equipment financing.</p>"
+ },
+ {
+  "pid": 11,
+  "label": "home",
+  "wid": "682c0215",
+  "key": "editor",
+  "before": "<p style='margin:0;color:#525252;font-size:15px;line-height:24px;'>The strongest warranty in the compact heavy equipment Canada segment, covering powertrain, hydraulics, and structure.</p>",
+  "after": "<p style='margin:0;color:#525252;font-size:15px;line-height:24px;'>The strongest warranty in the compact heavy equipment Canada segment, covering hydraulics, chassis and structural components.</p>"
+ },
+ {
+  "pid": 11,
+  "label": "home",
+  "wid": "b47d4bd",
+  "key": "ekit_accordion_items.acc_content",
+  "before": "<p>Yes. Mammoth offers equipment financing from <strong>1.99% to 0% APR</strong> with flexible terms up to 72 months on approved credit, available to both established fleets and new construction or landscaping businesses across Canada. See full options on the <a href=\"https://mammothmachinery.ca/fin",
+  "after": "<p>Yes. Mammoth offers equipment financing with flexible terms on approved credit, available to both established fleets and new construction or landscaping businesses across Canada. See full options on the <a href=\"https://mammothmachinery.ca/financing/\" rel=\"noopener\">financing page</a>.</p>"
+ },
+ {
+  "pid": 11,
+  "label": "home",
+  "wid": "b47d4bd",
+  "key": "ekit_accordion_items.acc_content",
+  "before": "<p>Mammoth Machinery combines Canadian-based manufacturing, a 5-Year / 3,000-Hour warranty, financing from 1.99% to 0% APR, and a parts-and-service support network built around Canadian contractors, not a foreign distributor model. Every machine is engineered for the realities of Canadian job sites,",
+  "after": "<p>Mammoth Machinery combines Canadian-based manufacturing, a 5-Year / 3,000-Hour warranty, equipment financing, and a parts-and-service support network built around Canadian contractors, not a foreign distributor model. Every machine is engineered for the realities of Canadian job sites, not adapte"
+ },
+ {
+  "pid": 37,
+  "label": "wheeled-dumpers",
+  "wid": "414d37fb",
+  "key": "title",
+  "before": "Financing Available From 1.99% to 0% APR",
+  "after": "Financing Available"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "5dd4c156",
+  "key": "title",
+  "before": "Financing From 1.99% to 0% APR",
+  "after": "Financing Available"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "9cff2f7",
+  "key": "editor",
+  "before": "<p style='text-align:left;margin:0;'>Industry-leading coverage on every wheel loader: powertrain, hydraulics, and structural components. No fine print, no hidden gotchas.</p>",
+  "after": "<p style='text-align:left;margin:0;'>Industry-leading coverage on every wheel loader: hydraulics, chassis and structural components. No fine print, no hidden gotchas.</p>"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "4af9adbb",
+  "key": "editor",
+  "before": "<p style='text-align:left;margin:0;'><strong>Flexible terms up to 72 months</strong></p>",
+  "after": "<p style='text-align:left;margin:0;'><strong>Flexible terms</strong></p>"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "68f79355",
+  "key": "editor",
+  "before": "<p style='text-align:left;margin:0;'><strong>98% approval rate</strong></p>",
+  "after": "<p style='text-align:left;margin:0;'><strong>Fast approvals</strong></p>"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "1b073777",
+  "key": "ekit_accordion_items.acc_content",
+  "before": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Every wheel loader ships with the Mammoth Shield Warranty: 5 years or 3,000 hours (whichever comes first) covering powertrain, hydraulic system, and structural components. Among the longest warranties in th",
+  "after": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Every wheel loader ships with the Mammoth Shield Warranty: 5 years or 3,000 hours (whichever comes first) covering hydraulics, chassis and structural components. Among the longest warranties in the compact-"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "1b073777",
+  "key": "ekit_accordion_items.acc_content",
+  "before": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Mammoth compact wheel loaders for sale in Canada start at $68,999 CAD for the WL4500, $73,999 CAD for the TL5500 Telescopic, and $139,999 CAD for the WL7500 flagship. Financing is available from 1.99% to 0%",
+  "after": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Mammoth compact wheel loaders for sale in Canada start at $68,999 CAD for the WL4500, $73,999 CAD for the TL5500 Telescopic, and $139,999 CAD for the WL7500 flagship. Financing is available with flexible te"
+ },
+ {
+  "pid": 39,
+  "label": "wheel-loaders",
+  "wid": "62ed9eb7",
+  "key": "html",
+  "before": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What's the difference between the WL4500, TL5500, and WL7500?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The WL4500 is the compact workhorse: 74 HP Cummins, 4,500 lb ROC, ",
+  "after": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What's the difference between the WL4500, TL5500, and WL7500?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The WL4500 is the compact workhorse: 74 HP Cummins, 4,500 lb ROC, "
+ },
+ {
+  "pid": 41,
+  "label": "tracked-dumpers",
+  "wid": "c55332f",
+  "key": "title",
+  "before": "Financing Available From 1.99% to 0% APR",
+  "after": "Financing Available"
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "5e83af04",
+  "key": "editor",
+  "before": "<p style=\"text-align: center; margin: 0; line-height: 1.7;\">Mini skid steers for sale in Canada. The Mammoth X-Loader series is built for tight, hard-to-reach spaces where full-size equipment can’t go. Yanmar-powered, 35″ wide, and compatible with 50+ attachments. Backed by an industry-leading 5-yea",
+  "after": "<p style=\"text-align: center; margin: 0; line-height: 1.7;\">Mini skid steers for sale in Canada. The Mammoth X-Loader series is built for tight, hard-to-reach spaces where full-size equipment can’t go. Yanmar-powered, 35″ wide, and compatible with 50+ attachments. Backed by an industry-leading 5-yea"
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "91a1530",
+  "key": "title",
+  "before": "Financing From 1.99% to 0% APR",
+  "after": "Financing Available"
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "77c76f7e",
+  "key": "editor",
+  "before": "<p style=\"text-align: left; margin: 0; line-height: 1.7;\">We stand by our iron. The <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\" target=\"_blank\" rel=\"noopener\">Mammoth Shield warranty</a> delivers industry-leading coverage on powertrain, hydraulics, and structural components for",
+  "after": "<p style=\"text-align: left; margin: 0; line-height: 1.7;\">We stand by our iron. The <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\" target=\"_blank\" rel=\"noopener\">Mammoth Shield warranty</a> delivers industry-leading coverage on hydraulics, chassis and structural components for 5 y"
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "503f4b97",
+  "key": "editor",
+  "before": "<p style='text-align:left;margin:0;'><strong>Flexible terms up to 72 months</strong></p>",
+  "after": "<p style='text-align:left;margin:0;'><strong>Flexible terms</strong></p>"
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "30c79039",
+  "key": "editor",
+  "before": "<p style='text-align:left;margin:0;'><strong>98% approval rate</strong></p>",
+  "after": "<p style='text-align:left;margin:0;'><strong>Fast approvals</strong></p>"
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "3aa1ddb6",
+  "key": "ekit_accordion_items.acc_content",
+  "before": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Every X-Loader ships with the Mammoth Shield Warranty: 5 years or 3,000 hours of operation (whichever comes first) covering powertrain, hydraulic system, and structural components. It's one of the longest w",
+  "after": "<p style=\"margin: 0; font-family: Alata; font-size: 15px; line-height: 1.65; color: #504532;\">Every X-Loader ships with the Mammoth Shield Warranty: 5 years or 3,000 hours of operation (whichever comes first) covering hydraulics, chassis and structural components. It's one of the longest warranties "
+ },
+ {
+  "pid": 43,
+  "label": "mini-skidsteers",
+  "wid": "3aa1ddb6",
+  "key": "ekit_accordion_items.acc_content",
+  "before": "<p>Mammoth mini skid steers for sale in Canada start at $27,999 CAD for the compact X-Loader 50MT, $33,999 CAD for the X-Loader 100MT, and $38,999 CAD for the turbocharged 120MT Turbo. All prices include the Mammoth Shield 5-Year / 3,000-Hour Warranty and a universal quick-hitch attachment plate. Fi",
+  "after": "<p>Mammoth mini skid steers for sale in Canada start at $27,999 CAD for the compact X-Loader 50MT, $33,999 CAD for the X-Loader 100MT, and $38,999 CAD for the turbocharged 120MT Turbo. All prices include the Mammoth Shield 5-Year / 3,000-Hour Warranty and a universal quick-hitch attachment plate. Fi"
+ },
+ {
+  "pid": 45,
+  "label": "mini-excavators",
+  "wid": "ae8ad75",
+  "key": "title",
+  "before": "Financing Available From 1.99% to 0% APR",
+  "after": "Financing Available"
+ },
+ {
+  "pid": 47,
+  "label": "track-loaders",
+  "wid": "42e54bac",
+  "key": "title",
+  "before": "Financing As Low As 0% APR",
+  "after": "Financing Available"
+ },
+ {
+  "pid": 1319,
+  "label": "eTT900",
+  "wid": "fb6fd5e",
+  "key": "editor",
+  "before": "<p>Every eTT900 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from ",
+  "after": "<p>Every eTT900 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Part"
+ },
+ {
+  "pid": 1476,
+  "label": "TT570",
+  "wid": "5777ab0",
+  "key": "editor",
+  "before": "<p>Every TT570 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from 1",
+  "after": "<p>Every TT570 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Parts"
+ },
+ {
+  "pid": 1518,
+  "label": "WL7500",
+  "wid": "e230367",
+  "key": "editor",
+  "before": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every WL7500 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading co",
+  "after": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every WL7500 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading co"
+ },
+ {
+  "pid": 1532,
+  "label": "WL4500",
+  "wid": "bf28c91",
+  "key": "editor",
+  "before": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every WL4500 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading co",
+  "after": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every WL4500 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading co"
+ },
+ {
+  "pid": 1551,
+  "label": "XL120",
+  "wid": "6244b44",
+  "key": "editor",
+  "before": "<p>Every X-Loader 120MT Turbo is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is a",
+  "after": "<p>Every X-Loader 120MT Turbo is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is a"
+ },
+ {
+  "pid": 1568,
+  "label": "XL100",
+  "wid": "f1843dd",
+  "key": "editor",
+  "before": "<p>Every X-Loader 100MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab",
+  "after": "<p>Every X-Loader 100MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab"
+ },
+ {
+  "pid": 1585,
+  "label": "XC35",
+  "wid": "2f12b76",
+  "key": "editor",
+  "before": "<p>Every X-Cavator 35MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab",
+  "after": "<p>Every X-Cavator 35MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab"
+ },
+ {
+  "pid": 1602,
+  "label": "XC27",
+  "wid": "de49501",
+  "key": "editor",
+  "before": "<p>Every X-Cavator 27MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab",
+  "after": "<p>Every X-Cavator 27MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab"
+ },
+ {
+  "pid": 1616,
+  "label": "XC20",
+  "wid": "e4cd14c",
+  "key": "editor",
+  "before": "<p>Every X-Cavator 20MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab",
+  "after": "<p>Every X-Cavator 20MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availab"
+ },
+ {
+  "pid": 1630,
+  "label": "XL3000",
+  "wid": "8293765",
+  "key": "editor",
+  "before": "<p>Every X-Loader 3000MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availa",
+  "after": "<p>Every X-Loader 3000MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availa"
+ },
+ {
+  "pid": 1648,
+  "label": "MT2200HL",
+  "wid": "d5aefce",
+  "key": "editor",
+  "before": "<p>Every MT2200HL is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available fro",
+  "after": "<p>Every MT2200HL is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Pa"
+ },
+ {
+  "pid": 1668,
+  "label": "MT1750",
+  "wid": "a7bb722",
+  "key": "editor",
+  "before": "<p>Every MT1750 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from ",
+  "after": "<p>Every MT1750 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Part"
+ },
+ {
+  "pid": 1684,
+  "label": "MT2850",
+  "wid": "8c399fb",
+  "key": "editor",
+  "before": "<p>Every MT2850 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from ",
+  "after": "<p>Every MT2850 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Part"
+ },
+ {
+  "pid": 1699,
+  "label": "MT2200",
+  "wid": "5b0d807",
+  "key": "editor",
+  "before": "<p>Every MT2200 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from ",
+  "after": "<p>Every MT2200 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Part"
+ },
+ {
+  "pid": 1710,
+  "label": "MT1350",
+  "wid": "a381e10",
+  "key": "editor",
+  "before": "<p>Every MT1350 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from ",
+  "after": "<p>Every MT1350 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Part"
+ },
+ {
+  "pid": 1986,
+  "label": "warranty",
+  "wid": "263e7ba8",
+  "key": "editor",
+  "before": "<p style='margin:0;color:#FFFFFF;font-size:13px;line-height:18px;font-family:\"IBM Plex Sans\",sans-serif;'><strong>Powertrain · Hydraulics · Structure</strong> Covered</p>",
+  "after": "<p style='margin:0;color:#FFFFFF;font-size:13px;line-height:18px;font-family:\"IBM Plex Sans\",sans-serif;'><strong>Hydraulics · Chassis · Structure</strong> Covered</p>"
+ },
+ {
+  "pid": 1986,
+  "label": "warranty",
+  "wid": "7a64391",
+  "key": "editor",
+  "before": "<p style=\"margin: 0; color: #9ca3af; font-size: 16px; line-height: 26px; font-family: 'IBM Plex Sans',sans-serif;\">Every Mammoth machine ships with this warranty active from day one. Browse our full lineup of compact equipment for Canadian contractors.</p>",
+  "after": "<p style=\"margin: 0; color: #9ca3af; font-size: 16px; line-height: 26px; font-family: 'IBM Plex Sans',sans-serif;\">Every Mammoth machine is covered from delivery, and registering within 30 days secures the full 5-year term. Browse our full lineup of compact equipment for Canadian contractors.</p>"
+ },
+ {
+  "pid": 1993,
+  "label": "TT900",
+  "wid": "8a8ced2",
+  "key": "editor",
+  "before": "<p>Every TT900 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from 1",
+  "after": "<p>Every TT900 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Parts"
+ },
+ {
+  "pid": 2089,
+  "label": "MT1350CB",
+  "wid": "9484d48",
+  "key": "editor",
+  "before": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every MT1350CB is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading ",
+  "after": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every MT1350CB is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading "
+ },
+ {
+  "pid": 2134,
+  "label": "TL5500",
+  "wid": "e1116e5",
+  "key": "editor",
+  "before": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every TL5500 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading co",
+  "after": "<style>.mm-body-links a{color:#01B51B;text-decoration:none}.mm-body-links a:hover{color:#01B51B;text-decoration:underline}</style><p>Every TL5500 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading co"
+ },
+ {
+  "pid": 2396,
+  "label": "MT2850CB",
+  "wid": "fa355c1",
+  "key": "editor",
+  "before": "<p>Every MT2850CB is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available fro",
+  "after": "<p>Every MT2850CB is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Pa"
+ },
+ {
+  "pid": 3264,
+  "label": "blog-dumper",
+  "wid": "c28d7756",
+  "key": "html",
+  "before": "<div style='background:#ffffff;border:1px solid #E2E2E2;padding:24px 22px;'><p style='font-family:\"Alata\",sans-serif;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#0f0f0f;margin:0 0 6px;'>Related</p><a href='https://mammothmachinery.ca/tracked-mini-dumpers/' styl",
+  "after": "<div style='background:#ffffff;border:1px solid #E2E2E2;padding:24px 22px;'><p style='font-family:\"Alata\",sans-serif;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#0f0f0f;margin:0 0 6px;'>Related</p><a href='https://mammothmachinery.ca/tracked-mini-dumpers/' styl"
+ },
+ {
+  "pid": 3264,
+  "label": "blog-dumper",
+  "wid": "5bb937fd",
+  "key": "html",
+  "before": "<div style='background:#141414;padding:44px 40px;margin-top:48px;'><p style='font-family:\"Alata\",sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#01B51B;margin:0 0 12px;'>Ready to choose your machine?</p><h3 style='font-family:\"Alata\",sans-serif;font-siz",
+  "after": "<div style='background:#141414;padding:44px 40px;margin-top:48px;'><p style='font-family:\"Alata\",sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#01B51B;margin:0 0 12px;'>Ready to choose your machine?</p><h3 style='font-family:\"Alata\",sans-serif;font-siz"
+ },
+ {
+  "pid": 3291,
+  "label": "about",
+  "wid": "4f7a57e3",
+  "key": "editor",
+  "before": "<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Mammoth Machinery was built on a simple belief: that heavy equipment should be as tough as the people who operate it. Founded in Canada, our company started as a small repair shop with a focus on solving the problems other ",
+  "after": "<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Mammoth Machinery was built on a simple belief: that heavy equipment should be as tough as the people who operate it. Founded in Canada, our company started as a small repair shop with a focus on solving the problems other "
+ },
+ {
+  "pid": 3291,
+  "label": "about",
+  "wid": "f3681c2",
+  "key": "editor",
+  "before": "<p>We strive to lead the industry through continuous innovation, ensuring our machines are not only the strongest on the market but also the smartest. By integrating cutting-edge technology with time-tested engineering, we aim to reduce operational costs and maximize productivity for every customer ",
+  "after": "<p>We strive to lead the industry through continuous innovation, ensuring our machines are not only the strongest on the market but also the smartest. By integrating cutting-edge technology with time-tested engineering, we aim to reduce operational costs and maximize productivity for every customer "
+ },
+ {
+  "pid": 3291,
+  "label": "about",
+  "wid": "4d847cff",
+  "key": "editor",
+  "before": "<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Today, Mammoth Machinery proudly serves customers across North America from our three state-of-the-art assembly hubs in Canada. We have grown into a leading manufacturer of specialized heavy equipment, yet we remain a famil",
+  "after": "<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Today, Mammoth Machinery proudly serves customers across North America from our assembly facility in Burlington, Ontario. We have grown into a leading manufacturer of specialized heavy equipment, yet we remain a family-owne"
+ },
+ {
+  "pid": 3291,
+  "label": "about",
+  "wid": "3b007d00",
+  "key": "editor",
+  "before": "<p>The future of Mammoth Machinery is built on growth and technological leadership. We are currently expanding our manufacturing capacity with a new facility focused entirely on our <a href=\"/browse-models/\">next-generation electric and autonomous heavy equipment fleet</a>, designed to meet the evol",
+  "after": "<p>The future of Mammoth Machinery is built on growth and technological leadership. We continue to invest in our <a href=\"/browse-models/\">electric equipment range</a>, including the eTT900 electric mini dumper, as demand grows for lower-emission machines.</p><p>Innovation is our North Star. We are "
+ },
+ {
+  "pid": 3358,
+  "label": "XL50",
+  "wid": "3d374d2",
+  "key": "editor",
+  "before": "<p>Every X-Loader 50MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availabl",
+  "after": "<p>Every X-Loader 50MT is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is availabl"
+ },
+ {
+  "pid": 3635,
+  "label": "blog-wheelvtrack",
+  "wid": "6b08e833",
+  "key": "html",
+  "before": "<div style='background:#ffffff;border:1px solid #E2E2E2;padding:24px 22px;'><p style='font-family:\"Alata\",sans-serif;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#0f0f0f;margin:0 0 6px;'>Related</p><a href='https://mammothmachinery.ca/tracked-mini-dumpers/' styl",
+  "after": "<div style='background:#ffffff;border:1px solid #E2E2E2;padding:24px 22px;'><p style='font-family:\"Alata\",sans-serif;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#0f0f0f;margin:0 0 6px;'>Related</p><a href='https://mammothmachinery.ca/tracked-mini-dumpers/' styl"
+ },
+ {
+  "pid": 3635,
+  "label": "blog-wheelvtrack",
+  "wid": "33b76714",
+  "key": "editor",
+  "before": "<p style='margin:0;color:#3f3f3f;font-size:17px;line-height:30px;font-family:\"Inter\",sans-serif;'>Mammoth&#8217;s dealer network sees the same pattern across Ontario and Western Canada. Contractors doing primarily <strong>concrete work, indoor projects, or summer-only landscaping</strong> on prepare",
+  "after": "<p style='margin:0;color:#3f3f3f;font-size:17px;line-height:30px;font-family:\"Inter\",sans-serif;'>Mammoth&#8217;s dealer network sees the same pattern from Ontario to the Maritimes. Contractors doing primarily <strong>concrete work, indoor projects, or summer-only landscaping</strong> on prepared su"
+ },
+ {
+  "pid": 3635,
+  "label": "blog-wheelvtrack",
+  "wid": "c9a9adad",
+  "key": "html",
+  "before": "<div style='background:#141414;padding:44px 40px;margin-top:48px;'><p style='font-family:\"Alata\",sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#01B51B;margin:0 0 12px;'>Still deciding?</p><h3 style='font-family:\"Alata\",sans-serif;font-size:28px;font-we",
+  "after": "<div style='background:#141414;padding:44px 40px;margin-top:48px;'><p style='font-family:\"Alata\",sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#01B51B;margin:0 0 12px;'>Still deciding?</p><h3 style='font-family:\"Alata\",sans-serif;font-size:28px;font-we"
+ },
+ {
+  "pid": 3658,
+  "label": "blog-size",
+  "wid": "42b41483",
+  "key": "icon_list.text",
+  "before": "Financing from 1.99% to 0% APR",
+  "after": "Financing available"
+ },
+ {
+  "pid": 3658,
+  "label": "blog-size",
+  "wid": "9bd10f41",
+  "key": "editor",
+  "before": "<p>Mammoth offers 2-tonne and 3.5-tonne compact excavators built for Canadian residential and light commercial work. Every machine ships with a 5-year / 3,000-hour warranty, Canadian dealer parts support, and flexible financing from 1.99% to 0% O.A.C. Call 1 (800) 686-1036 or email info@mammothmachi",
+  "after": "<p>Mammoth offers 2-tonne and 3.5-tonne compact excavators built for Canadian residential and light commercial work. Every machine ships with a 5-year / 3,000-hour warranty, Canadian dealer parts support, and flexible financing on approved credit. Call 1 (800) 686-1036 or email info@mammothmachinery"
+ },
+ {
+  "pid": 3678,
+  "label": "blog-skidvtrack",
+  "wid": "8ef0bd61",
+  "key": "icon_list.text",
+  "before": "Financing from 1.99% to 0% APR",
+  "after": "Financing available"
+ },
+ {
+  "pid": 3678,
+  "label": "blog-skidvtrack",
+  "wid": "b238b678",
+  "key": "editor",
+  "before": "<p>Mammoth offers both mini skid steers and full-size track loaders, all backed by a 5-year / 3,000-hour warranty, Canadian dealer support, and flexible financing from 1.99% to 0% O.A.C. Call 1 (800) 686-1036 or email info@mammothmachinery.ca.</p>",
+  "after": "<p>Mammoth offers both mini skid steers and full-size track loaders, all backed by a 5-year / 3,000-hour warranty, Canadian dealer support, and flexible financing on approved credit. Call 1 (800) 686-1036 or email info@mammothmachinery.ca.</p>"
+ },
+ {
+  "pid": 3771,
+  "label": "blog-buggy",
+  "wid": "208db522",
+  "key": "icon_list.text",
+  "before": "Financing up to 72 Months",
+  "after": "Financing Options"
+ },
+ {
+  "pid": 3771,
+  "label": "blog-buggy",
+  "wid": "1811147a",
+  "key": "editor",
+  "before": "<p>Mammoth builds wheeled and tracked machines tuned for Canadian pours, from a tight backyard patio to a full commercial slab. Every one ships with our 5-year / 3,000-hour limited warranty, Canadian dealer support, and flexible financing up to 72 months O.A.C. Give us a call at 1 (800) 686-1036 or ",
+  "after": "<p>Mammoth builds wheeled and tracked machines tuned for Canadian pours, from a tight backyard patio to a full commercial slab. Every one ships with our 5-year / 3,000-hour limited warranty, Canadian dealer support, and flexible financing on approved credit. Give us a call at 1 (800) 686-1036 or ema"
+ },
+ {
+  "pid": 3862,
+  "label": "high-dump",
+  "wid": "7d9a0289",
+  "key": "icon_list.text",
+  "before": "Financing up to 72 Months",
+  "after": "Financing Options"
+ },
+ {
+  "pid": 3862,
+  "label": "high-dump",
+  "wid": "96a5ebe6",
+  "key": "editor",
+  "before": "<p>Both our tracked and wheeled mini dumpers come in high-dump configurations, and every one of them is backed by Mammoth&#8217;s 5-year / 3,000-hour limited warranty, which is the strongest standard coverage in the Canadian compact equipment market. Financing runs up to 72 months O.A.C. Give us a c",
+  "after": "<p>Both our tracked and wheeled mini dumpers come in high-dump configurations, and every one of them is backed by Mammoth&#8217;s 5-year / 3,000-hour limited warranty, which is the strongest standard coverage in the Canadian compact equipment market. Financing is available on approved credit. Give u"
+ },
+ {
+  "pid": 3890,
+  "label": "blog-attach",
+  "wid": "05d3bb73",
+  "key": "icon_list.text",
+  "before": "Financing up to 72 Months",
+  "after": "Financing Options"
+ },
+ {
+  "pid": 3903,
+  "label": "blog-minivfull",
+  "wid": "8639b128",
+  "key": "icon_list.text",
+  "before": "Financing up to 72 Months",
+  "after": "Financing Options"
+ },
+ {
+  "pid": 3903,
+  "label": "blog-minivfull",
+  "wid": "97adde01",
+  "key": "editor",
+  "before": "<p>Mammoth&#8217;s X-Loader mini skid steers are built for tight Canadian access, and we carry the bigger machines when the work calls for more. Every unit ships with a 5-year / 3,000-hour warranty, Canadian dealer support, and <a href='https://mammothmachinery.ca/financing/' style='color:#01B51B;fo",
+  "after": "<p>Mammoth&#8217;s X-Loader mini skid steers are built for tight Canadian access, and we carry the bigger machines when the work calls for more. Every unit ships with a 5-year / 3,000-hour warranty, Canadian dealer support, and <a href='https://mammothmachinery.ca/financing/' style='color:#01B51B;fo"
+ },
+ {
+  "pid": 3994,
+  "label": "MTL1000",
+  "wid": "02cd12c5",
+  "key": "editor",
+  "before": "<p>Every MTL1000 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available from",
+  "after": "<p>Every MTL1000 is covered by the <a href=\"https://mammothmachinery.ca/mammoth-machinery-warranty/\">Mammoth 5-Year / 3,000-Hour Warranty</a>, the same industry-leading coverage that backs the whole Mammoth fleet.</p><p><a href=\"https://mammothmachinery.ca/financing/\">Financing</a> is available. Par"
+ },
+ {
+  "pid": 4012,
+  "label": "blog-warranty",
+  "wid": "f91edaaa",
+  "key": "editor",
+  "before": "<p>The systems it engineers and builds: chassis frames, hydraulic pumps and motors, control valves, drive systems, and structural welds. On Mammoth machines that means powertrain, hydraulics, and structure for the full term.</p>",
+  "after": "<p>The systems it engineers and builds: chassis frames, hydraulic pumps and motors, control valves, drive systems, and structural welds. On Mammoth machines that means hydraulics, chassis and structure for the full term.</p>"
+ },
+ {
+  "pid": 4012,
+  "label": "blog-warranty",
+  "wid": "4dd13430",
+  "key": "title",
+  "before": "Powertrain, hydraulics, structure",
+  "after": "Hydraulics, chassis, structure"
+ },
+ {
+  "pid": 4012,
+  "label": "blog-warranty",
+  "wid": "9748c8c0",
+  "key": "editor",
+  "before": "<p>Engines integrated into Mammoth equipment, primarily Kubota and Yanmar, are covered by the engine manufacturer under its own warranty terms. Everything Mammoth engineers around the engine, including powertrain, hydraulics, and structure, is covered by the Mammoth warranty.</p>",
+  "after": "<p>Engines integrated into Mammoth equipment, primarily Kubota and Yanmar, are covered by the engine manufacturer under its own warranty terms. Everything Mammoth engineers around the engine, including hydraulics, chassis and structure, is covered by the Mammoth warranty.</p>"
+ },
+ {
+  "pid": 4012,
+  "label": "blog-warranty",
+  "wid": "c3fc1631",
+  "key": "editor",
+  "before": "<p>Five years or 3,000 hours on powertrain, hydraulics, and structure, standard on every machine in the lineup. Read the full terms, then pick the machine.</p>",
+  "after": "<p>Five years or 3,000 hours on hydraulics, chassis and structure, standard on every machine in the lineup. Read the full terms, then pick the machine.</p>"
+ },
+ {
+  "pid": 4023,
+  "label": "blog4",
+  "wid": "6a1904dd",
+  "key": "editor",
+  "before": "<p>The warranty is part of the money decision too: 5 years or 3,000 hours on powertrain, hydraulics, and structure, standard on every model. Coverage that long protects resale value, which lenders notice.</p>",
+  "after": "<p>The warranty is part of the money decision too: 5 years or 3,000 hours on hydraulics, chassis and structure, standard on every model. Coverage that long protects resale value, which lenders notice.</p>"
+ },
+ {
+  "pid": 4023,
+  "label": "blog4",
+  "wid": "aff3d926",
+  "key": "editor",
+  "before": "<p>No. Every X-Cavator carries the same 5-year / 3,000-hour coverage on powertrain, hydraulics, and structure, with the Kubota engine covered by Kubota's own program. The <a href='https://mammothmachinery.ca/what-does-5-year-equipment-warranty-cover/' style='color:#01B51B;font-weight:600;'>warranty ",
+  "after": "<p>No. Every X-Cavator carries the same 5-year / 3,000-hour coverage on hydraulics, chassis and structure, with the Kubota engine covered by Kubota's own program. The <a href='https://mammothmachinery.ca/what-does-5-year-equipment-warranty-cover/' style='color:#01B51B;font-weight:600;'>warranty guid"
+ },
+ {
+  "pid": 4026,
+  "label": "blog5",
+  "wid": "d57edcff",
+  "key": "editor",
+  "before": "<p>Coverage runs 5 years or 3,000 hours on powertrain, hydraulics and structure, whichever comes first. For a seasonal landscaping operation, 3,000 hours is a lot of springs.</p>",
+  "after": "<p>Coverage runs 5 years or 3,000 hours on hydraulics, chassis and structure, whichever comes first. For a seasonal landscaping operation, 3,000 hours is a lot of springs.</p>"
+ },
+ {
+  "pid": 4031,
+  "label": "blog7",
+  "wid": "d14e35da",
+  "key": "editor",
+  "before": "<p>Coverage is 5 years or 3,000 hours on powertrain, hydraulics and structure, whichever comes first, on every model in the range.</p>",
+  "after": "<p>Coverage is 5 years or 3,000 hours on hydraulics, chassis and structure, whichever comes first, on every model in the range.</p>"
+ },
+ {
+  "pid": 4031,
+  "label": "blog7",
+  "wid": "80788183",
+  "key": "editor",
+  "before": "<p>5 years or 3,000 hours on powertrain, hydraulics and structure, whichever comes first, with the engine covered by Cummins. The <a href='https://mammothmachinery.ca/what-does-5-year-equipment-warranty-cover/' style='color:#01B51B;font-weight:600;'>warranty guide</a> explains the split in plain lan",
+  "after": "<p>5 years or 3,000 hours on hydraulics, chassis and structure, whichever comes first, with the engine covered by Cummins. The <a href='https://mammothmachinery.ca/what-does-5-year-equipment-warranty-cover/' style='color:#01B51B;font-weight:600;'>warranty guide</a> explains the split in plain langua"
+ }
+]

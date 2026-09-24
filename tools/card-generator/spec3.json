@@ -1,0 +1,69 @@
+{
+  "_note": "Four further layouts. Content again lifted from the posts, not invented.",
+  "cards": [
+    {
+      "file": "flags-clinic",
+      "layout": "checklist",
+      "purpose": "Post 9871. Left column from its Key Takeaways, right column verbatim from its 'Red Flags to Walk Away From' list.",
+      "title": ["Green Flags vs ", "Red Flags", ""],
+      "good": {
+        "heading": "Look for",
+        "items": [
+          "Bloodwork before any prescription",
+          "Board-certified provider listed publicly",
+          "Flat monthly cost stated upfront",
+          "Written maintenance and taper plan"
+        ]
+      },
+      "bad": {
+        "heading": "Walk away from",
+        "items": [
+          "Promises of a specific number of pounds",
+          "Pricing hidden behind a consultation",
+          "Prescribing without bloodwork",
+          "Pressure to sign a long-term contract"
+        ]
+      }
+    },
+    {
+      "file": "timeline-trt",
+      "layout": "timeline",
+      "purpose": "Post 9402 FAQ: mood and energy in 3 to 6 weeks, physical change at 3 to 6 months. Post 9270 adds the labs-first step.",
+      "title": ["What to Expect, ", "and When", ""],
+      "nodes": [
+        { "time": "Week 0", "label": "Baseline labs", "note": "Free and total testosterone" },
+        { "time": "Weeks 3-6", "label": "Mood and energy", "note": "Fog lifts, drive returns" },
+        { "time": "Months 3-6", "label": "Body composition", "note": "Lean mass, grip strength" },
+        { "time": "Ongoing", "label": "Monitoring", "note": "Hematocrit and estrogen" }
+      ]
+    },
+    {
+      "file": "alert-heat-stroke",
+      "layout": "alert",
+      "purpose": "Post 10043. Its own TL;DR: confusion, stopped sweating, or temperature above 103F means call 911.",
+      "kicker": "Heat stroke",
+      "headline": "Call 911",
+      "signs": [
+        { "icon": "brain", "text": "Confusion or slurred speech" },
+        { "icon": "thermometer", "text": "Temperature above 103°F" },
+        { "icon": "circle-x", "text": "Hot skin, sweating has stopped" }
+      ],
+      "footer": "Minutes matter. Cool the skin while you wait."
+    },
+    {
+      "file": "questions-clinic",
+      "layout": "numbered",
+      "purpose": "Post 9871 is literally '7 Questions to Ask First'. These are its seven H2s, condensed to the question itself.",
+      "title": ["7 Questions to ", "Ask First", ""],
+      "items": [
+        "Are the providers board-certified?",
+        "Does the program start with bloodwork?",
+        "Is the GLP-1 FDA-approved or compounded?",
+        "Is pricing transparent or hidden?",
+        "Is there a written maintenance plan?",
+        "How are results actually measured?",
+        "How is this different from a diet?"
+      ]
+    }
+  ]
+}

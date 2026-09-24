@@ -1,0 +1,1118 @@
+[
+  {
+    "id": 4410,
+    "section": "Go to the ER Now: Symptoms That Cannot Wait",
+    "alt": "Six symptoms after a car accident that need the emergency room now, even if you feel fine at the scene",
+    "impr": 0,
+    "cover": 0.375,
+    "miss": [
+      "er",
+      "go",
+      "have",
+      "wreck",
+      "long"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 4410,
+    "section": "911, ER, or Watch at Home?",
+    "alt": "Whether to call 911, go to the ER today, or watch at home after a car accident",
+    "impr": 0,
+    "cover": 0.625,
+    "miss": [
+      "have",
+      "wreck",
+      "long"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 4345,
+    "section": "When Food Poisoning Becomes an Emergency",
+    "alt": "Five signs that food poisoning has become an emergency: bloody diarrhea, diarrhea past three days, high fever, inability to keep liquids down, and dehydration",
+    "impr": 0,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "last",
+      "long",
+      "timeline",
+      "adult"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 4345,
+    "section": "How to Recover at Home",
+    "alt": "Four steps to recover from food poisoning at home, including when to avoid anti-diarrhea medicine",
+    "impr": 0,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "last",
+      "long",
+      "timeline",
+      "adult"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 4011,
+    "section": "Recognizing the Signs: Hantavirus Symptoms vs. The Common Flu",
+    "alt": "Eight hantavirus symptoms, which are easily mistaken for the common flu",
+    "impr": 0,
+    "cover": 0.4,
+    "miss": [
+      "hanaviru",
+      "texa",
+      "catch"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3978,
+    "section": "Red Flags That Need Emergency Care",
+    "alt": "Six chest pain warning signs that mean calling 911 rather than waiting",
+    "impr": 0,
+    "cover": 0.2222222222222222,
+    "miss": [
+      "tell",
+      "muscular",
+      "lung",
+      "muscle",
+      "pull",
+      "strain",
+      "muscl"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3978,
+    "section": "How ER of Irving Tells Them Apart",
+    "alt": "The five tests an emergency room uses to identify the cause of chest pain",
+    "impr": 0,
+    "cover": 0.2222222222222222,
+    "miss": [
+      "tell",
+      "muscular",
+      "lung",
+      "muscle",
+      "pull",
+      "strain",
+      "muscl"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3977,
+    "section": "7 Symptoms of a Hairline Fracture",
+    "alt": "Seven signs of a hairline fracture: pain at one exact spot, worse with activity, swelling without heavy bruising, tenderness when pressed, no relief from rest, weakness bearing weight, and pain worse at night",
+    "impr": 4932,
+    "cover": 0.75,
+    "miss": [
+      "wrist"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3977,
+    "section": "Why X-Rays Sometimes Miss Hairline Fractures",
+    "alt": "Three next steps when an x-ray does not show a suspected hairline fracture: repeat the x-ray, a CT scan, or an MRI",
+    "impr": 0,
+    "cover": 0.6666666666666667,
+    "miss": [
+      "sign"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3977,
+    "section": "When to Visit the ER vs Wait",
+    "alt": "Five signs that a suspected hairline fracture needs the emergency room rather than waiting",
+    "impr": 0,
+    "cover": 1.0,
+    "miss": [],
+    "scoped": false
+  },
+  {
+    "id": 3937,
+    "section": "When to Head Straight to the Emergency Room",
+    "alt": "Poison ivy rash signs that need urgent care beside the signs that need the emergency room",
+    "impr": 0,
+    "cover": 0.6,
+    "miss": [
+      "face",
+      "systemic"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3934,
+    "section": "The Risk of Pulmonary Embolism (PE)",
+    "alt": "Five warning signs of a pulmonary embolism, which is when a blood clot travels to the lungs",
+    "impr": 0,
+    "cover": 0.0,
+    "miss": [
+      "thrombosi",
+      "massage",
+      "vein",
+      "not",
+      "patient",
+      "information",
+      "deep",
+      "suspect",
+      "advice",
+      "medical",
+      "dvt",
+      "leaflet"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3934,
+    "section": "How We Diagnose DVT: On-site Blood Tests and Imaging",
+    "alt": "How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed",
+    "impr": 0,
+    "cover": 0.08333333333333337,
+    "miss": [
+      "thrombosi",
+      "massage",
+      "vein",
+      "not",
+      "patient",
+      "information",
+      "deep",
+      "suspect",
+      "advice",
+      "medical",
+      "leaflet"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3930,
+    "section": "How to Tell if Your Cut Needs Professional Care",
+    "alt": "Five tests for whether a cut needs stitches or emergency care",
+    "impr": 0,
+    "cover": 0.5,
+    "miss": [
+      "glue"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3930,
+    "section": "Stitches vs. Medical Glue: What\u2019s the Difference?",
+    "alt": "Stitches and skin glue compared on the wounds each suits, strength and removal",
+    "impr": 273,
+    "cover": 0.4,
+    "miss": [
+      "care",
+      "super",
+      "cut"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3930,
+    "section": "How long can you wait to get stitches?",
+    "alt": "Six to twelve hours is the window for getting a deep cut stitched",
+    "impr": 30,
+    "cover": 0.25,
+    "miss": [
+      "long",
+      "wait",
+      "get"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3930,
+    "section": "What to Expect During Your Visit",
+    "alt": "The four stages of having a deep cut closed: numbing, irrigation, closure, and aftercare",
+    "impr": 0,
+    "cover": 0.0,
+    "miss": [
+      "stitch",
+      "glue"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3924,
+    "section": "Recognizing the Red Flags: Symptoms You Can\u2019t Ignore",
+    "alt": "Three red flags of a peritonsillar abscess: drooling, a swollen tender lump under the jaw, and the uvula pushed to one side",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "hot",
+      "voice",
+      "potato",
+      "throat",
+      "contagiou",
+      "quinsy"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3924,
+    "section": "Diagnosis and Immediate Care",
+    "alt": "How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "hot",
+      "voice",
+      "potato",
+      "throat",
+      "contagiou",
+      "quinsy"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3921,
+    "section": "When to Seek Immediate Help: Child Fever ER Guidelines",
+    "alt": "Fever temperature thresholds and the right action for three child age groups",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "103",
+      "normal",
+      "not",
+      "hota",
+      "hai",
+      "kitna"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3921,
+    "section": "Dehydration Signs: What to Watch For",
+    "alt": "Five signs of dehydration to watch for in a child with a high fever",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "103",
+      "normal",
+      "not",
+      "hota",
+      "hai",
+      "kitna"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3921,
+    "section": "When a Fever Causes Seizures (Febrile Seizures)",
+    "alt": "Four steps to take while a child is having a febrile seizure",
+    "impr": 0,
+    "cover": 0.0,
+    "miss": [
+      "fever",
+      "103",
+      "normal",
+      "not",
+      "hota",
+      "hai",
+      "kitna"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3921,
+    "section": "At-Home Comfort Measures vs. Medical Intervention",
+    "alt": "What to do and what to avoid when caring for a child's fever of 101 to 102 degrees at home",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "103",
+      "normal",
+      "not",
+      "hota",
+      "hai",
+      "kitna"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3918,
+    "section": "Rapid Relief for Toe and Joint Pain",
+    "alt": "Five ways to relieve a gout flare at home: elevate the joint, apply ice, hydrate, avoid trigger foods, and take NSAIDs",
+    "impr": 0,
+    "cover": 0.19999999999999996,
+    "miss": [
+      "stop",
+      "pain",
+      "night",
+      "sign"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3918,
+    "section": "Distinguishing Gout from Infection",
+    "alt": "Four red flags that a painful joint is infected rather than a gout flare",
+    "impr": 0,
+    "cover": 0.19999999999999996,
+    "miss": [
+      "stop",
+      "pain",
+      "night",
+      "sign"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3897,
+    "section": "Emergency Allergy Stabilization: What Happens at the Hospital?",
+    "alt": "What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation",
+    "impr": 0,
+    "cover": 0.06451612903225812,
+    "miss": [
+      "give",
+      "done",
+      "reaction",
+      "epinephrine",
+      "administer",
+      "place",
+      "food",
+      "b",
+      "shower",
+      "drink",
+      "911",
+      "d",
+      "injection",
+      "activity",
+      "athletic",
+      "resume",
+      "improve",
+      "cold",
+      "immediately",
+      "student",
+      "severe",
+      "allergic",
+      "c",
+      "call",
+      "day",
+      "epipen",
+      "side",
+      "effect",
+      "next"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3897,
+    "section": "Recognizing Red Flags: When a Throat Feels Tight or Breathing Changes",
+    "alt": "Four red flags that an allergic reaction is returning after an EpiPen: throat tightness, new hives, faintness, and severe stomach symptoms",
+    "impr": 0,
+    "cover": 0.19354838709677424,
+    "miss": [
+      "give",
+      "done",
+      "epinephrine",
+      "administer",
+      "place",
+      "food",
+      "b",
+      "shower",
+      "drink",
+      "911",
+      "d",
+      "injection",
+      "activity",
+      "athletic",
+      "resume",
+      "improve",
+      "cold",
+      "immediately",
+      "student",
+      "c",
+      "call",
+      "day",
+      "side",
+      "effect",
+      "next"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3894,
+    "section": "Recognizing Heart Attack Symptoms: More Than Just \"Chest Pain\"",
+    "alt": "Common heart attack signs beside the signs that more often appear in women",
+    "impr": 0,
+    "cover": 0.0,
+    "miss": [
+      "emergency",
+      "chest",
+      "heartburn",
+      "pain",
+      "medlineplu",
+      "site",
+      "erofirv",
+      "com"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3886,
+    "section": "The F.A.S.T. Method: 4 Warning Signs of Stroke",
+    "alt": "The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "like",
+      "feel",
+      "woman"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3886,
+    "section": "The First 5 Minutes: Exactly What To Do",
+    "alt": "Five steps to take in the first five minutes of a suspected stroke",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "like",
+      "feel",
+      "woman"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3886,
+    "section": "What Not To Do: 4 Mistakes That Cost Critical Minutes",
+    "alt": "Four common mistakes during a suspected stroke and why each one wastes critical time",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "like",
+      "feel",
+      "woman"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3886,
+    "section": "What Happens When You Arrive at the ER of Irving for a Suspected Stroke",
+    "alt": "The stroke workup at ER of Irving: exam within fifteen minutes, CT within twenty five, results within forty five, treatment decision within sixty",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "like",
+      "feel",
+      "woman"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3882,
+    "section": "Understanding Burn Severity: More Than Just Redness",
+    "alt": "First, second and third degree burns compared on skin depth, signs and outlook",
+    "impr": 0,
+    "cover": 0.6,
+    "miss": [
+      "3rd",
+      "1st"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3882,
+    "section": "Immediate First Aid: What to Do (And What to Avoid)",
+    "alt": "Burn first aid steps to take beside the common mistakes that make a burn worse",
+    "impr": 0,
+    "cover": 0.19999999999999996,
+    "miss": [
+      "degree",
+      "second",
+      "3rd",
+      "1st"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3875,
+    "section": "When Should You Go to the ER?",
+    "alt": "Six symptoms that mean going to the emergency room rather than waiting",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "irv",
+      "893",
+      "er",
+      "3148",
+      "972",
+      "treatment"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3871,
+    "section": "Essential Near Drowning Symptoms to Watch For",
+    "alt": "Six near-drowning warning signs to watch for in the hours after a pool incident",
+    "impr": 401,
+    "cover": 1.0,
+    "miss": [],
+    "scoped": true
+  },
+  {
+    "id": 3867,
+    "section": "Dizziness and Flu-like Symptoms: Recognizing Carbon Monoxide Poisoning",
+    "alt": "Five symptoms of carbon monoxide poisoning that are easily mistaken for the flu",
+    "impr": 458,
+    "cover": 0.4,
+    "miss": [
+      "nausea",
+      "headache",
+      "dizzines",
+      "cdc",
+      "official",
+      "immediately"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3867,
+    "section": "Immediate Steps: What to Do in an Emergency",
+    "alt": "Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked",
+    "impr": 0,
+    "cover": 0.19999999999999996,
+    "miss": [
+      "sign",
+      "poison",
+      "nausea",
+      "headache",
+      "dizzines",
+      "official",
+      "cdc",
+      "detector"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3862,
+    "section": "Sepsis Symptoms: How to Spot the Red Flags Early",
+    "alt": "Six early signs of sepsis: racing heart, fever or shivering, confusion, breathlessness, extreme pain, and clammy mottled skin",
+    "impr": 2499,
+    "cover": 0.6666666666666667,
+    "miss": [
+      "adult"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3862,
+    "section": "What to Do If You Suspect Sepsis",
+    "alt": "Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began",
+    "impr": 0,
+    "cover": 1.0,
+    "miss": [],
+    "scoped": false
+  },
+  {
+    "id": 3858,
+    "section": "Why Home Remedies Fall Short for Larger Stones",
+    "alt": "Kidney stones under four millimeters usually pass on their own, while stones of six millimeters or larger often need medical treatment",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "relief",
+      "pain",
+      "stone",
+      "sign",
+      "remedi",
+      "home"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3858,
+    "section": "Red Flags: When to Stop Home Care and Go to the ER",
+    "alt": "Five kidney stone red flags that mean stopping home care and going to the emergency room",
+    "impr": 0,
+    "cover": 0.4285714285714286,
+    "miss": [
+      "relief",
+      "pain",
+      "sign",
+      "remedi"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3854,
+    "section": "When to Head to the Emergency Room",
+    "alt": "Four signs of diabetic ketoacidosis that need the emergency room: vomiting, high ketones, blood sugar above 300, and rapid deep breathing",
+    "impr": 0,
+    "cover": 0.8,
+    "miss": [
+      "cdc",
+      "official"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3833,
+    "section": "Recognizing the Danger: Migraine vs. Emergency Symptoms",
+    "alt": "Five red flags that a severe headache may be an aneurysm rather than a migraine",
+    "impr": 61,
+    "cover": 0.6666666666666667,
+    "miss": [
+      "sign"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3833,
+    "section": "Emergency Treatment: Migraine Cocktail vs. Emergency Stabilization",
+    "alt": "What the emergency room gives for a migraine compared with how it stabilizes a suspected aneurysm",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "headache",
+      "thunderclap",
+      "eye",
+      "left",
+      "behind",
+      "brain"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3825,
+    "section": "Identifying Infection: Signs of Cellulitis and Beyond",
+    "alt": "Five signs that a dog bite is becoming infected, including spreading redness, warmth, pus and fever",
+    "impr": 0,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "infection",
+      "tick",
+      "lone",
+      "star"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3825,
+    "section": "At-Home First Aid: What to Do in the First 10 Minutes",
+    "alt": "Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound",
+    "impr": 0,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "infection",
+      "tick",
+      "lone",
+      "star"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3825,
+    "section": "When to Seek Emergency Care for a Dog Bite in Irving",
+    "alt": "Four situations where a dog bite needs emergency care: an unknown dog, bleeding that will not stop, a deep or facial wound, or a weakened immune system",
+    "impr": 0,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "infection",
+      "tick",
+      "lone",
+      "star"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3816,
+    "section": "Recognizing the Red Flags: When to Seek Urgent Care",
+    "alt": "Five eye symptoms that need emergency care: severe pain, pain with headache or fever, sudden vision loss, halos around lights, and trauma",
+    "impr": 0,
+    "cover": 0.8,
+    "miss": [
+      "medlineplu",
+      "seek"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3816,
+    "section": "Scratched Cornea Symptoms: More Than Just an Irritation",
+    "alt": "Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision",
+    "impr": 0,
+    "cover": 0.19999999999999996,
+    "miss": [
+      "loss",
+      "sudden",
+      "emergency",
+      "medlineplu",
+      "eye",
+      "pain",
+      "care",
+      "seek"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3816,
+    "section": "When \"Seeing Spots\" is a Retinal Emergency",
+    "alt": "Three retinal emergency signs: flashes of light, a curtain across the vision, and a sudden shower of floaters",
+    "impr": 0,
+    "cover": 0.4,
+    "miss": [
+      "loss",
+      "medlineplu",
+      "eye",
+      "pain",
+      "care",
+      "seek"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3816,
+    "section": "Protecting Your Sight: Immediate Steps to Take",
+    "alt": "Three things not to do after an eye injury, and the one thing you should do",
+    "impr": 0,
+    "cover": 0.09999999999999998,
+    "miss": [
+      "loss",
+      "sudden",
+      "emergency",
+      "vision",
+      "medlineplu",
+      "sign",
+      "pain",
+      "care",
+      "seek"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3813,
+    "section": "Recognizing Key Appendicitis Symptoms",
+    "alt": "How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement",
+    "impr": 0,
+    "cover": 0.5714285714285714,
+    "miss": [
+      "abdominal",
+      "tendernes",
+      "rebound"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3813,
+    "section": "What to Expect at the Clinic or ER",
+    "alt": "The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy",
+    "impr": 0,
+    "cover": 0.1428571428571429,
+    "miss": [
+      "pain",
+      "right",
+      "abdominal",
+      "lower",
+      "tendernes",
+      "rebound"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3808,
+    "section": "RSV Symptoms in Infants: The Tell-Tale Signs",
+    "alt": "Four signs of RSV in an infant, which typically peak on day three to five",
+    "impr": 14,
+    "cover": 0.6666666666666667,
+    "miss": [
+      "adult"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3808,
+    "section": "When to Head to the ER: Oxygen Levels and Critical Warnings",
+    "alt": "Five breathing and hydration signs in a child that mean emergency care rather than home care",
+    "impr": 0,
+    "cover": 0.0,
+    "miss": [
+      "flue",
+      "babysbreath",
+      "adenoviru",
+      "newborn",
+      "normal",
+      "rr"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3803,
+    "section": "Red Flags: How to Tell if Your Child Swallowed a Battery",
+    "alt": "Six signs that a swallowed button battery is lodged in a child's throat",
+    "impr": 114,
+    "cover": 0.5714285714285714,
+    "miss": [
+      "know",
+      "aaa",
+      "tell"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3803,
+    "section": "The 2-Hour Window: Why Every Minute Counts",
+    "alt": "Two hours is how long a swallowed button battery can take to burn through the esophagus",
+    "impr": 0,
+    "cover": 0.2857142857142857,
+    "miss": [
+      "sign",
+      "after",
+      "show",
+      "poison",
+      "toddler",
+      "treatment",
+      "correct",
+      "who",
+      "coin",
+      "has"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3803,
+    "section": "Step-by-Step Emergency Actions for Parents",
+    "alt": "Three things not to do after a child swallows a button battery, and why each one causes harm",
+    "impr": 0,
+    "cover": 0.2857142857142857,
+    "miss": [
+      "sign",
+      "long",
+      "show",
+      "poison",
+      "toddler",
+      "treatment",
+      "correct",
+      "who",
+      "coin",
+      "has"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3800,
+    "section": "Recognizing the Signs: Is My Child Dehydrated?",
+    "alt": "Mild to moderate signs of dehydration in a child beside the severe signs that need emergency care",
+    "impr": 0,
+    "cover": 0.16666666666666663,
+    "miss": [
+      "babi",
+      "toddler",
+      "go",
+      "without",
+      "long",
+      "drink",
+      "diaper",
+      "wet",
+      "mean",
+      "fewer"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3800,
+    "section": "When to Seek Emergency Medical Care",
+    "alt": "Five signs that a vomiting child needs emergency care",
+    "impr": 0,
+    "cover": 0.08333333333333337,
+    "miss": [
+      "babi",
+      "dehydration",
+      "toddler",
+      "go",
+      "without",
+      "long",
+      "drink",
+      "diaper",
+      "wet",
+      "mean",
+      "fewer"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3792,
+    "section": "Immediate First Aid: The \"Dos\" and \"Don\u2019ts\"",
+    "alt": "Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently",
+    "impr": 0,
+    "cover": 0.5,
+    "miss": [
+      "copperhead",
+      "treatment"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3201,
+    "section": "10 Warning Signs of Dehydration:",
+    "alt": "Ten warning signs of dehydration, from excessive thirst and dark urine to a rapid heartbeat and confusion",
+    "impr": 123913,
+    "cover": 0.75,
+    "miss": [
+      "adult"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3201,
+    "section": "How Is Dehydration Evaluated?",
+    "alt": "The four checks an emergency room uses to evaluate dehydration: vital signs, physical exam, urinalysis and blood tests",
+    "impr": 0,
+    "cover": 0.6666666666666667,
+    "miss": [
+      "adult"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3103,
+    "section": "How Are Bone Injuries Diagnosed?",
+    "alt": "How the emergency room distinguishes a fracture from a bone bruise: examination, movement tests, palpation, x-ray and CT",
+    "impr": 0,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "heal",
+      "fast",
+      "recovery",
+      "time"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3103,
+    "section": "How to Heal a Bone Bruise Fast",
+    "alt": "Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation",
+    "impr": 10525,
+    "cover": 0.4285714285714286,
+    "miss": [
+      "take",
+      "long",
+      "sign",
+      "shin"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3103,
+    "section": "When to Seek Medical Attention",
+    "alt": "Six signs that a bone injury needs emergency care rather than home treatment",
+    "impr": 0,
+    "cover": 0.16666666666666663,
+    "miss": [
+      "bruise",
+      "heal",
+      "fast",
+      "recovery",
+      "time"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3097,
+    "section": "What Are the Symptoms of Slipping Rib Syndrome?",
+    "alt": "Five symptoms of slipping rib syndrome: sharp lower chest pain, a clicking or popping sensation, a lingering dull ache, pain radiating to the back, and tenderness over the rib",
+    "impr": 0,
+    "cover": 0.75,
+    "miss": [
+      "dangerou"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3097,
+    "section": "When Should You Seek Medical Attention?",
+    "alt": "Four signs that slipping rib pain needs medical attention rather than waiting",
+    "impr": 0,
+    "cover": 0.5,
+    "miss": [
+      "syndrome",
+      "dangerou"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3091,
+    "section": "When Do I Need an IV for Dehydration?",
+    "alt": "Three signs that dehydration needs IV fluids: unrelenting thirst, dizziness or fainting, and dark urine with confusion",
+    "impr": 1420,
+    "cover": 0.6,
+    "miss": [
+      "drip",
+      "therapy"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3091,
+    "section": "How Long Does IV Hydration Last?",
+    "alt": "A typical IV hydration session takes thirty to sixty minutes",
+    "impr": 113,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "take",
+      "long"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 3081,
+    "section": "What to Expect When Getting an X-Ray at the Emergency Room",
+    "alt": "The three stages of an emergency room x-ray: check in, imaging in five to ten minutes, results in twenty to thirty minutes",
+    "impr": 0,
+    "cover": 0.375,
+    "miss": [
+      "er",
+      "long",
+      "take",
+      "get",
+      "xray"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 3081,
+    "section": "When to Choose the Emergency Room for an X-Ray",
+    "alt": "Five situations where the emergency room is the right place for an x-ray",
+    "impr": 0,
+    "cover": 0.25,
+    "miss": [
+      "result",
+      "er",
+      "long",
+      "take",
+      "get",
+      "xray"
+    ],
+    "scoped": false
+  },
+  {
+    "id": 2780,
+    "section": "When is urgent care the right choice?",
+    "alt": "Symptoms that need an emergency room listed beside minor problems urgent care can treat",
+    "impr": 2,
+    "cover": 0.75,
+    "miss": [
+      "cost"
+    ],
+    "scoped": true
+  },
+  {
+    "id": 2780,
+    "section": "What does an emergency visit cost in Irving?",
+    "alt": "Five situations where calling 911 is safer than driving yourself to the emergency room",
+    "impr": 1,
+    "cover": 0.33333333333333337,
+    "miss": [
+      "treatment",
+      "irv"
+    ],
+    "scoped": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+ "cards": [
+  {
+   "file": "correcting-estrogen-balance-v2",
+   "post_id": 9173,
+   "layout": "icons",
+   "subject": "estrogen",
+   "heading": "Correcting the Balance",
+   "title": [
+    "Restoring ",
+    "Estrogen",
+    " Balance"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Restoring estrogen balance through liver support, nutrition and strength training, and BHRT under medical supervision",
+   "items": [
+    {
+     "icon": "flask-conical",
+     "label": "Liver support",
+     "note": "It metabolizes hormones"
+    },
+    {
+     "icon": "salad",
+     "label": "Nutrition and strength",
+     "note": "Steady blood sugar, kept muscle"
+    },
+    {
+     "icon": "pill",
+     "label": "BHRT",
+     "note": "Supervised, not for everyone"
+    }
+   ],
+   "old_file": "correcting-estrogen-balance"
+  }
+ ]
+}

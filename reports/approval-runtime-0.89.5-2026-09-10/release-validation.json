@@ -1,0 +1,21 @@
+{
+  "version": "0.89.5",
+  "sha256": "3007b51c9f1a8ee04d4678ec924369c828146aaa95064e28805ed18bfde59d2d",
+  "shipping_files": 159,
+  "php_syntax_files": 207,
+  "regression_test_files": 60,
+  "runtime_test_assertions": 67,
+  "incident_payload_cases": 6,
+  "mcp_tools": 177,
+  "crc_valid": true,
+  "zip_matches_source": true,
+  "production_installed": false,
+  "live_remaining_ids": [
+    1814,
+    1815,
+    1816,
+    1818,
+    1819,
+    1820
+  ]
+}

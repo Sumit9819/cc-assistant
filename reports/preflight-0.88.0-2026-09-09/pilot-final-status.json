@@ -1,0 +1,101 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.88.0"
+      }
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": false,
+    "result": {
+      "id": 5525,
+      "title": "What to Tell the ER Team: A Medication and Symptom Note",
+      "slug": "what-to-tell-er-team",
+      "status": "draft",
+      "type": "post",
+      "content": "<p>A short note can help you explain what is happening when you or someone you care for needs emergency care. Use information you already have. <strong>Do not delay emergency treatment to complete this checklist or collect paperwork.</strong> If a situation may be life threatening, call 911. The <a href=\"https://medlineplus.gov/ency/article/001927.htm\">MedlinePlus guide to medical emergencies</a> explains warning signs and when emergency help is needed.</p>\n<p>This guide focuses on communicating with the care team. It does not diagnose symptoms, decide which tests you need, or promise a shorter visit. For an overview of care available locally, see <a href=\"https://erofwhiterock.com/emergency-services-er-of-white-rock/\">ER of White Rock's emergency services</a>.</p>\n<h2>Start with what changed</h2>\n<p>Describe the concern in your own words. You do not need a medical term. If you know when it started, say so. If you do not know, tell the team that instead of estimating with false confidence.</p>\n<p>For example, a caregiver might say: “The pain started this afternoon. I do not know the exact time. It was mild at first and became harder to ignore.” This is an example of describing an observation, not a way to judge how serious a symptom is.</p>\n<p>Separate what you saw from what someone told you. If you are helping a family member, explain which details came directly from them. Let the clinician ask the questions needed for the assessment.</p>\n<h2>Share medicines and previous reactions</h2>\n<p>Tell the team about prescription medicines, medicines bought without a prescription, supplements and herbs. Share the names and doses you know, and identify anything you cannot confirm. A current list can help. Tell the team about allergies and previous medicine reactions, including what happened.</p>\n<p><a href=\"https://medlineplus.gov/ency/patientinstructions/000501.htm\">MedlinePlus medication-safety guidance</a> recommends making sure the care team knows what you take. During care, do not take medicines brought from home unless your treating provider says it is okay. Ask about the purpose of a new medicine and which side effects to report.</p>\n<h2>A note you can keep for a future visit</h2>\n<p>You can copy these prompts into a private note and update them when your information changes. Leave unknown details marked unknown. Keep the note somewhere you and a trusted caregiver can find it; it does not need to be posted online or sent through a public website form.</p>\n<ul>\n<li><strong>Main concern:</strong> what feels different, and what you want the team to understand.</li>\n<li><strong>Timing:</strong> when you first noticed it, or that the timing is uncertain.</li>\n<li><strong>Medicines:</strong> names and doses you can confirm, plus anything you need help checking.</li>\n<li><strong>Reactions:</strong> the medicine or substance involved and what happened.</li>\n<li><strong>Relevant history:</strong> conditions, procedures or recent care you want the clinician to know about.</li>\n<li><strong>Support:</strong> a trusted contact and any help you need understanding or remembering instructions.</li>\n</ul>\n<h2>Ask for a clear plan before leaving</h2>\n<p>If the clinician discharges you, ask them to explain the plan in language you understand. Useful questions include: What do I need to do next? Which medicines should I take or avoid? Who should I follow up with, and when? What changes mean I should seek help again?</p>\n<p>The <a href=\"https://psnet.ahrq.gov/primer/readmissions-and-adverse-events-after-discharge\">AHRQ discussion of care after discharge</a> emphasizes understanding the diagnosis, follow-up needs and whom to contact with problems. Keep your own written instructions and ask about anything that seems unclear or inconsistent.</p>\n<p>A prepared note is a communication aid. The emergency team still needs to assess you and decide what your situation requires. Getting help takes priority over finishing the note.</p>\n",
+      "excerpt": "A practical note for sharing symptoms, medicines and questions with the emergency team. Preparing information should never delay urgent care.",
+      "modified": "2026-09-09 09:19:35",
+      "created": "2026-09-09 09:19:35",
+      "author": "adminsumit",
+      "url": "https://erofwhiterock.com/?p=5525",
+      "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5525&action=edit",
+      "has_elementor": false,
+      "elementor_data": null,
+      "word_count": 559
+    }
+  },
+  {
+    "name": "verify_content_workflow",
+    "isError": false,
+    "result": {
+      "workflow_id": "workflow-87ad22b181a57ee39ecea94e57aec221",
+      "checked_at_utc": "2026-09-09T09:28:47+00:00",
+      "source_basis": {
+        "current": true,
+        "changed_source_ids": [],
+        "scope_freshness": {
+          "status": "source_hashes_match",
+          "changed_post_ids": [],
+          "unavailable_post_ids": [],
+          "context_changed": false,
+          "new_page_discovery": "Use discover_content_scope periodically; unchanged selected pages do not prove that no new services exist."
+        },
+        "instruction": "Stored source basis still matches; factual truth and editorial adequacy require review."
+      },
+      "execution_state": "draft_and_pending_record_verified",
+      "record_integrity_pass": true,
+      "publication_verified": false,
+      "editorial_quality": "requires_review",
+      "rendered_output": "not_checked",
+      "issues": [],
+      "result": {
+        "post_id": 5525,
+        "post_status": "draft",
+        "post_type": "post",
+        "pending_id": 1723,
+        "pending_status": "pending",
+        "evidence_id": "post-5525-557767b8d16165decbafad28",
+        "preview_url": "https://erofwhiterock.com/?p=5525&preview=true",
+        "content_present": true
+      }
+    }
+  },
+  {
+    "name": "list_pending_changes",
+    "isError": false,
+    "result": {
+      "pending": [
+        {
+          "id": "1723",
+          "post_id": "5525",
+          "change_type": "publish_draft",
+          "change_summary": "Review-only pilot: a practical communication note with primary-source links, distinct from the existing ER-timeline article. No publication performed.",
+          "current_value": "{\"post_status\":\"draft\"}",
+          "proposed_value": "{\"post_status\":\"publish\"}",
+          "reasoning": "Inspecting all 38 current blog titles and the full related timeline article (5437) found brief preparation advice there; this draft develops a standalone communication aid. Market demand and global uniqueness are unmeasured. No new clinical diagnoses, provider attribution or facility performance promises.",
+          "lint_report": "{\"pass\":true,\"pass_count\":13,\"fail_count\":0,\"total\":13,\"hard_violations\":[],\"checks\":{\"em_dashes\":{\"pass\":true,\"count\":0,\"message\":\"No em dashes.\"},\"ai_tells\":{\"pass\":true,\"found\":[],\"message\":\"No AI-tell phrases.\"},\"placeholders\":{\"pass\":true,\"found\":[],\"count\":0,\"message\":\"No placeholder markers.\"},\"paragraph_length\":{\"pass\":true,\"violations\":[],\"over_count\":0,\"pre_existing_count\":0,\"message\":\"Paragraphs are 5 sentences or fewer.\"},\"sentence_length\":{\"pass\":true,\"long\":2,\"total\":48,\"long_percent\":4.20000000000000017763568394002504646778106689453125,\"avg_words\":11.5999999999999996447286321199499070644378662109375,\"samples\":[{\"words\":28,\"snippet\":\"It was mild at first and became harder to ignore.\\u201d This is an example of describing an observation, not a way to judge how serious a symptom\\u2026\"},{\"words\":27,\"snippet\":\"Keep the note somewhere you and a trusted caregiver can find it; it does not need to be posted online or sent through a public website form.\"}],\"message\":\"4.2% of sentences over 25 words (acceptable).\"},\"reading_level\":{\"pass\":true,\"grade\":7.5999999999999996447286321199499070644378662109375,\"message\":\"Flesch-Kincaid grade 7.6 (general-audience friendly).\"},\"html_cruft\":{\"pass\":true,\"font_weight_spans\":0,\"mso_styles\":0,\"empty_paragraphs\":0,\"message\":\"No HTML cruft detected.\"},\"jargon\":{\"pass\":true,\"matches\":[],\"total_hits\":0,\"words\":559,\"per_1000\":0,\"message\":\"0.0 jargon hits per 1000 words.\"},\"wall_of_text\":{\"pass\":true,\"word_count\":559,\"message\":\"Long block (559 words) but has structural relief (heading\\/list\\/table\\/image).\"},\"hospital_comparison\":{\"pass\":true,\"message\":\"No hospital-comparison phrasing detected.\"},\"title_em_dashes\":{\"pass\":true,\"count\":0,\"message\":\"No em dashes.\"},\"title_ai_tells\":{\"pass\":true,\"found\":[],\"message\":\"No AI-tell phrases.\"},\"title_suspicious_chars\":{\"pass\":true,\"found\":[],\"message\":\"Clean characters.\"}},\"generated_at\":\"2026-09-09 09:19:35\"}",
+          "success_metrics": null,
+          "pre_check_baseline": "{\"render\":{\"captured_at\":\"2026-09-09 09:19:37\",\"url\":\"https:\\/\\/erofwhiterock.com\\/?p=5525\",\"cache_state\":{\"x-proxy-cache\":\"MISS\",\"sg-f-cache\":\"BYPASS\",\"x-cache-enabled\":\"True\"},\"facts\":{\"http_code\":404,\"bytes\":96817,\"text_len\":2162,\"body_sha1\":\"a178878c2f8b853fcb6b192f3487e0106dd65317\",\"empty_states\":[],\"shortcode_leaks\":0,\"php_errors\":0,\"elements\":{\"type-product\":0,\"dipl_single_woo_product\":0,\"swiper-slide\":0,\"et_pb_module\":0,\"elementor-widget\":26}}},\"evidence\":{\"version\":1,\"actor_hash\":\"191abb7f7ee0542c04bb8c2de46975300ce153e8c7fb38a29ff601420838b3b4\",\"posts\":{\"5525\":{\"observed_at\":1788945576,\"post_hash\":\"1848d6300bf4ea1e62238de81d8aeae8e03fa61b7ff2ef39d64442fe38eb2a1d\",\"environment_hash\":\"dc0e86742538273d45823722d90362db09f08dd18ebbeb910934e2593a362ac4\",\"kind\":\"created_in_this_request\"}},\"environment_hash\":\"dc0e86742538273d45823722d90362db09f08dd18ebbeb910934e2593a362ac4\"},\"queued_at_gmt\":\"2026-09-09 09:19:37\",\"post_hash\":\"1848d6300bf4ea1e62238de81d8aeae8e03fa61b7ff2ef39d64442fe38eb2a1d\"}",
+          "verification_result": null,
+          "superseded_by": null,
+          "status": "pending",
+          "created_at": "2026-09-09 09:19:37",
+          "created_by": "claude",
+          "reviewed_at": null,
+          "reviewed_by": null,
+          "review_note": null
+        }
+      ],
+      "count": 1
+    }
+  }
+]

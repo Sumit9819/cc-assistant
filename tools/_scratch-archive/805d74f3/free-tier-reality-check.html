@@ -1,0 +1,349 @@
+<title>Free Tier Reality Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root {
+  --ground:      #F5F7F9;
+  --surface:     #FFFFFF;
+  --surface-alt: #EDF1F5;
+  --ink:         #12161C;
+  --ink-soft:    #4A5563;
+  --ink-faint:   #6E7A89;
+  --rule:        #D8DFE7;
+  --rule-soft:   #E6EBF0;
+  --accent:      #2D5BA9;
+  --ok:          #1F7A5C;
+  --ok-bg:       #E4F1EB;
+  --no:          #A63D34;
+  --no-bg:       #F7E7E5;
+  --maybe:       #8A5F10;
+  --maybe-bg:    #F6EEDC;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:      #0D1116;
+    --surface:     #151B22;
+    --surface-alt: #1C242D;
+    --ink:         #E4E9EF;
+    --ink-soft:    #A3AEBC;
+    --ink-faint:   #7C8798;
+    --rule:        #2A343F;
+    --rule-soft:   #212A34;
+    --accent:      #7FA8E8;
+    --ok:          #58C79C;
+    --ok-bg:       #14302A;
+    --no:          #E58579;
+    --no-bg:       #351D1C;
+    --maybe:       #D9AC55;
+    --maybe-bg:    #33290F;
+  }
+}
+:root[data-theme="dark"] {
+  --ground:      #0D1116;
+  --surface:     #151B22;
+  --surface-alt: #1C242D;
+  --ink:         #E4E9EF;
+  --ink-soft:    #A3AEBC;
+  --ink-faint:   #7C8798;
+  --rule:        #2A343F;
+  --rule-soft:   #212A34;
+  --accent:      #7FA8E8;
+  --ok:          #58C79C;
+  --ok-bg:       #14302A;
+  --no:          #E58579;
+  --no-bg:       #351D1C;
+  --maybe:       #D9AC55;
+  --maybe-bg:    #33290F;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 24px 96px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 860px; margin: 0 auto; }
+
+/* ---- masthead ---- */
+.masthead {
+  padding: 64px 0 28px;
+  border-bottom: 2px solid var(--ink);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.eyebrow {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+h1 {
+  font-family: Newsreader, Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(2.1rem, 5.5vw, 3.1rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  margin: 0;
+  text-wrap: balance;
+}
+.standfirst {
+  font-family: Newsreader, Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: 62ch;
+}
+
+/* ---- verdict banner ---- */
+.headline-finding {
+  margin: 32px 0 0;
+  padding: 22px 24px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--no);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.headline-finding h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.005em;
+}
+.headline-finding p { margin: 0; color: var(--ink-soft); font-size: 0.94rem; }
+
+/* ---- sections ---- */
+section { margin-top: 52px; }
+h2.sec {
+  font-family: Newsreader, Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+  text-wrap: balance;
+}
+.sec-note {
+  margin: 0 0 22px;
+  color: var(--ink-faint);
+  font-size: 0.9rem;
+  max-width: 68ch;
+}
+p { max-width: 68ch; }
+
+/* ---- tables ---- */
+.scroller {
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--surface);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  min-width: 620px;
+}
+thead th {
+  text-align: left;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--surface-alt);
+  white-space: nowrap;
+}
+tbody td {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--rule-soft);
+  vertical-align: top;
+  color: var(--ink-soft);
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody td:first-child {
+  color: var(--ink);
+  font-weight: 500;
+  white-space: nowrap;
+}
+td.mono, .mono {
+  font-family: "IBM Plex Mono", monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+}
+
+/* ---- status chips ---- */
+.chip {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.chip.ok    { background: var(--ok-bg);    color: var(--ok); }
+.chip.no    { background: var(--no-bg);    color: var(--no); }
+.chip.maybe { background: var(--maybe-bg); color: var(--maybe); }
+
+/* ---- callouts ---- */
+.callout {
+  margin: 22px 0 0;
+  padding: 18px 20px;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--maybe);
+  border-radius: 3px;
+  background: var(--surface);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.callout strong { color: var(--ink); font-weight: 600; }
+.callout.trap { border-left-color: var(--no); }
+.callout.good { border-left-color: var(--ok); }
+
+/* ---- recommendation list ---- */
+ol.recs { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 2px; counter-reset: r; }
+ol.recs li {
+  counter-increment: r;
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 14px;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  align-items: start;
+}
+ol.recs li::before {
+  content: counter(r);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 500;
+  line-height: 1.5;
+}
+ol.recs .what { font-weight: 600; color: var(--ink); display: block; margin-bottom: 3px; }
+ol.recs .why  { color: var(--ink-soft); font-size: 0.9rem; }
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:focus-visible, .scroller:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+footer {
+  margin-top: 60px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+}
+footer p { max-width: 68ch; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="eyebrow">Faceless Video Studio &middot; Research brief &middot; 20 Aug 2026</span>
+    <h1>Free Tier Reality Check</h1>
+    <p class="standfirst">What is actually free for an AI video pipeline in August 2026, checked against primary sources rather than the blogs that summarise them.</p>
+  </header>
+
+  <div class="headline-finding">
+    <h2>Google AI Studio does not solve the image problem</h2>
+    <p>Third-party guides claim 500 free images per day from Nano Banana. Google's own pricing page lists <strong>every</strong> Gemini image model as &ldquo;Not available&rdquo; on the free tier. Imagen&nbsp;4 was deprecated and shut down on 17&nbsp;August&nbsp;2026 &mdash; three days ago. What Google <em>does</em> give away free is text and speech, not pictures.</p>
+  </div>
+
+  <section>
+    <h2 class="sec">Images</h2>
+    <p class="sec-note">The gap: roughly one shot in five needs something stock footage cannot show &mdash; lime clasts fracturing, calcium recrystallising inside a crack.</p>
+    <div class="scroller" tabindex="0">
+      <table>
+        <thead><tr><th>Option</th><th>Status</th><th>Licence / limit</th><th>Verdict</th></tr></thead>
+        <tbody>
+          <tr><td>Flux.1 Schnell</td><td><span class="chip ok">Free</span></td><td class="mono">Apache 2.0 &middot; no watermark</td><td>Commercial use, self-hosted. The recommended path.</td></tr>
+          <tr><td>Gemini image models</td><td><span class="chip no">Not free</span></td><td class="mono">no free tier</td><td>All Nano Banana variants and Pro. Confirmed on Google's pricing page.</td></tr>
+          <tr><td>Imagen 4</td><td><span class="chip no">Retired</span></td><td class="mono">shut down 2026-08-17</td><td>Gone as of three days ago.</td></tr>
+          <tr><td>Google Flow</td><td><span class="chip maybe">Limited</span></td><td class="mono">3/day &middot; watermarked</td><td>Your own report. Not viable at volume.</td></tr>
+          <tr><td>HF Spaces (ZeroGPU)</td><td><span class="chip ok">Free</span></td><td class="mono">minutes/day &middot; queued</td><td>Works, but unpredictable waits.</td></tr>
+          <tr><td>Pollinations.ai</td><td><span class="chip ok">Free</span></td><td class="mono">no key &middot; rate limited</td><td>Simplest fallback, no account needed.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout good"><strong>Finding.</strong> Flux.1 Schnell is Apache 2.0, permits commercial use, and adds no watermark. It is strictly better than the Google options for this purpose &mdash; the constraint is GPU access, not licensing.</div>
+  </section>
+
+  <section>
+    <h2 class="sec">Voice</h2>
+    <p class="sec-note">The gap: Kokoro has no emotion control, so delivery stays even. Fine for documentary, flat for anything with energy.</p>
+    <div class="scroller" tabindex="0">
+      <table>
+        <thead><tr><th>Option</th><th>Status</th><th>Licence / limit</th><th>Verdict</th></tr></thead>
+        <tbody>
+          <tr><td>Kokoro-82M</td><td><span class="chip ok">Free</span></td><td class="mono">Apache 2.0 &middot; CPU</td><td>Currently in use. Best plain narration; no emotion dial.</td></tr>
+          <tr><td>Gemini 3.1 Flash TTS</td><td><span class="chip ok">Free</span></td><td class="mono">preview &middot; limits unpublished</td><td>Takes style direction. 30 voices, 2 speakers max, no cloning.</td></tr>
+          <tr><td>Chatterbox</td><td><span class="chip ok">Free</span></td><td class="mono">MIT &middot; 5&ndash;8&nbsp;GB VRAM</td><td>Exaggeration + pacing controls. Beat ElevenLabs in 63.75% of blind tests.</td></tr>
+          <tr><td>Gemini 2.5 Pro TTS</td><td><span class="chip no">Not free</span></td><td class="mono">paid only</td><td>&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout"><strong>Unverified.</strong> Google no longer publishes free-tier rate limits &mdash; they are per-project and shown only at <span class="mono">aistudio.google.com/rate-limit</span>. One forum report shows a TTS quota of &ldquo;limit 3&rdquo;. If that is per <em>day</em>, Gemini TTS is unusable for long narration. If per <em>minute</em>, it works with chunking. <strong>This needs checking on your own project page before anything is built on it.</strong> Note also that free-tier inputs and outputs are used to improve Google's products.</div>
+  </section>
+
+  <section>
+    <h2 class="sec">Music</h2>
+    <p class="sec-note">The gap is mine, not the market's &mdash; I skipped the music bed entirely. The narration is dry, and this is the cheapest remaining improvement.</p>
+    <div class="scroller" tabindex="0">
+      <table>
+        <thead><tr><th>Option</th><th>Status</th><th>Licence / limit</th><th>Verdict</th></tr></thead>
+        <tbody>
+          <tr><td>Pixabay Music</td><td><span class="chip ok">Free</span></td><td class="mono">~35k tracks &middot; no attribution</td><td>Cleared for monetised video. <strong>No music API</strong> &mdash; images and video only.</td></tr>
+          <tr><td>YouTube Audio Library</td><td><span class="chip ok">Free</span></td><td class="mono">manual download</td><td>Safest for Content ID. No automation.</td></tr>
+          <tr><td>ACE-Step</td><td><span class="chip ok">Free</span></td><td class="mono">Apache 2.0 &middot; 8&nbsp;GB VRAM</td><td>Generates unique tracks. Solves the &ldquo;every channel uses these&rdquo; problem.</td></tr>
+          <tr><td>YuE</td><td><span class="chip ok">Free</span></td><td class="mono">Apache 2.0</td><td>Strongest with lyrics and song structure.</td></tr>
+          <tr><td>Stable Audio Open</td><td><span class="chip maybe">Conditional</span></td><td class="mono">revenue threshold</td><td>Community licence; commercial use capped by revenue.</td></tr>
+          <tr><td>MusicGen</td><td><span class="chip no">Not commercial</span></td><td class="mono">CC BY-NC 4.0</td><td>Self-hosting does not change this.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout trap"><strong>Trap worth naming.</strong> MusicGen appears on most &ldquo;free open-source music&rdquo; lists. Its output licence is <span class="mono">CC BY-NC 4.0</span> &mdash; non-commercial. Running it on your own hardware does not grant commercial rights. A monetised channel using MusicGen output is in breach.</div>
+  </section>
+
+  <section>
+    <h2 class="sec">The compute question underneath all three</h2>
+    <p>Every free option above that beats the paid ones &mdash; Flux.1 Schnell, ACE-Step, Chatterbox &mdash; needs a GPU. Your machine has 5.85&nbsp;GB of RAM and no CUDA, so all three would run on free cloud GPU: Kaggle offers a guaranteed 30&nbsp;GPU-hours per week, Colab a variable 15&ndash;30.</p>
+    <div class="callout"><strong>Open question, and I would not build on it until it is answered.</strong> Kaggle's terms do not clearly address commercial use of notebook outputs, and I could not verify it from primary sources. Generating assets for your own creative work is one thing; running a free research platform as a production render farm for a monetised channel is a different claim. Worth reading their Terms and Acceptable Use directly before this becomes load-bearing.</div>
+  </section>
+
+  <section>
+    <h2 class="sec">What I would do next</h2>
+    <p class="sec-note">Ordered by value per unit of effort, not by how interesting they are to build.</p>
+    <ol class="recs">
+      <li><span class="what">Music bed, from a manually built library</span><span class="why">Pixabay has no music API, so this is a one-time manual download into <span class="mono">library/music/</span>, then automatic sidechain ducking under the narration. Free, needs no GPU, and it is the largest perceptual gain still available.</span></li>
+      <li><span class="what">Remotion overlays fed by the sourced data table</span><span class="why">Already planned as Phase 4. Real cited figures on screen are what stop the video reading as narrated stock &mdash; and they are the substantive modification the inauthenticity policy asks for.</span></li>
+      <li><span class="what">Check your own AI Studio rate-limit page</span><span class="why">Two minutes of your time settles whether Gemini TTS can carry emotion for us, or whether Kokoro stays the ceiling. I cannot see your project's limits.</span></li>
+      <li><span class="what">Leave AI images alone for now</span><span class="why">Google's free image tier does not exist, Flow's 3/day is not workable, and the Flux path depends on the unresolved Kaggle question. Stock plus motion graphics covers more than it appears to.</span></li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>Verified against Google's Gemini API pricing and rate-limit documentation, model licences, and the <span class="mono">nlm</span> CLI surface. Claims that could not be confirmed from a primary source are marked unverified rather than repeated &mdash; including the widely-quoted &ldquo;500 free images per day&rdquo;, which the pricing page contradicts.</p>
+  </footer>
+
+</div>

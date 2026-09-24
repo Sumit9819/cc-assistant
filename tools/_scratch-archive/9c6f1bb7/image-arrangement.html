@@ -1,0 +1,238 @@
+<title>Blog Image Arrangement</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Palette taken from the clinic's own brand hexes, posted in the same
+   Slack channel on 2026-06-03: #003017, #96A681, #FFD900. */
+:root{
+  --ground:#eef1ec;
+  --surface:#ffffff;
+  --surface-2:#f5f8f3;
+  --ink:#141a13;
+  --ink-2:#3d4a3c;
+  --muted:#6b7a69;
+  --rule:#d4dcd1;
+  --rule-soft:#e6ece4;
+  --brand:#003017;
+  --brand-soft:#cfe0d5;
+  --sage:#96a681;
+  --flag:#8a6a00;
+  --flag-bg:#f7e9b8;
+  --skip:#6b7a69;
+  --skip-bg:#e4e9e2;
+  --shadow:0 1px 2px rgba(20,26,19,.05), 0 10px 26px -18px rgba(20,26,19,.28);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0f1310;
+    --surface:#171d18;
+    --surface-2:#1d251e;
+    --ink:#e7ede5;
+    --ink-2:#c2cebf;
+    --muted:#8a9a87;
+    --rule:#2b352c;
+    --rule-soft:#222b23;
+    --brand:#7fc79b;
+    --brand-soft:#1b3325;
+    --sage:#a8b894;
+    --flag:#e8c65c;
+    --flag-bg:#3a2f0d;
+    --skip:#8a9a87;
+    --skip-bg:#242b23;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.75);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0f1310;--surface:#171d18;--surface-2:#1d251e;--ink:#e7ede5;--ink-2:#c2cebf;
+  --muted:#8a9a87;--rule:#2b352c;--rule-soft:#222b23;--brand:#7fc79b;--brand-soft:#1b3325;
+  --sage:#a8b894;--flag:#e8c65c;--flag-bg:#3a2f0d;--skip:#8a9a87;--skip-bg:#242b23;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.75);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:Archivo,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:36px 22px 88px}
+
+header.mast{border-top:4px solid var(--brand);padding-top:16px;margin-bottom:26px}
+.kicker{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:5px 16px;margin-bottom:12px}
+h1{font-size:34px;line-height:1.12;font-weight:700;letter-spacing:-.02em;margin:0 0 10px;max-width:18ch;text-wrap:balance}
+.stand{font-size:17px;color:var(--ink-2);max-width:62ch;margin:0}
+.stand b{color:var(--ink);font-weight:600}
+
+.tally{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin:26px 0 6px;box-shadow:var(--shadow)}
+.tally div{background:var(--surface);padding:14px 16px}
+.tally .k{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:6px}
+.tally .v{font-family:"JetBrains Mono",monospace;font-size:26px;font-weight:700;line-height:1;
+  display:block;font-variant-numeric:tabular-nums}
+.tally .s{font-size:12px;color:var(--muted);display:block;margin-top:6px;line-height:1.4}
+
+h2{font-size:20px;font-weight:700;letter-spacing:-.01em;margin:44px 0 4px}
+p.note{max-width:64ch;color:var(--ink-2);margin:10px 0}
+code{font-family:"JetBrains Mono",monospace;font-size:.85em;background:var(--surface-2);
+  border:1px solid var(--rule-soft);padding:1px 5px;border-radius:2px;word-break:break-word}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(322px,1fr));gap:14px;margin:22px 0}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+.card.is-skip{background:var(--surface-2);border-style:dashed}
+.card .top{padding:13px 16px 11px;border-bottom:1px solid var(--rule-soft);
+  display:flex;align-items:flex-start;gap:10px;justify-content:space-between}
+.card .slug{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:500;
+  line-height:1.4;word-break:break-word;color:var(--ink)}
+.card .pid{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--muted);
+  display:block;margin-top:4px;letter-spacing:.04em}
+.badge{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.07em;
+  text-transform:uppercase;font-weight:700;padding:3px 7px;border-radius:2px;white-space:nowrap;flex-shrink:0}
+.badge.n{background:var(--brand-soft);color:var(--brand)}
+.badge.s{background:var(--skip-bg);color:var(--skip)}
+.badge.f{background:var(--flag-bg);color:var(--flag)}
+
+ol.files{list-style:none;margin:0;padding:8px 16px 14px;counter-reset:f;flex:1}
+ol.files li{counter-increment:f;position:relative;padding:5px 0 5px 26px;font-size:13px;line-height:1.45;
+  border-bottom:1px solid var(--rule-soft);word-break:break-word}
+ol.files li:last-child{border-bottom:0}
+ol.files li::before{content:counter(f);position:absolute;left:0;top:6px;
+  font-family:"JetBrains Mono",monospace;font-size:9.5px;font-weight:700;color:var(--sage);
+  width:16px;text-align:right}
+ol.files li .mb{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--muted);margin-left:5px}
+ol.files li.unk{color:var(--flag)}
+.cardnote{padding:10px 16px;background:var(--surface-2);border-top:1px solid var(--rule-soft);
+  font-size:12px;line-height:1.5;color:var(--ink-2)}
+.cardnote.warn{background:var(--flag-bg);color:var(--flag);font-weight:500}
+.anchor{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--brand);
+  background:var(--brand-soft);padding:2px 6px;border-radius:2px;display:inline-block;margin-top:6px}
+
+.steps{counter-reset:s;list-style:none;padding:0;margin:20px 0;max-width:70ch}
+.steps li{counter-increment:s;position:relative;padding:13px 0 13px 42px;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.55}
+.steps li:last-child{border-bottom:0}
+.steps li::before{content:counter(s);position:absolute;left:0;top:13px;width:26px;height:26px;
+  display:grid;place-items:center;border-radius:2px;background:var(--brand);color:var(--surface);
+  font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700}
+:root[data-theme="dark"] .steps li::before,
+:root:not([data-theme="light"]) .steps li::before{color:#0f1310}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .steps li::before{color:#fff}}
+
+pre{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--sage);
+  border-radius:3px;padding:14px 16px;overflow-x:auto;font-family:"JetBrains Mono",monospace;
+  font-size:12.5px;line-height:1.6;margin:16px 0;box-shadow:var(--shadow)}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);
+  font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);line-height:1.7}
+@media (max-width:700px){.tally{grid-template-columns:repeat(2,1fr)}h1{font-size:27px}.wrap{padding:26px 16px 64px}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="kicker">
+    <span>#designfor-sumit</span><span>irvingwellnessclinic.com</span><span>Arranged 3 Sep 2026</span>
+  </div>
+  <h1>Blog Image Arrangement</h1>
+  <p class="stand">Every image in the channel that arrived <b>attached to a post URL</b>, sorted to its destination. Newest wins on repeated names. Orphaned files are left untouched for a later pass.</p>
+</header>
+
+<div class="tally">
+  <div><span class="k">Posts matched</span><span class="v">15</span><span class="s">Plus 3 set aside, below</span></div>
+  <div><span class="k">In-body images</span><span class="v">67</span><span class="s">65 usable, 2 unnamed in Slack</span></div>
+  <div><span class="k">Carry a heading anchor</span><span class="v">7</span><span class="s">Exact placement is known</span></div>
+  <div><span class="k">Left orphaned</span><span class="v">34</span><span class="s">Untouched, per your call</span></div>
+</div>
+
+<h2>The arrangement</h2>
+<p class="note">Numbers are reading order within the post. Where the designer used descriptive filenames, that order is theirs; where files were numbered, it follows the sequence. A green anchor chip means the message named the exact heading the image belongs under.</p>
+
+<div class="grid">
+
+  <div class="card"><div class="top"><div><span class="slug">estrogen-dominance-weight-loss</span><span class="pid">post 9173</span><span class="anchor">heading anchor 14</span></div><span class="badge n">4 files</span></div>
+  <ol class="files"><li>What is Estrogen Dominance<span class="mb">3.5 MB</span></li><li>Hormonal Weight Gain<span class="mb">2.7 MB</span></li><li>Correcting the Balance (1)<span class="mb">3.1 MB</span></li><li>When to Seek Care<span class="mb">2.7 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">low-testosterone-brain-fog</span><span class="pid">post 9270</span><span class="anchor">heading anchor 0</span></div><span class="badge n">4 files</span></div>
+  <ol class="files"><li>Brain Fog &amp; Testosterone<span class="mb">2.5 MB</span></li><li>Recognizing Symptoms<span class="mb">2.6 MB</span></li><li>Neurological Impact of Low T<span class="mb">2.8 MB</span></li><li>Advanced Testing<span class="mb">3.0 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">wellness-assessment-guide-holistic-health-prevention</span><span class="pid">post 8571</span><span class="anchor">heading anchor 0</span></div><span class="badge n">4 files</span></div>
+  <ol class="files"><li>What Is a Wellness Assessment<span class="mb">2.4 MB</span></li><li>Core Wellness Pillars<span class="mb">2.4 MB</span></li><li>The Conversation<span class="mb">2.2 MB</span></li><li>Benefits of Holistic Health<span class="mb">2.2 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">gut-health-skin-connection</span><span class="pid">post 8609</span></div><span class="badge n">4 files</span></div>
+  <ol class="files"><li>Untitled design<span class="mb">4.8 MB</span></li><li>Untitled design (1)<span class="mb">5.1 MB</span></li><li>Untitled design (2)<span class="mb">4.2 MB</span></li><li>Untitled design (3)<span class="mb">4.6 MB</span></li></ol>
+  <div class="cardnote">Filenames carry no meaning, so order follows the numbering only. Worth an eyeball before publishing.</div></div>
+
+  <div class="card"><div class="top"><div><span class="slug">functional-medicine-vs-conventional-medicine</span><span class="pid">post 8577</span></div><span class="badge n">4 files</span></div>
+  <ol class="files"><li>1<span class="mb">2.5 MB</span></li><li>2<span class="mb">1.9 MB</span></li><li>3<span class="mb">2.0 MB</span></li><li>4<span class="mb">2.2 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">hormone-pellets-vs-injections-vs-creams</span><span class="pid">post 10191</span><span class="anchor">heading anchor 1</span></div><span class="badge f">check</span></div>
+  <ol class="files"><li>Pellets vs Injections vs Creams<span class="mb">2.2 MB</span></li><li>Hormone Pellet Therapy<span class="mb">3.5 MB</span></li><li>Pellets, Injections or Creams<span class="mb">0.93 MB</span></li><li>Choosing Pellets, Injections &amp; Creams<span class="mb">1.6 MB</span></li><li>Compounded Hormones Society Positions<span class="mb">0.44 MB</span></li><li>Untitled design<span class="mb">1.7 MB</span></li><li>Untitled design (1)<span class="mb">2.0 MB</span></li></ol>
+  <div class="cardnote warn">Probably superseded. A later orphan message repeats 5 of these names at much larger sizes. Newest-wins would prefer those, but they have no URL, so they stay orphaned. Do not treat this post as settled.</div></div>
+
+  <div class="card"><div class="top"><div><span class="slug">choose-weight-loss-clinic</span><span class="pid">post 9871</span></div><span class="badge n">9 files</span></div>
+  <ol class="files"><li>7<span class="mb">4.9 MB</span></li><li>8<span class="mb">4.7 MB</span></li><li>9<span class="mb">5.7 MB</span></li><li>10<span class="mb">4.9 MB</span></li><li>11<span class="mb">5.1 MB</span></li><li>12<span class="mb">5.3 MB</span></li><li>13<span class="mb">4.5 MB</span></li><li>14<span class="mb">4.7 MB</span></li><li>15<span class="mb">5.0 MB</span></li></ol>
+  <div class="cardnote">The largest set. Numbering runs 7&ndash;15 and continues into post 9402 at 16, so the designer numbered across both posts in one sitting.</div></div>
+
+  <div class="card"><div class="top"><div><span class="slug">trt-benefits-for-men</span><span class="pid">post 9402</span></div><span class="badge n">6 files</span></div>
+  <ol class="files"><li>16<span class="mb">4.7 MB</span></li><li>17<span class="mb">5.3 MB</span></li><li>18<span class="mb">5.0 MB</span></li><li>19<span class="mb">4.5 MB</span></li><li>20<span class="mb">4.5 MB</span></li><li>21<span class="mb">4.3 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">progesterone-deficiency-symptoms</span><span class="pid">post 9389</span></div><span class="badge n">5 files</span></div>
+  <ol class="files"><li>5<span class="mb">4.3 MB</span></li><li>6<span class="mb">4.0 MB</span></li><li>7<span class="mb">4.6 MB</span></li><li>8<span class="mb">4.6 MB</span></li><li>9<span class="mb">4.1 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">post-birth-control-syndrome</span><span class="pid">post 9398</span></div><span class="badge n">4 files</span></div>
+  <ol class="files"><li>1<span class="mb">3.7 MB</span></li><li>2<span class="mb">4.0 MB</span></li><li>3<span class="mb">4.3 MB</span></li><li>4<span class="mb">4.3 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">not-losing-weight-on-semaglutide</span><span class="pid">post 10192</span></div><span class="badge n">3 files</span></div>
+  <ol class="files"><li>When Does (1)<span class="mb">2.0 MB</span> &middot; <span class="anchor">anchor 1</span></li><li>ON SEMAGLUTIDE (1)<span class="mb">2.1 MB</span> &middot; <span class="anchor">anchor 2</span></li><li>MEDICAL REASONS<span class="mb">3.0 MB</span> &middot; <span class="anchor">anchor 3</span></li></ol>
+  <div class="cardnote">The cleanest mapping in the channel: three messages, one image each, each naming its own heading.</div></div>
+
+  <div class="card"><div class="top"><div><span class="slug">top-3-anti-aging-treatments-fine-lines-wrinkles</span><span class="pid">post 8559</span><span class="anchor">heading anchor 0</span></div><span class="badge f">5 files</span></div>
+  <ol class="files"><li>1<span class="mb">2.5 MB</span></li><li>2<span class="mb">4.1 MB</span></li><li>3<span class="mb">4.1 MB</span></li><li>Retinoids for Daily Care<span class="mb">2.3 MB</span></li><li class="unk">unnamed file &mdash; no name or type in Slack</li></ol>
+  <div class="cardnote">Newest-wins applied: this post got two messages, and the later <code>1.png</code> replaces the earlier one.</div></div>
+
+  <div class="card"><div class="top"><div><span class="slug">skinvive-vs-dermal-filler</span><span class="pid">post 10229</span></div><span class="badge n">3 files</span></div>
+  <ol class="files"><li>10<span class="mb">4.3 MB</span></li><li>11<span class="mb">3.5 MB</span></li><li>12<span class="mb">2.8 MB</span></li></ol></div>
+
+  <div class="card"><div class="top"><div><span class="slug">empower-your-wellness-journey</span><span class="pid">post 8567</span></div><span class="badge f">4 files</span></div>
+  <ol class="files"><li>1<span class="mb">3.7 MB</span></li><li>3<span class="mb">3.2 MB</span></li><li>4<span class="mb">3.1 MB</span></li><li class="unk">unnamed file &mdash; no name or type in Slack</li></ol>
+  <div class="cardnote">No <code>2.png</code> in this set. An orphaned <code>2.png</code> exists elsewhere in the channel and may be the missing one.</div></div>
+
+  <div class="card"><div class="top"><div><span class="slug">world-cup-2026-heat-safety-arlington-spectators</span><span class="pid">post 10043</span><span class="anchor">heading anchor 1</span></div><span class="badge n">1 file</span></div>
+  <ol class="files"><li>Unacclimatized Visitors<span class="mb">4.0 MB</span></li></ol></div>
+
+  <div class="card is-skip"><div class="top"><div><span class="slug">chemical-peel-treatment-guide</span><span class="pid">post 8563</span><span class="anchor">heading anchor 0</span></div><span class="badge s">set aside</span></div>
+  <div class="cardnote">URL posted with <b>no files attached</b>. Four images arrived two minutes earlier in a message carrying no URL, so they count as orphans. This post gets nothing until you resolve them.</div></div>
+
+  <div class="card is-skip"><div class="top"><div><span class="slug">double-chin-treatment-without-surgery</span><span class="pid">post 10219</span></div><span class="badge s">featured</span></div>
+  <div class="cardnote">One file, delivered straight after your 13:41 request for a feature image. Featured images are already placed, so this is not in-body work.</div></div>
+
+  <div class="card is-skip"><div class="top"><div><span class="slug">how-many-laser-hair-removal-sessions</span><span class="pid">post 10221</span></div><span class="badge s">featured</span></div>
+  <div class="cardnote">Same pattern &mdash; answered your 13:30 feature-image request. Not in-body.</div></div>
+
+</div>
+
+<h2>Compression</h2>
+<p class="note">The sources are PNGs between 0.44 MB and 5.7 MB, which is far too heavy for body images. Each one is re-encoded to <b>WebP at 1200px wide, quality 82</b> &mdash; matching the site's existing WebP convention, and 1200 covers a 2&times; display on the theme's content column without paying for the 1600px the featured slot uses. Originals are never overwritten.</p>
+<p class="note">Filenames become <code>&lt;post-slug&gt;-&lt;n&gt;-&lt;description&gt;.webp</code>, so the media library stays greppable by post. Files named only with a number lose the meaningless stem and become <code>&lt;post-slug&gt;-&lt;n&gt;.webp</code>.</p>
+
+<h2>Why this runs as a script, not through me</h2>
+<p class="note">Reading a Slack file hands the bytes to the model as base64. At roughly 3 MB per image across 67 images, that is hundreds of megabytes through a conversation &mdash; a single 3 MB image alone is about a million tokens. It cannot be done that way.</p>
+<p class="note">The upload endpoint added in v0.77.0 does not need the model in the loop. <code>prepare_images.py</code> reads the files, re-encodes them, and POSTs each one straight to the site using the credentials already in <code>.mcp.json</code>. Only the returned URLs come back to me, and I use those to queue the placements.</p>
+
+<ol class="steps">
+  <li>Build and install the plugin zip so <code>/assets/upload</code> exists on the live site. The site currently runs 0.76.7.</li>
+  <li>Download the channel's images into one folder per post slug, named exactly as the cards above. The card lists tell you which files go where.</li>
+  <li><code>python prepare_images.py --src &lt;folder&gt;</code> to convert and check the output, then re-run with <code>--upload</code>.</li>
+  <li>I read <code>uploaded.json</code>, write alt text per image, and queue the in-body placements for approval &mdash; in batches of 20.</li>
+</ol>
+
+<pre># trial run on one post first
+python prepare_images.py --src D:/slack-images --only low-testosterone-brain-fog
+
+# then the whole batch
+python prepare_images.py --src D:/slack-images --upload</pre>
+
+<footer>
+Source: Slack #designfor-sumit (C0B7GPVQCG3), full history 2026-06-02 to 2026-08-13 &middot; erofwhiterock.com and erofirving.com messages excluded<br>
+Machine-readable arrangement: manifest.json &middot; Converter and uploader: prepare_images.py
+</footer>
+
+</div>

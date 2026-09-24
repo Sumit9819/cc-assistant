@@ -1,0 +1,344 @@
+{
+ "_note": "Batch E: 6363 IV therapy for migraine, 8929 Texas heat dehydration. Both carry an emergency card in the alert layout, which is deliberately the only full-bleed dark layout in the set: a red-flag list should not look like every other graphic on the page.",
+ "cards": [
+  {
+   "file": "migraine-iv-drip-components",
+   "post_id": 6363,
+   "layout": "list",
+   "subject": "migraine",
+   "heading": "How IV Therapy Helps Relieve Migraines",
+   "title": [
+    "What Is in a ",
+    "Migraine",
+    " IV Drip"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A migraine IV drip holds fluids and electrolytes, magnesium, B-complex with anti-nausea, and anti-inflammatories",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Fluids and electrolytes",
+     "note": "Dehydration is a common migraine trigger"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Frequent migraine sufferers often run low"
+    },
+    {
+     "icon": "pill",
+     "label": "B-complex and anti-nausea",
+     "note": "For when pills will not stay down"
+    },
+    {
+     "icon": "flame",
+     "label": "Anti-inflammatories",
+     "note": "Ketorolac in some protocols"
+    }
+   ]
+  },
+  {
+   "file": "migraine-iv-therapy-who-benefits",
+   "post_id": 6363,
+   "layout": "list",
+   "subject": "migraine",
+   "heading": "Who Can Benefit from IV Therapy for Migraines?",
+   "title": [
+    "Who IV Therapy for ",
+    "Migraine",
+    " Suits"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV migraine therapy suits chronic migraines, dehydration headaches, hormonal episodes, severe nausea and deficiencies",
+   "items": [
+    {
+     "icon": "brain",
+     "label": "Chronic migraines",
+     "note": "Where oral medication does not hold"
+    },
+    {
+     "icon": "droplet",
+     "label": "Dehydration headaches",
+     "note": "From travel, illness or stress"
+    },
+    {
+     "icon": "calendar-days",
+     "label": "Hormonal episodes",
+     "note": "Menstrual and cycle-linked migraines"
+    },
+    {
+     "icon": "frown",
+     "label": "Severe nausea",
+     "note": "Vomiting during an attack"
+    },
+    {
+     "icon": "pill",
+     "label": "Nutrient deficiencies",
+     "note": "Where they worsen frequency"
+    }
+   ]
+  },
+  {
+   "file": "migraine-iv-treatment-visit",
+   "post_id": 6363,
+   "layout": "steps",
+   "subject": "migraine",
+   "heading": "What to Expect During an IV Migraine Treatment",
+   "title": [
+    "An IV ",
+    "Migraine",
+    " Treatment Visit"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An IV migraine treatment: consultation and vitals, a 30 to 60 minute infusion, then back to normal activity",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Consultation",
+     "note": "History, triggers, medications, vitals"
+    },
+    {
+     "icon": "armchair",
+     "label": "Infusion",
+     "note": "30 to 60 minutes, lights low"
+    },
+    {
+     "icon": "door-open",
+     "label": "Aftercare",
+     "note": "Normal activity, track symptoms 24 hours"
+    }
+   ]
+  },
+  {
+   "file": "migraine-iv-vs-oral-vs-preventive",
+   "post_id": 6363,
+   "layout": "compare",
+   "subject": "migraine",
+   "heading": "IV Therapy vs. Traditional Migraine Treatments",
+   "title": [
+    "IV Therapy vs Other ",
+    "Migraine",
+    " Treatments"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Oral migraine medication works in 30 to 90 minutes, IV therapy in 15 to 60, preventive drugs work long term",
+   "columns": [
+    "Oral medication",
+    "IV therapy",
+    "Preventive drugs"
+   ],
+   "rows": [
+    {
+     "label": "How it works",
+     "values": [
+      "Absorbed through digestion",
+      "Direct into the bloodstream",
+      "Long-term medication"
+     ]
+    },
+    {
+     "label": "Time to relief",
+     "values": [
+      "30 to 90 minutes",
+      "15 to 60 minutes",
+      "Ongoing"
+     ]
+    },
+    {
+     "label": "Best for",
+     "values": [
+      "Mild to moderate attacks",
+      "Severe or recurring attacks",
+      "Chronic migraine management"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "migraine-emergency-red-flags",
+   "post_id": 6363,
+   "layout": "alert",
+   "subject": "migraine",
+   "heading": "When to Seek Emergency Care",
+   "logo": {
+    "position": "bottom-right",
+    "variant": "white",
+    "width": 150
+   },
+   "alt": "Migraine red flags needing emergency care: the worst headache of your life, vision loss or slurred speech, confusion or fever",
+   "kicker": "Migraine red flags",
+   "headline": "Get help now",
+   "signs": [
+    {
+     "icon": "brain",
+     "text": "A sudden, severe headache, the worst of your life"
+    },
+    {
+     "icon": "eye",
+     "text": "Vision loss, slurred speech, or weakness on one side"
+    },
+    {
+     "icon": "thermometer",
+     "text": "Confusion, fever, or a stiff neck"
+    }
+   ],
+   "footer": "Also seek emergency care for any headache after a head injury"
+  },
+  {
+   "file": "dehydration-early-warning-signs",
+   "post_id": 8929,
+   "layout": "icons",
+   "subject": "dehydration",
+   "heading": "Early Warning Signs You Shouldn't Ignore",
+   "title": [
+    "Early Signs of ",
+    "Dehydration",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Early dehydration signs: extreme thirst, urine darker than pale straw, and dizziness or unusual fatigue",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Extreme thirst",
+     "note": "Thirst means you are already behind"
+    },
+    {
+     "icon": "beaker",
+     "label": "Dark urine",
+     "note": "Pale straw is the target color"
+    },
+    {
+     "icon": "battery-low",
+     "label": "Dizzy or wiped out",
+     "note": "Low blood volume, heart working harder"
+    }
+   ]
+  },
+  {
+   "file": "dehydration-emergency-signs",
+   "post_id": 8929,
+   "layout": "alert",
+   "subject": "dehydration",
+   "heading": "When Dehydration Becomes a Medical Emergency",
+   "logo": {
+    "position": "bottom-right",
+    "variant": "white",
+    "width": 150
+   },
+   "alt": "Dehydration is an emergency with confusion, a rapid weak pulse, or vomiting that stops you drinking fluids",
+   "kicker": "Dehydration emergency",
+   "headline": "Get help now",
+   "signs": [
+    {
+     "icon": "brain",
+     "text": "Confusion or an altered mental state"
+    },
+    {
+     "icon": "heart-pulse",
+     "text": "A rapid, weak pulse"
+    },
+    {
+     "icon": "frown",
+     "text": "Nausea or vomiting that stops you drinking"
+    }
+   ],
+   "footer": "Also: fainting, severe dizziness, or no sweat despite the heat"
+  },
+  {
+   "file": "who-needs-iv-hydration-texas-heat",
+   "post_id": 8929,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "Who Needs IV Hydration Therapy Most?",
+   "title": [
+    "Who Needs ",
+    "IV Hydration",
+    " Most in Texas"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV hydration matters most for outdoor workers, athletes, older adults and visitors not acclimatized to Texas heat",
+   "items": [
+    {
+     "icon": "hard-hat",
+     "label": "Outdoor workers",
+     "note": "Construction, landscaping, delivery"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Athletes",
+     "note": "Liters of sweat in one session"
+    },
+    {
+     "icon": "users",
+     "label": "Older adults",
+     "note": "Thirst cues dull with age"
+    },
+    {
+     "icon": "plane",
+     "label": "Visitors",
+     "note": "Not acclimatized to the climate"
+    }
+   ]
+  },
+  {
+   "file": "preventing-dehydration-texas-heat",
+   "post_id": 8929,
+   "layout": "steps",
+   "subject": "dehydration",
+   "heading": "Proactive Steps to Stay Safe This Summer",
+   "title": [
+    "Staying Ahead of ",
+    "Dehydration",
+    " in the Heat"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Prevent dehydration: 16 to 20 ounces four hours before, a cup every 15 to 20 minutes, and stop if you feel off",
+   "steps": [
+    {
+     "icon": "clock-3",
+     "label": "Start early",
+     "note": "16 to 20 ounces, four hours before"
+    },
+    {
+     "icon": "droplets",
+     "label": "Cup every 20",
+     "note": "8 ounces every 15 to 20 minutes outdoors"
+    },
+    {
+     "icon": "thermometer-sun",
+     "label": "Stop if off",
+     "note": "Shade, cool cloths, then reassess"
+    }
+   ]
+  }
+ ]
+}

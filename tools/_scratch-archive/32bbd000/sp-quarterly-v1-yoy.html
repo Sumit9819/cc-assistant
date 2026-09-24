@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<title>Sid's Ponds — Quarterly Search Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+  @page { size: A4; margin: 15mm 14mm 16mm; }
+  :root{
+    --ink:#15201C; --ink2:#3D4C46; --muted:#6B7B73;
+    --rule:#D8DFD9; --rule2:#BCC7BF;
+    --brand:#2C6A4F; --brand-soft:#E6F0E9;
+    --up:#2C6A4F; --up-soft:#E6F0E9;
+    --down:#9A3B31; --down-soft:#F7E5E2;
+    --flat:#8A6D1F; --flat-soft:#F7EFD9;
+    --panel:#F5F7F5;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;color:var(--ink);background:#fff;
+    font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif;font-size:10.4pt;line-height:1.5;}
+  h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;margin:0;line-height:1.18;}
+  p{margin:0 0 .7em;}
+  .mono{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;}
+
+  header.doc{border-bottom:2.5pt solid var(--ink);padding-bottom:9pt;margin-bottom:16pt;
+    display:flex;justify-content:space-between;align-items:flex-end;gap:18pt;}
+  .brandmark{font-family:"IBM Plex Mono",monospace;font-size:8pt;font-weight:600;
+    letter-spacing:.22em;text-transform:uppercase;color:var(--brand);margin:0 0 5pt;}
+  header.doc h1{font-size:21pt;font-weight:700;letter-spacing:-.01em;}
+  header.doc .sub{color:var(--muted);font-size:9pt;margin-top:3pt;}
+  .docmeta{text-align:right;font-family:"IBM Plex Mono",monospace;font-size:7.8pt;
+    color:var(--muted);line-height:1.65;white-space:nowrap;}
+
+  section{margin-bottom:15pt;}
+  .sec-h{display:flex;align-items:baseline;gap:8pt;border-bottom:1pt solid var(--rule2);
+    padding-bottom:4pt;margin-bottom:9pt;}
+  .sec-n{font-family:"IBM Plex Mono",monospace;font-size:8pt;font-weight:600;color:var(--brand);}
+  .sec-h h2{font-size:13pt;font-weight:600;}
+
+  ul.exec{list-style:none;padding:0;margin:0;display:grid;gap:7pt;}
+  ul.exec li{background:var(--panel);border-left:3pt solid var(--brand);
+    padding:9pt 12pt;border-radius:3pt;}
+  ul.exec b{font-weight:700;}
+
+  table{border-collapse:collapse;width:100%;font-size:9.4pt;margin:0 0 8pt;}
+  caption{caption-side:top;text-align:left;color:var(--muted);font-size:8.4pt;padding:0 0 5pt;}
+  th,td{padding:5.5pt 8pt;border-bottom:.75pt solid var(--rule);text-align:left;vertical-align:top;}
+  thead th{font-family:"IBM Plex Mono",monospace;font-size:7.6pt;font-weight:600;
+    letter-spacing:.07em;text-transform:uppercase;color:var(--muted);
+    border-bottom:1pt solid var(--rule2);white-space:nowrap;}
+  td.n,th.n{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  tbody tr:last-child td{border-bottom:none;}
+  tr.total td{border-top:1pt solid var(--rule2);font-weight:700;}
+  .up{color:var(--up);font-weight:600;} .down{color:var(--down);font-weight:600;}
+  .chip{display:inline-block;padding:1pt 6pt;border-radius:9pt;font-size:8pt;font-weight:700;
+    font-family:"IBM Plex Mono",monospace;}
+  .chip.up{background:var(--up-soft);color:var(--up);}
+  .chip.down{background:var(--down-soft);color:var(--down);}
+  .chip.flat{background:var(--flat-soft);color:var(--flat);}
+
+  .callout{border:1pt solid var(--rule2);border-left:3pt solid var(--brand);
+    background:var(--panel);padding:10pt 13pt;border-radius:3pt;margin:9pt 0;}
+  .callout h3{font-size:11pt;font-weight:600;margin-bottom:4pt;}
+  .callout p:last-child{margin-bottom:0;}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1pt;background:var(--rule);
+    border:1pt solid var(--rule);border-radius:4pt;overflow:hidden;margin:0 0 11pt;}
+  .kpis div{background:#fff;padding:9pt 10pt;}
+  .kpis .v{font-family:"IBM Plex Mono",monospace;font-size:15pt;font-weight:600;display:block;line-height:1.15;}
+  .kpis .l{font-size:8.2pt;color:var(--muted);display:block;margin-top:2pt;line-height:1.35;}
+
+  .work{display:grid;gap:0;}
+  .work .row{display:grid;grid-template-columns:78pt 1fr;gap:10pt;padding:6pt 0;
+    border-bottom:.75pt solid var(--rule);}
+  .work .row:last-child{border-bottom:none;}
+  .work .when{font-family:"IBM Plex Mono",monospace;font-size:8pt;color:var(--muted);padding-top:1pt;}
+  .work .what b{font-weight:700;}
+  .work .what span{display:block;color:var(--ink2);font-size:9.2pt;}
+
+  footer.doc{margin-top:16pt;padding-top:8pt;border-top:1pt solid var(--rule);
+    color:var(--muted);font-size:8pt;line-height:1.55;}
+  .pb{page-break-before:always;}
+  section,table,.callout,.kpis,ul.exec{page-break-inside:avoid;}
+</style>
+</head>
+<body>
+
+<header class="doc">
+  <div>
+    <p class="brandmark">GrowthBoss</p>
+    <h1>Sid's Ponds — Quarterly Search Report</h1>
+    <div class="sub">Organic search performance and work completed</div>
+  </div>
+  <div class="docmeta">
+    SP-2026-Q3<br>
+    Issued 29 August 2026<br>
+    1 Jun – 29 Aug 2026<br>
+    vs 3 Mar – 31 May 2026
+  </div>
+</header>
+
+<section>
+  <div class="sec-h"><span class="sec-n">01</span><h2>Executive summary</h2></div>
+  <ul class="exec">
+    <li><b>Excluding one page, the site is flat year-on-year.</b> Total clicks fell 17.3% against the same quarter last year, but a single product category — Secure Outdoor Storage — accounts for <b>81% of that decline</b>. Every other page on the site combined moved just −4.1%.</li>
+    <li><b>Brand demand is completely stable.</b> Searches for Sid's Ponds by name returned 37,285 impressions this quarter against 37,381 a year ago, a change of −0.3%. The audience that knows the business is intact.</li>
+    <li><b>The landscaping, pond and tools ranges are all growing.</b> One hundred and sixty pages gained clicks year-on-year, led by Hardscaping &amp; Interlock at +45, the living wall guide and a stone-lifting tool at +21 each, Soil at +20, Sod at +19 and Green Living Wall Kits at +14. The category rewrites completed in August are too recent to appear in these figures.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="sec-h"><span class="sec-n">02</span><h2>Search performance</h2></div>
+
+  <div class="kpis">
+    <div><span class="v">4,177</span><span class="l">Clicks this quarter</span></div>
+    <div><span class="v">157,571</span><span class="l">Impressions</span></div>
+    <div><span class="v down">−17.3%</span><span class="l">Clicks vs last year</span></div>
+    <div><span class="v up">−4.1%</span><span class="l">Clicks excluding one page</span></div>
+  </div>
+
+  <table>
+    <caption>Equal-length 90-day windows. The prior quarter and the same quarter last year are both shown, because a pond and garden supplier is strongly seasonal and spring is the peak trading period.</caption>
+    <thead><tr><th>Measure</th><th class="n">Last year<br>Jun–Aug 2025</th><th class="n">Prior quarter<br>Mar–May 2026</th><th class="n">This quarter<br>Jun–Aug 2026</th><th class="n">vs last year</th></tr></thead>
+    <tbody>
+      <tr><td>Total clicks</td><td class="n">5,051</td><td class="n">5,257</td><td class="n">4,177</td><td class="n down">−17.3%</td></tr>
+      <tr><td>Total impressions</td><td class="n">246,542</td><td class="n">183,377</td><td class="n">157,571</td><td class="n down">−36.1%</td></tr>
+      <tr><td>Branded impressions</td><td class="n">37,381</td><td class="n">32,648</td><td class="n">37,285</td><td class="n"><span class="chip flat">unchanged</span></td></tr>
+      <tr><td>Non-branded impressions</td><td class="n">190,472</td><td class="n">112,226</td><td class="n">99,231</td><td class="n down">−47.9%</td></tr>
+      <tr><td>Non-branded click rate</td><td class="n">0.74%</td><td class="n">1.23%</td><td class="n">0.92%</td><td class="n up">+24%</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <h3>Why the impression fall overstates the picture</h3>
+    <p>Impressions fell far faster than clicks, and most of that loss sits in positions that never earned traffic. Search terms ranking below position 20 account for <b>80% of the impression loss but only 5% of the click loss</b>. Terms below position 50 lost 33,001 impressions year-on-year and <em>gained</em> 15 clicks.</p>
+    <p>The click rate on non-branded search actually improved by 24%, from 0.74% to 0.92%. The site is being shown for fewer irrelevant searches and converting the remaining ones better.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><span class="sec-n">03</span><h2>What moved the number</h2></div>
+  <p>One page explains the quarter. Secure Outdoor Storage is the highest-volume category on the site and its click total fell by 711 year-on-year, against a total site decline of 880.</p>
+
+  <table>
+    <caption>Secure Outdoor Storage, page-level totals across all search terms.</caption>
+    <thead><tr><th>Period</th><th class="n">Clicks</th><th class="n">Impressions</th><th class="n">Avg. position</th><th class="n">Click rate</th></tr></thead>
+    <tbody>
+      <tr><td>Jun–Aug 2025</td><td class="n">987</td><td class="n">59,124</td><td class="n">19.3</td><td class="n">1.67%</td></tr>
+      <tr><td>Mar–May 2026</td><td class="n">745</td><td class="n">35,481</td><td class="n">11.4</td><td class="n">2.10%</td></tr>
+      <tr><td>Jun–Aug 2026</td><td class="n">276</td><td class="n">24,845</td><td class="n">9.6</td><td class="n">1.11%</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <h3>The ranking improved while the traffic fell</h3>
+    <p>This page now ranks at position 9.6 on average, its strongest ever, having climbed from 19.3 a year ago. It reaches page one for the whole bike storage family: <span class="mono">bike shed</span> at 7.8, <span class="mono">bike storage</span> at 8.0, <span class="mono">outdoor bike storage</span> at 6.2 and <span class="mono">bike shed canada</span> at 3.2. Several of those positions are better than last year's.</p>
+    <p>Clicks fell 72% regardless. The nine bike storage search terms below carry the decline, and on most of them the position held or improved while the clicks did not follow. This is a listing that people see and pass over, not a page that lost its rankings.</p>
+  </div>
+
+  <table>
+    <caption>The nine largest bike storage losses, year-on-year. These nine account for 261 lost clicks; across all 1,286 search terms containing "bike" or "bicycle" the loss is 460 clicks, which is <b>94% of the entire non-branded decline</b>.</caption>
+    <thead><tr><th>Search term</th><th class="n">Clicks 2025</th><th class="n">Clicks 2026</th><th class="n">Position then</th><th class="n">Position now</th></tr></thead>
+    <tbody>
+      <tr><td>bike storage</td><td class="n">79</td><td class="n">8</td><td class="n">5.9</td><td class="n">8.0</td></tr>
+      <tr><td>bike shed</td><td class="n">72</td><td class="n">22</td><td class="n">6.5</td><td class="n">7.8</td></tr>
+      <tr><td>outdoor bike storage</td><td class="n">49</td><td class="n">8</td><td class="n">7.5</td><td class="n up">6.2</td></tr>
+      <tr><td>bike storage shed</td><td class="n">37</td><td class="n">9</td><td class="n">5.3</td><td class="n">8.3</td></tr>
+      <tr><td>bike shed canada</td><td class="n">35</td><td class="n">12</td><td class="n">3.8</td><td class="n up">3.2</td></tr>
+      <tr><td>bike storage solutions</td><td class="n">16</td><td class="n">0</td><td class="n">7.6</td><td class="n">10.3</td></tr>
+      <tr><td>bike storage box</td><td class="n">14</td><td class="n">1</td><td class="n">15.3</td><td class="n up">3.0</td></tr>
+      <tr><td>bike sheds</td><td class="n">13</td><td class="n">2</td><td class="n">8.8</td><td class="n up">6.7</td></tr>
+      <tr><td>outdoor bike lockers</td><td class="n">8</td><td class="n">0</td><td class="n">19.4</td><td class="n up">6.9</td></tr>
+    </tbody>
+  </table>
+
+  <p>Set that page aside and the rest of the site moved from 4,156 clicks to 3,987, a change of −4.1% year-on-year. Against the prior quarter the remainder is down 14.0%, which is the ordinary spring-to-summer pattern for a garden supplier: March to May is the pond-opening and lawn season.</p>
+</section>
+
+<section class="pb">
+  <div class="sec-h"><span class="sec-n">04</span><h2>Where the site gained</h2></div>
+  <p>One hundred and sixty pages gained clicks year-on-year. The strongest movements are in the landscaping, pond and tools ranges.</p>
+
+  <table>
+    <caption>Largest year-on-year click gains by page.</caption>
+    <thead><tr><th>Page</th><th class="n">Jun–Aug 2025</th><th class="n">Jun–Aug 2026</th><th class="n">Change</th></tr></thead>
+    <tbody>
+      <tr><td>Stone lifting tools</td><td class="n">0</td><td class="n">46</td><td class="n up">+46</td></tr>
+      <tr><td>Hardscaping &amp; Interlock</td><td class="n">42</td><td class="n">87</td><td class="n up">+45</td></tr>
+      <tr><td>Vacuum stone lifter</td><td class="n">34</td><td class="n">55</td><td class="n up">+21</td></tr>
+      <tr><td>How to Build a Living Wall</td><td class="n">1</td><td class="n">22</td><td class="n up">+21</td></tr>
+      <tr><td>Soil</td><td class="n">11</td><td class="n">31</td><td class="n up">+20</td></tr>
+      <tr><td>Sod</td><td class="n">9</td><td class="n">28</td><td class="n up">+19</td></tr>
+      <tr><td>Green Living Wall Kits</td><td class="n">59</td><td class="n">73</td><td class="n up">+14</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <h3>Living wall is the strongest growth position on the site</h3>
+    <p>The category page drew 7,836 non-branded impressions this quarter across 520 distinct search terms. Six of its commercial terms sit between positions 15 and 20, which is the top of page two: <span class="mono">outdoor living wall</span> at 15.0, <span class="mono">living wall indoor</span> at 15.4, <span class="mono">indoor living wall</span> at 17.1, <span class="mono">living wall</span> at 17.5, <span class="mono">indoor living wall kits</span> at 17.7 and <span class="mono">living wall kit</span> at 19.8. A seventh, <span class="mono">green wall</span>, has already reached 13.2 from 40.9 a year ago.</p>
+    <p>The category page and the how-to guide are cleanly separated: the guide holds the instructional searches, the category holds the buying searches. Both gained clicks year-on-year.</p>
+  </div>
+
+  <p>Ranking gains were also recorded on terms that previously sat well down the results, including <span class="mono">pond supplies toronto</span> from position 19.8 to 4.5, <span class="mono">green wall</span> from 40.9 to 13.2, <span class="mono">sod</span> from 27.8 to 15.1, <span class="mono">slab grabber</span> from 24.8 to 12.1 and <span class="mono">pond liner</span> from 10.5 to 6.9.</p>
+</section>
+
+<section>
+  <div class="sec-h"><span class="sec-n">05</span><h2>Work completed</h2></div>
+  <p>Work through the quarter fell into four programmes. The content and technical work was completed and published between 19 and 29 August.</p>
+
+  <h3 style="font-size:11pt;margin:10pt 0 5pt;">Category and content rewrites</h3>
+  <div class="work">
+    <div class="row"><div class="when">19 Aug</div><div class="what"><b>Outdoor &amp; Landscape Lighting hub</b><span>Full rewrite of the department page covering both stocked brands, fixture types and low-voltage systems.</span></div></div>
+    <div class="row"><div class="when">20 Aug</div><div class="what"><b>Homepage title and search listing</b><span>Rewritten to lead with the pond, garden and landscape supply offer and the Mississauga location.</span></div></div>
+    <div class="row"><div class="when">20 Aug</div><div class="what"><b>Hardscaping &amp; Interlock</b><span>Customer questions section added covering stocked brands, delivery and ordering.</span></div></div>
+    <div class="row"><div class="when">21 Aug</div><div class="what"><b>Inground &amp; Recessed Lighting</b><span>Expanded from 70 to 355 words, with the pot-light terminology Canadian customers actually search for.</span></div></div>
+    <div class="row"><div class="when">22 Aug</div><div class="what"><b>Fire Pit Inserts</b><span>Expanded from 67 to 333 words explaining burner assemblies and custom surrounds.</span></div></div>
+    <div class="row"><div class="when">23 Aug</div><div class="what"><b>Pond Supplies &amp; Kits</b><span>Expanded from 176 to 306 words across treatments, filtration, aeration and complete build kits.</span></div></div>
+    <div class="row"><div class="when">25 Aug</div><div class="what"><b>Backyard Interlock Design guide</b><span>Design-pattern and small-yard sections added, headings restructured around real search terms, two incorrect image descriptions corrected.</span></div></div>
+    <div class="row"><div class="when">27 Aug</div><div class="what"><b>Green Living Wall Kits</b><span>Rewritten to cover modular wall systems, supplies and the living wall versus green wall question. Two incorrect pot-set quantities corrected against the live product options.</span></div></div>
+  </div>
+
+  <h3 style="font-size:11pt;margin:12pt 0 5pt;">Site health and accessibility</h3>
+  <div class="work">
+    <div class="row"><div class="when">25 Aug</div><div class="what"><b>Image descriptions</b><span>Missing descriptions added to landscaping photographs for screen readers and image search.</span></div></div>
+    <div class="row"><div class="when">26 Aug</div><div class="what"><b>Text contrast on About Us</b><span>Testimonial job titles darkened from a 3.12:1 contrast ratio to 4.82:1, clearing the accessibility standard.</span></div></div>
+    <div class="row"><div class="when">26 Aug</div><div class="what"><b>Location map</b><span>Given a proper description so screen readers announce it instead of skipping it.</span></div></div>
+    <div class="row"><div class="when">29 Aug</div><div class="what"><b>Promotion cards and badge contrast</b><span>Badge text corrected from a 2.95:1 ratio to 7.40:1. Sale prices restyled so the reduced price reads as the prominent figure.</span></div></div>
+  </div>
+
+  <h3 style="font-size:11pt;margin:12pt 0 5pt;">Speed and technical</h3>
+  <div class="work">
+    <div class="row"><div class="when">27 Aug</div><div class="what"><b>Icon font removed site-wide</b><span>Footer payment and social icons rebuilt as inline graphics, removing a 110KB font file that loaded on every page of the site.</span></div></div>
+    <div class="row"><div class="when">27 Aug</div><div class="what"><b>Lighting link structure</b><span>Sixteen internal links across the lighting pages repointed to their primary addresses, removing redirect steps for search engines and customers.</span></div></div>
+  </div>
+
+  <h3 style="font-size:11pt;margin:12pt 0 5pt;">Store information</h3>
+  <div class="work">
+    <div class="row"><div class="when">27 Aug</div><div class="what"><b>Sunday hours corrected</b><span>Updated to Closed on the contact page and in the header hours panel.</span></div></div>
+    <div class="row"><div class="when">29 Aug</div><div class="what"><b>Seasonal promotion refreshed</b><span>Homepage promotion renamed to End of Summer Blowout and rebuilt, with the display font corrected — it had been calling a typeface the site does not load, so it had never rendered as intended.</span></div></div>
+  </div>
+
+  <h3 style="font-size:11pt;margin:12pt 0 5pt;">Measurement</h3>
+  <div class="work">
+    <div class="row"><div class="when">Aug</div><div class="what"><b>Search performance history rebuilt</b><span>Sixteen months of daily search data assembled so page-level changes can be measured against a site-wide control rather than judged in isolation.</span></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><span class="sec-n">06</span><h2>Reading the quarter</h2></div>
+  <p>Almost all of the content and technical work above was published between 19 and 29 August, the final eleven days of a ninety-day reporting window. The performance figures in this report therefore describe the site largely <em>before</em> that work took effect, and none of the gains listed in section 04 can yet be attributed to it.</p>
+  <p>In those eleven days the two rebuilt pages with existing traffic both moved ahead of the site trend — Green Living Wall Kits from 8 clicks to 12, and Hardscaping &amp; Interlock from 7 to 10, against a site-wide movement of −12.4% over the same days last year. Eleven days and single-figure click counts are not evidence, and are recorded here only as a starting position. The rewrites will be measured properly at the twenty-eight day mark.</p>
+  <p>Work continuing into next quarter centres on the living wall range, where six commercial search terms sit at the top of page two and are the closest thing on the site to a page-one opportunity, and on completing the category rewrites across the pond and landscaping departments.</p>
+</section>
+
+<footer class="doc">
+  <p><b>Method.</b> All figures from Google Search Console for sids-ponds.com, retrieved 29 August 2026. Windows are equal-length 90-day periods: 1 Jun – 29 Aug 2026, the prior quarter 3 Mar – 31 May 2026, and the same period last year 2 Jun – 30 Aug 2025. Partial months are never compared against full ones.</p>
+  <p>Site totals are taken unfiltered. Branded and non-branded splits are calculated across the search terms Google names in its reporting; Google withholds rare terms, which represent a consistent 41–44% of clicks in every window shown, so those splits are a share of named terms rather than absolute totals and are compared on the same basis throughout. Page-level and term-level figures are taken from page and query reporting respectively and sum slightly differently from the unfiltered site total. Average positions are impression-weighted, never an average of averages.</p>
+</footer>
+
+</body>
+</html>

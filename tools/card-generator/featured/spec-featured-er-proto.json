@@ -1,0 +1,150 @@
+{
+  "_note": "ER featured-image prototypes. Framed cards use frame B and must COVER the disc: an image fitted whole inside the circle reads as two separate objects, so photo_fit \"inscribe\" is refused on this layout. Crop the source so cover fills the frame, or use photo-panel for an object held whole.",
+  "featured": [
+    {
+      "file": "erof-hairline-fracture-xray",
+      "brand": "erofirving",
+      "post_id": 3977,
+      "layout": "photo-frame-dark",
+      "photo": "src/gen/er-xray-film.png",
+      "kicker": "Fractures",
+      "title": [
+        "Do You Need an ",
+        "ER X-Ray",
+        "?"
+      ],
+      "sub": "What it feels like, and when to image.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A greyscale radiograph of a wrist and forearm",
+      "focus": "85% 50%",
+      "frame": "b",
+      "circle_floor": 0.5
+    },
+    {
+      "file": "erof-food-poisoning-timeline",
+      "brand": "erofirving",
+      "post_id": 4345,
+      "layout": "photo-panel",
+      "photo": "src/gen/er-thermometer-water.png",
+      "focus": "center",
+      "kicker": "Food Poisoning",
+      "title": [
+        "How Long Does ",
+        "Food Poisoning",
+        " Last?"
+      ],
+      "sub": "The usual timeline, and the red flags.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A digital thermometer lying beside a plain glass of water on a pale surface"
+    },
+    {
+      "file": "erof-chest-pain-differences",
+      "brand": "erofirving",
+      "post_id": 3978,
+      "layout": "type",
+      "kicker": "Chest Pain",
+      "title": [
+        "Muscular, Lung, or ",
+        "Heart",
+        "?"
+      ],
+      "sub": "The differences that decide whether chest pain belongs in an ER.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-right",
+        "width": 68
+      },
+      "alt": "Title card reading Muscular, Lung, or Heart"
+    },
+    {
+      "file": "erwr-how-long-er-visit",
+      "brand": "erofwhiterock",
+      "post_id": 5437,
+      "layout": "type-dark",
+      "kicker": "What to Expect",
+      "title": [
+        "How Long Does an ",
+        "ER Visit",
+        " Take?"
+      ],
+      "sub": "Every stage of the visit, from the front door to discharge.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-right",
+        "width": 210
+      },
+      "alt": "Title card reading How Long Does an ER Visit Take"
+    },
+    {
+      "file": "erwr-cuanto-dura-visita",
+      "brand": "erofwhiterock",
+      "post_id": 5438,
+      "layout": "type",
+      "kicker": "Qu\u00e9 Esperar",
+      "title": [
+        "\u00bfCu\u00e1nto Dura una ",
+        "Visita a Emergencias",
+        "?"
+      ],
+      "sub": "Cada etapa de la visita, desde la entrada hasta el alta.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-right",
+        "width": 210
+      },
+      "alt": "Tarjeta de t\u00edtulo que dice Cu\u00e1nto Dura una Visita a Emergencias"
+    },
+    {
+      "file": "erlf-carbon-monoxide-signs",
+      "brand": "eroflufkin",
+      "post_id": 7047,
+      "layout": "photo-frame",
+      "photo": "src/gen/er-co-plugin.png",
+      "kicker": "Carbon Monoxide",
+      "title": [
+        "Know the Signs of ",
+        "CO Poisoning",
+        ""
+      ],
+      "sub": "Symptoms every Texas home should know.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A plug-in carbon monoxide alarm with a digital display",
+      "frame": "b",
+      "focus": "center"
+    },
+    {
+      "file": "erlf-copperhead-first-aid",
+      "brand": "eroflufkin",
+      "post_id": 7053,
+      "layout": "photo-frame",
+      "photo": "src/gen/er-copperhead.png",
+      "focus": "center",
+      "kicker": "Snake Bites",
+      "title": [
+        "Copperhead Bite: ",
+        "First Aid",
+        ""
+      ],
+      "sub": "What to do first, and when to come in.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A copperhead snake coiled on dry oak leaves and pine needles",
+      "frame": "b"
+    }
+  ]
+}

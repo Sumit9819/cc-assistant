@@ -1,0 +1,272 @@
+<title>Sid's Ponds — Website Speed Review</title>
+<style>
+  :root {
+    --ground:#F4F7F2; --surface:#FFFFFF; --sunken:#EBF0E8;
+    --ink:#17201B; --ink-soft:#46554C; --muted:#6B7A71; --rule:#D6DFD3;
+    --accent:#2C6238; --live:#4E9B2E; --wait:#A8641B; --block:#9C3B2E;
+    --shadow:0 1px 2px rgba(23,32,27,.06), 0 8px 24px -12px rgba(23,32,27,.18);
+    --display: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#10150F; --surface:#191F19; --sunken:#212823;
+      --ink:#E7EDE5; --ink-soft:#B3C0B4; --muted:#8B9A8D; --rule:#2E382F;
+      --accent:#8FC97A; --live:#7DC95C; --wait:#D9A05B; --block:#E08573;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#10150F; --surface:#191F19; --sunken:#212823;
+    --ink:#E7EDE5; --ink-soft:#B3C0B4; --muted:#8B9A8D; --rule:#2E382F;
+    --accent:#8FC97A; --live:#7DC95C; --wait:#D9A05B; --block:#E08573;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+  * { box-sizing:border-box; }
+  body {
+    background:var(--ground); color:var(--ink); font-family:var(--body);
+    font-size:16px; line-height:1.6; margin:0;
+    padding:0 clamp(1rem,5vw,3rem) 6rem; -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:60rem; margin:0 auto; }
+
+  .masthead {
+    display:flex; flex-direction:column; gap:.5rem;
+    padding:clamp(2.5rem,6vw,4.5rem) 0 1.75rem; border-bottom:2px solid var(--ink);
+  }
+  .eyebrow { font-size:.75rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+  .masthead h1 {
+    font-family:var(--display); font-size:clamp(2rem,5.5vw,3.1rem); line-height:1.08;
+    margin:0; font-weight:600; letter-spacing:-.015em; text-wrap:balance;
+  }
+  .masthead .dek { color:var(--ink-soft); max-width:46rem; margin:.35rem 0 0; font-size:1.05rem; }
+
+  .summary { display:grid; gap:1rem; margin:2rem 0 0; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); }
+  .stat {
+    background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+    padding:1.1rem 1.2rem; box-shadow:var(--shadow); border-top:3px solid var(--tone,var(--accent));
+  }
+  .stat .n { font-family:var(--display); font-size:2.2rem; line-height:1; font-variant-numeric:tabular-nums; color:var(--tone,var(--accent)); font-weight:600; }
+  .stat .lbl { font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:700; margin-top:.5rem; }
+  .stat p { margin:.4rem 0 0; font-size:.9rem; color:var(--ink-soft); line-height:1.45; }
+  .t-live{--tone:var(--live);} .t-wait{--tone:var(--wait);} .t-block{--tone:var(--block);}
+
+  section { margin-top:3.25rem; }
+  section > h2 {
+    font-family:var(--display); font-weight:600; font-size:clamp(1.35rem,3vw,1.75rem);
+    line-height:1.2; margin:0 0 .3rem; letter-spacing:-.01em; text-wrap:balance;
+  }
+  .sub { color:var(--muted); margin:0 0 1.35rem; font-size:.95rem; }
+  h3 { font-size:1rem; font-weight:700; margin:0 0 .35rem; }
+  p { margin:0 0 .85rem; max-width:64ch; }
+  section > p:last-child { margin-bottom:0; }
+
+  .items { display:flex; flex-direction:column; gap:.85rem; }
+  .item {
+    background:var(--surface); border:1px solid var(--rule);
+    border-left:4px solid var(--tone,var(--rule)); border-radius:3px; padding:1.05rem 1.2rem;
+  }
+  .item p { margin:0; color:var(--ink-soft); font-size:.93rem; }
+  .item p + p { margin-top:.5rem; }
+  .head { display:flex; flex-wrap:wrap; align-items:baseline; gap:.6rem; margin-bottom:.3rem; }
+  .head h3 { margin:0; }
+  .chip {
+    display:inline-block; font-size:.66rem; letter-spacing:.1em; text-transform:uppercase;
+    font-weight:700; padding:.2rem .5rem; border-radius:2px; background:var(--sunken);
+    color:var(--tone,var(--accent)); border:1px solid var(--rule); white-space:nowrap;
+  }
+
+  .scroll { overflow-x:auto; margin:0 0 1rem; border:1px solid var(--rule); border-radius:3px; background:var(--surface); }
+  table { border-collapse:collapse; width:100%; font-size:.89rem; min-width:28rem; }
+  th, td { text-align:left; padding:.6rem .85rem; border-bottom:1px solid var(--rule); }
+  thead th { font-size:.68rem; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); font-weight:700; background:var(--sunken); white-space:nowrap; }
+  tbody tr:last-child td { border-bottom:0; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; font-family:var(--mono); font-size:.84rem; white-space:nowrap; }
+  .good { color:var(--live); font-weight:700; }
+  .bad { color:var(--block); font-weight:700; }
+
+  code { font-family:var(--mono); font-size:.86em; background:var(--sunken); padding:.12em .38em; border-radius:2px; border:1px solid var(--rule); }
+  ul.plain { margin:0 0 .85rem; padding-left:1.15rem; color:var(--ink-soft); }
+  ul.plain li { margin-bottom:.4rem; max-width:62ch; }
+
+  .note { background:var(--sunken); border:1px solid var(--rule); border-radius:3px; padding:1.05rem 1.2rem; margin-top:1rem; }
+  .note h3 { color:var(--ink); }
+  .note p { color:var(--ink-soft); font-size:.92rem; margin-bottom:0; }
+  .note p + p { margin-top:.6rem; }
+
+  /* ---- client-facing block ---- */
+  .client-intro {
+    background:var(--surface); border:2px solid var(--accent); border-radius:4px;
+    padding:1.4rem 1.5rem; margin-bottom:1.5rem;
+  }
+  .client-intro h2 { font-family:var(--display); font-size:1.6rem; margin:0 0 .5rem; font-weight:600; }
+  .client-intro p { margin:0; color:var(--ink-soft); }
+
+  ol.asks { margin:0; padding:0; list-style:none; counter-reset:a; display:flex; flex-direction:column; gap:1.1rem; }
+  ol.asks > li {
+    counter-increment:a; background:var(--surface); border:1px solid var(--rule);
+    border-radius:3px; padding:1.15rem 1.3rem 1.15rem 3.6rem; position:relative;
+  }
+  ol.asks > li::before {
+    content:counter(a); position:absolute; left:1.15rem; top:1.15rem;
+    width:1.7rem; height:1.7rem; border-radius:50%; background:var(--accent); color:var(--surface);
+    display:grid; place-items:center; font-family:var(--mono); font-size:.8rem; font-weight:700;
+  }
+  ol.asks h3 { font-size:1.06rem; margin:0 0 .5rem; }
+  ol.asks p { font-size:.95rem; color:var(--ink-soft); margin:0 0 .6rem; }
+  .qbox {
+    background:var(--sunken); border-left:3px solid var(--accent);
+    padding:.6rem .85rem; border-radius:0 3px 3px 0; margin-top:.7rem;
+  }
+  .qbox p { margin:0; font-size:.93rem; color:var(--ink); font-weight:600; }
+  .whybox { font-size:.88rem; color:var(--muted); margin-top:.55rem; }
+
+  footer { margin-top:4rem; padding-top:1.25rem; border-top:1px solid var(--rule); color:var(--muted); font-size:.85rem; }
+  footer p { max-width:64ch; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">sids-ponds.com &middot; speed review</div>
+    <h1>Website Speed Review</h1>
+    <p class="dek">A full investigation into why pages load slowly on mobile, what we tested, and the decisions needed to move further.</p>
+    <div class="eyebrow" style="margin-top:.75rem">12 August 2026</div>
+  </header>
+
+  <div class="summary">
+    <div class="stat t-live">
+      <div class="n">~100ms</div>
+      <div class="lbl">Server speed</div>
+      <p>The hosting and database are healthy. This was tested and ruled out.</p>
+    </div>
+    <div class="stat t-wait">
+      <div class="n">6</div>
+      <div class="lbl">Theories tested</div>
+      <p>Each one measured directly on the live site rather than assumed.</p>
+    </div>
+    <div class="stat t-block">
+      <div class="n">26 sec</div>
+      <div class="lbl">Of phone processing</div>
+      <p>Time a mid-range phone spends running scripts before the page settles.</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>The short version</h2>
+    <p>The website is not slow because of the hosting, the images, or the page design. It is slow because of the sheer number of things loading at once. The site runs <strong>59 active plugins</strong> on top of the Divi page builder, and together they produce more code than a phone can process quickly.</p>
+    <p>Crucially, no single item is responsible. We removed 2.2&nbsp;MB of images and the page did not get faster. We removed 278&nbsp;KB of unused styling and it did not get faster. That is the central finding, and it changes what is worth doing next.</p>
+  </section>
+
+  <section>
+    <h2>What we tested, and what happened</h2>
+    <p class="sub">Every theory was measured on the live site, on a simulated mid-range phone. Most were wrong, which is useful to know.</p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Theory</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td>The server or caching is slow</td><td class="bad">Wrong &mdash; server responds in ~100ms</td></tr>
+          <tr><td>Images are too heavy</td><td class="bad">No effect &mdash; removing 2.2 MB changed nothing</td></tr>
+          <tr><td>The homepage slider loads too much</td><td class="bad">Made it worse</td></tr>
+          <tr><td>The carousel library is too costly</td><td class="bad">Made it worse</td></tr>
+          <tr><td>Unused styling is slowing the page</td><td class="bad">No measurable effect</td></tr>
+          <tr><td>Marketing &amp; tracking scripts are the cost</td><td class="good">Confirmed &mdash; 60% less phone processing</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Only the last one held up. Removing the tracking, chat and finance scripts cut the phone's workload from <strong>20 seconds to 8 seconds</strong>. It does not make the page appear faster, but it makes it respond faster once it appears &mdash; scrolling and tapping stop feeling stuck.</p>
+  </section>
+
+  <section>
+    <h2>Good news worth stating plainly</h2>
+    <div class="items">
+      <div class="item t-live">
+        <div class="head"><h3>The hosting is fine</h3><span class="chip t-live">Ruled out</span></div>
+        <p>We compared a plain file against a full page on the same server. The difference was about 100 milliseconds, which is the website software's real cost. Page caching is working. There is nothing to fix or upgrade here, and no reason to change hosting.</p>
+      </div>
+      <div class="item t-live">
+        <div class="head"><h3>Tracking is working correctly</h3><span class="chip t-live">Verified</span></div>
+        <p>An earlier concern that one of the tracking plugins had stopped recording data turned out to be out of date. It is functioning normally now.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What we found that can be fixed</h2>
+
+    <div class="items">
+      <div class="item t-wait">
+        <div class="head"><h3>Google tracking is loading twice</h3><span class="chip t-wait">Needs a decision</span></div>
+        <p>Two different plugins are each loading the same Google Ads code and the same Google Analytics code. The same information is being collected twice, and the visitor's phone pays for both. Switching one off would remove roughly 300&nbsp;KB and the processing that goes with it, without losing any data.</p>
+      </div>
+      <div class="item">
+        <div class="head"><h3>A video player loading on 585 pages to serve 2</h3><span class="chip">We will handle this</span></div>
+        <p>The Videopack plugin adds a video player to every page on the site. We scanned all 585 public pages and found exactly two that use it &mdash; the MT1750 and TT570 mini dumper product pages. Both also publish video details that Google can use for richer search results, so the plugin stays.</p>
+        <p>Instead we will load it only on the pages that contain a video, removing it from the other 583. No decision needed from you.</p>
+      </div>
+      <div class="item t-wait">
+        <div class="head"><h3>Chat and finance widgets load everywhere</h3><span class="chip t-wait">Needs a decision</span></div>
+        <p>The instalment-payments widget and the live chat widget load on every page, including pages where nobody would use them. Between them they are among the most expensive things on the site for a phone to process.</p>
+      </div>
+      <div class="item">
+        <div class="head"><h3>The tool bought to solve this cannot reach these scripts</h3><span class="chip">Technical finding</span></div>
+        <p>A plugin called Flying Scripts is installed to delay heavy scripts until someone interacts with the page, and it is configured with all the right names. It is catching none of them, because these particular scripts are written into the page in a form it cannot rewrite. This is a limitation of the free tool, not a misconfiguration. A different approach is needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="client-intro" style="margin-top:3.25rem">
+    <h2>What we need from you</h2>
+    <p>Four short decisions. None of them require any technical knowledge &mdash; we just need to know your preference before we change anything that affects your sales or your advertising.</p>
+  </div>
+
+  <ol class="asks">
+    <li>
+      <h3>Which tracking tool do you actually use?</h3>
+      <p>Your website is currently running two copies of the same Google tracking. It collects the same numbers twice and slows every page down for no benefit. We would like to switch one of them off.</p>
+      <p>We do not want to guess, because turning off the wrong one could interrupt the reporting your advertising depends on.</p>
+      <div class="qbox"><p>Who manages your Google Ads and Analytics, and which report do they open to check performance?</p></div>
+      <p class="whybox">If you can tell us that, we can safely switch off the duplicate. Nothing you currently see in reports would change.</p>
+    </li>
+
+    <li>
+      <h3>Should the chat and instalment widgets load on every page?</h3>
+      <p>The pay-in-instalments widget and the live chat window both load on every single page, including blog posts and category pages where nobody is likely to use them. They are two of the heaviest items on your site.</p>
+      <div class="qbox"><p>Are you happy for the instalments widget to appear only on product and checkout pages, and for live chat to load when a visitor clicks the chat button rather than on arrival?</p></div>
+      <p class="whybox">Customers would still see instalment pricing exactly where they are deciding to buy, and chat would still work &mdash; it would simply open a moment after being clicked.</p>
+    </li>
+
+    <li>
+      <h3>The bike storage products &mdash; are they still available?</h3>
+      <p>This is the most valuable item on this list, and it is not a speed issue.</p>
+      <p>Your Secure Outdoor Storage page is one of the strongest pages you have on Google. It appears in search results <strong>30,647 times</strong> &mdash; more than all of your pond categories put together &mdash; and it ranks in the top five in Canada for bike storage searches. At the moment the page shows one product, a patio storage box.</p>
+      <p>We can see that two Trimetals bicycle storage units exist in the system but are not published to the website.</p>
+      <div class="qbox"><p>Can you still get those bike storage units? If yes, can they be put back on the website?</p></div>
+      <p class="whybox">You have already won the hard part, which is ranking. Right now that demand arrives and finds nothing to buy.</p>
+    </li>
+
+    <li>
+      <h3>What are your Saturday opening hours?</h3>
+      <p>Your Google Business Profile says Saturday 8&ndash;6. Your website says Saturday 8&ndash;5. Customers see both, and Google notices the disagreement.</p>
+      <p>Separately, the opening-hours information built into the website is wrong for every day of the week &mdash; it currently tells Google you are open until 5pm on Sunday, when you close at 3pm.</p>
+      <div class="qbox"><p>Can you confirm your correct opening hours for all seven days?</p></div>
+      <p class="whybox">Once confirmed we will correct the website and the hidden information Google reads, so they all agree.</p>
+    </li>
+  </ol>
+
+  <section>
+    <h2>Our recommendation</h2>
+    <p>We would not spend more time chasing load speed on the current setup. We have now tested the realistic options and the possible gains are small, because the cause is the overall number of plugins rather than any single one. Continuing would cost hours for changes your customers would not notice.</p>
+    <p>The decisions above are worth making because they are quick, safe, and two of them &mdash; the bike storage stock and the opening hours &mdash; affect sales directly rather than just page speed.</p>
+    <p>Beyond that, our time is better spent on the product and category page work, which is already producing measurable improvements in search.</p>
+  </section>
+
+  <footer>
+    <p><strong>How this was measured.</strong> Every figure was recorded on the live website using a simulated mid-range phone on a typical mobile connection, not estimated. Each theory was tested by temporarily removing the item in a browser and re-measuring, so the conclusions rest on before-and-after readings rather than judgement.</p>
+    <p>Page-load timings on this site vary by up to 1.2 seconds between identical tests, so any change smaller than half a second cannot be told apart from normal variation. Figures above are stated with that in mind.</p>
+  </footer>
+
+</div>

@@ -1,0 +1,494 @@
+{
+ "_note": "Replacement batch R4: 9402, 10229, 10192. Positional swaps. The Skinvive comparison drops the post's price row on purpose: $700 and $800/$1,520 are stated in the text where they can be edited, and a price baked into an image goes stale silently. On 10192 the non-responder card avoids the 20.2 vs 13.7 figures because the semaglutide-vs-tirzepatide post already carries that stat card.",
+ "cards": [
+  {
+   "file": "low-testosterone-signs-in-men",
+   "post_id": 9402,
+   "layout": "list",
+   "subject": "testosterone",
+   "heading": "The Decline of Male Androgens",
+   "title": [
+    "Signs of Low ",
+    "Testosterone",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Low testosterone shows as fatigue sleep does not fix, brain fog, muscle loss despite training, and persistent low mood",
+   "items": [
+    {
+     "icon": "battery-low",
+     "label": "Fatigue",
+     "note": "That sleep does not fix"
+    },
+    {
+     "icon": "brain",
+     "label": "Brain fog",
+     "note": "Trouble concentrating at work"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Muscle tone lost",
+     "note": "Despite going to the gym"
+    },
+    {
+     "icon": "frown",
+     "label": "Low mood",
+     "note": "Or new irritability"
+    }
+   ]
+  },
+  {
+   "file": "trt-muscle-and-strength",
+   "post_id": 9402,
+   "layout": "icons",
+   "subject": "TRT",
+   "heading": "Rebuilding Lean Muscle Mass and Strength",
+   "title": [
+    "TRT",
+    " and Lean Muscle",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "TRT is anabolic: NIH studies show it can increase lean body mass and improve grip strength, a longevity indicator",
+   "items": [
+    {
+     "icon": "recycle",
+     "label": "Anabolic",
+     "note": "Helps repair and build muscle tissue"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Lean mass",
+     "note": "Increases in NIH studies"
+    },
+    {
+     "icon": "trending-up",
+     "label": "Grip strength",
+     "note": "A key indicator of longevity"
+    }
+   ]
+  },
+  {
+   "file": "trt-mood-and-clarity",
+   "post_id": 9402,
+   "layout": "icons",
+   "subject": "TRT",
+   "heading": "Improving Mood and Mental Clarity",
+   "title": [
+    "TRT",
+    ", Mood and Mental Clarity",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Low testosterone is linked to depressive symptoms and anxiety; stabilizing levels can clear fog and restore drive",
+   "items": [
+    {
+     "icon": "brain",
+     "label": "Clearer thinking",
+     "note": "The mental fog lifts"
+    },
+    {
+     "icon": "target",
+     "label": "Drive returns",
+     "note": "Motivation and follow-through"
+    },
+    {
+     "icon": "smile",
+     "label": "Resilience",
+     "note": "Low levels link to depressive symptoms"
+    }
+   ]
+  },
+  {
+   "file": "trt-metabolic-health",
+   "post_id": 9402,
+   "layout": "icons",
+   "subject": "TRT",
+   "heading": "Metabolic Health and Weight Management",
+   "title": [
+    "TRT",
+    " and Metabolic Health",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Restoring testosterone can improve insulin sensitivity, lower type 2 diabetes risk, and reduce visceral fat",
+   "items": [
+    {
+     "icon": "candy-off",
+     "label": "Insulin sensitivity",
+     "note": "How the body processes sugar"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Diabetes risk",
+     "note": "Lower risk of type 2"
+    },
+    {
+     "icon": "scale",
+     "label": "Visceral fat",
+     "note": "The fat around your organs"
+    }
+   ]
+  },
+  {
+   "file": "trt-clinical-monitoring",
+   "post_id": 9402,
+   "layout": "list",
+   "subject": "TRT",
+   "heading": "Clinical Protocols: What to Expect During Treatment",
+   "title": [
+    "What ",
+    "TRT",
+    " Monitoring Involves"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "TRT monitoring covers the injection route, hematocrit checks for erythrocytosis, and keeping estrogen in balance",
+   "items": [
+    {
+     "icon": "syringe",
+     "label": "Injection route",
+     "note": "Intramuscular, or SubQ for steadier levels"
+    },
+    {
+     "icon": "beaker",
+     "label": "Hematocrit",
+     "note": "Watched for erythrocytosis, thickened blood"
+    },
+    {
+     "icon": "scale",
+     "label": "Estrogen balance",
+     "note": "Kept in range alongside testosterone"
+    }
+   ]
+  },
+  {
+   "file": "what-skinvive-is",
+   "post_id": 10229,
+   "layout": "icons",
+   "subject": "Skinvive",
+   "heading": "What is Skinvive and how is it different from filler?",
+   "title": [
+    "What ",
+    "Skinvive",
+    " Actually Is"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Skinvive is a hyaluronic acid microdroplet injectable, FDA approved May 2023 for cheek smoothness in adults over 21",
+   "items": [
+    {
+     "icon": "droplets",
+     "label": "Microdroplets",
+     "note": "Many tiny placements, not one deposit"
+    },
+    {
+     "icon": "shield-check",
+     "label": "FDA approved",
+     "note": "May 2023, cheeks, adults over 21"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Quality, not shape",
+     "note": "Hydration, elasticity, smoothness"
+    }
+   ]
+  },
+  {
+   "file": "skinvive-vs-filler-compared",
+   "post_id": 10229,
+   "layout": "compare",
+   "subject": "Skinvive",
+   "heading": "Skinvive vs dermal filler: side by side",
+   "title": [
+    "Skinvive",
+    " vs Dermal Filler",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Skinvive hydrates and smooths the skin surface in superficial microdroplets; dermal filler restores volume and reshapes",
+   "columns": [
+    "Skinvive",
+    "Dermal filler"
+   ],
+   "rows": [
+    {
+     "label": "What it does",
+     "values": [
+      "Hydrates, smooths the surface",
+      "Restores volume, reshapes"
+     ]
+    },
+    {
+     "label": "Placement",
+     "values": [
+      "Microdroplets, superficial",
+      "Targeted, deeper"
+     ]
+    },
+    {
+     "label": "Visible change",
+     "values": [
+      "Glow and texture, subtle",
+      "Structural, visible in shape"
+     ]
+    },
+    {
+     "label": "Best for",
+     "values": [
+      "Dull, crepey, dehydrated skin",
+      "Folds, hollows, lips, contour"
+     ]
+    },
+    {
+     "label": "Duration",
+     "values": [
+      "Up to 6 months",
+      "Varies by product and area"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "skinvive-side-effects",
+   "post_id": 10229,
+   "layout": "list",
+   "subject": "Skinvive",
+   "heading": "What are the side effects of Skinvive?",
+   "title": [
+    "Skinvive",
+    " Side Effects",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Skinvive side effects are local and short-lived: small bumps, redness or bruising, temporary unevenness, and it dissolves",
+   "items": [
+    {
+     "icon": "circle-dot",
+     "label": "Small bumps",
+     "note": "At the injection points, a day or two"
+    },
+    {
+     "icon": "thermometer-sun",
+     "label": "Redness",
+     "note": "Tenderness or minor bruising"
+    },
+    {
+     "icon": "waves",
+     "label": "Unevenness",
+     "note": "Temporary, while the droplets settle"
+    },
+    {
+     "icon": "recycle",
+     "label": "Reversible",
+     "note": "Dissolved with hyaluronidase if needed"
+    }
+   ]
+  },
+  {
+   "file": "semaglutide-plateau-timing",
+   "post_id": 10192,
+   "layout": "compare",
+   "subject": "semaglutide",
+   "heading": "When Does Weight Loss Plateau on Semaglutide?",
+   "title": [
+    "When a ",
+    "Semaglutide",
+    " Plateau Is Normal"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A semaglutide plateau after 8 to 12 months is physiology; a stall in the first 3 months at full dose needs investigating",
+   "columns": [
+    "After 8 to 12 months",
+    "In the first 3 months"
+   ],
+   "rows": [
+    {
+     "label": "What it is",
+     "values": [
+      "A new equilibrium",
+      "A signal, not a plateau"
+     ]
+    },
+    {
+     "label": "Why",
+     "values": [
+      "Fewer calories burned at rest",
+      "Something else is limiting progress"
+     ]
+    },
+    {
+     "label": "What to do",
+     "values": [
+      "Expect it, hold the habits",
+      "Look at dose, habits and labs"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "habits-that-stall-semaglutide",
+   "post_id": 10192,
+   "layout": "list",
+   "subject": "semaglutide",
+   "heading": "3 Habits That Stall Weight Loss on Semaglutide",
+   "title": [
+    "Habits That Stall ",
+    "Semaglutide",
+    " Progress"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Three habits stall semaglutide progress: too little protein, no resistance training, and short sleep with unmanaged stress",
+   "items": [
+    {
+     "icon": "egg",
+     "label": "Too little protein",
+     "note": "Eating less raises the proportional need"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "No resistance work",
+     "note": "Muscle is what keeps the burn up"
+    },
+    {
+     "icon": "moon",
+     "label": "Short sleep",
+     "note": "With stress, it pushes hunger the wrong way"
+    }
+   ]
+  },
+  {
+   "file": "medical-reasons-semaglutide-stalls",
+   "post_id": 10192,
+   "layout": "icons",
+   "subject": "semaglutide",
+   "heading": "Medical Reasons Semaglutide Stops Working",
+   "title": [
+    "Medical Reasons ",
+    "Semaglutide",
+    " Stalls"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Untreated insulin resistance, thyroid dysfunction and sex-hormone imbalance can each blunt progress on semaglutide",
+   "items": [
+    {
+     "icon": "candy-off",
+     "label": "Insulin resistance",
+     "note": "Untreated, it blunts progress"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Thyroid dysfunction",
+     "note": "Found on a standard panel"
+    },
+    {
+     "icon": "activity",
+     "label": "Sex hormones",
+     "note": "Imbalance shows up as a stall"
+    }
+   ]
+  },
+  {
+   "file": "semaglutide-non-responders",
+   "post_id": 10192,
+   "layout": "icons",
+   "subject": "semaglutide",
+   "heading": "Semaglutide Non-Responders: When Switching Makes Sense",
+   "title": [
+    "Semaglutide",
+    " Non-Response Is Real",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "True non-response to semaglutide is real, does not predict non-response to tirzepatide, and a supervised switch can help",
+   "items": [
+    {
+     "icon": "circle-x",
+     "label": "It is real",
+     "note": "The trial investigators say so plainly"
+    },
+    {
+     "icon": "recycle",
+     "label": "Not universal",
+     "note": "One drug failing does not predict the other"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Supervised switch",
+     "note": "A normal part of care, not a failure"
+    }
+   ]
+  },
+  {
+   "file": "restarting-semaglutide-progress",
+   "post_id": 10192,
+   "layout": "numbered",
+   "subject": "semaglutide",
+   "heading": "How to Restart Weight Loss on Semaglutide",
+   "title": [
+    "Restarting ",
+    "Semaglutide",
+    " Progress"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Five steps to restart semaglutide progress: confirm the dose, track composition, audit habits, get labs, then discuss switching",
+   "items": [
+    "Confirm your dose and how long you have been on it",
+    "Track body composition, not just the scale",
+    "Audit protein, strength training and sleep",
+    "Get labs: thyroid, fasting insulin, HbA1c",
+    "Then ask about a supervised switch"
+   ]
+  }
+ ]
+}

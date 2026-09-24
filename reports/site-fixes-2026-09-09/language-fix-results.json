@@ -1,0 +1,144 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.3"
+      }
+    }
+  },
+  {
+    "name": "polylang_link_translations",
+    "isError": false,
+    "result": {
+      "count": 1,
+      "ok": 1,
+      "failed": 0,
+      "results": [
+        {
+          "index": 0,
+          "ok": true,
+          "linked": {
+            "en": 5495,
+            "es": 5496
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "inspect_plugin_capability",
+    "isError": false,
+    "result": {
+      "slug": "polylang",
+      "installed": true,
+      "active": true,
+      "version": "3.8.7",
+      "captured_at_utc": "2026-09-09T15:51:02+00:00",
+      "coverage": "partial_runtime_evidence",
+      "feature_effect": "unverified",
+      "license_entitlements": "unknown",
+      "option_ownership": "heuristic_from_stack_scan",
+      "controls": [],
+      "limits": [
+        "Storage values do not enumerate supported features. Unavailable schemas remain unknown.",
+        "Conditional applicability and saved values do not certify the rendered effect."
+      ],
+      "languages": [
+        "en",
+        "es"
+      ],
+      "translations": {
+        "es": 5496,
+        "en": 5495
+      }
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": false,
+    "result": {
+      "id": 5496,
+      "title": "Sala de Emergencias Cerca de Richardson, TX",
+      "slug": "sala-de-emergencias-cerca-de-richardson",
+      "status": "publish",
+      "type": "page",
+      "excerpt": "",
+      "modified": "2026-08-28 08:34:12",
+      "created": "2026-08-20 03:50:53",
+      "author": "adminsumit",
+      "author_id": 7,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+      "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5496&action=edit",
+      "has_elementor": true,
+      "word_count": 0,
+      "content_length": 0,
+      "elementor_size": 43669
+    }
+  },
+  {
+    "name": "hreflang_audit",
+    "isError": false,
+    "result": {
+      "post_id": 5496,
+      "engine": "polylang",
+      "cluster": [
+        {
+          "lang": "es",
+          "post_id": 5496,
+          "page_url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+          "links": [
+            {
+              "hreflang": "en",
+              "href": "https://erofwhiterock.com/emergency-room-richardson-tx/"
+            },
+            {
+              "hreflang": "es",
+              "href": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/"
+            }
+          ],
+          "canonical": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+          "fetched": true,
+          "fetch_err": null
+        },
+        {
+          "lang": "en",
+          "post_id": 5495,
+          "page_url": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+          "links": [
+            {
+              "hreflang": "en",
+              "href": "https://erofwhiterock.com/emergency-room-richardson-tx/"
+            },
+            {
+              "hreflang": "es",
+              "href": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/"
+            }
+          ],
+          "canonical": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+          "fetched": true,
+          "fetch_err": null
+        }
+      ],
+      "issues": [],
+      "verdict": "pass"
+    }
+  },
+  {
+    "name": "update_site_memory_notes",
+    "isError": false,
+    "result": {
+      "updated": true,
+      "mode": "append",
+      "section": "rules",
+      "bytes_after": 121114,
+      "notes_tail": "e and answers 202 + sgcaptcha to every non-browser client on all their sites at once; these reads went to the same plugin REST routes through the operator's logged-in Chrome. Report framing: Sept priorities = the local map listing (er near me 2,947 imp @2.1 -> 10 clicks), resolve whether the zero-click page-one 'how long does X take' cluster is AI absorption or thin volume, finish credential sweep incl. the 5 ES body instances, and correct the flagged back-pain/wait-time/untranslated-ES claims.\n",
+      "tail_length": 500
+    }
+  }
+]

@@ -1,0 +1,2 @@
+[{"route":"wp/v2/pages?per_page=100&context=edit&_fields=id,slug,meta","method":"GET","out":"all-pages.json"},
+ {"route":"wp/v2/posts?per_page=100&context=edit&_fields=id,slug,meta","method":"GET","out":"all-posts.json"}]

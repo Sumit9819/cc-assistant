@@ -1,0 +1,90 @@
+{
+  "_note": "Post 6356, 'I'm So Tired: How IV Therapy Can Help Fight Chronic Fatigue', 1,344 words. Five graphics, one per 269 words. Headings deliberately skipped: 'What Is Fatigue IV Therapy?' (definitional prose, nothing enumerable), 'Is IV Therapy Safe?' (safety nuance that should not be compressed into icons on a YMYL page), the FAQ block, and the closing CTA. All content below is the post's own.",
+  "cards": [
+    {
+      "file": "iv-therapy-fatigue-first-visit",
+      "layout": "steps",
+      "heading": "What to Expect at Your First Appointment",
+      "title": [
+        "Your First ",
+        "IV Therapy",
+        " Visit"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Four steps of a first IV visit: consultation, catheter placement, a 30 to 45 minute drip, then same-day discharge",
+      "steps": [
+        {
+          "icon": "clipboard-list",
+          "label": "Consult",
+          "note": "Symptoms, history and goals reviewed"
+        },
+        {
+          "icon": "syringe",
+          "label": "Placement",
+          "note": "Catheter into a forearm or hand vein"
+        },
+        {
+          "icon": "armchair",
+          "label": "Infusion",
+          "note": "30 to 45 minutes in a recliner"
+        },
+        {
+          "icon": "door-open",
+          "label": "Home",
+          "note": "Same day, most patients drive themselves"
+        }
+      ],
+      "subject": "iv therapy",
+      "old_file": "how-iv-therapy-fights-chronic-fatigue-4-first-appointment"
+    },
+    {
+      "file": "iv-therapy-fatigue-when-to-see-a-doctor",
+      "layout": "list",
+      "heading": "When Should You See a Doctor for Fatigue?",
+      "title": [
+        "When ",
+        "Fatigue",
+        " Needs a Workup"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Five signs fatigue needs bloodwork: lasting over six weeks, weight change, cold intolerance, breathlessness, or onset after illness",
+      "items": [
+        {
+          "icon": "calendar-clock",
+          "label": "Over 6 weeks",
+          "note": "Despite good sleep and food"
+        },
+        {
+          "icon": "scale",
+          "label": "Weight change",
+          "note": "Unexplained loss or gain"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Cold intolerance",
+          "note": "With hair thinning or mood change"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Breathlessness",
+          "note": "Or chest discomfort"
+        },
+        {
+          "icon": "user-round-search",
+          "label": "After an illness",
+          "note": "Fatigue that followed a recent infection"
+        }
+      ],
+      "subject": "fatigue",
+      "old_file": "how-iv-therapy-fights-chronic-fatigue-5-when-to-see-a-doctor"
+    }
+  ]
+}

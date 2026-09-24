@@ -1,0 +1,84 @@
+[
+  {
+    "post_id": 3116,
+    "patches": [
+      {
+        "search": "<h2><strong>What is Skeletal Traction?</strong></h2>\r\n<img class=\"aligncenter wp-image-3120 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-Skeletal-Traction-1024x551.webp\" alt=\"What is Skeletal Traction\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>What is Skeletal Traction?</strong></h2>\r\n<img class=\"aligncenter wp-image-3120 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-Skeletal-Traction-1024x551.webp\" alt=\"What is Skeletal Traction\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-traction-sites.webp\" alt=\"The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2><strong>Types of Skeletal Traction</strong></h2>",
+        "replace": "<h2><strong>Types of Skeletal Traction</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-traction-types.webp\" alt=\"The three types of skeletal traction: balanced traction using counterweights and pulleys, femoral traction for mid-thigh fractures, and tibial traction for lower leg injuries\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2><strong>Skeletal Traction Procedure</strong></h2>",
+        "replace": "<h2><strong>Skeletal Traction Procedure</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-traction-procedure.webp\" alt=\"The five stages of the skeletal traction procedure: preparation, pin or wire insertion, weight and pulley application, post-procedure monitoring, and traction maintenance\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2><strong>How Bone Stimulators Support Skeletal Traction Recovery</strong></h2>\r\n<img class=\"aligncenter wp-image-3117 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/How-Bone-Stimulators-Support-Skeletal-Traction-Recovery-1024x551.webp\" alt=\"How Bone Stimulators Support Skeletal Traction Recovery\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>How Bone Stimulators Support Skeletal Traction Recovery</strong></h2>\r\n<img class=\"aligncenter wp-image-3117 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/How-Bone-Stimulators-Support-Skeletal-Traction-Recovery-1024x551.webp\" alt=\"How Bone Stimulators Support Skeletal Traction Recovery\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-bone-stimulator.webp\" alt=\"Three situations where a bone stimulator helps recovery: slow healing after surgery, a history of smoking diabetes or osteoporosis, and injury to a weight-bearing bone\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 4 in-body triage card(s) to post 3116",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3921,
+    "patches": [
+      {
+        "search": "<h2><b>Understanding the 103\u00b0 Rule: Why Fever Height Matters</b></h2>",
+        "replace": "<h2><b>Understanding the 103\u00b0 Rule: Why Fever Height Matters</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-is-103-an-emergency.webp\" alt=\"When a 103 degree fever is manageable at home and when it needs the ER: an older child still drinking and playing whose fever comes down with medicine, against a persistent fever that does not respond or comes with a stiff neck\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3921",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3854,
+    "patches": [
+      {
+        "search": "<h2><b>Recognizing the Red Flags: DKA Symptoms</b></h2>",
+        "replace": "<h2><b>Recognizing the Red Flags: DKA Symptoms</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-red-flags.webp\" alt=\"Four DKA red flags: fruity smelling breath, unquenchable thirst, frequent urination, and confusion or mental fatigue\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<h2><b>How the ER Stabilizes Blood Sugar</b></h2>",
+        "replace": "<h2><b>How the ER Stabilizes Blood Sugar</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-treatment.webp\" alt=\"The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3854",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3833,
+    "patches": [
+      {
+        "search": "<h2><b>When to Visit the ER for a Severe Headache</b></h2>",
+        "replace": "<h2><b>When to Visit the ER for a Severe Headache</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-headache-er-red-flags.webp\" alt=\"Five red flags that a severe headache needs the emergency room: sudden weakness on one side, speech difficulty, vision changes, fever with a stiff neck, and a first severe headache after age 50\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3833",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3937,
+    "patches": [
+      {
+        "search": "<h2><b>Signs Your Rash Needs Urgent Care</b></h2>",
+        "replace": "<h2><b>Signs Your Rash Needs Urgent Care</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3937-rash-urgent-care.webp\" alt=\"Five signs a poison ivy rash needs urgent care: rash on the face or eyes, difficulty breathing after exposure, rash over more than a quarter of the body, itching that prevents sleep, and blisters oozing fluid or pus\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3937",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3934,
+    "patches": [
+      {
+        "search": "<h2><b>Recognizing DVT Symptoms: More Than Just a Cramp</b></h2>",
+        "replace": "<h2><b>Recognizing DVT Symptoms: More Than Just a Cramp</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-symptoms.webp\" alt=\"Four DVT symptoms to look for, usually in one leg only: swelling with the calf or thigh visibly larger, redness or discoloration, warmth to the touch, and tenderness that can feel like a pulled muscle\" width=\"1200\" height=\"632\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3934",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and each card sits after its section's opening paragraph so it previews that section rather than sitting against the next heading. Any section already answered by a table in the body was skipped."
+  }
+]

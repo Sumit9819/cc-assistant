@@ -1,0 +1,273 @@
+{
+ "_note": "Batch 1: posts 10221 and 8139. Both verified free of existing in-body images by reading the body. All content is the post's own.",
+ "cards": [
+  {
+   "file": "how-many-laser-hair-removal-sessions-1-how-many",
+   "post_id": 10221,
+   "layout": "stat",
+   "heading": "How many laser hair removal sessions do most people need?",
+   "title": [
+    "How Many ",
+    "Sessions",
+    "?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Most people need six to nine laser hair removal sessions, spaced about six weeks apart",
+   "stat": "6 to 9",
+   "gloss": "spaced ~6 weeks apart",
+   "statLine": "sessions for the best result, not the one or two most people expect",
+   "source": "American Society for Laser Medicine and Surgery",
+   "dots": {
+    "total": 9,
+    "filled": 9
+   }
+  },
+  {
+   "file": "how-many-laser-hair-removal-sessions-2-area-by-area",
+   "post_id": 10221,
+   "layout": "list",
+   "heading": "How many sessions for legs, underarms, bikini, and face?",
+   "title": [
+    "Sessions ",
+    "Area by Area",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Typical session counts by area: underarms, bikini and lower legs 6 to 8, back, chest and face 8 or more",
+   "items": [
+    {
+     "icon": "circle-dot",
+     "label": "Underarms",
+     "note": "6 to 8 sessions, every 6 weeks"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Bikini or Brazilian",
+     "note": "6 to 8 sessions, every 6 weeks"
+    },
+    {
+     "icon": "footprints",
+     "label": "Lower legs",
+     "note": "6 to 8 sessions, every 6 to 8 weeks"
+    },
+    {
+     "icon": "waves",
+     "label": "Back or chest",
+     "note": "8 or more, every 6 to 8 weeks"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Face, lip or chin",
+     "note": "8 or more, every 4 weeks"
+    }
+   ]
+  },
+  {
+   "file": "how-many-laser-hair-removal-sessions-3-hair-color",
+   "post_id": 10221,
+   "layout": "checklist",
+   "heading": "Does hair color change how many sessions you need?",
+   "title": [
+    "Does ",
+    "Hair Color",
+    " Matter?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Laser targets pigment, so dark coarse hair responds well while gray, white, red and blonde do not",
+   "good": {
+    "heading": "Responds well",
+    "items": [
+     "Dark brown or black hair",
+     "Coarse, dense growth",
+     "Strong pigment in the follicle"
+    ]
+   },
+   "bad": {
+    "heading": "Responds poorly",
+    "items": [
+     "Gray or white hair",
+     "Red or very blonde hair",
+     "Too little pigment to absorb light"
+    ]
+   }
+  },
+  {
+   "file": "how-many-laser-hair-removal-sessions-4-before-and-after",
+   "post_id": 10221,
+   "layout": "list",
+   "heading": "What should you do before and after a session?",
+   "title": [
+    "Before and ",
+    "After",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Shave the day before, avoid waxing for four weeks, skip sun and self-tanner, and no heat for 24 hours after",
+   "items": [
+    {
+     "icon": "circle-check",
+     "label": "Shave the day before",
+     "note": "The follicle must stay intact below the skin"
+    },
+    {
+     "icon": "circle-x",
+     "label": "No waxing for 4 weeks",
+     "note": "Plucking and threading remove the target"
+    },
+    {
+     "icon": "sun",
+     "label": "Avoid sun and self-tanner",
+     "note": "Before and after treatment"
+    },
+    {
+     "icon": "thermometer",
+     "label": "No heat for 24 hours",
+     "note": "Skip hot tubs, saunas and hard workouts"
+    }
+   ]
+  },
+  {
+   "file": "laser-genesis-vs-ipl-1-how-laser-genesis-works",
+   "post_id": 8139,
+   "layout": "steps",
+   "heading": "What is Laser Genesis? The \"Lunchtime Facial\" Explained",
+   "title": [
+    "How ",
+    "Laser Genesis",
+    " Works"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Laser Genesis gently heats the upper dermis, triggers the healing response, and builds new collagen",
+   "steps": [
+    {
+     "icon": "zap",
+     "label": "Gentle heat",
+     "note": "1064 nm warms the upper dermis without breaking the surface"
+    },
+    {
+     "icon": "activity",
+     "label": "Healing response",
+     "note": "The body's natural repair process is triggered"
+    },
+    {
+     "icon": "sparkles",
+     "label": "New collagen",
+     "note": "Neocollagenesis smooths texture over 3 to 6 sessions"
+    }
+   ]
+  },
+  {
+   "file": "laser-genesis-vs-ipl-2-what-ipl-treats",
+   "post_id": 8139,
+   "layout": "icons",
+   "heading": "What is IPL (Intense Pulsed Light)? Targeting Sun Damage and Redness",
+   "title": [
+    "What ",
+    "IPL",
+    " Treats"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IPL targets sunspots and age spots, broken capillaries, and rosacea-related flushing",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Sun and age spots",
+     "note": "Light breaks down excess melanin"
+    },
+    {
+     "icon": "waves",
+     "label": "Broken capillaries",
+     "note": "Targets hemoglobin in dilated vessels"
+    },
+    {
+     "icon": "palette",
+     "label": "Rosacea flushing",
+     "note": "Reduces visible background redness"
+    }
+   ],
+   "subject": "IPL"
+  },
+  {
+   "file": "laser-genesis-vs-ipl-3-side-by-side",
+   "post_id": 8139,
+   "layout": "compare",
+   "heading": "Laser Genesis vs. IPL: A Side-by-Side Comparison",
+   "title": [
+    "Laser Genesis vs ",
+    "IPL",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Laser Genesis and IPL compared on technology, goal, sensation, downtime and suitable skin tones",
+   "columns": [
+    "Laser Genesis",
+    "IPL"
+   ],
+   "rows": [
+    {
+     "label": "Technology",
+     "values": [
+      "Single wavelength, 1064 nm",
+      "Broad spectrum, 400 to 1200 nm"
+     ]
+    },
+    {
+     "label": "Primary goal",
+     "values": [
+      "Texture, fine lines, scarring",
+      "Pigmentation and redness"
+     ]
+    },
+    {
+     "label": "Sensation",
+     "values": [
+      "Gentle warmth",
+      "Like a rubber band snap"
+     ]
+    },
+    {
+     "label": "Downtime",
+     "values": [
+      "None, pink for 30 minutes",
+      "1 to 3 days as pigment flakes"
+     ]
+    },
+    {
+     "label": "Skin tones",
+     "values": [
+      "All tones, Fitzpatrick I to VI",
+      "Lighter tones, Fitzpatrick I to III"
+     ]
+    }
+   ]
+  }
+ ]
+}

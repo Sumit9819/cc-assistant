@@ -1,0 +1,212 @@
+2026-09-09T11:36:54.821Z [DEBUG] MDM settings load completed in 206ms
+2026-09-09T11:36:54.998Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T11:36:55.002Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-09-09T11:36:55.027Z [DEBUG] [init] configureGlobalMTLS starting
+2026-09-09T11:36:55.027Z [DEBUG] [init] configureGlobalMTLS complete
+2026-09-09T11:36:55.027Z [DEBUG] [init] configureGlobalAgents starting
+2026-09-09T11:36:55.028Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T11:36:55.031Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T11:36:55.092Z [DEBUG] CA certs: Dropped 16 expired certificate(s) from system store
+2026-09-09T11:36:55.092Z [DEBUG] CA certs: Loaded 126 system CA certificates
+2026-09-09T11:36:55.092Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T11:36:55.092Z [DEBUG] [init] configureGlobalAgents complete
+2026-09-09T11:36:55.094Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-09-09T11:36:55.095Z [DEBUG] Git remote URL: null
+2026-09-09T11:36:55.095Z [DEBUG] No git remote URL found
+2026-09-09T11:36:55.098Z [DEBUG] Error log sink initialized
+2026-09-09T11:36:55.305Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+2026-09-09T11:36:55.714Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-09-09T11:36:55.729Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-09-09T11:36:55.729Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-09-09T11:36:55.783Z [DEBUG] [STARTUP] Running setup()...
+2026-09-09T11:36:55.789Z [DEBUG] Loading skills from: managed=C:\Program Files\ClaudeCode\.claude\skills, user=C:\Users\sumit\.claude\skills, project=[D:\cc-assistant\.claude\skills]
+2026-09-09T11:36:55.792Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-09-09T11:36:55.794Z [DEBUG] Total plugin workflows loaded: 0
+2026-09-09T11:36:55.799Z [DEBUG] Total plugin commands loaded: 0
+2026-09-09T11:36:55.819Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T11:36:55.831Z [DEBUG] Error log sink initialized
+2026-09-09T11:36:55.851Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: D:\cc-assistant\reports\preflight-0.89.0-2026-09-09\eval-provider-context\provider_context-1\.claude\settings.json
+2026-09-09T11:36:55.852Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-09-09T11:36:55.856Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-09-09T11:36:55.917Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\commands: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\commands'
+2026-09-09T11:36:55.919Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-09-09T11:36:55.921Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 35 bundled skills, 0 builtin plugin skills
+2026-09-09T11:36:55.940Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\agents: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\agents'
+2026-09-09T11:36:55.942Z [DEBUG] Total plugin agents loaded: 0
+2026-09-09T11:36:55.998Z [DEBUG] [STARTUP] setup() completed in 215ms
+2026-09-09T11:36:55.999Z [DEBUG] Cleared CA certificates cache
+2026-09-09T11:36:55.999Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T11:36:55.999Z [DEBUG] Cleared proxy agent cache
+2026-09-09T11:36:55.999Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T11:36:55.999Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T11:36:56.009Z [DEBUG] CA certs: Dropped 16 expired certificate(s) from system store
+2026-09-09T11:36:56.009Z [DEBUG] CA certs: Loaded 126 system CA certificates
+2026-09-09T11:36:56.009Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T11:36:56.012Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-09-09T11:36:56.033Z [DEBUG] [STARTUP] Commands and agents loaded in 21ms
+2026-09-09T11:36:56.040Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: D:\cc-assistant\reports\preflight-0.89.0-2026-09-09\eval-provider-context\provider_context-1\.claude\settings.local.json
+2026-09-09T11:36:56.040Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-09-09T11:36:56.041Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-09-09T11:36:56.041Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-09-09T11:36:56.041Z [DEBUG] Starting background startup prefetches
+2026-09-09T11:36:56.042Z [DEBUG] [Bootstrap] Fetching
+2026-09-09T11:36:56.050Z [DEBUG] [STARTUP] MCP configs resolved in 8ms (awaited at +336ms)
+2026-09-09T11:36:56.050Z [DEBUG] Total LSP servers loaded: 0
+2026-09-09T11:36:56.051Z [DEBUG] mcp runtime arm: v2 (source: growthbook)
+2026-09-09T11:36:56.114Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-09-09T11:36:56.114Z [DEBUG] LSP manager initialized with 0 servers
+2026-09-09T11:36:56.114Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-09-09T11:36:56.115Z [DEBUG] Cleared CA certificates cache
+2026-09-09T11:36:56.115Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T11:36:56.115Z [DEBUG] Cleared proxy agent cache
+2026-09-09T11:36:56.115Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T11:36:56.115Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T11:36:56.145Z [DEBUG] CA certs: Dropped 16 expired certificate(s) from system store
+2026-09-09T11:36:56.145Z [DEBUG] CA certs: Loaded 126 system CA certificates
+2026-09-09T11:36:56.145Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T11:36:56.145Z [DEBUG] [3P telemetry] Waiting for remote managed settings before telemetry init
+2026-09-09T11:36:56.146Z [DEBUG] Skipping plugin hooks - allowManagedHooksOnly is enabled and no managed plugins
+2026-09-09T11:36:56.147Z [DEBUG] LSP server manager initialized successfully
+2026-09-09T11:36:56.148Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-09-09T11:36:56.154Z [DEBUG] MCP server "cc_eval": Starting connection with timeout of 30000ms
+2026-09-09T11:36:56.179Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:56.244Z [DEBUG] [3P telemetry] Remote managed settings loaded, initializing telemetry
+2026-09-09T11:36:56.244Z [DEBUG] Cleared CA certificates cache
+2026-09-09T11:36:56.244Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T11:36:56.244Z [DEBUG] Cleared proxy agent cache
+2026-09-09T11:36:56.244Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T11:36:56.247Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T11:36:56.264Z [DEBUG] CA certs: Dropped 16 expired certificate(s) from system store
+2026-09-09T11:36:56.264Z [DEBUG] CA certs: Loaded 126 system CA certificates
+2026-09-09T11:36:56.264Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T11:36:56.289Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-09-09T11:36:56.289Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-09-09T11:36:56.622Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5[1m] modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-09-09T11:36:56.650Z [DEBUG] Git remote URL: null
+2026-09-09T11:36:56.650Z [DEBUG] No git remote URL found
+2026-09-09T11:36:56.651Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=C:\Users\sumit\AppData\Roaming\npm\node_modules\@anthropic-ai\claude-code\bin\claude.exe)
+2026-09-09T11:36:56.652Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: C:\\Users\\sumit\\.claude\\plugins\\cache: IO error for operation on C:\\Users\\sumit\\.claude\\plugins\\cache: The system cannot find the file specified. (os error 2)\n), 0 results"
+2026-09-09T11:36:56.657Z [DEBUG] MCP server "cc_eval": Successfully connected (transport: stdio) in 508ms
+2026-09-09T11:36:56.657Z [DEBUG] MCP server "cc_eval": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"hasResourceSubscribe":false,"serverVersion":{"name":"cc_eval","version":"0.87.0"}}
+2026-09-09T11:36:56.658Z [DEBUG] [MCP] Server "cc_eval" connected with subscribe=false
+2026-09-09T11:36:56.658Z [WARN] [3P telemetry] Event dropped (no event logger initialized): mcp_server_connection
+2026-09-09T11:36:57.251Z [DEBUG] [event-loop-stall] detector started (interval=200ms, threshold=500ms)
+2026-09-09T11:36:57.383Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-09-09T11:36:57.399Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T11:36:57.403Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.a80; cc_entrypoint=sdk-cli; cch=00000;
+2026-09-09T11:36:57.404Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.407Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.444Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-09-09T11:36:57.445Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-09-09T11:36:57.456Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.497Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T11:36:57.504Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.406; cc_entrypoint=sdk-cli; cch=00000;
+2026-09-09T11:36:57.516Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.517Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.538Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-09-09T11:36:57.560Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.561Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-4-5-20251001
+2026-09-09T11:36:57.563Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:57.565Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5[1m]
+2026-09-09T11:36:57.569Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=e568a32e-9bb5-430d-bd5f-7382f3331ea2 source=generate_session_title
+2026-09-09T11:36:57.570Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=4d743eec-69f8-4d5a-a524-9a7e17e9e21e source=sdk
+2026-09-09T11:36:57.612Z [DEBUG] Remote settings: Using cached settings (304)
+2026-09-09T11:36:57.612Z [DEBUG] Remote settings: Cache still valid (304 Not Modified)
+2026-09-09T11:36:57.625Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T11:36:57.625Z [DEBUG] Cleared CA certificates cache
+2026-09-09T11:36:57.625Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T11:36:57.625Z [DEBUG] Cleared proxy agent cache
+2026-09-09T11:36:57.625Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T11:36:57.625Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T11:36:57.638Z [DEBUG] CA certs: Dropped 16 expired certificate(s) from system store
+2026-09-09T11:36:57.638Z [DEBUG] CA certs: Loaded 126 system CA certificates
+2026-09-09T11:36:57.638Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T11:36:57.676Z [DEBUG] Programmatic settings change notification for policySettings
+2026-09-09T11:36:57.688Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T11:36:57.698Z [DEBUG] Plugin hooks: skipping reload, plugin-affecting settings unchanged
+2026-09-09T11:36:57.698Z [DEBUG] Settings changed from policySettings, updating app state
+2026-09-09T11:36:57.832Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T11:36:57.868Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-09-09T11:36:57.869Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-09-09T11:36:57.875Z [DEBUG] Policy limits: Using cached restrictions (304)
+2026-09-09T11:36:57.904Z [DEBUG] Policy limits: Cache still valid (304 Not Modified)
+2026-09-09T11:36:57.939Z [DEBUG] Lock acquisition took longer than expected - another Claude instance may be running
+2026-09-09T11:36:57.949Z [DEBUG] Watching for changes in setting files C:\Users\sumit\.claude\settings.json...
+2026-09-09T11:36:57.986Z [DEBUG] Preserving file permissions: 100666
+2026-09-09T11:36:57.986Z [DEBUG] Writing to temp file: C:\Users\sumit\.claude.json.tmp.25452.63e7346372e3
+2026-09-09T11:36:57.989Z [DEBUG] Applied original permissions to temp file
+2026-09-09T11:36:57.991Z [DEBUG] Temp file written successfully, size: 48745 bytes
+2026-09-09T11:36:57.991Z [DEBUG] Renaming C:\Users\sumit\.claude.json.tmp.25452.63e7346372e3 to C:\Users\sumit\.claude.json
+2026-09-09T11:36:57.993Z [DEBUG] File C:\Users\sumit\.claude.json written atomically
+2026-09-09T11:36:58.285Z [DEBUG] [Bootstrap] Fetch ok
+2026-09-09T11:36:58.289Z [DEBUG] [Bootstrap] Cache unchanged, skipping write
+2026-09-09T11:36:58.295Z [DEBUG] Org fast mode: disabled (preference)
+2026-09-09T11:36:58.427Z [DEBUG] [claudeai-mcp] Display-name collision on distinct upstreams: "claude.ai Facebook ads (2)" (mcpsrv_01RR7MALyUfKoAFoxsfJs9WX, https://www.facebook.com/micro_site/url/)
+2026-09-09T11:36:58.427Z [DEBUG] [claudeai-mcp] Fetched 42 servers
+2026-09-09T11:36:58.431Z [DEBUG] installPluginsForHeadless: starting
+2026-09-09T11:36:58.431Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-09-09T11:36:58.472Z [DEBUG] Stream started - received first chunk
+2026-09-09T11:36:58.472Z [DEBUG] [API:timing] first byte after 913ms
+2026-09-09T11:36:58.613Z [DEBUG] Stream started - received first chunk
+2026-09-09T11:36:58.614Z [DEBUG] [API:timing] first byte after 1051ms
+2026-09-09T11:36:59.384Z [INFO] [Stall] tool_dispatch_start tool=mcp__cc_eval__content_decision_history toolUseId=toolu_01GEaxzSzSbPsv3YLuWjtT6W permissionDecisionMs=2
+2026-09-09T11:36:59.385Z [DEBUG] MCP server "cc_eval": Calling MCP tool: content_decision_history
+2026-09-09T11:36:59.392Z [DEBUG] MCP server "cc_eval": Tool 'content_decision_history' completed successfully in 7ms
+2026-09-09T11:36:59.395Z [INFO] [Stall] tool_dispatch_end tool=mcp__cc_eval__content_decision_history toolUseId=toolu_01GEaxzSzSbPsv3YLuWjtT6W outcome=ok durationMs=11
+2026-09-09T11:36:59.800Z [INFO] [Stall] tool_dispatch_start tool=mcp__cc_eval__whoami toolUseId=toolu_01TDFwxkDfgXMty8HUbhtNei permissionDecisionMs=5
+2026-09-09T11:36:59.803Z [DEBUG] MCP server "cc_eval": Calling MCP tool: whoami
+2026-09-09T11:36:59.810Z [DEBUG] MCP server "cc_eval": Tool 'whoami' completed successfully in 7ms
+2026-09-09T11:36:59.811Z [INFO] [Stall] tool_dispatch_end tool=mcp__cc_eval__whoami toolUseId=toolu_01TDFwxkDfgXMty8HUbhtNei outcome=ok durationMs=11
+2026-09-09T11:36:59.842Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-09-09T11:36:59.842Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-09-09T11:36:59.849Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T11:36:59.853Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.406; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CesoEm9tmUksUMnSpcgAN;
+2026-09-09T11:36:59.854Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:59.868Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:59.880Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:36:59.882Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5[1m]
+2026-09-09T11:36:59.899Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=2f88be48-4cc1-401a-b40f-5ac7a09f66ab source=sdk
+2026-09-09T11:37:01.095Z [DEBUG] Stream started - received first chunk
+2026-09-09T11:37:01.095Z [DEBUG] [API:timing] first byte after 1215ms
+2026-09-09T11:37:02.613Z [INFO] [Stall] tool_dispatch_start tool=mcp__cc_eval__seo_playbook toolUseId=toolu_01PFDDWBEvuP8XDT2VxRV9PU permissionDecisionMs=2
+2026-09-09T11:37:02.614Z [DEBUG] MCP server "cc_eval": Calling MCP tool: seo_playbook
+2026-09-09T11:37:02.619Z [DEBUG] MCP server "cc_eval": Tool 'seo_playbook' completed successfully in 5ms
+2026-09-09T11:37:02.619Z [INFO] [Stall] tool_dispatch_end tool=mcp__cc_eval__seo_playbook toolUseId=toolu_01PFDDWBEvuP8XDT2VxRV9PU outcome=ok durationMs=6
+2026-09-09T11:37:02.623Z [INFO] [Stall] tool_dispatch_start tool=mcp__cc_eval__get_content_scope toolUseId=toolu_0171hqMX4nTnz9RGJ2x9Ykji permissionDecisionMs=1
+2026-09-09T11:37:02.623Z [DEBUG] MCP server "cc_eval": Calling MCP tool: get_content_scope
+2026-09-09T11:37:02.627Z [DEBUG] MCP server "cc_eval": Tool 'get_content_scope' completed successfully in 4ms
+2026-09-09T11:37:02.627Z [INFO] [Stall] tool_dispatch_end tool=mcp__cc_eval__get_content_scope toolUseId=toolu_0171hqMX4nTnz9RGJ2x9Ykji outcome=ok durationMs=4
+2026-09-09T11:37:02.682Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-09-09T11:37:02.682Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-09-09T11:37:02.685Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T11:37:02.687Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.406; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CesoEw3iDMrfRQnJCJyGU;
+2026-09-09T11:37:02.688Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:37:02.688Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:37:02.691Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:37:02.692Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5[1m]
+2026-09-09T11:37:02.695Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=c379aa39-4f46-41db-a316-79dd5b1db358 source=sdk
+2026-09-09T11:37:03.772Z [DEBUG] Stream started - received first chunk
+2026-09-09T11:37:03.772Z [DEBUG] [API:timing] first byte after 1081ms
+2026-09-09T11:37:54.416Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T11:37:54.442Z [DEBUG] MCP server "cc_eval": Terminating MCP server process tree
+2026-09-09T11:37:54.500Z [DEBUG] MCP server "cc_eval": UNKNOWN connection closed after 57s (cleanly)
+2026-09-09T11:37:54.502Z [DEBUG] MCP server "cc_eval": Cleared connection cache for reconnection
+2026-09-09T11:37:54.523Z [DEBUG] LSP server manager shut down successfully
+2026-09-09T11:37:55.083Z [DEBUG] BigQuery metrics exported successfully
+2026-09-09T11:37:55.083Z [DEBUG] "BigQuery API Response: {\n  \"accepted_count\": 17,\n  \"rejected_count\": 0\n}"
+2026-09-09T11:37:55.086Z [DEBUG] BigQuery metrics exporter flush complete
+2026-09-09T11:37:55.086Z [DEBUG] BigQuery metrics exporter flush complete
+2026-09-09T11:37:55.086Z [DEBUG] BigQuery metrics exporter shutdown complete

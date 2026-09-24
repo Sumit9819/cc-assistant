@@ -1,0 +1,46 @@
+{
+ "6290": [
+  {
+   "search": "<h2><b>2. Boosted Energy and Mental Clarity</b></h2>",
+   "replace": "<h2><b>2. Boosted Energy and Mental Clarity</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-energy-who-benefits.webp\" alt=\"Energy IV vitamin drips suit busy professionals, shift workers, frequent travellers and people recovering from burnout\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>5. Radiant Skin and a Natural Glow</b></h2>",
+   "replace": "<h2><b>5. Radiant Skin and a Natural Glow</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-skin-nutrients.webp\" alt=\"Beauty IV drips use vitamin C for collagen, biotin for hair and nails, and glutathione as an antioxidant\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>6. Mood Support and Stress Relief</b></h2>",
+   "replace": "<h2><b>6. Mood Support and Stress Relief</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-mood-nutrients.webp\" alt=\"B12, magnesium and amino acids help build serotonin and dopamine, the neurotransmitters that regulate mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>7. Detoxification and Anti-Aging Support</b></h2>",
+   "replace": "<h2><b>7. Detoxification and Anti-Aging Support</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-antioxidants.webp\" alt=\"Glutathione and vitamin C neutralise free radicals, support the liver and kidneys, and back mitochondrial function\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Is IV Vitamin Therapy Right for You?</b></h2>",
+   "replace": "<h2><b>Is IV Vitamin Therapy Right for You?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-right-for-you.webp\" alt=\"IV vitamin therapy helps low energy, dehydration and slow recovery; check first if pregnant or on heart or kidney medication\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6296": [
+  {
+   "search": "<h2><b>What Is the Myers\u2019 Cocktail?</b></h2>",
+   "replace": "<h2><b>What Is the Myers\u2019 Cocktail?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-ingredients.webp\" alt=\"A Myers Cocktail holds vitamin C, B-complex vitamins, vitamin B12, magnesium and calcium\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>The Science-Backed Benefits of the Myers\u2019 Cocktail</b></h2>",
+   "replace": "<h2><b>The Science-Backed Benefits of the Myers\u2019 Cocktail</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-benefits.webp\" alt=\"Six Myers Cocktail benefits: immune support, energy, migraine relief, recovery, mood balance and skin health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Who Can Benefit from the Myers\u2019 Cocktail?</b></h2>",
+   "replace": "<h2><b>Who Can Benefit from the Myers\u2019 Cocktail?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-who-it-suits.webp\" alt=\"The Myers Cocktail suits chronic stress, athletes and travellers; check first in pregnancy or with kidney or heart conditions\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><a href=\"https://irvingwellnessclinic.com/what-is-iv-hydration-therapy-guide/\"><b>What to Expect During a Session</b></a></h2>",
+   "replace": "<h2><a href=\"https://irvingwellnessclinic.com/what-is-iv-hydration-therapy-guide/\"><b>What to Expect During a Session</b></a></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-session.webp\" alt=\"A Myers Cocktail session: consultation, IV line placed, a 30 to 45 minute infusion, then straight back to your day\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Myers\u2019 Cocktail vs. Other IV Therapies</b></h2>",
+   "replace": "<h2><b>Myers\u2019 Cocktail vs. Other IV Therapies</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-vs-other-iv-drips.webp\" alt=\"Myers Cocktail compared with hydration IV, high-dose vitamin C, NAD+ and glutathione drips by what each is for\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

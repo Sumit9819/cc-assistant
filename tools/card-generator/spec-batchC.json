@@ -1,0 +1,384 @@
+{
+ "_note": "Batch C: 6290 seven benefits, 6296 Myers' Cocktail. On 6290 the hydration, immunity and recovery benefits are deliberately NOT carded: each has a dedicated post whose graphic already says the same thing, and a near-identical second card would read as padding both on the page and in image search.",
+ "cards": [
+  {
+   "file": "iv-vitamin-drip-energy-who-benefits",
+   "post_id": 6290,
+   "layout": "list",
+   "subject": "IV vitamin drips",
+   "heading": "2. Boosted Energy and Mental Clarity",
+   "title": [
+    "Who Energy ",
+    "IV Vitamin Drips",
+    " Suit"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Energy IV vitamin drips suit busy professionals, shift workers, frequent travelers and people recovering from burnout",
+   "items": [
+    {
+     "icon": "briefcase",
+     "label": "Busy professionals",
+     "note": "Running on coffee rather than fuel"
+    },
+    {
+     "icon": "moon",
+     "label": "Shift workers",
+     "note": "Body clock permanently out of step"
+    },
+    {
+     "icon": "plane",
+     "label": "Frequent travelers",
+     "note": "Dehydration and disrupted sleep"
+    },
+    {
+     "icon": "battery-low",
+     "label": "Recovering from burnout",
+     "note": "Where exhaustion became the baseline"
+    }
+   ]
+  },
+  {
+   "file": "iv-vitamin-drip-skin-nutrients",
+   "post_id": 6290,
+   "layout": "icons",
+   "subject": "IV vitamin drips",
+   "heading": "5. Radiant Skin and a Natural Glow",
+   "title": [
+    "Skin Nutrients in ",
+    "IV Vitamin Drips",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Beauty IV drips use vitamin C for collagen, biotin for hair and nails, and glutathione as an antioxidant",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Supports collagen production"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Biotin",
+     "note": "Hair and nail strength"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant, supports cell repair"
+    }
+   ]
+  },
+  {
+   "file": "iv-vitamin-drip-mood-nutrients",
+   "post_id": 6290,
+   "layout": "icons",
+   "subject": "IV vitamin drips",
+   "heading": "6. Mood Support and Stress Relief",
+   "title": [
+    "Mood Nutrients in ",
+    "IV Vitamin Drips",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "B12, magnesium and amino acids help build serotonin and dopamine, the neurotransmitters that regulate mood",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "Vitamin B12",
+     "note": "Building block for neurotransmitters"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Nervous system regulation"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Raw material for serotonin and dopamine"
+    }
+   ]
+  },
+  {
+   "file": "iv-vitamin-drip-antioxidants",
+   "post_id": 6290,
+   "layout": "icons",
+   "subject": "IV vitamin drips",
+   "heading": "7. Detoxification and Anti-Aging Support",
+   "title": [
+    "Antioxidants in ",
+    "IV Vitamin Drips",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Glutathione and vitamin C neutralize free radicals, support the liver and kidneys, and back mitochondrial function",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Free radicals",
+     "note": "Glutathione and vitamin C neutralize them"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Liver and kidneys",
+     "note": "The organs doing the actual detox work"
+    },
+    {
+     "icon": "zap",
+     "label": "Mitochondria",
+     "note": "Cell repair and energy production"
+    }
+   ]
+  },
+  {
+   "file": "iv-vitamin-drip-right-for-you",
+   "post_id": 6290,
+   "layout": "checklist",
+   "subject": "IV vitamin therapy",
+   "heading": "Is IV Vitamin Therapy Right for You?",
+   "title": [
+    "Is ",
+    "IV Vitamin Therapy",
+    " Right for You"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV vitamin therapy helps low energy, dehydration and slow recovery; check first if pregnant or on heart or kidney medication",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Helps most with",
+    "items": [
+     "Chronic fatigue or low energy",
+     "Frequent dehydration or headaches",
+     "Weak immunity or slow recovery",
+     "Dull skin or brittle hair",
+     "Travel fatigue and jet lag"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "Ask your provider first",
+    "items": [
+     "Pregnancy",
+     "Heart conditions",
+     "Kidney conditions",
+     "Certain regular medications"
+    ]
+   }
+  },
+  {
+   "file": "myers-cocktail-ingredients",
+   "post_id": 6296,
+   "layout": "list",
+   "subject": "Myers Cocktail",
+   "heading": "What Is the Myers’ Cocktail?",
+   "title": [
+    "What Is in a ",
+    "Myers Cocktail",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Myers Cocktail holds vitamin C, B-complex vitamins, vitamin B12, magnesium and calcium",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, immune support"
+    },
+    {
+     "icon": "zap",
+     "label": "B-complex",
+     "note": "B1, B2, B3, B5 and B6 for energy metabolism"
+    },
+    {
+     "icon": "pill",
+     "label": "Vitamin B12",
+     "note": "Red blood cells and mental clarity"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Muscle relaxation and migraine relief"
+    },
+    {
+     "icon": "bone",
+     "label": "Calcium",
+     "note": "Bone strength and cellular function"
+    }
+   ]
+  },
+  {
+   "file": "myers-cocktail-benefits",
+   "post_id": 6296,
+   "layout": "numbered",
+   "subject": "Myers Cocktail",
+   "heading": "The Science-Backed Benefits of the Myers’ Cocktail",
+   "title": [
+    "Six Benefits of the ",
+    "Myers Cocktail",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Six Myers Cocktail benefits: immune support, energy, migraine relief, recovery, mood balance and skin health",
+   "items": [
+    "Immune system support",
+    "Energy and fatigue relief",
+    "Migraine and pain management",
+    "Recovery and rehydration",
+    "Stress and mood balance",
+    "Skin and cellular health"
+   ]
+  },
+  {
+   "file": "myers-cocktail-who-it-suits",
+   "post_id": 6296,
+   "layout": "checklist",
+   "subject": "Myers Cocktail",
+   "heading": "Who Can Benefit from the Myers’ Cocktail?",
+   "title": [
+    "Who the ",
+    "Myers Cocktail",
+    " Suits"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The Myers Cocktail suits chronic stress, athletes and travelers; check first in pregnancy or with kidney or heart conditions",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Especially suited to",
+    "items": [
+     "People under chronic stress",
+     "Athletes and active people",
+     "Frequent travelers",
+     "Chronic fatigue or migraine",
+     "Recovering from illness or surgery"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "Consult a provider first",
+    "items": [
+     "Pregnant or breastfeeding",
+     "Kidney conditions",
+     "Heart conditions",
+     "Medications that interact with high-dose vitamins"
+    ]
+   }
+  },
+  {
+   "file": "myers-cocktail-session",
+   "post_id": 6296,
+   "layout": "steps",
+   "subject": "Myers Cocktail",
+   "heading": "What to Expect During a Session",
+   "title": [
+    "A ",
+    "Myers Cocktail",
+    " Session"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Myers Cocktail session: consultation, IV line placed, a 30 to 45 minute infusion, then straight back to your day",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Consultation",
+     "note": "Goals, lifestyle and medical history"
+    },
+    {
+     "icon": "syringe",
+     "label": "Preparation",
+     "note": "A small IV line, usually in the arm"
+    },
+    {
+     "icon": "armchair",
+     "label": "Infusion",
+     "note": "30 to 45 minutes while you relax"
+    },
+    {
+     "icon": "door-open",
+     "label": "Aftercare",
+     "note": "No downtime, drink plenty of water"
+    }
+   ]
+  },
+  {
+   "file": "myers-cocktail-vs-other-iv-drips",
+   "post_id": 6296,
+   "layout": "list",
+   "subject": "Myers Cocktail",
+   "heading": "Myers’ Cocktail vs. Other IV Therapies",
+   "title": [
+    "Myers Cocktail",
+    " vs Other IV Drips",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Myers Cocktail compared with hydration IV, high-dose vitamin C, NAD+ and glutathione drips by what each is for",
+   "items": [
+    {
+     "icon": "sparkles",
+     "label": "Myers Cocktail",
+     "note": "All-round wellness, energy and immunity"
+    },
+    {
+     "icon": "droplet",
+     "label": "Hydration IV",
+     "note": "Saline and electrolytes, no vitamins"
+    },
+    {
+     "icon": "sun",
+     "label": "High-dose vitamin C",
+     "note": "Antioxidant and immune support"
+    },
+    {
+     "icon": "dna",
+     "label": "NAD+ drip",
+     "note": "Cellular repair and anti-aging"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Glutathione IV",
+     "note": "Detoxification and skin brightening"
+    }
+   ]
+  }
+ ]
+}

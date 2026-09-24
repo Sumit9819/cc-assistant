@@ -1,0 +1,2 @@
+[{"route":"cc-assistant/v1/whoami","method":"GET","out":"ekit-removal/w17.json"},
+ {"route":"cc-assistant/v1/popups","method":"GET","out":"ekit-removal/popups.json"}]

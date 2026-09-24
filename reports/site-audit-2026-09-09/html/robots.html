@@ -1,0 +1,54 @@
+User-agent: *
+
+# --- System Security & Admin ---
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# --- System Directories ---
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+
+# --- Render Assets (CSS, JS, Images, Fonts) ---
+Allow: /wp-includes/*.js
+Allow: /wp-includes/*.css
+Allow: /wp-content/plugins/*.js
+Allow: /wp-content/plugins/*.css
+Allow: /wp-content/plugins/*.jpg
+Allow: /wp-content/plugins/*.jpeg
+Allow: /wp-content/plugins/*.png
+Allow: /wp-content/plugins/*.webp
+Allow: /wp-content/plugins/*.svg
+Allow: /wp-content/plugins/*.gif
+Allow: /wp-content/plugins/*.woff
+Allow: /wp-content/plugins/*.woff2
+Allow: /wp-content/themes/*.js
+Allow: /wp-content/themes/*.css
+Allow: /wp-content/themes/*.jpg
+Allow: /wp-content/themes/*.jpeg
+Allow: /wp-content/themes/*.png
+Allow: /wp-content/themes/*.webp
+Allow: /wp-content/themes/*.svg
+Allow: /wp-content/themes/*.gif
+Allow: /wp-content/themes/*.woff
+Allow: /wp-content/themes/*.woff2
+
+# --- GSC Junk URL Fixes ---
+Disallow: /*?*elementskit_template=
+Disallow: /*?replytocom=
+Disallow: /*?wordfence_lh=
+Disallow: /comment-page-
+
+# --- Search, Feeds & Duplicates ---
+Disallow: /*?s=
+Disallow: /search/
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /comments/feed/
+Disallow: /*/trackback/
+Disallow: /author/
+
+# --- Sitemap ---
+Sitemap: https://erofwhiterock.com/sitemap_index.xml

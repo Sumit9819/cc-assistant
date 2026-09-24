@@ -1,0 +1,200 @@
+{
+  "trace": [
+    {
+      "tool": "content_decision_history",
+      "arguments": {},
+      "result": {
+        "assessment": "external_provider_observations",
+        "provider": "ubersuggest",
+        "provenance": "agent_transcribed_from_connected_mcp; server_did_not_call_or_authenticate_provider_response",
+        "location": "Dallas TX",
+        "language": "English",
+        "observations": [
+          {
+            "subject": "bicycle puncture preparation",
+            "estimated_volume": 0,
+            "provider_age_days": 190,
+            "freshness_review": "older_than_90_days_review_applicability"
+          },
+          {
+            "subject": "recurring flat tire",
+            "freshness_review": "update_date_unknown"
+          }
+        ],
+        "overlap_domains": [
+          "unrelated-business.invalid",
+          "local-workshop.invalid"
+        ],
+        "limits": [
+          "Overlapping domains have not been verified as local business competitors.",
+          "GSC is unavailable.",
+          "No ranking or global originality claim is established."
+        ]
+      }
+    },
+    {
+      "tool": "whoami",
+      "arguments": {},
+      "result": {
+        "site": "Fixture bicycle workshop",
+        "policy": {
+          "version": "content-strategy-4",
+          "new_blog_workflow": "Use content_workflow for a complete new-blog task, then execute its steps. plan_blog_content initializes an inferred strategy when none is saved. Claude uses discover_content_scope and manage_content_scope to inspect and maintain it from existing pages and site notes. Never ask the operator to enter discoverable IDs or fill a strategy form. Explore source-backed niche topics even without GSC gaps.",
+          "agent_ownership": "Claude handles discovery, strategy metadata, research, draft preparation and verification. The operator reviews concrete results and exceptions. Metadata writes do not authorize live content publication.",
+          "background_execution": "A connected Claude session executes the workflow. This feature does not launch an unattended AI runner.",
+          "gsc_role": "Observed visibility for this property and period, not total market demand or the boundary of the niche.",
+          "discovery_sources": [
+            "selected_service_pages",
+            "configured_reader_questions",
+            "service_reader_tasks",
+            "user_topic_proposals",
+            "optional_gsc_queries",
+            "explicit_competitor_research"
+          ],
+          "no_data_meaning": "Demand is unmeasured. It does not mean no opportunity.",
+          "decision_rules": [
+            "Similarity discovers candidates; it does not establish duplication or SEO harm.",
+            "Create when a distinct reader task and supported niche relationship justify it; no impression minimum is required.",
+            "Keep or link complementary pages. Review preservation before merging substitutable pages.",
+            "Diagnose technical, demand and measurement changes before prescribing a rewrite.",
+            "Research and formatting cannot certify global novelty, expertise or ranking gains.",
+            "Persist evidence and alternatives. Do not change a decision without a changed basis."
+          ],
+          "result_verification": "Link new drafts with workflow_id and call verify_content_workflow. Only actual records and current source observations support completion claims; a plan or generated text alone does not.",
+          "setting_workflow": "Read get_plugin_settings and inspect_plugin_capability. Valid input types do not certify an active feature or rendered effect; use current runtime controls and verify the outcome."
+        },
+        "evidence_rules": [
+          "Report observed facts, editorial interpretations and unknowns separately; cite the exact source and its scope.",
+          "Blocked fetches, partial extraction, missing data and an empty parser result cannot prove rendered absence.",
+          "Similarity identifies candidates. It does not establish duplication, a shared reader task or SEO harm.",
+          "Low CTR does not prove AI impact; crawler requests do not prove citations; before/after associations do not prove causation.",
+          "Discover current installed controls, accepted values and dependencies before planning setting changes.",
+          "Verify actual WordPress record IDs and source freshness before reporting completed work.",
+          "Read memory_consistency. Current user intent governs the task; historical working_state and legacy score/citation recipes do not establish current authorization or factual SEO requirements. Promote lasting session corrections to Rules or Decisions."
+        ],
+        "available_tools": [
+          "content_decision",
+          "content_decision_history",
+          "content_research",
+          "content_workflow",
+          "discover_content_scope",
+          "draft_create_post",
+          "draft_update_plugin_setting",
+          "get_content_authors",
+          "get_content_scope",
+          "get_plugin_settings",
+          "get_post",
+          "get_site_memory",
+          "inspect_plugin_capability",
+          "list_categories",
+          "list_pending_changes",
+          "manage_content_scope",
+          "plan_blog_content",
+          "seo_playbook",
+          "verified_page_audit",
+          "verify_content_workflow",
+          "whoami"
+        ]
+      }
+    },
+    {
+      "tool": "seo_playbook",
+      "arguments": {},
+      "result": [
+        {
+          "id": "content_growth",
+          "name": "Niche-based content growth",
+          "why_matters": "Observed queries are useful evidence but cannot enumerate every relevant reader need.",
+          "source": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+          "rules": [
+            "For a complete new blog request, use content_workflow and execute its steps. Claude discovers and maintains strategy with discover_content_scope/manage_content_scope; no manual strategy form is required. Use plan_blog_content for topic proposals. Explore supported services, reader questions and useful explanations even with no GSC gaps or rows.",
+            "State the niche source, audience, reader task and supported contribution. Missing impressions means unmeasured demand, not no opportunity.",
+            "Inspect related stored and rendered content before claiming a gap. Similarity alone cannot certify duplication or absence.",
+            "Use a length and format that solve the reader task; no preferred Google word count or fixed quota of facts, quotes or headings."
+          ]
+        },
+        {
+          "id": "decision_evidence",
+          "name": "Evidence before content decisions",
+          "why_matters": "Observations, interpretations and proposed actions require different levels of support.",
+          "source": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+          "rules": [
+            "Use content_decision before refresh or consolidation proposals. Preserve evidence IDs, alternatives, reader goals and the reason for changing an earlier assessment.",
+            "Related pages can serve distinct tasks. Keep/link or differentiate when useful; cluster size, low clicks and shared queries do not establish harmful cannibalization.",
+            "Diagnose technical state, measurement, query mix, demand and seasonality before prescribing a rewrite. Do not remove useful material because a local score is low.",
+            "A permanent merge needs a relevant destination and preservation of unique facts, useful sections, links and language relationships. Missing analytics is not proof of no value."
+          ]
+        },
+        {
+          "id": "research_value",
+          "name": "Competitor research and reader value",
+          "why_matters": "A dated comparison can identify useful opportunities without pretending to know ranking causes.",
+          "source": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+          "rules": [
+            "Use content_research to capture explicit comparable URLs and current own content. Record scope, fetch date and limitations. A blocked page is unknown.",
+            "Statistics, tables, quotation markup and authority links are surface observations, not verified first-party research or expertise.",
+            "Check primary-source support, attribution, practical usefulness and originality within the inspected sample. Do not invent evidence or claim global uniqueness.",
+            "No special AI markup, forced chunk size or citation quota guarantees Google visibility. Experimental GEO results do not establish organic ranking effects."
+          ]
+        },
+        {
+          "id": "measurement",
+          "name": "Measurement and outcome interpretation",
+          "why_matters": "Incorrect joins and causal labels can produce confident but unsupported advice.",
+          "source": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+          "rules": [
+            "Preserve native GSC dimensions and raw counts. Query/page totals and page/appearance segments are separate datasets; do not allocate one into the other.",
+            "Check measurement version and re-synced dates. Unlisted historical dates may retain legacy inferred data until re-fetched.",
+            "Non-Web search appearances and low CTR do not establish AI Overviews or AI-caused click loss. A before/after change is an association unless stronger evidence supports causation."
+          ]
+        },
+        {
+          "id": "publication",
+          "name": "Technical correctness and reviewed publication",
+          "why_matters": "Plans must match actual installed capabilities and the content served to readers.",
+          "source": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+          "rules": [
+            "Use current target-bound evidence and actual editor/plugin schemas before proposing settings or content changes. Parser absence is not proof of rendered absence.",
+            "Use descriptive contextual links where they help the next reader task. No ideal link count or mandatory repeated pillar placement applies.",
+            "Preserve coherent headings, accessible controls, supported facts, appropriate schema and language relationships. Assess actual defects rather than blindly follow a score.",
+            "Apply through the existing reviewed workflow, verify saved and served output, and distinguish completed writes from uncertain cache or transport states.",
+            "Inspect plugin capability evidence before setting changes and verify actual workflow results before claiming completion."
+          ]
+        }
+      ]
+    },
+    {
+      "tool": "get_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

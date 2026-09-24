@@ -1,0 +1,98 @@
+[
+  {
+    "name": "whoami",
+    "arguments": {}
+  },
+  {
+    "name": "get_site_memory",
+    "arguments": {}
+  },
+  {
+    "name": "update_site_memory_notes",
+    "arguments": {
+      "notes": "Current operator preferences (2026-09-09): Preserve useful existing site layouts. New posts and pages should be practical, search-led and SEO-optimized, without magazine/editorial-style layouts or opinion essays. Use the existing ER of White Rock organization author (observed user ID 4), not adminsumit. Read current authors before selection; never invent clinician attribution or medical-review credentials. After installing 0.89, Claude should save this author through manage_content_scope using the exact current display name. Use connected Ubersuggest for scoped keyword/SERP/competitor research; preserve tool name, geography, language and provider update dates. Its estimates are not GSC observations. Zero or absent volume does not rule out useful niche topics; overlap domains are candidates, not automatically local business competitors. Compare actual pages and provide a supported reader benefit. No automatic publication.",
+      "section": "rules",
+      "mode": "append"
+    }
+  },
+  {
+    "name": "get_site_memory",
+    "arguments": {}
+  },
+  {
+    "name": "get_content_scope",
+    "arguments": {}
+  },
+  {
+    "name": "discover_content_scope",
+    "arguments": {
+      "scan_limit": 500
+    }
+  },
+  {
+    "name": "verified_page_audit",
+    "arguments": {
+      "post_id": 971
+    }
+  },
+  {
+    "name": "get_post",
+    "arguments": {
+      "id": 971,
+      "slim": false
+    }
+  },
+  {
+    "name": "draft_update_elementor_widget",
+    "arguments": {
+      "post_id": 971,
+      "widget_id": "1ffbaf62",
+      "settings": {
+        "editor": "<p>Laboratory results help your care team assess what may be causing your symptoms. A result is one part of an evaluation, alongside your health history and examination.</p><ul><li><strong>Understand the test:</strong> Ask which tests are being ordered and what questions they may help answer.</li><li><strong>Discuss the results:</strong> A result outside the reference range does not always mean you have a medical condition. A result within the range does not rule out every problem.</li><li><strong>Ask about next steps:</strong> Find out whether more testing or follow-up may be needed.</li></ul><p>See <a href=\"https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/\">MedlinePlus guidance on understanding lab results</a>.</p>"
+      },
+      "summary": "Replace flawless-results and fixed-turnaround promises with a practical explanation of lab-result limitations.",
+      "reasoning": "Current stored copy promises flawless results or guaranteed immediate treatment. MedlinePlus explains that lab results require clinical context and no test is perfect: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/ . Remove the unsupported promise, preserve the existing widget and layout. Facility-specific turnaround and accreditation claims require separate confirmation. Review-only proposal; no publication or live apply."
+    }
+  },
+  {
+    "name": "draft_update_elementor_widget",
+    "arguments": {
+      "post_id": 971,
+      "widget_id": "46afe405",
+      "settings": {
+        "title_text_a": "Understanding Your Results",
+        "title_text_b": "Understanding Your Results"
+      },
+      "summary": "Remove the unsupported Fast & Flawless Results claim from both faces of this card.",
+      "reasoning": "Current stored copy promises flawless results or guaranteed immediate treatment. MedlinePlus explains that lab results require clinical context and no test is perfect: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/ . Remove the unsupported promise, preserve the existing widget and layout. Facility-specific turnaround and accreditation claims require separate confirmation. Review-only proposal; no publication or live apply."
+    }
+  },
+  {
+    "name": "draft_update_elementor_widget",
+    "arguments": {
+      "post_id": 971,
+      "widget_id": "77684669",
+      "settings": {
+        "description_text_b": "Your physician considers laboratory results alongside your symptoms, medical history and examination. Ask what the findings mean and whether you need follow-up."
+      },
+      "summary": "Remove guaranteed immediate treatment and instant-review language.",
+      "reasoning": "Current stored copy promises flawless results or guaranteed immediate treatment. MedlinePlus explains that lab results require clinical context and no test is perfect: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/ . Remove the unsupported promise, preserve the existing widget and layout. Facility-specific turnaround and accreditation claims require separate confirmation. Review-only proposal; no publication or live apply."
+    }
+  },
+  {
+    "name": "draft_update_elementor_widget",
+    "arguments": {
+      "post_id": 971,
+      "widget_id": "2a6ed6d9",
+      "settings": {
+        "description_text_b": "Laboratory tests can provide information that helps your care team evaluate symptoms. Some findings may require additional tests or follow-up."
+      },
+      "summary": "Remove the claim that equipment instantly diagnoses severe conditions.",
+      "reasoning": "Current stored copy promises flawless results or guaranteed immediate treatment. MedlinePlus explains that lab results require clinical context and no test is perfect: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/ . Remove the unsupported promise, preserve the existing widget and layout. Facility-specific turnaround and accreditation claims require separate confirmation. Review-only proposal; no publication or live apply."
+    }
+  },
+  {
+    "name": "list_pending_changes",
+    "arguments": {}
+  }
+]

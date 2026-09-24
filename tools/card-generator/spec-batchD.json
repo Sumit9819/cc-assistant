@@ -1,0 +1,401 @@
+{
+ "_note": "Batch D: 6300 hangover IV drips, 6306 how often to get IV therapy. Both posts are deliberately hedged about what IV therapy can and cannot do, so the evidence cards carry both halves. No prices are baked into any graphic.",
+ "cards": [
+  {
+   "file": "hangover-what-alcohol-does",
+   "post_id": 6300,
+   "layout": "list",
+   "subject": "hangover",
+   "heading": "What Exactly Happens to Your Body During a Hangover?",
+   "title": [
+    "What Causes a ",
+    "Hangover",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A hangover comes from dehydration, electrolyte loss, acetaldehyde, inflammation and blood sugar swings",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Dehydration",
+     "note": "Alcohol is a diuretic"
+    },
+    {
+     "icon": "waves",
+     "label": "Electrolyte loss",
+     "note": "Sodium, potassium and magnesium"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Acetaldehyde",
+     "note": "The toxic byproduct of metabolizing alcohol"
+    },
+    {
+     "icon": "flame",
+     "label": "Inflammation",
+     "note": "An immune response you feel as malaise"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Blood sugar swings",
+     "note": "Brain fog and mood swings"
+    }
+   ]
+  },
+  {
+   "file": "hangover-iv-drip-contents",
+   "post_id": 6300,
+   "layout": "icons",
+   "subject": "hangover IV drip",
+   "heading": "IV Drips for Hangovers: What’s in the Bag?",
+   "title": [
+    "What Is in a ",
+    "Hangover IV Drip",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A hangover IV drip holds saline, electrolytes, B12 and vitamin C, and sometimes anti-nausea medication",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Saline",
+     "note": "Rehydrates without going through the gut"
+    },
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium and potassium"
+    },
+    {
+     "icon": "pill",
+     "label": "B12 and vitamin C",
+     "note": "Energy and antioxidant support"
+    },
+    {
+     "icon": "frown",
+     "label": "Anti-nausea",
+     "note": "Included in some formulas"
+    }
+   ]
+  },
+  {
+   "file": "hangover-iv-drip-what-it-can-and-cannot-fix",
+   "post_id": 6300,
+   "layout": "checklist",
+   "subject": "hangover",
+   "heading": "Can an IV Drip Actually Cure a Hangover?",
+   "title": [
+    "Can an IV Drip Cure a ",
+    "Hangover",
+    "?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A hangover IV drip treats dehydration and electrolyte loss but cannot speed alcohol metabolism or replace rest",
+   "good": {
+    "icon": "circle-check",
+    "heading": "It can help with",
+    "items": [
+     "Dehydration",
+     "Electrolyte imbalance",
+     "Fatigue, via B vitamins",
+     "Oxidative stress, via vitamin C"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "It cannot fix",
+    "items": [
+     "How fast you metabolize alcohol",
+     "Clearing acetaldehyde",
+     "The need for rest",
+     "The need for time"
+    ]
+   }
+  },
+  {
+   "file": "hangover-iv-drip-risks",
+   "post_id": 6300,
+   "layout": "list",
+   "subject": "hangover IV drip",
+   "heading": "Are There Any Risks or Downsides to Using IV Drips for Hangovers?",
+   "title": [
+    "Risks of a ",
+    "Hangover IV Drip",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hangover IV drip risks: infection at the needle site, unsterile technique outside a clinic, and overhydration",
+   "items": [
+    {
+     "icon": "shield-alert",
+     "label": "Site infection",
+     "note": "Any needle carries the risk"
+    },
+    {
+     "icon": "ban",
+     "label": "Unsterile technique",
+     "note": "The risk rises outside a medical setting"
+    },
+    {
+     "icon": "scale",
+     "label": "Too much, too fast",
+     "note": "Overhydration or electrolyte imbalance"
+    }
+   ]
+  },
+  {
+   "file": "hangover-remedies-without-an-iv",
+   "post_id": 6300,
+   "layout": "icons",
+   "subject": "hangover",
+   "heading": "Other Hangover Remedies: What Can You Do Instead?",
+   "title": [
+    "Treating a ",
+    "Hangover",
+    " Without an IV"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hangover remedies without an IV: water or electrolyte drinks, easy-to-digest food, and sleep with light activity",
+   "items": [
+    {
+     "icon": "droplets",
+     "label": "Fluids",
+     "note": "Water, sports drinks or coconut water"
+    },
+    {
+     "icon": "apple",
+     "label": "Easy food",
+     "note": "Bananas, eggs and toast steady blood sugar"
+    },
+    {
+     "icon": "moon",
+     "label": "Rest",
+     "note": "Sleep, then a walk for circulation"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-frequency-by-goal",
+   "post_id": 6306,
+   "layout": "list",
+   "subject": "IV vitamin therapy",
+   "heading": "The Core Question: How Often Should You Get IV Vitamin Therapy?",
+   "title": [
+    "How Often to Get ",
+    "IV Vitamin Therapy",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV therapy frequency by goal: every 2 to 4 weeks for wellness, event-based for travel, monthly for maintenance",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "General wellness",
+     "note": "Every 2 to 4 weeks, then reassess"
+    },
+    {
+     "icon": "plane",
+     "label": "High-demand weeks",
+     "note": "One infusion around the event"
+    },
+    {
+     "icon": "pill",
+     "label": "Targeted replacement",
+     "note": "Short loading phase, then monthly"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Athletic training",
+     "note": "One or two a month during a block"
+    },
+    {
+     "icon": "heart-pulse",
+     "label": "After illness",
+     "note": "A single session or short series"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-frequency-framework",
+   "post_id": 6306,
+   "layout": "steps",
+   "subject": "IV vitamin therapy",
+   "heading": "Personalizing Your Schedule: A Simple 4-Step Framework",
+   "title": [
+    "Setting Your ",
+    "IV Vitamin Therapy",
+    " Cadence"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Four steps to set IV therapy frequency: clarify the goal, screen and baseline, trial 2 to 3 visits, then maintain or taper",
+   "steps": [
+    {
+     "icon": "target",
+     "label": "Clarify the goal",
+     "note": "Hydration, replacement, travel or recovery"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Screen",
+     "note": "History, medications, labs where useful"
+    },
+    {
+     "icon": "calendar-days",
+     "label": "Trial",
+     "note": "2 to 3 visits, every 2 to 4 weeks"
+    },
+    {
+     "icon": "sliders-horizontal",
+     "label": "Maintain or taper",
+     "note": "Monthly, as-needed, or stop"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-too-often-downsides",
+   "post_id": 6306,
+   "layout": "icons",
+   "subject": "IV vitamin therapy",
+   "heading": "What Happens If You Get IV Drips Too Often?",
+   "title": [
+    "Getting ",
+    "IV Vitamin Therapy",
+    " Too Often"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Too-frequent IV therapy risks vein irritation, fluid and electrolyte imbalance, diminishing returns and dependency",
+   "items": [
+    {
+     "icon": "bandage",
+     "label": "Vein irritation",
+     "note": "Tenderness, bruising, rarely infection"
+    },
+    {
+     "icon": "waves",
+     "label": "Fluid imbalance",
+     "note": "A real risk with heart or kidney conditions"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Diminishing returns",
+     "note": "More often is not better"
+    },
+    {
+     "icon": "brain",
+     "label": "Dependency",
+     "note": "Feeling you need a drip to function"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-ingredients-and-cadence",
+   "post_id": 6306,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "Ingredients Matter: Why Formula Influences Frequency",
+   "title": [
+    "What the Formula Changes About ",
+    "IV Therapy",
+    " Cadence"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV formula drives frequency: B12 monthly or per labs, vitamin C needs screening, magnesium monitored, minerals individualized",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "B-complex and B12",
+     "note": "Maintenance monthly, or per labs"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "High doses need G6PD screening"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Watch for low blood pressure"
+    },
+    {
+     "icon": "beaker",
+     "label": "Trace minerals",
+     "note": "Individualized, not a kitchen-sink blend"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-when-to-adjust-frequency",
+   "post_id": 6306,
+   "layout": "checklist",
+   "subject": "IV therapy",
+   "heading": "When to Adjust Your Frequency",
+   "title": [
+    "When to Change Your ",
+    "IV Therapy",
+    " Schedule"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Space out IV therapy when benefits plateau; pause and call for breathlessness, chest pain, fever or a spreading IV site",
+   "good": {
+    "icon": "sliders-horizontal",
+    "heading": "Space them out when",
+    "items": [
+     "Benefits have plateaued",
+     "Cost outweighs the value",
+     "Mild side effects appear",
+     "The formula could change instead"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "Pause and call for",
+    "items": [
+     "Shortness of breath",
+     "Chest discomfort",
+     "Severe headache or fever",
+     "Warmth spreading from the IV site"
+    ]
+   }
+  }
+ ]
+}

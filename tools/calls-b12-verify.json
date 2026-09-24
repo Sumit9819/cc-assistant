@@ -1,0 +1,3 @@
+[
+  {"route":"wp/v2/posts?include=3886,3937,3813&context=edit&per_page=5","method":"GET","out":"card-generator/_q13/verify12.json"}
+]

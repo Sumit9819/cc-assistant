@@ -1,0 +1,10 @@
+[
+ {
+  "route": "cc-assistant/v1/site-memory/notes",
+  "method": "POST",
+  "body": {
+   "notes": "REDIRECT REPAIR REPORT delivered: D:/Mammoth-Redirect-Repair-2026-R1.pdf (MM-2026-R1). Redirects only, per operator. Sections: the pre-engagement Apr-May 2026 Woo URL migration that shipped with ZERO redirects (29 hard 404s / 2,593 clicks + 6 soft-404 category archives / 1,287 clicks = 3,880 clicks, 45% of site traffic; worst was product-category/mini-skid-steers at 885 clicks / 69k impr / pos 9.27), what we built (34 x 301, destinations verified, discontinued families reconstructed from Wayback + the on-site TT660 spec sheet, sitemap repaired), and a full 30-row from/to map. ALL 36 candidate legacy URLs re-traced live in headless Chrome 2026-09-08: every one a SINGLE-hop 301 ending on a 200. No chains, no 302s. redirect-audit: 43 active, 0 findings. NEW FINDING: /x-loader-2000mt-mini-track-loader/ redirects BACKWARDS into /product/x-loader-2000mt-mini-track-loader/ because the 2000MT is still a live Woo product (not plugin-editable). It is the only machine of 22 still on the /product/ format. Works, loses nothing, but it is the one inconsistency in the map. ALSO: /Privacy-Policy/ and /privacy-policy/ BOTH serve 200 (MySQL case-insensitive collation matches the slug either way; only one page exists, id 3539). Harmless because Rank Math emits canonical=lowercase on the capitalised variant. Verified, no action. Only genuine multi-hop is http://www -> https://www -> https non-www, which is the standard protocol-then-host pair. CONTEXT CORRECTION for future sessions: the mini-skidsteers cannibalisation I diagnosed 2026-09-07 is largely RECOVERY, not cannibalisation. The URL holding pos 9.27 / 69k impr for \"mini skid steer\" was killed in the migration and 404d for ~2-3 months before we redirected it; the comparison guide filled the vacuum. Reframe the fix accordingly."
+  },
+  "out": "D:/cc-assistant/tools/out/red_note.json"
+ }
+]

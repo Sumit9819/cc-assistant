@@ -1,0 +1,85 @@
+[
+  {
+    "post_id": 3103,
+    "patches": [
+      {
+        "search": "<h2><strong>Treatment Options and Recovery</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-fracture-or-bruise-diagnosis.webp\" alt=\"How the emergency room distinguishes a fracture from a bone bruise: examination, movement tests, palpation, x-ray and CT\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Treatment Options and Recovery</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>When to Seek Medical Attention</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-bruise-care.webp\" alt=\"Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>When to Seek Medical Attention</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>Frequently Asked Questions</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-injury-er.webp\" alt=\"Six signs that a bone injury needs emergency care rather than home treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Frequently Asked Questions</strong></h2>"
+      }
+    ],
+    "summary": "Add 3 in-body triage card(s) to post 3103",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3201,
+    "patches": [
+      {
+        "search": "<h2><strong>1. Excessive Thirst</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-signs.webp\" alt=\"Ten warning signs of dehydration, from excessive thirst and dark urine to a rapid heartbeat and confusion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>1. Excessive Thirst</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>Prevention Tips: How to Stay Hydrated</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-evaluation.webp\" alt=\"The four checks an emergency room uses to evaluate dehydration: vital signs, physical exam, urinalysis and blood tests\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Prevention Tips: How to Stay Hydrated</strong></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3201",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3825,
+    "patches": [
+      {
+        "search": "<h2><b>When to Seek Emergency Care for a Dog Bite in Irving</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-first-aid.webp\" alt=\"Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>When to Seek Emergency Care for a Dog Bite in Irving</b></h2>"
+      },
+      {
+        "search": "<h2><b>Critical Vaccinations: Rabies and Tetanus Concerns</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-infection.webp\" alt=\"Five signs that a dog bite is becoming infected, including spreading redness, warmth, pus and fever\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Critical Vaccinations: Rabies and Tetanus Concerns</b></h2>"
+      },
+      {
+        "search": "<h2><strong>Seek Professional Care for Dog Bites: Fast Treatment at the ER of Irving</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-er.webp\" alt=\"Four situations where a dog bite needs emergency care: an unknown dog, bleeding that will not stop, a deep or facial wound, or a weakened immune system\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Seek Professional Care for Dog Bites: Fast Treatment at the ER of Irving</strong></h2>"
+      }
+    ],
+    "summary": "Add 3 in-body triage card(s) to post 3825",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3833,
+    "patches": [
+      {
+        "search": "<h2><b>Headache: Why Timing Matters</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-aneurysm-red-flags.webp\" alt=\"Five red flags that a severe headache may be an aneurysm rather than a migraine\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Headache: Why Timing Matters</b></h2>"
+      },
+      {
+        "search": "<h2><b>Understanding Risk Factors for Brain Aneurysms</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-headache-treatment-paths.webp\" alt=\"What the emergency room gives for a migraine compared with how it stabilizes a suspected aneurysm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Understanding Risk Factors for Brain Aneurysms</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3833",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3867,
+    "patches": [
+      {
+        "search": "<h2><b>Common Sources of Carbon Monoxide in Your Home</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-symptoms.webp\" alt=\"Five symptoms of carbon monoxide poisoning that are easily mistaken for the flu\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Common Sources of Carbon Monoxide in Your Home</b></h2>"
+      },
+      {
+        "search": "<h2><b>Prevention Checklist: A Safer Home This Winter</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-emergency-steps.webp\" alt=\"Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Prevention Checklist: A Safer Home This Winter</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3867",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  }
+]

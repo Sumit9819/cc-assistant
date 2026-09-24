@@ -1,0 +1,22 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.88.0"
+      }
+    }
+  },
+  {
+    "name": "whoami",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"browser_worker_closed\",\"message\":\"The browser worker stopped. Inspect the inbox before retrying a write, then restart MCP.\"}"
+    }
+  }
+]

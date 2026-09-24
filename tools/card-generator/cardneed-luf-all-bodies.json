@@ -1,0 +1,6660 @@
+[
+  {
+    "id": 5762,
+    "title": "What to Do After a Car Accident (Even If You Feel Fine)",
+    "have": 0,
+    "need": 5,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Step 1: Stay Calm and Check for Immediate Safety",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Step 3: Recognize Delayed Symptoms That Require Immediate Attention",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Step 4: Document Everything for Your Health and Safety",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Step 5: Follow Up with the Right Specialists",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Step 6: When to Go to the ER Immediately",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Step 7: Caring for Yourself in the Days After",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5886,
+    "title": "When Is Back Pain an Emergency? 5 Red Flag Symptoms You Should Never Ignore",
+    "have": 0,
+    "need": 5,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Understanding Back Pain: What\u2019s Normal vs. What\u2019s Concerning",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Is Back Pain an Emergency? 5 Red-Flag Symptoms",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Other Symptoms That Need Prompt (But Not Emergency) Attention",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Doctors Diagnose Emergency Back Pain",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Go to the ER vs. When to See a Specialist",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Don\u2019t Wait for Emergency Back Pain",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5892,
+    "title": "Is It the Flu, COVID-19, or Just a Bad Cold? A Symptom Checker",
+    "have": 0,
+    "need": 5,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What These Illnesses Have in Common",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Is It a Cold?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Is It the Flu?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Is It COVID-19?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Quick Symptom Checker Table",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Medical Care",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Home Care &amp; Relief Tips",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How to Prevent Flu, COVID-19, and Colds",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Feel Sick? Get Seen Right Away.",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5904,
+    "title": "Pneumonia Symptoms in Adults: A Patient Guide to Signs, Walking Pneumonia, and When to Seek Emergency Care",
+    "have": 0,
+    "need": 5,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What Is Pneumonia?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Symptoms of Pneumonia",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Pneumonia Becomes an Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Pneumonia Is Diagnosed",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Pneumonia Treatment Options",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Walking Pneumonia (Atypical Pneumonia)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How to Lower Your Risk of Pneumonia",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to See a Doctor for Pneumonia Symptoms",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Get Emergency Care for Pneumonia at ER of Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6060,
+    "title": "When to Go to the Doctor for a UTI (Urinary Tract Infection)",
+    "have": 0,
+    "need": 5,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What Exactly Is a UTI?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How UTIs Happen",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Common Symptoms of a UTI",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When You Can Try Home Care (Mild Symptoms Only)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Go to the Doctor for a UTI",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Doctors Diagnose a UTI",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Treatment Options for UTIs",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How to Prevent Future UTIs",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Fast, Compassionate Care Anytime",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6471,
+    "title": "Understanding Blood Pressure: Numbers, Stages, and How to Manage High BP",
+    "have": 0,
+    "need": 5,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What Do Your Blood Pressure Numbers Actually Mean?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Blood Pressure Categories: Normal, Elevated, Stage 1, Stage 2",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Stage 1 vs Stage 2 Hypertension: What These Numbers Mean for Your Health",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "How to Take an Accurate Blood Pressure Reading at Home",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why Untreated High Blood Pressure Damages Your Body Over Time",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Lower Your Blood Pressure with Lifestyle Changes",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Medications for High Blood Pressure: What Your Doctor May Prescribe",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to See Your Doctor About High Blood Pressure (Not the ER)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Get Cardiac Care at ER of Lufkin",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6926,
+    "title": "Heat Exhaustion vs. Heat Stroke: How to Tell the Difference and When to Get Emergency Care",
+    "have": 0,
+    "need": 5,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What is the difference between heat exhaustion and heat stroke?",
+        "decision": false,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "What are the signs of heat exhaustion?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What are the warning signs of heat stroke?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What should you do while waiting for help?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Who is most at risk in the Lufkin heat?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How do you prevent heat illness?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When should you go to the ER for heat illness?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6992,
+    "title": "Panic Attack vs. Heart Attack: How to Tell the Difference",
+    "have": 0,
+    "need": 5,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Does a Panic Attack Feel Like?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Does a Heart Attack Feel Like?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which Symptoms Overlap Between the Two?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which Symptoms Point to Your Heart and Not Anxiety?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Do Doctors Tell the Difference?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Should Chest Symptoms Go to the ER?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "You Don't Have to Figure This Out Alone",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7037,
+    "title": "Broken Rib Symptoms: How to Tell and Why Wrapping Is Dangerous",
+    "have": 0,
+    "need": 5,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What does a broken rib feel like?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Broken rib or bruised rib: how can you tell?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Why should you never wrap a broken rib?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How do doctors diagnose a rib fracture?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which rib injury complications are dangerous?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does a rib injury need the ER?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We are here to help you breathe easier",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5153,
+    "title": "Back Pain: Causes, Relief, and When to See a Doctor",
+    "have": 0,
+    "need": 4,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Causes Back Pain?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How to Relieve Back Pain",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Tell If Your Back Pain is Serious",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Do I Know If My Back Pain is Internal or Muscular?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Not to Do in Lower Back Pain",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Prevention Tips: Protecting Your Back",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Take the First Step Toward a Pain-Free Back",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5209,
+    "title": "COVID Testing: What You Need to Know Today",
+    "have": 0,
+    "need": 4,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "How Soon Should You Test for COVID if You Have Symptoms?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Can You Still Get a Free COVID Test in Washington State?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Is There a Current Test for COVID?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Can I Get a COVID Test at CVS?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Protect Yourself and Others",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5261,
+    "title": "Animal Bites: First Aid, Infection Signs, and When to Get Emergency Care",
+    "have": 0,
+    "need": 4,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What Are Animal Bites?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Animal Bites Occur: Common Scenarios",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Risks of Animal Bites: When to Worry",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What to Do After an Animal Bite: First Aid",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Prevention: How to Avoid Animal Bites",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Animal Bites and Zoonotic Diseases",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Emergency Care for Animal Bites",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Get Emergency Care for Animal Bites at ER of Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5550,
+    "title": "Hypertension Crisis: 180/120 Symptoms, When to Call 911, and Emergency Treatment",
+    "have": 0,
+    "need": 4,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "Why a Blood Pressure of 180/120 Is a Medical Emergency",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "What Is a Hypertension Crisis?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Call 911 for High Blood Pressure",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Happens at the ER for a Hypertension Crisis",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "After Stabilization: Preventing the Next Crisis",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Hypertensive Urgency vs Hypertensive Emergency: Key Differences",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Special Situations: Stroke, Aortic Dissection, and Pregnancy",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Managing Your Blood Pressure at the FIFA World Cup 2026 in Texas",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Tips for Enjoying the World Cup Safely with High Blood Pressure",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Get Emergency Care for Hypertension Crisis at the ER of Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5565,
+    "title": "Fast or Irregular Pulse (Arrhythmia): A Patient Guide to Symptoms, Causes, and Emergency Care",
+    "have": 0,
+    "need": 4,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "What Counts as \"Fast\" or \"Irregular\"?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why a Fast or Irregular Pulse Matters",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Types of Fast or Irregular Rhythms",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Causes a Fast or Irregular Pulse?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Symptoms: When to Worry",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Clinicians Evaluate a Fast or Irregular Pulse",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment: From Lifestyle Steps to Advanced Therapies",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Living Well With an Arrhythmia",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Care: A Simple Triage",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Get Emergency Care for Arrhythmia at ER of Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5652,
+    "title": "ER vs. Urgent Care: How to Make the Right Choice for Your Health in Lufkin",
+    "have": 0,
+    "need": 4,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "How Do I Tell If I Should Go to the ER or Urgent Care? The Core Difference",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Should You Go to the ER? Signs of a True Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Use Urgent Care: The \"In-Between\" Medical Needs",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Can the ER Do That Urgent Care Can't? Understanding the Limitations",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "A Quick-Reference Chart: ER vs. Urgent Care",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Get the Right Care, Right When You Need It",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5655,
+    "title": "What\u2019s Considered a Medical Emergency? 7 Signs You Need the ER",
+    "have": 0,
+    "need": 4,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "When Every Second Counts",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Exactly Is a Medical Emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "7 Signs You Should Go to the ER Immediately",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Other Conditions That Need Urgent Medical Attention",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When Children Need the ER (Pediatric Emergencies)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Choose Urgent Care Instead",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect at the ER",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Preventing Emergencies Before They Happen",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Don't Wait, Act Fast",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5727,
+    "title": "First Aid for Burns: What to Do at Home vs. When to Go to the ER",
+    "have": 0,
+    "need": 4,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "The First Step: Quickly \"Read\" Your Burn",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Treat a Minor Burn at Home (And Feel Better, Fast)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Go to the ER: The Red Flags for a Serious Burn",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Call Your Doctor (Even for a \"Minor\" Burn)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Burned? Cool it, then come in.",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6050,
+    "title": "Telltale Signs of a Heart Attack (And Atypical Signs in Women)",
+    "have": 0,
+    "need": 4,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "What Actually Happens During a Heart Attack?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Classic Heart Attack Symptoms Everyone Should Know",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Atypical Heart Attack Symptoms in Women",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why Women Often Miss These Warning Signs",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Call 911: Emergency Symptoms You Should Never Ignore",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Risk Factors for Heart Disease, Especially in Women",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How Men\u2019s and Women\u2019s Heart Attack Symptoms Differ",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What To Do If You Suspect a Heart Attack",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How to Protect Your Heart: Prevention That Works",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Experiencing Heart Attack Symptoms?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6054,
+    "title": "How to Handle Pink Eye (Conjunctivitis): A Complete Guide for Patients",
+    "have": 0,
+    "need": 4,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Exactly Is Pink Eye (Conjunctivitis)?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Main Causes of Pink Eye",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Signs and Symptoms of Pink Eye",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Is Pink Eye Contagious?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Handle Pink Eye at Home (Expert-Backed Tips)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Medical Treatments for Pink Eye",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When Should You See a Doctor? (Important Warning Signs)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Warm, Reassuring, Patient-Centered",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6064,
+    "title": "Persistent Cough: When to Go to the ER vs Urgent Care",
+    "have": 0,
+    "need": 4,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What Counts as a \"Persistent\" Cough?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Persistent Cough: 3-Tier Decision Framework (Home, Urgent Care, ER)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Red Flags That Mean ER Now, Not Urgent Care",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Urgent Care or Your PCP Is Enough",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What to Bring to Any Care Visit",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Help Prevent Persistent Coughs",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How ER of Lufkin Evaluates a Persistent Cough",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When in Doubt, Get Checked",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Get Fast, Expert Care When You Need It Most",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6865,
+    "title": "Hantavirus: What East Texas Families Should Know About Symptoms and When to Seek Emergency Care",
+    "have": 0,
+    "need": 4,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Is Hantavirus?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Does Hantavirus Spread?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Hantavirus Symptoms: What to Watch For",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Seek Emergency Care for Hantavirus Symptoms",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Prevent Hantavirus Exposure",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "ER of Lufkin: 24/7 Emergency Care When Every Minute Matters",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Can I get Hantavirus from a dog or a cat?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      }
+    ]
+  },
+  {
+    "id": 6997,
+    "title": "Fainting: Common Causes and When Passing Out Is Serious",
+    "have": 0,
+    "need": 4,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What Causes Fainting?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Is Vasovagal Syncope?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Warning Signs Come Right Before Fainting?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which Fainting Episodes Point to a Heart Problem?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Tests Find the Cause of Fainting?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Does Fainting Need Emergency Care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7041,
+    "title": "Migraine That Will Not Go Away: Causes and Treatment That Works",
+    "have": 0,
+    "need": 4,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why will my migraine not go away?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What is status migrainosus?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What home treatment can still help?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which headache red flags are never a migraine?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What can the ER do that pills cannot?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does a long migraine need emergency care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We are here whenever this stops feeling normal",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7118,
+    "title": "Ear Infection in Adults: Symptoms and When Ear Pain Needs a Doctor",
+    "have": 0,
+    "need": 4,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Causes Ear Infections in Adults?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Is the Difference Between a Middle Ear Infection and Swimmer's Ear?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Helps Ear Pain at Home?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which Symptoms Mean the Infection Is Spreading?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Can an Untreated Ear Infection Become Dangerous?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Does Ear Pain Need Same-Day Care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Find Fast, Compassionate Relief Today",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 4393,
+    "title": "Sore Throat: Causes, Treatment, and Remedies Explained",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What is a Sore Throat?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Causes a Sore Throat?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How Long Does a Sore Throat Last?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Relieve a Sore Throat",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What is the Fastest Way to Cure a Sore Throat?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Should You Seek Medical Attention for a Sore Throat?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Need Relief from a Sore Throat?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 4544,
+    "title": "Head Injuries: Types, Severity, Red Flags, and When to Call 911",
+    "have": 0,
+    "need": 3,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What Counts as a Head Injury? Mild to Severe",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Types of Head Injuries: Concussion, Contusion, Hematoma, Skull Fracture",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Symptoms by Severity: Mild, Moderate, Severe",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Red Flag Symptoms: When a Head Injury Becomes an Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Head Injuries in Children: Why Thresholds Differ",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Call 911 vs Same-Day Doctor for Head Injuries",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Preventing Head Injuries",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Recovery and Follow-Up Care",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5441,
+    "title": "Neurological Disorders",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What counts as a neurological disorder?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Symptoms: when to watch, when to act",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How neurological conditions are evaluated",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment paths you\u2019ll hear about",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Everyday safety and self-management",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Special populations &amp; settings",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to seek help and what to expect",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5539,
+    "title": "Dermatological Disorders: Causes, Symptoms, and When to Seek Care",
+    "have": 0,
+    "need": 3,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What counts as a dermatological disorder? (quick overview)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Signs &amp; symptoms you shouldn\u2019t ignore",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What causes skin problems?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How dermatology clinicians make a diagnosis",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Evidence-based treatment options",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Prevention that actually works",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Living well with a chronic skin condition",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Feel better in your own skin",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5585,
+    "title": "Urinary & Kidney Emergencies: Fast Answers When Minutes Matter",
+    "have": 0,
+    "need": 3,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What counts as a urinary or kidney emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Common kidney emergency scenarios (and how they show up)",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What happens during urgent evaluation",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment pathways (the short version)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to call 911 vs urgent care vs same-day clinic",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Talking to patients about prevention (brief and practical)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Special situations to handle with extra care",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Worried about a urinary or kidney emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5689,
+    "title": "When to Take Your Child to the ER vs. Urgent Care: A Parent\u2019s Guide",
+    "have": 0,
+    "need": 3,
+    "sections": 5,
+    "detail": [
+      {
+        "heading": "What\u2019s the Real Difference? ER vs. Urgent Care vs. Your Pediatrician",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Go to the ER: When to Take Your Child for Emergency Care",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Go to Urgent Care: When Your Child Needs Care Soon",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What About...? Head Bumps, Fevers, and When You're Just Not Sure",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5734,
+    "title": "&#8220;I Think I Broke My Wrist&#8221;: Symptoms of a Common Fracture (And What to Do Next)",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Is It a Broken Wrist or a Bad Sprain? Key Symptoms You Can't Ignore",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Not All Wrist Fractures Are the Same: The 2 Most Common Types",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Why \"Waiting It Out\" Is a Bad Idea",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What to Do Right Now: Your 3-Step Action Plan",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Your Path to Healing: What to Expect at the Doctor's Office",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "You're Not Alone in This: We Can Help",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5747,
+    "title": "When to Worry About a Puncture Wound (e.g., Stepping on a Nail)",
+    "have": 0,
+    "need": 3,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "What counts as a puncture wound (and why it\u2019s different from a cut)",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "First aid: what to do in the first 15 minutes",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to worry (and seek medical care)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Tetanus: what to know after a puncture",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "Why do punctures through shoes get special attention?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What clinicians may do during your visit?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What normal healing looks like (and timelines)",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Home care after you\u2019ve been seen",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Practical prevention (you\u2019ll actually use)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Hurt Your Foot? Stepped on a Nail?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5755,
+    "title": "&#8220;My Child Hit Their Head&#8221;: A Parent&#8217;s Guide on When to Go to the ER",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "First, Take a Breath: What to Do in the First 60 Seconds",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "The \"Go to the ER Now\" Checklist: Signs of a Serious Head Injury",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "The Baby &amp; Toddler Watchlist: When They Can't Tell You What's Wrong",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to Call Your Doctor: Signs of a Mild Head Injury (Like a Concussion)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Home Care for a Mild Bump: The \"Watch and Wait\" Approach",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When in Doubt, We\u2019re Here to Help",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6209,
+    "title": "What is Appendicitis? Early Warning Signs You Can't Ignore",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What is Appendicitis?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Early Warning Signs of Appendicitis",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Should You Seek Help?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Complications of Untreated Appendicitis",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How is Appendicitis Diagnosed?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Treatment Options for Appendicitis",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Experiencing Abdominal Pain or Other Symptoms of Appendicitis?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      }
+    ]
+  },
+  {
+    "id": 6217,
+    "title": "Abdominal Pain by Side: Right, Left, Both, and When to Call 911",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Right-Sided Abdominal Pain: When to Be Concerned",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Left-Sided Abdominal Pain: What It Often Means",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Pain on Both Sides: What That Combination Means",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Symptoms That Should Never Be Ignored",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Abdominal Pain in Children, Older Adults, and Pregnancy",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "When to Call a Doctor vs. When to Go to the ER",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6383,
+    "title": "Signs of a Kidney Stone: What to Expect and How We Treat It",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Are Kidney Stones?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Early Signs and Symptoms of Kidney Stones",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Should You Seek Medical Attention?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment Options for Kidney Stones",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Preventing Kidney Stones: How to Lower Your Risk",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect During Recovery",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Immediate Relief for Kidney Stones",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6483,
+    "title": "What to Do for an Insect Sting: A Guide to Bees, Wasps, and Fire Ants",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Recognizing the Sting: Is it a Bee, Wasp, or Fire Ant?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Immediate First Aid: Steps to Take Right Away",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Managing Pain and Swelling at Home",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to Worry: Normal Reactions vs. Allergic Reactions",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why You Should Visit Urgent Care for an Insect Sting",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Bee, Wasp, or Fire Ant Sting: Quick Relief + When to Get Checked",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6494,
+    "title": "What to Expect When You Get an X-Ray at Our Lufkin Facility",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Exactly is an X-Ray?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why Might You Need an X-Ray?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Preparing for Your Visit to Our Lufkin Facility",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The X-Ray Procedure: Step-by-Step",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "A Note on Safety and Radiation",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "After the Exam: Understanding Your Results",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Need an X-ray? Get it Done Today!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6599,
+    "title": "Allergy Season in Lufkin: A Survival Guide",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Understanding the Lufkin Pollen Calendar",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Recognizing Your Symptoms: Is It Allergies or a Cold?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Practical Steps to Reduce Pollen Exposure at Home",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment Options: From OTC to Professional Care",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Urgent Medical Attention",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Fight Seasonal Allergies in Lufkin - Get Relief Today!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6615,
+    "title": "Serious Signs of RSV in Infants: When to Go to the ER",
+    "have": 0,
+    "need": 3,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What Is RSV and Why Are Babies at Higher Risk?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Early Signs of RSV in Infants",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why RSV Is Different from a Common Cold",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Recognizing Respiratory Distress in Babies",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Oxygen Monitoring for Infants",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "RSV vs. Croup: Key Differences",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Emergency Care for RSV",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How RSV Is Diagnosed and Treated",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Protecting Your Baby from RSV",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Compassionate Care When You Need It Most",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6642,
+    "title": "Complete Febrile Seizure Care: How to Safely Protect Your Child",
+    "have": 0,
+    "need": 3,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Why Fever Spikes Cause Seizures",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Recognizing a Febrile Seizure",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Immediate Steps During a Child\u2019s Convulsion",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When a Seizure Requires an ER Visit",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Is Your Child Having a Medical Emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6663,
+    "title": "Abscess vs. Cellulitis: When a Skin Infection Needs Drainage",
+    "have": 0,
+    "need": 3,
+    "sections": 13,
+    "detail": [
+      {
+        "heading": "Key Takeaways",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Cellulitis vs Abscess at a Glance",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Cellulitis: The Spreading Redness",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Abscess: The Painful, Contained Lump",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Cellulitis vs Erysipelas: A Quick Note",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Identifying a Staph or MRSA Infection",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Red Streaks Mean the Infection Is Spreading",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Emergency Incision and Drainage (I&amp;D)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Who Is at Higher Risk for Skin Infections?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "First Aid: What to Do (and Not Do) Before You Are Seen",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Visit Urgent Care or the ER",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Don't Wait for a Skin Infection to Spread",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6862,
+    "title": "Stadium Snacks and New Foods: Recognizing Severe Allergic Reactions",
+    "have": 0,
+    "need": 3,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "The Hidden Risks: Why Stadium Snacks and New Foods Pose a Threat",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Recognizing the Signs: Is it a Mild Reaction or Anaphylaxis?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Immediate Steps to Take During a Food Allergy Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "ER vs. Urgent Care: Why Anaphylaxis Requires an Emergency Room",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Proactive Tips for Food-Allergic Fans and Travelers",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Don\u2019t Let a Food Allergy Bench You: Get Expert Care Fast",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7006,
+    "title": "Asthma Attack Without an Inhaler: What to Do Right Now",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What are the first signs an asthma attack is starting?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What should you do without an inhaler nearby?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which positions and breathing techniques help?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What makes an asthma attack worse?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Which back-to-school triggers should parents know?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does an asthma attack need the ER?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "We're Here, and You Don't Need an Appointment",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7047,
+    "title": "Carbon Monoxide Poisoning: Symptoms Every Texas Home Should Know",
+    "have": 0,
+    "need": 3,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What are the first symptoms of carbon monoxide poisoning?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why does CO poisoning mimic the flu?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Where does CO risk hide during generator and storm season?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Who is most at risk in the home?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What should you do the moment you suspect CO?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does CO exposure need emergency care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Simple steps that protect your home all year",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We are here for your family, day or night",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7053,
+    "title": "Copperhead Bite: First Aid Steps and When to Get Emergency Care",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What does a copperhead bite look like?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How dangerous is a copperhead bite?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What should you do right after a copperhead bite?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What should you never do for a snake bite?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How is a copperhead bite treated at the ER?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does a snake bite need emergency care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We are here whenever this happens",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7066,
+    "title": "Spider Bites in Texas: Brown Recluse and Black Widow Warning Signs",
+    "have": 0,
+    "need": 3,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Does a Brown Recluse Bite Look Like Day by Day?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Does a Black Widow Bite Feel Like?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Which Texas Spiders Are Actually Dangerous?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Do You Treat a Spider Bite at Home?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Are the Signs a Spider Bite Is Infected?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Does a Spider Bite Need Emergency Care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We Are Open 24/7, No Appointment Needed",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 4484,
+    "title": "Why Diagnostic Imaging Matters Today",
+    "have": 0,
+    "need": 2,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What Is Diagnostic Imaging?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Are the Main Types of Diagnostic Imaging?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Is Diagnostic Imaging the Same as a CT Scan?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Is the Highest Paying Medical Imaging Job?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Risks and Safety in Diagnostic Imaging",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Take the Next Step With ER of Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5176,
+    "title": "Dehydration Treatment: How to Rehydrate Safely and Quickly",
+    "have": 0,
+    "need": 2,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What Is the Best Remedy for Dehydration?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Is the Fastest Way to Hydrate Your Body?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Not to Eat When Dehydrated",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Does Dehydration Cause Diarrhea?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Staying Hydrated at the FIFA World Cup 2026 in Texas",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Take Care of Your Hydration Health",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5302,
+    "title": "Understanding High Fever and Its Impact on Health",
+    "have": 0,
+    "need": 2,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What is a high fever?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When Should You Be Concerned About a High Fever?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Care for a High Fever at Home",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Medical Interventions for High Fever",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Preventing High Fever and Its Causes",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Get Immediate Care for High Fever",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5445,
+    "title": "Orthopedic Injuries: A Friendly, Evidence-Based Guide to Prevention, Treatment, and Recovery",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Counts as an Orthopedic Injury?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Sprains vs. Strains vs. Fractures (The \u201cBig Three\u201d)",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Clinicians Diagnose These Injuries",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment Pathways: What Recovery Really Looks Like",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Prevention That Works On the Field and On the Job",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Special Considerations",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Get Expert Orthopedic Care",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5697,
+    "title": "Do I Need an X-ray for This Injury? When to Get It Checked",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Exactly Is an X-ray and Why Is It Important for Injury Diagnosis?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Signs You May Need an X-ray",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Is an X-ray Not Necessary?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Happens During an X-ray Appointment?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What to Expect After Your X-ray",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Know When You Should Seek Medical Attention for an Injury",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Not Sure If You Need an X-ray? Let Us Help at the ER of Lufkin",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5718,
+    "title": "5 Signs Your Cut is Infected (And When to See a Doctor)",
+    "have": 0,
+    "need": 2,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Before You Check: First Aid for Any Cut",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "The 5-Point Guide: How to Know if You Need Stitches",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "\"I Think I Need Stitches.\" What Should I Do Now?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What Happens If You Don't Get Stitches When You Need Them?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Cut looks deep or won\u2019t stop bleeding?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5723,
+    "title": "Sprained Ankle vs. Broken Ankle: How to Tell the Difference",
+    "have": 0,
+    "need": 2,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "The Core Difference: What's Actually Injured?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Key Signs to Look For: A Symptom-by-Symptom Comparison",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to See a Doctor Immediately (The Non-Negotiables)",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "You Are Our Priority: How We Diagnose and Treat Ankle Injuries",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Can\u2019t Bear Weight / Severe Swelling",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5766,
+    "title": "Signs of Whiplash and Why You Shouldn\u2019t Wait for Treatment",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Is Whiplash?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Signs and Symptoms of Whiplash",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why You Shouldn\u2019t Wait for Treatment",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect During a Whiplash Evaluation",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Healing and Recovery: What You Can Do at Home",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Risks of \u201cToughing It Out\u201d",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Don\u2019t Ignore Whiplash: Get Checked Today",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6205,
+    "title": "&#8220;My Chest Hurts&#8221;: Exploring the Common Non-Cardiac Reasons for Chest Pain",
+    "have": 0,
+    "need": 2,
+    "sections": 18,
+    "detail": [
+      {
+        "heading": "1. Gastroesophageal Reflux Disease (GERD)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "2. Esophageal Spasm and Motility Disorders",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "3. Esophagitis (Inflammation of the Esophagus)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "4. Functional Esophageal Pain (Hypersensitivity)",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "1. Costochondritis",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "2. Muscle Strain or Overuse",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "3. Rib Injury or Bruising",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "1. Pleurisy (Inflammation of the Lung Lining)",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "2. Asthma or Airway Tightening",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "3. Respiratory Infections (e.g., Pneumonia)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When Chest Pain Is an Emergency: Symptoms You Should Never Ignore",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Doctors Diagnose Non-Cardiac Chest Pain",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "GI-Related Chest Pain",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Musculoskeletal Pain",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Anxiety-Related Chest Pain",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Respiratory Causes",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Living With Non-Cardiac Chest Pain: Practical Prevention Tips",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6396,
+    "title": "What to Do for Vomiting and Diarrhea That Won't Stop",
+    "have": 0,
+    "need": 2,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Understanding Vomiting and Diarrhea",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What to Do When Vomiting and Diarrhea Won\u2019t Stop",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When Should You Seek Medical Attention?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Prevention: How to Avoid Future Episodes of Vomiting and Diarrhea",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Need Relief from Vomiting and Diarrhea? Book a Consultation Today!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6400,
+    "title": "When is Dizziness or Vertigo an Emergency?",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Are Dizziness and Vertigo?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Causes of Dizziness and Vertigo",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When Should Dizziness or Vertigo Be Considered an Emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Diagnostic Tests and Treatment for Dizziness and Vertigo",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How to Manage and Prevent Dizziness and Vertigo at Home",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Seek Professional Help",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Act Fast: When Dizziness or Vertigo Becomes an Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6479,
+    "title": "Signs of Severe Dehydration: When It\u2019s Time for Professional Care",
+    "have": 0,
+    "need": 2,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What is Dehydration?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Recognizing the Progression: Mild vs. Moderate",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Signs of Severe Dehydration: When It Becomes an Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Dehydration in Vulnerable Groups",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Why Water Isn't Always Enough: The Need for IV Fluids",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When to Head to Urgent Care or the ER",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Prevention: Staying Ahead of the Thirst",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Staying Hydrated for World Cup 2026 in the Texas Heat",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Severe Dehydration Can Turn Fast. Get Checked Today",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6489,
+    "title": "&#8220;I Touched Poison Ivy&#8221;: How to Treat the Rash and When to Get Help",
+    "have": 0,
+    "need": 2,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What Actually Happens When You Touch Poison Ivy?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Immediate First Aid: What to Do in the First 30 Minutes",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Identifying the Poison Ivy Rash: What Does it Look Like?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "At-Home Treatments for Relief",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "The \"Don\u2019ts\" of Poison Ivy Care",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to See a Doctor: Signs of a Severe Reaction",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When is Poison Ivy a Medical Emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "When You Touch Poison Ivy, Immediate Action Can Make a Difference",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6521,
+    "title": "What Is an EKG, and Why Would I Need One?",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Exactly Is an EKG?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why Would I Need an EKG?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What Happens During the Test?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Can an EKG Detect?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Understanding Your Results",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Urgent Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Take Control of Your Heart Health: Schedule an EKG Today!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6611,
+    "title": "Orthopnea (Difficulty Breathing When Lying Down): Causes, Position Clues, and When to Call 911",
+    "have": 0,
+    "need": 2,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What Is Orthopnea? Why Lying Down Makes Breathing Harder",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Heart Failure vs Pleural Effusion: How to Tell the Difference",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Pleural Effusion: The Most Common Cause Searched With Orthopnea",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Ascites and Orthopnea: When Abdominal Pressure Affects Breathing",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Side-Specific Breathlessness: Left, Right, and Back",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Other Causes of Orthopnea: Pneumonia, COPD, Asthma, Anxiety",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "Emergency Treatments for Acute Distress",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Long-Term Management: After the ER Visit",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "When to Call 911 vs See Your Doctor for Orthopnea",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6620,
+    "title": "Coughing Up Blood (Hemoptysis): Causes, Volume Thresholds, and When to Call 911",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Is Hemoptysis? Coughing Up Blood Explained",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Common Causes of Hemoptysis: From Bronchitis to Lung Cancer",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Massive vs Scant Hemoptysis: Why Volume Matters",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Lung Blood vs Nose, Mouth, or Stomach: How to Tell",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How the ER Diagnoses Hemoptysis",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Call 911 vs See Your Doctor for Coughing Up Blood",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Treatment Pathway: Stop the Bleeding, Then Treat the Cause",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6625,
+    "title": "Left Arm Pain with Chest Pressure: When to Call 911 vs See a Doctor",
+    "have": 0,
+    "need": 2,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Why Arm Pain Is Linked to the Heart",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Heart Attack Pressure Feels: Patient Descriptions",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Left vs Right Arm Pain: Why the Side Matters",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Difference Between Muscle Strain and Cardiac Pain",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Time-Course: Sudden Onset vs Gradual Build",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Call 911 vs See Your Doctor",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6646,
+    "title": "Toddler Swallowed a Small Object: Choking and Blockage",
+    "have": 0,
+    "need": 2,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "Identifying Signs of an Internal Obstruction",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "The Danger of Button Batteries and Magnets",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Use the Heimlich Maneuver",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Diagnosing the Issue at the Clinic",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Prevention and Peace of Mind",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Fast, Expert Pediatric Emergency Care in Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6660,
+    "title": "Sepsis Red Flags: Recognizing the \"Silent Killer\"",
+    "have": 0,
+    "need": 2,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "Stages of Sepsis: From Sepsis to Septic Shock",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The \"Sepsis Six\" Symptoms to Watch For",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why Every Hour Matters in Sepsis Treatment",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How Doctors Diagnose Sepsis",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Who is Most at Risk?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Common Infections That Lead to Sepsis",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What to Do If You Suspect Sepsis",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Recovery and Post-Sepsis Syndrome",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Don't Wait. Sepsis is a Medical Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6919,
+    "title": "Pain on Both Sides of Your Stomach: What It Means and When It's an Emergency",
+    "have": 0,
+    "need": 2,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What causes pain on both sides of the stomach at once?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How can you tell if the pain is coming from your kidneys?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Is it your muscles or your organs?",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "Why does the pain move from one side to the other?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Can pancreatitis cause pain on both sides?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When is pain on both sides of the stomach an emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How the ER finds the cause fast",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Severe abdominal pain? Walk into the ER of Lufkin 24/7",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7018,
+    "title": "Nosebleed That Will Not Stop: Causes and When It Is an Emergency",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Will My Nosebleed Not Stop?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Do You Stop a Nosebleed the Right Way?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "What Mistakes Make a Nosebleed Worse?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Do Blood Thinners Cause Nosebleeds That Will Not Stop?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Long Is Too Long for a Nosebleed?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Does a Nosebleed Need the ER?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We're Here When a Nosebleed Won't Stop",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7032,
+    "title": "Croup Cough: Why It Sounds Like a Bark and When It Is Serious",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What does a croup cough sound like?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What causes croup?",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "How long does croup last?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Is croup contagious?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What helps croup at home tonight?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "When does croup need emergency care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We're Here Any Hour of the Night",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7050,
+    "title": "Hand, Foot, and Mouth Disease: Stages, Contagious Period, and When to Worry",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What are the stages of hand, foot, and mouth disease?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why does hand, foot, and mouth disease look like a common cold at first?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How long is hand, foot, and mouth disease contagious?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Who is most at risk of hand, foot, and mouth disease?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What can you do at home during each stage?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When should you worry about hand, foot, and mouth disease?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "You do not have to guess on your own",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7062,
+    "title": "Gout Attack: Why the Pain Is So Bad and What Helps Fast",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What does a gout attack feel like?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What triggers a gout attack?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How long does a gout attack last?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What helps gout pain right now?",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Why can a hot swollen joint be urgent?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does joint pain need same-day care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We Can Help You Get Relief Today",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7122,
+    "title": "Strangulated Hernia: Signs a Hernia Has Become an Emergency",
+    "have": 0,
+    "need": 2,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What is a strangulated hernia?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What is the difference between a normal hernia ache and danger signs?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "What does an incarcerated hernia mean?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why is a strangulated hernia a surgical emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How do doctors check a painful hernia?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does a hernia need the ER right now?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We are here when every minute counts",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5430,
+    "title": "Why Understanding Trauma and Accidents Is Crucial",
+    "have": 0,
+    "need": 1,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What Is Trauma? Understanding Its Impact on Your Life",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Common Types of Accidents and Their Consequences",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Trauma-Informed Care: Why It Matters",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "The Emotional and Psychological Effects of Accidents and Trauma",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Prevention and Awareness: Reducing the Risk of Trauma and Accidents",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What to Do After an Accident: Immediate Steps to Take",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Cope with Trauma: Recovery and Healing",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Take the Next Step Toward Healing",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5435,
+    "title": "Respiratory Illnesses: Symptoms, Testing, Prevention, and When to Seek Care",
+    "have": 0,
+    "need": 1,
+    "sections": 11,
+    "detail": [
+      {
+        "heading": "What counts as a \u201crespiratory illness\u201d? (Upper vs. lower; acute vs. chronic)",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common respiratory illnesses (skimmable quick guides)",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How these illnesses spread and what raises risk",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Symptoms: what\u2019s typical and what\u2019s a red flag",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Testing and diagnosis: what to expect",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Treatment and self-care: what actually helps",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Prevention that works (vaccines + air + habits)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Seasonality, surges, and planning ahead",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Special populations: extra care, extra clarity",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Breathe Easier: Get Same-Day Respiratory Care",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5521,
+    "title": "Sports Injuries: Causes, Prevention, Treatment, and a Safe Return-to-Play",
+    "have": 0,
+    "need": 1,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What Counts as a \u201cSports Injury\u201d?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why Sports Injuries Happen (And How to Lower Your Risk)",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Concussion in Sports: Recognize, Remove, Refer",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "Treatment Pathways: From First Aid to Full Function",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Prevention That Actually Works",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Measuring the Problem (and Improving Safety)",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Safe Return-to-Play: How to Know You\u2019re Ready",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to See a Specialist",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Complete Sports Injury Care",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5561,
+    "title": "Stroke Evaluation and Treatment: Fast, Coordinated Care Saves Brain",
+    "have": 0,
+    "need": 1,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "What counts as a stroke and why time is everything",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The first hour in the ED: how stroke is evaluated",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Acute ischemic stroke treatments: windows, workflows, and what to expect",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "If it\u2019s a hemorrhagic stroke: priorities change",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "TIA is an emergency too",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Hospital course: preventing complications and planning what\u2019s next",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What patients and families can expect: a simple timeline",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Special situations &amp; safety",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Worried about stroke? Get to the ER of Lufkin fast.",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5595,
+    "title": "Gastrointestinal Care: Comprehensive Insights for Maintaining Digestive Health",
+    "have": 0,
+    "need": 1,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What is Gastrointestinal Health and Why Is It So Important?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Gastrointestinal Disorders",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Food Poisoning: A Common but Often Preventable Gastrointestinal Issue",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Appendicitis: A Life-Threatening Emergency",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Understanding Symptoms of Gastrointestinal Disorders",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Maintaining a Healthy Gastrointestinal System",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Should You Seek Medical Help?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Prioritize Your Digestive Health Today",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5604,
+    "title": "Poisoning and Overdose: Symptoms, Treatment, and When to Seek Emergency Care",
+    "have": 0,
+    "need": 1,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What is Poisoning and Overdose?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How Poisoning and Overdose Happen",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Signs and Symptoms of Poisoning and Overdose",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "How to Respond to Poisoning or Overdose",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Prevention of Poisoning and Overdose",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Learn More About Overdose Prevention",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5628,
+    "title": "Pediatric Care: Essential for Your Child's Health and Development",
+    "have": 0,
+    "need": 1,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "What Is Pediatric Care?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Key Components of Pediatric Care",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Role of a Pediatrician in Your Child's Health Journey",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Pediatric Health Concerns",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How to Choose the Right Pediatrician for Your Child",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Pediatric Care at Different Stages of Development",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why Preventive Care is Key in Pediatric Health",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Give Your Child the Care They Deserve",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5742,
+    "title": "How to Remove a Fish Hook Safely: First Aid, Aftercare, and ER Care",
+    "have": 0,
+    "need": 1,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "First Things First: Stay Calm, Stabilize, and Think Safety",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Know Your Hook: Barbless, Barbed, and Treble",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "DIY Removal: When It's Reasonable (and When It Isn't)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Proven Techniques (Explained Simply)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Aftercare: Clean, Watch for Infection, and Protect",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Special Situations: Hands, Feet, Eyes, and Saltwater",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to Come to the ER for a Fish Hook Injury",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Get Fish Hook Care at ER of Lufkin",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5751,
+    "title": "5 Signs of a Concussion You Shouldn\u2019t Ignore After a Fall",
+    "have": 0,
+    "need": 1,
+    "sections": 10,
+    "detail": [
+      {
+        "heading": "Understanding a Concussion After a Fall",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "1. Persistent or Worsening Headache",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "2. Feeling \u201cFoggy,\u201d Confused, or Slower Than Usual",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "3. Dizziness, Balance Problems, or Blurred Vision",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "4. Nausea, Vomiting, or Sensitivity to Light and Sound",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "5. Changes in Sleep, Mood, or Energy",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Medical Attention",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Recovery and Prevention Tips",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Think You Have a Concussion? We\u2019re Here 24/7.",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6475,
+    "title": "When Is an Allergic Reaction an Emergency? (Understanding Anaphylaxis)",
+    "have": 0,
+    "need": 1,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What Exactly is Anaphylaxis?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Is It Just an Allergy or an Emergency?",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "The \"Red Flag\" Symptoms: When to Call 911",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Triggers for Severe Reactions",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "The Biphasic Reaction: Why You Can\u2019t Relax Too Soon",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Immediate Action Steps: What to Do",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Don\u2019t Wait for Severe Allergy Symptoms",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6499,
+    "title": "What can a CT Scan Diagnose? A Patient's Guide",
+    "have": 0,
+    "need": 1,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What is a CT Scan and How Does It Work?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Why Your Doctor Chose a CT Over an MRI",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Conditions Diagnosed by a CT Scan",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Identifying Blood Clots and Cardiovascular Issues",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect During Your CT Scan Appointment",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Are CT Scans Safe? Understanding Radiation and Risks",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Seconds Count, Get the Answers You Need",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6518,
+    "title": "How Is an Ultrasound Used in the Emergency Room?",
+    "have": 0,
+    "need": 1,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "What Exactly is an Emergency Ultrasound?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Reasons You Might Need an Ultrasound in the ER",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "The Benefits: Why Doctors Choose Ultrasound",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect During the Procedure",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Experience Rapid Diagnosis with ER Ultrasound: Learn How It Saves Lives!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6524,
+    "title": "How to Build a \"Go-Bag\" for an Unexpected ER Visit",
+    "have": 0,
+    "need": 1,
+    "sections": 4,
+    "detail": [
+      {
+        "heading": "Why You Need an ER Go-Bag Today",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Where to Keep Your Go-Bag for Quick Access",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Prepare for the Unexpected: Start Building Your ER Go-Bag Today!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6603,
+    "title": "Workplace Injuries: What to Do and How We Can Help (Worker's Comp)",
+    "have": 0,
+    "need": 1,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Seek Medical Care Right Away",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Understanding Workers\u2019 Compensation Medical Benefits",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Common Workplace Injuries We Treat",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "How Our Clinic Supports Your Worker\u2019s Comp Journey",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Workplace Injury? Get Immediate Care and Workers' Compensation Support at the ER of Lufkin",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6629,
+    "title": "Heart Palpitations and Dizziness: Is It Just Stress or Atrial Fibrillation?",
+    "have": 0,
+    "need": 1,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "When a Racing Heart is a Dangerous Arrhythmia",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Identifying A-Fib Red Flags",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Risks of Stroke from Untreated Palpitations",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect: Diagnosis and Immediate Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Managing Your Heart Health Daily",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Take Action Now: Get the Heart Care You Need",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6650,
+    "title": "Signs of Meningitis in Kids: Stiff Neck and High Fever",
+    "have": 0,
+    "need": 1,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Understanding the Urgency of Meningitis",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Common Early Symptoms in Children and Infants",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Why a Stiff Neck is a Major Red Flag",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Identifying the \"Meningitis Rash\"",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Bacterial vs. Viral Meningitis",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Diagnosis and Hospital Care",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Prevention: The Role of Vaccinations",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6657,
+    "title": "Dehydration Symptoms in Babies: Red Flags for Parents",
+    "have": 0,
+    "need": 1,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Why Infants Dehydrate Faster than Adults",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "Identifying Sunken Soft Spots (Fontanelles)",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Rehydration Methods: Oral vs. IV",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Bringing the Little Ones to World Cup 2026? Keeping Babies Hydrated in the Texas Heat",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Does Your Baby Need Urgent Care?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6673,
+    "title": "Deep Laceration Repair: Stitches vs. Skin Glue",
+    "have": 0,
+    "need": 1,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "When a Cut Requires Professional Stitches",
+        "decision": true,
+        "visual": null,
+        "enum": "figures",
+        "candidate": true
+      },
+      {
+        "heading": "Identifying Nerve and Tendon Damage",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Stitches vs. Skin Glue: Which One Is Right for You?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Tetanus Shot Requirements After an Injury",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "Aftercare and Healing",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Don\u2019t Wait for Wound Care. Visit Our Lufkin ER Today",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7014,
+    "title": "Blood in Urine in Women: Common Causes and When It Is Serious",
+    "have": 0,
+    "need": 1,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "What causes blood in urine in women?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "What does blood in urine with no pain mean?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Is it a UTI, a kidney stone, or something else?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What do blood clots in urine mean?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How do doctors find the cause?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When does blood in urine need same-day care?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "candidate": true
+      },
+      {
+        "heading": "We're here when you need answers, not more worry",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 4644,
+    "title": "Why Laboratory Testing Matters to You",
+    "have": 0,
+    "need": 0,
+    "sections": 9,
+    "detail": [
+      {
+        "heading": "Understanding Laboratory Testing \u2013 The Basics",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "The Role of Laboratory Tests in Healthcare",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What to Expect When You\u2019re Having a Lab Test",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Understanding Your Lab Test Results",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Accuracy of Laboratory Testing: What You Need to Know",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Advancements in Laboratory Testing",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Taking the Next Step",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Book Your Lab Test Today for a Healthier Tomorrow!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5253,
+    "title": "Blood Clot Treatment: A Complete Guide to Care and Recovery",
+    "have": 0,
+    "need": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "What Is the Best Treatment for Blood Clots?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Not to Do When You Have a Blood Clot",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Will You Be Hospitalized for a Blood Clot?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Can You Do at Home for a Blood Clot?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Don\u2019t wait if you suspect a blood clot",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 5898,
+    "title": "Strep Throat vs. a Sore Throat: A Clear, Human Guide to Spotting the Difference and Knowing When to Seek Care",
+    "have": 0,
+    "need": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "1. A Captivating Introduction: Why This Topic Matters Now",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "2. The Primary Distinction: Viral vs. Bacterial Sore Throats",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "3. How to Know the Difference: Key Symptoms of Strep Throat",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "candidate": false
+      },
+      {
+        "heading": "4. The Crucial Step: Why You Need a Strep Test",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "5. Treatment and Recovery: Getting Back to Health",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Throat Pain Getting Worse? Get Checked Today.",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6200,
+    "title": "A Joyful Toys for Tots Holiday Gathering at ER of Lufkin",
+    "have": 0,
+    "need": 0,
+    "sections": 0,
+    "detail": []
+  },
+  {
+    "id": 6213,
+    "title": "Signs of a Gallbladder Attack: When to Seek Help",
+    "have": 0,
+    "need": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Common Symptoms of a Gallbladder Attack",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When to Seek Medical Attention",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Risk Factors for Gallbladder Attacks",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Treatment Options for Gallbladder Attacks",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Don\u2019t Ignore Gallbladder Symptoms",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6350,
+    "title": "ER of Lufkin: A Fresh Name, Unwavering Commitment to East Texas Emergency Care",
+    "have": 0,
+    "need": 0,
+    "sections": 0,
+    "detail": []
+  },
+  {
+    "id": 6503,
+    "title": "The Convenience of On-Site Lab Testing: Get Answers Faster",
+    "have": 0,
+    "need": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "What is On-Site Lab Testing?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Top Benefits of On-Site Lab Services for Patients",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "Common On-Site Tests You Can Get Today",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Why On-Site Labs are Vital for Emergency and Urgent Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Speed Matters, Get Tested On-Site",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6528,
+    "title": "When to Get Your Flu Shot in Lufkin (And Why It Matters)",
+    "have": 0,
+    "need": 0,
+    "sections": 6,
+    "detail": [
+      {
+        "heading": "Why Timing Your Flu Shot Matters for Lufkin Residents",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What\u2019s New for the 2025\u20132026 Flu Season?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Who Needs a Flu Shot Most?",
+        "decision": false,
+        "visual": null,
+        "enum": "figures",
+        "candidate": false
+      },
+      {
+        "heading": "Where to Get a Flu Shot in Lufkin, TX",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Get Your Flu Shot in Lufkin Today - Protect Yourself and Your Community",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6571,
+    "title": "How to Prepare Your Home First-Aid Kit: An ER Doctor's Checklist",
+    "have": 0,
+    "need": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "The Anatomy of a High-Quality Home First-Aid Kit",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Tools of the Trade: Instruments Every Home Should Have",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Special Considerations: Tailoring Your Kit for Your Family",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Storage and Maintenance: Where to Keep Your Kit",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Knowing When \"Home Care\" Isn't Enough",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "candidate": false
+      },
+      {
+        "heading": "Be Prepared for the Unexpected: Build Your Home First-Aid Kit Today!",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6595,
+    "title": "Top 5 ATV & Outdoor Injuries We See in East Texas (And How to Be Safe)",
+    "have": 0,
+    "need": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "1. ATV-Related Fractures and Orthopedic Injuries",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "2. Traumatic Brain Injuries (TBI) and Concussions",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "3. Heat-Related Illnesses: Exhaustion vs. Stroke",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "4. Snake Bites and \"Piney Woods\" Critters",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "5. Lacerations and Soft Tissue Damage",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Stay Safe, Stay Enjoying the Outdoors",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 6669,
+    "title": "Open Fracture: Why Visible Bone is a Surgical Emergency",
+    "have": 0,
+    "need": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What is an Open Fracture? Understanding the Urgency",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Immediate First Aid for Compound Fractures",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "The Role of Emergency Orthopedic Care",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Preventing Bone Infection (Osteomyelitis)",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Recovery and Long-Term Healing",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Don't Wait: Emergency Orthopedic Care in Lufkin",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  },
+  {
+    "id": 7059,
+    "title": "Dizzy When Standing Up: What Orthostatic Hypotension Means",
+    "have": 0,
+    "need": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Why Do I Get Dizzy When I Stand Up?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Is Orthostatic Hypotension?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "Which Medications and Conditions Cause It?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "How Is It Different From Vertigo?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "What Tests Check Standing Blood Pressure?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "When Does Dizziness on Standing Need a Doctor Now?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "We're Here When You Need Us",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "candidate": false
+      }
+    ]
+  }
+]

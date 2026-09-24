@@ -1,0 +1,23 @@
+{
+  "version": "0.89.5",
+  "changed_files": [
+    "cc-assistant.php",
+    "EVIDENCE.md",
+    "readme.txt",
+    "bin/agent-contract.php",
+    "bin/mcp-server.php",
+    "includes/class-apply.php",
+    "includes/class-approval-continuation.php",
+    "includes/class-evidence-gate.php",
+    "includes/class-integrity.php",
+    "includes/class-recovery.php",
+    "includes/class-rest-api.php",
+    "includes/class-rest-pending.php",
+    "tests/approval-environment-test.php",
+    "tests/approval-wordpress-runtime-test.php",
+    "tests/fixtures/safety-harness.php",
+    "admin/views/pending.php"
+  ],
+  "sha256": "3007b51c9f1a8ee04d4678ec924369c828146aaa95064e28805ed18bfde59d2d",
+  "production_installed": false
+}

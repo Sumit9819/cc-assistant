@@ -1,0 +1,526 @@
+{
+  "_note": "Batch I: 6497 BMI calculator (1,991 words, 6 cards) and 6220 sustainable weight loss (2,298 words, 8 cards). On 6497 the four risk sections are NOT carded: those are population-level risk associations the text hedges per person, and a graphic listing 'heart disease, diabetes, cancer' under a BMI band would read as a personal prognosis. The categories card carries the cut-offs only.",
+  "cards": [
+    {
+      "file": "how-bmi-is-calculated",
+      "post_id": 6497,
+      "layout": "steps",
+      "subject": "BMI",
+      "heading": "How Our BMI Calculator Works (Step by Step)",
+      "title": [
+        "How a ",
+        "BMI",
+        " Calculator Works"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "A BMI calculator takes height and weight, divides weight by height squared, then matches the result to a CDC category",
+      "steps": [
+        {
+          "icon": "clipboard-list",
+          "label": "You enter",
+          "note": "Height and weight, metric or US units"
+        },
+        {
+          "icon": "ruler-dimension-line",
+          "label": "The formula",
+          "note": "Weight divided by height squared"
+        },
+        {
+          "icon": "scale",
+          "label": "Your category",
+          "note": "Matched to the standard CDC bands"
+        }
+      ]
+    },
+    {
+      "file": "adult-bmi-categories",
+      "post_id": 6497,
+      "layout": "numbered",
+      "subject": "BMI",
+      "heading": "3. How we interpret your BMI result (adults 20+)",
+      "title": [
+        "Adult ",
+        "BMI",
+        " Categories"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Adult BMI categories: underweight under 18.5, healthy 18.5 to 25, overweight 25 to 30, obesity classes from 30 up",
+      "items": [
+        "Underweight: under 18.5",
+        "Healthy weight: 18.5 to under 25",
+        "Overweight: 25 to under 30",
+        "Obesity class 1: 30 to under 35",
+        "Obesity class 2: 35 to under 40",
+        "Obesity class 3: 40 or greater"
+      ]
+    },
+    {
+      "file": "bmi-adults-vs-children",
+      "post_id": 6497,
+      "layout": "compare",
+      "subject": "BMI",
+      "heading": "4. Adults vs. children and teens",
+      "title": [
+        "BMI",
+        " for Adults vs Children",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Adult BMI uses fixed cut-offs; for ages 2 to 19 it is read as percentiles for age and sex on a separate calculator",
+      "columns": [
+        "Adults, 20 and over",
+        "Children and teens, 2 to 19"
+      ],
+      "rows": [
+        {
+          "label": "How it is read",
+          "values": [
+            "Fixed BMI cut-offs",
+            "Percentiles for age and sex"
+          ]
+        },
+        {
+          "label": "Healthy range",
+          "values": [
+            "18.5 to under 25",
+            "5th to under 85th percentile"
+          ]
+        },
+        {
+          "label": "Which calculator",
+          "values": [
+            "The adult calculator",
+            "The child and teen calculator"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "when-bmi-is-misleading",
+      "post_id": 6497,
+      "layout": "list",
+      "subject": "BMI",
+      "heading": "The Limits of BMI (Why It’s Not the Whole Story)",
+      "title": [
+        "When ",
+        "BMI",
+        " Is Misleading"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "BMI misleads for muscular people, older adults with less muscle, different ethnic thresholds, and where fat is stored",
+      "items": [
+        {
+          "icon": "dumbbell",
+          "label": "Muscular people",
+          "note": "High BMI, low body fat"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Older adults",
+          "note": "Normal BMI, less muscle, more fat"
+        },
+        {
+          "icon": "users",
+          "label": "Different populations",
+          "note": "Risk thresholds vary between groups"
+        },
+        {
+          "icon": "ruler-dimension-line",
+          "label": "Where fat sits",
+          "note": "BMI cannot tell waist from hips"
+        }
+      ]
+    },
+    {
+      "file": "measures-beyond-bmi",
+      "post_id": 6497,
+      "layout": "icons",
+      "subject": "BMI",
+      "heading": "Other measures your provider may use",
+      "title": [
+        "What Providers Check Besides ",
+        "BMI",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Beyond BMI a provider checks waist circumference, blood pressure and labs, fitness level, and eating, sleep and mood",
+      "items": [
+        {
+          "icon": "ruler-dimension-line",
+          "label": "Waist",
+          "note": "Abdominal fat is more strongly linked to risk"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Labs",
+          "note": "Blood pressure, cholesterol, blood sugar"
+        },
+        {
+          "icon": "footprints",
+          "label": "Fitness",
+          "note": "Physical activity level"
+        },
+        {
+          "icon": "moon",
+          "label": "Daily life",
+          "note": "Eating patterns, sleep and mood"
+        }
+      ]
+    },
+    {
+      "file": "using-your-bmi-result-well",
+      "post_id": 6497,
+      "layout": "steps",
+      "subject": "BMI",
+      "heading": "How to Use Our BMI Calculator in a Healthy, Helpful Way",
+      "title": [
+        "Using Your ",
+        "BMI",
+        " Result Well"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Use a BMI result well: enter honest numbers, notice the category and your reaction, ask a professional, recheck at visits",
+      "steps": [
+        {
+          "icon": "clipboard-list",
+          "label": "Real numbers",
+          "note": "Honest height and weight"
+        },
+        {
+          "icon": "brain",
+          "label": "Notice",
+          "note": "The category, and how you feel about it"
+        },
+        {
+          "icon": "stethoscope",
+          "label": "Ask",
+          "note": "What it means for your history and labs"
+        },
+        {
+          "icon": "calendar-days",
+          "label": "Recheck",
+          "note": "At routine visits, not daily"
+        }
+      ]
+    },
+    {
+      "file": "what-healthy-weight-loss-means",
+      "post_id": 6220,
+      "layout": "icons",
+      "subject": "weight loss",
+      "heading": "What Healthy Weight Loss Actually Means",
+      "title": [
+        "What Healthy ",
+        "Weight Loss",
+        " Means"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Healthy weight loss runs 0.5 to 2 pounds a week, counts non-scale wins, and treats BMI as a screening tool only",
+      "items": [
+        {
+          "icon": "trending-down",
+          "label": "0.5 to 2 lb a week",
+          "note": "A pace most adults can hold"
+        },
+        {
+          "icon": "sparkles",
+          "label": "Beyond the scale",
+          "note": "Waist, A1C, blood pressure, stamina, sleep"
+        },
+        {
+          "icon": "scale",
+          "label": "BMI screens only",
+          "note": "It does not measure muscle or where fat sits"
+        }
+      ]
+    },
+    {
+      "file": "sustainable-weight-loss-nutrition",
+      "post_id": 6220,
+      "layout": "list",
+      "subject": "weight loss",
+      "heading": "Evidence-Based Nutrition Patterns That Work",
+      "title": [
+        "Nutrition That Sustains ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Sustainable weight loss nutrition: 20 to 40g protein per meal, 25 to 38g fiber daily, healthy fats, and water first",
+      "items": [
+        {
+          "icon": "egg",
+          "label": "Protein first",
+          "note": "20 to 40 grams at each meal"
+        },
+        {
+          "icon": "wheat",
+          "label": "Fiber",
+          "note": "25 to 38 grams a day for most people"
+        },
+        {
+          "icon": "salad",
+          "label": "Healthy fats",
+          "note": "Olive oil, nuts, seeds, avocado, in portions"
+        },
+        {
+          "icon": "droplet",
+          "label": "Drinks",
+          "note": "Water, unsweetened tea, black coffee"
+        }
+      ]
+    },
+    {
+      "file": "movement-for-fat-loss",
+      "post_id": 6220,
+      "layout": "icons",
+      "subject": "weight loss",
+      "heading": "Movement: Training for Fat Loss and Lifelong Health",
+      "title": [
+        "Movement That Supports ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Weight loss movement: 150 minutes of moderate aerobic activity weekly, strength on two days, and hourly movement breaks",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "label": "150 minutes",
+          "note": "Moderate aerobic activity each week"
+        },
+        {
+          "icon": "dumbbell",
+          "label": "Two days",
+          "note": "Muscle-strengthening, to hold muscle"
+        },
+        {
+          "icon": "footprints",
+          "label": "Every hour",
+          "note": "3 to 5 minutes of stairs or a walk"
+        }
+      ]
+    },
+    {
+      "file": "sleep-stress-and-weight",
+      "post_id": 6220,
+      "layout": "icons",
+      "subject": "weight loss",
+      "heading": "Sleep, Stress, and the Metabolism Connection",
+      "title": [
+        "Sleep and Stress in ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Sleep 7 to 9 hours, take short stress breaks, and keep protein and fiber snacks ready for your known trigger times",
+      "items": [
+        {
+          "icon": "moon",
+          "label": "7 to 9 hours",
+          "note": "Short sleep leaves you hungrier"
+        },
+        {
+          "icon": "brain",
+          "label": "Short breaks",
+          "note": "Five minutes of breathing, a ten-minute walk"
+        },
+        {
+          "icon": "apple",
+          "label": "Snacks ready",
+          "note": "Protein and fiber, for your trigger times"
+        }
+      ]
+    },
+    {
+      "file": "medical-weight-management-options",
+      "post_id": 6220,
+      "layout": "list",
+      "subject": "weight loss",
+      "heading": "Medical Weight Management: When Clinical Support Helps",
+      "title": [
+        "Clinical Support for ",
+        "Weight Loss",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Clinical weight loss support: eligibility review, coaching, FDA-approved medication, and surgery for qualified patients",
+      "items": [
+        {
+          "icon": "stethoscope",
+          "label": "Eligibility review",
+          "note": "History, labs, medications, barriers"
+        },
+        {
+          "icon": "users",
+          "label": "Coaching",
+          "note": "Goal-setting, logging, regular check-ins"
+        },
+        {
+          "icon": "pill",
+          "label": "Medication",
+          "note": "FDA-approved only, never compounded online"
+        },
+        {
+          "icon": "scissors",
+          "label": "Surgery",
+          "note": "For qualified patients, with long-term follow-up"
+        }
+      ]
+    },
+    {
+      "file": "weight-loss-special-considerations",
+      "post_id": 6220,
+      "layout": "list",
+      "subject": "weight loss",
+      "heading": "Special Considerations",
+      "title": [
+        "Special ",
+        "Weight Loss",
+        " Considerations"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Weight loss considerations for PCOS and menopause, diabetes, hypertension and lipids, and older adults",
+      "items": [
+        {
+          "icon": "calendar-days",
+          "label": "Women's health",
+          "note": "PCOS, postpartum, perimenopause"
+        },
+        {
+          "icon": "candy-off",
+          "label": "Diabetes",
+          "note": "Pair carbs with protein and fiber"
+        },
+        {
+          "icon": "heart",
+          "label": "Blood pressure and lipids",
+          "note": "DASH patterns and omega-3 foods"
+        },
+        {
+          "icon": "hourglass",
+          "label": "Older adults",
+          "note": "Protein and resistance work protect muscle"
+        }
+      ]
+    },
+    {
+      "file": "weight-loss-when-to-seek-care",
+      "post_id": 6220,
+      "layout": "alert",
+      "subject": "weight loss",
+      "heading": "Safety First: When to Seek Care",
+      "logo": {
+        "position": "bottom-right",
+        "variant": "white",
+        "width": 150
+      },
+      "alt": "Stop and call a clinician during weight loss for dizziness or fainting, chest pain or palpitations, or rapid unexplained loss",
+      "kicker": "Weight loss warning signs",
+      "headline": "Call your clinician",
+      "signs": [
+        {
+          "icon": "brain",
+          "text": "Dizziness or fainting"
+        },
+        {
+          "icon": "heart-pulse",
+          "text": "Chest pain or heart palpitations"
+        },
+        {
+          "icon": "trending-down",
+          "text": "Rapid weight loss you cannot explain"
+        }
+      ],
+      "footer": "Also: persistent stomach problems or extreme fatigue"
+    },
+    {
+      "file": "four-week-weight-loss-kickstart",
+      "post_id": 6220,
+      "layout": "timeline",
+      "subject": "weight loss",
+      "heading": "A 4-Week, Real-Life Kickstart",
+      "title": [
+        "A Four-Week ",
+        "Weight Loss",
+        " Kickstart"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "A four-week weight loss kickstart: foundations, then fiber and planning, then skills and social life, then review",
+      "nodes": [
+        {
+          "time": "Week 1",
+          "label": "Foundations",
+          "note": "Track, add protein, walk, sleep 7 hours"
+        },
+        {
+          "time": "Week 2",
+          "label": "Fiber",
+          "note": "Vegetables twice daily, plan backup dinners"
+        },
+        {
+          "time": "Week 3",
+          "label": "Skills",
+          "note": "Restaurant strategy, heavier sets, snacks prepped"
+        },
+        {
+          "time": "Week 4",
+          "label": "Review",
+          "note": "Keep what worked, set next month's goals"
+        }
+      ]
+    }
+  ]
+}

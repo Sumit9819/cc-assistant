@@ -1,0 +1,98 @@
+{
+  "featured": [
+    {
+      "file": "semaglutide-not-losing-weight",
+      "post_id": 10192,
+      "layout": "photo-dark",
+      "photo": "cut/gem-weight-waistup2.png",
+      "kicker": "Medical Weight Loss",
+      "title": [
+        "Not Losing Weight on ",
+        "Semaglutide",
+        "?"
+      ],
+      "sub": "Five research-backed reasons the scale stalls, and what to change.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 150
+      },
+      "alt": "Woman with a fuller figure in a plain grey T-shirt, photographed from the waist up, facing the camera"
+    },
+    {
+      "file": "skinvive-vs-dermal-filler",
+      "post_id": 10229,
+      "layout": "photo-right",
+      "photo": "cut/gem-portrait-skin.png",
+      "kicker": "Injectables",
+      "title": [
+        "Skinvive or a ",
+        "Dermal Filler",
+        "?"
+      ],
+      "sub": "They are not the same treatment, and they do not fix the same thing.",
+      "logo": {
+        "variant": "green",
+        "position": "bottom-left",
+        "width": 150
+      },
+      "alt": "Portrait of a woman with clear, naturally textured skin"
+    },
+    {
+      "file": "top-3-anti-aging-treatments",
+      "post_id": 8559,
+      "layout": "photo-right",
+      "photo": "cut/gem-portrait-mature.png",
+      "kicker": "Aesthetics",
+      "title": [
+        "The Top 3 Treatments for ",
+        "Fine Lines",
+        ""
+      ],
+      "sub": "What each one actually does to a wrinkle, and how long it lasts.",
+      "logo": {
+        "variant": "green",
+        "position": "bottom-left",
+        "width": 150
+      },
+      "alt": "Portrait of a woman in her fifties with unretouched skin and visible fine lines"
+    },
+    {
+      "file": "chemical-peel-guide",
+      "post_id": 8563,
+      "layout": "photo-dark",
+      "photo": "cut/gem-skincare-tray.png",
+      "kicker": "Skin",
+      "title": [
+        "What Is a ",
+        "Chemical Peel",
+        "?"
+      ],
+      "sub": "How the layers come off, what it treats, and who should skip it.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 150
+      },
+      "alt": "Three unlabelled skincare bottles on a ceramic tray with folded cloths"
+    },
+    {
+      "file": "reverse-insulin-resistance",
+      "post_id": 9465,
+      "layout": "type",
+      "kicker": "Metabolic Health",
+      "title": [
+        "How to Reverse ",
+        "Insulin Resistance",
+        ""
+      ],
+      "sub": "The symptoms that show up first, and the changes with evidence behind them.",
+      "logo": {
+        "variant": "green",
+        "position": "bottom-right",
+        "width": 150
+      },
+      "alt": "Title card reading How to Reverse Insulin Resistance"
+    }
+  ]
+}

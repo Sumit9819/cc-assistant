@@ -1,0 +1,41 @@
+{
+  "_note": "Fill test, 2026-09-09. The operator's rule: the image must COVER the disc and stop at it. `inscribe` cannot satisfy that by construction, so both framed cards move to `cover`. The X-ray uses the film cropped out of the photo OF the film. The CO card is the open question - its source is a white product shot on white, so on a light ground a cover-crop may leave the disc invisible; both grounds are here to find out. `circle_floor` is lowered where the subject is a rectangle of image data with no silhouette: a radiograph loses its ends to a round window the way any cropped photograph does, which is not the cut-off-object failure the 0.9 floor exists to catch.",
+  "featured": [
+    {
+      "file": "xray-fit-hand",
+      "brand": "erofirving", "post_id": 3977,
+      "layout": "photo-frame-dark", "frame": "b",
+      "photo": "src/gen/er-xray-film.png", "focus": "85% 50%",
+      "circle_floor": 0.5,
+      "kicker": "Fractures",
+      "title": ["Do You Need an ", "ER X-Ray", "?"],
+      "sub": "What it feels like, and when to image.",
+      "logo": { "variant": "white", "position": "bottom-left", "width": 68 },
+      "alt": "A greyscale radiograph of a wrist and forearm"
+    },
+    {
+      "file": "co-fit-light",
+      "brand": "eroflufkin", "post_id": 7048,
+      "layout": "photo-frame", "frame": "b",
+      "photo": "src/gen/er-co-plugin.png", "focus": "center",
+      "circle_floor": 0.5,
+      "kicker": "Carbon Monoxide",
+      "title": ["Know the Signs of ", "CO", " Poisoning"],
+      "sub": "Symptoms every Texas home should know.",
+      "logo": { "variant": "mark", "position": "bottom-left", "width": 68 },
+      "alt": "A plug-in carbon monoxide alarm with a digital display"
+    },
+    {
+      "file": "co-fit-dark",
+      "brand": "eroflufkin", "post_id": 7048,
+      "layout": "photo-frame-dark", "frame": "b",
+      "photo": "src/gen/er-co-plugin.png", "focus": "center",
+      "circle_floor": 0.5,
+      "kicker": "Carbon Monoxide",
+      "title": ["Know the Signs of ", "CO", " Poisoning"],
+      "sub": "Symptoms every Texas home should know.",
+      "logo": { "variant": "white", "position": "bottom-left", "width": 68 },
+      "alt": "A plug-in carbon monoxide alarm with a digital display"
+    }
+  ]
+}

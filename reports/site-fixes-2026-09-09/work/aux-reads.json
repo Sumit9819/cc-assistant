@@ -1,0 +1,1 @@
+[{"name":"list_pending_changes","arguments":{}},{"name":"whoami","arguments":{}},{"name":"get_post","arguments":{"id":2931,"slim":false}},{"name":"verified_page_audit","arguments":{"post_id":2931}},{"name":"draft_update_seo_meta","arguments":{"post_id":2931,"logical_key":"canonical","value":"","dry_run":true,"summary":"Inspect removal of the blog canonical override"}}]

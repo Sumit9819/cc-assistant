@@ -1,0 +1,70 @@
+{
+ "6310": [
+  {
+   "search": "\nHydrate smart. Drink water consistently",
+   "replace": "\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-first-visit-prep.webp\" alt=\"Prepare for IV therapy: hydrate, eat a light meal, skip alcohol, bring a medication list, wear loose sleeves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\nHydrate smart. Drink water consistently"
+  },
+  {
+   "search": "<h2><b>Day-Of: What to Expect at Irving Wellness &amp; Clinic</b></h2>",
+   "replace": "<h2><b>Day-Of: What to Expect at Irving Wellness &amp; Clinic</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-first-visit-what-happens.webp\" alt=\"An IV therapy appointment: history and consent, vitals and vein check, then the drip with a clinician monitoring\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Aftercare: Getting the Most from Your Drip</b></h2>",
+   "replace": "<h2><b>Aftercare: Getting the Most from Your Drip</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-aftercare.webp\" alt=\"IV therapy aftercare: keep sipping water, keep activity gentle, remove the bandage after 30 minutes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Tailor Your Prep to Your Goals</b></h2>",
+   "replace": "<h2><b>Tailor Your Prep to Your Goals</b></h2>\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-prep-by-goal.webp\" alt=\"Tailor IV therapy prep to your goal: immune support, athletic recovery, travel, migraine, or general wellness\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6314": [
+  {
+   "search": "\r\n<ul>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\">V",
+   "replace": "\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/immune-iv-drip-ingredients.webp\" alt=\"An immune IV drip holds vitamin C, zinc, B vitamins and magnesium with electrolytes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n<ul>\r\n \t<li style=\"font-weight: 400;\" aria-level=\"1\">V"
+  },
+  {
+   "search": "<h2><b>The Science Behind Immune-Boosting IV Drips</b></h2>",
+   "replace": "<h2><b>The Science Behind Immune-Boosting IV Drips</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/immune-iv-drip-evidence.webp\" alt=\"Vitamin C and zinc support immune function, but IV delivery is not proven to beat oral or prevent illness\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>When Should You Consider an Immune-Boosting IV Drip?</b></h2>",
+   "replace": "<h2><b>When Should You Consider an Immune-Boosting IV Drip?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/immune-iv-drip-who-benefits.webp\" alt=\"Consider an immune IV drip when run-down, frequently exposed to illness, or recovering from illness or surgery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6353": [
+  {
+   "search": "<h2><b>What is IV Therapy and How Does it Support Recovery?</b></h2>",
+   "replace": "<h2><b>What is IV Therapy and How Does it Support Recovery?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-how-it-helps.webp\" alt=\"IV therapy supports athletic recovery through rapid hydration, amino acids for muscle repair, and B vitamins for energy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>When Should Athletes Use IV Therapy?</b></h2>",
+   "replace": "<h2><b>When Should Athletes Use IV Therapy?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-when-to-book.webp\" alt=\"Athletes use IV therapy before training to prevent fatigue, within 2 hours after to recover, and through heavy blocks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "\r\n<h3><b>Key Nutrients in IV Therapy for",
+   "replace": "\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-whats-in-the-bag.webp\" alt=\"An athlete's IV bag holds electrolytes, amino acids, B complex, vitamin C and glutathione\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\r\n<h3><b>Key Nutrients in IV Therapy for"
+  },
+  {
+   "search": "<h2><b>Is IV Therapy Safe for Athletes?</b></h2>",
+   "replace": "<h2><b>Is IV Therapy Safe for Athletes?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-risks.webp\" alt=\"IV therapy risks for athletes: allergic reaction, infection at the injection site, and an incorrect nutrient balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "6359": [
+  {
+   "search": "<h2><b>What is glutathione?</b></h2>",
+   "replace": "<h2><b>What is glutathione?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-what-it-does.webp\" alt=\"Glutathione neutralises free radicals, recycles vitamins C and E, supports mitochondria and aids detoxification\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>What does the evidence say? (Balanced, no hype)</b></h2>",
+   "replace": "<h2><b>What does the evidence say? (Balanced, no hype)</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-iv-evidence.webp\" alt=\"Glutathione evidence: mechanistic support for redox balance and liver detox, mixed findings on skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>Who might consider glutathione IV?</b></h2>",
+   "replace": "<h2><b>Who might consider glutathione IV?</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-iv-who-should-avoid.webp\" alt=\"Glutathione IV may suit recovery and training phases, but needs caution in pregnancy, asthma and sulfur sensitivity\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<h2><b>What to expect at your appointment</b></h2>",
+   "replace": "<h2><b>What to expect at your appointment</b></h2>\r\n<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-iv-appointment.webp\" alt=\"A glutathione IV appointment: health forms and any labs, a 15 to 45 minute infusion, then hydrate and resume\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

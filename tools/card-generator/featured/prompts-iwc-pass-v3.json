@@ -1,0 +1,15 @@
+{
+  "_note": "Round 3 for the Wellness Pass page (operator, 2026-09-16): the hero slot is a TALL half-column, so a landscape shot wastes pixels and crops badly; ask for a portrait frame at an explicit pixel size. The footer/CTA shot came back 1024x434 and was upscaled to 1600, which reads blurry; ask for a wide frame at an explicit large size so no upscaling is needed. Exact output size is checked after generation.",
+  "images": [
+    {
+      "name": "iwc-pass-hero-v3",
+      "brand": "iwc",
+      "prompt": "Generate the image at exactly 1200 x 1500 pixels, vertical portrait orientation. An editorial lifestyle photograph of a woman in her late thirties with warm brown skin and dark hair pulled back smoothly into a low bun, sitting relaxed in a cream upholstered armchair beside a tall bright window, wearing a soft oatmeal knit cardigan over a plain white top, holding a ceramic mug in both hands, a genuine gentle smile, looking toward the camera. Warm sage green walls, a leafy green plant and linen curtains, soft natural morning light, shallow depth of field. She sits in the lower right of the frame with calm uncluttered wall space across the top left. Sharp focus on her face, fine detail, no text, no logos, no medical equipment."
+    },
+    {
+      "name": "iwc-pass-cta-v3",
+      "brand": "iwc",
+      "prompt": "Generate the image at exactly 1920 x 900 pixels, wide horizontal orientation. An editorial lifestyle photograph of a woman in her early forties with fair skin and shoulder-length auburn hair, sitting relaxed on a cream linen sofa beside a tall bright window, wearing a plain sage green knit sweater, one arm resting along the back of the sofa, a warm easy smile, looking toward the camera. Warm off-white walls, a leafy green plant and soft linen curtains, soft natural morning light, shallow depth of field. She is placed on the right third of the frame, leaving calm uncluttered space across the left half. Sharp focus on her face, fine detail, no text, no logos, no medical equipment."
+    }
+  ]
+}

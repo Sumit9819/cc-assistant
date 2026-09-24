@@ -1,0 +1,158 @@
+[
+  {
+    "page": 1,
+    "words": 448,
+    "first": [
+      "CC Assistant improvement roadmap",
+      "Recommended direction"
+    ],
+    "last": [
+      "gate.",
+      "2. CC Assistant, 0.84.0 live verification record."
+    ]
+  },
+  {
+    "page": 2,
+    "words": 541,
+    "first": [
+      "Defects and misleading contracts to address first",
+      "Search Console data integrity"
+    ],
+    "last": [
+      "6. CC Assistant, Approval documentation and direct mutation handlers.",
+      "38. CC Assistant, 0.84.0 release validation records."
+    ]
+  },
+  {
+    "page": 3,
+    "words": 529,
+    "first": [
+      "Reliable answers through a shared evidence model",
+      "A claim should identify what was actually checked"
+    ],
+    "last": [
+      "8. Model Context Protocol, Tools \u2014 specification 2026-07-28.",
+      "34. Model Context Protocol, Security Best Practices."
+    ]
+  },
+  {
+    "page": 4,
+    "words": 538,
+    "first": [
+      "Plugin knowledge and coordinated execution",
+      "Build a small set of dependable adapters"
+    ],
+    "last": [
+      "1. CC Assistant, Installed 0.84.0 source: verified page audit and evidence",
+      "gate."
+    ]
+  },
+  {
+    "page": 5,
+    "words": 585,
+    "first": [
+      "A unified technical SEO assessment",
+      "Turn existing tools into one evidence-backed page report"
+    ],
+    "last": [
+      "page.",
+      "27. Google Search Central, General structured data guidelines."
+    ]
+  },
+  {
+    "page": 6,
+    "words": 565,
+    "first": [
+      "Performance, content and practical site quality",
+      "Add performance evidence with honest scope"
+    ],
+    "last": [
+      "29. Google Search Central, Creating helpful, reliable, people-first content.",
+      "28. Google Search Central, Review snippet structured data."
+    ]
+  },
+  {
+    "page": 7,
+    "words": 597,
+    "first": [
+      "AI search and trustworthy measurement",
+      "Update the SEO playbook to current Google guidance"
+    ],
+    "last": [
+      "30. Google Search Central, Guidance on using third-party SEO tools,",
+      "services, and advice."
+    ]
+  },
+  {
+    "page": 8,
+    "words": 596,
+    "first": [
+      "Connection, MCP architecture and operational quality",
+      "Make the SiteGround connection understandable"
+    ],
+    "last": [
+      "the WordPress MCP Adapter.",
+      "34. Model Context Protocol, Security Best Practices."
+    ]
+  },
+  {
+    "page": 9,
+    "words": 229,
+    "first": [
+      "Prioritized implementation roadmap",
+      "Recommended delivery order"
+    ],
+    "last": [
+      "parallel only where it directly simplifies those fixes. Ship a narrow, dependable vertical workflow first: inspect",
+      "one page, explain a finding, propose an evidenced change, approve it and verify its intended effect."
+    ]
+  },
+  {
+    "page": 10,
+    "words": 400,
+    "first": [
+      "Acceptance tests and future distribution",
+      "Existing validation"
+    ],
+    "last": [
+      "38. CC Assistant, 0.84.0 release validation records.",
+      "36. Google Search Central, Using the Indexing API."
+    ]
+  },
+  {
+    "page": 11,
+    "words": 371,
+    "first": [
+      "Sources",
+      "External references are primary documentation. \u201cLive documentation\u201d identifies a revisable page; all were accessed September 9,"
+    ],
+    "last": [
+      "https://rankmath.com/kb/headless-cms-support/",
+      "getHead returns generated metadata; requires Headless CMS support."
+    ]
+  },
+  {
+    "page": 12,
+    "words": 313,
+    "first": [
+      "Sources \u2014 continued",
+      "13. Polylang. Function reference Undated live documentation. Accessed 2026-09-09."
+    ],
+    "last": [
+      "https://developers.google.com/speed/docs/insights/v5/about",
+      "Lab versus field measurements, test conditions and 75th-percentile interpretation."
+    ]
+  },
+  {
+    "page": 13,
+    "words": 325,
+    "first": [
+      "Sources \u2014 continued",
+      "26. Chrome for Developers. CrUX API Live documentation. Accessed 2026-09-09."
+    ],
+    "last": [
+      "verification.json. Prior 33 PHP suites, 158 PHP syntax checks and 35 WordPress integration checks; integration fixture WordPress",
+      "6.9.4 / Elementor 4.0.4."
+    ]
+  }
+]

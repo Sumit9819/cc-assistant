@@ -1,0 +1,5 @@
+[
+ {"name":"whoami","arguments":{}},
+ {"name":"list_pending_changes","arguments":{}},
+ {"name":"update_site_memory_notes","arguments":{"section":"sessions","mode":"append","acknowledge_open_loops":true,"notes":"2026-09-10: Diagnosed 28 stale proposals across18 targets: old batch exception supported only single widget updates in one request. Prepared/tested CC Assistant0.89.4 locally; NOT yet installed live. New guard replays exact non-overlapping approved snapshot chains across requests and supports these mixed changes. 59 PHP test files and28 real-payload replay cases pass;18 fresh content reads match prior approved sibling edits. Existing28 IDs retained; no content writes or requeue. After upload, use verify_change.evidence_check before retrying; missing history, genuine changes and unsupported types remain blocked. Only the tested0.89.3-to0.89.4 patch is environment-compatible with otherwise identical settings. Package D:/cc-assistant/dist/cc-assistant-0.89.4.zip; report D:/cc-assistant/reports/apply-recovery-0.89.4-2026-09-10/RECOVERY-REPORT.md."}}
+]

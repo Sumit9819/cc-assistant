@@ -1,0 +1,340 @@
+<title>Sid's Ponds — Work Report, 12 August 2026</title>
+<style>
+  :root {
+    --ground:   #F4F7F2;
+    --surface:  #FFFFFF;
+    --sunken:   #EBF0E8;
+    --ink:      #17201B;
+    --ink-soft: #46554C;
+    --muted:    #6B7A71;
+    --rule:     #D6DFD3;
+    --accent:   #2C6238;
+    --live:     #4E9B2E;
+    --wait:     #A8641B;
+    --block:    #9C3B2E;
+    --shadow:   0 1px 2px rgba(23, 32, 27, .06), 0 8px 24px -12px rgba(23, 32, 27, .18);
+
+    --display: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:   #10150F;
+      --surface:  #191F19;
+      --sunken:   #212823;
+      --ink:      #E7EDE5;
+      --ink-soft: #B3C0B4;
+      --muted:    #8B9A8D;
+      --rule:     #2E382F;
+      --accent:   #8FC97A;
+      --live:     #7DC95C;
+      --wait:     #D9A05B;
+      --block:    #E08573;
+      --shadow:   0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .6);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:   #10150F;
+    --surface:  #191F19;
+    --sunken:   #212823;
+    --ink:      #E7EDE5;
+    --ink-soft: #B3C0B4;
+    --muted:    #8B9A8D;
+    --rule:     #2E382F;
+    --accent:   #8FC97A;
+    --live:     #7DC95C;
+    --wait:     #D9A05B;
+    --block:    #E08573;
+    --shadow:   0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .6);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 clamp(1rem, 5vw, 3rem) 6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 60rem; margin: 0 auto; }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    display: flex; flex-direction: column; gap: .5rem;
+    padding: clamp(2.5rem, 6vw, 4.5rem) 0 1.75rem;
+    border-bottom: 2px solid var(--ink);
+  }
+  .eyebrow {
+    font-size: .75rem; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600;
+  }
+  .masthead h1 {
+    font-family: var(--display);
+    font-size: clamp(2rem, 5.5vw, 3.1rem);
+    line-height: 1.08; margin: 0; font-weight: 600;
+    letter-spacing: -.015em; text-wrap: balance;
+  }
+  .masthead .dek {
+    color: var(--ink-soft); max-width: 46rem; margin: .35rem 0 0; font-size: 1.05rem;
+  }
+
+  /* ---------- status summary ---------- */
+  .summary {
+    display: grid; gap: 1rem; margin: 2rem 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+  .stat {
+    background: var(--surface); border: 1px solid var(--rule);
+    border-radius: 3px; padding: 1.1rem 1.2rem;
+    box-shadow: var(--shadow); border-top: 3px solid var(--tone, var(--accent));
+  }
+  .stat .n {
+    font-family: var(--display); font-size: 2.4rem; line-height: 1;
+    font-variant-numeric: tabular-nums; color: var(--tone, var(--accent)); font-weight: 600;
+  }
+  .stat .lbl {
+    font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); font-weight: 700; margin-top: .5rem;
+  }
+  .stat p { margin: .4rem 0 0; font-size: .9rem; color: var(--ink-soft); line-height: 1.45; }
+  .t-live  { --tone: var(--live); }
+  .t-wait  { --tone: var(--wait); }
+  .t-block { --tone: var(--block); }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 3.25rem; }
+  section > h2 {
+    font-family: var(--display); font-weight: 600;
+    font-size: clamp(1.35rem, 3vw, 1.75rem); line-height: 1.2;
+    margin: 0 0 .3rem; letter-spacing: -.01em; text-wrap: balance;
+  }
+  .sub { color: var(--muted); margin: 0 0 1.35rem; font-size: .95rem; }
+  h3 {
+    font-size: 1rem; font-weight: 700; margin: 0 0 .35rem;
+    letter-spacing: -.005em;
+  }
+  p { margin: 0 0 .85rem; max-width: 64ch; }
+  section > p:last-child { margin-bottom: 0; }
+
+  /* ---------- item rows ---------- */
+  .items { display: flex; flex-direction: column; gap: .85rem; }
+  .item {
+    background: var(--surface); border: 1px solid var(--rule);
+    border-left: 4px solid var(--tone, var(--rule));
+    border-radius: 3px; padding: 1.05rem 1.2rem;
+  }
+  .item p { margin: 0; color: var(--ink-soft); font-size: .93rem; }
+  .item p + p { margin-top: .5rem; }
+  .item .meta {
+    font-family: var(--mono); font-size: .78rem; color: var(--muted);
+    margin-top: .55rem; font-variant-numeric: tabular-nums;
+  }
+  .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .6rem; margin-bottom: .3rem; }
+  .head h3 { margin: 0; }
+
+  .chip {
+    display: inline-block; font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; font-weight: 700; padding: .2rem .5rem;
+    border-radius: 2px; background: var(--sunken); color: var(--tone, var(--accent));
+    border: 1px solid var(--rule); white-space: nowrap;
+  }
+
+  /* ---------- tables ---------- */
+  .scroll { overflow-x: auto; margin: 0 0 1rem; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: .89rem; min-width: 30rem; }
+  th, td { text-align: left; padding: .6rem .85rem; border-bottom: 1px solid var(--rule); }
+  thead th {
+    font-size: .68rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); font-weight: 700; background: var(--sunken); white-space: nowrap;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: .84rem; white-space: nowrap; }
+  .bad { color: var(--block); font-weight: 700; }
+
+  code {
+    font-family: var(--mono); font-size: .86em;
+    background: var(--sunken); padding: .12em .38em; border-radius: 2px;
+    border: 1px solid var(--rule);
+  }
+
+  ul.plain { margin: 0 0 .85rem; padding-left: 1.15rem; color: var(--ink-soft); }
+  ul.plain li { margin-bottom: .4rem; max-width: 62ch; }
+
+  .note {
+    background: var(--sunken); border: 1px solid var(--rule);
+    border-radius: 3px; padding: 1.05rem 1.2rem; margin-top: 1rem;
+  }
+  .note h3 { color: var(--ink); }
+  .note p { color: var(--ink-soft); font-size: .92rem; margin-bottom: 0; }
+  .note p + p { margin-top: .6rem; }
+
+  footer {
+    margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .85rem;
+  }
+  footer p { max-width: 64ch; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">sids-ponds.com &middot; work report</div>
+    <h1>Category content, page layout, and a CSS audit</h1>
+    <p class="dek">Three category pages rewritten and published, a layout fault corrected across the whole category system, and a measurement of how much stylesheet weight the site carries.</p>
+    <div class="eyebrow" style="margin-top:.75rem">12 August 2026</div>
+  </header>
+
+  <div class="summary">
+    <div class="stat t-live">
+      <div class="n">3</div>
+      <div class="lbl">Pages rewritten</div>
+      <p>Category descriptions rebuilt around the terms each page already ranks for.</p>
+    </div>
+    <div class="stat">
+      <div class="n">74</div>
+      <div class="lbl">Pages improved</div>
+      <p>Every category page gains correct heading spacing and readable line length.</p>
+    </div>
+    <div class="stat t-wait">
+      <div class="n">64</div>
+      <div class="lbl">URLs audited</div>
+      <p>Measured for stylesheet weight and unused CSS across every page type.</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>Category content rewritten</h2>
+    <p class="sub">Each page rebuilt around the search terms it already ranks for, then verified rendering on the live site.</p>
+
+    <div class="items">
+      <div class="item t-live">
+        <div class="head"><h3>Aggregates, Soil &amp; Mulch</h3><span class="chip t-live">Published</span></div>
+        <p>The previous copy was headed &ldquo;Building the Perfect Landscape&rdquo; and did not explain which material suits which job. A customer searching <em>gravel mississauga</em> is choosing between crusher run and clear gravel. The page now answers that directly: what triple mix is, which aggregate to use for base, drainage or decorative work, correct mulch depth, and the cubic-yard coverage figure customers most often look for.</p>
+        <p>It also now links down to the Soil, Aggregates and Mulch sub-categories, which previously had no route in from the page carrying the rankings.</p>
+        <p class="meta">8,543 impressions &middot; position 7&ndash;13 &middot; &ldquo;gravel mississauga&rdquo; 214 impressions, 0 clicks</p>
+      </div>
+
+      <div class="item t-live">
+        <div class="head"><h3>Green Living Wall Kits</h3><span class="chip t-live">Published</span></div>
+        <p>562 words of general marketing copy replaced with sections drawn from the page&rsquo;s own search queries: what a living wall is, indoor versus outdoor use, choosing a pot size, which plants suit it, and watering. Written against the actual product range and linked to the existing build guide.</p>
+        <p class="meta">10,853 impressions &middot; 61 clicks &middot; position 17&ndash;25 &middot; now 574 words</p>
+      </div>
+
+      <div class="item t-live">
+        <div class="head"><h3>Artificial Turf &amp; Sod</h3><span class="chip t-live">Published</span></div>
+        <p>Expanded from a thin 181 words to cover all sixteen products, the seven landscape ranges, infill and seaming materials. Product details were verified from the live product pages rather than assumed, including the Eagle Putt stimpmeter rating and the Paw Pro antimicrobial backing.</p>
+        <p>A significant share of the search demand for this page is installation intent. Since Sid&rsquo;s supplies rather than installs, the page states that plainly in an FAQ instead of competing for enquiries it cannot fulfil.</p>
+        <p class="meta">2,530 impressions &middot; 8 clicks (0.3% CTR) &middot; position 10&ndash;14 &middot; 181 &rarr; 598 words</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Category page layout corrected</h2>
+    <p class="sub">A spacing fault affecting all 74 category pages, found by measuring the rendered page.</p>
+
+    <p>The Divi template that renders category descriptions carries a <code>pillar-text</code> class intended as a styling hook, but no stylesheet on the site defined any rules for it. The result, measured live:</p>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Element</th><th class="num">Space above</th><th class="num">Space below</th><th class="num">Line height</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Heading (H2)</td><td class="num bad">0px</td><td class="num">10px</td><td class="num">26px on 26px type</td></tr>
+          <tr><td>Sub-heading (H3)</td><td class="num bad">0px</td><td class="num">10px</td><td class="num">22px on 22px type</td></tr>
+          <tr><td>List item</td><td class="num bad">0px</td><td class="num bad">0px</td><td class="num">&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>A heading with no space above it visually attaches to the paragraph before it, so each section ran into the last and FAQ blocks read as a single mass. Body text also ran the full 1192px column, roughly 140 characters per line and about double a comfortable reading measure.</p>
+
+    <p>A corrected stylesheet was written and proved by injecting it into the live page and re-measuring rather than judging by eye: heading separation 0 &rarr; 32px, list items 0 &rarr; 8px, line width 1192 &rarr; 900px, with no horizontal overflow at phone, tablet or desktop widths.</p>
+  </section>
+
+  <section>
+    <h2>Stylesheet faults repaired</h2>
+    <p class="sub">Two long-standing bugs found while reviewing the site&rsquo;s custom CSS.</p>
+
+    <div class="items">
+      <div class="item t-wait">
+        <div class="head"><h3>Wishlist button hover never applied</h3><span class="chip t-wait">Repaired</span></div>
+        <p>The hover rule contained a stray space, which made it target the elements inside the button rather than the button itself. Those inner elements carry no border width, so the intended highlight never appeared on the page at all.</p>
+      </div>
+      <div class="item t-wait">
+        <div class="head"><h3>Invalid animation keyframe</h3><span class="chip t-wait">Repaired</span></div>
+        <p>The shine animation&rsquo;s opening frame specified a length with no unit, which browsers discard silently, so the effect began from a different position than intended. Rewritten to be valid while rendering identically to the current behaviour.</p>
+      </div>
+    </div>
+
+    <p style="margin-top:1rem">Three duplicated rule blocks were merged and two dead declarations removed. Rule order was deliberately preserved, since reordering CSS can silently change which rule wins where specificity ties.</p>
+  </section>
+
+  <section>
+    <h2>Stylesheet performance audit</h2>
+    <p class="sub">How much CSS each page type downloads, and how much of it the page actually uses.</p>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Page type</th><th class="num">CSS downloaded</th><th class="num">Actually used</th><th class="num">Share used</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Homepage</td><td class="num">1,728 KB</td><td class="num">92.8 KB</td><td class="num bad">5%</td></tr>
+          <tr><td>Category page</td><td class="num">1,877 KB</td><td class="num">82.9 KB</td><td class="num bad">4%</td></tr>
+          <tr><td>Product page</td><td class="num">1,725 KB</td><td class="num">98.9 KB</td><td class="num bad">6%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Broken down by source, on the homepage:</p>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Source</th><th class="num">Size</th><th class="num">Used</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>SiteGround combined bundle</td><td class="num">787.2 KB</td><td class="num">3%</td></tr>
+          <tr><td>DiviFlash</td><td class="num">276.9 KB</td><td class="num bad">0%</td></tr>
+          <tr><td>Divi dynamic</td><td class="num">243.8 KB</td><td class="num">5%</td></tr>
+          <tr><td>Font Awesome (external CDN)</td><td class="num">99.8 KB</td><td class="num bad">0.4%</td></tr>
+          <tr><td>Divi BodyCommerce</td><td class="num">77.1 KB</td><td class="num bad">0%</td></tr>
+          <tr><td>Divi Machine</td><td class="num">30.0 KB</td><td class="num bad">~0%</td></tr>
+          <tr><td>Divi Plus</td><td class="num">15.2 KB</td><td class="num bad">0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>This matters because stylesheets block a page from rendering. The site&rsquo;s custom CSS is not the cause: Divi compiles it into a cached 9.3&nbsp;KB file, around 0.5% of the total weight.</p>
+
+    <h3 style="margin-top:1.5rem">Which add-ons each page genuinely needs</h3>
+    <p>64 URLs were scanned to establish where each Divi add-on is actually in use, rather than assuming.</p>
+    <ul class="plain">
+      <li><strong>DiviFlash</strong> (276.9&nbsp;KB) is used on the About and Delivery pages and on some product templates. It is not used on the homepage, shop, category pages, blog posts, cart, checkout or account pages &mdash; which are the pages organic search traffic lands on.</li>
+      <li><strong>Divi Machine</strong> has no standalone module usage, but the lighting product template carries 46 of its specification modules, so product pages require it.</li>
+      <li><strong>BodyCommerce</strong> powers the mini-cart, which appears site-wide and is required everywhere.</li>
+      <li><strong>Font Awesome</strong> loads 99.8&nbsp;KB of stylesheet plus a ~110&nbsp;KB font file from an external server to render the footer payment icons, using 0.4% of it. It is the largest single piece of unused weight that can be removed cleanly.</li>
+    </ul>
+
+    <div class="note">
+      <h3>A tested assumption that proved false</h3>
+      <p>The 787&nbsp;KB SiteGround bundle loads alongside several other large stylesheets, which suggested the same CSS might be shipping twice. That was tested directly: only <strong>1&ndash;2% of selectors overlap</strong>. They are not duplicates, and the bundle needs per-plugin analysis before any hosting setting is changed.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Method.</strong> Every figure in this report was measured against the live site rather than estimated &mdash; rendered page measurements for the layout work, and browser coverage instrumentation for the stylesheet audit. Coverage records what a page uses as it renders, so rules for hover states and other screen sizes register as unused; the figures therefore describe the scale of the opportunity rather than a list of rules that can simply be deleted.</p>
+    <p><strong>Coverage of the scan.</strong> All 14 pages, all 23 blog posts, 12 of 74 category pages and 15 products were scanned for add-on usage.</p>
+  </footer>
+
+</div>

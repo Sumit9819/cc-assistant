@@ -1,0 +1,60 @@
+{
+ "8567": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-your-wellness-journey-1-prioritize-preventive-care.webp\" alt=\"Three parts of preventive care: screening, preventing problems early, and partnering with your provider\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-preventive-screenings.webp\" alt=\"Preventive care starts with a baseline, catches silent markers like blood pressure early, and treats your provider as a partner\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-your-wellness-journey-4-evidence-based-nutrition.webp\" alt=\"Evidence-based nutrition in three parts: nourish with whole foods, hydrate, and keep meals balanced\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition.webp\" alt=\"Evidence-based nutrition: add fibre-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-your-wellness-journey-2-longevity-through-movement.webp\" alt=\"Movement for longevity: aerobic activity, strength work, and the mental health benefits of exercise\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity.webp\" alt=\"Movement for longevity: 150 minutes of moderate aerobic activity weekly, strength work twice a week, and mood benefits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-your-wellness-journey-3-manage-stress-mindfully.webp\" alt=\"Managing stress mindfully: breathing techniques, connecting with others, and giving the body time to recover\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-managing-stress.webp\" alt=\"Chronic stress causes digestive issues and headaches; breathing, meditation and connection lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9389": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-deficiency-symptoms-2-progesterone-the-bodys-natural-peacekeeper.webp\" alt=\"What progesterone does: balances estrogen, supports the menstrual cycle, and calms the mind and sleep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-progesterone-does.webp\" alt=\"Progesterone counterbalances estrogen, is made after ovulation, and converts to a neurosteroid acting on GABA receptors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-deficiency-symptoms-1-early-warning-signs.webp\" alt=\"Early signs of low progesterone: anxiety and irritability, changes in sleep, and changes in the menstrual cycle\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-progesterone-warning-signs.webp\" alt=\"Low progesterone shows as anxiety, insomnia and irritability, and as heavy bleeding, spotting and shorter cycles\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-deficiency-symptoms-3-luteal-phase-defects.webp\" alt=\"Luteal phase defect shown as a shortened 12 to 14 day window, low progesterone, and effects on cycle and fertility\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/luteal-phase-window.webp\" alt=\"A healthy luteal phase runs 12 to 14 days; too little progesterone shortens it, which is a luteal phase defect\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-deficiency-symptoms-4-fertility-impacts.webp\" alt=\"How progesterone supports conception: preparing the uterine lining, supporting implantation, and monitoring levels\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility.webp\" alt=\"Progesterone ripens the uterine lining, supports implantation, and is measured by tests used to investigate infertility\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-deficiency-symptoms-5-restoring-levels.webp\" alt=\"Three ways to restore progesterone: magnesium and vitamin B6, managing stress and sleep with healthy fats, and personalized BHRT care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels.webp\" alt=\"Restoring progesterone: magnesium and B6, lowering cortisol, healthy fats for hormone synthesis, and BHRT with testing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9398": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-syndrome-1-post-birth-control-syndrome.webp\" alt=\"Three areas affected after stopping hormonal birth control: hormone readjustment, cycle changes, and skin and mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-post-birth-control-syndrome-is.webp\" alt=\"Hormonal contraceptives suppress the HPO axis; when they stop, the axis comes back online over weeks to months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-syndrome-2-common-symptoms-patients-experience.webp\" alt=\"Commonly reported symptoms: acne and oily skin, PMS and mood changes, and an absent period\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-symptoms.webp\" alt=\"After stopping birth control: cystic acne, libido changes, intense PMS, digestive issues and bloating, hair thinning\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-syndrome-3-common-nutrient-depletions.webp\" alt=\"Nutrients hormonal contraceptives can deplete: B vitamins, magnesium, and zinc\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/contraceptive-nutrient-depletions.webp\" alt=\"Oral contraceptives can lower B2, B6, B12 and folate, plus magnesium for stress response and zinc for skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-syndrome-4-roadmap-to-natural-cycles.webp\" alt=\"Supporting a return to natural cycles through fats and protein, gut health, and seed cycling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/returning-to-natural-cycles.webp\" alt=\"Recovery after birth control: healthy fats and protein-first meals, gut health to clear used hormones, and seed cycling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

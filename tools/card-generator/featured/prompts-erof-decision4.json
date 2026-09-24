@@ -1,0 +1,25 @@
+{
+  "_note": "Featured photos for the four erofirving decision posts published 2026-09-23/24 (4772 flu, 4773 blood pressure, 4774 vomiting and diarrhea, 4792 testicle pain). ER profile: no people, no body parts, so every shot is an object still life shot tight enough to COVER the framed disc (the 4410 pattern). Every surface is plain and every object unbranded, because the brand bans yellow and green and any readable label would be trade dress or a fake number. The blood pressure monitor's display is dark on purpose: a generated reading would be an invented figure on a YMYL page.",
+  "images": [
+    {
+      "name": "erof-flu-bedside",
+      "brand": "erofirving",
+      "prompt": "Horizontal orientation, wider than tall. A close still life photograph on a white bedside table: an unbranded white digital thermometer, a plain white mug of hot tea with a little steam, and a few loose white tissues. Soft cool morning window light from the left, shallow depth of field, a softly blurred plain grey-blue wall behind. The objects fill most of the frame edge to edge. Calm documentary realism, no text, no labels, no logos, no brand names."
+    },
+    {
+      "name": "erof-bp-monitor",
+      "brand": "erofirving",
+      "prompt": "Horizontal orientation, wider than tall. A close still life photograph of an unbranded white automatic blood pressure monitor lying on a plain white table, its grey fabric cuff and coiled air tube resting beside it. The monitor's display screen is dark and switched off, showing no numbers at all. Soft even daylight, shallow depth of field, softly blurred light grey background. The monitor and cuff fill most of the frame edge to edge. Clean clinical documentary realism, no text, no digits, no labels, no logos."
+    },
+    {
+      "name": "erof-vomit-fluids",
+      "brand": "erofirving",
+      "prompt": "Horizontal orientation, wider than tall. A close still life photograph on a pale grey kitchen counter: a tall clear glass of water, a small plain white plate of square saltine crackers, and a clear unlabeled plastic bottle of clear drink. Soft natural window light, shallow depth of field, softly blurred plain white kitchen background. The objects fill most of the frame edge to edge. Calm documentary realism, no text, no labels, no logos, no brand names, no colored drinks."
+    },
+    {
+      "name": "erof-testicle-ultrasound",
+      "brand": "erofirving",
+      "prompt": "Horizontal orientation, wider than tall. A close still life photograph of a medical ultrasound transducer probe with its grey cable, resting on a neatly folded white towel on a clean white exam table, with a small unlabeled clear bottle of ultrasound gel beside it. Soft even clinical lighting, shallow depth of field, softly blurred pale blue-grey background of an empty exam room. The probe fills most of the frame edge to edge. Calm clinical documentary realism, no text, no screens, no labels, no logos."
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "trace": [
+    {
+      "tool": "whoami",
+      "arguments": {},
+      "result": {
+        "site": "Fixture bicycle workshop",
+        "policy": {
+          "version": "content-strategy-4",
+          "new_blog_workflow": "Use content_workflow for a complete new-blog task, then execute its steps. plan_blog_content initializes an inferred strategy when none is saved. Claude uses discover_content_scope and manage_content_scope to inspect and maintain it from existing pages and site notes. Never ask the operator to enter discoverable IDs or fill a strategy form. Explore source-backed niche topics even without GSC gaps.",
+          "agent_ownership": "Claude handles discovery, strategy metadata, research, draft preparation and verification. The operator reviews concrete results and exceptions. Metadata writes do not authorize live content publication.",
+          "background_execution": "A connected Claude session executes the workflow. This feature does not launch an unattended AI runner.",
+          "gsc_role": "Observed visibility for this property and period, not total market demand or the boundary of the niche.",
+          "discovery_sources": [
+            "selected_service_pages",
+            "configured_reader_questions",
+            "service_reader_tasks",
+            "user_topic_proposals",
+            "optional_gsc_queries",
+            "explicit_competitor_research"
+          ],
+          "no_data_meaning": "Demand is unmeasured. It does not mean no opportunity.",
+          "decision_rules": [
+            "Similarity discovers candidates; it does not establish duplication or SEO harm.",
+            "Create when a distinct reader task and supported niche relationship justify it; no impression minimum is required.",
+            "Keep or link complementary pages. Review preservation before merging substitutable pages.",
+            "Diagnose technical, demand and measurement changes before prescribing a rewrite.",
+            "Research and formatting cannot certify global novelty, expertise or ranking gains.",
+            "Persist evidence and alternatives. Do not change a decision without a changed basis."
+          ],
+          "result_verification": "Link new drafts with workflow_id and call verify_content_workflow. Only actual records and current source observations support completion claims; a plan or generated text alone does not.",
+          "setting_workflow": "Read get_plugin_settings and inspect_plugin_capability. Valid input types do not certify an active feature or rendered effect; use current runtime controls and verify the outcome."
+        },
+        "evidence_rules": [
+          "Report observed facts, editorial interpretations and unknowns separately; cite the exact source and its scope.",
+          "Blocked fetches, partial extraction, missing data and an empty parser result cannot prove rendered absence.",
+          "Similarity identifies candidates. It does not establish duplication, a shared reader task or SEO harm.",
+          "Low CTR does not prove AI impact; crawler requests do not prove citations; before/after associations do not prove causation.",
+          "Discover current installed controls, accepted values and dependencies before planning setting changes.",
+          "Verify actual WordPress record IDs and source freshness before reporting completed work.",
+          "Read memory_consistency. Current user intent governs the task; historical working_state and legacy score/citation recipes do not establish current authorization or factual SEO requirements. Promote lasting session corrections to Rules or Decisions."
+        ],
+        "available_tools": [
+          "content_decision",
+          "content_decision_history",
+          "content_research",
+          "content_workflow",
+          "discover_content_scope",
+          "draft_create_post",
+          "draft_update_plugin_setting",
+          "get_content_scope",
+          "get_plugin_settings",
+          "get_post",
+          "get_site_memory",
+          "inspect_plugin_capability",
+          "list_categories",
+          "list_pending_changes",
+          "manage_content_scope",
+          "plan_blog_content",
+          "seo_playbook",
+          "verified_page_audit",
+          "verify_content_workflow",
+          "whoami"
+        ]
+      }
+    },
+    {
+      "tool": "get_site_memory",
+      "arguments": {},
+      "result": {
+        "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials.",
+        "memory_consistency": {
+          "findings": [],
+          "precedence": "Historical recipes do not establish ranking effects. Preserve actual operator constraints and use fresh evidence."
+        }
+      }
+    },
+    {
+      "tool": "get_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "content_workflow",
+      "arguments": {
+        "objective": "new_blog"
+      },
+      "result": {
+        "record_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "record": {
+          "objective": "new_blog",
+          "execution_state": "prepared_not_executed",
+          "blog_plan": {
+            "ideas": [
+              {
+                "title": "What to tell a bicycle workshop about a recurring flat tire",
+                "reader_task": "Help a bike owner describe the recurring problem before a repair visit",
+                "source_post_id": 100,
+                "source_evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                "overlap": "No existing post solves this preparation task in the complete fixture inventory.",
+                "demand": "unknown"
+              }
+            ],
+            "gsc": {
+              "status": "not_connected",
+              "rows": []
+            },
+            "scope": {
+              "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+              "freshness": {
+                "status": "source_hashes_match"
+              },
+              "sources": [
+                {
+                  "post_id": 100,
+                  "title": "Bicycle puncture repair",
+                  "url": "https://fixture.invalid/puncture-repair/",
+                  "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                  "coverage": "stored_content",
+                  "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+                }
+              ],
+              "context": {
+                "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+              },
+              "audience": "Local bicycle owners",
+              "excluded_topics": [
+                "motor vehicles",
+                "medical advice"
+              ],
+              "scope_saved": true
+            }
+          },
+          "source_basis": [
+            {
+              "post_id": 100,
+              "title": "Bicycle puncture repair",
+              "url": "https://fixture.invalid/puncture-repair/",
+              "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "coverage": "stored_content",
+              "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+            }
+          ],
+          "agent_steps": [
+            "Inspect current sources and distinct task.",
+            "Create post_type=post draft with workflow_id.",
+            "Verify the actual post and pending record."
+          ],
+          "background_execution": false
+        }
+      }
+    },
+    {
+      "tool": "discover_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "content_research",
+      "arguments": {
+        "topic": "Preparing for a bicycle puncture repair visit",
+        "anchor_post_id": 100,
+        "reader_goal": "A local bike owner wants to know what to observe, note and bring before dropping a punctured bike at the workshop, so the repair visit goes smoothly.",
+        "proposed_contribution": "A preparation checklist framed around describing when air loss occurs and what to bring, complementing the service page rather than restating repair steps."
+      },
+      "result": {
+        "record_id": "research-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "record": {
+          "assessment": "prospective_topic_research",
+          "topic": "Preparing for a bicycle puncture repair visit",
+          "niche_anchor": {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          },
+          "contribution_status": "proposed_not_fact_checked_or_proven_unique",
+          "external_sources": [],
+          "coverage": {
+            "gsc_required": false,
+            "global_originality_assessed": false,
+            "readable_excerpts": 0
+          },
+          "next_step": "No external excerpts available. Compare supported site observations and mark independent corroboration unknown."
+        }
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 100
+      },
+      "result": {
+        "post_id": 100,
+        "title": "Bicycle puncture repair",
+        "url": "https://fixture.invalid/puncture-repair/",
+        "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+        "coverage": "stored_content",
+        "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "content": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "list_categories",
+      "arguments": {},
+      "result": {
+        "categories": [
+          {
+            "id": 3,
+            "name": "Bicycle care"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "get_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "draft_create_post",
+      "arguments": {
+        "title": "How to prepare your bike before a puncture repair visit",
+        "slug": "prepare-bike-puncture-repair-visit",
+        "post_type": "post",
+        "categories": [
+          "Bicycle care"
+        ],
+        "tags": [
+          "puncture repair",
+          "tires",
+          "workshop visit"
+        ],
+        "excerpt": "A short preparation checklist for bike owners: what to notice about the air loss, and what to bring when you drop the bike at our workshop for puncture repair.",
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "reasoning": "Complements the Bicycle puncture repair service page (post 100) with the distinct reader task of preparing for the visit. Content stays inside supported services and avoids prices, hours, credentials and testimonials per site notes.",
+        "summary": "New blog draft: preparing for a bicycle puncture repair visit, linked to workflow and post 100.",
+        "content": "<p>A flat tire is easier to sort out when you arrive with a clear picture of what happened. Our workshop repairs bicycle tire punctures and inspects tires, and one of the most useful things you can bring along is a short description of when the air loss occurs. Here is how to put that description together before you visit.</p>\n\n<h2>Notice when the air disappears</h2>\n<p>Air loss follows patterns, and the pattern tells us where to look. Before you head over, think about which of these fits your bike:</p>\n<ul>\n<li>The tire went flat suddenly while you were riding.</li>\n<li>The tire goes soft over a few hours after you pump it.</li>\n<li>The tire holds air for several days, then needs topping up again.</li>\n<li>The tire only loses air after you ride over rough ground or a kerb.</li>\n</ul>\n<p>Write your answer down or keep it in a note on your phone. A sentence such as \"it stays firm overnight but is soft by the evening\" is more useful to us than \"it keeps going flat\".</p>\n\n<h2>Note where and how you were riding</h2>\n<p>If the flat arrived during a ride, try to recall the surface: broken glass on a road, a gravel path, a building site, or a hard kerb strike. If you have had several flats on the same wheel in a short period, mention that too. Repeat punctures on one wheel point somewhere different from a single unlucky ride.</p>\n\n<h2>Leave the evidence in place</h2>\n<p>It is tempting to pull the tire off and hunt for the hole yourself. If you would rather leave it to us, the most helpful thing is to leave the wheel and tire as they are. The position of the object in the tread, and how the tube sits inside the tire, are both clues. If you have already removed the tube or patched it, keep the old tube and bring it with you.</p>\n\n<h2>What to bring with the bike</h2>\n<p>You can bring the bike in and describe the problem at the counter. A few extras help:</p>\n<ul>\n<li>The whole bike, rather than just the wheel, if you are not sure which wheel is affected.</li>\n<li>Any tube you already removed or patched.</li>\n<li>Anything you pulled out of the tire, such as a thorn, tack or shard.</li>\n<li>Your lock or accessories removed if they get in the way of the wheel.</li>\n</ul>\n\n<h2>A quick check before you leave home</h2>\n<p>Pump the tire up and give it a minute. If it is soft again immediately, say so. If it stays hard and only fails after a ride, say that instead. Either observation narrows things down, and both are quicker to gather at home than in the workshop.</p>\n\n<h2>Bring the description, we will do the rest</h2>\n<p>None of this asks you to diagnose the puncture. The aim is simply that when you arrive, you can answer one question clearly: when does the air go? With that, we can inspect the tire and get on with the repair. You can read what the service covers on our <a href=\"https://fixture.invalid/puncture-repair/\">bicycle puncture repair</a> page.</p>",
+        "success_metrics": {
+          "hypothesis": "Bike owners searching for how to prepare for a puncture repair visit will find a preparation checklist that the service page does not cover.",
+          "target_query": "prepare bike for puncture repair",
+          "eval_window_days": 90
+        }
+      },
+      "result": {
+        "error": "workflow_sources_changed",
+        "message": "The source changed after the plan. Read current source and scope, then prepare a fresh workflow before retrying."
+      }
+    },
+    {
+      "tool": "get_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 100
+      },
+      "result": {
+        "post_id": 100,
+        "title": "Bicycle puncture repair",
+        "url": "https://fixture.invalid/puncture-repair/",
+        "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+        "coverage": "stored_content",
+        "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "content": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "content_workflow",
+      "arguments": {
+        "objective": "new_blog"
+      },
+      "result": {
+        "record_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "record": {
+          "objective": "new_blog",
+          "execution_state": "prepared_not_executed",
+          "blog_plan": {
+            "ideas": [
+              {
+                "title": "What to tell a bicycle workshop about a recurring flat tire",
+                "reader_task": "Help a bike owner describe the recurring problem before a repair visit",
+                "source_post_id": 100,
+                "source_evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                "overlap": "No existing post solves this preparation task in the complete fixture inventory.",
+                "demand": "unknown"
+              }
+            ],
+            "gsc": {
+              "status": "not_connected",
+              "rows": []
+            },
+            "scope": {
+              "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+              "freshness": {
+                "status": "source_hashes_match"
+              },
+              "sources": [
+                {
+                  "post_id": 100,
+                  "title": "Bicycle puncture repair",
+                  "url": "https://fixture.invalid/puncture-repair/",
+                  "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                  "coverage": "stored_content",
+                  "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+                }
+              ],
+              "context": {
+                "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+              },
+              "audience": "Local bicycle owners",
+              "excluded_topics": [
+                "motor vehicles",
+                "medical advice"
+              ],
+              "scope_saved": true
+            }
+          },
+          "source_basis": [
+            {
+              "post_id": 100,
+              "title": "Bicycle puncture repair",
+              "url": "https://fixture.invalid/puncture-repair/",
+              "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "coverage": "stored_content",
+              "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+            }
+          ],
+          "agent_steps": [
+            "Inspect current sources and distinct task.",
+            "Create post_type=post draft with workflow_id.",
+            "Verify the actual post and pending record."
+          ],
+          "background_execution": false
+        }
+      }
+    },
+    {
+      "tool": "draft_create_post",
+      "arguments": {
+        "title": "How to prepare your bike before a puncture repair visit",
+        "slug": "prepare-bike-puncture-repair-visit",
+        "post_type": "post",
+        "categories": [
+          "Bicycle care"
+        ],
+        "tags": [
+          "puncture repair",
+          "tires",
+          "workshop visit"
+        ],
+        "excerpt": "A short preparation checklist for bike owners: what to notice about the air loss, and what to bring when you drop the bike at our workshop for puncture repair.",
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "reasoning": "Complements the Bicycle puncture repair service page (post 100) with the distinct reader task of preparing for the visit. Content stays inside supported services and avoids prices, hours, credentials and testimonials per site notes. Prepared after re-reading current sources following a workflow_sources_changed refusal.",
+        "summary": "New blog draft: preparing for a bicycle puncture repair visit, linked to a fresh workflow and post 100.",
+        "content": "<p>A flat tire is easier to sort out when you arrive with a clear picture of what happened. Our workshop repairs bicycle tire punctures and inspects tires, and one of the most useful things you can bring along is a short description of when the air loss occurs. Here is how to put that description together before you visit.</p>\n\n<h2>Notice when the air disappears</h2>\n<p>Air loss follows patterns, and the pattern tells us where to look. Before you head over, think about which of these fits your bike:</p>\n<ul>\n<li>The tire went flat suddenly while you were riding.</li>\n<li>The tire goes soft over a few hours after you pump it.</li>\n<li>The tire holds air for several days, then needs topping up again.</li>\n<li>The tire only loses air after you ride over rough ground or a kerb.</li>\n</ul>\n<p>Write your answer down or keep it in a note on your phone. A sentence such as \"it stays firm overnight but is soft by the evening\" is more useful to us than \"it keeps going flat\".</p>\n\n<h2>Note where and how you were riding</h2>\n<p>If the flat arrived during a ride, try to recall the surface: broken glass on a road, a gravel path, a building site, or a hard kerb strike. If you have had several flats on the same wheel in a short period, mention that too. Repeat punctures on one wheel point somewhere different from a single unlucky ride.</p>\n\n<h2>Leave the evidence in place</h2>\n<p>It is tempting to pull the tire off and hunt for the hole yourself. If you would rather leave it to us, the most helpful thing is to leave the wheel and tire as they are. The position of the object in the tread, and how the tube sits inside the tire, are both clues. If you have already removed the tube or patched it, keep the old tube and bring it with you.</p>\n\n<h2>What to bring with the bike</h2>\n<p>You can bring the bike in and describe the problem at the counter. A few extras help:</p>\n<ul>\n<li>The whole bike, rather than just the wheel, if you are not sure which wheel is affected.</li>\n<li>Any tube you already removed or patched.</li>\n<li>Anything you pulled out of the tire, such as a thorn, tack or shard.</li>\n<li>Your lock or accessories removed if they get in the way of the wheel.</li>\n</ul>\n\n<h2>A quick check before you leave home</h2>\n<p>Pump the tire up and give it a minute. If it is soft again immediately, say so. If it stays hard and only fails after a ride, say that instead. Either observation narrows things down, and both are quicker to gather at home than in the workshop.</p>\n\n<h2>Bring the description, we will do the rest</h2>\n<p>None of this asks you to diagnose the puncture. The aim is simply that when you arrive, you can answer one question clearly: when does the air go? With that, we can inspect the tire and get on with the repair. You can read what the service covers on our <a href=\"https://fixture.invalid/puncture-repair/\">bicycle puncture repair</a> page.</p>",
+        "success_metrics": {
+          "hypothesis": "Bike owners searching for how to prepare for a puncture repair visit will find a preparation checklist that the service page does not cover.",
+          "target_query": "prepare bike for puncture repair",
+          "eval_window_days": 90
+        }
+      },
+      "result": {
+        "post_id": 901,
+        "pending_id": 71,
+        "preview_url": "https://fixture.invalid/?p=901&preview=true"
+      }
+    },
+    {
+      "tool": "verify_content_workflow",
+      "arguments": {
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "post_id": 901
+      },
+      "result": {
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "record_integrity_pass": true,
+        "execution_state": "draft_and_pending_record_verified",
+        "publication_verified": false,
+        "editorial_quality": "requires_review",
+        "rendered_output": "not_checked",
+        "result": {
+          "post_id": 901,
+          "pending_id": 71,
+          "post_status": "draft"
+        },
+        "source_basis": {
+          "current": true
+        }
+      }
+    },
+    {
+      "tool": "list_pending_changes",
+      "arguments": {},
+      "result": {
+        "pending": [
+          {
+            "id": 71,
+            "post_id": 901,
+            "status": "pending",
+            "change_type": "publish_draft"
+          }
+        ]
+      }
+    }
+  ],
+  "drafts": {
+    "901": {
+      "title": "How to prepare your bike before a puncture repair visit",
+      "slug": "prepare-bike-puncture-repair-visit",
+      "post_type": "post",
+      "categories": [
+        "Bicycle care"
+      ],
+      "tags": [
+        "puncture repair",
+        "tires",
+        "workshop visit"
+      ],
+      "excerpt": "A short preparation checklist for bike owners: what to notice about the air loss, and what to bring when you drop the bike at our workshop for puncture repair.",
+      "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "reasoning": "Complements the Bicycle puncture repair service page (post 100) with the distinct reader task of preparing for the visit. Content stays inside supported services and avoids prices, hours, credentials and testimonials per site notes. Prepared after re-reading current sources following a workflow_sources_changed refusal.",
+      "summary": "New blog draft: preparing for a bicycle puncture repair visit, linked to a fresh workflow and post 100.",
+      "content": "<p>A flat tire is easier to sort out when you arrive with a clear picture of what happened. Our workshop repairs bicycle tire punctures and inspects tires, and one of the most useful things you can bring along is a short description of when the air loss occurs. Here is how to put that description together before you visit.</p>\n\n<h2>Notice when the air disappears</h2>\n<p>Air loss follows patterns, and the pattern tells us where to look. Before you head over, think about which of these fits your bike:</p>\n<ul>\n<li>The tire went flat suddenly while you were riding.</li>\n<li>The tire goes soft over a few hours after you pump it.</li>\n<li>The tire holds air for several days, then needs topping up again.</li>\n<li>The tire only loses air after you ride over rough ground or a kerb.</li>\n</ul>\n<p>Write your answer down or keep it in a note on your phone. A sentence such as \"it stays firm overnight but is soft by the evening\" is more useful to us than \"it keeps going flat\".</p>\n\n<h2>Note where and how you were riding</h2>\n<p>If the flat arrived during a ride, try to recall the surface: broken glass on a road, a gravel path, a building site, or a hard kerb strike. If you have had several flats on the same wheel in a short period, mention that too. Repeat punctures on one wheel point somewhere different from a single unlucky ride.</p>\n\n<h2>Leave the evidence in place</h2>\n<p>It is tempting to pull the tire off and hunt for the hole yourself. If you would rather leave it to us, the most helpful thing is to leave the wheel and tire as they are. The position of the object in the tread, and how the tube sits inside the tire, are both clues. If you have already removed the tube or patched it, keep the old tube and bring it with you.</p>\n\n<h2>What to bring with the bike</h2>\n<p>You can bring the bike in and describe the problem at the counter. A few extras help:</p>\n<ul>\n<li>The whole bike, rather than just the wheel, if you are not sure which wheel is affected.</li>\n<li>Any tube you already removed or patched.</li>\n<li>Anything you pulled out of the tire, such as a thorn, tack or shard.</li>\n<li>Your lock or accessories removed if they get in the way of the wheel.</li>\n</ul>\n\n<h2>A quick check before you leave home</h2>\n<p>Pump the tire up and give it a minute. If it is soft again immediately, say so. If it stays hard and only fails after a ride, say that instead. Either observation narrows things down, and both are quicker to gather at home than in the workshop.</p>\n\n<h2>Bring the description, we will do the rest</h2>\n<p>None of this asks you to diagnose the puncture. The aim is simply that when you arrive, you can answer one question clearly: when does the air go? With that, we can inspect the tire and get on with the repair. You can read what the service covers on our <a href=\"https://fixture.invalid/puncture-repair/\">bicycle puncture repair</a> page.</p>",
+      "success_metrics": {
+        "hypothesis": "Bike owners searching for how to prepare for a puncture repair visit will find a preparation checklist that the service page does not cover.",
+        "target_query": "prepare bike for puncture repair",
+        "eval_window_days": 90
+      }
+    }
+  },
+  "workflow_reads": 2,
+  "stale_seen": true,
+  "setting_writes": 0
+}

@@ -1,0 +1,242 @@
+[
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 18,
+   "widget_id": "6aba1a6e",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_18_6aba1a6e.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "1a02a546",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_37_1a02a546.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "303e86d7",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_37_303e86d7.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "4029ee68",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_37_4029ee68.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 37,
+   "widget_id": "51115f8c",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_37_51115f8c.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "1ebd3c91",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_39_1ebd3c91.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "36aee674",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_39_36aee674.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "4fa81b82",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_39_4fa81b82.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "52e8bc18",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_39_52e8bc18.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 39,
+   "widget_id": "71d1c2d8",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_39_71d1c2d8.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "167386ef",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_41_167386ef.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "3d0fa7c7",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_41_3d0fa7c7.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "54b2c526",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_41_54b2c526.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 41,
+   "widget_id": "629b6611",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_41_629b6611.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "207276b1",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_43_207276b1.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "24ad5100",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_43_24ad5100.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "2db3e4aa",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_43_2db3e4aa.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "55d8ada0",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_43_55d8ada0.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 43,
+   "widget_id": "5cff88ee",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_43_5cff88ee.json"
+ },
+ {
+  "route": "cc-assistant/v1/draft/elementor-widget",
+  "method": "POST",
+  "body": {
+   "post_id": 45,
+   "widget_id": "1d4cd478",
+   "settings": {
+    "title_color": "#FFFFFF"
+   }
+  },
+  "out": "D:/cc-assistant/tools/out/pill_45_1d4cd478.json"
+ }
+]

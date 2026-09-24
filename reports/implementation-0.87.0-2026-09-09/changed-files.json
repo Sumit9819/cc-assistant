@@ -1,0 +1,167 @@
+[
+  {
+    "path": "README.md",
+    "before_sha256": "cc0c016489d1d1c5160e850f461e9fcd092fe2a58a7bad588535a665b95414a7",
+    "after_sha256": "9889442142d86b716441ea5ee8f9c9474086aa083482610792c467f50867f907"
+  },
+  {
+    "path": "RELIABILITY.md",
+    "before_sha256": null,
+    "after_sha256": "665c467506a7f0af16133c7c40b3060c7c34b717aa3db4228c5099f0a2625076"
+  },
+  {
+    "path": "bin/agent-contract.php",
+    "before_sha256": null,
+    "after_sha256": "effe6c4ab35ef5eca71ea20a86d86f4fc297281e30d142949c5159e5deabfabb"
+  },
+  {
+    "path": "bin/content-tools.php",
+    "before_sha256": "63d8619528f40c78d5d6bdf06704e62a33fc1a6ee54c6f830650de913f683d0a",
+    "after_sha256": "93058f5ee5d1a05d73b302fc0fcfcb73b3a3e9f1fc05be7e1d3803892a010b6f"
+  },
+  {
+    "path": "bin/mcp-server.php",
+    "before_sha256": "272e3c63cbb758217d2823c415838ab7b13b349e1ccaf357477d526dc8babde9",
+    "after_sha256": "dea6fc00f5cdd1916aa746fd819620861d6d6d096ffca7d07146097a2492677a"
+  },
+  {
+    "path": "bin/tool-catalog.php",
+    "before_sha256": null,
+    "after_sha256": "9d28d171560817ae1351ef879fdc2a9d3c267c04d2d6dc8f372112c733a45819"
+  },
+  {
+    "path": "bin/warehouse.php",
+    "before_sha256": "92acd61a8d7eb4af9436024d9b10a4555e90edaf454a0c7fa770e20b6588af4b",
+    "after_sha256": "20e0900f5931fd33273ecf64e2ffd6f294a426cddacff59c438728c399f27783"
+  },
+  {
+    "path": "cc-assistant.php",
+    "before_sha256": "7481978dd8c2b89b1fa22fb1726218dd296121ba63047f1eb91d6ae3f49b4447",
+    "after_sha256": "a6c98055661031dba2aa3d086b3db60a4dbd3be383bffcecb6a3e0164a12567e"
+  },
+  {
+    "path": "includes/class-apply.php",
+    "before_sha256": "656ce499837243bed9c3f69474552158a360f68436cd99d12ac4e42be8bbbc07",
+    "after_sha256": "3bf1c771b8cfecd6f1b77ac992f213319041d2f154f94a21a1706149f9681413"
+  },
+  {
+    "path": "includes/class-capabilities.php",
+    "before_sha256": "18d9f4fc64dd829be0e2e3a60d24374d47f01ecb6878237463883e64a1dfc252",
+    "after_sha256": "17fd84a0f0b006f9814c35550fa45ff96abf51e77589a04fae19f2330d343eb7"
+  },
+  {
+    "path": "includes/class-content-strategy.php",
+    "before_sha256": "26d030ffea4ecd6403cd950c07dfb406d50f6d061c7b9abed1f9778889c9a77f",
+    "after_sha256": "7d993b0585ff228131781d4c1365bc8335640fe405eaf15314f007cd1946bd22"
+  },
+  {
+    "path": "includes/class-content-workflow.php",
+    "before_sha256": "c89dca14d6ccc6743149b6736cd9b967edd45d73f28e2635a724910fc43a1bfc",
+    "after_sha256": "fc013d5ed8279498c0a6dee3939d3505173440b1aa06e857933a3fd998c68b49"
+  },
+  {
+    "path": "includes/class-integrity.php",
+    "before_sha256": "1ac8f8dbeb565ea53262f04a6b8dc4fbab79a0003bf764f62e46cadd17f42371",
+    "after_sha256": "9f413a663d2c899cf7edfce3acee42678ad05c0c6b8dbdbe3abe6793938d283a"
+  },
+  {
+    "path": "includes/class-page-robustness.php",
+    "before_sha256": "396781081c8a8772405755701ec497ba0c638304a248646225d97a188efe3c44",
+    "after_sha256": "fe22f7ed804921a127586ef98649602f876ee204247ac84928029f889dcdf35f"
+  },
+  {
+    "path": "includes/class-plugin-capability.php",
+    "before_sha256": null,
+    "after_sha256": "240bf7a924945b6a9e241c49491526fc95d44bda9b46d52f98b71ab138ca43ae"
+  },
+  {
+    "path": "includes/class-rest-api.php",
+    "before_sha256": "7f2d83c2b3fe8045d507bd722f66fbea06305ed380dc533e02f4641e71e0d2b2",
+    "after_sha256": "27b982a697952bbd8d97ea951b29fe552576f339fbeea33377fa73373671f11e"
+  },
+  {
+    "path": "includes/class-rest-content-strategy.php",
+    "before_sha256": "4b8c42037bfa9cceff852ad1b55b6d80ffecbc2e0e6f94a9f63e4105ffc11f8b",
+    "after_sha256": "52f0abdf909adf4de400fd2c4f28cf3c8366fb2686ba850cbae2d77d38371993"
+  },
+  {
+    "path": "includes/class-seo-playbook.php",
+    "before_sha256": "a6b3a6a46217a0bec5bacfb719973f2164a3ece1a81ae2e518957e2a67e51d82",
+    "after_sha256": "ab7c19ed6e1068c5f9b74e84bc567fa68e49b19ad93a9b70cd57cef6633cee47"
+  },
+  {
+    "path": "includes/class-seo-policy.php",
+    "before_sha256": "1320fd46b2121876b388d0b9a8535ed8bbd094cb4f20f6ffb8284e4c65f77767",
+    "after_sha256": "b178dd2e0aaf45bfa5ad4e1cce7ae6838e4f8e918ed79c12dbb40facf7266187"
+  },
+  {
+    "path": "includes/class-setting-writer.php",
+    "before_sha256": "75d38483eb910c4252bf69298381340490e7416553d5903cad1e0885412dd258",
+    "after_sha256": "7bfcaad9fe99534c17ffa1c3969a4a0bbc6d958b282dc3ce1335b4bbbea262c9"
+  },
+  {
+    "path": "includes/class-widget-schema.php",
+    "before_sha256": "6a35cd73f5d1e1363aedb4eb550a66782ca934f0bdb2c667ac53c8930dea1769",
+    "after_sha256": "4a4c80580763c2e1d20863db400c2e992f3f419847c129ae3b22f13d4dc466b3"
+  },
+  {
+    "path": "includes/class-workflow-verifier.php",
+    "before_sha256": null,
+    "after_sha256": "119ea8019aa44c89c118cf429ae0b437265b74e2e836fe6e26eaaa55b6fa5925"
+  },
+  {
+    "path": "readme.txt",
+    "before_sha256": "fef185377625ddb6c18344a8f60d57f686a7d0227f4bc744907726a77020d34b",
+    "after_sha256": "c32ec26ea11e4435ea66bafd2fed15d6f293a97ed3a6b0c6a41127673cd3d1cf"
+  },
+  {
+    "path": "tests/aeo-observations-test.php",
+    "before_sha256": null,
+    "after_sha256": "c095726491ec9d34f28e28e7b6d690df94b723d0046cc080ef0fce49aa0f92b8"
+  },
+  {
+    "path": "tests/agent-contract-test.php",
+    "before_sha256": null,
+    "after_sha256": "3747798587e233a0efbe28fbe0724c56e4cea620c4145b2f178cb6db8cf66b7e"
+  },
+  {
+    "path": "tests/commodity-test.php",
+    "before_sha256": "5443cca19ea7b69874555341ebeedb8d7d3054567f10bf0a49ba54db4700ba03",
+    "after_sha256": "70cd3f142aca6eb3005805a16fcbd9e4e6c4502fd38dade8f02798dd0bee4350"
+  },
+  {
+    "path": "tests/content-scope-test.php",
+    "before_sha256": "61e82329608d65b2f537a4c489e21e79f8743f3d472e74258db7134b35ac60f7",
+    "after_sha256": "d213b968b5bb4e65a31a9336f3abddc4c8abdf571c675ce83871c590d88887bc"
+  },
+  {
+    "path": "tests/content-strategy-test.php",
+    "before_sha256": "acddbe651322fef321bead4ea9a50088c2c18ddbaa2a1a4f6e586f9cd15a9100",
+    "after_sha256": "b70fdd5a295466e956765d68521d37106abefbdc3d9bec3361ba416228f4cb2a"
+  },
+  {
+    "path": "tests/evals/fixture-server.py",
+    "before_sha256": null,
+    "after_sha256": "36ca97e9635ac843c6f41c40c69b1396cd3349595682f0de7cce0e446257c254"
+  },
+  {
+    "path": "tests/evals/run.py",
+    "before_sha256": null,
+    "after_sha256": "df5af992162fe78598807fd175e15d3e389e43937f9e83923496f6e2e792199c"
+  },
+  {
+    "path": "tests/plugin-capability-test.php",
+    "before_sha256": null,
+    "after_sha256": "58f683063e84ca49d0a0b2237bc402e482d50eb3da4fcb1ab424db37128816dd"
+  },
+  {
+    "path": "tests/robustness-evidence-test.php",
+    "before_sha256": null,
+    "after_sha256": "f9e199d9a1dbb9497bed0f810943da4a30e6bf35a0721ce6bdb359ee585129a8"
+  },
+  {
+    "path": "tests/workflow-verifier-test.php",
+    "before_sha256": null,
+    "after_sha256": "3d355f679ee8e3233304e64b974d12ac5a34e97efd6757cdb868f1de9a3827ff"
+  }
+]

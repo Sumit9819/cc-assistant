@@ -1,0 +1,372 @@
+{
+  "_note": "Batch 4. Count set by cardneed.py plus a read of every candidate section, not a quota. 3886 was three cards short of what it warrants and 3816 had none at all, so those two carry the batch. 3930 and 3921 get one each. 3796 was dropped after reading it: its symptom comparison chart already answers four of the six items a heat-exhaustion signs card would have carried. 3921's second candidate (What Pediatric-Friendly Emergency Care Looks Like) was dropped as facility description rather than a reader decision, the same fault as the removed 60-to-90-minute card.",
+  "cards": [
+    {
+      "file": "erof-3886-fast-signs",
+      "post_id": 3886,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "stroke",
+      "heading": "The F.A.S.T. Method: 4 Warning Signs of Stroke",
+      "title": [
+        "Stroke: The ",
+        "F.A.S.T.",
+        " Warning Signs"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911",
+      "items": [
+        {
+          "icon": "smile",
+          "label": "F: Face drooping",
+          "note": "Ask them to smile. Does one side droop?"
+        },
+        {
+          "icon": "trending-down",
+          "label": "A: Arm weakness",
+          "note": "Raise both arms. Does one drift down?"
+        },
+        {
+          "icon": "waves",
+          "label": "S: Speech difficulty",
+          "note": "Words slurred or jumbled"
+        },
+        {
+          "icon": "phone-call",
+          "label": "T: Time to call 911",
+          "note": "Note when the symptoms started"
+        }
+      ]
+    },
+    {
+      "file": "erof-3886-first-five-minutes",
+      "post_id": 3886,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "stroke",
+      "heading": "The First 5 Minutes: Exactly What To Do",
+      "title": [
+        "Suspected Stroke: The ",
+        "First 5 Minutes",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five steps to take in the first five minutes of a suspected stroke",
+      "steps": [
+        {
+          "icon": "phone-call",
+          "label": "Call 911",
+          "note": "Do not call a friend or search online"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Note the time",
+          "note": "When it started, or last seen normal"
+        },
+        {
+          "icon": "users",
+          "label": "Stay with them",
+          "note": "Help them sit or lie down safely"
+        },
+        {
+          "icon": "activity",
+          "label": "Track changes",
+          "note": "Tell the paramedics what worsened"
+        },
+        {
+          "icon": "ban",
+          "label": "Nothing by mouth",
+          "note": "No food, water or medicine"
+        }
+      ]
+    },
+    {
+      "file": "erof-3886-er-stroke-clock",
+      "post_id": 3886,
+      "brand": "erofirving",
+      "layout": "timeline",
+      "subject": "stroke",
+      "heading": "What Happens When You Arrive at the ER of Irving for a Suspected Stroke",
+      "title": [
+        "At the ER: The ",
+        "Stroke",
+        " Clock"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The stroke workup at ER of Irving: exam within fifteen minutes, CT within twenty five, results within forty five, treatment decision within sixty",
+      "nodes": [
+        {
+          "time": "15 min",
+          "label": "Exam",
+          "note": "Vitals, blood draw, neuro exam"
+        },
+        {
+          "time": "25 min",
+          "label": "CT scan",
+          "note": "Rules bleeding in or out"
+        },
+        {
+          "time": "45 min",
+          "label": "Results",
+          "note": "Read, neurologist consulted"
+        },
+        {
+          "time": "60 min",
+          "label": "Decision",
+          "note": "Clot treatment, or transfer"
+        }
+      ]
+    },
+    {
+      "file": "erof-3816-eye-red-flags",
+      "post_id": 3816,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "eye",
+      "heading": "Recognizing the Red Flags: When to Seek Urgent Care",
+      "title": [
+        "Eye ",
+        "Red Flags",
+        " That Need the ER"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five eye symptoms that need emergency care: severe pain, pain with headache or fever, sudden vision loss, halos around lights, and trauma",
+      "items": [
+        {
+          "icon": "eye",
+          "label": "Sudden, severe eye pain",
+          "note": "Not a gritty or mild ache"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Pain with headache or fever",
+          "note": "Or nausea alongside it"
+        },
+        {
+          "icon": "circle-x",
+          "label": "Sudden loss of vision",
+          "note": "In one eye or in both"
+        },
+        {
+          "icon": "sun",
+          "label": "Halos around lights",
+          "note": "Rings of light in your vision"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "A blow to the eye",
+          "note": "Any physical trauma"
+        }
+      ]
+    },
+    {
+      "file": "erof-3816-scratched-cornea",
+      "post_id": 3816,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "cornea",
+      "heading": "Scratched Cornea Symptoms: More Than Just an Irritation",
+      "title": [
+        "A Scratched ",
+        "Cornea",
+        ": What It Feels Like"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision",
+      "items": [
+        {
+          "icon": "circle-dot",
+          "label": "Grit or sand in the eye"
+        },
+        {
+          "icon": "droplet",
+          "label": "Tearing and redness"
+        },
+        {
+          "icon": "sun",
+          "label": "Light sensitivity"
+        },
+        {
+          "icon": "eye",
+          "label": "Blurred vision"
+        }
+      ]
+    },
+    {
+      "file": "erof-3816-retinal-spots",
+      "post_id": 3816,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "retina",
+      "heading": "When Seeing Spots is a Retinal Emergency",
+      "title": [
+        "When ",
+        "Seeing Spots",
+        " Is a Retina Emergency"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three retinal emergency signs: flashes of light, a curtain across the vision, and a sudden shower of floaters",
+      "items": [
+        {
+          "icon": "zap",
+          "label": "Flashers",
+          "note": "Sudden streaks like lightning bolts"
+        },
+        {
+          "icon": "moon",
+          "label": "A curtain effect",
+          "note": "A shadow moving across your field of view"
+        },
+        {
+          "icon": "sparkles",
+          "label": "A shower of floaters",
+          "note": "A sudden, massive jump in the spots you see"
+        }
+      ]
+    },
+    {
+      "file": "erof-3816-eye-what-not-to-do",
+      "post_id": 3816,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "eye injury",
+      "heading": "Protecting Your Sight: Immediate Steps to Take",
+      "title": [
+        "Eye Injury: What ",
+        "Not",
+        " To Do"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Three things not to do after an eye injury, and the one thing you should do",
+      "items": [
+        {
+          "icon": "ban",
+          "label": "Do not press on the eye",
+          "note": "No pressure on the eyeball"
+        },
+        {
+          "icon": "ban",
+          "label": "Do not pull out an object",
+          "note": "Not if it looks embedded"
+        },
+        {
+          "icon": "ban",
+          "label": "No drops or ointment",
+          "note": "Unless a professional tells you to"
+        },
+        {
+          "icon": "circle-check",
+          "label": "Do stay calm and still",
+          "note": "Keep both eyes as still as you can"
+        }
+      ]
+    },
+    {
+      "file": "erof-3930-what-to-expect",
+      "post_id": 3930,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "cut",
+      "heading": "What to Expect During Your Visit",
+      "title": [
+        "Getting a Cut ",
+        "Closed",
+        ": What to Expect"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The four stages of having a deep cut closed: numbing, irrigation, closure, and aftercare",
+      "steps": [
+        {
+          "icon": "syringe",
+          "label": "Numbing",
+          "note": "A local anesthetic such as lidocaine"
+        },
+        {
+          "icon": "droplets",
+          "label": "Irrigation",
+          "note": "Sterile saline flushes out debris"
+        },
+        {
+          "icon": "bandage",
+          "label": "Closure",
+          "note": "Sutures, staples or glue"
+        },
+        {
+          "icon": "clipboard-list",
+          "label": "Aftercare",
+          "note": "Keeping it dry, and when to return"
+        }
+      ]
+    },
+    {
+      "file": "erof-3921-fever-home-care",
+      "post_id": 3921,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "fever",
+      "heading": "At-Home Comfort Measures vs. Medical Intervention",
+      "title": [
+        "Fever ",
+        "101 to 102",
+        "°F at Home"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "What to do and what to avoid when caring for a child's fever of 101 to 102 degrees at home",
+      "good": {
+        "icon": "circle-check",
+        "heading": "Do this",
+        "items": [
+          "Fluids often: water, Pedialyte, popsicles",
+          "Light clothing, so the heat can escape",
+          "Acetaminophen or ibuprofen as directed"
+        ]
+      },
+      "bad": {
+        "icon": "ban",
+        "heading": "Never",
+        "items": [
+          "Aspirin. It is linked to Reye's Syndrome",
+          "Bundling them up in blankets",
+          "Under 3 months old? Skip this, go in"
+        ]
+      }
+    }
+  ]
+}

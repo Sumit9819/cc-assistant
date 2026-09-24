@@ -1,0 +1,67 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Sora"; src: url("../fonts/Sora[wght].ttf"); font-weight: 100 800; }
+  @font-face { font-family: "Manrope"; src: url("../fonts/Manrope[wght].ttf"); font-weight: 200 800; }
+  /* Opaque on purpose: this is a scene, not an overlay. */
+  html, body { margin: 0; width: 1920px; height: 1080px; background: #0b0c10; overflow: hidden; }
+  #glow { position: absolute; inset: 0;
+          background: radial-gradient(900px 620px at 32% 58%, rgba(222,171,78,.07), transparent 70%); }
+  #thanks { position: absolute; left: 140px; top: 128px; font: 600 68px/1.1 "Sora"; letter-spacing: -0.02em;
+            color: #f6f2eb; max-width: 1200px; text-wrap: balance; }
+  #eyebrow { position: absolute; left: 142px; top: 306px; font: 700 26px "Manrope";
+             letter-spacing: 6px; color: #deab4e; }
+  /* Reserved zone for YouTube's next-video end-screen element (16:9). */
+  #frame { position: absolute; left: 140px; top: 360px; width: 764px; height: 430px;
+           border: 2px solid rgba(246,242,235,.26); border-radius: 4px;
+           display: flex; align-items: center; justify-content: center; }
+  #play { width: 0; height: 0; border-left: 34px solid rgba(246,242,235,.30);
+          border-top: 22px solid transparent; border-bottom: 22px solid transparent; }
+  /* Reserved zone for the circular subscribe element. */
+  #sub { position: absolute; left: 1310px; top: 400px; width: 340px;
+         display: flex; flex-direction: column; align-items: center; gap: 30px; }
+  #ring { width: 196px; height: 196px; border-radius: 50%; border: 2px solid rgba(222,171,78,.75); }
+  #sublabel { font: 700 28px "Manrope"; letter-spacing: 7px; color: #f6f2eb; }
+  #rule { position: absolute; left: 140px; bottom: 118px; width: 128px; height: 2px;
+          background: #deab4e; transform-origin: left; }
+</style>
+<div id="glow"></div>
+<div id="thanks">Thanks for watching.</div>
+<div id="eyebrow">UP NEXT</div>
+<div id="frame"><div id="play"></div></div>
+<div id="sub"><div id="ring"></div><div id="sublabel">SUBSCRIBE</div></div>
+<div id="rule"></div>
+<script>
+  let S = { note: "", duration: 12.0 };
+  const $ = (id) => document.getElementById(id);
+  const clamp = (t) => Math.min(Math.max(t, 0), 1);
+  const easeOut = (t) => 1 - Math.pow(1 - clamp(t), 3);
+
+  window.setup = (spec) => {
+    S = Object.assign(S, spec);
+    if (S.note) $("thanks").textContent = S.note;
+    window.seek(0);
+  };
+
+  window.seek = (t) => {
+    const a = easeOut(t / 0.7);
+    $("thanks").style.opacity = a;
+    $("thanks").style.transform = `translateY(${(1 - a) * 30}px)`;
+
+    const b = easeOut((t - 0.4) / 0.7);
+    $("eyebrow").style.opacity = b;
+    $("frame").style.opacity = b;
+    $("frame").style.transform = `translateY(${(1 - b) * 24}px)`;
+
+    const c = easeOut((t - 0.7) / 0.7);
+    $("sub").style.opacity = c;
+    $("sub").style.transform = `translateY(${(1 - c) * 24}px)`;
+
+    const r = easeOut((t - 1.0) / 0.8);
+    $("rule").style.transform = `scaleX(${r})`;
+
+    // A slow breathing glow so no frame of a long hold is dead.
+    const drift = 1 + 0.06 * Math.sin(t * 0.7);
+    $("glow").style.transform = `scale(${drift})`;
+  };
+</script>

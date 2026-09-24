@@ -1,0 +1,68 @@
+[
+  {
+    "post_id": 3803,
+    "patches": [
+      {
+        "search": "<h2><b>What to Expect at the Emergency Room (ER)</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-button-battery-what-not-to-do.webp\" alt=\"Three things not to do after a child swallows a button battery, and why each one causes harm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>What to Expect at the Emergency Room (ER)</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3803",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3978,
+    "patches": [
+      {
+        "search": "<h2><strong>How ER of Irving Tells Them Apart</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-red-flags.webp\" alt=\"Six chest pain warning signs that mean calling 911 rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>How ER of Irving Tells Them Apart</strong></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3978",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3882,
+    "patches": [
+      {
+        "search": "<h2><b>When to Seek Professional Wound Care and Burn Treatment: ER Services</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-first-aid.webp\" alt=\"Burn first aid steps to take beside the common mistakes that make a burn worse\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>When to Seek Professional Wound Care and Burn Treatment: ER Services</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3882",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3921,
+    "patches": [
+      {
+        "search": "<h2><b>Dehydration Signs: What to Watch For</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-child-fever-thresholds.webp\" alt=\"Fever temperature thresholds and the right action for three child age groups\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Dehydration Signs: What to Watch For</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3921",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3930,
+    "patches": [
+      {
+        "search": "<h2><b>How long can you wait to get stitches?</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-stitches-or-glue.webp\" alt=\"Stitches and skin glue compared on the wounds each suits, strength and removal\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>How long can you wait to get stitches?</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3930",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3808,
+    "patches": [
+      {
+        "search": "<h2><b>At-Home Care and Medical Treatments</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-flu-emergency-signs.webp\" alt=\"Five breathing and hydration signs in a child that mean emergency care rather than home care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>At-Home Care and Medical Treatments</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3808",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  }
+]

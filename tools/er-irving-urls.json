@@ -1,0 +1,3 @@
+[{"route":"wp/v2/pages?per_page=100&status=publish&_fields=link","method":"GET","out":"irving-pages.json"},
+ {"route":"wp/v2/posts?per_page=100&status=publish&_fields=link","method":"GET","out":"irving-posts.json"},
+ {"route":"wp/v2/posts?per_page=100&page=2&status=publish&_fields=link","method":"GET","out":"irving-posts2.json"}]

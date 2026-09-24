@@ -1,0 +1,341 @@
+{
+ "_note": "Batch H: 6492 Lipo-B MIC injections, 7656 allergy testing. The Lipo-B set keeps the post's honesty intact: the 'what it is not' card and the FDA self-injection warning are both carded, so a reader who only sees the graphics does not come away with a fat-burning claim.",
+ "cards": [
+  {
+   "file": "lipo-b-mic-ingredients",
+   "post_id": 6492,
+   "layout": "icons",
+   "subject": "Lipo-B",
+   "heading": "What Are Lipo-B (MIC) Injections, Really?",
+   "title": [
+    "What Is in a ",
+    "Lipo-B",
+    " (MIC) Injection"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Lipo-B MIC injection holds methionine, inositol and choline, usually with B vitamins including B12",
+   "items": [
+    {
+     "icon": "recycle",
+     "label": "Methionine",
+     "note": "Amino acid in methylation and fat metabolism"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Inositol",
+     "note": "Cell signalling and insulin sensitivity"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Choline",
+     "note": "Helps the liver package and move fats"
+    },
+    {
+     "icon": "zap",
+     "label": "B vitamins",
+     "note": "Usually B12, for energy and nerve function"
+    }
+   ]
+  },
+  {
+   "file": "lipo-b-what-it-is-and-is-not",
+   "post_id": 6492,
+   "layout": "checklist",
+   "subject": "Lipo-B",
+   "heading": "What Lipo-B (MIC) Injections Are Not",
+   "title": [
+    "What ",
+    "Lipo-B",
+    " Is and Is Not"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Lipo-B is nutrient support inside a supervised plan, not an FDA-approved weight-loss drug or a fat-melting shot",
+   "good": {
+    "icon": "circle-check",
+    "heading": "What it is",
+    "items": [
+     "Nutrient support for liver and energy",
+     "A tool inside a supervised plan",
+     "Compounded by a pharmacy"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "What it is not",
+    "items": [
+     "An FDA-approved weight-loss drug",
+     "Proven by large clinical trials",
+     "A fat-melting shot on its own"
+    ]
+   }
+  },
+  {
+   "file": "lipo-b-who-should-be-cautious",
+   "post_id": 6492,
+   "layout": "list",
+   "subject": "Lipo-B",
+   "heading": "Who Should Be Cautious or Avoid MIC/Lipo-B?",
+   "title": [
+    "Who Should Be Cautious With ",
+    "Lipo-B",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Take extra care with Lipo-B if you have heart, liver or kidney disease, a psychiatric history, or ingredient allergies",
+   "items": [
+    {
+     "icon": "heart",
+     "label": "Heart or vascular disease",
+     "note": "Choline intake is a specific concern"
+    },
+    {
+     "icon": "beaker",
+     "label": "Liver or kidney disease",
+     "note": "Significant disease needs review first"
+    },
+    {
+     "icon": "brain",
+     "label": "Psychiatric history",
+     "note": "A history of serious conditions"
+    },
+    {
+     "icon": "triangle-alert",
+     "label": "Ingredient allergies",
+     "note": "To any component of the injection"
+    }
+   ]
+  },
+  {
+   "file": "never-self-inject-fat-dissolvers",
+   "post_id": 6492,
+   "layout": "alert",
+   "subject": "Lipo-B",
+   "heading": "Beware of Unapproved \"Fat-Dissolving\" Injections Online",
+   "logo": {
+    "position": "bottom-right",
+    "variant": "white",
+    "width": 150
+   },
+   "alt": "The FDA warns unapproved fat-dissolving injections have caused infections, scarring and tissue damage; never self-inject",
+   "kicker": "Lipo-B is not an online fat-dissolver",
+   "headline": "Never self-inject",
+   "signs": [
+    {
+     "icon": "shield-alert",
+     "text": "Infections reported by the FDA"
+    },
+    {
+     "icon": "bandage",
+     "text": "Scarring from unapproved products"
+    },
+    {
+     "icon": "triangle-alert",
+     "text": "Tissue damage, sometimes severe"
+    }
+   ],
+   "footer": "Injections belong in a licensed clinic, from a reputable pharmacy"
+  },
+  {
+   "file": "lipo-b-what-to-expect",
+   "post_id": 6492,
+   "layout": "steps",
+   "subject": "Lipo-B",
+   "heading": "What to Expect if You Start Lipo-B Injections",
+   "title": [
+    "Starting ",
+    "Lipo-B",
+    " Injections"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Starting Lipo-B: a consultation with labs and other options, an intramuscular injection visit, then tracked follow-up",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Consultation",
+     "note": "History, labs, and the other options discussed"
+    },
+    {
+     "icon": "syringe",
+     "label": "Injection visit",
+     "note": "Intramuscular, arm or hip, often weekly"
+    },
+    {
+     "icon": "sliders-horizontal",
+     "label": "Follow-up",
+     "note": "Weight, energy, side effects, adjust or stop"
+    }
+   ]
+  },
+  {
+   "file": "types-of-allergy-tests",
+   "post_id": 7656,
+   "layout": "compare",
+   "subject": "allergy test",
+   "heading": "The Different Types of Allergy Tests",
+   "title": [
+    "The Three Types of ",
+    "Allergy Test",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Three allergy tests: skin prick in 15 to 20 minutes, a blood IgE test in days, and a 48-hour patch test",
+   "columns": [
+    "Skin prick",
+    "Blood (IgE)",
+    "Patch"
+   ],
+   "rows": [
+    {
+     "label": "How it works",
+     "values": [
+      "A drop of allergen, then a tiny prick",
+      "A blood sample measured for IgE antibodies",
+      "Allergen patches worn on the skin"
+     ]
+    },
+    {
+     "label": "Results in",
+     "values": [
+      "15 to 20 minutes",
+      "A few days",
+      "48 hours"
+     ]
+    },
+    {
+     "label": "Used for",
+     "values": [
+      "The quickest common screen",
+      "When a lab measurement is preferred",
+      "Delayed reactions, like contact dermatitis"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "preparing-for-an-allergy-test",
+   "post_id": 7656,
+   "layout": "list",
+   "subject": "allergy test",
+   "heading": "Preparing for Your Allergy Test Appointment",
+   "title": [
+    "Preparing for an ",
+    "Allergy Test",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Before an allergy test: tell your doctor about antihistamines, avoid named foods if tested, and wear short sleeves",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "Medications",
+     "note": "Antihistamines can interfere, tell your doctor"
+    },
+    {
+     "icon": "utensils",
+     "label": "Food tests",
+     "note": "You may be asked to avoid certain foods first"
+    },
+    {
+     "icon": "shirt",
+     "label": "Short sleeves",
+     "note": "Makes a skin test far easier"
+    }
+   ]
+  },
+  {
+   "file": "allergy-treatment-options",
+   "post_id": 7656,
+   "layout": "icons",
+   "subject": "allergy",
+   "heading": "Treatment Options Post-Test",
+   "title": [
+    "Treatment After an ",
+    "Allergy",
+    " Test"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Allergy treatment after testing: medications, immunotherapy shots for severe cases, and targeted avoidance",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "Medications",
+     "note": "Antihistamines, decongestants, sprays, drops"
+    },
+    {
+     "icon": "syringe",
+     "label": "Allergy shots",
+     "note": "Immunotherapy, for severe or stubborn cases"
+    },
+    {
+     "icon": "ban",
+     "label": "Avoidance",
+     "note": "The most effective treatment there is"
+    }
+   ]
+  },
+  {
+   "file": "allergy-testing-myths-vs-facts",
+   "post_id": 7656,
+   "layout": "checklist",
+   "subject": "allergy testing",
+   "heading": "Common Misconceptions About Allergy Testing",
+   "title": [
+    "Allergy Testing",
+    " Myths and Facts",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Allergy testing myths: that it hurts, that only food causes allergies, and that testing is only for severe reactions",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Fact",
+    "items": [
+     "A mild sting, over in minutes",
+     "Pollen, dander, mold, dust mites and stings",
+     "Mild symptoms are worth testing too"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "Myth",
+    "items": [
+     "Allergy tests are painful",
+     "You can only be allergic to food",
+     "Testing is only for severe reactions"
+    ]
+   }
+  }
+ ]
+}

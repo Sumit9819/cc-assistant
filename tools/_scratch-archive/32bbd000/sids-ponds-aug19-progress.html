@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sid's Ponds — August 2026 Progress Report</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: A4; margin: 11mm; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1c1c1c; font-size: 10.5pt; line-height: 1.55; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #141414; padding-bottom: 10px; }
+  .brand { font-size: 15pt; font-weight: 800; letter-spacing: 0.5px; }
+  .brand span { color: #E8890C; }
+  .docid { font-family: Consolas, monospace; font-size: 8pt; color: #777; }
+  .sub { margin: 8px 0 14px; color: #555; font-size: 9.5pt; }
+  .hero { background: #141414; color: #fff; border-left: 5px solid #E8890C; border-radius: 8px; padding: 22px 26px 18px; }
+  .kicker { font-family: Consolas, monospace; font-size: 8pt; letter-spacing: 2px; color: #E8890C; text-transform: uppercase; margin-bottom: 12px; }
+  .stats { display: flex; gap: 26px; margin-bottom: 14px; }
+  .stat { flex: 1; }
+  .stat .lbl { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #9a9a9a; text-transform: uppercase; }
+  .stat .n { font-size: 21pt; font-weight: 800; line-height: 1.15; }
+  .stat .n .up { font-size: 9pt; color: #43d963; font-weight: 700; margin-left: 5px; }
+  .stat .cap { font-size: 8pt; color: #bbb; }
+  .hero p { font-size: 9.5pt; color: #ddd; }
+  .hero b, .hero strong { color: #fff; }
+  .gold { color: #E8890C; font-weight: 700; }
+  .sec { margin-top: 18px; }
+  .chip { display: inline-block; background: #141414; color: #fff; font-family: Consolas, monospace; font-size: 8.5pt; padding: 3px 10px; border-radius: 4px; margin-right: 8px; }
+  .sec h2 { display: inline; font-size: 13pt; }
+  .sec .body { margin-top: 8px; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .card { border: 1px solid #e2e2e2; border-radius: 8px; padding: 12px 14px; }
+  .card h4 { font-size: 10pt; margin-bottom: 4px; }
+  .card p { font-size: 9pt; color: #444; }
+  .card .tag { font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; color: #E8890C; text-transform: uppercase; }
+  table { width: 100%; border-collapse: collapse; font-size: 9pt; margin-top: 8px; }
+  th { text-align: left; font-family: Consolas, monospace; font-size: 7.5pt; letter-spacing: 1px; text-transform: uppercase; color: #666; border-bottom: 2px solid #141414; padding: 4px 8px 4px 0; }
+  td { padding: 5px 8px 5px 0; border-bottom: 1px solid #eee; vertical-align: top; }
+  .ok { color: #17692f; font-weight: 700; }
+  .flat { color: #8a6d1f; font-weight: 700; }
+  .fn { font-size: 7.5pt; color: #888; margin-top: 16px; border-top: 1px solid #ddd; padding-top: 7px; }
+  .footer { margin-top: 14px; font-family: Consolas, monospace; font-size: 7.5pt; color: #999; display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">GROWTH<span>BOSS</span></div>
+  <div class="docid">PROGRESS REPORT &nbsp;SP-2026-08-P3</div>
+</div>
+<div class="sub"><b>Sid&rsquo;s Ponds</b> &nbsp;·&nbsp; August progress update &nbsp;·&nbsp; Work completed Aug 12&ndash;19, 2026 &nbsp;·&nbsp; sids-ponds.com</div>
+
+<div class="hero">
+  <div class="kicker">This sprint &nbsp;·&nbsp; every item live and re-checked on the published page</div>
+  <div class="stats">
+    <div class="stat"><div class="lbl">Changes shipped</div><div class="n">14</div><div class="cap">all approved and applied between Aug 12 and Aug 19</div></div>
+    <div class="stat"><div class="lbl">Pages in Google&rsquo;s index file</div><div class="n">15<span class="up">&#9650; was 14</span></div><div class="cap">a page had been silently excluded &mdash; now restored</div></div>
+    <div class="stat"><div class="lbl">Product pages cleaned</div><div class="n">101</div><div class="cap">56 in-lite pages + 45 Kichler pages</div></div>
+    <div class="stat"><div class="lbl">AI reader visits</div><div class="n">451</div><div class="cap">AI assistants reading the site, last 30 days</div></div>
+  </div>
+  <p>The headline this sprint: the Outdoor Lighting page was carrying a <span class="gold">technical fault that kept it out of the site&rsquo;s own index file</span> &mdash; the file that tells Google which pages exist. It has been fixed and the page is back in. Alongside it, three product category pages were rewritten around real customer searches, four links were added between guides and the products they discuss, and three store-page faults were cleared.</p>
+</div>
+
+<div class="sec">
+  <span class="chip">01</span><h2>Outdoor Lighting: A Page Google Could Not Properly See</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">The Outdoor Lighting page told Google that its master copy lived at a different web address &mdash; but that address redirected straight back to the page itself. A circular instruction. The visible consequence: the page was missing from the sitemap, so Google was never being told it existed.</p>
+    <table>
+      <tr><th>What was done</th><th>Verified result</th></tr>
+      <tr><td><b>Circular address instruction corrected</b> so the page points to itself</td><td class="ok">Re-read from the live page &mdash; correct, no faults reported</td></tr>
+      <tr><td><b>Page restored to the sitemap</b></td><td class="ok">Sitemap grew from 14 to 15 pages and now lists it</td></tr>
+      <tr><td><b>Page wording matched to what people search</b> &mdash; it ranked for phrases that appeared nowhere in its text</td><td class="ok">&ldquo;landscape lighting&rdquo;, &ldquo;path lighting&rdquo;, &ldquo;energy-efficient&rdquo;, &ldquo;installation&rdquo; and &ldquo;cost&rdquo; all went from 0 mentions to present</td></tr>
+      <tr><td><b>Two new questions answered</b> on the page: does Sid&rsquo;s install lighting, and what does it cost</td><td class="ok">FAQ went from 5 to 7 questions; layout unchanged</td></tr>
+      <tr><td><b>Link added</b> from the fall maintenance guide</td><td class="ok">Live &mdash; the page previously had only two links pointing to it from the site&rsquo;s own content</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;">The installation answer states plainly that Sid&rsquo;s supplies the fixtures rather than installing them, and offers planning help at the yard instead. Before writing it we checked the home, about, hardscaping, delivery and contact pages to confirm the business does not advertise installation anywhere. The cost answer explains what drives the price and points to live per-fixture pricing rather than quoting a figure.</p>
+    <p style="font-size:9pt;margin-top:6px;"><b>Why it matters:</b> this page is already Google&rsquo;s preferred page on the site for <b>seven</b> local lighting searches &mdash; 1,337 appearances over 90 days &mdash; but sits at positions 20 to 50, where almost nobody clicks. It was competing with one hand tied.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">02</span><h2>Three Category Pages Rewritten Around Real Searches</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">These pages were sitting in positions 10&ndash;25 on Google &mdash; close enough to matter, but written in words customers do not type. Each was rewritten around its own search data, with missing links to sub-ranges added so the products are reachable.</p>
+    <div class="cards">
+      <div class="card"><span class="tag">Rewritten Aug 19</span>
+        <h4>Pumps &amp; Filters</h4>
+        <p>Rebuilt around the pond pump and filter buying questions that were sitting at positions 10&ndash;14 and taking almost no clicks.</p>
+      </div>
+      <div class="card"><span class="tag">Rewritten Aug 19</span>
+        <h4>Outdoor Fire Features</h4>
+        <p>Expanded from 215 words into a proper landing page for fire bowl and fire insert searches, with links to all seven sub-ranges added. A separate broken link to the Fire Bowls range was restored.</p>
+      </div>
+      <div class="card"><span class="tag">Rewritten Aug 19</span>
+        <h4>Lighting</h4>
+        <p>Rewritten for local searches. The page was competing for &ldquo;outdoor lighting mississauga&rdquo; without the word Mississauga appearing anywhere on it.</p>
+      </div>
+      <div class="card"><span class="tag">Also this sprint</span>
+        <h4>Four links between pages</h4>
+        <p>Guides now pass readers through to the products they discuss: winter pond guide and end-of-season guide to Fish &amp; Plants, fall guide to Outdoor Lighting, and a raw web address in the spring guide replaced with readable text.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">03</span><h2>Store Pages: Three Faults Cleared</h2>
+  <div class="body">
+    <table>
+      <tr><th>Fault</th><th>Verified result</th></tr>
+      <tr><td><b>Currency selector sat on top of the price</b> &mdash; the floating switcher was pinned to the left edge of product pages, directly over the price</td><td class="ok">Moved to the right, clear of the price</td></tr>
+      <tr><td><b>Empty element leaving a gap</b> on every in-lite product page &mdash; a button block that rendered nothing at all</td><td class="ok">Removed from all 56 pages using that template</td></tr>
+      <tr><td><b>Kichler product template existed in triplicate</b></td><td class="ok">Two copies confirmed identical and switched off; all 45 product pages checked before and after, output identical</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;">One finding worth recording from that last item: the Kichler-specific template must stay in place. The site&rsquo;s standard product template does not show an Add to Cart button on those 45 items, so they are only buyable through the Kichler template.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">04</span><h2>AI Search: Who Is Reading the Site</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">Search is splitting into two channels: classic Google results, and AI assistants that answer buyers directly. The site now logs every AI assistant that reads it. Here is the first full picture, 30 days to Aug 19:</p>
+    <table>
+      <tr><th>Signal</th><th>Last 30 days, verified Aug 19</th></tr>
+      <tr><td><b>Total AI reader visits</b></td><td class="ok">451 visits across 5 different AI systems</td></tr>
+      <tr><td><b>Who is reading</b></td><td class="ok">Meta AI 423 &middot; ChatGPT 18 &middot; You.com 8 &middot; Amazon 1 &middot; OpenAI Search 1</td></tr>
+      <tr><td><b>Not yet reading the site</b></td><td class="flat">Claude, Perplexity and Google&rsquo;s AI crawler recorded zero visits this period</td></tr>
+      <tr><td><b>What they read</b></td><td class="flat">Mostly the checkout page (114 visits) and filtered product listings &mdash; the same range seen through different sorting and currency options &mdash; rather than the guides and category pages</td></tr>
+    </table>
+    <p style="font-size:9pt;margin-top:8px;"><b>Why it matters:</b> AI assistants cite sources that answer questions with real, specific information. Almost all of the current AI activity is one system reading transactional pages that say nothing about the business. The category rewrites and the lighting page work in this report are exactly the kind of content that becomes citable &mdash; plain answers, named brands, real locations, honest limits.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <span class="chip">05</span><h2>Where the Search Numbers Stand</h2>
+  <div class="body">
+    <p style="font-size:9.5pt;">For context, and stated straight. This sprint&rsquo;s work went live on Aug 19, so none of it is reflected below yet.</p>
+    <table>
+      <tr><th>Signal</th><th>Status</th></tr>
+      <tr><td>Season</td><td class="ok">The yearly taper is normal and visible: 83.8 clicks/day in May, 60.0 in June, 41.6 in July, 39.8 in August</td></tr>
+      <tr><td>August vs July</td><td class="ok">Clicks held nearly flat, down 4% per day &mdash; last year the same July-to-August step was a 10% drop</td></tr>
+      <tr><td>Visibility</td><td class="ok">Impressions up 8% per day in August vs July &mdash; the site is being shown more</td></tr>
+      <tr><td>Year on year</td><td class="flat">August clicks are 16% below the same period last year (637 vs 758). June was &minus;17% and July &minus;21%, so the gap is narrowing but still there</td></tr>
+      <tr><td>Next measurement</td><td>The lighting page and the three category rewrites are scored against real search data 28 days from Aug 19</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="fn">All search figures: Google Search Console, pulled Aug 19, 2026 (data lags approximately 3 days). Season and August-vs-July comparisons use daily averages: May 1&ndash;31, June 1&ndash;30, July 1&ndash;31 and Aug 1&ndash;16, 2026. Year-on-year compares Aug 1&ndash;16, 2026 against Aug 1&ndash;16, 2025 on clicks only. Local lighting searches: 1,337 appearances across seven queries, 90 days to Aug 16, 2026. AI reader figures: server-side crawler log, rolling 30 days through Aug 19. Page wording counts, sitemap contents, page structure and all links were re-read from the live published pages after each change was applied, not assumed from the edit.</div>
+
+<div class="footer"><div>GROWTHBOSS &middot; SEO PROGRESS REPORT</div><div>SP-2026-08-P3 &middot; CONFIDENTIAL</div></div>
+
+</body>
+</html>

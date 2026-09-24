@@ -1,0 +1,714 @@
+{
+ "8559": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-how-retinoids-work-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-how-retinoids-work-v2.webp\""
+   },
+   {
+    "search": "ting collagen down\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ting collagen down\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/neuromodulator-treatment-timeline.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/neuromodulator-treatment-timeline.webp\""
+   },
+   {
+    "search": "last 3 to 4 months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "last 3 to 4 months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-dermal-filler.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/types-of-dermal-filler.webp\""
+   },
+   {
+    "search": "poly-L-lactic acid\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "poly-L-lactic acid\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-treatments-compared.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/anti-aging-treatments-compared.webp\""
+   },
+   {
+    "search": "how long they last\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "how long they last\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 8
+ },
+ "8563": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths-v2.webp\""
+   },
+   {
+    "search": " and recovery time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " and recovery time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-it-treats.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-it-treats.webp\""
+   },
+   {
+    "search": " including melasma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " including melasma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-who-should-wait.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-who-should-wait.webp\""
+   },
+   {
+    "search": "th keloid scarring\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "th keloid scarring\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens-v2.webp\""
+   },
+   {
+    "search": "g over 3 to 7 days\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "g over 3 to 7 days\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 8
+ },
+ "8567": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-preventive-screenings.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-preventive-screenings.webp\""
+   },
+   {
+    "search": "vider as a partner\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "vider as a partner\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition-v2.webp\""
+   },
+   {
+    "search": "r-sweetened drinks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "r-sweetened drinks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "alt=\"Evidence-based nutrition: add fibre-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks\"",
+    "replace": "alt=\"Evidence-based nutrition: add fiber-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks\""
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity-v2.webp\""
+   },
+   {
+    "search": " and mood benefits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " and mood benefits\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-managing-stress.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-managing-stress.webp\""
+   },
+   {
+    "search": "ion lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ion lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 9
+ },
+ "8571": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-a-wellness-assessment-establishes.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-a-wellness-assessment-establishes.webp\""
+   },
+   {
+    "search": " not one complaint\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " not one complaint\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-three-pillars.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-three-pillars.webp\""
+   },
+   {
+    "search": "rminants of health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "rminants of health\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit-v2.webp\""
+   },
+   {
+    "search": " personalised plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " personalised plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "alt=\"A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalised plan\"",
+    "replace": "alt=\"A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalized plan\""
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-long-term-benefits.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-long-term-benefits.webp\""
+   },
+   {
+    "search": "health partnership\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "health partnership\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 9
+ },
+ "8577": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-functional-medicine-is-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-functional-medicine-is-v2.webp\""
+   },
+   {
+    "search": "ng-term resolution\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ng-term resolution\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine-v2.webp\""
+   },
+   {
+    "search": "ts chronic disease\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ts chronic disease\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-principles.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-principles.webp\""
+   },
+   {
+    "search": "vidence-based care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "vidence-based care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation-v2.webp\""
+   },
+   {
+    "search": "ised wellness plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ised wellness plan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "alt=\"A functional medicine consultation: a health history from birth, functional lab testing, then a personalised wellness plan\"",
+    "replace": "alt=\"A functional medicine consultation: a health history from birth, functional lab testing, then a personalized wellness plan\""
+   }
+  ],
+  "n": 9
+ },
+ "8609": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-skin-axis-how-it-works.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/gut-skin-axis-how-it-works.webp\""
+   },
+   {
+    "search": "rrier is disrupted\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "rrier is disrupted\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skin-conditions-linked-to-gut-health.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skin-conditions-linked-to-gut-health.webp\""
+   },
+   {
+    "search": "sacea tied to SIBO\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "sacea tied to SIBO\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/signs-your-gut-affects-your-skin.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/signs-your-gut-affects-your-skin.webp\""
+   },
+   {
+    "search": "ts, sugar cravings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ts, sugar cravings\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin-v2.webp\""
+   },
+   {
+    "search": " to lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " to lower cortisol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "alt=\"Support gut health with probiotics from fermented foods, prebiotic fibre, and 7 to 9 hours of sleep to lower cortisol\"",
+    "replace": "alt=\"Support gut health with probiotics from fermented foods, prebiotic fiber, and 7 to 9 hours of sleep to lower cortisol\""
+   }
+  ],
+  "n": 9
+ },
+ "9173": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-estrogen-regulates.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-estrogen-regulates.webp\""
+   },
+   {
+    "search": "ty and cholesterol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ty and cholesterol\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v2.webp\""
+   },
+   {
+    "search": "etention increases\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "etention increases\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v2.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v3.webp"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2-v2.webp\""
+   },
+   {
+    "search": "edical supervision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "edical supervision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-when-to-see-a-provider.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/estrogen-when-to-see-a-provider.webp\""
+   },
+   {
+    "search": "talled weight loss\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "talled weight loss\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 9
+ },
+ "9270": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain-v2.webp\""
+   },
+   {
+    "search": "d when levels drop\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "d when levels drop\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-neurological-impact.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-neurological-impact.webp\""
+   },
+   {
+    "search": " and verbal memory\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " and verbal memory\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-symptoms.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-brain-fog-symptoms.webp\""
+   },
+   {
+    "search": "p, lost motivation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "p, lost motivation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/free-vs-total-testosterone.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/free-vs-total-testosterone.webp\""
+   },
+   {
+    "search": "ive usable portion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ive usable portion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 8
+ },
+ "9389": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-progesterone-does.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-progesterone-does.webp\""
+   },
+   {
+    "search": " on GABA receptors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " on GABA receptors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-progesterone-warning-signs.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-progesterone-warning-signs.webp\""
+   },
+   {
+    "search": "and shorter cycles\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "and shorter cycles\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/luteal-phase-window.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/luteal-phase-window.webp\""
+   },
+   {
+    "search": "uteal phase defect\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "uteal phase defect\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility-v2.webp\""
+   },
+   {
+    "search": "tigate infertility\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "tigate infertility\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels-v2.webp\""
+   },
+   {
+    "search": " BHRT with testing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " BHRT with testing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 10
+ },
+ "9398": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-post-birth-control-syndrome-is.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-post-birth-control-syndrome-is.webp\""
+   },
+   {
+    "search": "er weeks to months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "er weeks to months\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-symptoms.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/post-birth-control-symptoms.webp\""
+   },
+   {
+    "search": "ing, hair thinning\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ing, hair thinning\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/contraceptive-nutrient-depletions.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/contraceptive-nutrient-depletions.webp\""
+   },
+   {
+    "search": " and zinc for skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " and zinc for skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/returning-to-natural-cycles.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/returning-to-natural-cycles.webp\""
+   },
+   {
+    "search": ", and seed cycling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": ", and seed cycling\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 8
+ },
+ "9402": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-signs-in-men.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/low-testosterone-signs-in-men.webp\""
+   },
+   {
+    "search": "ersistent low mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ersistent low mood\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength-v2.webp\""
+   },
+   {
+    "search": "ongevity indicator\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ongevity indicator\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity-v2.webp\""
+   },
+   {
+    "search": " and restore drive\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " and restore drive\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "alt=\"Low testosterone is linked to depressive symptoms and anxiety; stabilising levels can clear fog and restore drive\"",
+    "replace": "alt=\"Low testosterone is linked to depressive symptoms and anxiety; stabilizing levels can clear fog and restore drive\""
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health-v2.webp\""
+   },
+   {
+    "search": "educe visceral fat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "educe visceral fat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-clinical-monitoring.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-clinical-monitoring.webp\""
+   },
+   {
+    "search": "strogen in balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "strogen in balance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 11
+ },
+ "9871": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/seven-questions-weight-loss-clinic.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/seven-questions-weight-loss-clinic.webp\""
+   },
+   {
+    "search": "ng and maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ng and maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-provider-credentials.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-provider-credentials.webp\""
+   },
+   {
+    "search": "tate medical board\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "tate medical board\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-bloodwork-panel.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-bloodwork-panel.webp\""
+   },
+   {
+    "search": "nd a hormone panel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "nd a hormone panel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fda-approved-vs-compounded-glp1.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fda-approved-vs-compounded-glp1.webp\""
+   },
+   {
+    "search": "ration and fillers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ration and fillers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-pricing-questions.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-pricing-questions.webp\""
+   },
+   {
+    "search": "here is a contract\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "here is a contract\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-maintenance-plan.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-maintenance-plan.webp\""
+   },
+   {
+    "search": "hors and check-ins\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "hors and check-ins\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-clinics-measure-results.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-clinics-measure-results.webp\""
+   },
+   {
+    "search": "scale weight alone\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "scale weight alone\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-program-vs-diet.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-program-vs-diet.webp\""
+   },
+   {
+    "search": "e restriction fail\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "e restriction fail\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-clinic-red-flags.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-clinic-red-flags.webp\""
+   },
+   {
+    "search": "os, no credentials\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "os, no credentials\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 18
+ },
+ "10043": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-heat-risk-factors.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-heat-risk-factors.webp\""
+   },
+   {
+    "search": "o 7 hours outdoors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "o 7 hours outdoors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/earliest-signs-of-dehydration-matchday.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/earliest-signs-of-dehydration-matchday.webp\""
+   },
+   {
+    "search": "ing, muscle cramps\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ing, muscle cramps\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/heat-exhaustion-vs-heat-stroke.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/heat-exhaustion-vs-heat-stroke.webp\""
+   },
+   {
+    "search": "03F, and needs 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "03F, and needs 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-matchday-heat-kit.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-matchday-heat-kit.webp\""
+   },
+   {
+    "search": "nd a cooling towel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "nd a cooling towel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/matchday-hydration-schedule.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/matchday-hydration-schedule.webp\""
+   },
+   {
+    "search": "o 120 ounces total\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "o 120 ounces total\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/feeling-sick-at-the-stadium.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/feeling-sick-at-the-stadium.webp\""
+   },
+   {
+    "search": "he neck and wrists\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "he neck and wrists\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/er-vs-urgent-care-vs-hydration-clinic.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/er-vs-urgent-care-vs-hydration-clinic.webp\""
+   },
+   {
+    "search": " for mild recovery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " for mild recovery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 14
+ },
+ "10191": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/three-hormone-delivery-methods.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/three-hormone-delivery-methods.webp\""
+   },
+   {
+    "search": "reams absorb daily\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "reams absorb daily\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-delivery-compared.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-delivery-compared.webp\""
+   },
+   {
+    "search": "nd common friction\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "nd common friction\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-pros-and-cons.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-pros-and-cons.webp\""
+   },
+   {
+    "search": "e pellet dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "e pellet dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-injections-pros-and-cons.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-injections-pros-and-cons.webp\""
+   },
+   {
+    "search": "me feel the trough\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "me feel the trough\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-creams-pros-and-cons.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-creams-pros-and-cons.webp\""
+   },
+   {
+    "search": " residue transfers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " residue transfers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/compounded-vs-fda-approved-hormones.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/compounded-vs-fda-approved-hormones.webp\""
+   },
+   {
+    "search": "osing and rechecks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "osing and rechecks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 12
+ },
+ "10192": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-plateau-timing.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-plateau-timing.webp\""
+   },
+   {
+    "search": "eeds investigating\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "eeds investigating\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/habits-that-stall-semaglutide.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/habits-that-stall-semaglutide.webp\""
+   },
+   {
+    "search": "h unmanaged stress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "h unmanaged stress\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-reasons-semaglutide-stalls.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-reasons-semaglutide-stalls.webp\""
+   },
+   {
+    "search": "ess on semaglutide\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ess on semaglutide\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders-v2.webp\""
+   },
+   {
+    "search": "ed switch can help\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "ed switch can help\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restarting-semaglutide-progress.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restarting-semaglutide-progress.webp\""
+   },
+   {
+    "search": " discuss switching\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " discuss switching\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 10
+ },
+ "10229": {
+  "patches": [
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-skinvive-is.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-skinvive-is.webp\""
+   },
+   {
+    "search": " in adults over 21\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": " in adults over 21\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared-v2.webp\""
+   },
+   {
+    "search": "olume and reshapes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": "olume and reshapes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   },
+   {
+    "search": "<figure><figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects-v2.webp\"",
+    "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects-v2.webp\""
+   },
+   {
+    "search": ", and it dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure></figure>",
+    "replace": ", and it dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+   }
+  ],
+  "n": 6
+ }
+}

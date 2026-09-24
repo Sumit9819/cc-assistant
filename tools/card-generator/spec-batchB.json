@@ -1,0 +1,590 @@
+{
+ "_note": "Batch B: 6310 first IV session, 6314 immune drips, 6353 athlete recovery, 6359 glutathione. CTAs, FAQ blocks, pricing sections and 'how to choose a clinic' promotion all skipped per policy.",
+ "cards": [
+  {
+   "file": "iv-therapy-first-visit-prep",
+   "post_id": 6310,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "48–24 Hours Before Your Appointment: Simple Prep Steps",
+   "title": [
+    "How to Prepare for ",
+    "IV Therapy",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Prepare for IV therapy: hydrate, eat a light meal, skip alcohol, bring a medication list, wear loose sleeves",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Hydrate",
+     "note": "Water the day before and that morning"
+    },
+    {
+     "icon": "utensils",
+     "label": "Light meal",
+     "note": "Protein and complex carbs, 1 to 2 hours before"
+    },
+    {
+     "icon": "ban",
+     "label": "No alcohol",
+     "note": "Skip it for 24 hours beforehand"
+    },
+    {
+     "icon": "pill",
+     "label": "Medication list",
+     "note": "Prescriptions, supplements and herbs"
+    },
+    {
+     "icon": "shirt",
+     "label": "Loose sleeves",
+     "note": "Rolled above the elbow, plus a layer"
+    },
+    {
+     "icon": "clock-3",
+     "label": "Allow an hour",
+     "note": "Most sessions run 30 to 60 minutes"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-first-visit-what-happens",
+   "post_id": 6310,
+   "layout": "steps",
+   "subject": "IV therapy",
+   "heading": "Day-Of: What to Expect at Irving Wellness & Clinic",
+   "title": [
+    "Your First ",
+    "IV Therapy",
+    " Appointment"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An IV therapy appointment: history and consent, vitals and vein check, then the drip with a clinician monitoring",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Check in",
+     "note": "Health history, goals and consent"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Vitals",
+     "note": "Blood pressure, heart rate, vein assessment"
+    },
+    {
+     "icon": "armchair",
+     "label": "The drip",
+     "note": "Coolness in the arm is normal, say if anything is not"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-aftercare",
+   "post_id": 6310,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "Aftercare: Getting the Most from Your Drip",
+   "title": [
+    "After Your ",
+    "IV Therapy",
+    " Drip"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV therapy aftercare: keep sipping water, keep activity gentle, remove the bandage after 30 minutes",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Keep sipping",
+     "note": "Water, plus a balanced meal within a few hours"
+    },
+    {
+     "icon": "footprints",
+     "label": "Go gently",
+     "note": "Save hard training for when you feel normal"
+    },
+    {
+     "icon": "bandage",
+     "label": "Bandage off",
+     "note": "Leave it 15 to 30 minutes, then remove"
+    },
+    {
+     "icon": "phone-call",
+     "label": "Call us if",
+     "note": "Redness, swelling or pain at the site increases"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-prep-by-goal",
+   "post_id": 6310,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "Tailor Your Prep to Your Goals",
+   "title": [
+    "Prep for ",
+    "IV Therapy",
+    " by Goal"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Tailor IV therapy prep to your goal: immune support, athletic recovery, travel, migraine, or general wellness",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Immune support",
+     "note": "Sleep well, bring recent illness details"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Athletic recovery",
+     "note": "Arrive hydrated, no maximal training after"
+    },
+    {
+     "icon": "plane",
+     "label": "Travel and jet lag",
+     "note": "Book 24 to 48 hours either side of the flight"
+    },
+    {
+     "icon": "brain",
+     "label": "Migraine prone",
+     "note": "Eat first, bring an eye mask"
+    },
+    {
+     "icon": "heart",
+     "label": "General wellness",
+     "note": "Recent labs help fine-tune the mix"
+    }
+   ]
+  },
+  {
+   "file": "immune-iv-drip-ingredients",
+   "post_id": 6314,
+   "layout": "icons",
+   "subject": "immune IV drip",
+   "heading": "The Ingredients: What’s Inside the Drip?",
+   "title": [
+    "What Is In an ",
+    "Immune IV Drip",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An immune IV drip holds vitamin C, zinc, B vitamins and magnesium with electrolytes",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, supports immune function"
+    },
+    {
+     "icon": "pill",
+     "label": "Zinc",
+     "note": "Supports immune cell function"
+    },
+    {
+     "icon": "zap",
+     "label": "B vitamins",
+     "note": "Energy production and stress recovery"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "With electrolytes, for hydration"
+    }
+   ]
+  },
+  {
+   "file": "immune-iv-drip-evidence",
+   "post_id": 6314,
+   "layout": "checklist",
+   "subject": "immune IV drip",
+   "heading": "The Science Behind Immune-Boosting IV Drips",
+   "title": [
+    "What the Evidence Says About ",
+    "Immune IV Drips",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Vitamin C and zinc support immune function, but IV delivery is not proven to beat oral or prevent illness",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Supported by research",
+    "items": [
+     "Vitamin C supports immune function",
+     "Vitamin C may shorten a cold",
+     "Zinc reduces cold length and severity"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "Not established",
+    "items": [
+     "That IV doses prevent illness",
+     "That IV beats oral supplementation",
+     "That one drip transforms immunity"
+    ]
+   }
+  },
+  {
+   "file": "immune-iv-drip-who-benefits",
+   "post_id": 6314,
+   "layout": "list",
+   "subject": "immune IV drip",
+   "heading": "When Should You Consider an Immune-Boosting IV Drip?",
+   "title": [
+    "When to Consider an ",
+    "Immune IV Drip",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Consider an immune IV drip when run-down, frequently exposed to illness, or recovering from illness or surgery",
+   "items": [
+    {
+     "icon": "battery-low",
+     "label": "Run-down",
+     "note": "Fatigued or under sustained stress"
+    },
+    {
+     "icon": "users",
+     "label": "Exposed often",
+     "note": "High-risk environment or sick households"
+    },
+    {
+     "icon": "heart-pulse",
+     "label": "Recovering",
+     "note": "After an illness or surgery"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-athletes-how-it-helps",
+   "post_id": 6353,
+   "layout": "icons",
+   "subject": "IV therapy",
+   "heading": "What is IV Therapy and How Does it Support Recovery?",
+   "title": [
+    "How ",
+    "IV Therapy",
+    " Supports Recovery"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV therapy supports athletic recovery through rapid hydration, amino acids for muscle repair, and B vitamins for energy",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Hydration",
+     "note": "Faster than water or a sports drink"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Muscle repair",
+     "note": "Amino acids reduce soreness"
+    },
+    {
+     "icon": "zap",
+     "label": "Energy",
+     "note": "B vitamins and magnesium restore levels"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-athletes-when-to-book",
+   "post_id": 6353,
+   "layout": "compare",
+   "subject": "IV therapy",
+   "heading": "When Should Athletes Use IV Therapy?",
+   "title": [
+    "When Athletes Book ",
+    "IV Therapy",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Athletes use IV therapy before training to prevent fatigue, within 2 hours after to recover, and through heavy blocks",
+   "columns": [
+    "Before training",
+    "After training",
+    "Heavy blocks"
+   ],
+   "rows": [
+    {
+     "label": "Why",
+     "values": [
+      "Prevent fatigue, set electrolytes",
+      "Replace fluid and nutrients lost",
+      "Hold hydration and energy up"
+     ]
+    },
+    {
+     "label": "Timing",
+     "values": [
+      "Ahead of the session or event",
+      "Within 30 minutes to 2 hours",
+      "Regular sessions through the block"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-athletes-whats-in-the-bag",
+   "post_id": 6353,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "What’s in an Athlete’s IV Therapy Bag?",
+   "title": [
+    "What Is in an Athlete’s ",
+    "IV Therapy",
+    " Bag"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An athlete's IV bag holds electrolytes, amino acids, B complex, vitamin C and glutathione",
+   "items": [
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium, calcium, magnesium"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Muscle repair, less breakdown"
+    },
+    {
+     "icon": "pill",
+     "label": "B complex",
+     "note": "Energy, metabolism, red blood cells"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, supports tissue repair"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant, reduces muscle inflammation"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-athletes-risks",
+   "post_id": 6353,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "Is IV Therapy Safe for Athletes?",
+   "title": [
+    "Risks to Know Before ",
+    "IV Therapy",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV therapy risks for athletes: allergic reaction, infection at the injection site, and an incorrect nutrient balance",
+   "items": [
+    {
+     "icon": "triangle-alert",
+     "label": "Allergic reaction",
+     "note": "Disclose every allergy beforehand"
+    },
+    {
+     "icon": "shield-alert",
+     "label": "Site infection",
+     "note": "Sterile technique is not optional"
+    },
+    {
+     "icon": "scale",
+     "label": "Wrong nutrient mix",
+     "note": "Needs a clinician, not a menu pick"
+    }
+   ]
+  },
+  {
+   "file": "glutathione-what-it-does",
+   "post_id": 6359,
+   "layout": "icons",
+   "subject": "glutathione",
+   "heading": "What is glutathione?",
+   "title": [
+    "What ",
+    "Glutathione",
+    " Does"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Glutathione neutralizes free radicals, recycles vitamins C and E, supports mitochondria and aids detoxification",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Neutralizes",
+     "note": "Free radicals, across every cell"
+    },
+    {
+     "icon": "recycle",
+     "label": "Recycles",
+     "note": "Vitamins C and E back into use"
+    },
+    {
+     "icon": "zap",
+     "label": "Mitochondria",
+     "note": "Supports cellular energy production"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Detox pathways",
+     "note": "Helps the body excrete compounds"
+    }
+   ]
+  },
+  {
+   "file": "glutathione-iv-evidence",
+   "post_id": 6359,
+   "layout": "list",
+   "subject": "glutathione",
+   "heading": "What does the evidence say? (Balanced, no hype)",
+   "title": [
+    "Where the Evidence on ",
+    "Glutathione IV",
+    " Stands"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Glutathione evidence: mechanistic support for redox balance and liver detox, mixed findings on skin",
+   "items": [
+    {
+     "icon": "activity",
+     "label": "Oxidative stress",
+     "note": "Mechanistic support for redox balance"
+    },
+    {
+     "icon": "beaker",
+     "label": "Liver detox",
+     "note": "Part of phase II conjugation"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Skin tone",
+     "note": "Small studies, findings are mixed"
+    }
+   ]
+  },
+  {
+   "file": "glutathione-iv-who-should-avoid",
+   "post_id": 6359,
+   "layout": "checklist",
+   "subject": "glutathione",
+   "heading": "Who might consider glutathione IV?",
+   "title": [
+    "Who ",
+    "Glutathione IV",
+    " Suits"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Glutathione IV may suit recovery and training phases, but needs caution in pregnancy, asthma and sulfur sensitivity",
+   "good": {
+    "icon": "circle-check",
+    "heading": "May suit, with a clinician",
+    "items": [
+     "Post-viral or high-stress recovery",
+     "Athletes in an intense block",
+     "Skin goals, expectations kept modest",
+     "Clinician-directed metabolic goals"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "Avoid or use caution",
+    "items": [
+     "Pregnant or breastfeeding",
+     "Asthma or airway hyperreactivity",
+     "Known sulfur sensitivity",
+     "Unstable medical conditions"
+    ]
+   }
+  },
+  {
+   "file": "glutathione-iv-appointment",
+   "post_id": 6359,
+   "layout": "steps",
+   "subject": "glutathione",
+   "heading": "What to expect at your appointment",
+   "title": [
+    "Your ",
+    "Glutathione IV",
+    " Appointment"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A glutathione IV appointment: health forms and any labs, a 15 to 45 minute infusion, then hydrate and resume",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Before",
+     "note": "Health forms, labs where appropriate"
+    },
+    {
+     "icon": "armchair",
+     "label": "During",
+     "note": "15 to 45 minutes, vitals monitored"
+    },
+    {
+     "icon": "door-open",
+     "label": "After",
+     "note": "Hydrate and resume normal activity"
+    }
+   ]
+  }
+ ]
+}

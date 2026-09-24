@@ -1,0 +1,3 @@
+[
+  { "route": "wp/v2/media/4673?_fields=id,source_url,title,mime_type,media_details", "method": "GET", "out": "_icon.json" }
+]

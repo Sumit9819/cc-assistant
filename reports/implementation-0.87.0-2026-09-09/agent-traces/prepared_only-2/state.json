@@ -1,0 +1,84 @@
+{
+  "trace": [
+    {
+      "tool": "verify_content_workflow",
+      "arguments": {
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "result": {
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "record_integrity_pass": false,
+        "execution_state": "no_result_verified",
+        "publication_verified": false,
+        "editorial_quality": "requires_review",
+        "rendered_output": "not_checked",
+        "result": null,
+        "source_basis": {
+          "current": true
+        }
+      }
+    },
+    {
+      "tool": "content_decision_history",
+      "arguments": {},
+      "result": {
+        "record_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "objective": "new_blog",
+        "execution_state": "prepared_not_executed",
+        "post_ids": [],
+        "blog_plan": {
+          "ideas": [
+            {
+              "title": "What to tell a bicycle workshop about a recurring flat tire",
+              "reader_task": "Help a bike owner describe the recurring problem before a repair visit",
+              "source_post_id": 100,
+              "source_evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "overlap": "No existing post solves this preparation task in the complete fixture inventory.",
+              "demand": "unknown"
+            }
+          ],
+          "gsc": {
+            "status": "not_connected",
+            "rows": []
+          },
+          "scope": {
+            "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+            "freshness": {
+              "status": "source_hashes_match"
+            },
+            "sources": [
+              {
+                "post_id": 100,
+                "title": "Bicycle puncture repair",
+                "url": "https://fixture.invalid/puncture-repair/",
+                "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                "coverage": "stored_content",
+                "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+              }
+            ],
+            "context": {
+              "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+            },
+            "audience": "Local bicycle owners",
+            "excluded_topics": [
+              "motor vehicles",
+              "medical advice"
+            ],
+            "scope_saved": true
+          }
+        }
+      }
+    },
+    {
+      "tool": "list_pending_changes",
+      "arguments": {},
+      "result": {
+        "pending": []
+      }
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

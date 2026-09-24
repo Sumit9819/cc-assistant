@@ -1,0 +1,176 @@
+{
+ "_note": "Post 6285, IV hydration beginner guide, 1,394 words, no existing in-body images. Four graphics, one per 349 words. 'Who Can Benefit' skipped because its six audiences overlap the six benefits already carded; the definition, 'Is IV Therapy Right for You', the booking CTA and the FAQ are excluded.",
+ "cards": [
+  {
+   "file": "iv-hydration-whats-in-the-bag",
+   "post_id": 6285,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "What’s in an IV Hydration Bag?",
+   "title": [
+    "What’s in an ",
+    "IV Hydration",
+    " Bag"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An IV hydration bag starts with sterile saline plus electrolytes, B vitamins, vitamin C, glutathione and amino acids",
+   "items": [
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium and magnesium restore balance"
+    },
+    {
+     "icon": "pill",
+     "label": "B-complex and B12",
+     "note": "Energy, metabolism and brain function"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Immune and skin support"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant for detox and brighter skin"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Muscle recovery and fatigue relief"
+    }
+   ]
+  },
+  {
+   "file": "iv-hydration-six-benefits",
+   "post_id": 6285,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "Key Benefits of IV Hydration Therapy",
+   "title": [
+    "Six Benefits of ",
+    "IV Hydration",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Six IV hydration benefits: rapid rehydration, energy, immune support, recovery, skin, and wellness maintenance",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Rapid rehydration",
+     "note": "Bypasses digestion entirely"
+    },
+    {
+     "icon": "zap",
+     "label": "Energy and focus",
+     "note": "Replenishes electrolytes quickly"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Immune support",
+     "note": "Vitamin C, B-complex and zinc"
+    },
+    {
+     "icon": "heart-pulse",
+     "label": "Faster recovery",
+     "note": "After workouts or illness"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Skin support",
+     "note": "Antioxidant blends reduce oxidative stress"
+    },
+    {
+     "icon": "circle-check",
+     "label": "Wellness upkeep",
+     "note": "Useful in hot climates and active routines"
+    }
+   ],
+   "old_file": "iv-hydration-key-benefits"
+  },
+  {
+   "file": "iv-hydration-who-should-avoid",
+   "post_id": 6285,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "Is IV Hydration Therapy Safe?",
+   "title": [
+    "Who Should Avoid ",
+    "IV Hydration",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV hydration should be avoided with heart failure, kidney disease or electrolyte disorders, and needs clearance in pregnancy",
+   "items": [
+    {
+     "icon": "heart",
+     "label": "Heart failure",
+     "note": "Only if prescribed by your doctor"
+    },
+    {
+     "icon": "ban",
+     "label": "Kidney disease",
+     "note": "Fluid load needs medical oversight"
+    },
+    {
+     "icon": "waves",
+     "label": "Electrolyte disorders",
+     "note": "Balance must be managed clinically"
+    },
+    {
+     "icon": "baby",
+     "label": "Pregnant or breastfeeding",
+     "note": "Seek medical clearance first"
+    }
+   ]
+  },
+  {
+   "file": "iv-hydration-what-to-expect",
+   "post_id": 6285,
+   "layout": "steps",
+   "subject": "IV hydration",
+   "heading": "What to Expect During an IV Hydration Session",
+   "title": [
+    "Your ",
+    "IV Hydration",
+    " Session"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An IV hydration session: consultation and vitals, a 30 to 60 minute drip in a recliner, then straight back to your day",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Before",
+     "note": "Consultation, vitals and a formula chosen for you"
+    },
+    {
+     "icon": "armchair",
+     "label": "During",
+     "note": "30 to 60 minutes relaxing in a recliner"
+    },
+    {
+     "icon": "door-open",
+     "label": "After",
+     "note": "Back to your day, most feel it within hours"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+  "_note": "Depiction rules for generated featured images, as patterns rather than prose, because prose in a README is advisory and one session away from gone. Read by imagepolicy.mjs and enforced twice: on the generation BRIEF (geminibrowser.mjs, before a shot is worth making) and on the shipped ALT text (makefeatured.mjs, which every image must pass). Case-insensitive. `refuse` aborts; `warn` prints and continues.",
+  "_structure": "Every brand gets the `shared` profile plus the one named in `brands`. A brand missing from that map falls back to `shared` alone. A rule is {pattern, why} and may add `unless`: a second pattern that, when it matches, skips the rule - used where a ban has a legitimate context, such as a body part appearing in a radiograph.",
+  "brands": {
+    "iwc": "wellness",
+    "erofirving": "er",
+    "eroflufkin": "er",
+    "erofwhiterock": "er"
+  },
+  "profiles": {
+    "shared": {
+      "_why": "True of any brand here: a synthetic person must not be passed off as a real one, and a brand's trade dress must not imply the client dispenses or endorses it.",
+      "refuse": [
+        {
+          "pattern": "(our|a real|an actual|real) patient|patient (of|at) (the|this|our) clinic|\\bour provider\\b|\\bour staff\\b|\\bour (doctor|nurse|physician)s?\\b",
+          "why": "these people are illustrations; presenting one as a patient, provider or staff member is a fabricated record"
+        },
+        {
+          "pattern": "before[ -]?(and|&)[ -]?after|\\btransformation (photo|shot|collage)\\b",
+          "why": "a before/after pair promises an outcome, which is an implied-outcome claim on a YMYL medical page"
+        },
+        {
+          "pattern": "\\bozempic\\b|\\bwegovy\\b|\\bmounjaro\\b|\\bzepbound\\b|\\bsaxenda\\b|\\btrulicity\\b|\\brybelsus\\b|\\bepipen\\b|\\btylenol\\b|\\badvil\\b",
+          "why": "recognizable trade dress on the client's own graphic implies they dispense or endorse that brand - use an unbranded device and the generic name in copy"
+        },
+        {
+          "pattern": "\\bblood\\b|\\bbloody\\b|\\bgore\\b|\\bopen wound\\b|\\bstitches in\\b|(close[ -]?up|closeup) of (a |the )?(wound|laceration|burn|rash|infection)",
+          "why": "graphic injury is fear marketing and it is what makes a medical page unshareable (a blood pressure monitor or reading is a measurement, not an injury, so \"blood pressure\" is exempt)",
+          "unless": "\\bblood pressure\\b"
+        }
+      ],
+      "warn": []
+    },
+    "wellness": {
+      "_why": "irvingwellnessclinic. A person is often the right subject here - the posts are about elective care someone chooses. The bans are the documented weight-stigma tropes (the Rudd Center published a free image bank precisely because media kept using them). A larger-bodied subject on weight-loss content is CORRECT; the harm is in showing that body differently from every other portrait in the set. See section 24 of the irvingwellnessclinic-design skill.",
+      "refuse": [
+        {
+          "pattern": "\\bheadless\\b|\\bfaceless\\b|torso[ -]only|cropped at the (neck|chin|shoulders)",
+          "why": "a body with the face removed is the most common and most dehumanizing weight-stigma trope - show a person, face visible"
+        },
+        {
+          "pattern": "(close[ -]?up|closeup) of (the |her |his |their )?(belly|stomach|abdomen|midriff|thigh)|\\bmidriff\\b|muffin top|\\bfat roll|pinching (her |his |their |the )?(fat|skin|belly)",
+          "why": "isolating a body part turns a person into the thing being judged"
+        },
+        {
+          "pattern": "\\bweight[ -]loss transformation\\b|lost \\d+ ?(lbs|pounds)|\\d+ ?(lbs|pounds) lost",
+          "why": "shames the 'before' and promises an outcome"
+        },
+        {
+          "pattern": "bathroom scale|weighing scale|(standing|stepping|steps) on a scale|(tape measure|measuring tape)|waist measurement",
+          "why": "staging the measurement is what makes weight-loss imagery punitive; the copy may name the scale, the picture must not stage it"
+        },
+        {
+          "pattern": "\\bashamed\\b|\\bdefeated\\b|\\bhumiliat|head in (her|his|their) hands|covering (her|his|their) face|\\bcrying\\b|\\bdespair",
+          "why": "a subject performing failure - the article is about a drug plateau, not a personal one"
+        },
+        {
+          "pattern": "low[ -]angle|worm'?s[ -]eye|fish[ -]?eye|exaggerat\\w* (her|his|their|the)? ?(size|body)",
+          "why": "optics chosen to make the body look larger than it is"
+        },
+        {
+          "pattern": "\\bunderwear\\b|\\blingerie\\b|\\bshirtless\\b|sports bra|\\bbra\\b|exposed (stomach|belly|midriff)|ill[ -]fitting|too[ -]tight clothes",
+          "why": "undress and unflattering clothing are stigma cues; ordinary well-fitting clothes are the parity test"
+        },
+        {
+          "pattern": "\\bdoctor\\b|\\bphysician\\b|\\bdr\\.?\\s+[A-Z]",
+          "why": "this clinic's provider is an APRN - depicting or naming a doctor misstates the credential"
+        }
+      ],
+      "warn": [
+        {
+          "pattern": "\\bburger\\b|fast food|\\bsoda\\b|\\bpizza\\b|\\bdonut\\b|\\bdoughnut\\b|\\bcandy\\b|junk food",
+          "why": "food-as-blame prop; fine on a nutrition explainer, a stigma cue beside a person"
+        },
+        {
+          "pattern": "\\bslumped\\b|\\bcouch\\b|out of breath|\\bexhausted\\b|\\blazy\\b",
+          "why": "sedentary framing implies the stall is a character failure"
+        },
+        {
+          "pattern": "\\bobese\\b|\\bobesity\\b|\\bfat\\b|\\boverweight\\b",
+          "why": "clinical or blunt body language in a visual brief pushes the model toward caricature - describe the body plainly instead"
+        }
+      ]
+    },
+    "er": {
+      "_why": "erofirving / eroflufkin / erofwhiterock. NO PEOPLE AT ALL, which is the opposite of the wellness profile and follows from what these posts are. An ER post is a triage decision - 'is this chest pain the ER?' - so a person in the frame is either a patient who does not exist or a clinician who does not work there, and both ER skills say real facility and real staff only (White Rock's provider bylines are blocked outright for want of consent). A reader arriving mid-panic should feel held, not sold to. That leaves two honest options, and they cover every post: the `type` layout, or an object still life. Verified 2026-09-08: the stock service images already on erofwhiterock (a smiling nurse at a CT scanner, red-glow pain overlays) are exactly what these rules exclude, so site media is not a way around this.",
+      "refuse": [
+        {
+          "pattern": "\\b(woman|women|man|men|person|people|patient|nurse|doctor|physician|clinician|paramedic|technician|staff|child|children|kid|baby|toddler|infant|family|couple|elderly)\\b",
+          "why": "no people on the ER brands: a depicted patient does not exist and a depicted clinician does not work there. Use the `type` layout or an object still life"
+        },
+        {
+          "pattern": "\\bcrying\\b|\\bscreaming\\b|\\bpanic\\w*|\\bdistress\\w*|\\bagony\\b|\\bwrithing\\b|\\bgrimac\\w*|\\bworried\\b|\\bfrightened\\b",
+          "why": "distress staging is fear marketing; the ER voice is calm and clinical"
+        },
+        {
+          "pattern": "\\bambulance\\b|\\bsiren\\b|\\bstretcher\\b|\\bgurney\\b|\\bparamedic\\b|\\bemt\\b",
+          "why": "implies this ER runs emergency transport, which it does not, and stages urgency the copy is not allowed to claim"
+        },
+        {
+          "pattern": "\\bno wait\\b|short(er)? wait|\\bminutes? wait\\b|wait time|faster than|\\bhospital (ed|er)\\b|vs\\.? hospital|beat the (wait|hospital)",
+          "why": "anti-pattern in all three ER skills: door-to-provider claims are self-anchored and live in copy, never in a graphic, and comparing against hospital EDs damages the referral relationships this ER depends on"
+        },
+        {
+          "pattern": "\\b(her|his|their|someone'?s|one'?s|the (?:patient|man|woman|child)'?s) (hand|hands|finger|fingers|arm|arms|face|shoulder|shoulders|chest|torso|belly|stomach|leg|legs|foot|feet|skin|hair|head)\\b",
+          "why": "a person's body part still implies a patient, and the object photographs alone just as well"
+        },
+        {
+          "pattern": "\\b(a|the) (hand|hands|finger|fingers|arm|arms|shoulder|shoulders|torso|leg|legs|foot|feet|forearm)\\b(?! of (a|the) (clock|watch))",
+          "why": "a body part with no owner named is still a person in the frame. `face` and `skin` are deliberately NOT in this rule: \"lying face up\", \"the hands of a clock\" and a snake's \"skin\" are photographic or animal idiom, and refusing those cost two false refusals of legitimate object briefs on 2026-09-08. `unless` exempts medical imaging: a radiograph of a forearm is a picture of bones, not a person in the frame",
+          "unless": "\\b(radiograph|x-?ray|ct scan|ct film|mri|ultrasound|sonogram|scan film|skeleton|bone)\\b"
+        }
+      ],
+      "warn": [
+        {
+          "pattern": "\\b911\\b|emergency lights|flashing lights",
+          "why": "'call 911' belongs in copy as a disclaimer; as an image it is fear staging"
+        },
+        {
+          "pattern": "\\bhospital\\b|\\bward\\b|\\bicu\\b",
+          "why": "these are freestanding ERs, not hospitals - check the picture does not imply inpatient care they do not provide"
+        },
+        {
+          "pattern": "\\b(hand|hands|face|arm|arms|chest|skin|finger|fingers)\\b",
+          "why": "body-part word in an ER brief - harmless in photographic phrasing, but check the picture implies no person"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "trace": [
+    {
+      "tool": "get_site_memory",
+      "arguments": {},
+      "result": {
+        "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+      }
+    },
+    {
+      "tool": "whoami",
+      "arguments": {},
+      "result": {
+        "site": "Fixture bicycle workshop",
+        "policy": {
+          "version": "content-strategy-3",
+          "new_blog_workflow": "Use content_workflow for a complete new-blog task, then execute its steps. plan_blog_content initializes an inferred strategy when none is saved. Claude uses discover_content_scope and manage_content_scope to inspect and maintain it from existing pages and site notes. Never ask the operator to enter discoverable IDs or fill a strategy form. Explore source-backed niche topics even without GSC gaps.",
+          "agent_ownership": "Claude handles discovery, strategy metadata, research, draft preparation and verification. The operator reviews concrete results and exceptions. Metadata writes do not authorize live content publication.",
+          "background_execution": "A connected Claude session executes the workflow. This feature does not launch an unattended AI runner.",
+          "gsc_role": "Observed visibility for this property and period, not total market demand or the boundary of the niche.",
+          "discovery_sources": [
+            "selected_service_pages",
+            "configured_reader_questions",
+            "service_reader_tasks",
+            "user_topic_proposals",
+            "optional_gsc_queries",
+            "explicit_competitor_research"
+          ],
+          "no_data_meaning": "Demand is unmeasured. It does not mean no opportunity.",
+          "decision_rules": [
+            "Similarity discovers candidates; it does not establish duplication or SEO harm.",
+            "Create when a distinct reader task and supported niche relationship justify it; no impression minimum is required.",
+            "Keep or link complementary pages. Review preservation before merging substitutable pages.",
+            "Diagnose technical, demand and measurement changes before prescribing a rewrite.",
+            "Research and formatting cannot certify global novelty, expertise or ranking gains.",
+            "Persist evidence and alternatives. Do not change a decision without a changed basis."
+          ],
+          "result_verification": "Link new drafts with workflow_id and call verify_content_workflow. Only actual records and current source observations support completion claims; a plan or generated text alone does not.",
+          "setting_workflow": "Read get_plugin_settings and inspect_plugin_capability. Valid input types do not certify an active feature or rendered effect; use current runtime controls and verify the outcome."
+        },
+        "evidence_rules": [
+          "Report observed facts, editorial interpretations and unknowns separately; cite the exact source and its scope.",
+          "Blocked fetches, partial extraction, missing data and an empty parser result cannot prove rendered absence.",
+          "Similarity identifies candidates. It does not establish duplication, a shared reader task or SEO harm.",
+          "Low CTR does not prove AI impact; crawler requests do not prove citations; before/after associations do not prove causation.",
+          "Discover current installed controls, accepted values and dependencies before planning setting changes.",
+          "Verify actual WordPress record IDs and source freshness before reporting completed work."
+        ],
+        "available_tools": [
+          "content_decision",
+          "content_decision_history",
+          "content_workflow",
+          "discover_content_scope",
+          "draft_create_post",
+          "draft_update_plugin_setting",
+          "get_content_scope",
+          "get_plugin_settings",
+          "get_post",
+          "get_site_memory",
+          "inspect_plugin_capability",
+          "list_categories",
+          "list_pending_changes",
+          "manage_content_scope",
+          "plan_blog_content",
+          "seo_playbook",
+          "verified_page_audit",
+          "verify_content_workflow",
+          "whoami"
+        ]
+      }
+    },
+    {
+      "tool": "content_workflow",
+      "arguments": {
+        "objective": "new_blog"
+      },
+      "result": {
+        "record_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "record": {
+          "objective": "new_blog",
+          "execution_state": "prepared_not_executed",
+          "blog_plan": {
+            "ideas": [
+              {
+                "title": "What to tell a bicycle workshop about a recurring flat tire",
+                "reader_task": "Help a bike owner describe the recurring problem before a repair visit",
+                "source_post_id": 100,
+                "source_evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                "overlap": "No existing post solves this preparation task in the complete fixture inventory.",
+                "demand": "unknown"
+              }
+            ],
+            "gsc": {
+              "status": "not_connected",
+              "rows": []
+            },
+            "scope": {
+              "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+              "freshness": {
+                "status": "source_hashes_match"
+              },
+              "sources": [
+                {
+                  "post_id": 100,
+                  "title": "Bicycle puncture repair",
+                  "url": "https://fixture.invalid/puncture-repair/",
+                  "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+                  "coverage": "stored_content",
+                  "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+                }
+              ],
+              "context": {
+                "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+              },
+              "audience": "Local bicycle owners",
+              "excluded_topics": [
+                "motor vehicles",
+                "medical advice"
+              ],
+              "scope_saved": true
+            }
+          },
+          "source_basis": [
+            {
+              "post_id": 100,
+              "title": "Bicycle puncture repair",
+              "url": "https://fixture.invalid/puncture-repair/",
+              "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "coverage": "stored_content",
+              "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+            }
+          ],
+          "agent_steps": [
+            "Inspect current sources and distinct task.",
+            "Create post_type=post draft with workflow_id.",
+            "Verify the actual post and pending record."
+          ],
+          "background_execution": false
+        }
+      }
+    },
+    {
+      "tool": "discover_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "get_content_scope",
+      "arguments": {},
+      "result": {
+        "scope_revision": "scope-cccccccccccccccccccccccccccccccc",
+        "freshness": {
+          "status": "source_hashes_match"
+        },
+        "sources": [
+          {
+            "post_id": 100,
+            "title": "Bicycle puncture repair",
+            "url": "https://fixture.invalid/puncture-repair/",
+            "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+            "coverage": "stored_content",
+            "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+          }
+        ],
+        "context": {
+          "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials."
+        },
+        "audience": "Local bicycle owners",
+        "excluded_topics": [
+          "motor vehicles",
+          "medical advice"
+        ],
+        "scope_saved": true
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 100
+      },
+      "result": {
+        "post_id": 100,
+        "title": "Bicycle puncture repair",
+        "url": "https://fixture.invalid/puncture-repair/",
+        "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+        "coverage": "stored_content",
+        "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "content": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "list_categories",
+      "arguments": {},
+      "result": {
+        "categories": [
+          {
+            "id": 3,
+            "name": "Bicycle care"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "content_decision",
+      "arguments": {
+        "action": "assess",
+        "post_ids": [
+          100
+        ],
+        "reader_goal": "A bike owner with air loss that keeps coming back wants to know what to observe and describe before bringing the bike to the workshop.",
+        "reason": "Checking whether a new preparation-focused post overlaps the existing puncture repair service page before drafting."
+      },
+      "result": {
+        "record_id": "decision-dddddddddddddddddddddddddddddddd",
+        "record": {
+          "assessment": "reader_task_review",
+          "automatic_consolidation_eligible": false,
+          "action_eligibility": "research_and_plan_only",
+          "pairwise_evidence": [
+            {
+              "post_ids": [
+                100,
+                200
+              ],
+              "stored_text_equal": false,
+              "seo_harm_established": false,
+              "conclusion": "inspect_distinct_reader_tasks"
+            }
+          ],
+          "source_snapshots": [
+            {
+              "post_id": 100,
+              "title": "Bicycle puncture repair",
+              "url": "https://fixture.invalid/puncture-repair/",
+              "evidence_id": "post-100-bbbbbbbbbbbbbbbbbbbbbbbb",
+              "coverage": "stored_content",
+              "text": "We repair bicycle tire punctures and inspect tires at our workshop. Customers can bring the bike and describe when air loss occurs. We do not sell cars or offer medical services."
+            },
+            {
+              "post_id": 200,
+              "title": "Tire size markings",
+              "text": "Read bicycle tire size markings."
+            }
+          ],
+          "missing_evidence": [
+            "No evidence these reader tasks substitute for each other.",
+            "SEO harm not established."
+          ]
+        }
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 200
+      },
+      "result": {
+        "post_id": 200,
+        "title": "Tire size markings",
+        "content": "How to read the size markings on a bicycle tire. Different reader task from preparing for a puncture repair visit.",
+        "status": "publish"
+      }
+    },
+    {
+      "tool": "seo_playbook",
+      "arguments": {},
+      "result": [
+        {
+          "id": "content_growth",
+          "name": "Niche-based content growth",
+          "why_matters": "Observed queries are useful evidence but cannot enumerate every relevant reader need.",
+          "source": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+          "rules": [
+            "For a complete new blog request, use content_workflow and execute its steps. Claude discovers and maintains strategy with discover_content_scope/manage_content_scope; no manual strategy form is required. Use plan_blog_content for topic proposals. Explore supported services, reader questions and useful explanations even with no GSC gaps or rows.",
+            "State the niche source, audience, reader task and supported contribution. Missing impressions means unmeasured demand, not no opportunity.",
+            "Inspect related stored and rendered content before claiming a gap. Similarity alone cannot certify duplication or absence.",
+            "Use a length and format that solve the reader task; no preferred Google word count or fixed quota of facts, quotes or headings."
+          ]
+        },
+        {
+          "id": "decision_evidence",
+          "name": "Evidence before content decisions",
+          "why_matters": "Observations, interpretations and proposed actions require different levels of support.",
+          "source": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+          "rules": [
+            "Use content_decision before refresh or consolidation proposals. Preserve evidence IDs, alternatives, reader goals and the reason for changing an earlier assessment.",
+            "Related pages can serve distinct tasks. Keep/link or differentiate when useful; cluster size, low clicks and shared queries do not establish harmful cannibalization.",
+            "Diagnose technical state, measurement, query mix, demand and seasonality before prescribing a rewrite. Do not remove useful material because a local score is low.",
+            "A permanent merge needs a relevant destination and preservation of unique facts, useful sections, links and language relationships. Missing analytics is not proof of no value."
+          ]
+        },
+        {
+          "id": "research_value",
+          "name": "Competitor research and reader value",
+          "why_matters": "A dated comparison can identify useful opportunities without pretending to know ranking causes.",
+          "source": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+          "rules": [
+            "Use content_research to capture explicit comparable URLs and current own content. Record scope, fetch date and limitations. A blocked page is unknown.",
+            "Statistics, tables, quotation markup and authority links are surface observations, not verified first-party research or expertise.",
+            "Check primary-source support, attribution, practical usefulness and originality within the inspected sample. Do not invent evidence or claim global uniqueness.",
+            "No special AI markup, forced chunk size or citation quota guarantees Google visibility. Experimental GEO results do not establish organic ranking effects."
+          ]
+        },
+        {
+          "id": "measurement",
+          "name": "Measurement and outcome interpretation",
+          "why_matters": "Incorrect joins and causal labels can produce confident but unsupported advice.",
+          "source": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+          "rules": [
+            "Preserve native GSC dimensions and raw counts. Query/page totals and page/appearance segments are separate datasets; do not allocate one into the other.",
+            "Check measurement version and re-synced dates. Unlisted historical dates may retain legacy inferred data until re-fetched.",
+            "Non-Web search appearances and low CTR do not establish AI Overviews or AI-caused click loss. A before/after change is an association unless stronger evidence supports causation."
+          ]
+        },
+        {
+          "id": "publication",
+          "name": "Technical correctness and reviewed publication",
+          "why_matters": "Plans must match actual installed capabilities and the content served to readers.",
+          "source": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+          "rules": [
+            "Use current target-bound evidence and actual editor/plugin schemas before proposing settings or content changes. Parser absence is not proof of rendered absence.",
+            "Use descriptive contextual links where they help the next reader task. No ideal link count or mandatory repeated pillar placement applies.",
+            "Preserve coherent headings, accessible controls, supported facts, appropriate schema and language relationships. Assess actual defects rather than blindly follow a score.",
+            "Apply through the existing reviewed workflow, verify saved and served output, and distinguish completed writes from uncertain cache or transport states.",
+            "Inspect plugin capability evidence before setting changes and verify actual workflow results before claiming completion."
+          ]
+        }
+      ]
+    },
+    {
+      "tool": "draft_create_post",
+      "arguments": {
+        "title": "What to note before you bring a bike in for a recurring flat tire",
+        "content": "<p>A flat that keeps coming back is usually telling you something. The details you notice at home help our workshop find the cause faster, instead of repairing the same hole twice.</p><p>This post is a short preparation checklist. It covers what to observe, what to bring, and how to describe the problem when you drop the bike off for <a href=\"https://fixture.invalid/puncture-repair/\">puncture repair</a>.</p><h2>Note how fast the air goes</h2><p>Timing is the single most useful clue. Try to place your flat in one of these groups:</p><ul><li>Air gone in seconds or a minute after inflating.</li><li>Soft after a few hours.</li><li>Soft after several days, but rideable in between.</li><li>Only flat after a specific ride or a specific route.</li></ul><p>Write the answer down or note it in your phone. A slow weekly leak and a sudden blowout point at different parts of the wheel.</p><h2>Note where the bike was when it happened</h2><p>Record the last ride before the air loss. Useful details include the surface you rode on, whether you hit a kerb or pothole, and whether the bike sat outside in cold weather. If the flat appeared while the bike was parked and untouched, say that too. A leak with no ride attached often sits at the valve or the rim side of the tube rather than the tread.</p><h2>Check the outside of the tire without taking it apart</h2><p>You do not need to strip the wheel before your visit. A visual check is enough:</p><ul><li>Look across the tread for cuts, embedded glass, thorns, or wire.</li><li>Look at the sidewalls for cracks, bulges, or worn patches.</li><li>Check whether the tread pattern is worn flat in the centre.</li><li>Look at the rim edge for dents or rough spots.</li></ul><p>Leave anything you find in place if you can. An object still stuck in the tread shows us exactly where to inspect the tube.</p><h2>Note what has already been repaired</h2><p>Tell us the repair history of that wheel. Helpful points are how many times it has gone flat, whether patches were fitted before, whether the tube has been replaced, and whether the rim tape was ever changed. Repeat flats in the same wheel often trace back to rim tape that has shifted, a spoke end poking through, or a patch that no longer seals.</p><h2>Bring the parts, not just the bike</h2><p>If you have already swapped the tube yourself, bring the old one. A tube with a hole in it is direct evidence: the position of the hole tells us whether the cause was the tread, the rim, the valve, or a pinch between tire and rim. Bring the pump you normally use as well if you suspect it is not seating on the valve properly.</p><h2>How to describe it at the counter</h2><p>One or two sentences are enough. For example: \"Rear wheel, loses all air overnight, third time this month, new tube fitted two weeks ago, nothing visible in the tread.\" That gives us the wheel, the speed of the leak, the pattern, and what you have already tried.</p><p>If you are unsure which tire your bike takes, the markings on the sidewall answer it, and we cover reading those separately.</p><h2>What happens at the workshop</h2><p>We repair bicycle tire punctures and inspect tires at our workshop, so the inspection starts with the notes you bring. Bring the bike in and describe when the air loss occurs, and we will work from there.</p>",
+        "post_type": "post",
+        "slug": "recurring-flat-tire-what-to-note-before-repair-visit",
+        "excerpt": "A recurring flat usually has a traceable cause. Here is what to observe, check and bring before you drop your bike off for a puncture repair, so the inspection starts with real detail.",
+        "categories": [
+          "Bicycle care"
+        ],
+        "tags": [
+          "puncture repair",
+          "tires",
+          "workshop visit"
+        ],
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "dry_run": true,
+        "reasoning": "Lint self-check before saving the workflow-bound draft.",
+        "summary": "Dry run: recurring flat tire preparation checklist"
+      },
+      "result": {
+        "post_id": 901,
+        "pending_id": 71,
+        "preview_url": "https://fixture.invalid/?p=901&preview=true"
+      }
+    },
+    {
+      "tool": "get_post",
+      "arguments": {
+        "id": 901,
+        "slim": true
+      },
+      "result": {
+        "title": "What to note before you bring a bike in for a recurring flat tire",
+        "content": "<p>A flat that keeps coming back is usually telling you something. The details you notice at home help our workshop find the cause faster, instead of repairing the same hole twice.</p><p>This post is a short preparation checklist. It covers what to observe, what to bring, and how to describe the problem when you drop the bike off for <a href=\"https://fixture.invalid/puncture-repair/\">puncture repair</a>.</p><h2>Note how fast the air goes</h2><p>Timing is the single most useful clue. Try to place your flat in one of these groups:</p><ul><li>Air gone in seconds or a minute after inflating.</li><li>Soft after a few hours.</li><li>Soft after several days, but rideable in between.</li><li>Only flat after a specific ride or a specific route.</li></ul><p>Write the answer down or note it in your phone. A slow weekly leak and a sudden blowout point at different parts of the wheel.</p><h2>Note where the bike was when it happened</h2><p>Record the last ride before the air loss. Useful details include the surface you rode on, whether you hit a kerb or pothole, and whether the bike sat outside in cold weather. If the flat appeared while the bike was parked and untouched, say that too. A leak with no ride attached often sits at the valve or the rim side of the tube rather than the tread.</p><h2>Check the outside of the tire without taking it apart</h2><p>You do not need to strip the wheel before your visit. A visual check is enough:</p><ul><li>Look across the tread for cuts, embedded glass, thorns, or wire.</li><li>Look at the sidewalls for cracks, bulges, or worn patches.</li><li>Check whether the tread pattern is worn flat in the centre.</li><li>Look at the rim edge for dents or rough spots.</li></ul><p>Leave anything you find in place if you can. An object still stuck in the tread shows us exactly where to inspect the tube.</p><h2>Note what has already been repaired</h2><p>Tell us the repair history of that wheel. Helpful points are how many times it has gone flat, whether patches were fitted before, whether the tube has been replaced, and whether the rim tape was ever changed. Repeat flats in the same wheel often trace back to rim tape that has shifted, a spoke end poking through, or a patch that no longer seals.</p><h2>Bring the parts, not just the bike</h2><p>If you have already swapped the tube yourself, bring the old one. A tube with a hole in it is direct evidence: the position of the hole tells us whether the cause was the tread, the rim, the valve, or a pinch between tire and rim. Bring the pump you normally use as well if you suspect it is not seating on the valve properly.</p><h2>How to describe it at the counter</h2><p>One or two sentences are enough. For example: \"Rear wheel, loses all air overnight, third time this month, new tube fitted two weeks ago, nothing visible in the tread.\" That gives us the wheel, the speed of the leak, the pattern, and what you have already tried.</p><p>If you are unsure which tire your bike takes, the markings on the sidewall answer it, and we cover reading those separately.</p><h2>What happens at the workshop</h2><p>We repair bicycle tire punctures and inspect tires at our workshop, so the inspection starts with the notes you bring. Bring the bike in and describe when the air loss occurs, and we will work from there.</p>",
+        "post_type": "post",
+        "slug": "recurring-flat-tire-what-to-note-before-repair-visit",
+        "excerpt": "A recurring flat usually has a traceable cause. Here is what to observe, check and bring before you drop your bike off for a puncture repair, so the inspection starts with real detail.",
+        "categories": [
+          "Bicycle care"
+        ],
+        "tags": [
+          "puncture repair",
+          "tires",
+          "workshop visit"
+        ],
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "dry_run": true,
+        "reasoning": "Lint self-check before saving the workflow-bound draft.",
+        "summary": "Dry run: recurring flat tire preparation checklist",
+        "post_id": 901,
+        "status": "draft"
+      }
+    },
+    {
+      "tool": "list_pending_changes",
+      "arguments": {},
+      "result": {
+        "pending": [
+          {
+            "id": 71,
+            "post_id": 901,
+            "status": "pending",
+            "change_type": "publish_draft"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "verify_content_workflow",
+      "arguments": {
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "post_id": 901
+      },
+      "result": {
+        "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "record_integrity_pass": true,
+        "execution_state": "draft_and_pending_record_verified",
+        "publication_verified": false,
+        "editorial_quality": "requires_review",
+        "rendered_output": "not_checked",
+        "result": {
+          "post_id": 901,
+          "pending_id": 71,
+          "post_status": "draft"
+        },
+        "source_basis": {
+          "current": true
+        }
+      }
+    }
+  ],
+  "drafts": {
+    "901": {
+      "title": "What to note before you bring a bike in for a recurring flat tire",
+      "content": "<p>A flat that keeps coming back is usually telling you something. The details you notice at home help our workshop find the cause faster, instead of repairing the same hole twice.</p><p>This post is a short preparation checklist. It covers what to observe, what to bring, and how to describe the problem when you drop the bike off for <a href=\"https://fixture.invalid/puncture-repair/\">puncture repair</a>.</p><h2>Note how fast the air goes</h2><p>Timing is the single most useful clue. Try to place your flat in one of these groups:</p><ul><li>Air gone in seconds or a minute after inflating.</li><li>Soft after a few hours.</li><li>Soft after several days, but rideable in between.</li><li>Only flat after a specific ride or a specific route.</li></ul><p>Write the answer down or note it in your phone. A slow weekly leak and a sudden blowout point at different parts of the wheel.</p><h2>Note where the bike was when it happened</h2><p>Record the last ride before the air loss. Useful details include the surface you rode on, whether you hit a kerb or pothole, and whether the bike sat outside in cold weather. If the flat appeared while the bike was parked and untouched, say that too. A leak with no ride attached often sits at the valve or the rim side of the tube rather than the tread.</p><h2>Check the outside of the tire without taking it apart</h2><p>You do not need to strip the wheel before your visit. A visual check is enough:</p><ul><li>Look across the tread for cuts, embedded glass, thorns, or wire.</li><li>Look at the sidewalls for cracks, bulges, or worn patches.</li><li>Check whether the tread pattern is worn flat in the centre.</li><li>Look at the rim edge for dents or rough spots.</li></ul><p>Leave anything you find in place if you can. An object still stuck in the tread shows us exactly where to inspect the tube.</p><h2>Note what has already been repaired</h2><p>Tell us the repair history of that wheel. Helpful points are how many times it has gone flat, whether patches were fitted before, whether the tube has been replaced, and whether the rim tape was ever changed. Repeat flats in the same wheel often trace back to rim tape that has shifted, a spoke end poking through, or a patch that no longer seals.</p><h2>Bring the parts, not just the bike</h2><p>If you have already swapped the tube yourself, bring the old one. A tube with a hole in it is direct evidence: the position of the hole tells us whether the cause was the tread, the rim, the valve, or a pinch between tire and rim. Bring the pump you normally use as well if you suspect it is not seating on the valve properly.</p><h2>How to describe it at the counter</h2><p>One or two sentences are enough. For example: \"Rear wheel, loses all air overnight, third time this month, new tube fitted two weeks ago, nothing visible in the tread.\" That gives us the wheel, the speed of the leak, the pattern, and what you have already tried.</p><p>If you are unsure which tire your bike takes, the markings on the sidewall answer it, and we cover reading those separately.</p><h2>What happens at the workshop</h2><p>We repair bicycle tire punctures and inspect tires at our workshop, so the inspection starts with the notes you bring. Bring the bike in and describe when the air loss occurs, and we will work from there.</p>",
+      "post_type": "post",
+      "slug": "recurring-flat-tire-what-to-note-before-repair-visit",
+      "excerpt": "A recurring flat usually has a traceable cause. Here is what to observe, check and bring before you drop your bike off for a puncture repair, so the inspection starts with real detail.",
+      "categories": [
+        "Bicycle care"
+      ],
+      "tags": [
+        "puncture repair",
+        "tires",
+        "workshop visit"
+      ],
+      "workflow_id": "workflow-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "dry_run": true,
+      "reasoning": "Lint self-check before saving the workflow-bound draft.",
+      "summary": "Dry run: recurring flat tire preparation checklist"
+    }
+  },
+  "workflow_reads": 1,
+  "stale_seen": false,
+  "setting_writes": 0
+}

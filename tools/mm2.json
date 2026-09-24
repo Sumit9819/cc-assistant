@@ -1,0 +1,9 @@
+[
+ {"route":"cc-assistant/v1/posts/4026/render-probe","method":"GET","out":"mm_rp4026.json"},
+ {"route":"cc-assistant/v1/posts/4032/render-probe","method":"GET","out":"mm_rp4032.json"},
+ {"route":"cc-assistant/v1/seo/canonical-audit/4026","method":"GET","out":"mm_can4026.json"},
+ {"route":"cc-assistant/v1/seo/canonical-audit/4032","method":"GET","out":"mm_can4032.json"},
+ {"route":"cc-assistant/v1/links/orphans","method":"GET","out":"mm_orphans.json"},
+ {"route":"cc-assistant/v1/links/summary","method":"GET","out":"mm_links.json"},
+ {"route":"cc-assistant/v1/redirect-audit","method":"GET","out":"mm_redirects.json"}
+]

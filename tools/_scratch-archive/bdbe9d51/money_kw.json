@@ -1,0 +1,142 @@
+{
+ "nonbrand": {
+  "aug": {
+   "nb_imp": 17424,
+   "br_imp": 5902,
+   "nb_clicks": 90,
+   "br_clicks": 295,
+   "nb_share": 74.69776215381977,
+   "nb_queries": 1900
+  },
+  "jul": {
+   "nb_imp": 7930,
+   "br_imp": 3881,
+   "nb_clicks": 62,
+   "br_clicks": 291,
+   "nb_share": 67.14080094826856,
+   "nb_queries": 1340
+  }
+ },
+ "keywords": [
+  {
+   "q": "mini skid steer",
+   "aug_pos": 9.7,
+   "jul_pos": 12.5,
+   "move": 2.7,
+   "aug_clicks": 15,
+   "aug_imp": 1551
+  },
+  {
+   "q": "mini skid loader",
+   "aug_pos": 10.3,
+   "jul_pos": 12.5,
+   "move": 2.2,
+   "aug_clicks": 0,
+   "aug_imp": 455
+  },
+  {
+   "q": "mini skid steer for sale",
+   "aug_pos": 8.6,
+   "jul_pos": 10.4,
+   "move": 1.8,
+   "aug_clicks": 5,
+   "aug_imp": 330
+  },
+  {
+   "q": "concrete buggy",
+   "aug_pos": 8.1,
+   "jul_pos": 8.2,
+   "move": 0.1,
+   "aug_clicks": 0,
+   "aug_imp": 327
+  },
+  {
+   "q": "dumper",
+   "aug_pos": 6.2,
+   "jul_pos": 7.7,
+   "move": 1.5,
+   "aug_clicks": 0,
+   "aug_imp": 233
+  },
+  {
+   "q": "wheel loader for sale",
+   "aug_pos": 11.4,
+   "jul_pos": 9.9,
+   "move": -1.4,
+   "aug_clicks": 0,
+   "aug_imp": 215
+  },
+  {
+   "q": "compact wheel loader for sale",
+   "aug_pos": 9.4,
+   "jul_pos": 6.6,
+   "move": -2.8,
+   "aug_clicks": 2,
+   "aug_imp": 194
+  },
+  {
+   "q": "wheel loaders for sale",
+   "aug_pos": 8.8,
+   "jul_pos": 9.4,
+   "move": 0.7,
+   "aug_clicks": 1,
+   "aug_imp": 190
+  },
+  {
+   "q": "skid steer",
+   "aug_pos": 7.5,
+   "jul_pos": 12.8,
+   "move": 5.3,
+   "aug_clicks": 1,
+   "aug_imp": 150
+  },
+  {
+   "q": "compact wheel loader",
+   "aug_pos": 10.8,
+   "jul_pos": 10.4,
+   "move": -0.4,
+   "aug_clicks": 1,
+   "aug_imp": 134
+  },
+  {
+   "q": "mini skid steer canada",
+   "aug_pos": 7.7,
+   "jul_pos": 11.4,
+   "move": 3.7,
+   "aug_clicks": 2,
+   "aug_imp": 113
+  },
+  {
+   "q": "mini loader",
+   "aug_pos": 15.7,
+   "jul_pos": 34.9,
+   "move": 19.2,
+   "aug_clicks": 0,
+   "aug_imp": 110
+  },
+  {
+   "q": "wheel loader",
+   "aug_pos": 17.6,
+   "jul_pos": 21.1,
+   "move": 3.6,
+   "aug_clicks": 1,
+   "aug_imp": 106
+  },
+  {
+   "q": "mini dumper",
+   "aug_pos": 5.7,
+   "jul_pos": 5.1,
+   "move": -0.7,
+   "aug_clicks": 3,
+   "aug_imp": 97
+  },
+  {
+   "q": "walk behind skid steer",
+   "aug_pos": 8.9,
+   "jul_pos": null,
+   "move": null,
+   "aug_clicks": 1,
+   "aug_imp": 96
+  }
+ ]
+}

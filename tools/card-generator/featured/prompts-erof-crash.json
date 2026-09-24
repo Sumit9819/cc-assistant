@@ -1,0 +1,15 @@
+{
+  "_note": "Featured photo for erofirving post 4410, 'Should You Go to the ER After a Car Accident?'. `brand` is set per item so the ER profile applies - the default is iwc, which would NOT enforce the no-people rule. No `ground`: the framed layout now requires an image that COVERS the disc, so these are scenes shot tight rather than objects on a studio backdrop. Damage is deliberately modest: the article's own thesis is that the forces do not need to look dramatic, so a spectacular wreck would contradict the page it sits on.",
+  "images": [
+    {
+      "name": "erof-crash-bumper",
+      "brand": "erofirving",
+      "prompt": "Horizontal orientation, wider than tall. A close documentary photograph of the front corner of a parked silver sedan after a low-speed collision. The plastic bumper cover is cracked and pushed inward, the paint is scuffed down to primer along one crease, a section of trim has sprung loose from its clip, and the headlight housing has a fine fracture across its lens. Flat overcast daylight, parked on plain grey asphalt, shallow depth of field with an empty softly blurred background. The damaged corner fills the whole frame edge to edge. Documentary realism, no text, no logos, no badges, no number plate."
+    },
+    {
+      "name": "erof-crash-windshield",
+      "brand": "erofirving",
+      "prompt": "Horizontal orientation, wider than tall. A close photograph of a car windshield seen from outside, with a single impact crack radiating across the laminated glass in a fine web of lines. The empty grey dashboard is just visible and out of focus behind the glass, and the cabin is unoccupied. Flat overcast daylight, soft reflections on the glass, the cracked glass fills the whole frame edge to edge. Documentary realism, no text, no logos, no stickers."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+ "10191": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-vs-injections-vs-creams-1-pellets-injections-or-creams.webp\" alt=\"The three hormone delivery methods compared at a glance: pellets, injections, and creams\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/three-hormone-delivery-methods.webp\" alt=\"Hormone pellets sit under the hip skin for 3 to 6 months, injections dose weekly to biweekly, creams absorb daily\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-vs-injections-vs-creams-2-pellets-vs-injections-vs-creams.webp\" alt=\"Side-by-side comparison of pellets, injections and creams on dosing rhythm, level stability and adjustability\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-delivery-compared.webp\" alt=\"Pellets, injections and creams compared on dosing rhythm, level stability, adjustability, procedure and common friction\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-vs-injections-vs-creams-3-hormone-pellet-therapy.webp\" alt=\"Hormone pellet therapy: steady release over three to six months, with a fixed dose that cannot be adjusted once implanted\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-pros-and-cons.webp\" alt=\"Hormone pellets give steady levels with no shot day, but the dose is fixed until the pellet dissolves\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-vs-injections-vs-creams-4-hormone-injections-pros-and-cons.webp\" alt=\"Hormone injections: low cost and easy dose adjustment, offset by peaks after each shot and troughs before the next\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-injections-pros-and-cons.webp\" alt=\"Hormone injections are inexpensive and easy to fine-tune, but levels wave between doses and some feel the trough\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-vs-injections-vs-creams-5-hormone-creams-and-gels.webp\" alt=\"Hormone creams and gels: daily application allowing slow titration, with variable absorption and risk of transfer to others\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-creams-pros-and-cons.webp\" alt=\"Hormone creams give the most physiologic rhythm and are easiest to adjust, but absorption varies and residue transfers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-pellets-vs-injections-vs-creams-6-compounded-hormones-society-positions.webp\" alt=\"Medical society positions on compounded hormones: societies agree on FDA-approved formulations, caution on pellets, and what matters most\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/compounded-vs-fda-approved-hormones.webp\" alt=\"Endocrine Society and ACOG recommend FDA-approved hormone formulations where one exists; ask about dosing and rechecks\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "10043": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-1-unacclimatized-visitors.webp\" alt=\"Visitors arriving without heat acclimatization face higher risk in Texas summer heat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-heat-risk-factors.webp\" alt=\"Arlington heat risk: visitors arrive unacclimatized, pavement runs 30 to 60F hotter, and match day is 5 to 7 hours outdoors\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-2-earliest-signs-of-dehydration.webp\" alt=\"Earliest signs of dehydration: thirst, dark urine, headache, and dizziness\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/earliest-signs-of-dehydration-matchday.webp\" alt=\"Earliest dehydration signs: persistent thirst, dry mouth, dark urine, headache, dizziness on standing, muscle cramps\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-3-heat-exhaustion-vs-heat-stroke.webp\" alt=\"Heat exhaustion versus heat stroke: how the signs differ and when to call 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/heat-exhaustion-vs-heat-stroke.webp\" alt=\"Heat exhaustion means heavy sweating and an alert person; heat stroke means confusion and over 103F, and needs 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-4-world-cup-gear-list.webp\" alt=\"Match day kit: water, electrolytes, hat, sunscreen, and a battery fan\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-matchday-heat-kit.webp\" alt=\"Match day heat kit: water bottle, electrolytes, wide-brim hat, SPF 30 or higher, a battery fan and a cooling towel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-5-hydration-guide.webp\" alt=\"Hydration timeline for match day: before kickoff, during the match, and after\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/matchday-hydration-schedule.webp\" alt=\"Match day hydration: 16 to 24 ounces two hours before, 4 to 8 ounces every 15 minutes during, 80 to 120 ounces total\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-6-stadium-heat-safety.webp\" alt=\"Stadium safe zones: shade, misting stations, and the medical bay, and how to get help\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/feeling-sick-at-the-stadium.webp\" alt=\"If heat hits at the stadium: get to air conditioning, sip cool water with electrolytes, cool the neck and wrists\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/world-cup-2026-heat-safety-arlington-spectators-7-know-where-to-go.webp\" alt=\"Where to go: ER for emergencies, urgent care for symptoms, IV clinic for recovery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/er-vs-urgent-care-vs-hydration-clinic.webp\" alt=\"Call 911 for confusion or over 103F, urgent care for heat exhaustion not improving in 30 minutes, IV clinic for mild recovery\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ],
+ "9871": [
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-1-choose-smart.webp\" alt=\"Choosing a weight loss clinic: what to check before committing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/seven-questions-weight-loss-clinic.webp\" alt=\"Seven questions to ask a weight loss clinic, covering credentials, bloodwork, medication source, pricing and maintenance\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-2-qualified-providers.webp\" alt=\"Provider credentials to verify: board certification, MD, DO or NP, and the state board\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-provider-credentials.webp\" alt=\"A weight loss clinic's prescriber should be a board-certified MD, DO or NP, verifiable on the state medical board\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-3-start-bloodwork.webp\" alt=\"Bloodwork first: thyroid, insulin and A1C testing to find the real cause\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-bloodwork-panel.webp\" alt=\"Before prescribing, a clinic should run a thyroid panel, fasting insulin, HbA1c and a hormone panel\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-4-fda-or-compounded.webp\" alt=\"Check FDA approval, read the safety alerts, and get the answer in writing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fda-approved-vs-compounded-glp1.webp\" alt=\"FDA-approved GLP-1 means Ozempic, Mounjaro or Wegovy; compounded versions vary in active form, concentration and fillers\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-5-transparent-pricing.webp\" alt=\"Pricing questions: monthly cost, what is included, extra fees, cancellation terms\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-pricing-questions.webp\" alt=\"Ask a weight loss clinic the monthly cost, what it includes, what costs extra, and whether there is a contract\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-6-maintenance-plan.webp\" alt=\"Maintenance plan elements: dose taper, follow-up schedule, and long-term support\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/clinic-maintenance-plan.webp\" alt=\"A written maintenance plan should cover dose tapering, what happens when medication stops, habit anchors and check-ins\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-7-watch-progress.webp\" alt=\"Measuring results by body composition and labs, not scale weight alone\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-clinics-measure-results.webp\" alt=\"Real programs track body composition, waist circumference, resting metabolic rate and bloodwork, not scale weight alone\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-8-program-vs-diet.webp\" alt=\"How a medical program differs from a diet: testing and treating the cause\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-program-vs-diet.webp\" alt=\"A diet targets calories; a medical weight loss program tests for and treats the metabolic blocks that make restriction fail\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  },
+  {
+   "search": "<img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/choose-weight-loss-clinic-9-red-flags-to-avoid.webp\" alt=\"Red flags: guaranteed results, hidden pricing, no bloodwork, forced contracts\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" />",
+   "replace": "<figure><img src=\"https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-clinic-red-flags.webp\" alt=\"Weight loss clinic red flags: promised numbers, hidden pricing, no bloodwork, long contracts and stock photos, no credentials\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+  }
+ ]
+}

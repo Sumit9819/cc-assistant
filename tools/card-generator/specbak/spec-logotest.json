@@ -1,0 +1,156 @@
+{
+  "_note": "Logo placement test: identical card, four positions.",
+  "cards": [
+    {
+      "file": "logotest-top-left",
+      "purpose": "FILLS A GAP. Post 8567 'empower-your-wellness-journey' is 5 Ways but only 4 graphics exist. This is the missing Way 4, Restorative Sleep.",
+      "title": [
+        "Master ",
+        "Restorative",
+        " Sleep"
+      ],
+      "items": [
+        {
+          "icon": "moon-star",
+          "label": "Consistent",
+          "note": "Same bedtime, including weekends"
+        },
+        {
+          "icon": "smartphone",
+          "label": "Unplug",
+          "note": "Screens out of the bedroom"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Repair",
+          "note": "Cytokines released during sleep"
+        }
+      ],
+      "logo": {
+        "position": "top-left",
+        "variant": "green",
+        "width": 168
+      }
+    },
+    {
+      "file": "logotest-top-right",
+      "purpose": "FILLS A GAP. Post 8567 'empower-your-wellness-journey' is 5 Ways but only 4 graphics exist. This is the missing Way 4, Restorative Sleep.",
+      "title": [
+        "Master ",
+        "Restorative",
+        " Sleep"
+      ],
+      "items": [
+        {
+          "icon": "moon-star",
+          "label": "Consistent",
+          "note": "Same bedtime, including weekends"
+        },
+        {
+          "icon": "smartphone",
+          "label": "Unplug",
+          "note": "Screens out of the bedroom"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Repair",
+          "note": "Cytokines released during sleep"
+        }
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "green",
+        "width": 168
+      }
+    },
+    {
+      "file": "logotest-bottom-right",
+      "purpose": "FILLS A GAP. Post 8567 'empower-your-wellness-journey' is 5 Ways but only 4 graphics exist. This is the missing Way 4, Restorative Sleep.",
+      "title": [
+        "Master ",
+        "Restorative",
+        " Sleep"
+      ],
+      "items": [
+        {
+          "icon": "moon-star",
+          "label": "Consistent",
+          "note": "Same bedtime, including weekends"
+        },
+        {
+          "icon": "smartphone",
+          "label": "Unplug",
+          "note": "Screens out of the bedroom"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Repair",
+          "note": "Cytokines released during sleep"
+        }
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 168
+      }
+    },
+    {
+      "file": "logotest-bottom-center",
+      "purpose": "FILLS A GAP. Post 8567 'empower-your-wellness-journey' is 5 Ways but only 4 graphics exist. This is the missing Way 4, Restorative Sleep.",
+      "title": [
+        "Master ",
+        "Restorative",
+        " Sleep"
+      ],
+      "items": [
+        {
+          "icon": "moon-star",
+          "label": "Consistent",
+          "note": "Same bedtime, including weekends"
+        },
+        {
+          "icon": "smartphone",
+          "label": "Unplug",
+          "note": "Screens out of the bedroom"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Repair",
+          "note": "Cytokines released during sleep"
+        }
+      ],
+      "logo": {
+        "position": "bottom-center",
+        "variant": "green",
+        "width": 168
+      }
+    },
+    {
+      "file": "logotest-dark",
+      "layout": "alert",
+      "purpose": "Post 10043. Its own TL;DR: confusion, stopped sweating, or temperature above 103F means call 911.",
+      "kicker": "Heat stroke",
+      "headline": "Call 911",
+      "signs": [
+        {
+          "icon": "brain",
+          "text": "Confusion or slurred speech"
+        },
+        {
+          "icon": "thermometer",
+          "text": "Temperature above 103\u00b0F"
+        },
+        {
+          "icon": "circle-x",
+          "text": "Hot skin, sweating has stopped"
+        }
+      ],
+      "footer": "Minutes matter. Cool the skin while you wait.",
+      "logo": {
+        "position": "bottom-center",
+        "variant": "white",
+        "width": 168
+      }
+    }
+  ]
+}

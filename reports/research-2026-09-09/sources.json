@@ -1,0 +1,344 @@
+[
+  {
+    "id": 1,
+    "publisher": "CC Assistant",
+    "title": "Installed 0.84.0 source: verified page audit and evidence gate",
+    "date": "Local source inspected 2026-09-09",
+    "url": null,
+    "note": "D:/cc-assistant/wp-content/plugins/cc-assistant/includes/class-verified-page-audit.php:6; includes/class-evidence-gate.php:7–150. Baseline, receipt scope, environment validation and audit limits.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 2,
+    "publisher": "CC Assistant",
+    "title": "0.84.0 live verification record",
+    "date": "Captured 2026-09-08",
+    "url": null,
+    "note": "C:/Users/sumit/AppData/Local/Temp/cc-assistant-guard-05424d3340884adaa850a1e63d1868cb/live-084-verification.json. Two homepage captures; browser transport; no content edits.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 3,
+    "publisher": "CC Assistant",
+    "title": "GSC ingestion, AI classifications and SEO playbook",
+    "date": "Local source inspected 2026-09-09",
+    "url": null,
+    "note": "includes/class-gsc.php:1062, 1112, 2060, 2118; includes/class-seo-playbook.php:75, 188; bin/mcp-server.php:1707, 1719, 2335. Paths relative to the installed plugin.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 4,
+    "publisher": "CC Assistant research fixtures",
+    "title": "Read-only reproduction results",
+    "date": "2026-09-09",
+    "url": null,
+    "note": "research-probes.php and research-probe-results.json, included with this report. Installed PHP methods invoked with synthetic inputs and an in-memory database double; no live database or network.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 5,
+    "publisher": "CC Assistant",
+    "title": "Audit comparison implementation",
+    "date": "Local source inspected 2026-09-09",
+    "url": null,
+    "note": "includes/class-verified-page-audit.php:84–94. Current findings are compared; removed rules are not enumerated.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 6,
+    "publisher": "CC Assistant",
+    "title": "Approval documentation and direct mutation handlers",
+    "date": "Local source inspected 2026-09-09",
+    "url": null,
+    "note": "readme.txt:5, 52, 55; includes/class-rest-assets.php:638–743; includes/class-rest-api.php:6577, 7562. Media deletion has reference checks and explicit tool parameters, but does not use the pending-change approval inbox.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 7,
+    "publisher": "CC Assistant",
+    "title": "Plugin settings and runtime capability boundaries",
+    "date": "Local source inspected 2026-09-09",
+    "url": null,
+    "note": "includes/class-stack-introspect.php:797, 817; includes/class-setting-writer.php:222–226; includes/class-widget-schema.php. Stored-option ownership and feature effects can remain unknown.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 8,
+    "publisher": "Model Context Protocol",
+    "title": "Tools — specification 2026-07-28",
+    "date": "Specification dated 2026-07-28",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+    "note": "Output schemas, structured results, tool discovery, annotations and explicit state handles.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 9,
+    "publisher": "WordPress / Jonathan Bossenger",
+    "title": "From Abilities to AI Agents: Introducing the WordPress MCP Adapter",
+    "date": "2026-02-04",
+    "url": "https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/",
+    "note": "Abilities API in WordPress 6.9; typed capabilities and MCP integration.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 10,
+    "publisher": "Anthropic",
+    "title": "Introducing advanced tool use on the Claude Developer Platform",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+    "note": "On-demand tool discovery and usage examples; platform features, not a promise about every Claude client.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 11,
+    "publisher": "Elementor",
+    "title": "Elementor Editor Controls",
+    "date": "Undated live documentation",
+    "url": "https://developers.elementor.com/docs/editor-controls/",
+    "note": "Control types, responsive controls, conditions, global styles and dynamic content.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 12,
+    "publisher": "Rank Math",
+    "title": "How to Enable Headless CMS Support in Rank Math?",
+    "date": "Undated live documentation",
+    "url": "https://rankmath.com/kb/headless-cms-support/",
+    "note": "getHead returns generated metadata; requires Headless CMS support.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 13,
+    "publisher": "Polylang",
+    "title": "Function reference",
+    "date": "Undated live documentation",
+    "url": "https://polylang.pro/documentation/support/developers/function-reference/",
+    "note": "Language and translation APIs; runtime function-existence checks.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 14,
+    "publisher": "Google Search Console",
+    "title": "Search Analytics: query",
+    "date": "Live API reference",
+    "url": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+    "note": "Dimensions, search types, final/preliminary data and top-row limitations.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 15,
+    "publisher": "Google Search Console",
+    "title": "Generative AI performance report (Search)",
+    "date": "Contains rollout update dated 2026-08-31",
+    "url": "https://support.google.com/webmasters/answer/16984139",
+    "note": "AI Overviews and AI Mode impressions; dimensions, exports, availability caveats and unavailable values.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 16,
+    "publisher": "Google Search Central",
+    "title": "Optimizing your website for generative AI features on Google Search",
+    "date": "Introduced 2026-05-15; live documentation",
+    "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+    "note": "Current AI Search guidance, llms.txt limitations and dedicated performance report.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 17,
+    "publisher": "Google Search Central",
+    "title": "Latest Google Search documentation updates",
+    "date": "Entries dated 2026-05-08 and 2026-06-15",
+    "url": "https://developers.google.com/search/updates",
+    "note": "FAQ rich results ended May 7, 2026; documentation removed June 15.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 18,
+    "publisher": "Google Search Central",
+    "title": "AI features and your website",
+    "date": "Page shows last update 2025-12-10",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "note": "Older general guidance still describes AI data inside Web search; use newer report documentation for current segmentation.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 19,
+    "publisher": "Google Search Console",
+    "title": "Method: index.inspect",
+    "date": "Page shows last update 2024-07-23",
+    "url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect",
+    "note": "Indexed-copy status only; cannot test the live URL's indexability; OAuth scopes.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 20,
+    "publisher": "Google Search Console",
+    "title": "Usage limits",
+    "date": "Page shows last update 2025-08-28",
+    "url": "https://developers.google.com/webmaster-tools/limits",
+    "note": "URL Inspection property quota: 2,000 per day, 600 per minute.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 21,
+    "publisher": "Google Search Central",
+    "title": "Introduction to robots.txt",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+    "note": "Crawl restrictions differ from preventing indexing.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 22,
+    "publisher": "Google Search Central",
+    "title": "How to specify a canonical URL",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "note": "Canonical signals and consistent URL handling.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 23,
+    "publisher": "Google Search Central",
+    "title": "Build and submit a sitemap",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+    "note": "Canonical sitemap URLs and submission.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 24,
+    "publisher": "Google Search Central",
+    "title": "Tell Google about localized versions of your page",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "note": "Reciprocal language annotations and language/region alternatives.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 25,
+    "publisher": "Google",
+    "title": "About PageSpeed Insights",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/speed/docs/insights/v5/about",
+    "note": "Lab versus field measurements, test conditions and 75th-percentile interpretation.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 26,
+    "publisher": "Chrome for Developers",
+    "title": "CrUX API",
+    "date": "Live documentation",
+    "url": "https://developer.chrome.com/docs/crux/api/",
+    "note": "URL/origin queries, form factors, collection period and rolling 28-day data.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 27,
+    "publisher": "Google Search Central",
+    "title": "General structured data guidelines",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "note": "Visible content, relevance, accuracy and eligibility limits.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 28,
+    "publisher": "Google Search Central",
+    "title": "Review snippet structured data",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "note": "LocalBusiness/Organization self-serving review restrictions.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 29,
+    "publisher": "Google Search Central",
+    "title": "Creating helpful, reliable, people-first content",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "note": "Expertise, original value, sourcing and audience needs.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 30,
+    "publisher": "Google Search Central",
+    "title": "Guidance on using third-party SEO tools, services, and advice",
+    "date": "Introduced 2026-06-05; live documentation",
+    "url": "https://developers.google.com/search/docs/fundamentals/third-party-seo",
+    "note": "Qualify opinions and check recommendations against official guidance.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 31,
+    "publisher": "WordPress",
+    "title": "Authentication — REST API Handbook",
+    "date": "Updated 2025-06-04",
+    "url": "https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/",
+    "note": "Application Passwords over HTTPS.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 32,
+    "publisher": "SiteGround / Hristo Pandjarov",
+    "title": "How Our New Anti-Bot AI Prevents Millions of Brute-Force Attacks",
+    "date": "Historical vendor explanation, published 2017",
+    "url": "https://www.siteground.com/blog/new-anti-bot-ai/",
+    "note": "CAPTCHA challenges, human clearance and persistent-challenge support guidance; not evidence of current account-specific exclusions.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 33,
+    "publisher": "SiteGround",
+    "title": "Block Sophisticated HTTP Attacks with SiteGround CDN's Under Attack Mode",
+    "date": "Historical vendor documentation, published 2023",
+    "url": "https://www.siteground.com/blog/cdn-under-attack-mode/",
+    "note": "CDN-level CAPTCHA can precede WordPress.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 34,
+    "publisher": "Model Context Protocol",
+    "title": "Security Best Practices",
+    "date": "Current 2026-07-28 documentation",
+    "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices",
+    "note": "Auth-bound state handles, SSRF/redirect validation and local MCP execution risks.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 35,
+    "publisher": "W3C",
+    "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+    "date": "W3C Recommendation; live version",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "note": "Accessibility scope, including requirements beyond an automated scan.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 36,
+    "publisher": "Google Search Central",
+    "title": "Using the Indexing API",
+    "date": "Live documentation",
+    "url": "https://developers.google.com/search/apis/indexing-api/v3/using-api",
+    "note": "Limited to eligible JobPosting and livestream BroadcastEvent pages.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 37,
+    "publisher": "CC Assistant",
+    "title": "Current tool catalog and existing modules",
+    "date": "Local source inspected 2026-09-09",
+    "url": null,
+    "note": "bin/mcp-server.php (164 tool definitions; initialize protocol at line 4333); bin/warehouse.php; includes/class-gsc.php; includes/class-multilingual.php; includes/class-performance-tracker.php. Existing SEO, browser, warehouse and multilingual functionality.",
+    "accessed": "2026-09-09"
+  },
+  {
+    "id": 38,
+    "publisher": "CC Assistant",
+    "title": "0.84.0 release validation records",
+    "date": "2026-09-08",
+    "url": null,
+    "note": "C:/Users/sumit/AppData/Local/Temp/cc-assistant-guard-05424d3340884adaa850a1e63d1868cb/verification.json and integration-verification.json. Prior 33 PHP suites, 158 PHP syntax checks and 35 WordPress integration checks; integration fixture WordPress 6.9.4 / Elementor 4.0.4.",
+    "accessed": "2026-09-09"
+  }
+]

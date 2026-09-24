@@ -1,0 +1,10 @@
+[
+  {
+    "route": "cc-assistant/v1/site-memory/notes",
+    "method": "POST",
+    "body": {
+      "notes": "Banner cleanup 1229-1235 APPROVED and verified on the live bodies: all 20 heading-echo banner references gone, every remaining inline image on 3081/3097/3103/3116/3162/3201/3365 is a cc-card (2/2/3/4/2/3/4), zero empty figures, figure tags balanced, zero stacked image pairs. Render probes on 3201, 3116, 3365 all http 200 publish, one h1 each, headings intact, 0 broken links. Only missing_alt left is the theme header logo (ER-of-Irving-Official-ERLogo.png), pre-existing and out of plugin scope. Queue is now empty. Remaining banners site-wide: 3091 (3) and 2780 (1), deliberately left. Sister sites eroflufkin/erofwhiterock were cloned from here and likely carry the same banner template."
+    },
+    "out": "card-generator/_rm/note2.json"
+  }
+]

@@ -1,0 +1,17 @@
+[
+ {
+  "route": "cc-assistant/v1/posts/3903/link-audit",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/la_3903.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/43/link-audit",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/la_43.json"
+ },
+ {
+  "route": "cc-assistant/v1/links/summary",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/links_sum.json"
+ }
+]

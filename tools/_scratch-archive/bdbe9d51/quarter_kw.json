@@ -1,0 +1,159 @@
+{
+ "rows": [
+  {
+   "q": "mini skid steer",
+   "now": 10.6,
+   "prev": 10.7,
+   "kind": "held",
+   "move": 0.2,
+   "clicks": 17,
+   "imp": 1953,
+   "prev_imp": 1464
+  },
+  {
+   "q": "concrete buggy",
+   "now": 8.1,
+   "prev": null,
+   "kind": "newly visible",
+   "move": null,
+   "clicks": 0,
+   "imp": 643,
+   "prev_imp": 3
+  },
+  {
+   "q": "mini skid loader",
+   "now": 10.9,
+   "prev": 18.8,
+   "kind": "up",
+   "move": 7.9,
+   "clicks": 1,
+   "imp": 526,
+   "prev_imp": 85
+  },
+  {
+   "q": "mini skid steer for sale",
+   "now": 9.3,
+   "prev": 16.5,
+   "kind": "up",
+   "move": 7.2,
+   "clicks": 9,
+   "imp": 471,
+   "prev_imp": 63
+  },
+  {
+   "q": "compact wheel loader for sale",
+   "now": 9.2,
+   "prev": 13.5,
+   "kind": "up",
+   "move": 4.3,
+   "clicks": 2,
+   "imp": 431,
+   "prev_imp": 85
+  },
+  {
+   "q": "dumper",
+   "now": 6.7,
+   "prev": 9.5,
+   "kind": "up",
+   "move": 2.8,
+   "clicks": 1,
+   "imp": 341,
+   "prev_imp": 224
+  },
+  {
+   "q": "compact wheel loader",
+   "now": 13.0,
+   "prev": 15.3,
+   "kind": "up",
+   "move": 2.3,
+   "clicks": 1,
+   "imp": 292,
+   "prev_imp": 157
+  },
+  {
+   "q": "mini dumper",
+   "now": 10.1,
+   "prev": 11.5,
+   "kind": "up",
+   "move": 1.4,
+   "clicks": 9,
+   "imp": 281,
+   "prev_imp": 480
+  },
+  {
+   "q": "wheel loader for sale",
+   "now": 11.1,
+   "prev": 19.2,
+   "kind": "up",
+   "move": 8.1,
+   "clicks": 0,
+   "imp": 255,
+   "prev_imp": 126
+  },
+  {
+   "q": "wheel loaders for sale",
+   "now": 8.9,
+   "prev": 18.2,
+   "kind": "up",
+   "move": 9.3,
+   "clicks": 1,
+   "imp": 231,
+   "prev_imp": 83
+  },
+  {
+   "q": "skid steer attachments",
+   "now": 1.2,
+   "prev": null,
+   "kind": "newly visible",
+   "move": null,
+   "clicks": 0,
+   "imp": 225,
+   "prev_imp": 11
+  },
+  {
+   "q": "wheel loader",
+   "now": 22.2,
+   "prev": 7.4,
+   "kind": "down",
+   "move": -14.8,
+   "clicks": 1,
+   "imp": 205,
+   "prev_imp": 1788
+  },
+  {
+   "q": "canada stand on mini skid steer loader market",
+   "now": 17.5,
+   "prev": 29.4,
+   "kind": "up",
+   "move": 11.9,
+   "clicks": 0,
+   "imp": 203,
+   "prev_imp": 227
+  },
+  {
+   "q": "skid steer",
+   "now": 8.2,
+   "prev": 8.6,
+   "kind": "up",
+   "move": 0.4,
+   "clicks": 2,
+   "imp": 195,
+   "prev_imp": 4963
+  },
+  {
+   "q": "mini skid steer canada",
+   "now": 9.7,
+   "prev": 18.1,
+   "kind": "up",
+   "move": 8.4,
+   "clicks": 5,
+   "imp": 176,
+   "prev_imp": 130
+  }
+ ],
+ "up": 11,
+ "dn": 1,
+ "new": 2,
+ "held": 1,
+ "min_imp": 30
+}

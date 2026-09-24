@@ -1,0 +1,46 @@
+{
+  "_note": "Card content as DATA. A duplicated label is now a visible repeat in this file, and a typo is one edit fixed everywhere the word appears. No logo per operator request - judging the layout itself.",
+  "cards": [
+    {
+      "file": "sleep",
+      "purpose": "FILLS A GAP. Post 8567 'empower-your-wellness-journey' is 5 Ways but only 4 graphics exist. This is the missing Way 4, Restorative Sleep.",
+      "title": ["Master ", "Restorative", " Sleep"],
+      "items": [
+        { "icon": "moon-star", "label": "Consistent", "note": "Same bedtime, including weekends" },
+        { "icon": "smartphone", "label": "Unplug", "note": "Screens out of the bedroom" },
+        { "icon": "shield-check", "label": "Repair", "note": "Cytokines released during sleep" }
+      ]
+    },
+    {
+      "file": "trt-evidence",
+      "purpose": "REPLACES the held 'Myth vs Fact' graphic on post 9402, which asserted 'No cancer development link' and 'Prostate health confirmed'. Wording below tracks the article's own cited prose instead of stripping its qualifiers.",
+      "title": ["What the ", "Evidence", " Says"],
+      "items": [
+        { "icon": "stethoscope", "label": "Monitored", "note": "Hematocrit and PSA on schedule" },
+        { "icon": "clipboard-check", "label": "Confirmed First", "note": "Bloodwork before any prescription" },
+        { "icon": "triangle-alert", "label": "Not For Everyone", "note": "Avoided in active prostate cancer" }
+      ]
+    },
+    {
+      "file": "hormone-injections",
+      "purpose": "REPLACES the defective graphic on post 10191, which shipped six icons with NO text labels at all.",
+      "title": ["Hormone ", "Injections", ""],
+      "items": [
+        { "icon": "syringe", "label": "Low Cost", "note": "Widely available, FDA-approved" },
+        { "icon": "sliders-horizontal", "label": "Easy To Adjust", "note": "Dose changed at any visit" },
+        { "icon": "activity", "label": "Peaks & Troughs", "note": "Levels dip before the next dose" }
+      ]
+    },
+    {
+      "file": "low-t-signs",
+      "purpose": "REPLACES the graphic on post 9402 whose headline reads 'LOW TESTOoSTERONE SIGNS'. Four-up layout to show the template is not locked to three.",
+      "title": ["Low ", "Testosterone", " Signs"],
+      "items": [
+        { "icon": "battery-low", "label": "Low Energy" },
+        { "icon": "brain", "label": "Brain Fog" },
+        { "icon": "dumbbell", "label": "Muscle Loss" },
+        { "icon": "frown", "label": "Low Mood" }
+      ]
+    }
+  ]
+}

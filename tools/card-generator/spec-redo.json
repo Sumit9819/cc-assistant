@@ -1,0 +1,1947 @@
+{
+ "_note": "US-spelling rewrite: every card whose copy changed. Excludes batch1 orphan #10401.",
+ "cards": [
+  {
+   "file": "abcde-rule-for-skin-spots",
+   "post_id": 8933,
+   "layout": "list",
+   "subject": "skin",
+   "heading": "3. Schedule a Professional Skin Assessment",
+   "title": [
+    "The ABCDE Rule for Checking Your ",
+    "Skin",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The ABCDE rule for skin spots: asymmetry, irregular border, more than one color, diameter, and any evolving change",
+   "items": [
+    {
+     "icon": "scan-face",
+     "label": "A, asymmetry",
+     "note": "One half does not match the other"
+    },
+    {
+     "icon": "ruler-dimension-line",
+     "label": "B, border",
+     "note": "Irregular or blurred edges"
+    },
+    {
+     "icon": "palette",
+     "label": "C, color",
+     "note": "More than one shade"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "D, diameter",
+     "note": "Larger than a pencil eraser"
+    },
+    {
+     "icon": "trending-up",
+     "label": "E, evolving",
+     "note": "Changing size, shape or color"
+    }
+   ]
+  },
+  {
+   "file": "adrenal-crisis-emergency-signs",
+   "post_id": 9273,
+   "layout": "alert",
+   "subject": "cortisol",
+   "heading": "When to Visit Urgent Care or an ER",
+   "logo": {
+    "position": "bottom-right",
+    "variant": "white",
+    "width": 150
+   },
+   "alt": "Adrenal crisis needs emergency care: sudden severe pain, severe vomiting and diarrhea, or low blood pressure and collapse",
+   "kicker": "Adrenal crisis, a cortisol emergency",
+   "headline": "Go to the ER",
+   "signs": [
+    {
+     "icon": "zap",
+     "text": "Sudden severe pain in the lower back, abdomen or legs"
+    },
+    {
+     "icon": "frown",
+     "text": "Severe vomiting and diarrhea with dehydration"
+    },
+    {
+     "icon": "heart-pulse",
+     "text": "Low blood pressure or loss of consciousness"
+    }
+   ],
+   "footer": "Also: confusion or extreme weakness"
+  },
+  {
+   "file": "chemical-peel-three-depths",
+   "post_id": 8563,
+   "layout": "compare",
+   "subject": "chemical peel",
+   "heading": "How Do Chemical Peels Work?",
+   "title": [
+    "The Three Depths of ",
+    "Chemical Peel",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Light, medium and deep chemical peels compared by the skin layer reached, what each treats, and recovery time",
+   "columns": [
+    "Light",
+    "Medium",
+    "Deep"
+   ],
+   "rows": [
+    {
+     "label": "Reaches",
+     "values": [
+      "The outermost layer",
+      "The middle layer",
+      "The lower dermal layers"
+     ]
+    },
+    {
+     "label": "Acid",
+     "values": [
+      "Mild, such as AHA",
+      "Stronger formulations",
+      "Phenol"
+     ]
+    },
+    {
+     "label": "Best for",
+     "values": [
+      "A gentle refresh",
+      "Deeper lines, discoloration",
+      "Dramatic change"
+     ]
+    },
+    {
+     "label": "Downtime",
+     "values": [
+      "Very little",
+      "Days of flaking",
+      "A longer recovery"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "chemical-peel-what-happens",
+   "post_id": 8563,
+   "layout": "timeline",
+   "subject": "chemical peel",
+   "heading": "The Procedure: What to Expect",
+   "title": [
+    "A ",
+    "Chemical Peel",
+    ", Start to Finish"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Chemical peel timeline: stop retinoids beforehand, a 5 to 10 minute application, then flaking over 3 to 7 days",
+   "nodes": [
+    {
+     "time": "Before",
+     "label": "Prepare",
+     "note": "Pause retinoids, wear SPF daily"
+    },
+    {
+     "time": "5-10 min",
+     "label": "Applied",
+     "note": "Warm, tingling or stinging"
+    },
+    {
+     "time": "Days 3-7",
+     "label": "Peeling",
+     "note": "Flaking, like a sunburn"
+    },
+    {
+     "time": "After",
+     "label": "Protect",
+     "note": "No picking, no sun, gentle moisturizer"
+    }
+   ]
+  },
+  {
+   "file": "correcting-estrogen-balance-v2",
+   "post_id": 9173,
+   "layout": "icons",
+   "subject": "estrogen",
+   "heading": "Correcting the Balance",
+   "title": [
+    "Restoring ",
+    "Estrogen",
+    " Balance"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Restoring estrogen balance through liver support, nutrition and strength training, and BHRT under medical supervision",
+   "items": [
+    {
+     "icon": "flask-conical",
+     "label": "Liver support",
+     "note": "It metabolizes hormones"
+    },
+    {
+     "icon": "salad",
+     "label": "Nutrition and strength",
+     "note": "Steady blood sugar, kept muscle"
+    },
+    {
+     "icon": "pill",
+     "label": "BHRT",
+     "note": "Supervised, not for everyone"
+    }
+   ],
+   "old_file": "correcting-estrogen-balance"
+  },
+  {
+   "file": "dehydration-early-warning-signs",
+   "post_id": 8929,
+   "layout": "icons",
+   "subject": "dehydration",
+   "heading": "Early Warning Signs You Shouldn't Ignore",
+   "title": [
+    "Early Signs of ",
+    "Dehydration",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Early dehydration signs: extreme thirst, urine darker than pale straw, and dizziness or unusual fatigue",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Extreme thirst",
+     "note": "Thirst means you are already behind"
+    },
+    {
+     "icon": "beaker",
+     "label": "Dark urine",
+     "note": "Pale straw is the target color"
+    },
+    {
+     "icon": "battery-low",
+     "label": "Dizzy or wiped out",
+     "note": "Low blood volume, heart working harder"
+    }
+   ]
+  },
+  {
+   "file": "dermaplaning-aftercare",
+   "post_id": 8370,
+   "layout": "icons",
+   "subject": "dermaplaning",
+   "heading": "Aftercare: Protecting Your New Glow",
+   "title": [
+    "Dermaplaning",
+    " Aftercare",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Dermaplaning aftercare: SPF 30 or higher daily, no retinols or acids for 48 to 72 hours, and gentle hydration",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "SPF 30 daily",
+     "note": "Fresh skin burns more easily"
+    },
+    {
+     "icon": "ban",
+     "label": "No retinols",
+     "note": "Or strong acids, for 48 to 72 hours"
+    },
+    {
+     "icon": "droplet",
+     "label": "Hydrate",
+     "note": "Water and a gentle moisturizer"
+    }
+   ]
+  },
+  {
+   "file": "empower-evidence-based-nutrition",
+   "post_id": 8567,
+   "layout": "icons",
+   "subject": "nutrition",
+   "heading": "2. Fuel Your Body with Evidence-Based Nutrition",
+   "title": [
+    "Evidence-Based ",
+    "Nutrition",
+    " in Three Parts"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Evidence-based nutrition: add fiber-rich plants rather than subtracting, stay hydrated, and cut sugar-sweetened drinks",
+   "items": [
+    {
+     "icon": "apple",
+     "label": "Add, don't subtract",
+     "note": "More fiber-rich fruit, veg and whole grains"
+    },
+    {
+     "icon": "droplet",
+     "label": "Hydration",
+     "note": "Energy, digestion and cognition"
+    },
+    {
+     "icon": "candy-off",
+     "label": "Skip sweet drinks",
+     "note": "A major source of added sugar"
+    }
+   ]
+  },
+  {
+   "file": "fading-sun-damage-and-hyperpigmentation",
+   "post_id": 8933,
+   "layout": "icons",
+   "subject": "sun damage",
+   "heading": "2. Address Sun Damage and Hyperpigmentation",
+   "title": [
+    "Fading ",
+    "Sun Damage",
+    " and Dark Spots"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Fade sun damage with topical vitamin C, gentle AHA exfoliation, and patience, since it takes months rather than days",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Brightens and neutralizes free radicals"
+    },
+    {
+     "icon": "recycle",
+     "label": "Gentle AHAs",
+     "note": "Shed the pigmented top layer, do not scrub"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Patience",
+     "note": "Fading takes months, not days"
+    }
+   ]
+  },
+  {
+   "file": "functional-medicine-consultation",
+   "post_id": 8577,
+   "layout": "steps",
+   "subject": "functional medicine",
+   "heading": "What to Expect During a Functional Medicine Consultation",
+   "title": [
+    "A ",
+    "Functional Medicine",
+    " Consultation"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A functional medicine consultation: a health history from birth, functional lab testing, then a personalized wellness plan",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "Your history",
+     "note": "From birth, mapped as a health timeline"
+    },
+    {
+     "icon": "microscope",
+     "label": "Testing",
+     "note": "Nutrients, hormones, gut markers"
+    },
+    {
+     "icon": "target",
+     "label": "Your plan",
+     "note": "Built for your biology, not a template"
+    }
+   ]
+  },
+  {
+   "file": "glutathione-what-it-does",
+   "post_id": 6359,
+   "layout": "icons",
+   "subject": "glutathione",
+   "heading": "What is glutathione?",
+   "title": [
+    "What ",
+    "Glutathione",
+    " Does"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Glutathione neutralizes free radicals, recycles vitamins C and E, supports mitochondria and aids detoxification",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Neutralizes",
+     "note": "Free radicals, across every cell"
+    },
+    {
+     "icon": "recycle",
+     "label": "Recycles",
+     "note": "Vitamins C and E back into use"
+    },
+    {
+     "icon": "zap",
+     "label": "Mitochondria",
+     "note": "Supports cellular energy production"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Detox pathways",
+     "note": "Helps the body excrete compounds"
+    }
+   ]
+  },
+  {
+   "file": "hangover-iv-drip-what-it-can-and-cannot-fix",
+   "post_id": 6300,
+   "layout": "checklist",
+   "subject": "hangover",
+   "heading": "Can an IV Drip Actually Cure a Hangover?",
+   "title": [
+    "Can an IV Drip Cure a ",
+    "Hangover",
+    "?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A hangover IV drip treats dehydration and electrolyte loss but cannot speed alcohol metabolism or replace rest",
+   "good": {
+    "icon": "circle-check",
+    "heading": "It can help with",
+    "items": [
+     "Dehydration",
+     "Electrolyte imbalance",
+     "Fatigue, via B vitamins",
+     "Oxidative stress, via vitamin C"
+    ]
+   },
+   "bad": {
+    "icon": "circle-x",
+    "heading": "It cannot fix",
+    "items": [
+     "How fast you metabolize alcohol",
+     "Clearing acetaldehyde",
+     "The need for rest",
+     "The need for time"
+    ]
+   }
+  },
+  {
+   "file": "hangover-what-alcohol-does",
+   "post_id": 6300,
+   "layout": "list",
+   "subject": "hangover",
+   "heading": "What Exactly Happens to Your Body During a Hangover?",
+   "title": [
+    "What Causes a ",
+    "Hangover",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A hangover comes from dehydration, electrolyte loss, acetaldehyde, inflammation and blood sugar swings",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Dehydration",
+     "note": "Alcohol is a diuretic"
+    },
+    {
+     "icon": "waves",
+     "label": "Electrolyte loss",
+     "note": "Sodium, potassium and magnesium"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Acetaldehyde",
+     "note": "The toxic byproduct of metabolizing alcohol"
+    },
+    {
+     "icon": "flame",
+     "label": "Inflammation",
+     "note": "An immune response you feel as malaise"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Blood sugar swings",
+     "note": "Brain fog and mood swings"
+    }
+   ]
+  },
+  {
+   "file": "hormone-creams-pros-and-cons",
+   "post_id": 10191,
+   "layout": "checklist",
+   "subject": "hormone creams",
+   "heading": "Hormone Creams and Gels: Pros and Cons",
+   "title": [
+    "Hormone Creams",
+    " and Gels: Pros and Cons",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hormone creams give the most physiologic rhythm and are easiest to adjust, but absorption varies and residue transfers",
+   "good": {
+    "icon": "circle-check",
+    "heading": "In their favor",
+    "items": [
+     "The most physiologic rhythm",
+     "Easiest to stop or adjust",
+     "Suits starting low and slow"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "The trade-off",
+    "items": [
+     "Absorption varies day to day",
+     "Missed days show as symptom swings",
+     "Residue can transfer by skin contact"
+    ]
+   }
+  },
+  {
+   "file": "hormone-injections-pros-and-cons",
+   "post_id": 10191,
+   "layout": "checklist",
+   "subject": "hormone injections",
+   "heading": "Hormone Injections: Pros and Cons",
+   "title": [
+    "Hormone Injections",
+    ": Pros and Cons",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hormone injections are inexpensive and easy to fine-tune, but levels wave between doses and some feel the trough",
+   "good": {
+    "icon": "circle-check",
+    "heading": "In their favor",
+    "items": [
+     "Inexpensive",
+     "FDA-approved forms available",
+     "Easy to fine-tune at 6-week labs"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "The trade-off",
+    "items": [
+     "Levels wave between doses",
+     "Fatigue or irritability at the trough",
+     "Splitting doses flattens it, for many"
+    ]
+   }
+  },
+  {
+   "file": "hormone-pellets-pros-and-cons",
+   "post_id": 10191,
+   "layout": "checklist",
+   "subject": "hormone pellets",
+   "heading": "Hormone Pellet Therapy: Pros and Cons",
+   "title": [
+    "Hormone Pellets",
+    ": Pros and Cons",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hormone pellets give steady levels with no shot day, but the dose is fixed until the pellet dissolves",
+   "good": {
+    "icon": "circle-check",
+    "heading": "In their favor",
+    "items": [
+     "No cycle, no shot day",
+     "No pre-dose slump",
+     "Nothing to remember daily"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "The trade-off",
+    "items": [
+     "Dose fixed until it dissolves",
+     "No simple way to dial it back",
+     "Conservative dosing from labs matters most"
+    ]
+   }
+  },
+  {
+   "file": "how-estrogen-imbalance-drives-weight-gain",
+   "post_id": 9173,
+   "layout": "list",
+   "subject": "estrogen",
+   "heading": "Hormonal Weight Gain",
+   "title": [
+    "How ",
+    "Estrogen",
+    " Imbalance Drives Weight Gain"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "When estrogen is imbalanced fat storage rises, muscle mass falls, metabolism slows and water retention increases",
+   "items": [
+    {
+     "icon": "trending-up",
+     "label": "Fat storage rises",
+     "note": "Particularly around the abdomen"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Muscle mass falls",
+     "note": "Which lowers what you burn at rest"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Metabolism slows",
+     "note": "The same effort returns less"
+    },
+    {
+     "icon": "droplet",
+     "label": "Water retention",
+     "note": "Adding to the number on the scale"
+    }
+   ]
+  },
+  {
+   "file": "how-hypothyroidism-causes-weight-gain",
+   "post_id": 6445,
+   "layout": "icons",
+   "subject": "hypothyroidism",
+   "heading": "How Hypothyroidism Can Lead to Weight Gain ",
+   "title": [
+    "How ",
+    "Hypothyroidism",
+    " Adds Weight"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Hypothyroidism adds weight through a slowed metabolism, fluid retention, and the fatigue that reduces daily movement",
+   "items": [
+    {
+     "icon": "trending-down",
+     "label": "Slower metabolism",
+     "note": "Fewer calories burned, even at rest"
+    },
+    {
+     "icon": "droplet",
+     "label": "Fluid retention",
+     "note": "Swelling that subtly adds weight"
+    },
+    {
+     "icon": "footprints",
+     "label": "Less movement",
+     "note": "Fatigue makes exercise harder"
+    }
+   ]
+  },
+  {
+   "file": "iv-hydration-whats-in-the-bag",
+   "post_id": 6285,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "What’s in an IV Hydration Bag?",
+   "title": [
+    "What’s in an ",
+    "IV Hydration",
+    " Bag"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An IV hydration bag starts with sterile saline plus electrolytes, B vitamins, vitamin C, glutathione and amino acids",
+   "items": [
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium and magnesium restore balance"
+    },
+    {
+     "icon": "pill",
+     "label": "B-complex and B12",
+     "note": "Energy, metabolism and brain function"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Immune and skin support"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant for detox and brighter skin"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Muscle recovery and fatigue relief"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-athletes-whats-in-the-bag",
+   "post_id": 6353,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "What’s in an Athlete’s IV Therapy Bag?",
+   "title": [
+    "What Is in an Athlete’s ",
+    "IV Therapy",
+    " Bag"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "An athlete's IV bag holds electrolytes, amino acids, B complex, vitamin C and glutathione",
+   "items": [
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium, calcium, magnesium"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Amino acids",
+     "note": "Muscle repair, less breakdown"
+    },
+    {
+     "icon": "pill",
+     "label": "B complex",
+     "note": "Energy, metabolism, red blood cells"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, supports tissue repair"
+    },
+    {
+     "icon": "sparkles",
+     "label": "Glutathione",
+     "note": "Antioxidant, reduces muscle inflammation"
+    }
+   ]
+  },
+  {
+   "file": "iv-therapy-ingredients-and-cadence",
+   "post_id": 6306,
+   "layout": "list",
+   "subject": "IV therapy",
+   "heading": "Ingredients Matter: Why Formula Influences Frequency",
+   "title": [
+    "What the Formula Changes About ",
+    "IV Therapy",
+    " Cadence"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV formula drives frequency: B12 monthly or per labs, vitamin C needs screening, magnesium monitored, minerals individualized",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "B-complex and B12",
+     "note": "Maintenance monthly, or per labs"
+    },
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "High doses need G6PD screening"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Watch for low blood pressure"
+    },
+    {
+     "icon": "beaker",
+     "label": "Trace minerals",
+     "note": "Individualized, not a kitchen-sink blend"
+    }
+   ]
+  },
+  {
+   "file": "iv-vitamin-drip-antioxidants",
+   "post_id": 6290,
+   "layout": "icons",
+   "subject": "IV vitamin drips",
+   "heading": "7. Detoxification and Anti-Aging Support",
+   "title": [
+    "Antioxidants in ",
+    "IV Vitamin Drips",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Glutathione and vitamin C neutralize free radicals, support the liver and kidneys, and back mitochondrial function",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Free radicals",
+     "note": "Glutathione and vitamin C neutralize them"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Liver and kidneys",
+     "note": "The organs doing the actual detox work"
+    },
+    {
+     "icon": "zap",
+     "label": "Mitochondria",
+     "note": "Cell repair and energy production"
+    }
+   ]
+  },
+  {
+   "file": "iv-vitamin-drip-energy-who-benefits",
+   "post_id": 6290,
+   "layout": "list",
+   "subject": "IV vitamin drips",
+   "heading": "2. Boosted Energy and Mental Clarity",
+   "title": [
+    "Who Energy ",
+    "IV Vitamin Drips",
+    " Suit"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Energy IV vitamin drips suit busy professionals, shift workers, frequent travelers and people recovering from burnout",
+   "items": [
+    {
+     "icon": "briefcase",
+     "label": "Busy professionals",
+     "note": "Running on coffee rather than fuel"
+    },
+    {
+     "icon": "moon",
+     "label": "Shift workers",
+     "note": "Body clock permanently out of step"
+    },
+    {
+     "icon": "plane",
+     "label": "Frequent travelers",
+     "note": "Dehydration and disrupted sleep"
+    },
+    {
+     "icon": "battery-low",
+     "label": "Recovering from burnout",
+     "note": "Where exhaustion became the baseline"
+    }
+   ]
+  },
+  {
+   "file": "laser-genesis-vs-ipl-2-what-ipl-treats",
+   "post_id": 8139,
+   "layout": "icons",
+   "heading": "What is IPL (Intense Pulsed Light)? Targeting Sun Damage and Redness",
+   "title": [
+    "What ",
+    "IPL",
+    " Treats"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IPL targets sunspots and age spots, broken capillaries, and rosacea-related flushing",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Sun and age spots",
+     "note": "Light breaks down excess melanin"
+    },
+    {
+     "icon": "waves",
+     "label": "Broken capillaries",
+     "note": "Targets hemoglobin in dilated vessels"
+    },
+    {
+     "icon": "palette",
+     "label": "Rosacea flushing",
+     "note": "Reduces visible background redness"
+    }
+   ],
+   "subject": "IPL"
+  },
+  {
+   "file": "laser-hair-removal-hair-color",
+   "post_id": 10221,
+   "layout": "checklist",
+   "subject": "laser hair removal",
+   "heading": "Does hair color change how many sessions you need?",
+   "title": [
+    "Hair Color and ",
+    "Laser Hair Removal",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Laser targets pigment, so dark coarse hair responds well while gray, white, red and blonde do not",
+   "good": {
+    "heading": "Responds well",
+    "items": [
+     "Dark brown or black hair",
+     "Coarse, dense growth",
+     "Strong pigment in the follicle"
+    ]
+   },
+   "bad": {
+    "heading": "Responds poorly",
+    "items": [
+     "Gray or white hair",
+     "Red or very blonde hair",
+     "Too little pigment to absorb light"
+    ]
+   },
+   "old_file": "laser-hair-removal-sessions-3-which-hair-colors-respond"
+  },
+  {
+   "file": "lipo-b-mic-ingredients",
+   "post_id": 6492,
+   "layout": "icons",
+   "subject": "Lipo-B",
+   "heading": "What Are Lipo-B (MIC) Injections, Really?",
+   "title": [
+    "What Is in a ",
+    "Lipo-B",
+    " (MIC) Injection"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Lipo-B MIC injection holds methionine, inositol and choline, usually with B vitamins including B12",
+   "items": [
+    {
+     "icon": "recycle",
+     "label": "Methionine",
+     "note": "Amino acid in methylation and fat metabolism"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Inositol",
+     "note": "Cell signalling and insulin sensitivity"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Choline",
+     "note": "Helps the liver package and move fats"
+    },
+    {
+     "icon": "zap",
+     "label": "B vitamins",
+     "note": "Usually B12, for energy and nerve function"
+    }
+   ]
+  },
+  {
+   "file": "medical-grade-skincare-four-steps",
+   "post_id": 8363,
+   "layout": "steps",
+   "subject": "skincare",
+   "heading": "The Core Pillars of a Medical-Grade Skincare Routine",
+   "title": [
+    "The Four Steps of a Medical-Grade ",
+    "Skincare",
+    " Routine"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A medical-grade skincare routine in four steps: gentle cleansing, vitamin C, retinoids, then broad-spectrum SPF",
+   "steps": [
+    {
+     "icon": "droplets",
+     "label": "Cleanse",
+     "note": "Without stripping the moisture barrier"
+    },
+    {
+     "icon": "sun",
+     "label": "Antioxidants",
+     "note": "Vitamin C neutralizes free radicals"
+    },
+    {
+     "icon": "recycle",
+     "label": "Retinoids",
+     "note": "Cell turnover, and less collagen breakdown"
+    },
+    {
+     "icon": "shield-check",
+     "label": "SPF",
+     "note": "Broad spectrum, SPF 15 or higher"
+    }
+   ]
+  },
+  {
+   "file": "medical-grade-vs-otc-skincare",
+   "post_id": 8363,
+   "layout": "compare",
+   "subject": "medical-grade skincare",
+   "heading": "What is Medical-Grade Skincare? Understanding the Difference",
+   "title": [
+    "Medical-Grade Skincare",
+    " vs Over the Counter",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Medical-grade skincare uses higher active concentrations sold through clinicians, but is not an official FDA category",
+   "columns": [
+    "Over the counter",
+    "Medical-grade"
+   ],
+   "rows": [
+    {
+     "label": "Formulated for",
+     "values": [
+      "General skin maintenance",
+      "Deeper layers, collagen and repair"
+     ]
+    },
+    {
+     "label": "Actives",
+     "values": [
+      "Lower concentrations",
+      "Higher concentrations, stabilized"
+     ]
+    },
+    {
+     "label": "Sold through",
+     "values": [
+      "Retail shelves",
+      "Medical professionals"
+     ]
+    },
+    {
+     "label": "FDA status",
+     "values": [
+      "Regulated as cosmetics",
+      "Not an FDA category, an industry term"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "microneedling-aftercare-first-24-hours",
+   "post_id": 6854,
+   "layout": "icons",
+   "subject": "microneedling",
+   "heading": "Day 1 - Immediate Post-Treatment Care",
+   "title": [
+    "The First 24 Hours After ",
+    "Microneedling",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "First 24 hours after microneedling: cleanse gently, use a fragrance-free moisturizer, and apply mineral SPF 30",
+   "items": [
+    {
+     "icon": "droplets",
+     "label": "Cleanse gently",
+     "note": "Mild hydrating cleanser, no fragrance"
+    },
+    {
+     "icon": "droplet",
+     "label": "Moisturize",
+     "note": "Calming, fragrance-free formula"
+    },
+    {
+     "icon": "sun",
+     "label": "Mineral SPF 30",
+     "note": "Stay out of direct sun"
+    }
+   ]
+  },
+  {
+   "file": "microneedling-vs-dermarolling-compared",
+   "post_id": 6867,
+   "layout": "compare",
+   "subject": "microneedling",
+   "heading": "Understanding Microneedling and At-Home Dermarolling",
+   "title": [
+    "Professional ",
+    "Microneedling",
+    " vs Dermarolling"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Professional microneedling and at-home dermarolling compared on operator, setting, needle depth and aftercare",
+   "columns": [
+    "Professional microneedling",
+    "At-home dermarolling"
+   ],
+   "rows": [
+    {
+     "label": "Performed by",
+     "values": [
+      "A trained practitioner",
+      "You, unsupervised"
+     ]
+    },
+    {
+     "label": "Setting",
+     "values": [
+      "Sterile clinical room",
+      "Home, no sterilization protocol"
+     ]
+    },
+    {
+     "label": "Needle depth",
+     "values": [
+      "Chosen for your skin and concern",
+      "Fixed, and typically shorter"
+     ]
+    },
+    {
+     "label": "Aftercare",
+     "values": [
+      "Provided and monitored",
+      "Left to you"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "movement-to-maintain-weight-loss",
+   "post_id": 6441,
+   "layout": "icons",
+   "subject": "weight loss",
+   "heading": "2. Prioritize Daily Movement (Not Just Structured Exercise)",
+   "title": [
+    "Movement That Protects ",
+    "Weight Loss",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Protect weight loss with strength training, cardio and NEAT, aiming for about 150 minutes of moderate activity a week",
+   "items": [
+    {
+     "icon": "dumbbell",
+     "label": "Strength",
+     "note": "Preserves muscle, supports metabolism"
+    },
+    {
+     "icon": "heart-pulse",
+     "label": "Cardio",
+     "note": "Heart health and calorie balance"
+    },
+    {
+     "icon": "footprints",
+     "label": "NEAT",
+     "note": "Walking, stairs, standing, cleaning"
+    }
+   ]
+  },
+  {
+   "file": "myers-cocktail-ingredients",
+   "post_id": 6296,
+   "layout": "list",
+   "subject": "Myers Cocktail",
+   "heading": "What Is the Myers’ Cocktail?",
+   "title": [
+    "What Is in a ",
+    "Myers Cocktail",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A Myers Cocktail holds vitamin C, B-complex vitamins, vitamin B12, magnesium and calcium",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Antioxidant, immune support"
+    },
+    {
+     "icon": "zap",
+     "label": "B-complex",
+     "note": "B1, B2, B3, B5 and B6 for energy metabolism"
+    },
+    {
+     "icon": "pill",
+     "label": "Vitamin B12",
+     "note": "Red blood cells and mental clarity"
+    },
+    {
+     "icon": "waves",
+     "label": "Magnesium",
+     "note": "Muscle relaxation and migraine relief"
+    },
+    {
+     "icon": "bone",
+     "label": "Calcium",
+     "note": "Bone strength and cellular function"
+    }
+   ]
+  },
+  {
+   "file": "myers-cocktail-who-it-suits",
+   "post_id": 6296,
+   "layout": "checklist",
+   "subject": "Myers Cocktail",
+   "heading": "Who Can Benefit from the Myers’ Cocktail?",
+   "title": [
+    "Who the ",
+    "Myers Cocktail",
+    " Suits"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The Myers Cocktail suits chronic stress, athletes and travelers; check first in pregnancy or with kidney or heart conditions",
+   "good": {
+    "icon": "circle-check",
+    "heading": "Especially suited to",
+    "items": [
+     "People under chronic stress",
+     "Athletes and active people",
+     "Frequent travelers",
+     "Chronic fatigue or migraine",
+     "Recovering from illness or surgery"
+    ]
+   },
+   "bad": {
+    "icon": "triangle-alert",
+    "heading": "Consult a provider first",
+    "items": [
+     "Pregnant or breastfeeding",
+     "Kidney conditions",
+     "Heart conditions",
+     "Medications that interact with high-dose vitamins"
+    ]
+   }
+  },
+  {
+   "file": "nad-iv-therapy-what-nad-does",
+   "post_id": 10216,
+   "layout": "icons",
+   "subject": "NAD+",
+   "heading": "What is NAD+ and what does it do in the body?",
+   "title": [
+    "What ",
+    "NAD+",
+    " Does in the Body"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "NAD+ is a coenzyme used for cellular energy and DNA repair, and its levels fall with age",
+   "items": [
+    {
+     "icon": "zap",
+     "label": "Cellular energy",
+     "note": "Shuttles electrons during metabolism"
+    },
+    {
+     "icon": "dna",
+     "label": "DNA repair",
+     "note": "Supports the enzymes that fix damage"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Falls with age",
+     "note": "The observation that drove the interest"
+    }
+   ]
+  },
+  {
+   "file": "pcos-cycle-regulation-diet",
+   "post_id": 9295,
+   "layout": "icons",
+   "subject": "PCOS",
+   "heading": "Cycle Regulation Diet",
+   "title": [
+    "Eating to Steady ",
+    "PCOS",
+    " Blood Sugar"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A PCOS cycle-regulation plate: fiber first, protein at every meal, healthy fats, and anti-inflammatory color",
+   "items": [
+    {
+     "icon": "wheat",
+     "label": "Fiber first",
+     "note": "Greens, berries and seeds slow absorption"
+    },
+    {
+     "icon": "egg",
+     "label": "Protein every meal",
+     "note": "Prevents the glucose roller coaster"
+    },
+    {
+     "icon": "salad",
+     "label": "Healthy fats",
+     "note": "Avocado, nuts and olive oil for hormone synthesis"
+    },
+    {
+     "icon": "apple",
+     "label": "Anti-inflammatory",
+     "note": "Colorful fruit and vegetables"
+    }
+   ]
+  },
+  {
+   "file": "perimenopause-natural-relief-options",
+   "post_id": 9292,
+   "layout": "list",
+   "subject": "perimenopause",
+   "heading": "Natural Relief: Evidence-Based Strategies",
+   "title": [
+    "Natural ",
+    "Perimenopause",
+    " Relief Options"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Perimenopause relief options: calcium and vitamin D, phytoestrogens, progesterone cream with caution, and pelvic care",
+   "items": [
+    {
+     "icon": "apple",
+     "label": "Diet foundations",
+     "note": "Calcium and vitamin D, fewer hot-flash triggers"
+    },
+    {
+     "icon": "wheat",
+     "label": "Phytoestrogens",
+     "note": "Soy, flaxseed and red clover isoflavones"
+    },
+    {
+     "icon": "pill",
+     "label": "Progesterone cream",
+     "note": "OTC bioidenticals are loosely regulated, ask first"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Pelvic health",
+     "note": "Water-based lubricants, non-hormonal moisturizers"
+    }
+   ]
+  },
+  {
+   "file": "progesterone-and-fertility",
+   "post_id": 9389,
+   "layout": "icons",
+   "subject": "progesterone",
+   "heading": "Fertility Impacts: Thinking About Your Future Family",
+   "title": [
+    "Progesterone",
+    " and Fertility",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Progesterone ripens the uterine lining, supports implantation, and is measured by tests used to investigate infertility",
+   "items": [
+    {
+     "icon": "circle-dot",
+     "label": "Ripens the lining",
+     "note": "So a fertilized egg can implant"
+    },
+    {
+     "icon": "baby",
+     "label": "Sustains it",
+     "note": "Too little and the lining breaks down early"
+    },
+    {
+     "icon": "beaker",
+     "label": "Measured",
+     "note": "Tests used to investigate infertility"
+    }
+   ]
+  },
+  {
+   "file": "restoring-progesterone-levels",
+   "post_id": 9389,
+   "layout": "list",
+   "subject": "progesterone",
+   "heading": "Restoring Levels: How to Get Your Balance Back",
+   "title": [
+    "Restoring ",
+    "Progesterone",
+    " Levels"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Restoring progesterone: magnesium and B6, lowering cortisol, healthy fats for hormone synthesis, and BHRT with testing",
+   "items": [
+    {
+     "icon": "pill",
+     "label": "Magnesium and B6",
+     "note": "The corpus luteum needs both"
+    },
+    {
+     "icon": "moon",
+     "label": "Lower cortisol",
+     "note": "Stress is a progesterone thief"
+    },
+    {
+     "icon": "salad",
+     "label": "Healthy fats",
+     "note": "Hormones are built from cholesterol"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "BHRT",
+     "note": "Individualized, with your levels tested"
+    }
+   ]
+  },
+  {
+   "file": "reversing-weight-loss-resistance",
+   "post_id": 9462,
+   "layout": "icons",
+   "subject": "weight loss resistance",
+   "heading": "Reigniting Metabolism: Beyond the Calorie Deficit",
+   "title": [
+    "Reversing ",
+    "Weight Loss Resistance",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Reverse weight loss resistance with comprehensive metabolic testing, gut microbiome repair and a personalized plan",
+   "items": [
+    {
+     "icon": "microscope",
+     "label": "Metabolic testing",
+     "note": "Inflammation markers, deficiencies, hormones"
+    },
+    {
+     "icon": "flask-conical",
+     "label": "Gut microbiome",
+     "note": "Shapes how you harvest energy from food"
+    },
+    {
+     "icon": "sliders-horizontal",
+     "label": "Personalized plan",
+     "note": "Nutrient density, stress, strategic movement"
+    }
+   ]
+  },
+  {
+   "file": "sleep-stress-and-weight",
+   "post_id": 6220,
+   "layout": "icons",
+   "subject": "weight loss",
+   "heading": "Sleep, Stress, and the Metabolism Connection",
+   "title": [
+    "Sleep and Stress in ",
+    "Weight Loss",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Sleep 7 to 9 hours, take short stress breaks, and keep protein and fiber snacks ready for your known trigger times",
+   "items": [
+    {
+     "icon": "moon",
+     "label": "7 to 9 hours",
+     "note": "Short sleep leaves you hungrier"
+    },
+    {
+     "icon": "brain",
+     "label": "Short breaks",
+     "note": "Five minutes of breathing, a ten-minute walk"
+    },
+    {
+     "icon": "apple",
+     "label": "Snacks ready",
+     "note": "Protein and fiber, for your trigger times"
+    }
+   ]
+  },
+  {
+   "file": "supporting-gut-health-for-skin",
+   "post_id": 8609,
+   "layout": "icons",
+   "subject": "gut health",
+   "heading": "How to Support Your Gut for Radiant Skin",
+   "title": [
+    "Supporting ",
+    "Gut Health",
+    " for Clearer Skin"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Support gut health with probiotics from fermented foods, prebiotic fiber, and 7 to 9 hours of sleep to lower cortisol",
+   "items": [
+    {
+     "icon": "flask-conical",
+     "label": "Probiotics",
+     "note": "Yogurt, kefir, sauerkraut"
+    },
+    {
+     "icon": "wheat",
+     "label": "Prebiotics",
+     "note": "Fiber that feeds the good bacteria"
+    },
+    {
+     "icon": "moon",
+     "label": "Sleep and stress",
+     "note": "7 to 9 hours, because cortisol disrupts the lining"
+    }
+   ]
+  },
+  {
+   "file": "testosterone-and-the-brain",
+   "post_id": 9270,
+   "layout": "icons",
+   "subject": "testosterone",
+   "heading": "What is \"Brain Fog\" and How Does Testosterone Affect the Mind?",
+   "title": [
+    "How ",
+    "Testosterone",
+    " Reaches the Brain"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The brain is dense with testosterone receptors, concentrated in the hippocampus, and under-fired when levels drop",
+   "items": [
+    {
+     "icon": "brain",
+     "label": "Receptors",
+     "note": "The brain is packed with them"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "The hippocampus",
+     "note": "Command center for memory and learning"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Under-fired",
+     "note": "When levels dip, so does the signal"
+    }
+   ]
+  },
+  {
+   "file": "trt-mood-and-clarity",
+   "post_id": 9402,
+   "layout": "icons",
+   "subject": "TRT",
+   "heading": "Improving Mood and Mental Clarity",
+   "title": [
+    "TRT",
+    ", Mood and Mental Clarity",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Low testosterone is linked to depressive symptoms and anxiety; stabilizing levels can clear fog and restore drive",
+   "items": [
+    {
+     "icon": "brain",
+     "label": "Clearer thinking",
+     "note": "The mental fog lifts"
+    },
+    {
+     "icon": "target",
+     "label": "Drive returns",
+     "note": "Motivation and follow-through"
+    },
+    {
+     "icon": "smile",
+     "label": "Resilience",
+     "note": "Low levels link to depressive symptoms"
+    }
+   ]
+  },
+  {
+   "file": "weight-loss-resistance-cellular-bottlenecks",
+   "post_id": 9462,
+   "layout": "list",
+   "subject": "weight loss resistance",
+   "heading": "Cellular Bottlenecks: The Science of Stalled Progress",
+   "title": [
+    "Cellular Causes of ",
+    "Weight Loss Resistance",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Weight loss resistance at cell level: mitochondrial dysfunction, endocrine disruptors, low thyroid and high cortisol",
+   "items": [
+    {
+     "icon": "zap",
+     "label": "Mitochondrial dysfunction",
+     "note": "The cellular batteries turn nutrients into energy"
+    },
+    {
+     "icon": "ban",
+     "label": "Endocrine disruptors",
+     "note": "Heavy metals and BPA jam hormone signals"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Underactive thyroid",
+     "note": "The master controller of metabolism"
+    },
+    {
+     "icon": "activity",
+     "label": "High cortisol",
+     "note": "Abdominal fat and comfort-food cravings"
+    }
+   ]
+  },
+  {
+   "file": "wellness-assessment-your-visit",
+   "post_id": 8571,
+   "layout": "steps",
+   "subject": "wellness assessment",
+   "heading": "What to Expect During Your Visit",
+   "title": [
+    "Your ",
+    "Wellness Assessment",
+    " Visit"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A wellness assessment visit: the conversation about history and concerns, a head-to-toe exam, then a personalized plan",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "The conversation",
+     "note": "Family history and what has concerned you"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "The exam",
+     "note": "Head to toe, checking everything works"
+    },
+    {
+     "icon": "target",
+     "label": "Your plan",
+     "note": "Tailored, not just see you next year"
+    }
+   ]
+  },
+  {
+   "file": "what-wellness-coaching-covers",
+   "post_id": 6246,
+   "layout": "icons",
+   "subject": "wellness coaching",
+   "heading": "Key Aspects of Wellness Coaching",
+   "title": [
+    "What ",
+    "Wellness Coaching",
+    " Covers"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Wellness coaching covers physical health, mental health, lifestyle choices and the behavior changes that hold them",
+   "items": [
+    {
+     "icon": "dumbbell",
+     "label": "Physical health",
+     "note": "Fitness, nutrition, weight"
+    },
+    {
+     "icon": "brain",
+     "label": "Mental health",
+     "note": "Stress, clarity, emotional health"
+    },
+    {
+     "icon": "moon",
+     "label": "Lifestyle",
+     "note": "Sleep and work-life balance"
+    },
+    {
+     "icon": "recycle",
+     "label": "Behavior change",
+     "note": "Habits that hold long term"
+    }
+   ]
+  },
+  {
+   "file": "who-needs-iv-hydration-texas-heat",
+   "post_id": 8929,
+   "layout": "list",
+   "subject": "IV hydration",
+   "heading": "Who Needs IV Hydration Therapy Most?",
+   "title": [
+    "Who Needs ",
+    "IV Hydration",
+    " Most in Texas"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "IV hydration matters most for outdoor workers, athletes, older adults and visitors not acclimatized to Texas heat",
+   "items": [
+    {
+     "icon": "hard-hat",
+     "label": "Outdoor workers",
+     "note": "Construction, landscaping, delivery"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "Athletes",
+     "note": "Liters of sweat in one session"
+    },
+    {
+     "icon": "users",
+     "label": "Older adults",
+     "note": "Thirst cues dull with age"
+    },
+    {
+     "icon": "plane",
+     "label": "Visitors",
+     "note": "Not acclimatized to the climate"
+    }
+   ]
+  },
+  {
+   "file": "why-professional-microneedling-is-safer",
+   "post_id": 6867,
+   "layout": "list",
+   "subject": "microneedling",
+   "heading": "Safety Considerations: Why Professional Microneedling Is Safer",
+   "title": [
+    "Why Professional ",
+    "Microneedling",
+    " Is Safer"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Professional microneedling is safer through sterilization, needle depth chosen for your skin, and trained technique",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Infection control",
+     "note": "Tools sanitized between every treatment"
+    },
+    {
+     "icon": "ruler-dimension-line",
+     "label": "Depth precision",
+     "note": "Needle length matched to the concern"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Trained technique",
+     "note": "Thin skin near eyes handled safely"
+    }
+   ]
+  },
+  {
+   "file": "world-cup-heat-risk-factors",
+   "post_id": 10043,
+   "layout": "list",
+   "subject": "heat",
+   "heading": "Why Is Heat Illness a Real Risk at Arlington's World Cup Matches?",
+   "title": [
+    "Why World Cup ",
+    "Heat",
+    " Risk Is Real in Arlington"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Arlington heat risk: visitors arrive unacclimatized, pavement runs 30 to 60F hotter, and match day is 5 to 7 hours outdoors",
+   "items": [
+    {
+     "icon": "plane",
+     "label": "Not acclimatized",
+     "note": "Acclimatizing takes 7 to 14 days"
+    },
+    {
+     "icon": "thermometer-sun",
+     "label": "Pavement heat",
+     "note": "30F to 60F hotter than the air"
+    },
+    {
+     "icon": "clock-3",
+     "label": "5 to 7 hours",
+     "note": "Tailgate, walk-in, match, walk-out"
+    }
+   ]
+  },
+  {
+   "file": "world-cup-matchday-heat-kit",
+   "post_id": 10043,
+   "layout": "list",
+   "subject": "heat",
+   "heading": "What Should I Bring to a World Cup Match in Arlington?",
+   "title": [
+    "A World Cup ",
+    "Heat",
+    " Kit for Arlington"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Match day heat kit: water bottle, electrolytes, wide-brim hat, SPF 30 or higher, a battery fan and a cooling towel",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Water bottle",
+     "note": "Check the stadium's allowed type first"
+    },
+    {
+     "icon": "waves",
+     "label": "Electrolytes",
+     "note": "Sodium, potassium, magnesium"
+    },
+    {
+     "icon": "shirt",
+     "label": "Hat and loose kit",
+     "note": "Light colors, breathable fabric"
+    },
+    {
+     "icon": "sun",
+     "label": "SPF 30 or higher",
+     "note": "Reapplied every two hours"
+    },
+    {
+     "icon": "sliders-horizontal",
+     "label": "Battery fan",
+     "note": "And a cooling towel for the neck"
+    },
+    {
+     "icon": "apple",
+     "label": "Salty snacks",
+     "note": "Pretzels or trail mix"
+    }
+   ]
+  }
+ ]
+}

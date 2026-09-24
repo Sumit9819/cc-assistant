@@ -1,0 +1,3113 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.0"
+      }
+    }
+  },
+  {
+    "name": "post_dossier",
+    "isError": false,
+    "result": {
+      "post": {
+        "id": 971,
+        "title": "Emergency &#038; Rapid Laboratory Testing in White Rock, TX",
+        "status": "publish",
+        "type": "page",
+        "word_count": 1630,
+        "last_modified": "2026-09-09 12:37:57",
+        "permalink": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+        "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=971&action=edit"
+      },
+      "clusters": [
+        {
+          "id": 5,
+          "name": "Pillar 1: ER vs Urgent Care Decision",
+          "role": "supporting"
+        }
+      ],
+      "history": [
+        {
+          "id": 1725,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Replace flawless-results and fixed-turnaround promises with a practical explanation of lab-result limitations.",
+          "status": "approved",
+          "created_at": "2026-09-09 11:39:46",
+          "reviewed_at": "2026-09-09 12:37:56"
+        },
+        {
+          "id": 1728,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Remove the claim that equipment instantly diagnoses severe conditions.",
+          "status": "pending",
+          "created_at": "2026-09-09 11:39:55",
+          "reviewed_at": null
+        },
+        {
+          "id": 1727,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Remove guaranteed immediate treatment and instant-review language.",
+          "status": "pending",
+          "created_at": "2026-09-09 11:39:53",
+          "reviewed_at": null
+        },
+        {
+          "id": 1726,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Remove the unsupported Fast & Flawless Results claim from both faces of this card.",
+          "status": "pending",
+          "created_at": "2026-09-09 11:39:50",
+          "reviewed_at": null
+        },
+        {
+          "id": 1563,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Lab page intro: \"our board-certified physicians\" -> \"our experienced emergency physicians\" (lint overridden, see note)",
+          "status": "approved",
+          "created_at": "2026-08-19 04:34:02",
+          "reviewed_at": "2026-08-19 04:54:25"
+        },
+        {
+          "id": 1559,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Lab page steps: \"our board-certified emergency doctors\" -> \"our experienced emergency doctors\"",
+          "status": "approved",
+          "created_at": "2026-08-19 04:33:11",
+          "reviewed_at": "2026-08-19 04:54:19"
+        },
+        {
+          "id": 1558,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Lab page bullet: \"our board-certified emergency physicians are on-site\" -> \"our experienced emergency physicians\"",
+          "status": "approved",
+          "created_at": "2026-08-19 04:33:06",
+          "reviewed_at": "2026-08-19 04:54:18"
+        },
+        {
+          "id": 1548,
+          "change_type": "elementor_widget_update",
+          "change_summary": "Lab page flip-box: \"Board-Certified Experts\" -> \"Experienced Emergency Team\" (both faces)",
+          "status": "approved",
+          "created_at": "2026-08-19 04:31:11",
+          "reviewed_at": "2026-08-19 04:54:03"
+        }
+      ],
+      "inbound_links": [
+        {
+          "source_post_id": 868,
+          "source_title": "Sore Throat Treatment in Dallas, TX &#8211; ER of White Rock",
+          "anchor_text": "comprehensive blood panels"
+        },
+        {
+          "source_post_id": 1091,
+          "source_title": "Appendicitis Treatment in Dallas, TX | Emergency Care at ER of White Rock",
+          "anchor_text": "Imaging tests in Dallas, TX"
+        },
+        {
+          "source_post_id": 1317,
+          "source_title": "High Fever ER in White Rock &#038; East Dallas | ER of White Rock",
+          "anchor_text": ""
+        },
+        {
+          "source_post_id": 2516,
+          "source_title": "Chest Pain Treatment in Dallas, TX | ER of White Rock",
+          "anchor_text": "lab"
+        },
+        {
+          "source_post_id": 3505,
+          "source_title": "Emergency Room Services &#038; Conditions We Treat",
+          "anchor_text": ""
+        },
+        {
+          "source_post_id": 4705,
+          "source_title": "Tratamiento del Dolor de Garganta en Dallas, TX &#8211; ER of White Rock",
+          "anchor_text": "comprehensive blood panels"
+        },
+        {
+          "source_post_id": 4705,
+          "source_title": "Tratamiento del Dolor de Garganta en Dallas, TX &#8211; ER of White Rock",
+          "anchor_text": "paneles sanguineos integrales"
+        },
+        {
+          "source_post_id": 4717,
+          "source_title": "Tratamiento de Apendicitis en Dallas, TX | Atención de Emergencia en ER of White Rock",
+          "anchor_text": "Imaging tests in Dallas, TX"
+        },
+        {
+          "source_post_id": 4717,
+          "source_title": "Tratamiento de Apendicitis en Dallas, TX | Atención de Emergencia en ER of White Rock",
+          "anchor_text": "Pruebas de imágenes en Dallas, TX"
+        },
+        {
+          "source_post_id": 4635,
+          "source_title": "On-Site ER Lab Testing: How No-Wait Diagnostics Save Lives in Emergencies",
+          "anchor_text": "on-site lab"
+        },
+        {
+          "source_post_id": 4986,
+          "source_title": "Freestanding ER vs Hospital ER Near White Rock Lake: How to Choose the Right Emergency Room",
+          "anchor_text": "in-house clinical lab"
+        },
+        {
+          "source_post_id": 5012,
+          "source_title": "A Simple Cold or Something Worse? When a Sore Throat Needs the ER",
+          "anchor_text": "on-site lab testing"
+        },
+        {
+          "source_post_id": 5032,
+          "source_title": "Cardiovascular Emergencies Near White Rock: Heart Attack, Stroke, and Blood Clot Recognition Guide",
+          "anchor_text": "on-site clinical lab"
+        },
+        {
+          "source_post_id": 5039,
+          "source_title": "Time Is Brain: Recognizing Stroke Symptoms with the F.A.S.T. Method",
+          "anchor_text": "in-house clinical lab"
+        },
+        {
+          "source_post_id": 5040,
+          "source_title": "The Silent Threat: How to Recognize the Warning Signs of a Blood Clot",
+          "anchor_text": "in-house clinical lab"
+        },
+        {
+          "source_post_id": 5134,
+          "source_title": "Infectious Disease and Vector-Borne Emergencies Near White Rock: When Bites, Bugs, and Severe Infections Need the ER",
+          "anchor_text": "on-site lab testing"
+        },
+        {
+          "source_post_id": 228,
+          "source_title": "Home Page – ER of White Rock",
+          "anchor_text": "Laboratory Testing Services"
+        },
+        {
+          "source_post_id": 4747,
+          "source_title": "Pruebas de Laboratorio de Emergencia y Rápidas en White Rock, TX",
+          "anchor_text": "[lang:en]"
+        }
+      ],
+      "outbound_links": [
+        {
+          "target_post_id": 228,
+          "target_title": "Home Page – ER of White Rock",
+          "anchor_text": "ER of White Rock"
+        },
+        {
+          "target_post_id": 417,
+          "target_title": "Contact Us",
+          "anchor_text": "Contact Us Now"
+        },
+        {
+          "target_post_id": 868,
+          "target_title": "Sore Throat Treatment in Dallas, TX &#8211; ER of White Rock",
+          "anchor_text": ""
+        },
+        {
+          "target_post_id": 1072,
+          "target_title": "Dehydration Treatment in Dallas, TX | ER of White Rock",
+          "anchor_text": ""
+        },
+        {
+          "target_post_id": 1396,
+          "target_title": "Emergency Care for Breathing Problems in Dallas, TX | ER of White Rock",
+          "anchor_text": ""
+        },
+        {
+          "target_post_id": 2198,
+          "target_title": "Ins. &#038; Billing Info",
+          "anchor_text": "billing inquiries"
+        },
+        {
+          "target_post_id": 2453,
+          "target_title": "Expert Pediatric Care in Dallas, TX | ER of White Rock",
+          "anchor_text": "child spikes a dangerously high fever"
+        },
+        {
+          "target_post_id": 4635,
+          "target_title": "On-Site ER Lab Testing: How No-Wait Diagnostics Save Lives in Emergencies",
+          "anchor_text": "tests on-site"
+        },
+        {
+          "target_post_id": 4747,
+          "target_title": "Pruebas de Laboratorio de Emergencia y Rápidas en White Rock, TX",
+          "anchor_text": "[lang:es]"
+        },
+        {
+          "target_post_id": 4986,
+          "target_title": "Freestanding ER vs Hospital ER Near White Rock Lake: How to Choose the Right Emergency Room",
+          "anchor_text": "freestanding ER vs hospital ER guide near White Rock"
+        }
+      ],
+      "top_gsc_queries": [],
+      "ctr_diagnostics": {
+        "queries": [],
+        "underperforming": [],
+        "underperform_count": 0,
+        "verdict": ""
+      },
+      "drift": null
+    }
+  },
+  {
+    "name": "post_dossier",
+    "isError": false,
+    "result": {
+      "post": {
+        "id": 5525,
+        "title": "What to Tell the ER Team: A Medication and Symptom Note",
+        "status": "draft",
+        "type": "post",
+        "word_count": 559,
+        "last_modified": "2026-09-09 12:37:56",
+        "permalink": "https://erofwhiterock.com/?p=5525",
+        "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=5525&action=edit"
+      },
+      "clusters": [],
+      "history": [
+        {
+          "id": 1724,
+          "change_type": "meta_update",
+          "change_summary": "Use the existing ER of White Rock author for this draft instead of adminsumit.",
+          "status": "approved",
+          "created_at": "2026-09-09 09:52:56",
+          "reviewed_at": "2026-09-09 12:37:56"
+        },
+        {
+          "id": 1723,
+          "change_type": "publish_draft",
+          "change_summary": "Review-only pilot: a practical communication note with primary-source links, distinct from the existing ER-timeline article. No publication performed.",
+          "status": "pending",
+          "created_at": "2026-09-09 09:19:37",
+          "reviewed_at": null
+        }
+      ],
+      "inbound_links": [],
+      "outbound_links": [],
+      "top_gsc_queries": [],
+      "ctr_diagnostics": {
+        "queries": [],
+        "underperforming": [],
+        "underperform_count": 0,
+        "verdict": ""
+      },
+      "drift": null
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": false,
+    "result": {
+      "id": 971,
+      "title": "Emergency & Rapid Laboratory Testing in White Rock, TX",
+      "slug": "laboratory-testing-services-in-white-rock",
+      "status": "publish",
+      "type": "page",
+      "content": "<h1>Emergency &amp; Rapid Laboratory Testing in White Rock, TX</h1>\r\nWhen you are facing a medical crisis or need fast diagnostic answers, waiting days for an outside lab is not an option. At <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, our 24/7 freestanding ER features a fully equipped, COLA-certified on-site laboratory. Whether you require life-saving cardiac panels, complex blood cultures, or rapid viral testing, our board-certified physicians rely on our in-house technology to deliver precise results in minutes. Experience highly capable diagnostic medicine with minimal wait times right here in East Dallas.\r\n<h2><a href=\"tel:4699432939\" target=\"_blank\" rel=\"noopener\">Get Laboratory Testing Services Now</a></h2>\r\n<h2>Why Choose ER of White Rock for Diagnostic Testing?</h2>\r\nWe do not send your critical samples across the city to a third-party facility. By processing your tests on-site, we eliminate delays and accelerate your treatment. Here is why our facility is the top choice for rapid testing:\r\n<ul>\r\n \t<li><strong>COLA-Certified Laboratory:</strong> Our facility adheres to the strictest national quality control standards, ensuring your results are flawless and highly accurate.</li>\r\n \t<li><strong>Results in Minutes, Not Days:</strong> We specialize in STAT emergency testing. For most critical panels, your physician will have the data they need to treat you within one hour.</li>\r\n \t<li><strong>Affordable &amp; Transparent Pricing:</strong> We believe in honest billing. We process most major commercial insurance plans and are committed to a strict no balance billing policy.</li>\r\n \t<li><strong>Total Privacy &amp; Compliance:</strong> Your medical data is strictly confidential and fully HIPAA-compliant. We offer discreet processing for infectious diseases and specialized panels.</li>\r\n</ul>\r\n&nbsp;\r\n\r\nCall Us Now\r\n\r\n<img src=\"https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-1024x859.webp\" sizes=\"(max-width: 800px) 100vw, 800px\" srcset=\"https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-1024x859.webp 1024w, https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-300x252.webp 300w, https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-768x644.webp 768w, https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-1536x1288.webp 1536w, https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-2048x1717.webp 2048w\" alt=\"Why Choose Our Laboratory Testing Services\" width=\"800\" height=\"671\" />\r\n<h2>Comprehensive ER Laboratory Testing</h2>\r\nOur state-of-the-art lab is equipped to run a massive array of critical diagnostic tests to pinpoint exactly what is happening inside your body.\r\n\r\n<button id=\"e-n-tab-title-18800060521\" style=\"--n-tabs-title-order: 1;\" tabindex=\"0\" role=\"tab\" data-tab-title-id=\"e-n-tab-title-18800060521\" aria-selected=\"true\" data-tab-index=\"1\" aria-controls=\"e-n-tab-content-18800060521\">\r\nBlood Testing Services\r\n</button>\r\n<button id=\"e-n-tab-title-18800060522\" style=\"--n-tabs-title-order: 2;\" tabindex=\"-1\" role=\"tab\" data-tab-title-id=\"e-n-tab-title-18800060522\" aria-selected=\"false\" data-tab-index=\"2\" aria-controls=\"e-n-tab-content-18800060522\">\r\nSTD &amp; Infectious Disease Testing\r\n</button>\r\n\r\nWhen you are experiencing a medical emergency, rapid blood analysis is our first line of defense. Our on-site laboratory is equipped to run comprehensive emergency blood tests to instantly identify severe infections, organ failure, and metabolic crises.\r\n<ul>\r\n \t<li><strong>Complete Blood Count (CBC):</strong> We instantly check your red and white blood cells to detect severe bacterial infections, acute blood loss, or dangerous immune responses.</li>\r\n \t<li><strong>Comprehensive Metabolic Panels:</strong> We evaluate your kidney function, liver health, and electrolyte balance to diagnose severe dehydration or diabetic emergencies.</li>\r\n \t<li><strong>Cardiac &amp; Coagulation Panels:</strong> For patients with chest pain, we run immediate cardiac enzyme tests to detect active heart attacks and blood tests to rule out life-threatening blood clots.</li>\r\n \t<li><strong>Rapid Urinalysis:</strong> We rapidly analyze urine samples to detect painful urinary tract infections (UTIs), kidney stones, and severe kidney distress so we can administer IV antibiotics immediately.</li>\r\n</ul>\r\nIf you suspect exposure to an infectious disease or are experiencing severe, painful symptoms, waiting days for a standard clinic appointment is incredibly stressful. We provide highly accurate, rapid, and completely confidential testing in a safe, private environment.\r\n<ul>\r\n \t<li><strong>Comprehensive STD Panels:</strong> Our laboratory provides highly discreet, fast-acting diagnostic tests for Syphilis, Gonorrhea, Chlamydia, and HIV.</li>\r\n \t<li><strong>Rapid Viral Screening:</strong> We offer immediate <a href=\"https://www.cdc.gov/std/testing/\" target=\"_blank\" rel=\"noopener\">testing for severe infectious diseases</a>, including Hepatitis B and C, so you can understand your status fast.</li>\r\n \t<li><strong>Immediate Medical Intervention:</strong> Unlike a standalone commercial lab, our board-certified emergency physicians are on-site to instantly review your results and prescribe the necessary antibiotics or antiviral medications before you leave our facility.</li>\r\n \t<li><strong>Total Patient Privacy:</strong> Your medical data and test results are strictly confidential, fully HIPAA-compliant, and processed securely right here in our White Rock facility.</li>\r\n</ul>\r\nWhen you are experiencing a medical emergency, rapid blood analysis is our first line of defense. Our on-site laboratory is equipped to run comprehensive emergency blood tests to instantly identify severe infections, organ failure, and metabolic crises.\r\n<ul>\r\n \t<li><strong>Complete Blood Count (CBC):</strong> We instantly check your red and white blood cells to detect severe bacterial infections, acute blood loss, or dangerous immune responses.</li>\r\n \t<li><strong>Comprehensive Metabolic Panels:</strong> We evaluate your kidney function, liver health, and electrolyte balance to diagnose severe dehydration or diabetic emergencies.</li>\r\n \t<li><strong>Cardiac &amp; Coagulation Panels:</strong> For patients with chest pain, we run immediate cardiac enzyme tests to detect active heart attacks and blood tests to rule out life-threatening blood clots.</li>\r\n \t<li><strong>Rapid Urinalysis:</strong> We rapidly analyze urine samples to detect painful urinary tract infections (UTIs), kidney stones, and severe kidney distress so we can administer IV antibiotics immediately.</li>\r\n</ul>\r\nIf you suspect exposure to an infectious disease or are experiencing severe, painful symptoms, waiting days for a standard clinic appointment is incredibly stressful. We provide highly accurate, rapid, and completely confidential testing in a safe, private environment.\r\n<ul>\r\n \t<li><strong>Comprehensive STD Panels:</strong> Our laboratory provides highly discreet, fast-acting diagnostic tests for Syphilis, Gonorrhea, Chlamydia, and HIV.</li>\r\n \t<li><strong>Rapid Viral Screening:</strong> We offer immediate <a href=\"https://www.cdc.gov/std/testing/\" target=\"_blank\" rel=\"noopener\">testing for severe infectious diseases</a>, including Hepatitis B and C, so you can understand your status fast.</li>\r\n \t<li><strong>Immediate Medical Intervention:</strong> Unlike a standalone commercial lab, our board-certified emergency physicians are on-site to instantly review your results and prescribe the necessary antibiotics or antiviral medications before you leave our facility.</li>\r\n \t<li><strong>Total Patient Privacy:</strong> Your medical data and test results are strictly confidential, fully HIPAA-compliant, and processed securely right here in our White Rock facility.</li>\r\n</ul>\r\n<h2>Advanced Diagnostic Capabilities in White Rock, TX</h2>\r\nOur East Dallas medical team utilizes these specific laboratory tests to diagnose and treat severe medical conditions every single day:\r\n<h3>COVID-19 &amp; PCR Testing</h3>\r\n<h3>COVID-19 &amp; PCR Testing</h3>\r\nWe offer rapid COVID-19 testing and highly accurate PCR tests to detect active infections. Whether you have a high fever or severe respiratory symptoms, we provide definitive answers fast.\r\n<h3>RSV &amp; Respiratory Panels</h3>\r\n<h3>RSV &amp; Respiratory Panels</h3>\r\nRespiratory Syncytial Virus (RSV) can be dangerous, especially for young children and older adults. We provide rapid RSV testing to detect aggressive infections early and begin immediate airway management.\r\n<h3>Cardiac Enzyme Testing</h3>\r\n<h3>Cardiac Enzyme Testing</h3>\r\nUnexplained chest pain is always a medical emergency. We measure specific protein levels in your blood to assess heart muscle damage and definitively diagnose a cardiac event.\r\n<h3>Basic Metabolic Panel (BMP)</h3>\r\n<h3>Basic Metabolic Panel (BMP)</h3>\r\nA BMP provides a critical snapshot of your body's internal chemistry, including kidney function, blood sugar levels, and electrolyte balance. It is vital for diagnosing severe dehydration and diabetic crises.\r\n<h3>Complete Blood Count (CBC)</h3>\r\n<h3>Complete Blood Count (CBC)</h3>\r\nA CBC is the foundation of emergency diagnostics. It allows our doctors to instantly detect systemic infections, severe anemia, and dangerous immune system disorders.\r\n<h3>Liver Function Panel</h3>\r\n<h3>Liver Function Panel</h3>\r\nThis panel checks vital liver enzymes and proteins to assess liver toxicity and detect severe conditions such as acute hepatitis, cirrhosis, and sudden organ damage.\r\n<h3>Strep and Mono Testing</h3>\r\n<h3>Strep and Mono Testing</h3>\r\nSevere throat pain combined with a fever requires fast identification. We provide rapid strep tests and mono tests to diagnose the exact bacterial or viral strain causing your agony.\r\n<h3>Advanced Urinalysis</h3>\r\n<h3>Advanced Urinalysis</h3>\r\nA rapid urinalysis helps us diagnose painful urinary tract infections (UTIs), kidney stones, and complex metabolic disorders so we can administer the correct IV antibiotics.\r\n<h2>Who Relies on Our ER Laboratory Testing?</h2>\r\nOur COLA-certified laboratory is built for speed and precision. We provide critical diagnostic answers for patients who do not have the luxury of time.\r\n<ul>\r\n \t<li><strong>Patients in a Medical Crisis:</strong> If you are experiencing sudden chest pain, severe abdominal cramping, or unexplainable weakness, our laboratory provides the immediate data our doctors need to save your life.</li>\r\n \t<li><strong>Local East Dallas Families:</strong> When a <a href=\"https://erofwhiterock.com/services/pediatric-care/\">child spikes a dangerously high fever</a> or shows signs of severe respiratory illness, parents rely on our rapid viral and bacterial testing for fast peace of mind.</li>\r\n \t<li><strong>Post-Accident Evaluations:</strong> Following a severe workplace injury or motor vehicle accident, we perform comprehensive blood panels and immediate toxicology screens to ensure safe medical interventions.</li>\r\n</ul>\r\n<h2>How Our White Rock Laboratory Testing Works</h2>\r\nMedical emergencies do not operate on a schedule, and neither do we. We have streamlined our laboratory process to get you evaluated and tested immediately.\r\n<ul>\r\n \t<li><strong>Step 1: Walk-In 24/7</strong> Do not wait for an appointment. Drive directly to our modern facility anytime, day or night, and experience our standard of minimal wait times.</li>\r\n \t<li><strong>Step 2: Rapid Physician Triage</strong> If you are experiencing pain or severe symptoms, our board-certified emergency doctors will evaluate you instantly to determine exactly which lab tests are required to save your life.</li>\r\n \t<li><strong>Step 3: On-Site Sample Collection</strong> Our skilled, compassionate registered nurses will draw your blood or collect necessary swabs quickly and safely in a private room.</li>\r\n \t<li><strong>Step 4: Fast, Accurate Results</strong> Your samples are walked directly to our in-house lab. Most critical test results are delivered straight to your attending physician within one hour.</li>\r\n</ul>\r\n<a href=\"https://erofwhiterock.com/contact-us/\" target=\"_blank\" rel=\"noopener\">\r\nContact Us Now\r\n</a>\r\n<img src=\"https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-1024x859.webp\" sizes=\"(max-width: 800px) 100vw, 800px\" srcset=\"https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-1024x859.webp 1024w, https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-300x252.webp 300w, https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-768x644.webp 768w, https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-1536x1288.webp 1536w, https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-2048x1717.webp 2048w\" alt=\"How Our Laboratory Testing Works\" width=\"800\" height=\"671\" />\r\n<h2>Why East Dallas Trusts Our On-Site Laboratory</h2>\r\nWith a reputation for excellence, our <strong>Dallas-based laboratory testing services</strong> are trusted by thousands. We blend cutting-edge technology with a patient-first approach, ensuring top-tier service and accurate results every time.\r\n<h3>Fast &amp; Flawless Results</h3>\r\n<h3>Fast &amp; Flawless Results</h3>\r\nWe process your blood work and diagnostic swabs immediately on-site so you never wait days for critical medical answers.\r\n<h3>Board-Certified Experts</h3>\r\n<h3>Board-Certified Experts</h3>\r\nYour lab results are not just processed; they are reviewed instantly by experienced emergency room physicians to guarantee immediate, accurate treatment.\r\n<h3>Hyper-Local Convenience</h3>\r\n<h3>Hyper-Local Convenience</h3>\r\nCentrally located on Northwest Highway, we provide rapid access to high-tier medical testing with minimal wait times, saving you from the crowded hospital lobby.\r\n<h3>Complete Diagnostic Power</h3>\r\n<h3>Complete Diagnostic Power</h3>\r\nFrom life-saving cardiac panels to rapid infectious disease screening, our freestanding emergency room has the advanced machinery to diagnose severe conditions instantly.\r\n<h2>Get Fast Laboratory Results in White Rock, TX</h2>\r\nWhen you need precise, rapid diagnostic testing in the White Rock, Lake Highlands, or Casa View neighborhoods, ER of White Rock is ready. Do not guess with your health. Visit our laboratory today for the answers you deserve.\r\n\r\n<a href=\"tel:4699432939\" target=\"_blank\" rel=\"noopener\">\r\nCall Us Now\r\n</a>\r\n<h2>Have a Routine Question? Send Us a Message</h2>\r\nFill out the form below, and our administrative team will respond within 24 hours. This form is strictly for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. If you suspect a traumatic brain injury, do not use this form. Call 911 or drive to our emergency room immediately.\r\n\r\n<iframe title=\"ER of White Rock - 10705 Northwest Hwy, Dallas, TX 75238\" src=\"https://maps.google.com/maps?q=ER%20of%20White%20Rock%20-%2010705%20Northwest%20Hwy%2C%20Dallas%2C%20TX%2075238&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near\" aria-label=\"ER of White Rock - 10705 Northwest Hwy, Dallas, TX 75238\"></iframe>",
+      "excerpt": "",
+      "modified": "2026-09-09 12:37:57",
+      "created": "2025-02-06 19:49:22",
+      "author": "ER of White Rock",
+      "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "edit_url": "https://erofwhiterock.com/wp-admin/post.php?post=971&action=edit",
+      "has_elementor": true,
+      "elementor_data": [
+        {
+          "id": "2bf6824a",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "min_height": {
+              "unit": "vh",
+              "size": 60,
+              "sizes": []
+            },
+            "background_background": "classic",
+            "background_image": {
+              "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Complete-Blood-Count-CBC-for-Infections-Immune-Health-scaled.webp",
+              "id": 960,
+              "size": "",
+              "alt": "Complete Blood Count (CBC) for Infections & Immune Health",
+              "source": "library"
+            },
+            "background_position": "center center",
+            "background_repeat": "no-repeat",
+            "background_size": "cover",
+            "background_overlay_background": "classic",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "background_overlay_color": "#11468F",
+            "background_overlay_opacity": {
+              "unit": "px",
+              "size": 0.7,
+              "sizes": []
+            },
+            "min_height_tablet": {
+              "unit": "vh",
+              "size": "",
+              "sizes": []
+            },
+            "min_height_mobile": {
+              "unit": "vh",
+              "size": "",
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "20a29c77",
+              "elType": "widget",
+              "settings": {
+                "title": "Emergency & Rapid Laboratory Testing in White Rock, TX",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "title_color": "#FFFFFF",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "header_size": "h1",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -2,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "_flex_align_self": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "231ddd11",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"elementor-element elementor-element-75917348 e-con-full e-flex e-con e-parent e-lazyloaded\" data-id=\"75917348\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\"><div class=\"elementor-element elementor-element-2529a93b elementor-widget elementor-widget-text-editor\" data-id=\"2529a93b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\"><p>When you are facing a medical crisis or need fast diagnostic answers, waiting days for an outside lab is not an option. At <a href=\"https://erofwhiterock.com/\"><strong>ER of White Rock</strong></a>, our 24/7 freestanding ER features a fully equipped, COLA-certified on-site laboratory. Whether you require life-saving cardiac panels, complex blood cultures, or rapid viral testing, our experienced emergency physicians rely on our in-house technology to deliver precise results in minutes. Experience highly capable diagnostic medicine with minimal wait times right here in East Dallas.</p><p>On-site lab testing is the core differentiator between emergency care and urgent care. Our <a href=\"https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/\" target=\"_blank\" rel=\"noopener\">freestanding ER vs hospital ER guide near White Rock</a> explains how diagnostics differ between the two settings.</p></div></div></div>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "align_mobile": "center",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "text_color": "globals/colors?id=fed497a"
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "58c7b578",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "background_background": "classic",
+            "background_color": "#DA1212",
+            "padding": {
+              "unit": "px",
+              "top": "15",
+              "right": "0",
+              "bottom": "15",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "79dca3c0",
+              "elType": "widget",
+              "settings": {
+                "title": "Get Laboratory Testing Services Now",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "title_color": "#FFFFFF",
+                "link": {
+                  "url": "tel:4699432939",
+                  "is_external": "on",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "41fa378a",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            },
+            "flex_direction_mobile": "row-reverse",
+            "padding_mobile": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "12d073d6",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": "50"
+                }
+              },
+              "elements": [
+                {
+                  "id": "260adbfa",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Why Choose ER of White Rock for Diagnostic Testing?",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Montserrat",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 45,
+                      "sizes": []
+                    },
+                    "align_mobile": "center",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -2,
+                      "sizes": []
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "1ffbaf62",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Laboratory results help your care team assess what may be causing your symptoms. A result is one part of an evaluation, alongside your health history and examination.</p><ul><li><strong>Understand the test:</strong> Ask which tests are being ordered and what questions they may help answer.</li><li><strong>Discuss the results:</strong> A result outside the reference range does not always mean you have a medical condition. A result within the range does not rule out every problem.</li><li><strong>Ask about next steps:</strong> Find out whether more testing or follow-up may be needed.</li></ul><p>See <a href=\"https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/\">MedlinePlus guidance on understanding lab results</a>.</p>",
+                    "align": "start",
+                    "text_color": "#000000",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Montserrat",
+                    "typography_font_weight": "400",
+                    "typography_line_height": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "paragraph_spacing": {
+                      "unit": "px",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "_element_width": "initial",
+                    "_element_custom_width": {
+                      "unit": "px",
+                      "size": 800,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "23761e47",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "Call Us Now",
+                    "link": {
+                      "url": "tel:4699432939",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "selected_icon": {
+                      "value": "fas fa-phone-alt",
+                      "library": "fa-solid"
+                    },
+                    "background_color": "#DA1212",
+                    "button_background_hover_color": "#041562",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Montserrat",
+                    "typography_font_weight": "500",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "30",
+                      "bottom": "20",
+                      "left": "30",
+                      "isLinked": false
+                    },
+                    "_flex_align_self_mobile": "center"
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "375815de",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": "50"
+                }
+              },
+              "elements": [
+                {
+                  "id": "7c250b2f",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Why-Choose-Our-Laboratory-Testing-Services-scaled.webp",
+                      "id": 969,
+                      "size": "",
+                      "alt": "Why Choose Our Laboratory Testing Services",
+                      "source": "library"
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100,
+                      "sizes": []
+                    },
+                    "image_border_border": "solid",
+                    "image_border_width": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "image_border_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "24bf1880",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "#EEEEEE",
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "40",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4ad14846",
+              "elType": "widget",
+              "settings": {
+                "title": "Comprehensive ER Laboratory Testing",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                },
+                "align_mobile": "center",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -2,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "8a94fb1",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Our state-of-the-art lab is equipped to run a massive array of critical diagnostic tests to pinpoint exactly what is happening inside your body.</p>",
+                "align": "center",
+                "text_color": "#000000",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "paragraph_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 800,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "700e9da4",
+              "elType": "widget",
+              "widgetType": "nested-tabs",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Blood Testing Services",
+                    "_id": "0301a9a"
+                  },
+                  {
+                    "tab_title": "STD & Infectious Disease Testing",
+                    "_id": "96cdbec"
+                  }
+                ],
+                "tabs_justify_horizontal": "center",
+                "tabs_title_spacing": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "tabs_title_background_color_background": "classic",
+                "tabs_title_border_radius": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Montserrat",
+                "title_typography_font_weight": "400",
+                "title_text_color": "#FFFFFF",
+                "__globals__": {
+                  "tabs_title_background_color_hover_color": "globals/colors?id=primary",
+                  "tabs_title_background_color_color": "globals/colors?id=secondary",
+                  "tabs_title_background_color_active_color": "globals/colors?id=primary"
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "tabs_direction": "inline-start",
+                "tabs_justify_vertical": "center",
+                "tabs_width": {
+                  "unit": "%",
+                  "size": 30,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "200299db",
+                  "elType": "container",
+                  "settings": {
+                    "_title": "Tab #1",
+                    "content_width": "full",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 400,
+                      "sizes": []
+                    },
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    },
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "",
+                      "id": "",
+                      "size": "",
+                      "alt": "Blood Testing Services",
+                      "source": "library"
+                    },
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover",
+                    "background_overlay_background": "classic",
+                    "background_overlay_color": "#11468F",
+                    "background_overlay_opacity": {
+                      "unit": "px",
+                      "size": 0.7,
+                      "sizes": []
+                    },
+                    "__globals__": {
+                      "background_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "260980fe",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>When you are experiencing a medical emergency, rapid blood analysis is our first line of defense. Our on-site laboratory is equipped to run comprehensive emergency blood tests to instantly identify severe infections, organ failure, and metabolic crises.</p><ul><li><strong>Complete Blood Count (CBC):</strong> We instantly check your red and white blood cells to detect severe bacterial infections, acute blood loss, or dangerous immune responses.</li><li><strong>Comprehensive Metabolic Panels:</strong> We evaluate your kidney function, liver health, and electrolyte balance to diagnose severe dehydration or diabetic emergencies.</li><li><strong>Cardiac &amp; Coagulation Panels:</strong> For patients with chest pain, we run immediate cardiac enzyme tests to detect active heart attacks and blood tests to rule out life-threatening blood clots.</li><li><strong>Rapid Urinalysis:</strong> We rapidly analyze urine samples to detect painful urinary tract infections (UTIs), kidney stones, and severe kidney distress so we can administer IV antibiotics immediately.</li></ul>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "20",
+                          "isLinked": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "px",
+                          "size": 30,
+                          "sizes": []
+                        },
+                        "paragraph_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 800,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=fed497a"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true,
+                  "isLocked": true
+                },
+                {
+                  "id": "e5b51e4",
+                  "elType": "container",
+                  "settings": {
+                    "_title": "Tab #1",
+                    "content_width": "full",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 400,
+                      "sizes": []
+                    },
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    },
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "",
+                      "id": "",
+                      "size": "",
+                      "alt": "STD & Infectious Disease Testing",
+                      "source": "library"
+                    },
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover",
+                    "background_overlay_background": "classic",
+                    "background_overlay_color": "#11468F",
+                    "background_overlay_opacity": {
+                      "unit": "px",
+                      "size": 0.7,
+                      "sizes": []
+                    },
+                    "__globals__": {
+                      "background_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "3905738a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>If you suspect exposure to an infectious disease or are experiencing severe, painful symptoms, waiting days for a standard clinic appointment is incredibly stressful. We provide highly accurate, rapid, and completely confidential testing in a safe, private environment.</p><ul><li><strong>Comprehensive STD Panels:</strong> Our laboratory provides highly discreet, fast-acting diagnostic tests for Syphilis, Gonorrhea, Chlamydia, and HIV.</li><li><strong>Rapid Viral Screening:</strong> We offer immediate <a href=\"https://www.cdc.gov/std/testing/\" target=\"_blank\" rel=\"noopener\">testing for severe infectious diseases</a>, including Hepatitis B and C, so you can understand your status fast.</li><li><strong>Immediate Medical Intervention:</strong> Unlike a standalone commercial lab, our experienced emergency physicians are on-site to instantly review your results and prescribe the necessary antibiotics or antiviral medications before you leave our facility.</li><li><strong>Total Patient Privacy:</strong> Your medical data and test results are strictly confidential, fully HIPAA-compliant, and processed securely right here in our White Rock facility.</li></ul>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "20",
+                          "isLinked": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "px",
+                          "size": 30,
+                          "sizes": []
+                        },
+                        "paragraph_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 800,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=fed497a"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true,
+                  "isLocked": true
+                }
+              ]
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "67911a5d",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "7e81caa9",
+              "elType": "widget",
+              "settings": {
+                "title": "Advanced Diagnostic Capabilities in White Rock, TX",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "align_mobile": "center",
+                "align": "center",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -2,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "ea85b88",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Our East Dallas medical team utilizes these specific laboratory tests to diagnose and treat severe medical conditions every single day:</p>",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "paragraph_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "text_color": "#000000",
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 800,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "152116c4",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1300,
+                  "sizes": []
+                },
+                "flex_direction_mobile": "row",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "3fa9ef90",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "grid",
+                    "presetTitle": "Grid",
+                    "presetIcon": "eicon-container-grid",
+                    "content_width": "full",
+                    "grid_rows_grid": {
+                      "unit": "fr",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "grid_columns_grid": {
+                      "unit": "fr",
+                      "size": 4,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "7f81724",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "COVID-19 & PCR Testing",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-scaled.webp",
+                          "id": 963,
+                          "size": "",
+                          "alt": "How Our Laboratory Testing Works",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "COVID-19 & PCR Testing",
+                        "description_text_b": "We offer rapid COVID-19 testing and highly accurate PCR tests to detect active infections. Whether you have a high fever or severe respiratory symptoms, we provide definitive answers fast.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    },
+                    {
+                      "id": "9177f18",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "RSV & Respiratory Panels",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/RSV-Testing-for-Respiratory-Infections-scaled.webp",
+                          "id": 965,
+                          "size": "",
+                          "alt": "RSV Testing for Respiratory Infections",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "RSV & Respiratory Panels",
+                        "description_text_b": "Respiratory Syncytial Virus (RSV) can be dangerous, especially for young children and older adults. We provide rapid RSV testing to detect aggressive infections early and begin immediate airway management.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    },
+                    {
+                      "id": "853d3a1",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "Cardiac Enzyme Testing",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Cardiac-Enzyme-Testing-for-Heart-Health-scaled.webp",
+                          "id": 959,
+                          "size": "",
+                          "alt": "Cardiac Enzyme Testing for Heart Health",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "Cardiac Enzyme Testing",
+                        "description_text_b": "Unexplained chest pain is always a medical emergency. We measure specific protein levels in your blood to assess heart muscle damage and definitively diagnose a cardiac event.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://medlineplus.gov/lab-tests/troponin-test/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    },
+                    {
+                      "id": "9bdf1e3",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "Basic Metabolic Panel (BMP)",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Basic-Metabolic-Panel-BMP-for-Overall-Health-scaled.webp",
+                          "id": 957,
+                          "size": "",
+                          "alt": "Basic Metabolic Panel (BMP) for Overall Health",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "Basic Metabolic Panel (BMP)",
+                        "description_text_b": "A BMP provides a critical snapshot of your body's internal chemistry, including kidney function, blood sugar levels, and electrolyte balance. It is vital for diagnosing severe dehydration and diabetic crises.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://erofwhiterock.com/services/dehydration-treatment-in-white-rock/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "eb83ffe",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "grid",
+                    "presetTitle": "Grid",
+                    "presetIcon": "eicon-container-grid",
+                    "content_width": "full",
+                    "grid_rows_grid": {
+                      "unit": "fr",
+                      "size": 1,
+                      "sizes": []
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "grid_columns_grid": {
+                      "unit": "fr",
+                      "size": 4,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5a5be3b",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "Complete Blood Count (CBC)",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Complete-Blood-Count-CBC-for-Infections-Immune-Health-scaled.webp",
+                          "id": 960,
+                          "size": "",
+                          "alt": "Complete Blood Count (CBC) for Infections & Immune Health",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "Complete Blood Count (CBC)",
+                        "description_text_b": "A CBC is the foundation of emergency diagnostics. It allows our doctors to instantly detect systemic infections, severe anemia, and dangerous immune system disorders.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    },
+                    {
+                      "id": "999cba5",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "Liver Function Panel",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Liver-Function-Panel-for-Detecting-Liver-Conditions-scaled.webp",
+                          "id": 964,
+                          "size": "",
+                          "alt": "Liver Function Panel for Detecting Liver Conditions",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "Liver Function Panel",
+                        "description_text_b": "This panel checks vital liver enzymes and proteins to assess liver toxicity and detect severe conditions such as acute hepatitis, cirrhosis, and sudden organ damage.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    },
+                    {
+                      "id": "4e089f1",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "Strep and Mono Testing",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Strep-and-Mono-Testing-for-Sore-Throats-Infections-scaled.webp",
+                          "id": 967,
+                          "size": "",
+                          "alt": "Strep and Mono Testing for Sore Throats & Infections",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "Strep and Mono Testing",
+                        "description_text_b": "Severe throat pain combined with a fever requires fast identification. We provide rapid strep tests and mono tests to diagnose the exact bacterial or viral strain causing your agony.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://erofwhiterock.com/services/sore-throat-treatment-in-white-rock/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    },
+                    {
+                      "id": "dc9f601",
+                      "elType": "widget",
+                      "settings": {
+                        "graphic_element": "none",
+                        "selected_icon": {
+                          "value": "",
+                          "library": ""
+                        },
+                        "title_text_a": "Advanced Urinalysis",
+                        "description_text_a": "",
+                        "background_a_background": "classic",
+                        "background_a_image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Urinalysis-for-Kidney-Urinary-Tract-Health-scaled.webp",
+                          "id": 968,
+                          "size": "",
+                          "alt": "Urinalysis for Kidney & Urinary Tract Health",
+                          "source": "library"
+                        },
+                        "background_a_position": "center center",
+                        "background_a_repeat": "no-repeat",
+                        "background_a_size": "cover",
+                        "background_overlay_a": "#04156270",
+                        "background_overlay_a_filters_css_filter": "custom",
+                        "title_text_b": "Advanced Urinalysis",
+                        "description_text_b": "A rapid urinalysis helps us diagnose painful urinary tract infections (UTIs), kidney stones, and complex metabolic disorders so we can administer the correct IV antibiotics.",
+                        "button_text": "",
+                        "background_b_background": "gradient",
+                        "background_b_color": "#041562",
+                        "background_b_color_b": "#11468F",
+                        "background_b_gradient_angle": {
+                          "unit": "deg",
+                          "size": 309,
+                          "sizes": []
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 2,
+                          "sizes": []
+                        },
+                        "flip_effect": "slide",
+                        "vertical_position_a": "middle",
+                        "title_color_a": "#FFFFFF",
+                        "title_typography_a_typography": "custom",
+                        "title_typography_a_font_family": "Montserrat",
+                        "title_typography_a_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "title_typography_a_font_weight": "600",
+                        "vertical_position_b": "middle",
+                        "title_color_b": "#FFFFFF",
+                        "title_typography_b_typography": "custom",
+                        "title_typography_b_font_family": "Montserrat",
+                        "title_typography_b_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_b_font_weight": "600",
+                        "description_typography_b_typography": "custom",
+                        "description_typography_b_font_family": "Montserrat",
+                        "description_typography_b_font_weight": "400",
+                        "button_background_color": "#DA1212",
+                        "button_hover_text_color": "#041562",
+                        "button_hover_background_color": "#EEEEEE",
+                        "padding_b": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "flip-box"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "b5c9179",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "background_background": "classic",
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            },
+            "__globals__": {
+              "background_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [
+            {
+              "id": "7447879d",
+              "elType": "widget",
+              "settings": {
+                "title": "Who Relies on Our ER Laboratory Testing?",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "align_mobile": "center",
+                "align": "center",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -2,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "_flex_align_self": "center",
+                "__globals__": {
+                  "title_color": "globals/colors?id=fed497a"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "2a6e509",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Our COLA-certified laboratory is built for speed and precision. We provide critical diagnostic answers for patients who do not have the luxury of time.</p><ul><li><strong>Patients in a Medical Crisis:</strong> If you are experiencing sudden chest pain, severe abdominal cramping, or unexplainable weakness, our laboratory provides the immediate data our doctors need to save your life.</li><li><strong>Local East Dallas Families:</strong> When a <a href=\"https://erofwhiterock.com/services/pediatric-care/\">child spikes a dangerously high fever</a> or shows signs of severe respiratory illness, parents rely on our rapid viral and bacterial testing for fast peace of mind.</li><li><strong>Post-Accident Evaluations:</strong> Following a severe workplace injury or motor vehicle accident, we perform comprehensive blood panels and immediate toxicology screens to ensure safe medical interventions.</li></ul>",
+                "align": "start",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "paragraph_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 800,
+                  "sizes": []
+                },
+                "_flex_align_self": "center",
+                "__globals__": {
+                  "text_color": "globals/colors?id=fed497a"
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "2d00e8af",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "4ef08a0c",
+              "elType": "widget",
+              "settings": {
+                "title": "How Our White Rock Laboratory Testing Works",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "align_mobile": "center",
+                "align": "center",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -2,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "7d40f765",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row-reverse",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1300,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "40",
+                  "bottom": "0",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "72eb6896",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": "50"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "407ce12a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Medical emergencies do not operate on a schedule, and neither do we. We have streamlined our laboratory process to get you evaluated and tested immediately.</p><ul><li><strong>Step 1: Walk-In 24/7</strong> Do not wait for an appointment. Drive directly to our modern facility anytime, day or night, and experience our standard of minimal wait times.</li><li><strong>Step 2: Rapid Physician Triage</strong> If you are experiencing pain or severe symptoms, our experienced emergency doctors will evaluate you instantly to determine exactly which lab tests are required to save your life.</li><li><strong>Step 3: On-Site Sample Collection</strong> Our skilled, compassionate registered nurses will draw your blood or collect necessary swabs quickly and safely in a private room.</li><li><strong>Step 4: Fast, Accurate Results</strong> Your samples are walked directly to our in-house lab. Most critical test results are delivered straight to your attending physician within one hour.</li></ul>",
+                        "align": "start",
+                        "text_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "px",
+                          "size": 30,
+                          "sizes": []
+                        },
+                        "paragraph_spacing": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 800,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "62d24e6a",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Contact Us Now",
+                        "link": {
+                          "url": "https://erofwhiterock.com/contact-us/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "background_color": "#DA1212",
+                        "button_background_hover_color": "#041562",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "500",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "30",
+                          "bottom": "20",
+                          "left": "30",
+                          "isLinked": false
+                        },
+                        "_flex_align_self_mobile": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "3fc6d59d",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": "50"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "615e8caa",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/How-Our-Laboratory-Testing-Works-scaled.webp",
+                          "id": 963,
+                          "size": "",
+                          "alt": "How Our Laboratory Testing Works",
+                          "source": "library"
+                        },
+                        "width_mobile": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "image_border_border": "solid",
+                        "image_border_width": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "image_border_color": "globals/colors?id=secondary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "4c03bdd2",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "80",
+              "right": "0",
+              "bottom": "80",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "95a66c4",
+              "elType": "widget",
+              "settings": {
+                "title": "Why East Dallas Trusts Our On-Site Laboratory",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "align_mobile": "center",
+                "align": "center",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -2,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "75441c43",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>With a reputation for excellence, our <strong>Dallas-based laboratory testing services</strong> are trusted by thousands. We blend cutting-edge technology with a patient-first approach, ensuring top-tier service and accurate results every time.</p>",
+                "align": "center",
+                "text_color": "#000000",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "paragraph_spacing": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "px",
+                  "size": 900,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "4c552fef",
+              "elType": "container",
+              "settings": {
+                "container_type": "grid",
+                "presetTitle": "Grid",
+                "presetIcon": "eicon-container-grid",
+                "content_width": "full",
+                "grid_columns_grid": {
+                  "unit": "fr",
+                  "size": 4,
+                  "sizes": []
+                },
+                "grid_rows_grid": {
+                  "unit": "fr",
+                  "size": 1,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "46afe405",
+                  "elType": "widget",
+                  "settings": {
+                    "graphic_element": "none",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "title_text_a": "Fast & Flawless Results",
+                    "description_text_a": "",
+                    "background_a_background": "classic",
+                    "background_a_image": {
+                      "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Advanced-Diagnostic-Capabilities-scaled.webp",
+                      "id": 1428,
+                      "size": "",
+                      "alt": "Advanced Diagnostic Capabilities",
+                      "source": "library"
+                    },
+                    "background_a_position": "center center",
+                    "background_a_repeat": "no-repeat",
+                    "background_a_size": "cover",
+                    "background_overlay_a": "#04156270",
+                    "background_overlay_a_filters_css_filter": "custom",
+                    "title_text_b": "Fast & Flawless Results",
+                    "description_text_b": "We process your blood work and diagnostic swabs immediately on-site so you never wait days for critical medical answers.",
+                    "button_text": "",
+                    "background_b_background": "gradient",
+                    "background_b_color": "#041562",
+                    "background_b_color_b": "#11468F",
+                    "background_b_gradient_angle": {
+                      "unit": "deg",
+                      "size": 309,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    },
+                    "flip_effect": "slide",
+                    "vertical_position_a": "middle",
+                    "title_color_a": "#FFFFFF",
+                    "title_typography_a_typography": "custom",
+                    "title_typography_a_font_family": "Montserrat",
+                    "title_typography_a_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_a_font_weight": "700",
+                    "vertical_position_b": "middle",
+                    "title_color_b": "#FFFFFF",
+                    "title_typography_b_typography": "custom",
+                    "title_typography_b_font_family": "Montserrat",
+                    "title_typography_b_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_b_font_weight": "700",
+                    "description_typography_b_typography": "custom",
+                    "description_typography_b_font_family": "Montserrat",
+                    "description_typography_b_font_weight": "400",
+                    "button_background_color": "#DA1212",
+                    "button_hover_text_color": "#041562",
+                    "button_hover_background_color": "#EEEEEE",
+                    "padding_b": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "title_typography_a_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    },
+                    "title_typography_b_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "flip-box"
+                },
+                {
+                  "id": "77684669",
+                  "elType": "widget",
+                  "settings": {
+                    "graphic_element": "none",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "title_text_a": "Experienced Emergency Team",
+                    "description_text_a": "",
+                    "background_a_background": "classic",
+                    "background_a_image": {
+                      "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Expert-Medical-Team-scaled.webp",
+                      "id": 916,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_a_position": "center center",
+                    "background_a_repeat": "no-repeat",
+                    "background_a_size": "cover",
+                    "background_overlay_a": "#04156270",
+                    "background_overlay_a_filters_css_filter": "custom",
+                    "title_text_b": "Experienced Emergency Team",
+                    "description_text_b": "Your lab results are not just processed; they are reviewed instantly by experienced emergency room physicians to guarantee immediate, accurate treatment.",
+                    "button_text": "",
+                    "background_b_background": "gradient",
+                    "background_b_color": "#041562",
+                    "background_b_color_b": "#11468F",
+                    "background_b_gradient_angle": {
+                      "unit": "deg",
+                      "size": 309,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    },
+                    "flip_effect": "slide",
+                    "vertical_position_a": "middle",
+                    "title_color_a": "#FFFFFF",
+                    "title_typography_a_typography": "custom",
+                    "title_typography_a_font_family": "Montserrat",
+                    "title_typography_a_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_a_font_weight": "700",
+                    "vertical_position_b": "middle",
+                    "title_color_b": "#FFFFFF",
+                    "title_typography_b_typography": "custom",
+                    "title_typography_b_font_family": "Montserrat",
+                    "title_typography_b_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_b_font_weight": "700",
+                    "description_typography_b_typography": "custom",
+                    "description_typography_b_font_family": "Montserrat",
+                    "description_typography_b_font_weight": "400",
+                    "button_background_color": "#DA1212",
+                    "button_hover_text_color": "#041562",
+                    "button_hover_background_color": "#EEEEEE",
+                    "padding_b": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "title_typography_a_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    },
+                    "title_typography_b_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "flip-box"
+                },
+                {
+                  "id": "78fab4dc",
+                  "elType": "widget",
+                  "settings": {
+                    "graphic_element": "none",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "title_text_a": "Hyper-Local Convenience",
+                    "description_text_a": "",
+                    "background_a_background": "classic",
+                    "background_a_image": {
+                      "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/State-of-the-Art-Facilities-1-scaled.webp",
+                      "id": 1081,
+                      "size": "",
+                      "alt": "State-of-the-Art Facilities",
+                      "source": "library"
+                    },
+                    "background_a_position": "center center",
+                    "background_a_repeat": "no-repeat",
+                    "background_a_size": "cover",
+                    "background_overlay_a": "#04156270",
+                    "background_overlay_a_filters_css_filter": "custom",
+                    "title_text_b": "Hyper-Local Convenience",
+                    "description_text_b": "Centrally located on Northwest Highway, we provide rapid access to high-tier medical testing with minimal wait times, saving you from the crowded hospital lobby.",
+                    "button_text": "",
+                    "background_b_background": "gradient",
+                    "background_b_color": "#041562",
+                    "background_b_color_b": "#11468F",
+                    "background_b_gradient_angle": {
+                      "unit": "deg",
+                      "size": 309,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    },
+                    "flip_effect": "slide",
+                    "vertical_position_a": "middle",
+                    "title_color_a": "#FFFFFF",
+                    "title_typography_a_typography": "custom",
+                    "title_typography_a_font_family": "Montserrat",
+                    "title_typography_a_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_a_font_weight": "700",
+                    "vertical_position_b": "middle",
+                    "title_color_b": "#FFFFFF",
+                    "title_typography_b_typography": "custom",
+                    "title_typography_b_font_family": "Montserrat",
+                    "title_typography_b_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_b_font_weight": "700",
+                    "description_typography_b_typography": "custom",
+                    "description_typography_b_font_family": "Montserrat",
+                    "description_typography_b_font_weight": "400",
+                    "button_background_color": "#DA1212",
+                    "button_hover_text_color": "#041562",
+                    "button_hover_background_color": "#EEEEEE",
+                    "padding_b": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "title_typography_a_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    },
+                    "title_typography_b_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "flip-box"
+                },
+                {
+                  "id": "2a6ed6d9",
+                  "elType": "widget",
+                  "settings": {
+                    "graphic_element": "none",
+                    "selected_icon": {
+                      "value": "",
+                      "library": ""
+                    },
+                    "title_text_a": "Complete Diagnostic Power",
+                    "description_text_a": "",
+                    "background_a_background": "classic",
+                    "background_a_image": {
+                      "url": "https://erofwhiterock.com/wp-content/uploads/2025/02/Advanced-Concussion-Assessment-Diagnosis-scaled.webp",
+                      "id": 1450,
+                      "size": "",
+                      "alt": "Advanced Concussion Assessment & Diagnosis",
+                      "source": "library"
+                    },
+                    "background_a_position": "center center",
+                    "background_a_repeat": "no-repeat",
+                    "background_a_size": "cover",
+                    "background_overlay_a": "#04156270",
+                    "background_overlay_a_filters_css_filter": "custom",
+                    "title_text_b": "Complete Diagnostic Power",
+                    "description_text_b": "From life-saving cardiac panels to rapid infectious disease screening, our freestanding emergency room has the advanced machinery to diagnose severe conditions instantly.",
+                    "button_text": "",
+                    "background_b_background": "gradient",
+                    "background_b_color": "#041562",
+                    "background_b_color_b": "#11468F",
+                    "background_b_gradient_angle": {
+                      "unit": "deg",
+                      "size": 309,
+                      "sizes": []
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    },
+                    "flip_effect": "slide",
+                    "vertical_position_a": "middle",
+                    "title_color_a": "#FFFFFF",
+                    "title_typography_a_typography": "custom",
+                    "title_typography_a_font_family": "Montserrat",
+                    "title_typography_a_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_a_font_weight": "700",
+                    "vertical_position_b": "middle",
+                    "title_color_b": "#FFFFFF",
+                    "title_typography_b_typography": "custom",
+                    "title_typography_b_font_family": "Montserrat",
+                    "title_typography_b_font_size": {
+                      "unit": "px",
+                      "size": 25,
+                      "sizes": []
+                    },
+                    "title_typography_b_font_weight": "700",
+                    "description_typography_b_typography": "custom",
+                    "description_typography_b_font_family": "Montserrat",
+                    "description_typography_b_font_weight": "400",
+                    "button_background_color": "#DA1212",
+                    "button_hover_text_color": "#041562",
+                    "button_hover_background_color": "#EEEEEE",
+                    "padding_b": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": true
+                    },
+                    "title_typography_a_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    },
+                    "title_typography_b_letter_spacing": {
+                      "unit": "px",
+                      "size": -1,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "flip-box"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e058772",
+          "elType": "container",
+          "settings": [],
+          "elements": [
+            {
+              "id": "bda096c",
+              "elType": "widget",
+              "settings": {
+                "html": "<script type=\"application/ld+json\">\r\n{\r\n  \"@context\": \"https://schema.org\",\r\n  \"@type\": \"MedicalWebPage\",\r\n  \"name\": \"Emergency Laboratory Testing and Diagnostic Services in White Rock\",\r\n  \"url\": \"https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/\",\r\n  \"description\": \"24/7 on-site COLA-certified emergency laboratory providing rapid blood testing, cardiac enzyme panels, and viral diagnostics with minimal wait times.\",\r\n  \"specialty\": \"https://schema.org/LaboratoryScience\",\r\n  \"about\": {\r\n    \"@type\": \"MedicalTest\",\r\n    \"name\": \"Emergency Diagnostic Laboratory Testing\",\r\n    \"description\": \"Immediate in-house processing of blood counts, metabolic panels, cardiac markers, and infectious disease screening.\"\r\n  },\r\n  \"provider\": {\r\n    \"@type\": \"EmergencyService\",\r\n    \"name\": \"ER of White Rock\",\r\n    \"url\": \"https://erofwhiterock.com/\",\r\n    \"telephone\": \"+1-469-943-2939\",\r\n    \"address\": {\r\n      \"@type\": \"PostalAddress\",\r\n      \"streetAddress\": \"10705 Northwest Hwy\",\r\n      \"addressLocality\": \"Dallas\",\r\n      \"addressRegion\": \"TX\",\r\n      \"postalCode\": \"75238\",\r\n      \"addressCountry\": \"US\"\r\n    }\r\n  }\r\n}\r\n</script>"
+              },
+              "elements": [],
+              "widgetType": "html"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "1d69b51",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1300,
+              "sizes": []
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "__globals__": {
+              "background_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [
+            {
+              "id": "96247eb",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                },
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1300,
+                  "sizes": []
+                },
+                "flex_align_items": "flex-start",
+                "padding": {
+                  "unit": "px",
+                  "top": "80",
+                  "right": "0",
+                  "bottom": "80",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": false
+                },
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "6488cbc",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": "50"
+                    },
+                    "_flex_align_self": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "886e6a7",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Get Fast Laboratory Results in White Rock, TX",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "align_mobile": "center",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 45,
+                          "sizes": []
+                        },
+                        "align": "start",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": -2,
+                          "sizes": []
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 800,
+                          "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "__globals__": {
+                          "title_color": "globals/colors?id=fed497a"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "dab4707",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>When you need precise, rapid diagnostic testing in the White Rock, Lake Highlands, or Casa View neighborhoods, ER of White Rock is ready. Do not guess with your health. Visit our laboratory today for the answers you deserve.</p>",
+                        "text_color": "#000000",
+                        "align_mobile": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                          "unit": "px",
+                          "size": 30,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=fed497a"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "8e87f49",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Call Us Now",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "500",
+                        "background_color": "#DA1212",
+                        "button_background_hover_color": "#041562",
+                        "link": {
+                          "url": "tel:4699432939",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "align_mobile": "center",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "30",
+                          "bottom": "20",
+                          "left": "30",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "c889701",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 50
+                    },
+                    "background_background": "classic",
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "20",
+                      "bottom": "30",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "_flex_align_self": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "e734efa",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Have a Routine Question? Send Us a Message",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 45,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "align": "start",
+                        "align_mobile": "center",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": -2,
+                          "sizes": []
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "px",
+                          "size": 800,
+                          "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "__globals__": {
+                          "title_color": "globals/colors?id=fed497a"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "6fe9fbe",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Fill out the form below, and our administrative team will respond within 24 hours. This form is strictly for routine questions and <a href=\"https://erofwhiterock.com/insurance-billing-info/\">billing inquiries</a>. If you suspect a traumatic brain injury, do not use this form. Call 911 or drive to our emergency room immediately.</p>",
+                        "text_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "400",
+                        "align_mobile": "center",
+                        "typography_line_height": {
+                          "unit": "px",
+                          "size": 30,
+                          "sizes": []
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=fed497a"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "ddd62f9",
+                      "elType": "widget",
+                      "settings": {
+                        "form_name": "New Form",
+                        "form_fields": [
+                          {
+                            "custom_id": "name",
+                            "field_label": "Name",
+                            "placeholder": "Name",
+                            "dynamic": {
+                              "active": true
+                            },
+                            "_id": "22b6557"
+                          },
+                          {
+                            "_id": "f6ae8a7",
+                            "field_type": "number",
+                            "field_label": "Phone Number",
+                            "placeholder": "Phone Number",
+                            "custom_id": "field_f6ae8a7"
+                          },
+                          {
+                            "custom_id": "email",
+                            "field_type": "email",
+                            "required": "true",
+                            "field_label": "Email",
+                            "placeholder": "Email",
+                            "_id": "bf6c765"
+                          },
+                          {
+                            "custom_id": "message",
+                            "field_type": "textarea",
+                            "field_label": "Message",
+                            "placeholder": "Message",
+                            "_id": "71f2bdd"
+                          }
+                        ],
+                        "show_labels": "",
+                        "button_width": "30",
+                        "step_next_label": "Next",
+                        "step_previous_label": "Previous",
+                        "button_text": "Send",
+                        "email_to": "📧 info@erofwhiterock.com",
+                        "email_subject": "New message from &quot;ER of White Rock&quot;",
+                        "email_content": "[all-fields]",
+                        "email_from": "email@erofwhiterock.com",
+                        "email_from_name": "ER of White Rock",
+                        "email_to_2": "contact@digitallinkage.com",
+                        "email_subject_2": "New message from &quot;ER of White Rock&quot;",
+                        "email_content_2": "[all-fields]",
+                        "email_from_2": "email@erofwhiterock.com",
+                        "email_from_name_2": "ER of White Rock",
+                        "email_reply_to_2": "contact@digitallinkage.com",
+                        "activecampaign_fields_map": [],
+                        "convertkit_fields_map": [],
+                        "drip_fields_map": [],
+                        "getresponse_fields_map": [],
+                        "mailchimp_fields_map": [],
+                        "mailerlite_fields_map": [],
+                        "success_message": "Your submission was successful.",
+                        "error_message": "Your submission failed because of an error.",
+                        "server_message": "Your submission failed because of a server error.",
+                        "invalid_message": "Your submission failed because the form is invalid.",
+                        "required_field_message": "This field is required.",
+                        "label_color": "#000000",
+                        "html_color": "#000000",
+                        "button_background_color": "#DA1212",
+                        "previous_button_background_color": "#DA1212",
+                        "button_background_hover_color": "#041562",
+                        "previous_button_background_color_hover": "#041562",
+                        "button_text_color": "",
+                        "button_border_radius": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "button_text_padding": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "30",
+                          "bottom": "20",
+                          "left": "30",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "form"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "31db00f6",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "margin_mobile": {
+              "unit": "px",
+              "top": "10",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "45896a1d",
+              "elType": "widget",
+              "settings": {
+                "address": "ER of White Rock - 10705 Northwest Hwy, Dallas, TX 75238",
+                "zoom": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 400,
+                  "sizes": []
+                },
+                "_element_id": "map"
+              },
+              "elements": [],
+              "widgetType": "google_maps"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "word_count": 1630
+    }
+  }
+]

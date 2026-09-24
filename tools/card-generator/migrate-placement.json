@@ -1,0 +1,938 @@
+[
+  {
+    "post_id": 2780,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-2780-call-911-instead-of-driving.webp\" alt=\"Five situations where calling 911 is safer than driving yourself to the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>What does an emergency visit cost in Irving?</h2>\n<img class=\"aligncenter wp-image-2783 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/03/Urgent-vs.-Emergency-Care-Cost-Considerations-1024x803.webp\" alt=\"Patient reviewing emergency care insurance and billing paperwork\" width=\"1024\" height=\"803\">",
+        "replace": "<h2>What does an emergency visit cost in Irving?</h2>\n<img class=\"aligncenter wp-image-2783 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/03/Urgent-vs.-Emergency-Care-Cost-Considerations-1024x803.webp\" alt=\"Patient reviewing emergency care insurance and billing paperwork\" width=\"1024\" height=\"803\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-2780-call-911-instead-of-driving.webp\" alt=\"Five situations where calling 911 is safer than driving yourself to the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-2780-er-or-urgent-care-symptoms.webp\" alt=\"Symptoms that need an emergency room listed beside minor problems urgent care can treat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>When is urgent care the right choice?</h2>\n<img class=\"aligncenter wp-image-2784 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/03/What-is-Urgent-Care-and-When-Should-You-Use-It-1024x803.webp\" alt=\"Patient checking in at an urgent care clinic front desk\" width=\"1024\" height=\"803\">",
+        "replace": "<h2>When is urgent care the right choice?</h2>\n<img class=\"aligncenter wp-image-2784 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/03/What-is-Urgent-Care-and-When-Should-You-Use-It-1024x803.webp\" alt=\"Patient checking in at an urgent care clinic front desk\" width=\"1024\" height=\"803\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-2780-er-or-urgent-care-symptoms.webp\" alt=\"Symptoms that need an emergency room listed beside minor problems urgent care can treat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 2780",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3081,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3081-when-er-xray.webp\" alt=\"Five situations where the emergency room is the right place for an x-ray\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When to Choose the Emergency Room for an X-Ray</strong></h2>\r\n<img class=\"aligncenter wp-image-3088 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/When-to-Choose-the-Emergency-Room-for-an-X-Ray-1024x551.webp\" alt=\"When to Choose the Emergency Room for an X-Ray\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>When to Choose the Emergency Room for an X-Ray</strong></h2>\r\n<img class=\"aligncenter wp-image-3088 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/When-to-Choose-the-Emergency-Room-for-an-X-Ray-1024x551.webp\" alt=\"When to Choose the Emergency Room for an X-Ray\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3081-when-er-xray.webp\" alt=\"Five situations where the emergency room is the right place for an x-ray\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3081-xray-what-to-expect-1.webp\" alt=\"The three stages of an emergency room x-ray: check in, imaging in five to ten minutes, results in twenty to thirty minutes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>What to Expect When Getting an X-Ray at the Emergency Room</strong></h2>",
+        "replace": "<h2><strong>What to Expect When Getting an X-Ray at the Emergency Room</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3081-xray-what-to-expect-1.webp\" alt=\"The three stages of an emergency room x-ray: check in, imaging in five to ten minutes, results in twenty to thirty minutes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3081",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3091,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3091-iv-how-long-1.webp\" alt=\"A typical IV hydration session takes thirty to sixty minutes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Long Does IV Hydration Last?</strong></h2>",
+        "replace": "<h2><strong>How Long Does IV Hydration Last?</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3091-iv-how-long-1.webp\" alt=\"A typical IV hydration session takes thirty to sixty minutes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3091-when-iv-needed.webp\" alt=\"Three signs that dehydration needs IV fluids: unrelenting thirst, dizziness or fainting, and dark urine with confusion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When Do I Need an IV for Dehydration?</strong></h2>",
+        "replace": "<h2><strong>When Do I Need an IV for Dehydration?</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3091-when-iv-needed.webp\" alt=\"Three signs that dehydration needs IV fluids: unrelenting thirst, dizziness or fainting, and dark urine with confusion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3091",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3097,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3097-slipping-rib-when-seen.webp\" alt=\"Four signs that slipping rib pain needs medical attention rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When Should You Seek Medical Attention?</strong></h2>\r\n<img class=\"aligncenter wp-image-3101 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/When-Should-You-Seek-Medical-Attention-1024x551.webp\" alt=\"When Should You Seek Medical Attention\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>When Should You Seek Medical Attention?</strong></h2>\r\n<img class=\"aligncenter wp-image-3101 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/When-Should-You-Seek-Medical-Attention-1024x551.webp\" alt=\"When Should You Seek Medical Attention\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3097-slipping-rib-when-seen.webp\" alt=\"Four signs that slipping rib pain needs medical attention rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3097-slipping-rib-signs.webp\" alt=\"Five symptoms of slipping rib syndrome: sharp lower chest pain, a clicking or popping sensation, a lingering dull ache, pain radiating to the back, and tenderness over the rib\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>What Are the Symptoms of Slipping Rib Syndrome?</strong></h2>\r\n<img class=\"aligncenter wp-image-3100 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/What-Are-the-Symptoms-of-Slipping-Rib-Syndrome-1024x551.webp\" alt=\"What Are the Symptoms of Slipping Rib Syndrome\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>What Are the Symptoms of Slipping Rib Syndrome?</strong></h2>\r\n<img class=\"aligncenter wp-image-3100 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/What-Are-the-Symptoms-of-Slipping-Rib-Syndrome-1024x551.webp\" alt=\"What Are the Symptoms of Slipping Rib Syndrome\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3097-slipping-rib-signs.webp\" alt=\"Five symptoms of slipping rib syndrome: sharp lower chest pain, a clicking or popping sensation, a lingering dull ache, pain radiating to the back, and tenderness over the rib\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3097",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3103,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-injury-er.webp\" alt=\"Six signs that a bone injury needs emergency care rather than home treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When to Seek Medical Attention</strong></h2>",
+        "replace": "<h2><strong>When to Seek Medical Attention</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-injury-er.webp\" alt=\"Six signs that a bone injury needs emergency care rather than home treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-bruise-care.webp\" alt=\"Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How to Heal a Bone Bruise Fast</strong></h2>\r\n<img class=\"aligncenter wp-image-3105 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-to-Heal-a-Bone-Bruise-Fast-1024x551.webp\" alt=\"How to Heal a Bone Bruise Fast\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>How to Heal a Bone Bruise Fast</strong></h2>\r\n<img class=\"aligncenter wp-image-3105 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-to-Heal-a-Bone-Bruise-Fast-1024x551.webp\" alt=\"How to Heal a Bone Bruise Fast\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-bruise-care.webp\" alt=\"Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-fracture-or-bruise-diagnosis.webp\" alt=\"How the emergency room distinguishes a fracture from a bone bruise: examination, movement tests, palpation, x-ray and CT\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Are Bone Injuries Diagnosed?</strong></h2>\r\n<img class=\"aligncenter wp-image-3104 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-Are-Bone-Injuries-Diagnosed-1024x551.webp\" alt=\"How Are Bone Injuries Diagnosed\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>How Are Bone Injuries Diagnosed?</strong></h2>\r\n<img class=\"aligncenter wp-image-3104 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-Are-Bone-Injuries-Diagnosed-1024x551.webp\" alt=\"How Are Bone Injuries Diagnosed\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-fracture-or-bruise-diagnosis.webp\" alt=\"How the emergency room distinguishes a fracture from a bone bruise: examination, movement tests, palpation, x-ray and CT\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 3 card(s) directly below their heading on post 3103",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3201,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-evaluation.webp\" alt=\"The four checks an emergency room uses to evaluate dehydration: vital signs, physical exam, urinalysis and blood tests\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How Is Dehydration Evaluated?</strong></h2>",
+        "replace": "<h2><strong>How Is Dehydration Evaluated?</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-evaluation.webp\" alt=\"The four checks an emergency room uses to evaluate dehydration: vital signs, physical exam, urinalysis and blood tests\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-signs.webp\" alt=\"Ten warning signs of dehydration, from excessive thirst and dark urine to a rapid heartbeat and confusion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>10 Warning Signs of Dehydration:</strong></h2>\r\n<img class=\"aligncenter wp-image-3202 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/10-Warning-Signs-of-Dehydration-1024x551.webp\" alt=\"10 Warning Signs of Dehydration\" width=\"1024\" height=\"551\">",
+        "replace": "<h2><strong>10 Warning Signs of Dehydration:</strong></h2>\r\n<img class=\"aligncenter wp-image-3202 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/10-Warning-Signs-of-Dehydration-1024x551.webp\" alt=\"10 Warning Signs of Dehydration\" width=\"1024\" height=\"551\">\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3201-dehydration-signs.webp\" alt=\"Ten warning signs of dehydration, from excessive thirst and dark urine to a rapid heartbeat and confusion\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3201",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3792,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3792-snake-bite-first-aid.webp\" alt=\"Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Immediate First Aid: The \"Dos\" and \"Don\u2019ts\"</b></h2>",
+        "replace": "<h2><b>Immediate First Aid: The \"Dos\" and \"Don\u2019ts\"</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3792-snake-bite-first-aid.webp\" alt=\"Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3792",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3796,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3796-heat-illness-first-aid.webp\" alt=\"First aid steps for heat exhaustion beside the emergency steps for heat stroke\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>What To Do Right Now: First Aid by Severity</h2>",
+        "replace": "<h2>What To Do Right Now: First Aid by Severity</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3796-heat-illness-first-aid.webp\" alt=\"First aid steps for heat exhaustion beside the emergency steps for heat stroke\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3796",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3800,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3800-child-vomiting-er.webp\" alt=\"Five signs that a vomiting child needs emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Seek Emergency Medical Care</b></h2>",
+        "replace": "<h2><b>When to Seek Emergency Medical Care</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3800-child-vomiting-er.webp\" alt=\"Five signs that a vomiting child needs emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3800-child-dehydration-stages.webp\" alt=\"Mild to moderate signs of dehydration in a child beside the severe signs that need emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing the Signs: Is My Child Dehydrated?</b></h2>",
+        "replace": "<h2><b>Recognizing the Signs: Is My Child Dehydrated?</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3800-child-dehydration-stages.webp\" alt=\"Mild to moderate signs of dehydration in a child beside the severe signs that need emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3800",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3803,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-button-battery-what-not-to-do.webp\" alt=\"Three things not to do after a child swallows a button battery, and why each one causes harm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Step-by-Step Emergency Actions for Parents</b></h2>",
+        "replace": "<h2><b>Step-by-Step Emergency Actions for Parents</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-button-battery-what-not-to-do.webp\" alt=\"Three things not to do after a child swallows a button battery, and why each one causes harm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-two-hour-window-1.webp\" alt=\"Two hours is how long a swallowed button battery can take to burn through the esophagus\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>The 2-Hour Window: Why Every Minute Counts</b></h2>",
+        "replace": "<h2><b>The 2-Hour Window: Why Every Minute Counts</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-two-hour-window-1.webp\" alt=\"Two hours is how long a swallowed button battery can take to burn through the esophagus\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-red-flags.webp\" alt=\"Six signs that a swallowed button battery is lodged in a child's throat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Red Flags: How to Tell if Your Child Swallowed a Battery</b></h2>",
+        "replace": "<h2><b>Red Flags: How to Tell if Your Child Swallowed a Battery</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-red-flags.webp\" alt=\"Six signs that a swallowed button battery is lodged in a child's throat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 3 card(s) directly below their heading on post 3803",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3808,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-flu-emergency-signs.webp\" alt=\"Five breathing and hydration signs in a child that mean emergency care rather than home care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Head to the ER: Oxygen Levels and Critical Warnings</b></h2>",
+        "replace": "<h2><b>When to Head to the ER: Oxygen Levels and Critical Warnings</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-flu-emergency-signs.webp\" alt=\"Five breathing and hydration signs in a child that mean emergency care rather than home care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-infant-signs.webp\" alt=\"Four signs of RSV in an infant, which typically peak on day three to five\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>RSV Symptoms in Infants: The Tell-Tale Signs</b></h2>",
+        "replace": "<h2><b>RSV Symptoms in Infants: The Tell-Tale Signs</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-infant-signs.webp\" alt=\"Four signs of RSV in an infant, which typically peak on day three to five\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3808",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3813,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-er.webp\" alt=\"The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>What to Expect at the Clinic or ER</b></h2>",
+        "replace": "<h2><b>What to Expect at the Clinic or ER</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-er.webp\" alt=\"The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-pain-shift.webp\" alt=\"How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing Key Appendicitis Symptoms</b></h2>",
+        "replace": "<h2><b>Recognizing Key Appendicitis Symptoms</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-pain-shift.webp\" alt=\"How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3813",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3816,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-eye-what-not-to-do.webp\" alt=\"Three things not to do after an eye injury, and the one thing you should do\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Protecting Your Sight: Immediate Steps to Take</b></h2>",
+        "replace": "<h2><b>Protecting Your Sight: Immediate Steps to Take</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-eye-what-not-to-do.webp\" alt=\"Three things not to do after an eye injury, and the one thing you should do\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-retinal-spots.webp\" alt=\"Three retinal emergency signs: flashes of light, a curtain across the vision, and a sudden shower of floaters\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When \"Seeing Spots\" is a Retinal Emergency</b></h2>",
+        "replace": "<h2><b>When \"Seeing Spots\" is a Retinal Emergency</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-retinal-spots.webp\" alt=\"Three retinal emergency signs: flashes of light, a curtain across the vision, and a sudden shower of floaters\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-scratched-cornea.webp\" alt=\"Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Scratched Cornea Symptoms: More Than Just an Irritation</b></h2>",
+        "replace": "<h2><b>Scratched Cornea Symptoms: More Than Just an Irritation</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-scratched-cornea.webp\" alt=\"Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-eye-red-flags.webp\" alt=\"Five eye symptoms that need emergency care: severe pain, pain with headache or fever, sudden vision loss, halos around lights, and trauma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing the Red Flags: When to Seek Urgent Care</b></h2>",
+        "replace": "<h2><b>Recognizing the Red Flags: When to Seek Urgent Care</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-eye-red-flags.webp\" alt=\"Five eye symptoms that need emergency care: severe pain, pain with headache or fever, sudden vision loss, halos around lights, and trauma\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 4 card(s) directly below their heading on post 3816",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3825,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-er.webp\" alt=\"Four situations where a dog bite needs emergency care: an unknown dog, bleeding that will not stop, a deep or facial wound, or a weakened immune system\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Seek Emergency Care for a Dog Bite in Irving</b></h2>",
+        "replace": "<h2><b>When to Seek Emergency Care for a Dog Bite in Irving</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-er.webp\" alt=\"Four situations where a dog bite needs emergency care: an unknown dog, bleeding that will not stop, a deep or facial wound, or a weakened immune system\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-first-aid.webp\" alt=\"Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>At-Home First Aid: What to Do in the First 10 Minutes</b></h2>",
+        "replace": "<h2><b>At-Home First Aid: What to Do in the First 10 Minutes</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-first-aid.webp\" alt=\"Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-infection.webp\" alt=\"Five signs that a dog bite is becoming infected, including spreading redness, warmth, pus and fever\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Identifying Infection: Signs of Cellulitis and Beyond</b></h2>",
+        "replace": "<h2><b>Identifying Infection: Signs of Cellulitis and Beyond</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-infection.webp\" alt=\"Five signs that a dog bite is becoming infected, including spreading redness, warmth, pus and fever\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 3 card(s) directly below their heading on post 3825",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3829,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3829-concussion-er.webp\" alt=\"Six concussion red flags that need emergency care immediately\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>The Critical Window: When to Seek Emergency Care</b></h2>",
+        "replace": "<h2><b>The Critical Window: When to Seek Emergency Care</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3829-concussion-er.webp\" alt=\"Six concussion red flags that need emergency care immediately\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3829-concussion-symptoms.webp\" alt=\"Nine concussion symptoms in student athletes, from headache and dizziness to irritability and changes in sleep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing Concussion Symptoms in Student-Athletes</b></h2>",
+        "replace": "<h2><b>Recognizing Concussion Symptoms in Student-Athletes</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3829-concussion-symptoms.webp\" alt=\"Nine concussion symptoms in student athletes, from headache and dizziness to irritability and changes in sleep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3829",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3833,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-headache-treatment-paths.webp\" alt=\"What the emergency room gives for a migraine compared with how it stabilizes a suspected aneurysm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Emergency Treatment: Migraine Cocktail vs. Emergency Stabilization</b></h2>",
+        "replace": "<h2><b>Emergency Treatment: Migraine Cocktail vs. Emergency Stabilization</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-headache-treatment-paths.webp\" alt=\"What the emergency room gives for a migraine compared with how it stabilizes a suspected aneurysm\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-aneurysm-red-flags.webp\" alt=\"Five red flags that a severe headache may be an aneurysm rather than a migraine\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing the Danger: Migraine vs. Emergency Symptoms</b></h2>",
+        "replace": "<h2><b>Recognizing the Danger: Migraine vs. Emergency Symptoms</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3833-aneurysm-red-flags.webp\" alt=\"Five red flags that a severe headache may be an aneurysm rather than a migraine\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3833",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3854,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-triggers.webp\" alt=\"Four signs of diabetic ketoacidosis that need the emergency room: vomiting, high ketones, blood sugar above 300, and rapid deep breathing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Head to the Emergency Room</b></h2>",
+        "replace": "<h2><b>When to Head to the Emergency Room</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-triggers.webp\" alt=\"Four signs of diabetic ketoacidosis that need the emergency room: vomiting, high ketones, blood sugar above 300, and rapid deep breathing\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3854",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3858,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-er.webp\" alt=\"Five kidney stone red flags that mean stopping home care and going to the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>Red Flags: When to Stop Home Care and Go to the ER</h2>",
+        "replace": "<h2>Red Flags: When to Stop Home Care and Go to the ER</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-er.webp\" alt=\"Five kidney stone red flags that mean stopping home care and going to the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-size.webp\" alt=\"Kidney stones under four millimeters usually pass on their own, while stones of six millimeters or larger often need medical treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>Why Home Remedies Fall Short for Larger Stones</h2>",
+        "replace": "<h2>Why Home Remedies Fall Short for Larger Stones</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-size.webp\" alt=\"Kidney stones under four millimeters usually pass on their own, while stones of six millimeters or larger often need medical treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3858",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3862,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-what-to-do.webp\" alt=\"Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>What to Do If You Suspect Sepsis</h2>",
+        "replace": "<h2>What to Do If You Suspect Sepsis</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-what-to-do.webp\" alt=\"Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-signs.webp\" alt=\"Six early signs of sepsis: racing heart, fever or shivering, confusion, breathlessness, extreme pain, and clammy mottled skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>Sepsis Symptoms: How to Spot the Red Flags Early</h2>",
+        "replace": "<h2>Sepsis Symptoms: How to Spot the Red Flags Early</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-signs.webp\" alt=\"Six early signs of sepsis: racing heart, fever or shivering, confusion, breathlessness, extreme pain, and clammy mottled skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3862",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3867,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-emergency-steps.webp\" alt=\"Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Immediate Steps: What to Do in an Emergency</b></h2>",
+        "replace": "<h2><b>Immediate Steps: What to Do in an Emergency</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-emergency-steps.webp\" alt=\"Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-symptoms.webp\" alt=\"Five symptoms of carbon monoxide poisoning that are easily mistaken for the flu\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Dizziness and Flu-like Symptoms: Recognizing Carbon Monoxide Poisoning</b></h2>",
+        "replace": "<h2><b>Dizziness and Flu-like Symptoms: Recognizing Carbon Monoxide Poisoning</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-symptoms.webp\" alt=\"Five symptoms of carbon monoxide poisoning that are easily mistaken for the flu\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3867",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3871,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3871-near-drowning-signs.webp\" alt=\"Six near-drowning warning signs to watch for in the hours after a pool incident\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Essential Near Drowning Symptoms to Watch For</b></h2>",
+        "replace": "<h2><b>Essential Near Drowning Symptoms to Watch For</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3871-near-drowning-signs.webp\" alt=\"Six near-drowning warning signs to watch for in the hours after a pool incident\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3871",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3875,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3875-when-to-go-er.webp\" alt=\"Six symptoms that mean going to the emergency room rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When Should You Go to the ER?</strong></h2>",
+        "replace": "<h2><strong>When Should You Go to the ER?</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3875-when-to-go-er.webp\" alt=\"Six symptoms that mean going to the emergency room rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3875",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3879,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3879-pharmacy-or-er.webp\" alt=\"When a 24-hour pharmacy is enough and when to skip it for the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When You Need More Than a Prescription</b></h2>",
+        "replace": "<h2><b>When You Need More Than a Prescription</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3879-pharmacy-or-er.webp\" alt=\"When a 24-hour pharmacy is enough and when to skip it for the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3879",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3882,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-first-aid.webp\" alt=\"Burn first aid steps to take beside the common mistakes that make a burn worse\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Immediate First Aid: What to Do (And What to Avoid)</b></h2>",
+        "replace": "<h2><b>Immediate First Aid: What to Do (And What to Avoid)</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-first-aid.webp\" alt=\"Burn first aid steps to take beside the common mistakes that make a burn worse\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-degrees.webp\" alt=\"First, second and third degree burns compared on skin depth, signs and outlook\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Understanding Burn Severity: More Than Just Redness</b></h2>",
+        "replace": "<h2><b>Understanding Burn Severity: More Than Just Redness</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-degrees.webp\" alt=\"First, second and third degree burns compared on skin depth, signs and outlook\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3882",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3886,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-er-stroke-clock.webp\" alt=\"The stroke workup at ER of Irving: exam within fifteen minutes, CT within twenty five, results within forty five, treatment decision within sixty\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>What Happens When You Arrive at the ER of Irving for a Suspected Stroke</strong></h2>",
+        "replace": "<h2><strong>What Happens When You Arrive at the ER of Irving for a Suspected Stroke</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-er-stroke-clock.webp\" alt=\"The stroke workup at ER of Irving: exam within fifteen minutes, CT within twenty five, results within forty five, treatment decision within sixty\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-stroke-mistakes.webp\" alt=\"Four common mistakes during a suspected stroke and why each one wastes critical time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>What Not To Do: 4 Mistakes That Cost Critical Minutes</strong></h2>",
+        "replace": "<h2><strong>What Not To Do: 4 Mistakes That Cost Critical Minutes</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-stroke-mistakes.webp\" alt=\"Four common mistakes during a suspected stroke and why each one wastes critical time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-first-five-minutes-1.webp\" alt=\"Five steps to take in the first five minutes of a suspected stroke\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>The First 5 Minutes: Exactly What To Do</strong></h2>",
+        "replace": "<h2><strong>The First 5 Minutes: Exactly What To Do</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-first-five-minutes-1.webp\" alt=\"Five steps to take in the first five minutes of a suspected stroke\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-fast-signs.webp\" alt=\"The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>The F.A.S.T. Method: 4 Warning Signs of Stroke</strong></h2>",
+        "replace": "<h2><strong>The F.A.S.T. Method: 4 Warning Signs of Stroke</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-fast-signs.webp\" alt=\"The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 4 card(s) directly below their heading on post 3886",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3894,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3894-heart-attack-signs.webp\" alt=\"Common heart attack signs beside the signs that more often appear in women\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>Recognizing Heart Attack Symptoms: More Than Just \"Chest Pain\"</strong></h2>",
+        "replace": "<h2><strong>Recognizing Heart Attack Symptoms: More Than Just \"Chest Pain\"</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3894-heart-attack-signs.webp\" alt=\"Common heart attack signs beside the signs that more often appear in women\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3894",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3897,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-red-flags.webp\" alt=\"Four red flags that an allergic reaction is returning after an EpiPen: throat tightness, new hives, faintness, and severe stomach symptoms\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing Red Flags: When a Throat Feels Tight or Breathing Changes</b></h2>",
+        "replace": "<h2><b>Recognizing Red Flags: When a Throat Feels Tight or Breathing Changes</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-red-flags.webp\" alt=\"Four red flags that an allergic reaction is returning after an EpiPen: throat tightness, new hives, faintness, and severe stomach symptoms\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-er-care.webp\" alt=\"What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Emergency Allergy Stabilization: What Happens at the Hospital?</b></h2>",
+        "replace": "<h2><b>Emergency Allergy Stabilization: What Happens at the Hospital?</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-er-care.webp\" alt=\"What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3897",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3900,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3900-crash-er-red-flags.webp\" alt=\"Five red flag symptoms after a high-speed car accident that need the emergency room immediately\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Head to the ER Immediately: Red Flag Symptoms</b></h2>",
+        "replace": "<h2><b>When to Head to the ER Immediately: Red Flag Symptoms</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3900-crash-er-red-flags.webp\" alt=\"Five red flag symptoms after a high-speed car accident that need the emergency room immediately\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3900-whiplash-symptoms.webp\" alt=\"Three signs of whiplash after a car accident: neck stiffness, pain radiating into the shoulders or arms, and headaches at the base of the skull\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Whiplash vs. Internal Bleeding: Understanding the Spectrum of Injuries</b></h2>",
+        "replace": "<h2><b>Whiplash vs. Internal Bleeding: Understanding the Spectrum of Injuries</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3900-whiplash-symptoms.webp\" alt=\"Three signs of whiplash after a car accident: neck stiffness, pain radiating into the shoulders or arms, and headaches at the base of the skull\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3900",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3918,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-or-infection.webp\" alt=\"Four red flags that a painful joint is infected rather than a gout flare\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Distinguishing Gout from Infection</b></h2>",
+        "replace": "<h2><b>Distinguishing Gout from Infection</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-or-infection.webp\" alt=\"Four red flags that a painful joint is infected rather than a gout flare\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-relief.webp\" alt=\"Five ways to relieve a gout flare at home: elevate the joint, apply ice, hydrate, avoid trigger foods, and take NSAIDs\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Rapid Relief for Toe and Joint Pain</b></h2>",
+        "replace": "<h2><b>Rapid Relief for Toe and Joint Pain</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3918-gout-relief.webp\" alt=\"Five ways to relieve a gout flare at home: elevate the joint, apply ice, hydrate, avoid trigger foods, and take NSAIDs\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3918",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3921,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-fever-home-care.webp\" alt=\"What to do and what to avoid when caring for a child's fever of 101 to 102 degrees at home\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>At-Home Comfort Measures vs. Medical Intervention</b></h2>",
+        "replace": "<h2><b>At-Home Comfort Measures vs. Medical Intervention</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-fever-home-care.webp\" alt=\"What to do and what to avoid when caring for a child's fever of 101 to 102 degrees at home\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-febrile-seizure-steps-1.webp\" alt=\"Four steps to take while a child is having a febrile seizure\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When a Fever Causes Seizures (Febrile Seizures)</b></h2>",
+        "replace": "<h2><b>When a Fever Causes Seizures (Febrile Seizures)</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-febrile-seizure-steps-1.webp\" alt=\"Four steps to take while a child is having a febrile seizure\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-dehydration-signs.webp\" alt=\"Five signs of dehydration to watch for in a child with a high fever\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Dehydration Signs: What to Watch For</b></h2>",
+        "replace": "<h2><b>Dehydration Signs: What to Watch For</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-dehydration-signs.webp\" alt=\"Five signs of dehydration to watch for in a child with a high fever\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-child-fever-thresholds.webp\" alt=\"Fever temperature thresholds and the right action for three child age groups\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Seek Immediate Help: Child Fever ER Guidelines</b></h2>",
+        "replace": "<h2><b>When to Seek Immediate Help: Child Fever ER Guidelines</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-child-fever-thresholds.webp\" alt=\"Fever temperature thresholds and the right action for three child age groups\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 4 card(s) directly below their heading on post 3921",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3924,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-treatment.webp\" alt=\"How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Diagnosis and Immediate Care</b></h2>",
+        "replace": "<h2><b>Diagnosis and Immediate Care</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-treatment.webp\" alt=\"How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-red-flags.webp\" alt=\"Three red flags of a peritonsillar abscess: drooling, a swollen tender lump under the jaw, and the uvula pushed to one side\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing the Red Flags: Symptoms You Can\u2019t Ignore</b></h2>",
+        "replace": "<h2><b>Recognizing the Red Flags: Symptoms You Can\u2019t Ignore</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-red-flags.webp\" alt=\"Three red flags of a peritonsillar abscess: drooling, a swollen tender lump under the jaw, and the uvula pushed to one side\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3924",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3930,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-what-to-expect-1.webp\" alt=\"The four stages of having a deep cut closed: numbing, irrigation, closure, and aftercare\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>What to Expect During Your Visit</b></h2>",
+        "replace": "<h2><b>What to Expect During Your Visit</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-what-to-expect-1.webp\" alt=\"The four stages of having a deep cut closed: numbing, irrigation, closure, and aftercare\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-stitches-time-window-1.webp\" alt=\"Six to twelve hours is the window for getting a deep cut stitched\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>How long can you wait to get stitches?</b></h2>",
+        "replace": "<h2><b>How long can you wait to get stitches?</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-stitches-time-window-1.webp\" alt=\"Six to twelve hours is the window for getting a deep cut stitched\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-stitches-or-glue.webp\" alt=\"Stitches and skin glue compared on the wounds each suits, strength and removal\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Stitches vs. Medical Glue: What\u2019s the Difference?</b></h2>",
+        "replace": "<h2><b>Stitches vs. Medical Glue: What\u2019s the Difference?</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-stitches-or-glue.webp\" alt=\"Stitches and skin glue compared on the wounds each suits, strength and removal\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-cut-needs-care.webp\" alt=\"Five tests for whether a cut needs stitches or emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>How to Tell if Your Cut Needs Professional Care</b></h2>",
+        "replace": "<h2><b>How to Tell if Your Cut Needs Professional Care</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-cut-needs-care.webp\" alt=\"Five tests for whether a cut needs stitches or emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 4 card(s) directly below their heading on post 3930",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3934,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-diagnosis.webp\" alt=\"How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>How We Diagnose DVT: On-site Blood Tests and Imaging</b></h2>",
+        "replace": "<h2><b>How We Diagnose DVT: On-site Blood Tests and Imaging</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-diagnosis.webp\" alt=\"How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-pe-warning-signs.webp\" alt=\"Five warning signs of a pulmonary embolism, which is when a blood clot travels to the lungs\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>The Risk of Pulmonary Embolism (PE)</b></h2>",
+        "replace": "<h2><b>The Risk of Pulmonary Embolism (PE)</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-pe-warning-signs.webp\" alt=\"Five warning signs of a pulmonary embolism, which is when a blood clot travels to the lungs\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3934",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3937,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3937-rash-urgent-or-er.webp\" alt=\"Poison ivy rash signs that need urgent care beside the signs that need the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>When to Head Straight to the Emergency Room</b></h2>",
+        "replace": "<h2><b>When to Head Straight to the Emergency Room</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3937-rash-urgent-or-er.webp\" alt=\"Poison ivy rash signs that need urgent care beside the signs that need the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 3937",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3977,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3977-er-now-or-wait.webp\" alt=\"Five signs that a suspected hairline fracture needs the emergency room rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>When to Visit the ER vs Wait</strong></h2>",
+        "replace": "<h2><strong>When to Visit the ER vs Wait</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3977-er-now-or-wait.webp\" alt=\"Five signs that a suspected hairline fracture needs the emergency room rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3977-xray-looks-normal.webp\" alt=\"Three next steps when an x-ray does not show a suspected hairline fracture: repeat the x-ray, a CT scan, or an MRI\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>Why X-Rays Sometimes Miss Hairline Fractures</strong></h2>",
+        "replace": "<h2><strong>Why X-Rays Sometimes Miss Hairline Fractures</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3977-xray-looks-normal.webp\" alt=\"Three next steps when an x-ray does not show a suspected hairline fracture: repeat the x-ray, a CT scan, or an MRI\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3977-hairline-signs.webp\" alt=\"Seven signs of a hairline fracture: pain at one exact spot, worse with activity, swelling without heavy bruising, tenderness when pressed, no relief from rest, weakness bearing weight, and pain worse at night\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>7 Symptoms of a Hairline Fracture</strong></h2>",
+        "replace": "<h2><strong>7 Symptoms of a Hairline Fracture</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3977-hairline-signs.webp\" alt=\"Seven signs of a hairline fracture: pain at one exact spot, worse with activity, swelling without heavy bruising, tenderness when pressed, no relief from rest, weakness bearing weight, and pain worse at night\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 3 card(s) directly below their heading on post 3977",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 3978,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-er-workup-1.webp\" alt=\"The five tests an emergency room uses to identify the cause of chest pain\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>How ER of Irving Tells Them Apart</strong></h2>",
+        "replace": "<h2><strong>How ER of Irving Tells Them Apart</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-er-workup-1.webp\" alt=\"The five tests an emergency room uses to identify the cause of chest pain\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-red-flags.webp\" alt=\"Six chest pain warning signs that mean calling 911 rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><strong>Red Flags That Need Emergency Care</strong></h2>",
+        "replace": "<h2><strong>Red Flags That Need Emergency Care</strong></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-red-flags.webp\" alt=\"Six chest pain warning signs that mean calling 911 rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 3978",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 4008,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4008-heat-exhaustion-or-stroke.webp\" alt=\"Heat exhaustion signs beside heat stroke signs, which are a medical emergency needing 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Understanding Heat-Related Illnesses: Heat Exhaustion vs. Heat Stroke</b></h2>",
+        "replace": "<h2><b>Understanding Heat-Related Illnesses: Heat Exhaustion vs. Heat Stroke</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4008-heat-exhaustion-or-stroke.webp\" alt=\"Heat exhaustion signs beside heat stroke signs, which are a medical emergency needing 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 4008",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 4011,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4011-hantavirus-symptoms.webp\" alt=\"Eight hantavirus symptoms, which are easily mistaken for the common flu\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2><b>Recognizing the Signs: Hantavirus Symptoms vs. The Common Flu</b></h2>",
+        "replace": "<h2><b>Recognizing the Signs: Hantavirus Symptoms vs. The Common Flu</b></h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4011-hantavirus-symptoms.webp\" alt=\"Eight hantavirus symptoms, which are easily mistaken for the common flu\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 1 card(s) directly below their heading on post 4011",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 4345,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4345-food-poisoning-recovery.webp\" alt=\"Four steps to recover from food poisoning at home, including when to avoid anti-diarrhea medicine\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>How to Recover at Home</h2>",
+        "replace": "<h2>How to Recover at Home</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4345-food-poisoning-recovery.webp\" alt=\"Four steps to recover from food poisoning at home, including when to avoid anti-diarrhea medicine\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4345-food-poisoning-er.webp\" alt=\"Five signs that food poisoning has become an emergency: bloody diarrhea, diarrhea past three days, high fever, inability to keep liquids down, and dehydration\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>When Food Poisoning Becomes an Emergency</h2>",
+        "replace": "<h2>When Food Poisoning Becomes an Emergency</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4345-food-poisoning-er.webp\" alt=\"Five signs that food poisoning has become an emergency: bloody diarrhea, diarrhea past three days, high fever, inability to keep liquids down, and dehydration\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 4345",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  },
+  {
+    "post_id": 4410,
+    "patches": [
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4410-911-er-or-home.webp\" alt=\"Whether to call 911, go to the ER today, or watch at home after a car accident\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>911, ER, or Watch at Home?</h2>",
+        "replace": "<h2>911, ER, or Watch at Home?</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4410-911-er-or-home.webp\" alt=\"Whether to call 911, go to the ER today, or watch at home after a car accident\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      },
+      {
+        "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4410-crash-symptoms.webp\" alt=\"Six symptoms after a car accident that need the emergency room now, even if you feel fine at the scene\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n",
+        "replace": ""
+      },
+      {
+        "search": "<h2>Go to the ER Now: Symptoms That Cannot Wait</h2>",
+        "replace": "<h2>Go to the ER Now: Symptoms That Cannot Wait</h2>\n<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4410-crash-symptoms.webp\" alt=\"Six symptoms after a car accident that need the emergency room now, even if you feel fine at the scene\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>"
+      }
+    ],
+    "summary": "Move 2 card(s) directly below their heading on post 4410",
+    "reasoning": "Placement only. No new images, no copy changes, no attachment changes: same files, same alt text, same URLs. Each card was sitting at the end of its section, which put it immediately above the NEXT heading and made it read as that heading's illustration. Each now sits directly below the heading of its own section, ahead of that section's prose, per the operator's placement rule. Where a photo already sits under the heading the card goes after it rather than above it."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "route": "cc-assistant/v1/site-memory/notes",
+    "method": "POST",
+    "body": {
+      "notes": "Batch 12 (statistics pass): checked all 6 cardable percentages against their OWN cited pages. 4 failed. 3886 says 87% ischemic but its MedlinePlus link says 80%; 3937's 85% and 3897's 20% cite MedlinePlus pages with no percentage at all; 3081 cites 'industry surveys'. Queued 1219 (3937 stat card + citation moved to NIEHS, which states 85% verbatim), 1220 (3813 '5-9%' -> 8.6% male / 6.7% female, NIH StatPearls), 1221 (3886 87% -> 80%). All introduced:[]. NO charts: 21 percentage sentences site-wide, none a series, so a bar chart would need invented data. Left alone: 3897 'up to 20%' is cherry-picked from a 0.4-23.3% range (pooled 4.6%) and its 'can be more severe' claim contradicts the literature - needs a clinical decision; 3858's 80% stone-passage (lit. 38-95%) and 3081 both unsourceable. Not carded though verified: 3813/3875 figures change no reader action, 3862's 1.7M sepsis sits in the intro with no heading to anchor to."
+    },
+    "out": "card-generator/_q12/note.json"
+  }
+]

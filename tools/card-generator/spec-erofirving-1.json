@@ -1,0 +1,104 @@
+{
+  "_note": "First real ER of Irving batch. Every item is lifted from the target post's own body (read via the browser REST route while the SiteGround IP challenge blocks the bridge), so no card asserts anything the article does not. Chosen to COMPLEMENT rather than repeat: 2780 and 3978 already carry comparison tables, so the cards here cover the sections that have no visual. Nothing uploaded; no numeric claims.",
+  "cards": [
+    {
+      "file": "erof-2780-er-or-urgent-care-symptoms",
+      "post_id": 2780,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "good",
+      "subject": "emergency room",
+      "heading": "When should you go to the emergency room instead of urgent care?",
+      "title": ["When to Go to the ", "Emergency Room", ""],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Symptoms that need an emergency room listed beside minor problems urgent care can treat",
+      "good": {
+        "icon": "triangle-alert",
+        "heading": "Go to the ER",
+        "items": [
+          "Chest pain or pressure",
+          "Face droop, arm weakness, slurred speech",
+          "Trouble breathing",
+          "Bleeding that will not stop",
+          "Head injury with confusion or vomiting"
+        ]
+      },
+      "bad": {
+        "icon": "circle-check",
+        "heading": "Urgent care is enough",
+        "items": [
+          "Mild flu symptoms",
+          "Small cuts",
+          "Earache",
+          "Simple urinary infection"
+        ]
+      }
+    },
+    {
+      "file": "erof-2780-call-911-instead-of-driving",
+      "post_id": 2780,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "911",
+      "heading": "When should you call 911 instead of driving to the ER?",
+      "title": ["When to Call ", "911", " Instead of Driving"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Five situations where calling 911 is safer than driving yourself to the emergency room",
+      "items": [
+        { "icon": "heart-pulse", "label": "Chest pain", "note": "Paramedics begin treatment on the way" },
+        { "icon": "brain", "label": "Stroke signs", "note": "Face droop, arm weakness, slurred speech" },
+        { "icon": "activity", "label": "Severe breathing trouble", "note": "Oxygen is carried on board" },
+        { "icon": "bandage", "label": "Major trauma", "note": "Crews can start care on scene" },
+        { "icon": "moon", "label": "Anyone unresponsive", "note": "Never move them by car alone" }
+      ]
+    },
+    {
+      "file": "erof-3796-heat-illness-first-aid",
+      "post_id": 3796,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "subject": "heat illness",
+      "heading": "What should you do in the first ten minutes of a heat illness?",
+      "title": ["First Aid for ", "Heat Illness", ""],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "First aid steps for heat exhaustion beside the emergency steps for heat stroke",
+      "good": {
+        "icon": "droplet",
+        "heading": "Looks like heat exhaustion",
+        "items": [
+          "Move to a cool place",
+          "Cool the skin with wet cloths",
+          "Loosen heavy clothing",
+          "Sip water slowly"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "Looks like heat stroke",
+        "items": [
+          "Call 911 immediately",
+          "Get them out of the sun",
+          "Cool aggressively",
+          "Do not give anything to drink"
+        ]
+      }
+    },
+    {
+      "file": "erof-3886-stroke-mistakes",
+      "post_id": 3886,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "stroke",
+      "heading": "What four mistakes cost the most time during a stroke?",
+      "title": ["Four ", "Stroke", " Mistakes That Cost Minutes"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Four common mistakes during a suspected stroke and why each one wastes critical time",
+      "items": [
+        { "icon": "ban", "label": "Do not drive them", "note": "An ambulance alerts the ER in advance" },
+        { "icon": "pill", "label": "Do not give aspirin", "note": "It makes hemorrhagic strokes worse" },
+        { "icon": "clock-3", "label": "Do not wait it out", "note": "Fading symptoms can still be a mini-stroke" },
+        { "icon": "moon", "label": "Do not let them sleep", "note": "A missed start time rules out clot-busting drugs" }
+      ]
+    }
+  ]
+}

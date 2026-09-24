@@ -1,0 +1,21 @@
+{
+  "version": "0.88.0",
+  "source_updates": 22,
+  "new_files": [
+    "EVIDENCE-AND-RESEARCH.md",
+    "includes/class-memory-policy.php",
+    "tests/memory-context-test.php",
+    "tests/prospective-research-test.php"
+  ],
+  "php_syntax_files": 181,
+  "php_test_files": 43,
+  "claude_completed_trials": 10,
+  "claude_cases": 8,
+  "mcp_tool_count": 174,
+  "package": {
+    "path": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\v0.88\\cc-assistant-0.88.0.zip",
+    "files": 150,
+    "sha256": "a992b72c3f4d67b2121183b505b2bb82e9dfdf75844b04c63ec91b6d700ff429"
+  },
+  "live_site_deployed": false
+}

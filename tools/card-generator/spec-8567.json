@@ -1,0 +1,20 @@
+{
+  "_note": "Post 8567 is a '5 Ways' post carrying graphics on ways 1, 2, 3 and 5. Way 4, Restorative Sleep, has none, so a reader scrolling hits one bare section in an otherwise illustrated run. This fills it, in the same three-part shape as the existing four cards and at the same 1200x628.",
+  "cards": [
+    {
+      "file": "empower-your-wellness-journey-restorative-sleep",
+      "post_id": 8567,
+      "layout": "icons",
+      "subject": "sleep",
+      "heading": "4. Master the Science of Restorative Sleep",
+      "title": ["Treating ", "Sleep", " as a Medical Necessity"],
+      "logo": { "position": "bottom-right", "variant": "green", "width": 150 },
+      "alt": "Restorative sleep in three parts: cytokines repair immunity, consistent timing including weekends, and no devices in the bedroom",
+      "items": [
+        { "icon": "shield-check", "label": "Immune repair", "note": "Cytokines fight infection and inflammation" },
+        { "icon": "clock-3", "label": "Same time daily", "note": "Including weekends, not just weekdays" },
+        { "icon": "smartphone", "label": "Devices out", "note": "Less blue light, more natural melatonin" }
+      ]
+    }
+  ]
+}

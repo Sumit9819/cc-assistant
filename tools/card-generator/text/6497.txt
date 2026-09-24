@@ -1,0 +1,319 @@
+If you’ve ever typed your height and weight into a BMI calculator and felt a knot in your stomach while you waited for the number to appear, you’re not alone.
+
+For many people, that single number can stir up relief, worry, or guilt. But here’s the truth: Body Mass Index (BMI) is a screening tool, not a judgment on your worth or a final diagnosis about your health. It’s one piece of information that can help start a conversation, not end it.
+
+In this guide, we’ll walk through:
+
+- How our BMI calculator actually works
+ 
+- What does your result mean in plain language
+ 
+- The strengths and limits of BMI
+ 
+- How to use your number in a helpful, healthy way, not as a reason to panic or shame yourself
+
+You deserve clear, honest information and compassionate guidance. Let’s break it down together.
+
+## What Is BMI, Really?
+
+### A simple definition of BMI
+
+Body Mass Index (BMI) is a number that uses your height and weight to estimate whether your weight is in a range that’s generally considered underweight, healthy weight, overweight, or obese for adults.
+
+It doesn’t measure body fat directly. Instead, it compares your weight to your height using a formula, and then places you into a category that has been linked with different levels of health risk at the population level.
+
+For adults 20 and older, the same BMI categories are used for men and women, regardless of age.
+
+### Why healthcare professionals still use BMI
+
+You might wonder, "If BMI isn’t perfect, why do doctors still use it?"
+
+Public health agencies like the CDC and the NHLBI continue to use BMI because it is:
+
+- Quick and inexpensive to calculate
+ 
+- Easy to apply across large groups of people
+ 
+- Helpful for identifying patterns of underweight, overweight, and obesity in communities
+ 
+- A useful starting point for discussing weight-related health risks
+
+That said, these same organizations emphasize that BMI is only one tool and must be interpreted along with other information like medical history, lab results, and physical exams.
+
+### BMI vs. "just weight on the scale."
+
+Weight alone doesn’t tell the whole story. Two people can weigh 200 pounds and have very different body types depending on their height.
+
+BMI adjusts for height, which helps us understand whether your weight is relatively low, moderate, or high for your height, something a scale alone simply can’t do.
+
+## How Our BMI Calculator Works (Step by Step)
+
+Our BMI calculator is designed to give you a quick, clear snapshot of your weight status using the same formulas and categories used by major U.S. health agencies.
+
+### 1. What our calculator asks you for
+
+To calculate your BMI, you’ll typically enter:
+
+- Your height (in feet/inches or centimeters)
+ 
+- Your weight (in pounds or kilograms)
+
+On some tools, you might also see options for age and sex. These are especially important when calculating BMI for children and teens, because their results are interpreted differently (more on that below).
+
+### 2. The BMI formula
+
+Metric formula
+
+BMI = weight (kg) ÷ [height (m)]²
+
+U.S. units formula
+
+BMI = [weight (lb) ÷ height (in)²] × 703
+
+In simple terms:
+
+- Your height is converted into meters (or inches), then squared.
+ 
+- Your weight is divided by that squared height.
+ 
+- If you entered pounds and inches, we multiply by 703 to adjust the units.
+
+The calculator does all this instantly, so all you see is the final number.
+
+### 3. How we interpret your BMI result (adults 20+)
+
+Once your BMI is calculated, our tool matches your number with the standard adult BMI categories used by the CDC:
+
+- Underweight: BMI less than 18.5
+ 
+- Healthy Weight: BMI 18.5 to less than 25
+ 
+- Overweight: BMI 25 to less than 30
+ 
+- Obesity (Class 1): BMI 30 to less than 35
+ 
+- Obesity (Class 2): BMI 35 to less than 40
+ 
+- Obesity (Class 3 / Severe Obesity): BMI 40 or greater
+
+Our calculator uses these same cut-offs to label your BMI and give you a category, so you can understand where you fall on the spectrum.
+
+### 4. Adults vs. children and teens
+
+For children and teens ages 2–19, BMI is not interpreted with these fixed ranges. Instead, their BMI is compared to other kids of the same age and sex using percentiles:
+
+- Underweight: Less than the 5th percentile
+ 
+- Healthy Weight: 5th to less than 85th percentile
+ 
+- Overweight: 85th to less than 95th percentile
+ 
+- Obesity: 95th percentile or greater
+ 
+- Severe Obesity: 120% of the 95th percentile or ≥ 35 kg/m²
+
+That’s why the CDC provides separate calculators for adults and for children/teens. People 20 and older should use an adult BMI calculator, and parents should use a child/teen BMI calculator for ages 2–19.
+
+## What Your BMI Number Really Means
+
+Your BMI is more than just a label; it’s linked to different levels of health risk, but it still doesn’t tell the whole story.
+
+### Underweight (BMI < 18.5)
+
+Being underweight can sometimes indicate:
+
+- Not getting enough calories or nutrients
+ 
+- Underlying medical conditions
+ 
+- Difficulty maintaining weight
+
+Underweight adults may have an increased risk for:
+
+- Weak immune function
+ 
+- Bone loss and fractures
+ 
+- Fertility issues
+
+If your BMI is in this range, it’s worth talking with a healthcare professional about your diet, appetite, any unintentional weight loss, and possible further testing.
+
+### Healthy Weight (BMI 18.5–24.9)
+
+According to the CDC, for most adults, a BMI in this range is associated with a lower risk of weight-related health problems. 
+
+It doesn’t mean you’re guaranteed perfect health, but it suggests your weight is generally in a range that puts less strain on your heart, joints, and metabolism, especially when combined with:
+
+- Balanced nutrition
+ 
+- Regular physical activity
+ 
+- Not smoking
+ 
+- Good sleep and stress management
+
+### Overweight (BMI 25–29.9)
+
+According to the NHLBI, a BMI in the overweight range can be associated with higher chances of developing conditions such as 
+
+- High blood pressure
+ 
+- Elevated cholesterol
+ 
+- Type 2 diabetes
+ 
+- Heart disease
+
+However, health risk varies from person to person. Some people with BMI in this range may have healthy blood sugar, blood pressure, and cholesterol, especially if they are active and have more muscle mass.
+
+### Obesity (BMI ≥ 30)
+
+Obesity is linked to a higher risk of:
+
+- Heart disease and stroke
+ 
+- Type 2 diabetes
+ 
+- Certain cancers
+ 
+- Sleep apnea and breathing problems
+ 
+- Osteoarthritis
+
+NHLBI and other U.S. agencies use BMI to guide screening and treatment decisions for overweight and obesity, often combining it with waist circumference, blood tests, and other factors.
+
+If your BMI is in the obesity range, it’s not a moral failing; it’s a signal to check in with a healthcare professional and consider a personalized plan.
+
+## The Limits of BMI (Why It’s Not the Whole Story)
+
+It’s important to keep perspective: BMI is a useful tool, but it’s not perfect.
+
+### BMI is a screening tool, not a diagnosis
+
+The CDC and NHLBI clearly state that BMI should be used as a screening measure, not a stand-alone diagnostic test.
+
+That means BMI can tell us someone might be at increased risk, but it doesn’t confirm anything on its own. To really understand your health, your provider will also consider:
+
+- Your medical history
+ 
+- Your family history
+ 
+- Your lab results (cholesterol, blood sugar, etc.)
+ 
+- Your blood pressure
+ 
+- Your lifestyle and mental health
+
+### When BMI can be misleading
+
+According to the NHLBI, BMI doesn’t directly measure body fat or reflect body composition. Because of that, it can be misleading in some situations: 
+
+- Athletes and very muscular people can have a high BMI but low body fat.
+ 
+- Older adults may have a normal BMI but reduced muscle and higher body fat.
+ 
+- Different racial and ethnic groups may experience health risks at slightly different BMI thresholds.
+
+BMI also doesn’t show where fat is stored (for example, around the waist vs. hips), which can matter a lot for heart and metabolic risk.
+
+### Other measures your provider may use
+
+NHLBI states that to get a fuller picture, your healthcare professional may also look at:
+
+- Waist circumference (abdominal fat is more strongly linked to risk)
+ 
+- Blood pressure, cholesterol, and blood sugar
+ 
+- Physical activity level and fitness
+ 
+- Eating patterns, sleep, and mood
+
+Think of BMI as the first page of your health story, not the whole book.
+
+## How to Use Our BMI Calculator in a Healthy, Helpful Way
+
+### Step 1: Enter your real numbers
+
+Use your current, honest height and weight. It’s tempting to adjust them a little, but accurate numbers give you a more realistic starting point.
+
+### Step 2: Notice your category and your feelings
+
+When the result pops up:
+
+- Take note of your BMI number and category.
+ 
+- Notice how you feel about it: worried, relieved, frustrated? Those feelings are valid.
+
+Remember: your BMI is not a character judgment. It’s simply a piece of data that can help guide caring, informed decisions.
+
+### Step 3: Talk to a healthcare professional
+
+Regardless of your category, it’s reasonable to ask questions like:
+
+- "What does this BMI mean for me, given my age, family history, and lifestyle?"
+ 
+- "Should I be concerned about any specific conditions?"
+ 
+- "Are there small changes that could improve my health markers, not just my weight?"
+
+If your BMI is in the overweight or obesity ranges, guidelines from NHLBI suggest working with a care team on a plan that may include: 
+
+- Adjusting calorie intake
+ 
+- Increasing physical activity
+ 
+- Building long-term, sustainable lifestyle habits
+ 
+- Considering medications or other treatments when appropriate
+
+If your BMI is underweight, it’s equally important to seek support to look for underlying causes and protect your bone, immune, and overall health.
+
+### Step 4: Re-check at reasonable intervals
+
+For most adults:
+
+- According to the CDC, re-checking BMI during routine health visits is usually enough.
+ 
+- If you’re actively working on weight changes with your care team, you may check more often, but try not to obsess over daily fluctuations.
+
+## Turn Your BMI Number into a Real Health Plan
+
+If your BMI result has you wondering what to do next, you don’t have to figure it out on your own.
+
+At Irving Health and Wellness Clinic, we look beyond the number on the screen and focus on you, your lifestyle, your goals, your energy, and your long-term health.
+
+Whether your BMI falls in the underweight, healthy, overweight, or obesity range, our team can help you:
+
+Call us at 972-891-8650 to schedule your session or learn more.
+
+Stay informed with seasonal health tips, first-aid advice, and practical ways to maintain your well-being year-round. Follow Irving Wellness and Clinic on Facebook and Instagram for valuable health updates.
+
+## FAQs
+
+### What is BMI, and how does your calculator work?
+
+BMI (Body Mass Index) is a number that compares your weight to your height using a standard formula; our calculator applies that formula and then matches your result to CDC adult BMI categories.
+
+### What is a healthy BMI range for adults?
+
+For most adults, a healthy weight is generally a BMI between 18.5 and 24.9, according to U.S. health guidelines.
+
+### Is BMI a reliable way to measure my health?
+
+BMI is a quick, low-cost screening tool, but it doesn’t directly measure body fat or overall health, so it should always be interpreted along with your medical history, exams, and lab tests.
+
+### Do BMI calculators work for athletes or very muscular people?
+
+The calculation is the same, but very muscular people may have a high BMI even with low body fat, so their results need extra context from a healthcare professional.
+
+### Should I use a BMI calculator if I’m pregnant?
+
+Pre-pregnancy BMI can help guide healthy weight gain goals, but standard BMI categories don’t fully apply during pregnancy, so follow the advice of your prenatal care team.
+
+### How is BMI different for children and teens?
+
+For ages 2–19, BMI is interpreted using age- and sex-specific percentiles (growth charts), not the fixed adult cut-offs, so a separate child/teen BMI calculator should be used.
+
+### How often should I check my BMI?
+
+Most adults only need their BMI checked during routine health visits; more frequent checks make sense if you’re working on weight changes with your care team.

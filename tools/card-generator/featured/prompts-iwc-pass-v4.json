@@ -1,0 +1,15 @@
+{
+  "_note": "Round 4 hero for the Wellness Pass page. Operator screenshot 2026-09-16: the v3 portrait puts the subject low with a lot of empty wall, so the tall desktop column reads empty and the short mobile band cuts her face. Fix is FRAMING, not cropping: waist-up, shoulders filling the width, eyes in the upper third, so any crop from square to tall keeps the face. Two options to choose from.",
+  "images": [
+    {
+      "name": "iwc-pass-hero-v4a",
+      "brand": "iwc",
+      "prompt": "Vertical portrait orientation, taller than wide. A waist-up editorial portrait of a woman in her late thirties with warm brown skin and dark hair pulled back smoothly into a low bun, seated in a cream upholstered armchair, wearing a soft oatmeal knit cardigan over a plain white top, holding a ceramic mug in both hands at chest height, a genuine gentle smile, looking directly at the camera. Her head and shoulders fill the upper half of the frame with her eyes about one third down from the top, and she fills most of the frame width. Behind her, softly out of focus, a warm sage green wall and a hint of a bright window with linen curtains. Soft natural morning light, shallow depth of field, sharp focus on her face. No text, no logos, no medical equipment."
+    },
+    {
+      "name": "iwc-pass-hero-v4b",
+      "brand": "iwc",
+      "prompt": "Vertical portrait orientation, taller than wide. A waist-up editorial portrait of a woman in her early forties with light olive skin and shoulder-length dark wavy hair, standing relaxed and turned slightly to one side, wearing a plain sage green knit sweater, arms loosely crossed, a warm confident smile, looking directly at the camera. Her head and shoulders fill the upper half of the frame with her eyes about one third down from the top, and she fills most of the frame width. Behind her, softly out of focus, a warm off-white wall, a leafy green plant and bright window light. Soft natural daylight, shallow depth of field, sharp focus on her face. No text, no logos, no medical equipment."
+    }
+  ]
+}

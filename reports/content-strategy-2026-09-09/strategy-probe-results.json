@@ -1,0 +1,64 @@
+{
+    "scope": "Synthetic inputs to installed PHP; no database or network; not a live-site diagnosis.",
+    "surface_signals": {
+        "input": "<p>The competitor lists $99. DO means the word do in capitals.</p><table><tr><td>Ordinary text</td></tr></table><blockquote>Generic unattributed text.</blockquote><a href=\"https://agency.gov/\">Unverified reference</a>",
+        "result": {
+            "count": 5,
+            "signals": [
+                "first_party_price",
+                "data_table",
+                "authority_citation",
+                "named_credentialed_provider",
+                "quoted_expert"
+            ]
+        }
+    },
+    "healthy_three_page_cluster": {
+        "gsc": {
+            "impressions": 30000,
+            "clicks": 2000,
+            "avg_position": 3
+        },
+        "linking": {
+            "avg_inbound": 10
+        },
+        "status": "redundant",
+        "recommendation": "Cannibalization risk (3 competing pages). Pick one canonical, merge the rest into it, redirect the URLs."
+    },
+    "unsupported_info_gain": {
+        "authority_links": 4,
+        "stats_count": 4,
+        "blockquote_count": 3,
+        "dimension_score": 100,
+        "competitors_examined": 0
+    },
+    "threshold_flip": {
+        "at_999": {
+            "verdict": "STOP",
+            "absorbed": true,
+            "ctr": 0,
+            "expected_ctr": 9
+        },
+        "at_1000": {
+            "verdict": "CITE_PLAY",
+            "absorbed": true,
+            "ctr": 0,
+            "expected_ctr": 9
+        }
+    },
+    "position_aggregation_counterexample": {
+        "rows": [
+            {
+                "impressions": 99,
+                "position": 2
+            },
+            {
+                "impressions": 1,
+                "position": 80
+            }
+        ],
+        "sql_AVG_used_by_cannibalization": 41,
+        "impression_weighted_mean": 2.78,
+        "note": "Arithmetic illustration of the inspected SQL aggregation; SQL itself was not executed."
+    }
+}

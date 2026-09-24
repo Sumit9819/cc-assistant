@@ -1,0 +1,16 @@
+{
+  "version": "0.87.0",
+  "source_changes": 33,
+  "syntax_files": 178,
+  "php_regression_files": 41,
+  "mcp_tools": 174,
+  "claude_trials": 12,
+  "claude_trials_passed": 12,
+  "package": {
+    "name": "cc-assistant-0.87.0.zip",
+    "files": 148,
+    "bytes": 1129467,
+    "sha256": "4e3da13fa241d03041973f25151668a3e9c26bbb2900becec3595b32926e033d"
+  },
+  "live_site_certified": false
+}

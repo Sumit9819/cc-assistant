@@ -1,0 +1,207 @@
+2026-09-09T09:17:23.251Z [DEBUG] MDM settings load completed in 69ms
+2026-09-09T09:17:23.307Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T09:17:23.310Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-09-09T09:17:23.320Z [DEBUG] [init] configureGlobalMTLS starting
+2026-09-09T09:17:23.320Z [DEBUG] [init] configureGlobalMTLS complete
+2026-09-09T09:17:23.320Z [DEBUG] [init] configureGlobalAgents starting
+2026-09-09T09:17:23.320Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T09:17:23.321Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T09:17:23.339Z [DEBUG] CA certs: Dropped 17 expired certificate(s) from system store
+2026-09-09T09:17:23.339Z [DEBUG] CA certs: Loaded 120 system CA certificates
+2026-09-09T09:17:23.339Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T09:17:23.339Z [DEBUG] [init] configureGlobalAgents complete
+2026-09-09T09:17:23.340Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2026-09-09T09:17:23.340Z [DEBUG] Git remote URL: null
+2026-09-09T09:17:23.340Z [DEBUG] No git remote URL found
+2026-09-09T09:17:23.343Z [DEBUG] Error log sink initialized
+2026-09-09T09:17:23.375Z [ERROR] Failed to save config with lock: Error: EPERM: operation not permitted, mkdir 'C:\Users\sumit\.claude.json.lock'
+2026-09-09T09:17:23.377Z [ERROR] Failed to save config with lock: Error: EPERM: operation not permitted, mkdir 'C:\Users\sumit\.claude.json.lock'
+2026-09-09T09:17:23.380Z [DEBUG] Preserving file permissions: 100666
+2026-09-09T09:17:23.380Z [DEBUG] Writing to temp file: C:\Users\sumit\.claude.json.tmp.22724.4dae6f8952ea
+2026-09-09T09:17:23.382Z [ERROR] Failed to write file atomically: Error: EPERM: operation not permitted, open 'C:\Users\sumit\.claude.json.tmp.22724.4dae6f8952ea'
+2026-09-09T09:17:23.382Z [DEBUG] Failed to clean up temp file: Error: ENOENT: no such file or directory, unlink 'C:\Users\sumit\.claude.json.tmp.22724.4dae6f8952ea'
+2026-09-09T09:17:23.382Z [ERROR] Config fallback write also failed; continuing without persisting: Error: EPERM: operation not permitted, open 'C:\Users\sumit\.claude.json.tmp.22724.4dae6f8952ea'
+2026-09-09T09:17:23.408Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+2026-09-09T09:17:23.544Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-09-09T09:17:23.565Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-09-09T09:17:23.565Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-09-09T09:17:23.567Z [DEBUG] [STARTUP] Running setup()...
+2026-09-09T09:17:23.570Z [DEBUG] Loading skills from: managed=C:\Program Files\ClaudeCode\.claude\skills, user=C:\Users\sumit\.claude\skills, project=[]
+2026-09-09T09:17:23.574Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-09-09T09:17:23.575Z [DEBUG] Total plugin workflows loaded: 0
+2026-09-09T09:17:23.576Z [DEBUG] Total plugin commands loaded: 0
+2026-09-09T09:17:23.583Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T09:17:23.590Z [DEBUG] Error log sink initialized
+2026-09-09T09:17:23.599Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\sumit\Local Sites\plugintesting\app\public\.cc-release-work\v0.88\claude-evals-memory-recheck\memory_conflict-1\.claude\settings.json
+2026-09-09T09:17:23.600Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-09-09T09:17:23.601Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-09-09T09:17:23.606Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\commands: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\commands'
+2026-09-09T09:17:23.607Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-09-09T09:17:23.607Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 35 bundled skills, 0 builtin plugin skills
+2026-09-09T09:17:23.614Z [DEBUG] Failed to stat directory C:\Program Files\ClaudeCode\.claude\agents: ENOENT: no such file or directory, stat 'C:\Program Files\ClaudeCode\.claude\agents'
+2026-09-09T09:17:23.614Z [DEBUG] Total plugin agents loaded: 0
+2026-09-09T09:17:23.626Z [DEBUG] [STARTUP] setup() completed in 59ms
+2026-09-09T09:17:23.626Z [DEBUG] Cleared CA certificates cache
+2026-09-09T09:17:23.626Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T09:17:23.626Z [DEBUG] Cleared proxy agent cache
+2026-09-09T09:17:23.626Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T09:17:23.626Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T09:17:23.630Z [DEBUG] CA certs: Dropped 17 expired certificate(s) from system store
+2026-09-09T09:17:23.630Z [DEBUG] CA certs: Loaded 120 system CA certificates
+2026-09-09T09:17:23.630Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T09:17:23.631Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-09-09T09:17:23.638Z [DEBUG] [STARTUP] Commands and agents loaded in 7ms
+2026-09-09T09:17:23.642Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Users\sumit\Local Sites\plugintesting\app\public\.cc-release-work\v0.88\claude-evals-memory-recheck\memory_conflict-1\.claude\settings.local.json
+2026-09-09T09:17:23.642Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-09-09T09:17:23.642Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-09-09T09:17:23.642Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-09-09T09:17:23.642Z [DEBUG] Starting background startup prefetches
+2026-09-09T09:17:23.643Z [DEBUG] [Bootstrap] Fetching
+2026-09-09T09:17:23.648Z [DEBUG] [STARTUP] MCP configs resolved in 1ms (awaited at +104ms)
+2026-09-09T09:17:23.648Z [DEBUG] Total LSP servers loaded: 0
+2026-09-09T09:17:23.649Z [DEBUG] mcp runtime arm: v2 (source: growthbook)
+2026-09-09T09:17:23.678Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-09-09T09:17:23.678Z [DEBUG] LSP manager initialized with 0 servers
+2026-09-09T09:17:23.678Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-09-09T09:17:23.678Z [DEBUG] Cleared CA certificates cache
+2026-09-09T09:17:23.678Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T09:17:23.678Z [DEBUG] Cleared proxy agent cache
+2026-09-09T09:17:23.678Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T09:17:23.678Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T09:17:23.682Z [DEBUG] CA certs: Dropped 17 expired certificate(s) from system store
+2026-09-09T09:17:23.682Z [DEBUG] CA certs: Loaded 120 system CA certificates
+2026-09-09T09:17:23.683Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T09:17:23.683Z [DEBUG] [3P telemetry] Waiting for remote managed settings before telemetry init
+2026-09-09T09:17:23.683Z [DEBUG] Skipping plugin hooks - allowManagedHooksOnly is enabled and no managed plugins
+2026-09-09T09:17:23.684Z [DEBUG] LSP server manager initialized successfully
+2026-09-09T09:17:23.684Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-09-09T09:17:23.688Z [DEBUG] MCP server "cc_eval": Starting connection with timeout of 30000ms
+2026-09-09T09:17:23.700Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:23.726Z [DEBUG] [3P telemetry] Remote managed settings loaded, initializing telemetry
+2026-09-09T09:17:23.726Z [DEBUG] Cleared CA certificates cache
+2026-09-09T09:17:23.726Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T09:17:23.726Z [DEBUG] Cleared proxy agent cache
+2026-09-09T09:17:23.726Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T09:17:23.727Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T09:17:23.732Z [DEBUG] CA certs: Dropped 17 expired certificate(s) from system store
+2026-09-09T09:17:23.733Z [DEBUG] CA certs: Loaded 120 system CA certificates
+2026-09-09T09:17:23.733Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T09:17:23.743Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-09-09T09:17:23.743Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-09-09T09:17:23.771Z [DEBUG] [concurrentSessions] register failed: EPERM: operation not permitted, chmod 'C:\Users\sumit\.claude\sessions'
+2026-09-09T09:17:23.778Z [DEBUG] Git remote URL: null
+2026-09-09T09:17:23.778Z [DEBUG] No git remote URL found
+2026-09-09T09:17:23.778Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=C:\Users\sumit\AppData\Roaming\npm\node_modules\@anthropic-ai\claude-code\bin\claude.exe)
+2026-09-09T09:17:23.781Z [DEBUG] "rg error (signal=undefined, code=2, stderr: rg: C:\\Users\\sumit\\.claude\\plugins\\cache: IO error for operation on C:\\Users\\sumit\\.claude\\plugins\\cache: The system cannot find the file specified. (os error 2)\n), 0 results"
+2026-09-09T09:17:23.787Z [DEBUG] MCP server "cc_eval": Successfully connected (transport: stdio) in 102ms
+2026-09-09T09:17:23.787Z [DEBUG] MCP server "cc_eval": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"hasResourceSubscribe":false,"serverVersion":{"name":"cc_eval","version":"0.87.0"}}
+2026-09-09T09:17:23.787Z [DEBUG] [MCP] Server "cc_eval" connected with subscribe=false
+2026-09-09T09:17:23.788Z [WARN] [3P telemetry] Event dropped (no event logger initialized): mcp_server_connection
+2026-09-09T09:17:24.003Z [DEBUG] [event-loop-stall] detector started (interval=200ms, threshold=500ms)
+2026-09-09T09:17:24.056Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-09-09T09:17:24.073Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-09-09T09:17:24.073Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-09-09T09:17:24.076Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.081Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000
+2026-09-09T09:17:24.091Z [DEBUG] Remote settings: Using cached settings (304)
+2026-09-09T09:17:24.091Z [DEBUG] Remote settings: Cache still valid (304 Not Modified)
+2026-09-09T09:17:24.098Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T09:17:24.098Z [DEBUG] Cleared CA certificates cache
+2026-09-09T09:17:24.098Z [DEBUG] Cleared mTLS configuration cache
+2026-09-09T09:17:24.098Z [DEBUG] Cleared proxy agent cache
+2026-09-09T09:17:24.098Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-09-09T09:17:24.098Z [DEBUG] CA certs: Loaded 120 bundled root certificates
+2026-09-09T09:17:24.103Z [DEBUG] CA certs: Dropped 17 expired certificate(s) from system store
+2026-09-09T09:17:24.103Z [DEBUG] CA certs: Loaded 120 system CA certificates
+2026-09-09T09:17:24.103Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-09-09T09:17:24.114Z [DEBUG] Programmatic settings change notification for policySettings
+2026-09-09T09:17:24.119Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T09:17:24.123Z [DEBUG] Plugin hooks: skipping reload, plugin-affecting settings unchanged
+2026-09-09T09:17:24.123Z [DEBUG] Settings changed from policySettings, updating app state
+2026-09-09T09:17:24.170Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: C:\Program Files\ClaudeCode\managed-settings.json
+2026-09-09T09:17:24.175Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-09-09T09:17:24.176Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-09-09T09:17:24.202Z [DEBUG] Policy limits: Using cached restrictions (304)
+2026-09-09T09:17:24.203Z [DEBUG] Policy limits: Cache still valid (304 Not Modified)
+2026-09-09T09:17:24.206Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-opus-5[1m] modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-09-09T09:17:24.209Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T09:17:24.209Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T09:17:24.216Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.6cb; cc_entrypoint=sdk-cli; cch=00000;
+2026-09-09T09:17:24.217Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.219Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.222Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.02b; cc_entrypoint=sdk-cli; cch=00000;
+2026-09-09T09:17:24.224Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.224Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.229Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.229Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-4-5-20251001
+2026-09-09T09:17:24.230Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:24.230Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5[1m]
+2026-09-09T09:17:24.233Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=95dbe23a-ce2c-4be8-a277-7399c45d390e source=generate_session_title
+2026-09-09T09:17:24.234Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=957a5e3d-1949-4ada-ae7c-a6a5a5499409 source=sdk
+2026-09-09T09:17:24.235Z [DEBUG] Org fast mode: disabled (preference)
+2026-09-09T09:17:24.237Z [DEBUG] Watching for changes in setting files C:\Users\sumit\.claude\settings.json...
+2026-09-09T09:17:24.239Z [ERROR] Failed to save config with lock: Error: EPERM: operation not permitted, mkdir 'C:\Users\sumit\.claude.json.lock'
+2026-09-09T09:17:24.244Z [DEBUG] Preserving file permissions: 100666
+2026-09-09T09:17:24.244Z [DEBUG] Writing to temp file: C:\Users\sumit\.claude.json.tmp.22724.edf05f2dd28e
+2026-09-09T09:17:24.244Z [ERROR] Failed to write file atomically: Error: EPERM: operation not permitted, open 'C:\Users\sumit\.claude.json.tmp.22724.edf05f2dd28e'
+2026-09-09T09:17:24.245Z [DEBUG] Failed to clean up temp file: Error: ENOENT: no such file or directory, unlink 'C:\Users\sumit\.claude.json.tmp.22724.edf05f2dd28e'
+2026-09-09T09:17:24.245Z [ERROR] Config fallback write also failed; continuing without persisting: Error: EPERM: operation not permitted, open 'C:\Users\sumit\.claude.json.tmp.22724.edf05f2dd28e'
+2026-09-09T09:17:24.260Z [DEBUG] [Bootstrap] Fetch ok
+2026-09-09T09:17:24.261Z [DEBUG] [Bootstrap] Cache updated, persisting to disk
+2026-09-09T09:17:24.263Z [ERROR] Failed to save config with lock: Error: EPERM: operation not permitted, mkdir 'C:\Users\sumit\.claude.json.lock'
+2026-09-09T09:17:24.266Z [DEBUG] Preserving file permissions: 100666
+2026-09-09T09:17:24.266Z [DEBUG] Writing to temp file: C:\Users\sumit\.claude.json.tmp.22724.915d74dc570e
+2026-09-09T09:17:24.266Z [ERROR] Failed to write file atomically: Error: EPERM: operation not permitted, open 'C:\Users\sumit\.claude.json.tmp.22724.915d74dc570e'
+2026-09-09T09:17:24.267Z [DEBUG] Failed to clean up temp file: Error: ENOENT: no such file or directory, unlink 'C:\Users\sumit\.claude.json.tmp.22724.915d74dc570e'
+2026-09-09T09:17:24.267Z [ERROR] Config fallback write also failed; continuing without persisting: Error: EPERM: operation not permitted, open 'C:\Users\sumit\.claude.json.tmp.22724.915d74dc570e'
+2026-09-09T09:17:24.677Z [DEBUG] [claudeai-mcp] Display-name collision on distinct upstreams: "claude.ai Facebook ads (2)" (mcpsrv_01RR7MALyUfKoAFoxsfJs9WX, https://www.facebook.com/micro_site/url/)
+2026-09-09T09:17:24.677Z [DEBUG] [claudeai-mcp] Fetched 42 servers
+2026-09-09T09:17:24.679Z [DEBUG] installPluginsForHeadless: starting
+2026-09-09T09:17:24.679Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-09-09T09:17:24.701Z [DEBUG] Dropping log batch for C:\Users\sumit\AppData\Local\claude-cli-nodejs\Cache\C--Users-sumit-Local-Sites-plugintesting-app-public--cc-release-work-v0-88-claude-evals-memory-recheck-memory-conflict-1\mcp-logs-cc-eval\2026-09-09T09-17-23-342Z.jsonl: ENOENT: no such file or directory, open '\\?\C:\Users\sumit\AppData\Local\claude-cli-nodejs\Cache\C--Users-sumit-Local-Sites-plugintesting-app-public--cc-release-work-v0-88-claude-evals-memory-recheck-memory-conflict-1\mcp-logs-cc-eval\2026-09-09T09-17-23-342Z.jsonl'
+2026-09-09T09:17:25.091Z [DEBUG] Stream started - received first chunk
+2026-09-09T09:17:25.091Z [DEBUG] [API:timing] first byte after 863ms
+2026-09-09T09:17:26.603Z [DEBUG] Stream started - received first chunk
+2026-09-09T09:17:26.603Z [DEBUG] [API:timing] first byte after 2374ms
+2026-09-09T09:17:27.685Z [INFO] [Stall] tool_dispatch_start tool=mcp__cc_eval__get_site_memory toolUseId=toolu_01PzTF3S1W6aSicP84aaqei5 permissionDecisionMs=0
+2026-09-09T09:17:27.686Z [DEBUG] MCP server "cc_eval": Calling MCP tool: get_site_memory
+2026-09-09T09:17:27.690Z [DEBUG] MCP server "cc_eval": Tool 'get_site_memory' completed successfully in 4ms
+2026-09-09T09:17:27.691Z [INFO] [Stall] tool_dispatch_end tool=mcp__cc_eval__get_site_memory toolUseId=toolu_01PzTF3S1W6aSicP84aaqei5 outcome=ok durationMs=6
+2026-09-09T09:17:27.695Z [INFO] [Stall] tool_dispatch_start tool=mcp__cc_eval__seo_playbook toolUseId=toolu_01Pr7AmsEiPAvgzPRk78Z3dE permissionDecisionMs=0
+2026-09-09T09:17:27.695Z [DEBUG] MCP server "cc_eval": Calling MCP tool: seo_playbook
+2026-09-09T09:17:27.697Z [DEBUG] MCP server "cc_eval": Tool 'seo_playbook' completed successfully in 2ms
+2026-09-09T09:17:27.697Z [INFO] [Stall] tool_dispatch_end tool=mcp__cc_eval__seo_playbook toolUseId=toolu_01Pr7AmsEiPAvgzPRk78Z3dE outcome=ok durationMs=2
+2026-09-09T09:17:27.703Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-09-09T09:17:27.703Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-09-09T09:17:27.705Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-09-09T09:17:27.711Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.220.02b; cc_entrypoint=sdk-cli; cch=00000; cc_prev_req=req_011CescbMhJqoCE66cMMyc3q;
+2026-09-09T09:17:27.716Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:27.716Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:27.718Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:27.718Z [DEBUG] [API:timing] dispatching to firstParty model=claude-opus-5[1m]
+2026-09-09T09:17:27.719Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=77ecae7e-c0a9-424f-9a81-a993eb01affe source=sdk
+2026-09-09T09:17:30.285Z [DEBUG] Stream started - received first chunk
+2026-09-09T09:17:30.285Z [DEBUG] [API:timing] first byte after 2567ms
+2026-09-09T09:17:49.537Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-09-09T09:17:49.539Z [DEBUG] MCP server "cc_eval": Terminating MCP server process tree
+2026-09-09T09:17:49.557Z [DEBUG] MCP server "cc_eval": UNKNOWN connection closed after 25s (cleanly)
+2026-09-09T09:17:49.557Z [DEBUG] MCP server "cc_eval": Cleared connection cache for reconnection
+2026-09-09T09:17:49.560Z [DEBUG] LSP server manager shut down successfully
+2026-09-09T09:17:49.955Z [DEBUG] BigQuery metrics exported successfully
+2026-09-09T09:17:49.955Z [DEBUG] "BigQuery API Response: {\n  \"accepted_count\": 17,\n  \"rejected_count\": 0\n}"
+2026-09-09T09:17:49.955Z [DEBUG] BigQuery metrics exporter flush complete
+2026-09-09T09:17:49.955Z [DEBUG] BigQuery metrics exporter flush complete
+2026-09-09T09:17:49.955Z [DEBUG] BigQuery metrics exporter shutdown complete

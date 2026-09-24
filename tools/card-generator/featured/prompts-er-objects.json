@@ -1,0 +1,35 @@
+{
+  "_note": "ER prototype objects. The ER profile in image-policy.json refuses people and body parts on these brands, so every ER photo is an object still life. Ground is a plain neutral grey for a clean cutout; the cutout gets composited onto the brand's own canvas. Aspect is stated in the text because the web chat takes no aspect parameter.",
+  "images": [
+    {
+      "name": "er-xray-forearm",
+      "brand": "erofirving",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A single greyscale radiograph film of a forearm and wrist, the bones clearly visible, the film lying flat and squarely to camera on a plain seamless light grey surface, no clips, no markings, no lettering on the film"
+    },
+    {
+      "name": "er-thermometer-water",
+      "brand": "erofirving",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A still life of an unbranded white digital thermometer lying beside a plain clear glass of water on a plain seamless light grey surface, photographed from a low three-quarter angle, no labels and no lettering"
+    },
+    {
+      "name": "er-head-ct",
+      "brand": "erofwhiterock",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A single greyscale CT scan film of a head in cross section, the film lying flat and squarely to camera on a plain seamless light grey surface, no clips, no markings, no lettering on the film"
+    },
+    {
+      "name": "er-co-detector",
+      "brand": "eroflufkin",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A plain round white unbranded carbon monoxide detector lying face up on a plain seamless light grey surface, photographed from a low three-quarter angle, no lettering and no logos on the device"
+    },
+    {
+      "name": "er-copperhead",
+      "brand": "eroflufkin",
+      "ground": "#e8e8e8",
+      "prompt": "Horizontal orientation. A copperhead snake coiled on dry brown oak leaves and pine needles in dappled daylight, photographed at eye level from a safe distance, the whole animal in frame, natural woodland ground filling the background"
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+ "6220": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/sleep-stress-and-weight.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/sleep-stress-and-weight-v2.webp"
+   }
+  ],
+  "stems": [
+   "sleep-stress-and-weight"
+  ]
+ },
+ "6242": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-therapy-risks-and-who-should-avoid.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hormone-therapy-risks-and-who-should-avoid-v2.webp"
+   }
+  ],
+  "stems": [
+   "hormone-therapy-risks-and-who-should-avoid"
+  ]
+ },
+ "6246": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-wellness-coaching-covers.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/what-wellness-coaching-covers-v2.webp"
+   }
+  ],
+  "stems": [
+   "what-wellness-coaching-covers"
+  ]
+ },
+ "6285": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-whats-in-the-bag.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-hydration-whats-in-the-bag-v2.webp"
+   }
+  ],
+  "stems": [
+   "iv-hydration-whats-in-the-bag"
+  ]
+ },
+ "6290": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-antioxidants.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-antioxidants-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-energy-who-benefits.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-vitamin-drip-energy-who-benefits-v2.webp"
+   }
+  ],
+  "stems": [
+   "iv-vitamin-drip-antioxidants",
+   "iv-vitamin-drip-energy-who-benefits"
+  ]
+ },
+ "6296": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-ingredients.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-ingredients-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-who-it-suits.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/myers-cocktail-who-it-suits-v2.webp"
+   }
+  ],
+  "stems": [
+   "myers-cocktail-ingredients",
+   "myers-cocktail-who-it-suits"
+  ]
+ },
+ "6300": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-what-it-can-and-cannot-fix.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-iv-drip-what-it-can-and-cannot-fix-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-what-alcohol-does.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/hangover-what-alcohol-does-v2.webp"
+   }
+  ],
+  "stems": [
+   "hangover-iv-drip-what-it-can-and-cannot-fix",
+   "hangover-what-alcohol-does"
+  ]
+ },
+ "6306": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-ingredients-and-cadence.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-ingredients-and-cadence-v2.webp"
+   }
+  ],
+  "stems": [
+   "iv-therapy-ingredients-and-cadence"
+  ]
+ },
+ "6353": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-whats-in-the-bag.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/iv-therapy-athletes-whats-in-the-bag-v2.webp"
+   }
+  ],
+  "stems": [
+   "iv-therapy-athletes-whats-in-the-bag"
+  ]
+ },
+ "6359": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-what-it-does.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/glutathione-what-it-does-v2.webp"
+   }
+  ],
+  "stems": [
+   "glutathione-what-it-does"
+  ]
+ },
+ "6441": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/movement-to-maintain-weight-loss.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/movement-to-maintain-weight-loss-v2.webp"
+   }
+  ],
+  "stems": [
+   "movement-to-maintain-weight-loss"
+  ]
+ },
+ "6445": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-hypothyroidism-causes-weight-gain.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-hypothyroidism-causes-weight-gain-v2.webp"
+   }
+  ],
+  "stems": [
+   "how-hypothyroidism-causes-weight-gain"
+  ]
+ },
+ "6481": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-weight-loss-benefits-beyond-the-scale.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-weight-loss-benefits-beyond-the-scale-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-weight-loss-vs-dieting.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-weight-loss-vs-dieting-v2.webp"
+   }
+  ],
+  "stems": [
+   "medical-weight-loss-benefits-beyond-the-scale",
+   "medical-weight-loss-vs-dieting"
+  ]
+ },
+ "6492": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-mic-ingredients.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/lipo-b-mic-ingredients-v2.webp"
+   }
+  ],
+  "stems": [
+   "lipo-b-mic-ingredients"
+  ]
+ },
+ "6497": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/bmi-adults-vs-children.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/bmi-adults-vs-children-v2.webp"
+   }
+  ],
+  "stems": [
+   "bmi-adults-vs-children"
+  ]
+ },
+ "6854": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/microneedling-aftercare-first-24-hours.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/microneedling-aftercare-first-24-hours-v2.webp"
+   }
+  ],
+  "stems": [
+   "microneedling-aftercare-first-24-hours"
+  ]
+ },
+ "6867": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/microneedling-vs-dermarolling-compared.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/microneedling-vs-dermarolling-compared-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/why-professional-microneedling-is-safer.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/why-professional-microneedling-is-safer-v2.webp"
+   }
+  ],
+  "stems": [
+   "microneedling-vs-dermarolling-compared",
+   "why-professional-microneedling-is-safer"
+  ]
+ },
+ "7656": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/allergy-testing-myths-vs-facts.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/allergy-testing-myths-vs-facts-v2.webp"
+   }
+  ],
+  "stems": [
+   "allergy-testing-myths-vs-facts"
+  ]
+ },
+ "8139": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-genesis-vs-ipl-2-what-ipl-treats.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-genesis-vs-ipl-2-what-ipl-treats-v2.webp"
+   }
+  ],
+  "stems": [
+   "laser-genesis-vs-ipl-2-what-ipl-treats"
+  ]
+ },
+ "8359": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/cosmetic-vs-reconstructive-care.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/cosmetic-vs-reconstructive-care-v2.webp"
+   }
+  ],
+  "stems": [
+   "cosmetic-vs-reconstructive-care"
+  ]
+ },
+ "8363": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-grade-skincare-four-steps.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-grade-skincare-four-steps-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-grade-vs-otc-skincare.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/medical-grade-vs-otc-skincare-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skincare-ingredients-to-look-for.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skincare-ingredients-to-look-for-v2.webp"
+   }
+  ],
+  "stems": [
+   "medical-grade-skincare-four-steps",
+   "medical-grade-vs-otc-skincare",
+   "skincare-ingredients-to-look-for"
+  ]
+ },
+ "8370": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/dermaplaning-aftercare.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/dermaplaning-aftercare-v2.webp"
+   }
+  ],
+  "stems": [
+   "dermaplaning-aftercare"
+  ]
+ },
+ "8563": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-three-depths-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/chemical-peel-what-happens-v2.webp"
+   }
+  ],
+  "stems": [
+   "chemical-peel-three-depths",
+   "chemical-peel-what-happens"
+  ]
+ },
+ "8567": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-evidence-based-nutrition-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/empower-movement-for-longevity-v2.webp"
+   }
+  ],
+  "stems": [
+   "empower-evidence-based-nutrition",
+   "empower-movement-for-longevity"
+  ]
+ },
+ "8571": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/wellness-assessment-your-visit-v2.webp"
+   }
+  ],
+  "stems": [
+   "wellness-assessment-your-visit"
+  ]
+ },
+ "8577": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-medicine-consultation-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/functional-vs-conventional-medicine-v2.webp"
+   }
+  ],
+  "stems": [
+   "functional-medicine-consultation",
+   "functional-vs-conventional-medicine"
+  ]
+ },
+ "8609": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/supporting-gut-health-for-skin-v2.webp"
+   }
+  ],
+  "stems": [
+   "supporting-gut-health-for-skin"
+  ]
+ },
+ "8929": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/dehydration-early-warning-signs.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/dehydration-early-warning-signs-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/who-needs-iv-hydration-texas-heat.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/who-needs-iv-hydration-texas-heat-v2.webp"
+   }
+  ],
+  "stems": [
+   "dehydration-early-warning-signs",
+   "who-needs-iv-hydration-texas-heat"
+  ]
+ },
+ "8933": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/abcde-rule-for-skin-spots.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/abcde-rule-for-skin-spots-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fading-sun-damage-and-hyperpigmentation.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/fading-sun-damage-and-hyperpigmentation-v2.webp"
+   }
+  ],
+  "stems": [
+   "abcde-rule-for-skin-spots",
+   "fading-sun-damage-and-hyperpigmentation"
+  ]
+ },
+ "9173": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/correcting-estrogen-balance-v2-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/how-estrogen-imbalance-drives-weight-gain-v2.webp"
+   }
+  ],
+  "stems": [
+   "correcting-estrogen-balance-v2",
+   "how-estrogen-imbalance-drives-weight-gain"
+  ]
+ },
+ "9270": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/testosterone-and-the-brain-v2.webp"
+   }
+  ],
+  "stems": [
+   "testosterone-and-the-brain"
+  ]
+ },
+ "9273": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/adrenal-crisis-emergency-signs.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/adrenal-crisis-emergency-signs-v2.webp"
+   }
+  ],
+  "stems": [
+   "adrenal-crisis-emergency-signs"
+  ]
+ },
+ "9292": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/perimenopause-natural-relief-options.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/perimenopause-natural-relief-options-v2.webp"
+   }
+  ],
+  "stems": [
+   "perimenopause-natural-relief-options"
+  ]
+ },
+ "9295": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-cycle-regulation-diet.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/pcos-cycle-regulation-diet-v2.webp"
+   }
+  ],
+  "stems": [
+   "pcos-cycle-regulation-diet"
+  ]
+ },
+ "9298": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/melatonin-vs-epitalon-vs-magnesium.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/melatonin-vs-epitalon-vs-magnesium-v2.webp"
+   }
+  ],
+  "stems": [
+   "melatonin-vs-epitalon-vs-magnesium"
+  ]
+ },
+ "9389": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/progesterone-and-fertility-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/restoring-progesterone-levels-v2.webp"
+   }
+  ],
+  "stems": [
+   "progesterone-and-fertility",
+   "restoring-progesterone-levels"
+  ]
+ },
+ "9402": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-metabolic-health-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-mood-and-clarity-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/trt-muscle-and-strength-v2.webp"
+   }
+  ],
+  "stems": [
+   "trt-metabolic-health",
+   "trt-mood-and-clarity",
+   "trt-muscle-and-strength"
+  ]
+ },
+ "9456": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/tirzepatide-vs-semaglutide-weight-loss.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/tirzepatide-vs-semaglutide-weight-loss-v2.webp"
+   }
+  ],
+  "stems": [
+   "tirzepatide-vs-semaglutide-weight-loss"
+  ]
+ },
+ "9462": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/reversing-weight-loss-resistance.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/reversing-weight-loss-resistance-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-resistance-cellular-bottlenecks.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/weight-loss-resistance-cellular-bottlenecks-v2.webp"
+   }
+  ],
+  "stems": [
+   "reversing-weight-loss-resistance",
+   "weight-loss-resistance-cellular-bottlenecks"
+  ]
+ },
+ "10192": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/semaglutide-non-responders-v2.webp"
+   }
+  ],
+  "stems": [
+   "semaglutide-non-responders"
+  ]
+ },
+ "10216": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-what-nad-does.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/nad-iv-therapy-what-nad-does-v2.webp"
+   }
+  ],
+  "stems": [
+   "nad-iv-therapy-what-nad-does"
+  ]
+ },
+ "10221": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-hair-removal-hair-colour.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/laser-hair-removal-hair-color.webp"
+   }
+  ],
+  "stems": [
+   "laser-hair-removal-hair-color"
+  ]
+ },
+ "10229": {
+  "patches": [
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-side-effects-v2.webp"
+   },
+   {
+    "search": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared.webp",
+    "replace": "https://irvingwellnessclinic.com/wp-content/uploads/2026/09/skinvive-vs-filler-compared-v2.webp"
+   }
+  ],
+  "stems": [
+   "skinvive-side-effects",
+   "skinvive-vs-filler-compared"
+  ]
+ }
+}

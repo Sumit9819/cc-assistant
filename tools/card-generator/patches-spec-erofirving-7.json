@@ -1,0 +1,88 @@
+[
+  {
+    "post_id": 3875,
+    "patches": [
+      {
+        "search": "<h2><strong>What to Expect During Your Visit</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3875-when-to-go-er.webp\" alt=\"Six symptoms that mean going to the emergency room rather than waiting\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>What to Expect During Your Visit</strong></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3875",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3800,
+    "patches": [
+      {
+        "search": "<h2><b>Common Causes of Fluid Loss in Children</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3800-child-dehydration-stages.webp\" alt=\"Mild to moderate signs of dehydration in a child beside the severe signs that need emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Common Causes of Fluid Loss in Children</b></h2>"
+      },
+      {
+        "search": "<h2><b>Prevention: Keeping Your Child Hydrated During Illness</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3800-child-vomiting-er.webp\" alt=\"Five signs that a vomiting child needs emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Prevention: Keeping Your Child Hydrated During Illness</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3800",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3813,
+    "patches": [
+      {
+        "search": "<h2><b>Testing for Appendicitis at Home</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-pain-shift.webp\" alt=\"How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Testing for Appendicitis at Home</b></h2>"
+      },
+      {
+        "search": "<h2>Is It Just a Stomach Ache or Appendicitis? Recognize the Symptoms &amp; Know When to Seek Emergency Care</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-er.webp\" alt=\"The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Is It Just a Stomach Ache or Appendicitis? Recognize the Symptoms &amp; Know When to Seek Emergency Care</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3813",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3829,
+    "patches": [
+      {
+        "search": "<h2><b>The Critical Window: When to Seek Emergency Care</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3829-concussion-symptoms.webp\" alt=\"Nine concussion symptoms in student athletes, from headache and dizziness to irritability and changes in sleep\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>The Critical Window: When to Seek Emergency Care</b></h2>"
+      },
+      {
+        "search": "<h2><b>The Danger of Rushing Back: Secondary Impact Syndrome</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3829-concussion-er.webp\" alt=\"Six concussion red flags that need emergency care immediately\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>The Danger of Rushing Back: Secondary Impact Syndrome</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3829",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3858,
+    "patches": [
+      {
+        "search": "<h2>Red Flags: When to Stop Home Care and Go to the ER</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-size.webp\" alt=\"Kidney stones under four millimeters usually pass on their own, while stones of six millimeters or larger often need medical treatment\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Red Flags: When to Stop Home Care and Go to the ER</h2>"
+      },
+      {
+        "search": "<h2>Frequently Asked Questions</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3858-kidney-stone-er.webp\" alt=\"Five kidney stone red flags that mean stopping home care and going to the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Frequently Asked Questions</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3858",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3862,
+    "patches": [
+      {
+        "search": "<h2>Who is Most at Risk for Sepsis?</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-signs.webp\" alt=\"Six early signs of sepsis: racing heart, fever or shivering, confusion, breathlessness, extreme pain, and clammy mottled skin\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Who is Most at Risk for Sepsis?</h2>"
+      },
+      {
+        "search": "<h2>Frequently Asked Questions</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-what-to-do.webp\" alt=\"Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Frequently Asked Questions</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3862",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  }
+]

@@ -1,0 +1,466 @@
+{
+  "_note": "Batch 3: two MORE cards on each of the six batch-2 posts, bringing every one to three. One card per post was too thin against the IWC benchmark of roughly four. Each card covers a distinct h2 section that has no visual, and every value is lifted from that post's own body.",
+  "cards": [
+    {
+      "file": "erof-3803-battery-red-flags",
+      "post_id": 3803,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "battery",
+      "heading": "What are the red flags that a child swallowed a battery?",
+      "title": [
+        "Swallowed ",
+        "Battery",
+        ": Warning Signs"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six signs that a swallowed button battery is lodged in a child's throat",
+      "items": [
+        {
+          "icon": "utensils",
+          "label": "Trouble swallowing"
+        },
+        {
+          "icon": "droplet",
+          "label": "Excessive drooling"
+        },
+        {
+          "icon": "frown",
+          "label": "Vomiting"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Chest pain"
+        },
+        {
+          "icon": "waves",
+          "label": "Cough or wheeze"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Unexplained fever"
+        }
+      ]
+    },
+    {
+      "file": "erof-3803-battery-two-hour-window",
+      "post_id": 3803,
+      "brand": "erofirving",
+      "layout": "stat",
+      "subject": "button battery",
+      "heading": "How quickly can a swallowed button battery cause damage?",
+      "title": [
+        "The ",
+        "Button Battery",
+        " Two-Hour Window"
+      ],
+      "stat": "2 hours",
+      "gloss": "from contact to perforation",
+      "statLine": "is all it can take for alkaline burns from a button battery to burn through the wall of the esophagus",
+      "source": "CDC",
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Two hours is how long a swallowed button battery can take to burn through the esophagus"
+    },
+    {
+      "file": "erof-3978-chest-pain-er-workup",
+      "post_id": 3978,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "chest pain",
+      "heading": "How does the ER work out what is causing chest pain?",
+      "title": [
+        "How the ER Sorts ",
+        "Chest Pain",
+        " Fast"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "The five tests an emergency room uses to identify the cause of chest pain",
+      "steps": [
+        {
+          "icon": "activity",
+          "label": "EKG",
+          "note": "Within minutes of arrival, checking for cardiac changes"
+        },
+        {
+          "icon": "beaker",
+          "label": "Troponin",
+          "note": "A blood test for heart muscle damage"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Chest x-ray",
+          "note": "Pneumonia, collapsed lung or fluid"
+        },
+        {
+          "icon": "microscope",
+          "label": "CT scan",
+          "note": "If a pulmonary embolism is suspected"
+        }
+      ]
+    },
+    {
+      "file": "erof-3882-burn-degrees",
+      "post_id": 3882,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "burn",
+      "heading": "What is the difference between a first, second and third degree burn?",
+      "title": [
+        "First, Second or Third Degree ",
+        "Burn",
+        "?"
+      ],
+      "logo": {
+        "position": "top-right",
+        "variant": "mark",
+        "width": 48
+      },
+      "alt": "First, second and third degree burns compared on skin depth, signs and outlook",
+      "columns": [
+        "First degree",
+        "Second degree",
+        "Third degree"
+      ],
+      "rows": [
+        {
+          "label": "Skin depth",
+          "values": [
+            "Outer layer only",
+            "Outer layer and dermis",
+            "Both layers destroyed"
+          ]
+        },
+        {
+          "label": "Signs",
+          "values": [
+            "Redness, swelling, pain",
+            "Blisters, deep redness",
+            "Medical emergency"
+          ]
+        },
+        {
+          "label": "Outlook",
+          "values": [
+            "Heals in a week, no scar",
+            "Infection risk is raised",
+            "Needs emergency care"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "erof-3882-burn-hazards",
+      "post_id": 3882,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "burn",
+      "heading": "Which household hazards cause the most burn injuries?",
+      "title": [
+        "Household ",
+        "Burn",
+        " Hazards"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four categories of household burn hazard with an example of each",
+      "items": [
+        {
+          "icon": "droplets",
+          "label": "Scalds",
+          "note": "Hot tap water, soup, microwave steam"
+        },
+        {
+          "icon": "flame",
+          "label": "Contact",
+          "note": "Stove, iron or hair straightener"
+        },
+        {
+          "icon": "beaker",
+          "label": "Chemical",
+          "note": "Drain and oven cleaners"
+        },
+        {
+          "icon": "zap",
+          "label": "Electrical",
+          "note": "Frayed cords and outlets"
+        }
+      ]
+    },
+    {
+      "file": "erof-3921-dehydration-signs",
+      "post_id": 3921,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "dehydration",
+      "heading": "What are the signs of dehydration in a child with a fever?",
+      "title": [
+        "Spotting ",
+        "Dehydration",
+        " in a Feverish Child"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five signs of dehydration to watch for in a child with a high fever",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Dry mouth and tongue",
+          "note": "Sticky saliva or a parched look"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Fewer wet diapers",
+          "note": "No urination for 8 to 12 hours"
+        },
+        {
+          "icon": "eye",
+          "label": "No tears",
+          "note": "Crying without moisture in the eyes"
+        },
+        {
+          "icon": "scan-face",
+          "label": "Sunken eyes or soft spot",
+          "note": "A visible dip in either"
+        },
+        {
+          "icon": "moon",
+          "label": "Lethargy",
+          "note": "Very sleepy or hard to wake"
+        }
+      ]
+    },
+    {
+      "file": "erof-3921-febrile-seizure-steps",
+      "post_id": 3921,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "febrile seizure",
+      "heading": "What should you do during a febrile seizure?",
+      "title": [
+        "During a ",
+        "Febrile Seizure",
+        ""
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four steps to take while a child is having a febrile seizure",
+      "steps": [
+        {
+          "icon": "heart",
+          "label": "Stay calm",
+          "note": "Most end within a minute or two"
+        },
+        {
+          "icon": "shield-check",
+          "label": "Keep them safe",
+          "note": "On their side, on the floor"
+        },
+        {
+          "icon": "ban",
+          "label": "Do not restrain",
+          "note": "Nothing in the mouth, no holding still"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Time it",
+          "note": "Past five minutes, call 911"
+        }
+      ]
+    },
+    {
+      "file": "erof-3930-cut-needs-care",
+      "post_id": 3930,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "cut",
+      "heading": "How do you know if a cut needs professional closure?",
+      "title": [
+        "Does This ",
+        "Cut",
+        " Need a Doctor?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Five tests for whether a cut needs stitches or emergency care",
+      "items": [
+        {
+          "icon": "ruler-dimension-line",
+          "label": "Deeper than a quarter inch",
+          "note": "Or you can see yellow fat"
+        },
+        {
+          "icon": "scissors",
+          "label": "Longer than half an inch",
+          "note": "Often needs closure to heal well"
+        },
+        {
+          "icon": "bandage",
+          "label": "Edges will not meet",
+          "note": "Gaping open under gentle pressure"
+        },
+        {
+          "icon": "clock-3",
+          "label": "Bleeding after 15 minutes",
+          "note": "Despite firm direct pressure"
+        },
+        {
+          "icon": "triangle-alert",
+          "label": "Spurting blood",
+          "note": "An arterial injury, go now"
+        }
+      ]
+    },
+    {
+      "file": "erof-3930-stitches-time-window",
+      "post_id": 3930,
+      "brand": "erofirving",
+      "layout": "stat",
+      "subject": "stitches",
+      "heading": "How long can you wait to get stitches?",
+      "title": [
+        "The Window for ",
+        "Stitches",
+        ""
+      ],
+      "stat": "6 to 12",
+      "gloss": "hours from the injury",
+      "statLine": "is the window to get a deep cut closed. Past 24 hours many doctors will not stitch it shut, because that traps bacteria inside",
+      "source": "MedlinePlus",
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Six to twelve hours is the window for getting a deep cut stitched"
+    },
+    {
+      "file": "erof-3808-rsv-infant-signs",
+      "post_id": 3808,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "RSV",
+      "heading": "What are the tell-tale signs of RSV in an infant?",
+      "title": [
+        "",
+        "RSV",
+        " Signs in an Infant"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four signs of RSV in an infant, which typically peak on day three to five",
+      "items": [
+        {
+          "icon": "frown",
+          "label": "Irritable or floppy",
+          "note": "Extremes in either direction"
+        },
+        {
+          "icon": "baby",
+          "label": "Poor feeding",
+          "note": "Tiring out mid-feed"
+        },
+        {
+          "icon": "waves",
+          "label": "Barking wet cough",
+          "note": "Peaks on day three to five"
+        },
+        {
+          "icon": "activity",
+          "label": "Pauses in breathing",
+          "note": "Apnea, go to the ER"
+        }
+      ]
+    },
+    {
+      "file": "erof-3808-flu-child-signs",
+      "post_id": 3808,
+      "brand": "erofirving",
+      "layout": "icons",
+      "subject": "flu",
+      "heading": "How does the flu present differently in children?",
+      "title": [
+        "The ",
+        "Flu",
+        " in Children"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Four flu symptoms in children, which arrive suddenly rather than building over days",
+      "items": [
+        {
+          "icon": "thermometer",
+          "label": "Sudden high fever",
+          "note": "Often 102\u00b0F or higher"
+        },
+        {
+          "icon": "bone",
+          "label": "Body aches",
+          "note": "Fussy, or legs and back hurt"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Extreme fatigue",
+          "note": "Wanting to sleep all day"
+        },
+        {
+          "icon": "moon-star",
+          "label": "Chills and sweats",
+          "note": "A whole-body illness, not just chest"
+        }
+      ]
+    },
+    {
+      "file": "erof-3978-chest-pain-time-to-answer",
+      "post_id": 3978,
+      "brand": "erofirving",
+      "layout": "stat",
+      "subject": "chest pain",
+      "heading": "How long does it take the ER to identify the cause of chest pain?",
+      "title": [
+        "Answers on ",
+        "Chest Pain",
+        ", Fast"
+      ],
+      "stat": "60 to 90",
+      "gloss": "minutes for most patients",
+      "statLine": "is how long it takes most patients at ER of Irving to get a clear answer on what is causing their chest pain",
+      "logo": {
+        "position": "bottom-right",
+        "variant": "mark",
+        "width": 54
+      },
+      "alt": "Most chest pain patients get a clear answer within sixty to ninety minutes",
+      "source": "ER of Irving"
+    }
+  ]
+}

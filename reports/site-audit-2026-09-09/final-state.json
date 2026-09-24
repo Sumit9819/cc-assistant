@@ -1,0 +1,60 @@
+{
+  "/health": {
+    "http_status": 200,
+    "data": {
+      "site": {
+        "name": "ER of White Rock",
+        "url": "https://erofwhiterock.com",
+        "fingerprint": "c5bc5dbe61b689ce"
+      },
+      "data": {
+        "status": "ok",
+        "pending_count": 0,
+        "snapshots_count": 620,
+        "elementor_active": true
+      }
+    }
+  },
+  "/pending": {
+    "http_status": 200,
+    "data": {
+      "site": {
+        "name": "ER of White Rock",
+        "url": "https://erofwhiterock.com",
+        "fingerprint": "c5bc5dbe61b689ce"
+      },
+      "data": {
+        "pending": [],
+        "count": 0
+      }
+    }
+  },
+  "/gsc/status": {
+    "http_status": 200,
+    "data": {
+      "site": {
+        "name": "ER of White Rock",
+        "url": "https://erofwhiterock.com",
+        "fingerprint": "c5bc5dbe61b689ce"
+      },
+      "data": {
+        "configured": true,
+        "connected": true,
+        "property": "https://erofwhiterock.com/",
+        "redirect_uri": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-settings&tab=gsc&cc_gsc_oauth=callback",
+        "last_sync_at": "2026-09-09T04:07:15+00:00",
+        "last_error": null,
+        "next_scheduled": 1789013021,
+        "rows_cached": 5939,
+        "measurement": {
+          "version": "legacy_unverified",
+          "raw_dates_resynced": [],
+          "retention_note": "Raw at ingestion; low-impression pruning, API limits and retention can make historical query coverage incomplete.",
+          "history_note": "Only listed dates were re-fetched without inferred appearance allocation. Older unlisted dates may contain legacy estimates; re-sync the desired reporting window.",
+          "appearance_note": "Page/appearance observations are stored independently and are not additive to query/page totals or evidence of AI attribution."
+        },
+        "data_integrity": null
+      }
+    }
+  }
+}

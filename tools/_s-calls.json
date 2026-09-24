@@ -1,0 +1,1 @@
+[{"route": "cc-assistant/v1/whoami", "method": "GET", "out": "_s-who.json"}, {"route": "cc-assistant/v1/posts/77/render-probe?extract=schema", "method": "GET", "out": "_s-probe.json"}]

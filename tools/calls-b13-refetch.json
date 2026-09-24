@@ -1,0 +1,4 @@
+[
+  {"route":"cc-assistant/v1/whoami","method":"GET","out":"card-generator/_q13/whoami.json"},
+  {"route":"wp/v2/posts?include=3879,3882,4008,3867,3850,3918,3201&context=edit&per_page=10","method":"GET","out":"erof-b13-fresh.json"}
+]

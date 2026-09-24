@@ -1,0 +1,1103 @@
+{
+  "scope": {
+    "first_capture": "2026-09-09T14:58:14.537Z",
+    "last_capture": "2026-09-09T15:02:21.093Z",
+    "published_pages": 129,
+    "types": {
+      "post": 39,
+      "page": 90
+    },
+    "extra_requests": 47,
+    "http_status": {
+      "200": 129
+    }
+  },
+  "broken_links": [
+    {
+      "url": "https://erofwhiterock.com/es/contactanos/",
+      "status": 404,
+      "incoming": [
+        {
+          "post_id": 5063,
+          "page": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+          "anchor": "p\u00e1gina de contacto"
+        },
+        {
+          "post_id": 5058,
+          "page": "https://erofwhiterock.com/es/emergencias-huesos-articulaciones-trauma-cerca-de-white-rock-lake/",
+          "anchor": "p\u00e1gina de contacto"
+        }
+      ]
+    },
+    {
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospitalaria-cerca-de-white-rock-lake/",
+      "status": 404,
+      "incoming": [
+        {
+          "post_id": 5067,
+          "page": "https://erofwhiterock.com/es/guia-padres-emergencias-pediatricas-cerca-de-white-rock/",
+          "anchor": "sala de emergencias independiente"
+        },
+        {
+          "post_id": 5063,
+          "page": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+          "anchor": "gu\u00eda sobre sala independiente vs hospitalaria"
+        },
+        {
+          "post_id": 5063,
+          "page": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+          "anchor": "gu\u00eda sobre sala independiente vs hospitalaria"
+        },
+        {
+          "post_id": 5058,
+          "page": "https://erofwhiterock.com/es/emergencias-huesos-articulaciones-trauma-cerca-de-white-rock-lake/",
+          "anchor": "gu\u00eda sobre sala independiente vs hospitalaria"
+        },
+        {
+          "post_id": 5058,
+          "page": "https://erofwhiterock.com/es/emergencias-huesos-articulaciones-trauma-cerca-de-white-rock-lake/",
+          "anchor": "gu\u00eda sobre sala independiente vs hospitalaria"
+        }
+      ]
+    },
+    {
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-pediatrica-white-rock-guia-padres/",
+      "status": 404,
+      "incoming": [
+        {
+          "post_id": 5067,
+          "page": "https://erofwhiterock.com/es/guia-padres-emergencias-pediatricas-cerca-de-white-rock/",
+          "anchor": "p\u00e1gina de cuidado pedi\u00e1trico"
+        },
+        {
+          "post_id": 5063,
+          "page": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+          "anchor": "gu\u00eda para padres sobre cuidado de emergencia pedi\u00e1trico cerca de White Rock"
+        },
+        {
+          "post_id": 5058,
+          "page": "https://erofwhiterock.com/es/emergencias-huesos-articulaciones-trauma-cerca-de-white-rock-lake/",
+          "anchor": "gu\u00eda para padres sobre cuidado de emergencia pedi\u00e1trico cerca de White Rock"
+        }
+      ]
+    },
+    {
+      "url": "https://erofwhiterock.com/services/abdominal-pain-er-treatment/",
+      "status": 404,
+      "incoming": [
+        {
+          "post_id": 4986,
+          "page": "https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/",
+          "anchor": "abdominal pain treatment page"
+        }
+      ]
+    }
+  ],
+  "redirected_link_targets": [
+    {
+      "url": "https://erofwhiterock.com/atencion-emergencia-accidentes-cerebrovasculares-dallas/",
+      "destination": "https://erofwhiterock.com/es/atencion-emergencia-accidentes-cerebrovasculares-dallas/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/comprehensive-diagnostic-imaging-services/",
+      "destination": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "incoming_count": 13
+    },
+    {
+      "url": "https://erofwhiterock.com/dolor-garganta-urgencias-faringitis-estreptococica-dallas/",
+      "destination": "https://erofwhiterock.com/es/dolor-garganta-urgencias-faringitis-estreptococica-dallas/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/",
+      "destination": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "incoming_count": 125
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/03/24/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/03/31/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/04/06/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/04/13/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/05/11/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 4
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/05/12/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 4
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/05/15/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 4
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/05/18/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/2026/07/21/",
+      "destination": "https://erofwhiterock.com/",
+      "incoming_count": 2
+    },
+    {
+      "url": "https://erofwhiterock.com/es/blog/",
+      "destination": "https://erofwhiterock.com/es/articulos/",
+      "incoming_count": 124
+    },
+    {
+      "url": "https://erofwhiterock.com/es/category/pediatric-care-es/",
+      "destination": "https://erofwhiterock.com/category/pediatric-care-es/",
+      "incoming_count": 2
+    },
+    {
+      "url": "https://erofwhiterock.com/es/emergency-services-er-of-white-rock-2/",
+      "destination": "https://erofwhiterock.com/es/servicios-de-emergencia-er-of-white-rock/",
+      "incoming_count": 62
+    },
+    {
+      "url": "https://erofwhiterock.com/es/es//",
+      "destination": "https://erofwhiterock.com/es/esguince-o-fractura-urgencias-white-rock-texas/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/es//notice-of-privacy-practices/",
+      "destination": "https://erofwhiterock.com/notice-of-privacy-practices/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-coppell-tx-atencion-de-emergencia-experta-24-7/",
+      "destination": "https://erofwhiterock.com/es/sala-de-emergencias-lake-highlands/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-richardson/",
+      "destination": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+      "incoming_count": 62
+    },
+    {
+      "url": "https://erofwhiterock.com/es/servicios-de-sala-de-emergencias-cerca-de-grand-prairie-tx-atencion-er-24-7/",
+      "destination": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-lakewood/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/es/tbi-treatment-in-dallas-tx-expert-brain-injury-care-er-of-white-rock/",
+      "destination": "https://erofwhiterock.com/es/lesion-cerebral-traumatica-white-rock/",
+      "incoming_count": 62
+    },
+    {
+      "url": "https://erofwhiterock.com/es/tratamiento-de-conmocion-cerebral-en-dallas-tx-er-of-white-rock-atencion-experta/",
+      "destination": "https://erofwhiterock.com/es/tratamiento-conmocion-cerebral-white-rock/",
+      "incoming_count": 62
+    },
+    {
+      "url": "https://erofwhiterock.com/es/tratamiento-de-emergencia-para-lesiones-en-la-cabeza-en-dallas-tx-er-of-white/",
+      "destination": "https://erofwhiterock.com/es/tratamiento-lesiones-cabeza-white-rock/",
+      "incoming_count": 65
+    },
+    {
+      "url": "https://erofwhiterock.com/es/tratamiento-del-dolor-abdominal-en-dallas-tx-atencion-gastro-experta/",
+      "destination": "https://erofwhiterock.com/es/tratamiento-dolor-abdominal-white-rock/",
+      "incoming_count": 64
+    },
+    {
+      "url": "https://erofwhiterock.com/esguince-o-fractura-urgencias-white-rock-texas/",
+      "destination": "https://erofwhiterock.com/es/esguince-o-fractura-urgencias-white-rock-texas/",
+      "incoming_count": 1
+    },
+    {
+      "url": "https://erofwhiterock.com/senales-alerta-coagulo-sangre-tvp/",
+      "destination": "https://erofwhiterock.com/es/senales-alerta-coagulo-sangre-tvp/",
+      "incoming_count": 1
+    }
+  ],
+  "rendered_depth": [
+    {
+      "id": 5525,
+      "url": "https://erofwhiterock.com/what-to-tell-er-team/",
+      "depth": 1
+    },
+    {
+      "id": 5510,
+      "url": "https://erofwhiterock.com/cookie-policy/",
+      "depth": 1
+    },
+    {
+      "id": 5511,
+      "url": "https://erofwhiterock.com/es/politica-de-cookies/",
+      "depth": 2
+    },
+    {
+      "id": 5496,
+      "url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/",
+      "depth": 2
+    },
+    {
+      "id": 5495,
+      "url": "https://erofwhiterock.com/emergency-room-richardson-tx/",
+      "depth": 1
+    },
+    {
+      "id": 5470,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-forest-hills/",
+      "depth": 2
+    },
+    {
+      "id": 5471,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-mesquite/",
+      "depth": 2
+    },
+    {
+      "id": 5469,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-casa-view/",
+      "depth": 2
+    },
+    {
+      "id": 5468,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-casa-linda/",
+      "depth": 2
+    },
+    {
+      "id": 5466,
+      "url": "https://erofwhiterock.com/emergency-room-mesquite-tx/",
+      "depth": 1
+    },
+    {
+      "id": 5463,
+      "url": "https://erofwhiterock.com/emergency-room-forest-hills-tx/",
+      "depth": 1
+    },
+    {
+      "id": 5462,
+      "url": "https://erofwhiterock.com/emergency-room-casa-view-tx/",
+      "depth": 1
+    },
+    {
+      "id": 5460,
+      "url": "https://erofwhiterock.com/emergency-room-casa-linda-tx/",
+      "depth": 1
+    },
+    {
+      "id": 5437,
+      "url": "https://erofwhiterock.com/how-long-does-an-er-visit-take/",
+      "depth": 1
+    },
+    {
+      "id": 5438,
+      "url": "https://erofwhiterock.com/es/cuanto-dura-una-visita-a-emergencias/",
+      "depth": 2
+    },
+    {
+      "id": 5424,
+      "url": "https://erofwhiterock.com/es/cuando-ir-a-emergencias-golpe-en-la-cabeza/",
+      "depth": 2
+    },
+    {
+      "id": 5419,
+      "url": "https://erofwhiterock.com/when-to-go-to-er-after-hitting-head/",
+      "depth": 1
+    },
+    {
+      "id": 5407,
+      "url": "https://erofwhiterock.com/letter-of-protection/",
+      "depth": 1
+    },
+    {
+      "id": 5394,
+      "url": "https://erofwhiterock.com/es/lesion-cerebral-traumatica-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 5391,
+      "url": "https://erofwhiterock.com/editorial-policy/",
+      "depth": 1
+    },
+    {
+      "id": 5390,
+      "url": "https://erofwhiterock.com/services/tbi-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 5378,
+      "url": "https://erofwhiterock.com/es/tratamiento-conmocion-cerebral-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 5375,
+      "url": "https://erofwhiterock.com/services/concussion-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 5370,
+      "url": "https://erofwhiterock.com/es/tratamiento-dolor-abdominal-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 5366,
+      "url": "https://erofwhiterock.com/es/tratamiento-lesiones-cabeza-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 5360,
+      "url": "https://erofwhiterock.com/services/emergency-head-injury/",
+      "depth": 1
+    },
+    {
+      "id": 5342,
+      "url": "https://erofwhiterock.com/services/abdominal-pain-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 5136,
+      "url": "https://erofwhiterock.com/es/emergencias-infecciosas-vector-cerca-de-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 5134,
+      "url": "https://erofwhiterock.com/infectious-disease-vector-borne-emergencies-near-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 5124,
+      "url": "https://erofwhiterock.com/es/picaduras-garrapata-virus-nilo-occidental-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5123,
+      "url": "https://erofwhiterock.com/es/ahogamiento-casi-ahogamiento-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5122,
+      "url": "https://erofwhiterock.com/es/copa-mundial-2026-dallas-er-cardiaco/",
+      "depth": 3
+    },
+    {
+      "id": 5121,
+      "url": "https://erofwhiterock.com/es/golpe-de-calor-vs-agotamiento-por-calor-texas/",
+      "depth": 3
+    },
+    {
+      "id": 5091,
+      "url": "https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/",
+      "depth": 2
+    },
+    {
+      "id": 5093,
+      "url": "https://erofwhiterock.com/drowning-near-drowning-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 5092,
+      "url": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/",
+      "depth": 3
+    },
+    {
+      "id": 5094,
+      "url": "https://erofwhiterock.com/tick-bites-west-nile-er-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5069,
+      "url": "https://erofwhiterock.com/es/intoxicacion-alimentaria-vs-gastroenteritis-cerca-de-white-rock/",
+      "depth": 3
+    },
+    {
+      "id": 5067,
+      "url": "https://erofwhiterock.com/es/guia-padres-emergencias-pediatricas-cerca-de-white-rock/",
+      "depth": 3
+    },
+    {
+      "id": 5063,
+      "url": "https://erofwhiterock.com/es/dolor-de-estomago-emergencias-digestivas-cerca-de-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5061,
+      "url": "https://erofwhiterock.com/stomach-pain-digestive-emergencies-near-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 5058,
+      "url": "https://erofwhiterock.com/es/emergencias-huesos-articulaciones-trauma-cerca-de-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5054,
+      "url": "https://erofwhiterock.com/bone-joint-trauma-emergencies-near-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 5055,
+      "url": "https://erofwhiterock.com/sprain-or-fracture-when-to-visit-er-white-rock/",
+      "depth": 3
+    },
+    {
+      "id": 5039,
+      "url": "https://erofwhiterock.com/time-is-brain-fast-stroke-recognition-dallas/",
+      "depth": 3
+    },
+    {
+      "id": 5040,
+      "url": "https://erofwhiterock.com/blood-clot-warning-signs-dvt-pe-dallas/",
+      "depth": 3
+    },
+    {
+      "id": 5041,
+      "url": "https://erofwhiterock.com/es/emergencias-cardiovasculares-cerca-de-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5032,
+      "url": "https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 5009,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-independiente-vs-hospital-er-white-rock-lake/",
+      "depth": 3
+    },
+    {
+      "id": 5010,
+      "url": "https://erofwhiterock.com/es/cuando-una-erupcion-cutanea-es-una-emergencia/",
+      "depth": 3
+    },
+    {
+      "id": 5011,
+      "url": "https://erofwhiterock.com/es/laboratorio-de-emergencia-diagnostico-sin-espera-white-rock/",
+      "depth": 3
+    },
+    {
+      "id": 5012,
+      "url": "https://erofwhiterock.com/sore-throat-emergency-room-strep-warning-signs/",
+      "depth": 3
+    },
+    {
+      "id": 4986,
+      "url": "https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/",
+      "depth": 2
+    },
+    {
+      "id": 4762,
+      "url": "https://erofwhiterock.com/es/declaracion-de-accesibilidad/",
+      "depth": 2
+    },
+    {
+      "id": 4761,
+      "url": "https://erofwhiterock.com/es/divulgaciones-de-facturacion-y-derechos-financieros-del-paciente/",
+      "depth": 2
+    },
+    {
+      "id": 4760,
+      "url": "https://erofwhiterock.com/es/aviso-legal-medico/",
+      "depth": 2
+    },
+    {
+      "id": 4759,
+      "url": "https://erofwhiterock.com/es/terminos-y-condiciones-de-uso/",
+      "depth": 2
+    },
+    {
+      "id": 4758,
+      "url": "https://erofwhiterock.com/es/politica-de-privacidad/",
+      "depth": 2
+    },
+    {
+      "id": 4757,
+      "url": "https://erofwhiterock.com/es/aviso-de-practicas-de-privacidad-de-hipaa/",
+      "depth": 2
+    },
+    {
+      "id": 4755,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-garland/",
+      "depth": 2
+    },
+    {
+      "id": 4753,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-lake-highlands/",
+      "depth": 2
+    },
+    {
+      "id": 4751,
+      "url": "https://erofwhiterock.com/es/servicios-de-emergencia-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4749,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-lakewood/",
+      "depth": 2
+    },
+    {
+      "id": 4747,
+      "url": "https://erofwhiterock.com/es/pruebas-de-laboratorio-de-emergencia-y-rapidas-en-white-rock-tx/",
+      "depth": 2
+    },
+    {
+      "id": 4745,
+      "url": "https://erofwhiterock.com/es/servicios-de-imagenes-diagnosticas-en-dallas-tx-mri-ct-scan-ultrasonido/",
+      "depth": 2
+    },
+    {
+      "id": 228,
+      "url": "https://erofwhiterock.com/",
+      "depth": 0
+    },
+    {
+      "id": 4741,
+      "url": "https://erofwhiterock.com/es/tratamiento-del-dolor-de-pecho-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4739,
+      "url": "https://erofwhiterock.com/es/atencion-experta-para-derrame-cerebral-en-white-rock-texas-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4737,
+      "url": "https://erofwhiterock.com/es/atencion-pediatrica-experta-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4729,
+      "url": "https://erofwhiterock.com/es/atencion-de-emergencia-para-problemas-respiratorios-en-dallas-tx-er-of-white/",
+      "depth": 2
+    },
+    {
+      "id": 4727,
+      "url": "https://erofwhiterock.com/es/tratamiento-de-emergencia-para-fracturas-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4725,
+      "url": "https://erofwhiterock.com/es/atencion-de-emergencia-para-lesiones-oculares-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4723,
+      "url": "https://erofwhiterock.com/es/high-fever-care-in-dallas-tx-immediate-expert-treatment/",
+      "depth": 2
+    },
+    {
+      "id": 4721,
+      "url": "https://erofwhiterock.com/es/tratamiento-experto-de-coagulos-sanguineos-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4719,
+      "url": "https://erofwhiterock.com/es/tratamiento-experto-de-erupciones-cutaneas-en-white-rock-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4717,
+      "url": "https://erofwhiterock.com/es/tratamiento-de-apendicitis-en-dallas-tx-atencion-de-emergencia-en-er-of-white/",
+      "depth": 2
+    },
+    {
+      "id": 4715,
+      "url": "https://erofwhiterock.com/es/tratamiento-de-deshidratacion-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4711,
+      "url": "https://erofwhiterock.com/es/tratamiento-del-dolor-de-espalda-en-dallas-tx-soluciones-expertas-de-alivio-del/",
+      "depth": 2
+    },
+    {
+      "id": 4709,
+      "url": "https://erofwhiterock.com/es/tratamiento-experto-de-intoxicacion-alimentaria-en-white-rock-tx-er-of-white/",
+      "depth": 2
+    },
+    {
+      "id": 4707,
+      "url": "https://erofwhiterock.com/es/tratamiento-efectivo-de-bronquitis-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4705,
+      "url": "https://erofwhiterock.com/es/tratamiento-del-dolor-de-garganta-en-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4703,
+      "url": "https://erofwhiterock.com/es/comprehensive-gastrointestinal-disease-treatment-in-dallas-tx-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4699,
+      "url": "https://erofwhiterock.com/es/articulos/",
+      "depth": 2
+    },
+    {
+      "id": 4697,
+      "url": "https://erofwhiterock.com/es/carreras/",
+      "depth": 3
+    },
+    {
+      "id": 4695,
+      "url": "https://erofwhiterock.com/es/informacion-de-seguros-y-facturacion/",
+      "depth": 2
+    },
+    {
+      "id": 4691,
+      "url": "https://erofwhiterock.com/es/contactenos/",
+      "depth": 2
+    },
+    {
+      "id": 4689,
+      "url": "https://erofwhiterock.com/es/acerca-de-nosotros-er-of-white-rock/",
+      "depth": 2
+    },
+    {
+      "id": 4687,
+      "url": "https://erofwhiterock.com/es/home-page-er-of-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 4657,
+      "url": "https://erofwhiterock.com/accessibility-statement/",
+      "depth": 1
+    },
+    {
+      "id": 4655,
+      "url": "https://erofwhiterock.com/billing-disclosures/",
+      "depth": 1
+    },
+    {
+      "id": 4652,
+      "url": "https://erofwhiterock.com/medical-disclaimer/",
+      "depth": 1
+    },
+    {
+      "id": 4650,
+      "url": "https://erofwhiterock.com/terms-and-conditions/",
+      "depth": 1
+    },
+    {
+      "id": 4647,
+      "url": "https://erofwhiterock.com/privacy-policy/",
+      "depth": 1
+    },
+    {
+      "id": 4643,
+      "url": "https://erofwhiterock.com/notice-of-privacy-practices/",
+      "depth": 1
+    },
+    {
+      "id": 4638,
+      "url": "https://erofwhiterock.com/es/dolor-garganta-urgencias-faringitis-estreptococica-dallas/",
+      "depth": 4
+    },
+    {
+      "id": 4635,
+      "url": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/",
+      "depth": 2
+    },
+    {
+      "id": 4503,
+      "url": "https://erofwhiterock.com/es/senales-alerta-coagulo-sangre-tvp/",
+      "depth": 3
+    },
+    {
+      "id": 4481,
+      "url": "https://erofwhiterock.com/emergency-room-rash-warning-signs/",
+      "depth": 2
+    },
+    {
+      "id": 4435,
+      "url": "https://erofwhiterock.com/es/atencion-emergencia-accidentes-cerebrovasculares-dallas/",
+      "depth": 3
+    },
+    {
+      "id": 4430,
+      "url": "https://erofwhiterock.com/es/esguince-o-fractura-urgencias-white-rock-texas/",
+      "depth": 3
+    },
+    {
+      "id": 4426,
+      "url": "https://erofwhiterock.com/treatment-severe-food-poisoning-dallas/",
+      "depth": 2
+    },
+    {
+      "id": 4421,
+      "url": "https://erofwhiterock.com/pediatric-emergency-room-white-rock-parents-guide/",
+      "depth": 2
+    },
+    {
+      "id": 3650,
+      "url": "https://erofwhiterock.com/emergency-room-garland-tx/",
+      "depth": 1
+    },
+    {
+      "id": 3635,
+      "url": "https://erofwhiterock.com/emergency-room-lake-highlands-tx/",
+      "depth": 1
+    },
+    {
+      "id": 3505,
+      "url": "https://erofwhiterock.com/emergency-services-er-of-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 3457,
+      "url": "https://erofwhiterock.com/emergency-room-lakewood-tx/",
+      "depth": 1
+    },
+    {
+      "id": 2931,
+      "url": "https://erofwhiterock.com/blog/",
+      "depth": 1
+    },
+    {
+      "id": 2595,
+      "url": "https://erofwhiterock.com/careers/",
+      "depth": 2
+    },
+    {
+      "id": 2516,
+      "url": "https://erofwhiterock.com/services/chest-pain-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 2482,
+      "url": "https://erofwhiterock.com/services/expert-stroke-care/",
+      "depth": 1
+    },
+    {
+      "id": 2453,
+      "url": "https://erofwhiterock.com/services/pediatric-care/",
+      "depth": 1
+    },
+    {
+      "id": 2198,
+      "url": "https://erofwhiterock.com/insurance-billing-info/",
+      "depth": 1
+    },
+    {
+      "id": 1396,
+      "url": "https://erofwhiterock.com/services/emergency-care-for-breathing-problems/",
+      "depth": 1
+    },
+    {
+      "id": 1374,
+      "url": "https://erofwhiterock.com/services/fractures-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 1338,
+      "url": "https://erofwhiterock.com/services/eye-injuries/",
+      "depth": 1
+    },
+    {
+      "id": 1317,
+      "url": "https://erofwhiterock.com/services/high-fever-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 1295,
+      "url": "https://erofwhiterock.com/services/blood-clot-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 1267,
+      "url": "https://erofwhiterock.com/services/rashes-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 1091,
+      "url": "https://erofwhiterock.com/services/appendicitis-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 1072,
+      "url": "https://erofwhiterock.com/services/dehydration-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 1010,
+      "url": "https://erofwhiterock.com/services/back-pain-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 993,
+      "url": "https://erofwhiterock.com/services/food-poisoning-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 971,
+      "url": "https://erofwhiterock.com/services/laboratory-testing-services-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 909,
+      "url": "https://erofwhiterock.com/services/bronchitis-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 868,
+      "url": "https://erofwhiterock.com/services/sore-throat-treatment-in-white-rock/",
+      "depth": 1
+    },
+    {
+      "id": 852,
+      "url": "https://erofwhiterock.com/services/diagnostic-imaging-services/",
+      "depth": 1
+    },
+    {
+      "id": 799,
+      "url": "https://erofwhiterock.com/services/gastrointestinal-disease-treatment/",
+      "depth": 1
+    },
+    {
+      "id": 417,
+      "url": "https://erofwhiterock.com/contact-us/",
+      "depth": 1
+    },
+    {
+      "id": 383,
+      "url": "https://erofwhiterock.com/about-er-of-white-rock/",
+      "depth": 1
+    }
+  ],
+  "encoding_pages": [
+    {
+      "id": 4759,
+      "url": "https://erofwhiterock.com/es/terminos-y-condiciones-de-uso/",
+      "marker_count": 8
+    },
+    {
+      "id": 4758,
+      "url": "https://erofwhiterock.com/es/politica-de-privacidad/",
+      "marker_count": 11
+    },
+    {
+      "id": 4757,
+      "url": "https://erofwhiterock.com/es/aviso-de-practicas-de-privacidad-de-hipaa/",
+      "marker_count": 180
+    },
+    {
+      "id": 4655,
+      "url": "https://erofwhiterock.com/billing-disclosures/",
+      "marker_count": 17
+    },
+    {
+      "id": 4652,
+      "url": "https://erofwhiterock.com/medical-disclaimer/",
+      "marker_count": 9
+    },
+    {
+      "id": 4650,
+      "url": "https://erofwhiterock.com/terms-and-conditions/",
+      "marker_count": 8
+    },
+    {
+      "id": 4647,
+      "url": "https://erofwhiterock.com/privacy-policy/",
+      "marker_count": 12
+    },
+    {
+      "id": 4643,
+      "url": "https://erofwhiterock.com/notice-of-privacy-practices/",
+      "marker_count": 22
+    }
+  ],
+  "admin_author_pages": [
+    {
+      "id": 5510,
+      "url": "https://erofwhiterock.com/cookie-policy/"
+    },
+    {
+      "id": 5511,
+      "url": "https://erofwhiterock.com/es/politica-de-cookies/"
+    },
+    {
+      "id": 5496,
+      "url": "https://erofwhiterock.com/sala-de-emergencias-cerca-de-richardson/"
+    },
+    {
+      "id": 5495,
+      "url": "https://erofwhiterock.com/emergency-room-richardson-tx/"
+    },
+    {
+      "id": 5470,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-forest-hills/"
+    },
+    {
+      "id": 5471,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-mesquite/"
+    },
+    {
+      "id": 5469,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-casa-view/"
+    },
+    {
+      "id": 5468,
+      "url": "https://erofwhiterock.com/es/sala-de-emergencias-cerca-de-casa-linda/"
+    },
+    {
+      "id": 5466,
+      "url": "https://erofwhiterock.com/emergency-room-mesquite-tx/"
+    },
+    {
+      "id": 5463,
+      "url": "https://erofwhiterock.com/emergency-room-forest-hills-tx/"
+    },
+    {
+      "id": 5462,
+      "url": "https://erofwhiterock.com/emergency-room-casa-view-tx/"
+    },
+    {
+      "id": 5460,
+      "url": "https://erofwhiterock.com/emergency-room-casa-linda-tx/"
+    },
+    {
+      "id": 5407,
+      "url": "https://erofwhiterock.com/letter-of-protection/"
+    },
+    {
+      "id": 5394,
+      "url": "https://erofwhiterock.com/es/lesion-cerebral-traumatica-white-rock/"
+    },
+    {
+      "id": 5391,
+      "url": "https://erofwhiterock.com/editorial-policy/"
+    },
+    {
+      "id": 5390,
+      "url": "https://erofwhiterock.com/services/tbi-treatment/"
+    },
+    {
+      "id": 5378,
+      "url": "https://erofwhiterock.com/es/tratamiento-conmocion-cerebral-white-rock/"
+    },
+    {
+      "id": 5375,
+      "url": "https://erofwhiterock.com/services/concussion-treatment/"
+    },
+    {
+      "id": 5370,
+      "url": "https://erofwhiterock.com/es/tratamiento-dolor-abdominal-white-rock/"
+    },
+    {
+      "id": 5366,
+      "url": "https://erofwhiterock.com/es/tratamiento-lesiones-cabeza-white-rock/"
+    },
+    {
+      "id": 5360,
+      "url": "https://erofwhiterock.com/services/emergency-head-injury/"
+    },
+    {
+      "id": 5342,
+      "url": "https://erofwhiterock.com/services/abdominal-pain-treatment-in-white-rock/"
+    }
+  ],
+  "review_claim_pages": [
+    {
+      "id": 5525,
+      "url": "https://erofwhiterock.com/what-to-tell-er-team/"
+    },
+    {
+      "id": 5437,
+      "url": "https://erofwhiterock.com/how-long-does-an-er-visit-take/"
+    },
+    {
+      "id": 5419,
+      "url": "https://erofwhiterock.com/when-to-go-to-er-after-hitting-head/"
+    },
+    {
+      "id": 5134,
+      "url": "https://erofwhiterock.com/infectious-disease-vector-borne-emergencies-near-white-rock-lake/"
+    },
+    {
+      "id": 5091,
+      "url": "https://erofwhiterock.com/heat-stroke-vs-heat-exhaustion-texas-er/"
+    },
+    {
+      "id": 5093,
+      "url": "https://erofwhiterock.com/drowning-near-drowning-white-rock-lake/"
+    },
+    {
+      "id": 5092,
+      "url": "https://erofwhiterock.com/world-cup-2026-dallas-er-cardiac-risk/"
+    },
+    {
+      "id": 5094,
+      "url": "https://erofwhiterock.com/tick-bites-west-nile-er-white-rock-lake/"
+    },
+    {
+      "id": 5061,
+      "url": "https://erofwhiterock.com/stomach-pain-digestive-emergencies-near-white-rock-lake/"
+    },
+    {
+      "id": 5054,
+      "url": "https://erofwhiterock.com/bone-joint-trauma-emergencies-near-white-rock-lake/"
+    },
+    {
+      "id": 5055,
+      "url": "https://erofwhiterock.com/sprain-or-fracture-when-to-visit-er-white-rock/"
+    },
+    {
+      "id": 5039,
+      "url": "https://erofwhiterock.com/time-is-brain-fast-stroke-recognition-dallas/"
+    },
+    {
+      "id": 5040,
+      "url": "https://erofwhiterock.com/blood-clot-warning-signs-dvt-pe-dallas/"
+    },
+    {
+      "id": 5032,
+      "url": "https://erofwhiterock.com/cardiovascular-emergencies-near-white-rock-lake/"
+    },
+    {
+      "id": 5012,
+      "url": "https://erofwhiterock.com/sore-throat-emergency-room-strep-warning-signs/"
+    },
+    {
+      "id": 4986,
+      "url": "https://erofwhiterock.com/freestanding-er-vs-hospital-er-near-white-rock-lake/"
+    },
+    {
+      "id": 4635,
+      "url": "https://erofwhiterock.com/emergency-lab-testing-white-rock-tx/"
+    },
+    {
+      "id": 4481,
+      "url": "https://erofwhiterock.com/emergency-room-rash-warning-signs/"
+    },
+    {
+      "id": 4426,
+      "url": "https://erofwhiterock.com/treatment-severe-food-poisoning-dallas/"
+    },
+    {
+      "id": 4421,
+      "url": "https://erofwhiterock.com/pediatric-emergency-room-white-rock-parents-guide/"
+    }
+  ],
+  "canonical_mismatches": [
+    {
+      "id": 2931,
+      "url": "https://erofwhiterock.com/blog/",
+      "canonical": [
+        "https://erofwhiterock.com/blog/2/"
+      ]
+    }
+  ]
+}

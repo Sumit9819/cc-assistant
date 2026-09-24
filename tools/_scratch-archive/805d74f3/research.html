@@ -1,0 +1,418 @@
+<title>How the Trade Does It</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Barlow+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #14120f; --panel: #1d1a16; --line: #332e27; --deep: #0e0c0a;
+    --ink: #f2ece0; --muted: #a2988a; --gold: #deab4e; --rust: #b4735a; --steel: #8fb3c9;
+    --sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    --display: "Fraunces", Georgia, serif;
+    --label: "Barlow Condensed", "Arial Narrow", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans);
+         font-size: 16px; line-height: 1.6; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 52px 26px 90px; }
+  .eyebrow { font-family: var(--label); text-transform: uppercase; letter-spacing: .28em;
+             font-size: 12.5px; color: var(--gold); margin: 0 0 14px; }
+  h1 { font-family: var(--display); font-weight: 600; font-size: clamp(32px, 5vw, 50px);
+       line-height: 1.07; margin: 0 0 16px; text-wrap: balance; font-variation-settings: "opsz" 144; }
+  .lede { margin: 0; color: var(--muted); font-size: 17.5px; max-width: 64ch; }
+  .lede b { color: var(--ink); font-weight: 500; }
+  .admit { border-left: 3px solid var(--rust); background: #1c1512; padding: 18px 22px; margin: 26px 0 0;
+           color: #ddcec4; font-size: 15.5px; max-width: 76ch; }
+  .admit b { color: var(--ink); font-weight: 500; }
+
+  /* The map of the page: one row per pipeline layer, so the reader sees the
+     whole argument before any section. */
+  .map { width: 100%; border-collapse: collapse; margin: 28px 0 0; font-size: 14.5px; }
+  .map th, .map td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .map th { font-family: var(--label); text-transform: uppercase; letter-spacing: .14em; font-size: 11.5px;
+            color: var(--gold); font-weight: 600; }
+  .map td:first-child { color: var(--ink); font-weight: 500; white-space: nowrap; }
+  .map td { color: var(--muted); }
+  .ok { color: var(--steel); } .shy { color: var(--rust); }
+  .tblwrap { overflow-x: auto; }
+
+  h2 { font-family: var(--display); font-weight: 600; font-size: 27px; margin: 58px 0 6px;
+       font-variation-settings: "opsz" 60; text-wrap: balance; }
+  .sub { margin: 0 0 18px; color: var(--muted); font-size: 15px; max-width: 70ch; }
+  .sub b { color: var(--ink); font-weight: 500; }
+
+  /* Each layer: what they do / where we stand / the change. Three columns
+     on wide screens, stacked narrow. The middle column is ours, so it is
+     the one with the ink. */
+  .layer { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; border-top: 1px solid var(--line);
+           padding: 18px 0 8px; }
+  .layer > div { min-width: 0; }
+  .layer h4 { font-family: var(--label); text-transform: uppercase; letter-spacing: .16em; font-size: 11.5px;
+              color: var(--gold); margin: 0 0 8px; font-weight: 600; }
+  .layer p, .layer li { margin: 0 0 8px; color: var(--muted); font-size: 14.5px; }
+  .layer ul { margin: 0; padding-left: 18px; }
+  .layer b { color: var(--ink); font-weight: 500; }
+  .layer code { font-size: 13px; color: var(--ink); }
+  @media (max-width: 760px) { .layer { grid-template-columns: 1fr; } }
+  .chips { margin: 0 0 6px; }
+  .chip { display: inline-block; font-family: var(--label); text-transform: uppercase; letter-spacing: .14em;
+          font-size: 10.5px; padding: 2px 8px 3px; border: 1px solid var(--line); color: var(--muted); margin-right: 4px; }
+  .chip.google { color: var(--gold); border-color: var(--gold); }
+  .chip.measured { color: var(--steel); border-color: var(--steel); }
+  .chip.unknown { color: var(--rust); border-color: var(--rust); }
+
+  table.num { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 6px 0 0; font-variant-numeric: tabular-nums; }
+  table.num th, table.num td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.num th { font-family: var(--label); text-transform: uppercase; letter-spacing: .14em; font-size: 11.5px; color: var(--gold); font-weight: 600; }
+  table.num td.n { text-align: right; white-space: nowrap; }
+
+  .ranked { counter-reset: r; list-style: none; padding: 0; margin: 6px 0 0; border-top: 1px solid var(--line); }
+  .ranked li { counter-increment: r; display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding: 14px 0 15px;
+               border-bottom: 1px solid var(--line); }
+  .ranked li::before { content: counter(r); font-family: var(--label); font-size: 26px; line-height: 1; color: var(--gold); }
+  .ranked b { color: var(--ink); font-weight: 500; }
+  .ranked p { margin: 0; color: var(--muted); font-size: 14.5px; }
+  .check { border-left: 3px solid var(--gold); background: #1a1712; padding: 18px 22px; margin: 22px 0 0;
+           color: #e6dccb; font-size: 15.5px; max-width: 76ch; }
+  .check b { color: var(--ink); font-weight: 500; }
+  .sources { columns: 2; column-gap: 28px; font-size: 13px; color: var(--muted); margin: 8px 0 0; padding-left: 18px; }
+  .sources li { break-inside: avoid; margin: 0 0 6px; }
+  .sources a { color: var(--gold); text-decoration: none; }
+  .sources a:hover, .sources a:focus-visible { text-decoration: underline; outline: none; }
+  @media (max-width: 640px) { .sources { columns: 1; } }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted);
+           font-size: 13.5px; max-width: 74ch; }
+  footer b { color: var(--ink); font-weight: 500; }
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Faceless Studio &middot; research pause &middot; 4 September 2026</p>
+  <h1>How the trade does it</h1>
+  <p class="lede">Every layer of the pipeline, measured against what working editors, writers and
+  channel operators actually do. Three columns each time: <b>what the trade does</b>, <b>where we
+  stand</b>, <b>what changes</b>. A chip on each says how good the evidence is.</p>
+
+  <div class="admit"><b>Where I went wrong in the first pass.</b> You asked for research on everything we
+  are building, then music. I spent the pass on music &mdash; the client&rsquo;s code, cookie forensics, a
+  headless browser &mdash; and gave every other layer one search. This is the version you asked for.
+  On music itself: your account has Create music; the Python client still cannot route to it, and the
+  session has now expired, so the remaining test waits until you sign in again.</div>
+
+  <div class="tblwrap"><table class="map">
+    <tr><th>Layer</th><th>Trade standard</th><th>Ours</th><th>Gap</th></tr>
+    <tr><td>Script</td><td>Hook does three jobs in 15&ndash;20s; 2&ndash;4 open loops, all paid off; change every 30&ndash;60s</td><td>Claim in sentence one, punch in two; one open loop</td><td class="shy">loops, mini-hooks</td></tr>
+    <tr><td>Narration</td><td>Write for the ear; pauses 150&ndash;1500 ms by role; 1&ndash;2 stressed words a sentence; rate by block</td><td>Gemini TTS, measured wider and slower than Kokoro</td><td class="shy">tags not yet used</td></tr>
+    <tr><td>Music</td><td>Voice first, bed 15&ndash;20 dB under; owned or generated to avoid Content ID</td><td>Synthesised score, 15.2 dB under</td><td class="ok">in range</td></tr>
+    <tr><td>Sound</td><td>Voice, then music, then effects; risers pull, never cover a line; clicks on facts</td><td>12 cues in pauses, none under speech</td><td class="ok">matches</td></tr>
+    <tr><td>Cut rhythm</td><td>Breathing: 3&ndash;4 short, 1 long; resets every 10&ndash;20s early, 25&ndash;40s later</td><td>Script now carries the variance; 13 punch-ins</td><td class="ok">after rewrite</td></tr>
+    <tr><td>On-screen text</td><td>One message a beat; phrase-level sync; stressed words get more time; end in stillness</td><td>Stat, section, emphasis cards</td><td class="shy">phrase sync, sweep</td></tr>
+    <tr><td>Look</td><td>Condensed type, textured lower thirds, on twos, muted grade, consistent metaphors</td><td>Cards, halftone, cork board</td><td class="shy">on twos, transitions</td></tr>
+    <tr><td>Footage</td><td>Archives over stock; verify licence at source; specificity in the query</td><td>Pexels + Wikimedia + Gemini Polaroids</td><td class="ok">rule in place</td></tr>
+    <tr><td>Packaging</td><td>Up to 3 title/thumbnail variants; YouTube picks by watch time; text says what title cannot</td><td>Two thumbnails staged; no test yet</td><td class="shy">no live test</td></tr>
+    <tr><td>Feedback</td><td>Read the curve: 8 named patterns; most problems are script-level</td><td>No published video yet</td><td class="shy">loop not started</td></tr>
+    <tr><td>Policy</td><td>Three non-monetisable categories; disclosure toggle; judged across the catalogue</td><td>Synthetic flag mandatory; each video distinct</td><td class="ok">aligned</td></tr>
+  </table></div>
+
+  <h2>Script</h2>
+  <p class="sub">The layer the trade says decides most of retention before a frame is cut.</p>
+  <div class="chips"><span class="chip">Third-party, 2026</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p><b>Hook, 0&ndash;30s, three jobs:</b> validate the click, raise the stakes, open the first curiosity
+      loop. Damage starts past 15&ndash;20 seconds without value. Strong hooks hold 80&ndash;90% through 0:30.</p>
+      <p><b>Body in modules.</b> Each has a mini-hook, the content, a transition. Something changes every
+      30&ndash;60 seconds. Two to four open loops per video &mdash; and failing to close one destroys trust.</p>
+      <p><b>Documentary shape:</b> open at the most dramatic moment, then &ldquo;to understand how we got
+      here&hellip;&rdquo;. Wendover: &ldquo;why this matters now&rdquo; inside 45s, inverted pyramid, dense
+      stretches capped at 90s. Harris: script and visual direction written together, colour-coded for
+      assets and fact-checks; 188-page research doc for one video.</p>
+      <p><b>Transitions</b> are causal or adversative (&ldquo;but&rdquo;, &ldquo;so&rdquo;), never
+      &ldquo;okay, so&hellip;&rdquo;. Payoff is the final 10%: recap, one further insight, callback.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>The penny script opens on the claim (four times its value) and punches in sentence two. Good.</p>
+      <p>Twelve of twenty paragraphs are punch lines &mdash; the variance the rhythm metric wanted.</p>
+      <p>One open loop (the unsigned bill), closed at the end. No mini-hooks at section starts; the
+      section titles do that work visually but not in the words.</p>
+      <p>Research is NotebookLM-verified, which caught a false causal claim before voice. That is the
+      Harris fact-check column, done by a tool.</p></div>
+    <div><h4>What changes</h4>
+      <ul>
+        <li>A <b>mini-hook line</b> at the top of each section &mdash; one sentence that says why this part
+        matters before it starts.</li>
+        <li>A <b>second open loop</b> planted early and paid off at the turn (the 74s section change),
+        so the middle has something owed to it.</li>
+        <li>Keep the punch-line density; it is doing the pacing work the planner cannot.</li>
+      </ul></div>
+  </div>
+
+  <h2>Narration</h2>
+  <p class="sub">Why AI voice reads as robotic, and the fixes practitioners apply.</p>
+  <div class="chips"><span class="chip google">Google</span><span class="chip measured">Measured</span><span class="chip">Third-party</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>&ldquo;Ninety percent of robotic is text that never got any pauses.&rdquo; Write for the ear:
+      2&ndash;3 short lines instead of one long sentence, one idea per sentence, fragments allowed.</p>
+      <p><b>Pauses by role:</b> 150&ndash;300 ms at clause breaks, 400&ndash;500 ms between sentences,
+      700&ndash;900 ms after a punch line, 1000&ndash;1500 ms at section changes.</p>
+      <p><b>Emphasis:</b> 1&ndash;2 words a sentence, on verbs and numbers, never more than 3.
+      <b>Rate by block:</b> 90&ndash;95% for complex ideas, 85% for dramatic beats, 105&ndash;110% for lists.
+      Pitch: leave alone, or drop 1&ndash;2 semitones for gravity.</p>
+      <p>Export WAV or 320 kbps, 44.1/48 kHz, mono. Breaths matter on anything past a minute.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>Gemini TTS chosen on measurement: pitch range 15.0 vs 9.7 semitones, loudness spread 15.0 vs
+      11.5 dB, 113 wpm vs 155. Free on the free tier (Google&rsquo;s pricing page), reportedly
+      3 req/min, 15/day &mdash; three videos a day at our five chunks.</p>
+      <p>Our <code>pause_after</code> already scales holds by role: 1.7s at section ends, 1.4s after a
+      short claim, 0.55s default. Close to the trade&rsquo;s ladder.</p>
+      <p>No emphasis or rate control yet. One voice throughout.</p></div>
+    <div><h4>What changes</h4>
+      <ul>
+        <li>Move to <code>gemini-3.1-flash-tts-preview</code>: inline tags (<code>[very slow]</code>,
+        <code>[whispers]</code>), section-scoped style, two speakers.</li>
+        <li>Mark <b>one stressed word per punch line</b> &mdash; the number or the verb &mdash; and slow the
+        dramatic beats to ~85%.</li>
+        <li>A <b>second voice for quoted material</b> (the bill, the Mint&rsquo;s own words). Variety without
+        borrowing a recognisable house style.</li>
+        <li>Batch paragraphs into fewer requests to stay under 15/day.</li>
+      </ul></div>
+  </div>
+
+  <h2>Music</h2>
+  <p class="sub">What exists, what it costs, what we may use.</p>
+  <div class="chips"><span class="chip google">Google</span><span class="chip unknown">Unknown</span><span class="chip">Third-party</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>Voice is mixed first; the bed sits <b>15&ndash;20 dB under</b> dialogue (some engineers 18&ndash;25).
+      Under a voiceover, a generated bed is functionally identical to a licensed one; the audience is
+      listening to the voice.</p>
+      <p><b>Content ID is the risk, not quality.</b> Owned catalogues (Epidemic) are safelisted; AI music
+      has produced false-positive claims for creators. Copyright status of AI music is unsettled in 2026.</p>
+      <p><b>Lyria 3</b> is a Create music tool in the Gemini app since 18 Feb 2026: 30s tracks, up to 3 min
+      on Pro for AI Plus/Pro/Ultra, vocals off by choice, MP3 download, SynthID on all of it. The API has
+      no free tier: $0.04 a clip, $0.08 a song.</p></div>
+    <div><h4>Where we stand</h4>
+      <p><b>You have the tool</b> &mdash; confirmed in your own UI. The Python client on the same account
+      returns prose for every phrasing, including with the Pro model named; the session then expired
+      (<code>UNAUTHENTICATED</code>) and re-auth needs your sign-in.</p>
+      <p>Meanwhile Gemini wrote a score and <code>fvs/score.py</code> synthesises it: C2/G2 drone,
+      tritone sawtooth resolving to a fourth at the story&rsquo;s turn, 800 Hz press tick. Measured
+      15.2 dB under speech. Original &mdash; nothing for Content ID to match.</p>
+      <p>Rights on Lyria output: Google claims no ownership of generated content and permits commercial
+      use for text, images and code. No Google page says it for music. Trade press paraphrases
+      &ldquo;personal and commercial use&rdquo; without a quote.</p></div>
+    <div><h4>What changes</h4>
+      <ul>
+        <li><b>Default stays the synthesised bed.</b> Free, original, tuned, safe from Content ID.</li>
+        <li>After you sign in: one more probe with the Pro model. If the client still will not route,
+        the honest path to the app&rsquo;s Lyria is <b>driving the real browser profile</b> (Chrome closed),
+        not more cookie work.</li>
+        <li>If a Lyria track ships, the disclosure toggle is on anyway; treat commercial rights as
+        &ldquo;likely, unconfirmed for music&rdquo; and keep the synthesised bed as the fallback.</li>
+      </ul></div>
+  </div>
+
+  <h2>Sound design</h2>
+  <div class="chips"><span class="chip">Third-party</span><span class="chip measured">Measured</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>Order: voiceover, then music, then effects under both. Hard effects first, design effects
+      (whooshes, risers, signatures) second, atmospheres last.</p>
+      <p>&ldquo;A rise should pull the audience forward, not hide the line that explains the story&rdquo; &mdash;
+      high-pass it, automate it, or shorten it when the voice leads.</p>
+      <p>Wendover: surgical placement &mdash; a distinct click on a key fact, low drones under looming
+      systems, speech clarity above everything.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>Cues only in the gaps, never under speech &mdash; measured earlier: a hit under narration moved the
+      level 0.1 dB, inaudible. Twelve cues on the last render, riser + impact at sections, tick at stats.</p>
+      <p>All synthesised in ffmpeg; no library, no licence.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Nothing structural. Add <b>one signature sound for this channel</b> &mdash; a coin-on-wood tick &mdash;
+      so the sound is ours the way the board is.</li></ul></div>
+  </div>
+
+  <h2>Cut rhythm</h2>
+  <div class="chips"><span class="chip">Third-party</span><span class="chip measured">Measured</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p><b>Breathing:</b> three or four short shots, then one long one. Inhale, exhale.</p>
+      <p>Tighter early: visual resets every 10&ndash;20s in the intro, widening to 25&ndash;40s once hooked.
+      Uniform clip length is named as the cause of monotony; deliberate fast/slow patterns are the
+      sophisticated version.</p>
+      <p>Documentary realism justifies 6&ndash;9 second holds. Modern film averages 4&ndash;6s; the editor&rsquo;s
+      job is to deviate from the baseline on purpose.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>Our gate buckets shot lengths in 1.5s bands and compares histograms. A uniform speed-up moved
+      nothing; the rewrite&rsquo;s short/long paragraphs did. 13 punch-ins, 8 holds, shots from 1.0 to 12.0s.</p>
+      <p>First-minute mean 2.8s on the fast plan, 4.2s on medium &mdash; the trade&rsquo;s early-reset window
+      either way.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Make the planner&rsquo;s open-tight window explicitly <b>10&ndash;20s resets for the first minute</b>
+      and let holds run to 7&ndash;9s in sections &mdash; the breathing pattern by rule rather than by luck.</li></ul></div>
+  </div>
+
+  <h2>On-screen text</h2>
+  <div class="chips"><span class="chip">Third-party</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p><b>One primary message per beat.</b> More than that, reveal progressively. Sync by phrase, not by
+      syllable &mdash; word-by-word bouncing reads as frantic.</p>
+      <p>Stress the words that carry meaning: the outcome, the constraint, the warning, the number.
+      Those get more screen time and stronger motion. &ldquo;Treat type motion like a drumbeat.&rdquo;</p>
+      <p>End in stillness: let the final phrase sit for a beat.</p>
+      <p>Vox: the yellow highlighter sweep across the spoken phrase; lower thirds that slide, or reveal
+      through a jagged mask; graphics on twos so they read handmade.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>Twelve cards, each one message. Stats count up; sections slide; emphasis fades. Shorts captions
+      already sync per word with a gold hit on the spoken one.</p>
+      <p>No phrase-level text in the long-form body; no highlighter; cards render at full frame rate.</p></div>
+    <div><h4>What changes</h4>
+      <ul>
+        <li>A <b>highlighter-sweep card</b>: the spoken phrase set in type, swept in gold as it is said,
+        using the word timings we already have.</li>
+        <li>Render motion cards <b>on twos</b> &mdash; 12 fps into the 24 fps edit.</li>
+        <li>Hold the last card of each section a beat longer, motionless.</li>
+      </ul></div>
+  </div>
+
+  <h2>Visual identity</h2>
+  <div class="chips"><span class="chip">Third-party</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>Polymatter: structured chapters plus <b>recurring visual motifs</b>, consistent language over
+      personality. Wendover: one visual metaphor per system, kept graphically identical across scenes;
+      labels that follow subjects and fade with the narration; data &ldquo;quantified contextually&rdquo; &mdash;
+      linked to physical intuition, not just stated.</p>
+      <p>Thumbnails are their own design system: shared fonts, palette and layout, varied enough that
+      videos stay distinct.</p>
+      <p>The evidence board is a stock true-crime device, sold as templates.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>A house grade, one type family for cards, a halftone print language for thumbnails, and the cork
+      board as the set for every generated still. The board earns its place because the thesis is an
+      investigation.</p>
+      <p>&ldquo;Four pennies in, one out&rdquo; is the physical-intuition move Wendover describes.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Write the identity down as a <b>system</b>: grade, faces, card kinds, board rules (one board, few
+      pins, no fingerprints or X marks, never the thumbnail), the halftone thumbnail palette. One page,
+      so every video is unmistakably the same channel and never the same video.</li></ul></div>
+  </div>
+
+  <h2>Footage</h2>
+  <div class="chips"><span class="chip">Third-party</span><span class="chip measured">Measured</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>Archives over stock when stock feels repetitive: NASA, the Internet Archive (about 65% public
+      domain), newsreel collections used by BBC and NatGeo. Verify the licence at the original source,
+      every clip. B-roll sourcing is named as the production bottleneck.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>Pexels/Pixabay for motion, Wikimedia Commons for public-domain objects, Gemini stills only in
+      Polaroids. Text ranking is blind to the picture &mdash; &ldquo;money counting machine&rdquo; returned rupees;
+      vision QA rejected 0 of 114. Rule: nationality, currency and era go in the query.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Add <b>archive.org</b> and the Library of Congress to <code>stills.search</code> beside the Met
+      and NASA. For a US policy channel, federal archives are the deepest free well there is.</li></ul></div>
+  </div>
+
+  <h2>Packaging and testing</h2>
+  <div class="chips"><span class="chip google">Google</span><span class="chip">Third-party</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>YouTube&rsquo;s own Test &amp; Compare: up to <b>three</b> titles and/or thumbnails; the winner is the
+      combination with the <b>highest watch time</b>, not raw CTR; no winner if the variants barely
+      differ or impressions are low. Test one variable at a time &mdash; face vs none, then contrast, then
+      text length &mdash; and prioritise new uploads.</p>
+      <p>Thumbnail text says what the title cannot; a strong thumbnail with a mismatched title still
+      underperforms. Systematic testing is credited with 20&ndash;40% CTR gains (third-party).</p></div>
+    <div><h4>Where we stand</h4>
+      <p>Two candidates staged (hybrid plate + our type; Gemini&rsquo;s own). Title chosen to create tension
+      the thumbnail resolves. Nothing published, so nothing tested.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Ship <b>three</b> variants per video and let the platform choose; log the winner and the
+      variable it isolated in <code>DECISIONS.md</code>, so packaging learns per video.</li></ul></div>
+  </div>
+
+  <h2>The feedback loop</h2>
+  <div class="chips"><span class="chip">Third-party</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>Read the retention curve as eight named patterns. <b>Cliff-and-slide</b> (34% of underperformers):
+      15&ndash;30% lost in the first 30s &rarr; rewrite the hook, value inside 15s. <b>Valley</b> (18%): dip at
+      25&ndash;40% of length &rarr; add stakes or a perspective shift near the quarter mark. <b>Step-down</b>
+      (15%): drops at regular intervals &rarr; weak transitions. <b>Slow bleed</b> (8%): low information
+      density. <b>End drop</b>: outro under 20s, add a bonus insight. Spikes: study and repeat.</p>
+      <p>The claim to remember: most problems are script-level, decided before recording. Method: ten
+      videos, find the recurring pattern, fix it across the next 3&ndash;5, measure, repeat.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>No published video, so no curve. The gate measures what it can before publish &mdash; duplicate
+      footage, rhythm, substantive content &mdash; and those numbers moved when the work did.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Once the first video is live: a <b>retention log</b> per video &mdash; each dip&rsquo;s timestamp and
+      the sentence being spoken &mdash; read against the eight patterns. That log becomes the next
+      script&rsquo;s checklist.</li></ul></div>
+  </div>
+
+  <h2>Policy</h2>
+  <div class="chips"><span class="chip">Third-party, July 2026</span></div>
+  <div class="layer">
+    <div><h4>What the trade does</h4>
+      <p>16 July 2026: three non-monetisable categories &mdash; template-based repetition, emotionally
+      manipulative formulas, and AI personas advising on health, finance, law or politics. Judged across
+      the <b>whole catalogue</b>, not one upload. Enforcement ladder: limited ads, suspended monetisation,
+      termination (16 channels, 35M subscribers, January 2026).</p>
+      <p>&ldquo;AI is not the problem, absence of value is.&rdquo; Faceless channels with strong writing are named as unaffected.</p></div>
+    <div><h4>Where we stand</h4>
+      <p>No persona gives advice; every video is researched and distinct; the synthetic flag is enforced by
+      <code>fvs package</code>. SynthID is in our narration, our stills and any Lyria track, so the
+      disclosure toggle is not optional.</p></div>
+    <div><h4>What changes</h4>
+      <ul><li>Nothing. Keep the catalogue varied on purpose &mdash; different structures, different card
+      mixes &mdash; because the judgement is across videos, not within one.</li></ul></div>
+  </div>
+
+  <h2>In order, before the next render</h2>
+  <ol class="ranked">
+    <li><div><b>Sign in to Google once</b>, so NotebookLM and Gemini work again.<p>Then one music probe with the Pro model. If it still returns prose, the browser-profile path is next and cookie work stops for good.</p></div></li>
+    <li><div><b>Narration on 3.1 with tags.</b><p>One stressed word per punch line, 85% on dramatic beats, a second voice for quotes, requests batched under 15 a day.</p></div></li>
+    <li><div><b>Script: a mini-hook per section and a second open loop paid off at the turn.</b><p>The trade&rsquo;s two cheapest retention levers, both words.</p></div></li>
+    <li><div><b>Highlighter-sweep card and cards on twos.</b><p>The two Vox ingredients we lack; the first uses word timings we already have.</p></div></li>
+    <li><div><b>Master to &minus;14 LUFS / &minus;1 dBTP.</b><p>One loudnorm pass. We are legal at &minus;16.3 and shy.</p></div></li>
+    <li><div><b>Three packaging variants per upload, and a retention log from video one.</b><p>The loop the trade runs; we have not started it because nothing is live.</p></div></li>
+  </ol>
+
+  <h2>Sources</h2>
+  <ul class="sources">
+    <li><a href="https://prepublish.ai/guides/script-structure-guide">Script structure: hook, build, payoff</a></li>
+    <li><a href="https://prepublish.ai/guides/youtube-retention-drop-diagnosis">Retention drop diagnosis, eight patterns</a></li>
+    <li><a href="https://www.overseeros.com/blog/youtube-retention-loops">Retention loops</a></li>
+    <li><a href="https://podwise.ai/dashboard/episodes/3299864">Johnny Harris on How I Write</a></li>
+    <li><a href="https://medium.com/@LMK_writing/how-johnny-harris-mastered-visual-storytelling-on-youtube-343ddf9160ec">Harris: visual anchors and bridges</a></li>
+    <li><a href="https://reelmind.ai/blog/wendover-productions-video-style-analyzing-fact-based-youtube-success">Wendover style analysis</a></li>
+    <li><a href="https://www.premiumbeat.com/blog/replicating-vox-motion-graphic/">Replicating the Vox look</a></li>
+    <li><a href="https://echovox.in/blog/how-to-make-ai-voiceovers-sound-human-2026/">Ten fixes for AI voiceover</a></li>
+    <li><a href="https://narrationbox.com/blog/how-to-make-ai-voice-sound-less-robotic">AI voice, less robotic</a></li>
+    <li><a href="https://ai.google.dev/gemini-api/docs/speech-generation">Gemini API: speech generation</a></li>
+    <li><a href="https://ai.google.dev/gemini-api/docs/pricing">Gemini API pricing</a></li>
+    <li><a href="https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/">Google: Lyria 3 in the Gemini app</a></li>
+    <li><a href="https://support.google.com/gemini/answer/16901237">Gemini Help: generate music</a></li>
+    <li><a href="https://ai.google.dev/gemini-api/docs/music-generation">Gemini API: Lyria 3.5</a></li>
+    <li><a href="https://terms.law/ai-output-rights/gemini/">Gemini output rights</a></li>
+    <li><a href="https://undetectr.com/blog/epidemic-sound-vs-ai-music">Epidemic vs AI music, Content ID</a></li>
+    <li><a href="https://lanceblairvo.com/lufs-voiceover-levels/">LUFS voiceover levels</a></li>
+    <li><a href="https://www.asoundeffect.com/film-documentary-trailer-sound-success/">Documentary sound design</a></li>
+    <li><a href="https://air.io/en/youtube-hacks/advanced-retention-editing-cutting-patterns-that-keep-viewers-past-minute-8">Retention editing patterns</a></li>
+    <li><a href="https://www.studiobinder.com/blog/how-does-an-editor-control-the-rhythm-of-a-film/">How editors control rhythm</a></li>
+    <li><a href="https://www.todaymade.com/blog/kinetic-typography-examples">Kinetic typography storyboarding</a></li>
+    <li><a href="https://www.linearity.io/blog/kinetic-typography/">Kinetic typography: what and how</a></li>
+    <li><a href="https://support.google.com/youtube/answer/13861714">YouTube Help: A/B test titles and thumbnails</a></li>
+    <li><a href="https://influencermarketinghub.com/youtube-test-compare/">Test &amp; Compare overview</a></li>
+    <li><a href="https://www.soundstripe.com/blogs/archival-footage">Finding archival footage</a></li>
+    <li><a href="https://flickside.com/free-public-domain-footage/">Public domain footage sources</a></li>
+    <li><a href="https://outlierkit.com/blog/youtube-updates-july-2026">YouTube updates, July 2026</a></li>
+    <li><a href="https://ytgrowth.io/blog/youtube-ai-policy">AI demonetisation: real rules</a></li>
+    <li><a href="https://www.techtimes.com/articles/320629/20260715/youtube-wiped-35m-subscribers-over-ai-slop-now-its-judging-your-taste.htm">35M subscribers terminated</a></li>
+    <li><a href="https://virvid.ai/blog/faceless-channel-workflow-2-hour-system-2026">Faceless workflow, batching</a></li>
+    <li><a href="https://www.ad-hoc-news.de/boerse/news/ueberblick/polymatter-and-the-footprint-of-animated-explainers-on-youtube/69642572">Polymatter&rsquo;s recurring motifs</a></li>
+  </ul>
+
+  <footer>The finished render from before the pause is untouched at
+  <b>D:\faceless-studio\projects\penny-cost\master.mp4</b>. Nothing above has been built yet;
+  the six items are the proposal.</footer>
+</div>

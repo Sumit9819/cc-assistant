@@ -1,0 +1,10 @@
+import { createRequire } from 'node:module';
+const { chromium } = createRequire('C:/Users/sumit/.cc-assistant/wcag/package.json')('playwright');
+const b = await chromium.launch(); const p = await b.newPage();
+const ir = await (await p.goto('https://erofirving.com/', { waitUntil: 'domcontentloaded', timeout: 120000 })).text();
+for (const re of [/jquery-migrate/g, /global-styles-inline/g]) for (const m of ir.matchAll(re)) console.log('IRVING', re.source, '::', ir.slice(Math.max(0, m.index - 150), m.index + 60).replace(/\s+/g, ' '));
+const lu = await (await p.goto('https://eroflufkin.com/', { waitUntil: 'domcontentloaded', timeout: 120000 })).text();
+const t = (lu.match(/<img[^>]*ER-near-lufkin-tx\.jpeg[^>]*>/) || ['NOT FOUND'])[0];
+console.log('\nLUFKIN image tag:', t.replace(/data-srcset="[^"]*"|srcset="[^"]*"/g, '[srcset]').slice(0, 500));
+console.log('LUFKIN "skip-lazy" anywhere in page:', (lu.match(/skip-lazy/g) || []).length, '| wp-image-6458 occurrences:', (lu.match(/wp-image-6458/g) || []).length);
+await b.close();

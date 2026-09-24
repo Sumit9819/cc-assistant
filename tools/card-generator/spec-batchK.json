@@ -1,0 +1,552 @@
+{
+ "_note": "Batch K, the last four: 8363 medical-grade skincare, 8370 dermaplaning, 8933 post-summer skin, 8359 cosmetic treatments guide. The medical-grade comparison card keeps the post's admission that the FDA does not recognise 'medical-grade' as a legal category; dropping that row would have turned a fair comparison into a sales claim.",
+ "cards": [
+  {
+   "file": "medical-grade-vs-otc-skincare",
+   "post_id": 8363,
+   "layout": "compare",
+   "subject": "medical-grade skincare",
+   "heading": "What is Medical-Grade Skincare? Understanding the Difference",
+   "title": [
+    "Medical-Grade Skincare",
+    " vs Over the Counter",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Medical-grade skincare uses higher active concentrations sold through clinicians, but is not an official FDA category",
+   "columns": [
+    "Over the counter",
+    "Medical-grade"
+   ],
+   "rows": [
+    {
+     "label": "Formulated for",
+     "values": [
+      "General skin maintenance",
+      "Deeper layers, collagen and repair"
+     ]
+    },
+    {
+     "label": "Actives",
+     "values": [
+      "Lower concentrations",
+      "Higher concentrations, stabilized"
+     ]
+    },
+    {
+     "label": "Sold through",
+     "values": [
+      "Retail shelves",
+      "Medical professionals"
+     ]
+    },
+    {
+     "label": "FDA status",
+     "values": [
+      "Regulated as cosmetics",
+      "Not an FDA category, an industry term"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "medical-grade-skincare-four-steps",
+   "post_id": 8363,
+   "layout": "steps",
+   "subject": "skincare",
+   "heading": "The Core Pillars of a Medical-Grade Skincare Routine",
+   "title": [
+    "The Four Steps of a Medical-Grade ",
+    "Skincare",
+    " Routine"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A medical-grade skincare routine in four steps: gentle cleansing, vitamin C, retinoids, then broad-spectrum SPF",
+   "steps": [
+    {
+     "icon": "droplets",
+     "label": "Cleanse",
+     "note": "Without stripping the moisture barrier"
+    },
+    {
+     "icon": "sun",
+     "label": "Antioxidants",
+     "note": "Vitamin C neutralizes free radicals"
+    },
+    {
+     "icon": "recycle",
+     "label": "Retinoids",
+     "note": "Cell turnover, and less collagen breakdown"
+    },
+    {
+     "icon": "shield-check",
+     "label": "SPF",
+     "note": "Broad spectrum, SPF 15 or higher"
+    }
+   ]
+  },
+  {
+   "file": "skincare-ingredients-to-look-for",
+   "post_id": 8363,
+   "layout": "list",
+   "subject": "skincare",
+   "heading": "Common Ingredients to Look For (and Why)",
+   "title": [
+    "Skincare",
+    " Ingredients Worth Looking For",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Skincare ingredients worth looking for: hyaluronic acid, peptides, niacinamide and zinc oxide, and what each does",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Hyaluronic acid",
+     "note": "Holds up to 1,000 times its weight in water"
+    },
+    {
+     "icon": "dna",
+     "label": "Peptides",
+     "note": "Signal the skin to make collagen and elastin"
+    },
+    {
+     "icon": "flame",
+     "label": "Niacinamide",
+     "note": "Anti-inflammatory, improves barrier function"
+    },
+    {
+     "icon": "sun",
+     "label": "Zinc oxide",
+     "note": "Reflects UV rather than absorbing it"
+    }
+   ]
+  },
+  {
+   "file": "professional-vs-at-home-dermaplaning",
+   "post_id": 8370,
+   "layout": "list",
+   "subject": "dermaplaning",
+   "heading": "Professional vs. At-Home Dermaplaning",
+   "title": [
+    "Professional vs At-Home ",
+    "Dermaplaning",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Professional dermaplaning brings sterile single-use blades, trained angle and pressure, and a skin assessment first",
+   "items": [
+    {
+     "icon": "shield-check",
+     "label": "Sterility",
+     "note": "Medical-grade, single-use blades"
+    },
+    {
+     "icon": "ruler-dimension-line",
+     "label": "Precision",
+     "note": "Trained angle and pressure, no nicks"
+    },
+    {
+     "icon": "stethoscope",
+     "label": "Assessment",
+     "note": "Active acne or inflammation is spotted first"
+    }
+   ]
+  },
+  {
+   "file": "dermaplaning-appointment",
+   "post_id": 8370,
+   "layout": "steps",
+   "subject": "dermaplaning",
+   "heading": "What to Expect During Your Appointment",
+   "title": [
+    "A ",
+    "Dermaplaning",
+    " Appointment"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A dermaplaning appointment runs 30 to 45 minutes: cleanse, short light blade strokes at 45 degrees, then serum and SPF",
+   "steps": [
+    {
+     "icon": "droplets",
+     "label": "Cleanse",
+     "note": "A gentle cleanser removes oils"
+    },
+    {
+     "icon": "scissors",
+     "label": "The pass",
+     "note": "Short light strokes, blade at 45 degrees"
+    },
+    {
+     "icon": "sun",
+     "label": "Finish",
+     "note": "Soothing serum and broad-spectrum SPF"
+    }
+   ]
+  },
+  {
+   "file": "dermaplaning-aftercare",
+   "post_id": 8370,
+   "layout": "icons",
+   "subject": "dermaplaning",
+   "heading": "Aftercare: Protecting Your New Glow",
+   "title": [
+    "Dermaplaning",
+    " Aftercare",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Dermaplaning aftercare: SPF 30 or higher daily, no retinols or acids for 48 to 72 hours, and gentle hydration",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "SPF 30 daily",
+     "note": "Fresh skin burns more easily"
+    },
+    {
+     "icon": "ban",
+     "label": "No retinols",
+     "note": "Or strong acids, for 48 to 72 hours"
+    },
+    {
+     "icon": "droplet",
+     "label": "Hydrate",
+     "note": "Water and a gentle moisturizer"
+    }
+   ]
+  },
+  {
+   "file": "post-summer-skin-barrier-repair",
+   "post_id": 8933,
+   "layout": "icons",
+   "subject": "skin",
+   "heading": "1. Prioritize Deep Hydration and Barrier Repair",
+   "title": [
+    "Repairing Your ",
+    "Skin",
+    " Barrier After Summer"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Repair the skin barrier after summer with humectants, a ceramide cream, and lukewarm showers instead of hot ones",
+   "items": [
+    {
+     "icon": "droplet",
+     "label": "Humectants",
+     "note": "Glycerin and hyaluronic acid pull moisture in"
+    },
+    {
+     "icon": "shield-check",
+     "label": "Ceramide cream",
+     "note": "Swap the light summer lotion for a richer one"
+    },
+    {
+     "icon": "thermometer",
+     "label": "Lukewarm showers",
+     "note": "Hot water dehydrates sun-damaged skin"
+    }
+   ]
+  },
+  {
+   "file": "fading-sun-damage-and-hyperpigmentation",
+   "post_id": 8933,
+   "layout": "icons",
+   "subject": "sun damage",
+   "heading": "2. Address Sun Damage and Hyperpigmentation",
+   "title": [
+    "Fading ",
+    "Sun Damage",
+    " and Dark Spots"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Fade sun damage with topical vitamin C, gentle AHA exfoliation, and patience, since it takes months rather than days",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Vitamin C",
+     "note": "Brightens and neutralizes free radicals"
+    },
+    {
+     "icon": "recycle",
+     "label": "Gentle AHAs",
+     "note": "Shed the pigmented top layer, do not scrub"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Patience",
+     "note": "Fading takes months, not days"
+    }
+   ]
+  },
+  {
+   "file": "abcde-rule-for-skin-spots",
+   "post_id": 8933,
+   "layout": "list",
+   "subject": "skin",
+   "heading": "3. Schedule a Professional Skin Assessment",
+   "title": [
+    "The ABCDE Rule for Checking Your ",
+    "Skin",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "The ABCDE rule for skin spots: asymmetry, irregular border, more than one color, diameter, and any evolving change",
+   "items": [
+    {
+     "icon": "scan-face",
+     "label": "A, asymmetry",
+     "note": "One half does not match the other"
+    },
+    {
+     "icon": "ruler-dimension-line",
+     "label": "B, border",
+     "note": "Irregular or blurred edges"
+    },
+    {
+     "icon": "palette",
+     "label": "C, color",
+     "note": "More than one shade"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "D, diameter",
+     "note": "Larger than a pencil eraser"
+    },
+    {
+     "icon": "trending-up",
+     "label": "E, evolving",
+     "note": "Changing size, shape or color"
+    }
+   ]
+  },
+  {
+   "file": "daily-habits-for-skin-after-summer",
+   "post_id": 8933,
+   "layout": "icons",
+   "subject": "skin",
+   "heading": "Simple Daily Habits for Lasting Radiance",
+   "title": [
+    "Daily Habits for Healthier ",
+    "Skin",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Daily skin habits: broad-spectrum SPF year round, an antioxidant-rich diet, and 7 to 9 hours of sleep for repair",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "SPF year round",
+     "note": "UV penetrates cloud, SPF 15 or higher"
+    },
+    {
+     "icon": "apple",
+     "label": "Antioxidants",
+     "note": "Berries, nuts and leafy greens"
+    },
+    {
+     "icon": "moon",
+     "label": "7 to 9 hours",
+     "note": "Skin does its heaviest repair asleep"
+    }
+   ]
+  },
+  {
+   "file": "cosmetic-vs-reconstructive-care",
+   "post_id": 8359,
+   "layout": "compare",
+   "subject": "cosmetic",
+   "heading": "Understanding Cosmetic vs. Reconstructive Care",
+   "title": [
+    "Cosmetic",
+    " vs Reconstructive Care",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Cosmetic care reshapes normal structures and is elective; reconstructive care treats abnormal structures and function",
+   "columns": [
+    "Cosmetic",
+    "Reconstructive"
+   ],
+   "rows": [
+    {
+     "label": "Performed on",
+     "values": [
+      "Normal structures",
+      "Abnormal structures, from defect, trauma or disease"
+     ]
+    },
+    {
+     "label": "Goal",
+     "values": [
+      "Appearance and self-esteem",
+      "Restoring function"
+     ]
+    },
+    {
+     "label": "Insurance",
+     "values": [
+      "Elective, generally not covered",
+      "Assessed on function, not appearance"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "non-surgical-cosmetic-services",
+   "post_id": 8359,
+   "layout": "list",
+   "subject": "cosmetic treatments",
+   "heading": "Common Non-Surgical Cosmetic Services",
+   "title": [
+    "Non-Surgical ",
+    "Cosmetic Treatments",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Non-surgical cosmetic treatments: neuromodulators and dermal fillers, chemical peels, and laser skin treatments",
+   "items": [
+    {
+     "icon": "syringe",
+     "label": "Injectables",
+     "note": "Neuromodulators relax, fillers restore volume"
+    },
+    {
+     "icon": "beaker",
+     "label": "Chemical peels",
+     "note": "Light to deep, for sun damage and scars"
+    },
+    {
+     "icon": "zap",
+     "label": "Lasers",
+     "note": "Hair removal, rejuvenation, vascular lesions"
+    }
+   ]
+  },
+  {
+   "file": "why-patients-choose-cosmetic-treatments",
+   "post_id": 8359,
+   "layout": "list",
+   "subject": "cosmetic treatments",
+   "heading": "Why Patients Choose Cosmetic Enhancements",
+   "title": [
+    "Why Patients Choose ",
+    "Cosmetic Treatments",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Patients choose cosmetic treatments for premature aging, changes after weight loss, career confidence and self-care",
+   "items": [
+    {
+     "icon": "sun",
+     "label": "Premature aging",
+     "note": "Skin aged faster than they have"
+    },
+    {
+     "icon": "scale",
+     "label": "After weight loss",
+     "note": "Facial volume and stubborn chin fat"
+    },
+    {
+     "icon": "briefcase",
+     "label": "Career confidence",
+     "note": "Looking refreshed at work"
+    },
+    {
+     "icon": "heart",
+     "label": "Self-care",
+     "note": "Something kind for yourself"
+    }
+   ]
+  },
+  {
+   "file": "cosmetic-treatment-consultation",
+   "post_id": 8359,
+   "layout": "steps",
+   "subject": "cosmetic treatment",
+   "heading": "What to Expect During Your Consultation",
+   "title": [
+    "A ",
+    "Cosmetic Treatment",
+    " Consultation"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "A cosmetic consultation covers medical history, honest goals, a custom plan, and a transparent discussion of risks",
+   "steps": [
+    {
+     "icon": "clipboard-list",
+     "label": "History",
+     "note": "Allergies and previous skin conditions"
+    },
+    {
+     "icon": "target",
+     "label": "Goals",
+     "note": "What each treatment can and cannot do"
+    },
+    {
+     "icon": "sliders-horizontal",
+     "label": "Custom plan",
+     "note": "Tailored to your own anatomy"
+    },
+    {
+     "icon": "triangle-alert",
+     "label": "Risks",
+     "note": "Every procedure has side effects"
+    }
+   ]
+  }
+ ]
+}

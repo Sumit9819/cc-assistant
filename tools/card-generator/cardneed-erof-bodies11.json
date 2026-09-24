@@ -1,0 +1,311 @@
+[
+  {
+    "id": 4774,
+    "title": "When to Go to the ER for Vomiting and Diarrhea in Adults",
+    "have": 0,
+    "need": 4,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Most Stomach Bugs Pass on Their Own",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Vomiting: When to Go to the ER",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Diarrhea: When to Get Care Right Away",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Signs of Dehydration in Adults",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "What Can You Do at Home?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "Could It Be Something Other Than a Stomach Bug?",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What Happens at the ER for Vomiting and Diarrhea?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 4772,
+    "title": "When to Go to the ER for the Flu: Warning Signs in Adults",
+    "have": 0,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 8,
+    "detail": [
+      {
+        "heading": "Most Flu Does Not Need the ER",
+        "decision": false,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "Flu Emergency Warning Signs in Adults",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "When to Call 911 Instead of Driving",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "The Warning Sign People Miss: Better, Then Worse",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Who Is at Higher Risk of Flu Complications?",
+        "decision": false,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      },
+      {
+        "heading": "What Should You Do at Home If You Have No Warning Signs?",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "What Happens at the ER for the Flu?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  },
+  {
+    "id": 4773,
+    "title": "When to Go to the ER for High Blood Pressure: The 180/120 Rule",
+    "have": 0,
+    "need": 2,
+    "rank_only": 0,
+    "impr": 0,
+    "sections": 7,
+    "detail": [
+      {
+        "heading": "What Blood Pressure Is Dangerously High?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "High Reading With Symptoms: Call 911",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "High Reading, No Symptoms: Recheck First",
+        "decision": true,
+        "visual": null,
+        "enum": "list",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": true,
+        "why": "decision"
+      },
+      {
+        "heading": "What to Do at Each Reading",
+        "decision": true,
+        "visual": "table",
+        "enum": "table",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "Why Is a Hypertensive Crisis an Emergency?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "What Happens at the ER for High Blood Pressure?",
+        "decision": true,
+        "visual": null,
+        "enum": null,
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": "decision"
+      },
+      {
+        "heading": "FAQs",
+        "decision": false,
+        "visual": null,
+        "enum": "subheads",
+        "impr": 0,
+        "queries": [],
+        "ranks": false,
+        "answered_elsewhere": null,
+        "candidate": false,
+        "why": ""
+      }
+    ]
+  }
+]

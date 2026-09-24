@@ -1,0 +1,4 @@
+[{"route":"cc-assistant/v1/whoami","method":"GET","out":"ekit-removal/irv-w6.json"},
+ {"route":"cc-assistant/v1/pending","method":"GET","out":"ekit-removal/irv-pend2.json"},
+ {"route":"cc-assistant/v1/posts/4760?slim=false","method":"GET","out":"ekit-removal/irv-4760b.json"},
+ {"route":"cc-assistant/v1/theme-templates","method":"GET","out":"ekit-removal/irv-tpl2.json"}]

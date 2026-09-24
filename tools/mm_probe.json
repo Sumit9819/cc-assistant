@@ -1,0 +1,22 @@
+[
+ {
+  "route": "cc-assistant/v1/posts/1568/render-probe",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pr_1568.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/41/render-probe",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pr_41.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/39/render-probe",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pr_39.json"
+ },
+ {
+  "route": "cc-assistant/v1/posts/1616/render-probe",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/pr_1616.json"
+ }
+]

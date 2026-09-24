@@ -1,0 +1,62 @@
+[
+  {
+    "path": "D:\\cc-assistant\\CLAUDE.md",
+    "before_sha256": "bcdf44c637466f16721f5e4b07aa1139d4ee24d476a2702784e5c67816f618ee",
+    "staged": "0.md"
+  },
+  {
+    "path": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\CLAUDE.md",
+    "before_sha256": "b7f932f8ee335169ce640e2614546517912c79b9db44e74e7a6e203b6e158a6b",
+    "staged": "1.md"
+  },
+  {
+    "path": "D:\\cc-assistant\\memory\\feedback_build_from_scratch_never_duplicate.md",
+    "before_sha256": "e35ceb121b0cef2e5b277326ffed715b3c8d9d0da5b516ccb5a24433eecb0747",
+    "staged": "2.md"
+  },
+  {
+    "path": "D:\\cc-assistant\\memory\\feedback_erofwhiterock_no_provider_bylines_yet.md",
+    "before_sha256": "d04a9fa144b205e038032f1b8cbdfd434ec3e3ebbf701bb58640b0d60b28094e",
+    "staged": "3.md"
+  },
+  {
+    "path": "D:\\cc-assistant\\memory\\feedback_intent_doctrine.md",
+    "before_sha256": "2846b1c6dbc64613f98d6e654b5feb0fbe37eba665f4987d4f3e75fe1b493127",
+    "staged": "4.md"
+  },
+  {
+    "path": "D:\\cc-assistant\\memory\\MEMORY.md",
+    "before_sha256": "57d816f6ae4b0b1132e6baa0ed75c0e7f7caa35ffdda87e62b8cda6f648cbe63",
+    "staged": "5.md"
+  },
+  {
+    "path": "D:\\cc-assistant\\memory\\feedback_erofwhiterock_current_evidence_policy.md",
+    "before_sha256": null,
+    "staged": "6.md"
+  },
+  {
+    "path": "C:\\Users\\sumit\\.claude\\projects\\c--Users-sumit-Local-Sites-plugintesting-app-public\\memory\\feedback_build_from_scratch_never_duplicate.md",
+    "before_sha256": "e35ceb121b0cef2e5b277326ffed715b3c8d9d0da5b516ccb5a24433eecb0747",
+    "staged": "7.md"
+  },
+  {
+    "path": "C:\\Users\\sumit\\.claude\\projects\\c--Users-sumit-Local-Sites-plugintesting-app-public\\memory\\feedback_erofwhiterock_no_provider_bylines_yet.md",
+    "before_sha256": "d04a9fa144b205e038032f1b8cbdfd434ec3e3ebbf701bb58640b0d60b28094e",
+    "staged": "8.md"
+  },
+  {
+    "path": "C:\\Users\\sumit\\.claude\\projects\\c--Users-sumit-Local-Sites-plugintesting-app-public\\memory\\feedback_intent_doctrine.md",
+    "before_sha256": "2846b1c6dbc64613f98d6e654b5feb0fbe37eba665f4987d4f3e75fe1b493127",
+    "staged": "9.md"
+  },
+  {
+    "path": "C:\\Users\\sumit\\.claude\\projects\\c--Users-sumit-Local-Sites-plugintesting-app-public\\memory\\MEMORY.md",
+    "before_sha256": "9591ea9750eb016cd5d3d8d5e9e1292a849d0de4861440d5340c9589c435c7c9",
+    "staged": "10.md"
+  },
+  {
+    "path": "C:\\Users\\sumit\\.claude\\projects\\c--Users-sumit-Local-Sites-plugintesting-app-public\\memory\\feedback_erofwhiterock_current_evidence_policy.md",
+    "before_sha256": null,
+    "staged": "11.md"
+  }
+]

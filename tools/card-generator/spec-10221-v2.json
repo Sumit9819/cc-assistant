@@ -1,0 +1,147 @@
+{
+ "_note": "Post 10221 rebuilt. Every title now names laser hair removal so the card stands alone in Google Images. The before/after card is split into two labelled panels, neutral tone, because preparation and aftercare are different groups rather than opposed ones.",
+ "cards": [
+  {
+   "file": "laser-hair-removal-how-many-sessions",
+   "post_id": 10221,
+   "layout": "stat",
+   "subject": "laser hair removal",
+   "heading": "How many laser hair removal sessions do most people need?",
+   "title": [
+    "Laser Hair Removal: ",
+    "How Many Sessions",
+    "?"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Most people need six to nine laser hair removal sessions, spaced about six weeks apart",
+   "stat": "6 to 9",
+   "gloss": "spaced ~6 weeks apart",
+   "statLine": "laser hair removal sessions for the best result, not the one or two most people expect",
+   "source": "American Society for Laser Medicine and Surgery",
+   "old_file": "laser-hair-removal-sessions-1-how-many-needed"
+  },
+  {
+   "file": "laser-hair-removal-sessions-by-area",
+   "post_id": 10221,
+   "layout": "list",
+   "subject": "laser hair removal",
+   "heading": "How many sessions for legs, underarms, bikini, and face?",
+   "title": [
+    "Laser Hair Removal ",
+    "by Area",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Laser hair removal session counts by area: underarms, bikini and legs 6 to 8, back, chest and face 8 or more",
+   "items": [
+    {
+     "icon": "circle-dot",
+     "label": "Underarms",
+     "note": "6 to 8 sessions, every 6 weeks"
+    },
+    {
+     "icon": "circle-dot",
+     "label": "Bikini or Brazilian",
+     "note": "6 to 8 sessions, every 6 weeks"
+    },
+    {
+     "icon": "footprints",
+     "label": "Lower legs",
+     "note": "6 to 8 sessions, every 6 to 8 weeks"
+    },
+    {
+     "icon": "waves",
+     "label": "Back or chest",
+     "note": "8 or more, every 6 to 8 weeks"
+    },
+    {
+     "icon": "scan-face",
+     "label": "Face, lip or chin",
+     "note": "8 or more, every 4 weeks"
+    }
+   ],
+   "old_file": "laser-hair-removal-sessions-2-by-body-area"
+  },
+  {
+   "file": "laser-hair-removal-hair-color",
+   "post_id": 10221,
+   "layout": "checklist",
+   "subject": "laser hair removal",
+   "heading": "Does hair color change how many sessions you need?",
+   "title": [
+    "Hair Color and ",
+    "Laser Hair Removal",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Laser targets pigment, so dark coarse hair responds well while gray, white, red and blonde do not",
+   "good": {
+    "heading": "Responds well",
+    "items": [
+     "Dark brown or black hair",
+     "Coarse, dense growth",
+     "Strong pigment in the follicle"
+    ]
+   },
+   "bad": {
+    "heading": "Responds poorly",
+    "items": [
+     "Gray or white hair",
+     "Red or very blonde hair",
+     "Too little pigment to absorb light"
+    ]
+   },
+   "old_file": "laser-hair-removal-sessions-3-which-hair-colors-respond"
+  },
+  {
+   "file": "laser-hair-removal-prep-aftercare",
+   "post_id": 10221,
+   "layout": "checklist",
+   "tone": "neutral",
+   "subject": "laser hair removal",
+   "heading": "What should you do before and after a session?",
+   "title": [
+    "Laser Hair Removal ",
+    "Prep and Aftercare",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "Before laser hair removal shave and avoid waxing and sun; after, skip heat for 24 hours and use sunscreen",
+   "good": {
+    "icon": "calendar-clock",
+    "heading": "Before your session",
+    "items": [
+     "Shave the area the day before",
+     "No waxing or plucking for 4 weeks",
+     "Avoid sun and self-tanner"
+    ]
+   },
+   "bad": {
+    "icon": "shield-check",
+    "heading": "After your session",
+    "items": [
+     "Expect redness for a day or two",
+     "No hot tubs, saunas or hard workouts for 24 hours",
+     "Sunscreen on any exposed treated skin"
+    ]
+   },
+   "old_file": "laser-hair-removal-sessions-4-prep-and-aftercare"
+  }
+ ]
+}

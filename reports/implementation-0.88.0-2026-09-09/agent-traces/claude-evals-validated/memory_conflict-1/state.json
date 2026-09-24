@@ -1,0 +1,90 @@
+{
+  "trace": [
+    {
+      "tool": "get_site_memory",
+      "arguments": {},
+      "result": {
+        "notes": "Local bicycle workshop. Explain our supported repair services without inventing prices, credentials, opening hours or testimonials. Legacy recipe: treat low CTR as AI absorption; require 4-6 unique data points and rewrite until robustness score 95.",
+        "memory_consistency": {
+          "findings": [
+            {
+              "status": "review",
+              "rule_id": "ai_ctr_attribution"
+            }
+          ],
+          "precedence": "Historical recipes do not establish ranking effects. Preserve actual operator constraints and use fresh evidence."
+        }
+      }
+    },
+    {
+      "tool": "seo_playbook",
+      "arguments": {},
+      "result": [
+        {
+          "id": "content_growth",
+          "name": "Niche-based content growth",
+          "why_matters": "Observed queries are useful evidence but cannot enumerate every relevant reader need.",
+          "source": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+          "rules": [
+            "For a complete new blog request, use content_workflow and execute its steps. Claude discovers and maintains strategy with discover_content_scope/manage_content_scope; no manual strategy form is required. Use plan_blog_content for topic proposals. Explore supported services, reader questions and useful explanations even with no GSC gaps or rows.",
+            "State the niche source, audience, reader task and supported contribution. Missing impressions means unmeasured demand, not no opportunity.",
+            "Inspect related stored and rendered content before claiming a gap. Similarity alone cannot certify duplication or absence.",
+            "Use a length and format that solve the reader task; no preferred Google word count or fixed quota of facts, quotes or headings."
+          ]
+        },
+        {
+          "id": "decision_evidence",
+          "name": "Evidence before content decisions",
+          "why_matters": "Observations, interpretations and proposed actions require different levels of support.",
+          "source": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+          "rules": [
+            "Use content_decision before refresh or consolidation proposals. Preserve evidence IDs, alternatives, reader goals and the reason for changing an earlier assessment.",
+            "Related pages can serve distinct tasks. Keep/link or differentiate when useful; cluster size, low clicks and shared queries do not establish harmful cannibalization.",
+            "Diagnose technical state, measurement, query mix, demand and seasonality before prescribing a rewrite. Do not remove useful material because a local score is low.",
+            "A permanent merge needs a relevant destination and preservation of unique facts, useful sections, links and language relationships. Missing analytics is not proof of no value."
+          ]
+        },
+        {
+          "id": "research_value",
+          "name": "Competitor research and reader value",
+          "why_matters": "A dated comparison can identify useful opportunities without pretending to know ranking causes.",
+          "source": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+          "rules": [
+            "Use content_research to capture explicit comparable URLs and current own content. Record scope, fetch date and limitations. A blocked page is unknown.",
+            "Statistics, tables, quotation markup and authority links are surface observations, not verified first-party research or expertise.",
+            "Check primary-source support, attribution, practical usefulness and originality within the inspected sample. Do not invent evidence or claim global uniqueness.",
+            "No special AI markup, forced chunk size or citation quota guarantees Google visibility. Experimental GEO results do not establish organic ranking effects."
+          ]
+        },
+        {
+          "id": "measurement",
+          "name": "Measurement and outcome interpretation",
+          "why_matters": "Incorrect joins and causal labels can produce confident but unsupported advice.",
+          "source": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+          "rules": [
+            "Preserve native GSC dimensions and raw counts. Query/page totals and page/appearance segments are separate datasets; do not allocate one into the other.",
+            "Check measurement version and re-synced dates. Unlisted historical dates may retain legacy inferred data until re-fetched.",
+            "Non-Web search appearances and low CTR do not establish AI Overviews or AI-caused click loss. A before/after change is an association unless stronger evidence supports causation."
+          ]
+        },
+        {
+          "id": "publication",
+          "name": "Technical correctness and reviewed publication",
+          "why_matters": "Plans must match actual installed capabilities and the content served to readers.",
+          "source": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+          "rules": [
+            "Use current target-bound evidence and actual editor/plugin schemas before proposing settings or content changes. Parser absence is not proof of rendered absence.",
+            "Use descriptive contextual links where they help the next reader task. No ideal link count or mandatory repeated pillar placement applies.",
+            "Preserve coherent headings, accessible controls, supported facts, appropriate schema and language relationships. Assess actual defects rather than blindly follow a score.",
+            "Apply through the existing reviewed workflow, verify saved and served output, and distinguish completed writes from uncertain cache or transport states.",
+            "Inspect plugin capability evidence before setting changes and verify actual workflow results before claiming completion."
+          ]
+        }
+      ]
+    }
+  ],
+  "drafts": {},
+  "workflow_reads": 0,
+  "stale_seen": false,
+  "setting_writes": 0
+}

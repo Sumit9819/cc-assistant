@@ -1,0 +1,229 @@
+{
+  "_note": "Batch 7. Six posts, 13 candidates read, 11 cards kept. Cut on the read: 3875 'What a Freestanding ER Can Treat' (near-identical item list to that post's own 'When Should You Go to the ER', so one card carries it) and 3875 'What to Expect During Your Visit' (three sentences of prose, nothing enumerable). 3800's two-panel card follows the post's own h3 split into Mild to Moderate and Red Flags, so the mild/severe division is the body's, not mine. 3858's 80 percent figure is the post's own editorial claim, not attributable to the NIDDK citation that sits beside it, so it is presented as a size comparison rather than a sourced headline stat.",
+  "cards": [
+    {
+      "file": "erof-3875-when-to-go-er",
+      "post_id": 3875,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "ER",
+      "heading": "When Should You Go to the ER?",
+      "title": ["When Should You Go to the ", "ER", "?"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Six symptoms that mean going to the emergency room rather than waiting",
+      "items": [
+        { "icon": "heart-pulse", "label": "Chest pain or pressure" },
+        { "icon": "waves", "label": "Difficulty breathing" },
+        { "icon": "brain", "label": "Sudden confusion or weakness", "note": "Or trouble speaking" },
+        { "icon": "droplet", "label": "Uncontrolled bleeding", "note": "Or deep lacerations" },
+        { "icon": "thermometer", "label": "High fever that will not budge", "note": "Especially in infants" },
+        { "icon": "shield-alert", "label": "Serious head injury", "note": "Or loss of consciousness" }
+      ]
+    },
+    {
+      "file": "erof-3800-child-dehydration-stages",
+      "post_id": 3800,
+      "brand": "erofirving",
+      "layout": "checklist",
+      "urgentSide": "bad",
+      "subject": "dehydration",
+      "heading": "Recognizing the Signs: Is My Child Dehydrated?",
+      "title": ["Child ", "Dehydration", ": Mild or Severe?"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Mild to moderate signs of dehydration in a child beside the severe signs that need emergency care",
+      "good": {
+        "icon": "eye",
+        "heading": "Mild to moderate",
+        "items": [
+          "No wet diaper for 6 to 8 hours",
+          "A sticky or dry mouth",
+          "Fewer tears when crying",
+          "Sleepier, less interested in play"
+        ]
+      },
+      "bad": {
+        "icon": "triangle-alert",
+        "heading": "Severe: go now",
+        "items": [
+          "Sunken soft spot on the head",
+          "Sunken or hollow eyes",
+          "Very drowsy, hard to wake",
+          "Pinched skin stays tented",
+          "Rapid heartbeat or breathing"
+        ]
+      }
+    },
+    {
+      "file": "erof-3800-child-vomiting-er",
+      "post_id": 3800,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "vomiting",
+      "heading": "When to Seek Emergency Medical Care",
+      "title": ["When ", "Vomiting", " Needs the ER"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Five signs that a vomiting child needs emergency care",
+      "items": [
+        { "icon": "clock-3", "label": "Vomiting past 24 hours", "note": "It is not settling" },
+        { "icon": "thermometer", "label": "Fever over 102°F", "note": "Or as your doctor directs" },
+        { "icon": "droplet", "label": "Blood in vomit or stool", "note": "Any amount" },
+        { "icon": "utensils", "label": "Cannot keep sips down", "note": "Not even small sips of ORS" },
+        { "icon": "triangle-alert", "label": "Any severe dehydration sign", "note": "Sunken soft spot, no tears, lethargy" }
+      ]
+    },
+    {
+      "file": "erof-3813-appendicitis-pain-shift",
+      "post_id": 3813,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "appendicitis",
+      "heading": "Recognizing Key Appendicitis Symptoms",
+      "title": ["The ", "Appendicitis", " Pain Shift"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement",
+      "steps": [
+        { "icon": "circle-dot", "label": "Starts at the navel", "note": "A dull, vague discomfort" },
+        { "icon": "trending-down", "label": "Migrates", "note": "Toward the lower right abdomen" },
+        { "icon": "zap", "label": "Turns sharp", "note": "Intense and persistent, not on and off" },
+        { "icon": "waves", "label": "Worse on movement", "note": "Deep breaths, coughing, sneezing" }
+      ]
+    },
+    {
+      "file": "erof-3813-appendicitis-er",
+      "post_id": 3813,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "appendicitis",
+      "heading": "What to Expect at the Clinic or ER",
+      "title": ["", "Appendicitis", ": What the ER Does"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy",
+      "steps": [
+        { "icon": "stethoscope", "label": "Physical exam", "note": "Guarding and rebound tenderness" },
+        { "icon": "flask-conical", "label": "Blood tests", "note": "A high white cell count signals infection" },
+        { "icon": "scan-face", "label": "Imaging", "note": "Ultrasound or a CT scan" },
+        { "icon": "scissors", "label": "Appendectomy", "note": "The standard treatment if confirmed" }
+      ]
+    },
+    {
+      "file": "erof-3829-concussion-symptoms",
+      "post_id": 3829,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "concussion",
+      "heading": "Recognizing Concussion Symptoms in Student-Athletes",
+      "title": ["", "Concussion", " Symptoms in Athletes"],
+      "logo": { "position": "top-right", "variant": "mark", "width": 48 },
+      "alt": "Nine concussion symptoms in student athletes, from headache and dizziness to irritability and changes in sleep",
+      "items": [
+        { "icon": "brain", "label": "Headache or head pressure" },
+        { "icon": "frown", "label": "Nausea or vomiting" },
+        { "icon": "moon", "label": "Balance problems or dizziness" },
+        { "icon": "sun", "label": "Light or noise sensitivity" },
+        { "icon": "battery-low", "label": "Sluggish, hazy or groggy" },
+        { "icon": "target", "label": "Trouble concentrating" },
+        { "icon": "waves", "label": "Feeling foggy or slowed down" },
+        { "icon": "heart", "label": "Irritable, sad or emotional" },
+        { "icon": "moon-star", "label": "Sleeping more or less" }
+      ]
+    },
+    {
+      "file": "erof-3829-concussion-er",
+      "post_id": 3829,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "concussion",
+      "heading": "The Critical Window: When to Seek Emergency Care",
+      "title": ["", "Concussion", ": When to Go Now"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Six concussion red flags that need emergency care immediately",
+      "items": [
+        { "icon": "eye", "label": "One pupil larger than the other" },
+        { "icon": "moon", "label": "Drowsy, or cannot be woken" },
+        { "icon": "brain", "label": "A headache that keeps worsening" },
+        { "icon": "activity", "label": "Weakness or poor coordination", "note": "Or numbness" },
+        { "icon": "frown", "label": "Repeated vomiting" },
+        { "icon": "zap", "label": "Slurred speech or convulsions" }
+      ]
+    },
+    {
+      "file": "erof-3858-kidney-stone-size",
+      "post_id": 3858,
+      "brand": "erofirving",
+      "layout": "compare",
+      "subject": "kidney stone",
+      "heading": "Why Home Remedies Fall Short for Larger Stones",
+      "title": ["", "Kidney Stone", " Size Decides"],
+      "logo": { "position": "top-right", "variant": "mark", "width": 48 },
+      "alt": "Kidney stones under four millimeters usually pass on their own, while stones of six millimeters or larger often need medical treatment",
+      "columns": ["Under 4mm", "6mm or larger"],
+      "rows": [
+        {
+          "label": "Passes on its own",
+          "values": ["About 80 percent of the time", "The chance drops sharply"]
+        },
+        {
+          "label": "Why",
+          "values": ["Small enough for the ureter", "Too wide for the narrow ureter"]
+        },
+        {
+          "label": "What it needs",
+          "values": ["Time, and manageable pain", "An in-person evaluation"]
+        }
+      ]
+    },
+    {
+      "file": "erof-3858-kidney-stone-er",
+      "post_id": 3858,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "kidney stone",
+      "heading": "Red Flags: When to Stop Home Care and Go to the ER",
+      "title": ["", "Kidney Stone", ": Stop Home Care"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Five kidney stone red flags that mean stopping home care and going to the emergency room",
+      "items": [
+        { "icon": "thermometer", "label": "Fever over 101.5°F or chills", "note": "A sign of infection" },
+        { "icon": "ban", "label": "Cannot urinate", "note": "A sign of complete blockage" },
+        { "icon": "frown", "label": "Uncontrolled vomiting", "note": "Cannot keep fluids or medicine down" },
+        { "icon": "droplet", "label": "Heavy bleeding or clots", "note": "In the urine" },
+        { "icon": "brain", "label": "Confusion or extreme fatigue", "note": "A whole-body problem" }
+      ]
+    },
+    {
+      "file": "erof-3862-sepsis-signs",
+      "post_id": 3862,
+      "brand": "erofirving",
+      "layout": "list",
+      "subject": "sepsis",
+      "heading": "Sepsis Symptoms: How to Spot the Red Flags Early",
+      "title": ["", "Sepsis", ": Spot It Early"],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Six early signs of sepsis: racing heart, fever or shivering, confusion, breathlessness, extreme pain, and clammy mottled skin",
+      "items": [
+        { "icon": "heart-pulse", "label": "Racing heart or weak pulse", "note": "As blood pressure drops" },
+        { "icon": "thermometer", "label": "Fever, shivering or feeling cold", "note": "Uncontrollable shivering is common" },
+        { "icon": "brain", "label": "Confusion or unusual sleepiness", "note": "The brain is short of oxygen" },
+        { "icon": "waves", "label": "Shortness of breath", "note": "Breathing faster to balance blood acid" },
+        { "icon": "zap", "label": "Extreme pain", "note": "Survivors call it the worst they felt" },
+        { "icon": "droplet", "label": "Clammy, pale or mottled skin", "note": "Blood pulled away to protect organs" }
+      ]
+    },
+    {
+      "file": "erof-3862-sepsis-what-to-do",
+      "post_id": 3862,
+      "brand": "erofirving",
+      "layout": "steps",
+      "subject": "sepsis",
+      "heading": "What to Do If You Suspect Sepsis",
+      "title": ["If You Suspect ", "Sepsis", ""],
+      "logo": { "position": "bottom-right", "variant": "mark", "width": 54 },
+      "alt": "Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began",
+      "steps": [
+        { "icon": "phone-call", "label": "Go now or call 911", "note": "The nearest emergency room" },
+        { "icon": "users", "label": "Say the word sepsis", "note": "Ask: could this be sepsis?" },
+        { "icon": "clock-3", "label": "Track the timeline", "note": "When the shivering or confusion began" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<title>Sid's Ponds — Quarterly Report SP-2026-Q3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  @page { size: A4; margin: 14mm 13mm 14mm; }
+  :root{
+    --ink:#1A1A1A; --ink2:#3F3F46; --muted:#6B7280; --faint:#9CA3AF;
+    --rule:#E5E7EB; --rule2:#D1D5DB;
+    --orange:#E8912D; --green:#16A34A; --red:#DC2626;
+    --panel:#F3F4F6;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#fff;color:var(--ink);
+    font-family:Lato,"Segoe UI",system-ui,sans-serif;font-size:10pt;line-height:1.5;}
+  p{margin:0 0 .72em;}
+  .mono{font-family:"IBM Plex Mono",monospace;}
+
+  .mast{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:7pt;}
+  .wordmark{font-weight:900;font-size:17pt;letter-spacing:.01em;color:var(--ink);}
+  .wordmark span{color:var(--orange);}
+  .docid{font-family:"IBM Plex Mono",monospace;font-size:8pt;color:var(--muted);
+    letter-spacing:.09em;text-transform:uppercase;}
+  .mastrule{border-top:2.2pt solid var(--ink);margin-bottom:8pt;}
+  .clientline{font-size:9.6pt;color:var(--muted);margin-bottom:12pt;}
+  .clientline b{color:var(--ink);font-weight:700;}
+
+  .summary{border:.9pt solid var(--rule2);border-left:3.5pt solid var(--orange);
+    border-radius:5pt;padding:11pt 15pt 11pt 13pt;margin-bottom:16pt;}
+  .summary ul{margin:0;padding-left:14pt;}
+  .summary li{margin-bottom:8pt;}
+  .summary li:last-child{margin-bottom:0;}
+  .summary b{font-weight:700;}
+
+  .sec{display:flex;align-items:baseline;gap:7pt;margin:0 0 6pt;}
+  .sec .n{font-family:"IBM Plex Mono",monospace;font-size:9.5pt;font-weight:600;color:var(--orange);}
+  .sec h2{margin:0;font-size:12.6pt;font-weight:700;letter-spacing:-.005em;}
+  .lede{color:var(--ink2);margin-bottom:8pt;}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8pt;margin:0 0 12pt;}
+  .kpis .c{border:.9pt solid var(--rule2);border-radius:5pt;padding:9pt 10pt;text-align:center;}
+  .kpis .c.lead{border-color:var(--ink);border-width:1.4pt;}
+  .kpis .v{font-family:"IBM Plex Mono",monospace;font-size:17pt;font-weight:600;
+    display:block;line-height:1.1;font-variant-numeric:tabular-nums;}
+  .kpis .l{font-family:"IBM Plex Mono",monospace;font-size:6.8pt;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--muted);display:block;margin-top:4pt;}
+  .kpis .d{font-size:8.6pt;display:block;margin-top:5pt;}
+  .d.up{color:var(--green);} .d.dn{color:var(--red);} .d.nu{color:var(--muted);}
+
+  table{border-collapse:collapse;width:100%;font-size:9.4pt;margin:0 0 8pt;}
+  th,td{padding:5pt 7pt;border-bottom:.7pt solid var(--rule);text-align:left;}
+  thead th{font-family:"IBM Plex Mono",monospace;font-size:6.9pt;font-weight:500;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+    border-bottom:.9pt solid var(--rule2);white-space:nowrap;}
+  td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  tbody tr:last-child td{border-bottom:none;}
+  .qmark{font-family:"IBM Plex Mono",monospace;font-size:7pt;color:var(--faint);
+    margin-right:5pt;letter-spacing:.04em;}
+  .qmark.this{color:var(--green);}
+  .up{color:var(--green);} .dn{color:var(--red);} .held{color:var(--muted);}
+  .strong{font-weight:700;}
+
+  .note{background:var(--panel);border-radius:4pt;padding:9pt 12pt;margin:8pt 0 0;font-size:9.2pt;}
+  .note b{font-weight:700;}
+  .note p:last-child{margin-bottom:0;}
+
+  ul.work{margin:0;padding-left:14pt;}
+  ul.work li{margin-bottom:5.5pt;}
+  ul.work b{font-weight:700;}
+
+  .prio{border-left:2.8pt solid var(--orange);padding:1pt 0 1pt 11pt;margin:0 0 9pt;}
+  .prio h3{margin:0 0 3pt;font-size:10.4pt;font-weight:700;}
+  .prio p{margin:0;color:var(--ink2);}
+
+  footer.doc{margin-top:15pt;padding-top:7pt;border-top:.7pt solid var(--rule);}
+  footer.doc .method{color:var(--faint);font-size:7.6pt;line-height:1.5;margin-bottom:7pt;}
+  footer.doc .strip{display:flex;justify-content:space-between;
+    font-family:"IBM Plex Mono",monospace;font-size:7.4pt;color:var(--muted);letter-spacing:.09em;}
+  .pb{page-break-before:always;}
+  .sec,table,.kpis,.summary,.note,.prio{page-break-inside:avoid;}
+</style>
+</head>
+<body>
+
+<div class="mast">
+  <div class="wordmark">GROWTH<span>BOSS</span></div>
+  <div class="docid">Quarterly Report&nbsp;&nbsp;SP-2026-Q3</div>
+</div>
+<div class="mastrule"></div>
+<div class="clientline"><b>Sid's Ponds</b> &nbsp;·&nbsp; June, July and August 2026 against March, April and May 2026 &nbsp;·&nbsp; sids-ponds.com</div>
+
+<div class="summary">
+  <ul>
+    <li><b>Clicks from Google fell 21%.</b> 4,177 visits across June, July and August against 5,288 across March, April and May, a fall of 1,111. The previous quarter contained the spring peak: May alone brought 2,598 clicks, the strongest month of the year, and that single month is most of the difference between the two quarters.</li>
+    <li><b>One page carries 41% of the fall.</b> Secure Outdoor Storage dropped from 749 clicks to 276. Its average position over the same period <em>improved</em> from 11.4 to 9.6, so this is not a page that lost its rankings. Set it aside and the rest of the site moved from 4,664 clicks to 3,987.</li>
+    <li><b>Searches by name held steady while unbranded search fell.</b> Branded searches brought 1,419 clicks against 1,480 last quarter, a fall of 4%. Searches that never mention the business moved from 1,385 to 910. The site was found for 8,600 distinct searches, slightly more than the 8,504 of the previous quarter.</li>
+  </ul>
+</div>
+
+<div class="sec"><span class="n">01</span><h2>The two quarters, month by month</h2></div>
+
+<div class="kpis">
+  <div class="c lead"><span class="v">4,177</span><span class="l">Clicks, Jun to Aug</span><span class="d dn">−1,111 on 5,288, −21%</span></div>
+  <div class="c"><span class="v">14.8</span><span class="l">Avg. position</span><span class="d dn">from 13.1</span></div>
+  <div class="c"><span class="v">910</span><span class="l">Non-branded clicks</span><span class="d dn">down from 1,385</span></div>
+  <div class="c"><span class="v">8,600</span><span class="l">Searches found for</span><span class="d up">up from 8,504</span></div>
+</div>
+
+<table>
+  <thead><tr><th>Month</th><th class="n">Clicks</th><th class="n">Avg. position</th><th class="n">Times shown</th></tr></thead>
+  <tbody>
+    <tr><td><span class="qmark">prev quarter</span>March</td><td class="n">939</td><td class="n">14.5</td><td class="n">50,201</td></tr>
+    <tr><td><span class="qmark">prev quarter</span>April</td><td class="n">1,751</td><td class="n">12.7</td><td class="n">62,160</td></tr>
+    <tr><td><span class="qmark">prev quarter</span>May</td><td class="n strong">2,598</td><td class="n">12.5</td><td class="n">73,716</td></tr>
+    <tr><td><span class="qmark this">this quarter</span>June</td><td class="n">1,799</td><td class="n">13.5</td><td class="n">57,095</td></tr>
+    <tr><td><span class="qmark this">this quarter</span>July</td><td class="n">1,291</td><td class="n">15.2</td><td class="n">49,275</td></tr>
+    <tr><td><span class="qmark this">this quarter</span>August *</td><td class="n">1,087</td><td class="n">15.8</td><td class="n">51,201</td></tr>
+  </tbody>
+</table>
+
+<p>The year runs to a spring peak. Clicks climbed from 939 in March to 2,598 in May, then eased back through the summer to 1,087 in August. August still sits above March, so the site is not below where the previous quarter started; the comparison is between a quarter that contained the peak and one that did not.</p>
+
+<div class="note">
+  <p><b>Where the fall is concentrated.</b> Secure Outdoor Storage accounts for 473 of the 1,150 clicks lost across all pages. The homepage accounts for a further 291 and the Magic Carpet fertilizer page 183. Those three pages are 82% of the total; every other page on the site combined moved by 203 clicks.</p>
+</div>
+
+<div class="sec" style="margin-top:15pt;"><span class="n">02</span><h2>Priority search movement</h2></div>
+<p class="lede">The fifteen commercial searches bringing the most demand to the site, this quarter against last. Lower position is better.</p>
+
+<table>
+  <thead><tr><th>Search term</th><th class="n">Mar to May</th><th class="n">Jun to Aug</th><th class="n">Movement</th><th class="n">Clicks</th></tr></thead>
+  <tbody>
+    <tr><td>limestone screening</td><td class="n">42.4</td><td class="n strong">5.4</td><td class="n up">up 37.0</td><td class="n">0</td></tr>
+    <tr><td>green wall</td><td class="n">23.3</td><td class="n strong">13.2</td><td class="n up">up 10.1</td><td class="n">1</td></tr>
+    <tr><td>sod</td><td class="n">23.1</td><td class="n strong">15.1</td><td class="n up">up 8.0</td><td class="n">7</td></tr>
+    <tr><td>outdoor bike storage</td><td class="n">8.0</td><td class="n strong">6.2</td><td class="n up">up 1.8</td><td class="n">8</td></tr>
+    <tr><td>bike shed</td><td class="n">8.6</td><td class="n strong">7.8</td><td class="n up">up 0.7</td><td class="n">22</td></tr>
+    <tr><td>bike storage shed</td><td class="n">9.1</td><td class="n strong">8.3</td><td class="n up">up 0.7</td><td class="n">9</td></tr>
+    <tr><td>bike shed canada</td><td class="n">3.7</td><td class="n strong">3.1</td><td class="n up">up 0.6</td><td class="n">12</td></tr>
+    <tr><td>bike storage</td><td class="n">8.1</td><td class="n strong">8.0</td><td class="n held">held</td><td class="n">8</td></tr>
+    <tr><td>landscape supply near me</td><td class="n">5.8</td><td class="n strong">7.0</td><td class="n dn">down 1.2</td><td class="n">7</td></tr>
+    <tr><td>pond</td><td class="n">6.9</td><td class="n strong">8.3</td><td class="n dn">down 1.4</td><td class="n">3</td></tr>
+    <tr><td>pond supplies near me</td><td class="n">7.9</td><td class="n strong">10.4</td><td class="n dn">down 2.5</td><td class="n">9</td></tr>
+    <tr><td>hornwort</td><td class="n">3.5</td><td class="n strong">6.2</td><td class="n dn">down 2.7</td><td class="n">3</td></tr>
+    <tr><td>magic carpet fertilizer</td><td class="n">5.7</td><td class="n strong">8.6</td><td class="n dn">down 2.9</td><td class="n">28</td></tr>
+    <tr><td>living wall</td><td class="n">14.9</td><td class="n strong">18.2</td><td class="n dn">down 3.2</td><td class="n">13</td></tr>
+    <tr><td>sod mississauga</td><td class="n">8.5</td><td class="n strong">13.7</td><td class="n dn">down 5.3</td><td class="n">2</td></tr>
+  </tbody>
+</table>
+
+<p>Seven improved, one held and seven declined. The gains are in the landscaping range, where <span class="mono">limestone screening</span> moved thirty-seven places to reach position 5.4, and <span class="mono">green wall</span> and <span class="mono">sod</span> both climbed out of page three. The declines are concentrated in the pond range and on the two best-selling product pages, fertilizer and hornwort, each of which slipped a few places from an already strong position.</p>
+
+<div class="sec" style="margin-top:15pt;"><span class="n">03</span><h2>Work completed this quarter</h2></div>
+<ul class="work">
+  <li><b>Eight category and content pages rewritten across August.</b> The outdoor lighting department, Inground &amp; Recessed Lighting from 70 to 355 words, Fire Pit Inserts from 67 to 333, Pond Supplies &amp; Kits from 176 to 306, and Green Living Wall Kits rebuilt around modular wall systems. Customer questions added to Hardscaping &amp; Interlock, the homepage search listing rewritten, and the Backyard Interlock guide restructured with design-pattern and small-yard sections.</li>
+  <li><b>Two factual errors corrected on product information.</b> The living wall pot-set quantities were understated on two of the three kits, checked against the live product options. Two photographs on the interlock guide carried descriptions of a different product.</li>
+  <li><b>Sunday opening hours corrected</b> on the contact page and in the hours panel that appears at the top of every page.</li>
+  <li><b>A 110KB font file removed from every page of the site.</b> The footer payment and social icons were rebuilt as inline graphics, so the file no longer downloads anywhere.</li>
+  <li><b>Sixteen internal links repointed</b> across the lighting pages, so each now goes straight to its destination rather than through a redirect.</li>
+  <li><b>Three readability faults fixed.</b> Testimonial job titles on About Us were below the contrast standard at 3.12:1 and are now 4.82:1; the promotion badge text was 2.95:1 and is now 7.40:1; the location map had no description for screen readers.</li>
+  <li><b>The homepage seasonal promotion rebuilt</b> and renamed End of Summer Blowout. Its heading had been set in a typeface the site does not load, so it had never displayed as designed, and the sale price was styled more faintly than the crossed-out original price.</li>
+  <li><b>Sixteen months of daily search history assembled</b>, so page-level changes can now be measured against a site-wide control rather than judged in isolation.</li>
+</ul>
+
+<div class="note">
+  <p><b>These figures do not yet reflect that work.</b> All of the content and technical work above was published between 19 and 29 August, the final eleven days of the quarter. The performance in this report describes the site largely before those changes took effect, and the next report is the first that can measure them.</p>
+</div>
+
+<div class="sec" style="margin-top:15pt;"><span class="n">04</span><h2>Priorities for the next quarter</h2></div>
+
+<div class="prio">
+  <h3>1. Move the living wall range onto page one</h3>
+  <p>The category draws 7,836 unbranded impressions a quarter across 520 distinct searches, and six of its commercial terms sit between positions 15 and 20 — the top of page two, where a result is seen and rarely clicked. <span class="mono">green wall</span> has already moved from 23.3 to 13.2. This is the shortest distance to page one anywhere on the site.</p>
+</div>
+<div class="prio">
+  <h3>2. Finish the category rewrites</h3>
+  <p>Four departments were rebuilt in August. The remaining pond and landscaping categories follow the same pattern: real descriptions of what is stocked, headings drawn from the searches customers actually type, and the regional vocabulary the current pages miss.</p>
+</div>
+<div class="prio">
+  <h3>3. Recover the homepage and fertilizer positions</h3>
+  <p>After Secure Outdoor Storage, the largest falls were the homepage at 291 clicks and the Magic Carpet fertilizer page at 183. Both slipped roughly three places over the quarter, the homepage from 7.6 to 10.1 and the fertilizer page from 6.7 to 9.7. That is the difference between the top of page one and the bottom of it, and on pages of this volume those places are worth more than any new page would be.</p>
+</div>
+
+<footer class="doc">
+  <p class="method">Figures compare 1 June to 29 August 2026 against 1 March to 31 May 2026, taken from Search Console on 1 September 2026. * August covers 29 days rather than the full month because Search Console reports roughly three days behind; the August totals will rise slightly once those days arrive. Average position is weighted by how often each page was shown rather than averaged flat. A search term's earlier position is treated as a baseline only where that period had at least 30 impressions behind it. Branded and non-branded figures are calculated on the searches Search Console names, and it withholds rare ones, so both quarters are compared on the same basis rather than as absolute totals. Page-level figures are taken from page reporting and sum slightly differently from the site total.</p>
+  <div class="strip"><span>GROWTHBOSS&nbsp;&nbsp;·&nbsp;&nbsp;QUARTERLY REPORT</span><span>SP-2026-Q3&nbsp;&nbsp;·&nbsp;&nbsp;CONFIDENTIAL</span></div>
+</footer>
+
+</body>
+</html>

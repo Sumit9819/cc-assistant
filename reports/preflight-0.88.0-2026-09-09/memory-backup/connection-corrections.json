@@ -1,0 +1,12 @@
+[
+  {
+    "path": "D:\\cc-assistant\\CLAUDE.md",
+    "before_sha256": "8de55b012000d4e83fe6390bd32cd875adfd3f1bd5d5235dd970cdf93ec8fc3b",
+    "after_sha256": "308a9040f509ba6d32d332cd82e816c96be7b95eac693ddc54c83168ede9a59f"
+  },
+  {
+    "path": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\CLAUDE.md",
+    "before_sha256": "e1ebd1026ce077c653353347772cc4eb2dfe48f939281efe8e631e40b6ef8508",
+    "after_sha256": "c46a3638867d37cb6084bea8eacd7b84538711a704cb63335b2a65e1f7a4f0a5"
+  }
+]

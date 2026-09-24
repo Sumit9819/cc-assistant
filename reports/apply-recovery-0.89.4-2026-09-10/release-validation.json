@@ -1,0 +1,15 @@
+{
+  "version": "0.89.4",
+  "zip": "C:\\Users\\sumit\\Local Sites\\plugintesting\\app\\public\\.cc-release-work\\recovery-0.89.4\\cc-assistant-0.89.4.zip",
+  "files": 159,
+  "sha256": "9c81958fd038d5ee347bc8c0836b673973b27f37521fbde6b7da56983a1fd8c0",
+  "crc_valid": true,
+  "zip_matches_stage": true,
+  "mcp_tools": 177,
+  "mcp_version": "0.89.4",
+  "php_regression_files": 59,
+  "syntax_files": 206,
+  "live_payload_replay_cases": 28,
+  "fresh_targets_compared": 18,
+  "production_apply_performed": false
+}

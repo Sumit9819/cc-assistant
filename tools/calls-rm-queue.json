@@ -1,0 +1,201 @@
+[
+  {
+    "route": "cc-assistant/v1/posts/3081/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3081.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3097/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3097.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3103/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3103.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3116/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3116.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3162/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3162.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3201/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3201.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3365/render-probe",
+    "method": "GET",
+    "out": "card-generator/_rm/probe-3365.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3081,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3089 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/Does-ER-Have-X-Ray-Services-for-All-Conditions-1024x551.webp\" alt=\"Does ER Have X-Ray Services for All Conditions\" width=\"1024\" height=\"551\">\r\n\r\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3088 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/When-to-Choose-the-Emergency-Room-for-an-X-Ray-1024x551.webp\" alt=\"When to Choose the Emergency Room for an X-Ray\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 2 heading-echo banner image(s) from post 3081",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3081.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3097,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3100 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/What-Are-the-Symptoms-of-Slipping-Rib-Syndrome-1024x551.webp\" alt=\"What Are the Symptoms of Slipping Rib Syndrome\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3098 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-Is-Slipping-Rib-Syndrome-Diagnosed-1024x551.webp\" alt=\"How Is Slipping Rib Syndrome Diagnosed\" width=\"1024\" height=\"551\">\r\n\r\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3101 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/When-Should-You-Seek-Medical-Attention-1024x551.webp\" alt=\"When Should You Seek Medical Attention\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 3 heading-echo banner image(s) from post 3097",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3097.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3103,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3107 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/Symptoms-How-to-Tell-the-Difference-1024x551.webp\" alt=\"Symptoms How to Tell the Difference\" width=\"1024\" height=\"551\">\r\n\r\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3104 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-Are-Bone-Injuries-Diagnosed-1024x551.webp\" alt=\"How Are Bone Injuries Diagnosed\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3105 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/04/How-to-Heal-a-Bone-Bruise-Fast-1024x551.webp\" alt=\"How to Heal a Bone Bruise Fast\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 3 heading-echo banner image(s) from post 3103",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3103.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3116,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3120 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-Skeletal-Traction-1024x551.webp\" alt=\"What is Skeletal Traction\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3118 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/Skeletal-Traction-Complications-1024x551.webp\" alt=\"Skeletal Traction Complications\" width=\"1024\" height=\"551\">\r\n\r\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3117 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/How-Bone-Stimulators-Support-Skeletal-Traction-Recovery-1024x551.webp\" alt=\"How Bone Stimulators Support Skeletal Traction Recovery\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 3 heading-echo banner image(s) from post 3116",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3116.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3162,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3166 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/What-is-muscle-strain-1024x551.webp\" alt=\"What is muscle strain\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3163 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/7-Expert-Tips-to-Speed-Up-Muscle-Strain-Recovery-1024x551.webp\" alt=\"7 Expert Tips to Speed Up Muscle Strain Recovery\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3165 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/05/Muscle-Strain-Recovery-What-works-for-it-and-what-doesnt-1024x551.webp\" alt=\"Muscle Strain Recovery What works for it and what doesn\u2019t\" width=\"1024\" height=\"551\">\r\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 3 heading-echo banner image(s) from post 3162",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3162.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3201,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3202 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/10-Warning-Signs-of-Dehydration-1024x551.webp\" alt=\"10 Warning Signs of Dehydration\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3205 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/What-Happens-If-You-Are-Dehydrated-1024x551.webp\" alt=\"What Happens If You Are Dehydrated\" width=\"1024\" height=\"551\">\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3203 size-large\" src=\"https://erofirving.com/wp-content/uploads/2025/06/IV-for-Dehydration-A-Lifesaving-Solution-1024x551.webp\" alt=\"IV for Dehydration A Lifesaving Solution\" width=\"1024\" height=\"551\">\r\n\r\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 3 heading-echo banner image(s) from post 3201",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3201.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3365,
+      "patches": [
+        {
+          "search": "<img class=\"aligncenter wp-image-3367 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/What-Is-a-Stress-Fracture-scaled.webp\" alt=\"What Is a Stress Fracture\" width=\"2560\" height=\"1378\" />\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3369 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/How-Are-Stress-Fractures-Diagnosed-scaled.webp\" alt=\"How Are Stress Fractures Diagnosed\" width=\"2560\" height=\"1378\" />\r\n\r\n",
+          "replace": ""
+        },
+        {
+          "search": "<img class=\"aligncenter wp-image-3368 size-full\" src=\"https://erofirving.com/wp-content/uploads/2025/10/When-Should-You-Seek-Emergency-Care-for-a-Stress-Fracture-scaled.webp\" alt=\"When Should You Seek Emergency Care for a Stress Fracture\" width=\"2560\" height=\"1378\" />\n",
+          "replace": ""
+        }
+      ],
+      "summary": "Remove 3 heading-echo banner image(s) from post 3365",
+      "reasoning": "These images restate their own heading and nothing else: the alt text is the heading verbatim and the filename is the heading slugified, over a stock photo with the same words burned into a caption bar. Since the in-body cards now sit directly below their heading, the reader met the same words three times, as the heading, as a picture of the heading, then as the card's title. The heading itself is untouched, so no wording, no claim and no citation changes, and the alt text was duplicating text that stays on the page. Only the reference in the body is removed: every attachment stays in the media library at the same URL, so this is reversible with a forward patch and no file is deleted. Genuine photographs are NOT touched anywhere, including the two on post 2780 whose alt text describes something the heading does not."
+    },
+    "out": "card-generator/_rm/queued-3365.json"
+  }
+]

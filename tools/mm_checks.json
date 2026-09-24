@@ -1,0 +1,10 @@
+[
+ {"route":"cc-assistant/v1/pending","method":"GET","out":"mm_pending.json"},
+ {"route":"cc-assistant/v1/health","method":"GET","out":"mm_health.json"},
+ {"route":"cc-assistant/v1/gsc/inspect-url?url=https%3A%2F%2Fmammothmachinery.ca%2Flandscaping-jobs-mini-skid-steer%2F","method":"GET","out":"mm_insp1.json"},
+ {"route":"cc-assistant/v1/gsc/inspect-url?url=https%3A%2F%2Fmammothmachinery.ca%2Fwheel-loader-vs-skid-steer%2F","method":"GET","out":"mm_insp2.json"},
+ {"route":"cc-assistant/v1/links/orphans","method":"GET","out":"mm_orphans.json"},
+ {"route":"cc-assistant/v1/links/summary","method":"GET","out":"mm_links.json"},
+ {"route":"cc-assistant/v1/redirect-audit","method":"GET","out":"mm_redirects.json"},
+ {"route":"cc-assistant/v1/schema-scan","method":"GET","out":"mm_schema.json"}
+]

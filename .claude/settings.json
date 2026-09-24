@@ -1,0 +1,42 @@
+{
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__cc-assistant-.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/cc_gate.py pre",
+            "timeout": 15,
+            "statusMessage": "cc_gate: checking session preflight"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__cc-assistant-.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/cc_gate.py post",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/cc_gate.py stop",
+            "timeout": 180,
+            "statusMessage": "cc_gate: notes check + operator brain push"
+          }
+        ]
+      }
+    ]
+  }
+}

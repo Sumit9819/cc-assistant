@@ -1,0 +1,4 @@
+[
+  { "route": "wp/v2/settings", "method": "GET", "out": "_set.json" },
+  { "route": "wp/v2/media?search=logo&per_page=20&_fields=id,source_url,title,mime_type", "method": "GET", "out": "_med.json" }
+]

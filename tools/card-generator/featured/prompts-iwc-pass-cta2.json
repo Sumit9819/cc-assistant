@@ -1,0 +1,10 @@
+{
+  "_note": "Replacement for the Wellness Pass closing CTA photo (operator, 2026-09-16: use a woman instead of the man). Same framing brief as the hero so the two shots sit together: lifestyle, not a clinic, subject on the right third, calm negative space on the left for the white heading and button.",
+  "images": [
+    {
+      "name": "iwc-pass-cta-woman",
+      "brand": "iwc",
+      "prompt": "Horizontal orientation, wider than tall, wide cinematic framing. An editorial lifestyle photograph of a woman in her early forties with fair skin and shoulder-length auburn hair, sitting relaxed on a cream linen sofa beside a tall bright window, wearing a plain sage green knit sweater, one arm resting along the back of the sofa, a warm easy smile, looking toward the camera. The room has warm off-white walls, a leafy green plant and soft linen curtains, soft natural morning light, shallow depth of field. She is placed on the right third of the frame, leaving calm uncluttered space on the left half. No text, no logos, no medical equipment."
+    }
+  ]
+}

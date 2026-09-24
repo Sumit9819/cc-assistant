@@ -1,0 +1,17 @@
+[
+  {
+    "route": "wp/v2/posts?include=2780,3081,3091,3097,3103,3116,3162,3201,3365,3792,3796,3800,3803,3808,3813&context=edit&per_page=15",
+    "method": "GET",
+    "out": "erof-live13-0.json"
+  },
+  {
+    "route": "wp/v2/posts?include=3816,3825,3829,3833,3850,3854,3858,3862,3867,3871,3875,3879,3882,3886,3894&context=edit&per_page=15",
+    "method": "GET",
+    "out": "erof-live13-1.json"
+  },
+  {
+    "route": "wp/v2/posts?include=3897,3900,3918,3921,3924,3930,3934,3937,3977,3978,3979,4008,4011,4345,4410&context=edit&per_page=15",
+    "method": "GET",
+    "out": "erof-live13-2.json"
+  }
+]

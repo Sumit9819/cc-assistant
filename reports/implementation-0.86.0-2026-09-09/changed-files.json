@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CONTENT-STRATEGY.md",
+    "before_sha256": "8916f7980bed91ebe5afdd4f645411cf526e7a3a1d051c7d29b72042d11410fc",
+    "after_sha256": "33ed1bf30a333c33a507d8473eed1a5228f7666148cd2f74b836b34bc657a42a"
+  },
+  {
+    "path": "README.md",
+    "before_sha256": "27843244f2280b875bc05008061ecc457eea1190bc4825f3907f3dca62045adf",
+    "after_sha256": "cc0c016489d1d1c5160e850f461e9fcd092fe2a58a7bad588535a665b95414a7"
+  },
+  {
+    "path": "bin/content-tools.php",
+    "before_sha256": "7a1498ce19c7c49600bfce79f90ce4a66c41930968b8d325cda4ddde80c1f91e",
+    "after_sha256": "63d8619528f40c78d5d6bdf06704e62a33fc1a6ee54c6f830650de913f683d0a"
+  },
+  {
+    "path": "bin/mcp-server.php",
+    "before_sha256": "af507fed92d04ef96c53627291026c5b0df8ac13ca92f66d121f7d4d65716ca7",
+    "after_sha256": "272e3c63cbb758217d2823c415838ab7b13b349e1ccaf357477d526dc8babde9"
+  },
+  {
+    "path": "bootstrap/CLAUDE-md-template.md",
+    "before_sha256": "c430dde748a9ab0b4df10d257544002c3af92a308e4bea9358b3392184e5066d",
+    "after_sha256": "f28daab85ccec5bee0f82c3d3f704cd3721fc0ba7d68ef918fe9b740c23ecc34"
+  },
+  {
+    "path": "cc-assistant.php",
+    "before_sha256": "1e43e9b722c1ab8d01764140363316ff754fb7cb3b3413d29f55f2ddcaac7029",
+    "after_sha256": "7481978dd8c2b89b1fa22fb1726218dd296121ba63047f1eb91d6ae3f49b4447"
+  },
+  {
+    "path": "includes/class-content-scope.php",
+    "before_sha256": null,
+    "after_sha256": "316680f498a479b8afd1e2983f7184b1b5b88261db6b952b98c2a12ee13267ee"
+  },
+  {
+    "path": "includes/class-content-strategy.php",
+    "before_sha256": "de855544e3350f81c3d8df4c0b2e01befcc55a74482cd9ed99664a39a7654394",
+    "after_sha256": "26d030ffea4ecd6403cd950c07dfb406d50f6d061c7b9abed1f9778889c9a77f"
+  },
+  {
+    "path": "includes/class-content-workflow.php",
+    "before_sha256": null,
+    "after_sha256": "c89dca14d6ccc6743149b6736cd9b967edd45d73f28e2635a724910fc43a1bfc"
+  },
+  {
+    "path": "includes/class-rest-api.php",
+    "before_sha256": "a445c9c9685e27e740aa20d7cb375d6f6daa26d3ee595a4bdac262a0f12beacc",
+    "after_sha256": "7f2d83c2b3fe8045d507bd722f66fbea06305ed380dc533e02f4641e71e0d2b2"
+  },
+  {
+    "path": "includes/class-rest-content-strategy.php",
+    "before_sha256": "7c736a2f748aa2ce483a38c3ecfd3a817c4499761d1e28d30fbdf87ff589d997",
+    "after_sha256": "4b8c42037bfa9cceff852ad1b55b6d80ffecbc2e0e6f94a9f63e4105ffc11f8b"
+  },
+  {
+    "path": "includes/class-seo-playbook.php",
+    "before_sha256": "a9ec181408960705a3763410e3a2621c169de57f5a98c9ef592959cce4d7282a",
+    "after_sha256": "a6b3a6a46217a0bec5bacfb719973f2164a3ece1a81ae2e518957e2a67e51d82"
+  },
+  {
+    "path": "includes/class-seo-policy.php",
+    "before_sha256": "067b4dbf219956c33913ec16ef1c265c8587cfa9c498ca36ad9e4c0bdb928f3e",
+    "after_sha256": "1320fd46b2121876b388d0b9a8535ed8bbd094cb4f20f6ffb8284e4c65f77767"
+  },
+  {
+    "path": "readme.txt",
+    "before_sha256": "0e269e698c91967bcf081d23f968b1c6656c16efcbf42cd25bf279e9b3ed8c28",
+    "after_sha256": "fef185377625ddb6c18344a8f60d57f686a7d0227f4bc744907726a77020d34b"
+  },
+  {
+    "path": "tests/content-scope-test.php",
+    "before_sha256": null,
+    "after_sha256": "61e82329608d65b2f537a4c489e21e79f8743f3d472e74258db7134b35ac60f7"
+  },
+  {
+    "path": "tests/content-strategy-test.php",
+    "before_sha256": "9a7a9aaf257c425c140ad329cddddae72d09510e6ad9af542c09f9431a1ad01d",
+    "after_sha256": "acddbe651322fef321bead4ea9a50088c2c18ddbaa2a1a4f6e586f9cd15a9100"
+  }
+]

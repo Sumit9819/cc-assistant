@@ -1,0 +1,5 @@
+[
+  {"route":"cc-assistant/v1/whoami","method":"GET","out":"card-generator/_fix/whoami.json"},
+  {"route":"wp/v2/posts?include=3103,3116,3792,3803,3808,3813,3816,3825&context=edit&per_page=10","method":"GET","out":"erof-fix-a.json"},
+  {"route":"wp/v2/posts?include=3850,3854,3862,3867,3886,3897,3924,3934&context=edit&per_page=10","method":"GET","out":"erof-fix-b.json"}
+]

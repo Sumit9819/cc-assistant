@@ -1,0 +1,28 @@
+<?php
+require __DIR__ . '/content-strategy-test.php';
+$GLOBALS['actor'] = 9; $GLOBALS['lock_busy'] = false; $GLOBALS['storage_fail'] = false;
+$GLOBALS['options']['cc_assistant_content_scope'] = array( 'service_post_ids' => array( 100, 200 ), 'excluded_topics' => array( 'celebrity gossip' ) );
+$GLOBALS['response'] = array( 'code' => 200, 'headers' => array( 'content-type' => 'text/html' ), 'body' => '<html><main><h1>Preparing useful questions</h1><p>' . str_repeat( 'This is an observed explanation of preparing useful service questions. ', 8 ) . '</p></main></html>' );
+$args = array( 'topic' => 'Questions to ask about diagnostic imaging', 'anchor_post_id' => 100, 'reader_goal' => 'Prepare useful questions for the care team', 'proposed_contribution' => 'A practical question list linked to supported answers', 'competitor_urls' => array( 'https://competitor.example/new-topic' ), 'primary_source_urls' => array( 'https://competitor.example/source' ) );
+$r = CC_Assistant_Content_Decisions::research( $args );
+check( 'new topic research works without a post or GSC gap', ! is_wp_error( $r ) && 'prospective_topic_research' === $r['record']['assessment'] && false === $r['record']['coverage']['gsc_required'] );
+check( 'source roles do not pretend primary authority is verified', 'caller_classified_not_independently_verified' === $r['record']['external_sources'][1]['role_verification'] );
+check( 'proposed information gain is explicitly unverified', false === $r['record']['coverage']['global_originality_assessed'] && 'proposed_not_fact_checked_or_proven_unique' === $r['record']['contribution_status'] );
+$again = CC_Assistant_Content_Decisions::research( $args );
+check( 'same captured research reuses its record', $again['record_id'] === $r['record_id'] && $again['reused'] );
+$changed = $args; $changed['proposed_contribution'] = 'A different supported checklist';
+check( 'changed contribution creates a distinct review record', CC_Assistant_Content_Decisions::research( $changed )['record_id'] !== $r['record_id'] );
+$bad = $args; $bad['post_id'] = 100;
+check( 'ambiguous existing and prospective targets are rejected', 'research_target_ambiguous' === CC_Assistant_Content_Decisions::research( $bad )->get_error_code() );
+$bad = $args; $bad['anchor_post_id'] = 999999;
+check( 'unavailable niche anchors cannot certify a proposal', 'research_scope_required' === CC_Assistant_Content_Decisions::research( $bad )->get_error_code() );
+$bad = $args; $bad['topic'] = 'Celebrity gossip';
+check( 'explicit scope exclusions remain enforced', 'research_topic_excluded' === CC_Assistant_Content_Decisions::research( $bad )->get_error_code() );
+$bad = $args; $bad['competitor_urls'] = array( 'https://competitor.example/1', 'https://competitor.example/2', 'https://competitor.example/3', 'https://competitor.example/4' );
+check( 'research fetch budgets cannot expand silently', 'research_budget' === CC_Assistant_Content_Decisions::research( $bad )->get_error_code() );
+$bad = $args; $bad['competitor_urls'] = array( 'http://127.0.0.1/admin' );
+$blocked = CC_Assistant_Content_Decisions::research( $bad );
+check( 'unsafe competitor URLs remain explicitly unavailable', 'unavailable' === $blocked['record']['external_sources'][0]['coverage'] );
+$GLOBALS['actor'] = 42;
+check( 'new topic records cannot leak across actors', 'decision_not_found' === CC_Assistant_Content_Decisions::history( $r['record_id'] )->get_error_code() );
+echo "All prospective research regressions passed.\n";

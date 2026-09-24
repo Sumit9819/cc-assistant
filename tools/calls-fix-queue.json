@@ -1,0 +1,342 @@
+[
+  {
+    "route": "cc-assistant/v1/posts/3103/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3103.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3116/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3116.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3792/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3792.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3803/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3803.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3808/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3808.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3813/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3813.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3816/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3816.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3825/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3825.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3850/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3850.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3854/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3854.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3862/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3862.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3867/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3867.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3886/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3886.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3897/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3897.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3924/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3924.json"
+  },
+  {
+    "route": "cc-assistant/v1/posts/3934/render-probe",
+    "method": "GET",
+    "out": "card-generator/_fix/probe-3934.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3103,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-bruise-care.webp\" alt=\"Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3103-bone-bruise-care-r2-1.webp\" alt=\"Five steps to heal a bone bruise: rest, ice, compression, elevation, and two to eight weeks of avoiding aggravation\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3103 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3103.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3116,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-traction-sites.webp\" alt=\"The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3116-traction-sites-r2-1.webp\" alt=\"The three bones where skeletal traction is most effective: the distal femur, the proximal tibia and the cervical spine\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3116 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3116.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3792,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3792-snake-bite-first-aid.webp\" alt=\"Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3792-snake-bite-first-aid-r2.webp\" alt=\"Snake bite first aid in five steps: move away, call 911, keep the limb still and below heart level, remove jewelry, and wash the wound gently\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3792 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3792.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3803,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-red-flags.webp\" alt=\"Six signs that a swallowed button battery is lodged in a child's throat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-red-flags-r2.webp\" alt=\"Six signs that a swallowed button battery is lodged in a child's throat\" width=\"1200\" height=\"732\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3803 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3803.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3808,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-infant-signs.webp\" alt=\"Four signs of RSV in an infant, which typically peak on day three to five\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-infant-signs-r2.webp\" alt=\"Four signs of RSV in an infant, which typically peak on day three to five\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3808 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3808.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3813,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-er.webp\" alt=\"The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-er-r2.webp\" alt=\"The four stages of appendicitis care in the emergency room: physical exam, blood tests, imaging, and appendectomy\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        },
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-pain-shift.webp\" alt=\"How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3813-appendicitis-pain-shift-r2.webp\" alt=\"How appendicitis pain moves: starting dull at the navel, migrating to the lower right, turning sharp, and worsening with movement\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 2 card(s) on post 3813 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3813.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3816,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-scratched-cornea.webp\" alt=\"Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3816-scratched-cornea-r2.webp\" alt=\"Four symptoms of a scratched cornea: a gritty feeling, tearing and redness, light sensitivity, and blurred vision\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3816 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3816.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3825,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-first-aid.webp\" alt=\"Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3825-dog-bite-first-aid-r2.webp\" alt=\"Dog bite first aid in four steps: pressure, washing, antibiotic ointment, and covering the wound\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3825 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3825.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3850,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3850-workplace-first-steps.webp\" alt=\"The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3850-workplace-first-steps-r2.webp\" alt=\"The first three steps after a workplace injury: call 911 for heavy bleeding or loss of consciousness, get driven to an ER for serious injuries that are not life-threatening, and report the injury to your employer in writing\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3850 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3850.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3854,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-treatment.webp\" alt=\"The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3854-dka-er-treatment-r2.webp\" alt=\"The three pillars of DKA treatment in the emergency room: intravenous fluid replacement, electrolyte replacement, and insulin therapy\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3854 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3854.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3862,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-what-to-do.webp\" alt=\"Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3862-sepsis-what-to-do-r2.webp\" alt=\"Three things to do if you suspect sepsis: get emergency care, say the word sepsis, and track when the symptoms began\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3862 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3862.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3867,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-emergency-steps.webp\" alt=\"Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3867-co-emergency-steps-r2.webp\" alt=\"Four steps when a carbon monoxide alarm sounds: get out, call 911, count heads, and get checked\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3867 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3867.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3886,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-fast-signs.webp\" alt=\"The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-fast-signs-r2.webp\" alt=\"The four F.A.S.T. stroke warning signs: face drooping, arm weakness, speech difficulty, and time to call 911\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3886 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3886.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3897,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-er-care.webp\" alt=\"What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-er-care-r2.webp\" alt=\"What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3897 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3897.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3924,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-treatment.webp\" alt=\"How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3924-abscess-treatment-r2.webp\" alt=\"How the emergency room treats a peritonsillar abscess: drainage, high-dose antibiotics, and steroids\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3924 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3924.json"
+  },
+  {
+    "route": "cc-assistant/v1/draft/post-content-patch",
+    "method": "POST",
+    "body": {
+      "post_id": 3934,
+      "patches": [
+        {
+          "search": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-diagnosis.webp\" alt=\"How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>",
+          "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3934-dvt-diagnosis-r2.webp\" alt=\"How the emergency room diagnoses DVT: a D-dimer blood test, a duplex ultrasound, and venography if needed\" width=\"1200\" height=\"630\" loading=\"lazy\" decoding=\"async\" /></figure>"
+        }
+      ],
+      "summary": "Swap 1 card(s) on post 3934 for the re-render with the icon filling its circle",
+      "reasoning": "Image swap only. Same card, same layout, same wording, same alt text byte for byte, same position in the body: the only difference is that the icon inside each circular disc is drawn at 65% of the disc diameter instead of 47%. The old size left 30 to 54px of empty ring around every glyph, which the operator flagged as the icon not covering its circle. 65% is the ratio the list layout has always used (a 30px icon in a 46px circle) across 58 cards, so it is taken from inside the existing system rather than invented. The replacement declares the dimensions of the file actually being served, which is why the whole figure is rewritten rather than just the src. The previous attachment stays in the media library, so this is reversible with a forward patch and no file is deleted."
+    },
+    "out": "card-generator/_fix/queued-3934.json"
+  }
+]

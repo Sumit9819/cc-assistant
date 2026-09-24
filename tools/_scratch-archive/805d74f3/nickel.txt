@@ -1,0 +1,3 @@
+Error: Query failed: Authentication expired. Run 'nlm login' in your terminal to
+re-authenticate. MCP users: the server should auto-detect the new credentials; 
+if not, call the refresh_auth tool.

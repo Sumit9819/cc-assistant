@@ -1,0 +1,70 @@
+PASS: Separate approvals preserve independent widgets through durable recovery proof
+PASS: Four independent widgets apply in one selected batch, with duplicate IDs applied once
+PASS: Actual saved Elementor tree contains every approved update
+PASS: Applied widget retains its own recovery snapshot #1
+PASS: Applied widget retains its own recovery snapshot #2
+PASS: Applied widget retains its own recovery snapshot #3
+PASS: Applied widget retains its own recovery snapshot #4
+PASS: Overlapping proposals cannot overwrite an earlier approved widget
+PASS: Already stale proposals receive no batch exception
+PASS: Evidence rejection leaves the proposal unclaimed
+PASS: Same-second external edit between siblings still blocks the remaining write
+PASS: Environment changes remain blocked even after a trusted sibling
+PASS: Unexpected side effects cannot become trusted evidence
+PASS: A proposal altered after selection cannot borrow the batch authorization
+PASS: Unselected proposals cannot join a batch
+PASS: A later selected request verifies the persisted snapshot chain independently
+PASS: Recovery failure prevents writes and cannot advance sibling evidence
+Batch regression checks passed: 17
+PASS: Section, title, SEO and author survive separate requests #1: 
+PASS: Section, title, SEO and author survive separate requests #2: 
+PASS: Section, title, SEO and author survive separate requests #3: 
+PASS: Section, title, SEO and author survive separate requests #4: 
+PASS: Mixed edits all persist without replacing prior content
+PASS: Article body, title, excerpt and both SEO fields apply together
+PASS: Article revisions remain intact
+PASS: Chain follows actual snapshot/application order, not proposal creation order
+PASS: A multi-step chain works after separate approval requests
+PASS: Section and individual-widget overlap remains blocked
+PASS: Competing writes to the same SEO key remain blocked
+PASS: Structural permalink change receives no continuation exception
+PASS: Incomplete or unapproved recovery history fails closed: missing_snapshot
+PASS: Incomplete or unapproved recovery history fails closed: missing_after
+PASS: Incomplete or unapproved recovery history fails closed: wrong_post
+PASS: Incomplete or unapproved recovery history fails closed: legacy_snapshot
+PASS: Incomplete or unapproved recovery history fails closed: not_approved
+PASS: A later legitimate approval cannot conceal an earlier external edit
+PASS: Altered approved payload cannot prove the recorded state transition
+PASS: Recovery snapshot and live state use identical stable fingerprints
+Continuation regression checks passed: 37
+PASS: Published title save succeeds
+PASS: Actual WordPress publish hook created all three runtime flags
+PASS: Excerpt survives the WordPress flags added by the preceding title save: 
+PASS: Actual WordPress cron handlers removed runtime flags
+PASS: Remaining SEO proposals survive cron cleanup between approvals
+PASS: Old receipt survives core cron before the first apply
+PASS: Existing old snapshot/after-hash proves the title change after cron and names the runtime-only hash mismatch
+PASS: Original old pending excerpt applies, including the second internal-hash guard
+PASS: Old receipt survives core cron before the first apply
+PASS: Existing old snapshot/after-hash proves the title change after cron and names the runtime-only hash mismatch
+PASS: Original old pending excerpt applies, including the second internal-hash guard
+PASS: Core runtime flag does not change the content fingerprint: _pingme
+PASS: Core runtime flag does not change the content fingerprint: _encloseme
+PASS: Core runtime flag does not change the content fingerprint: _trackbackme
+PASS: Real metadata stays protected: rank_math_title
+PASS: Real metadata stays protected: rank_math_description
+PASS: Real metadata stays protected: rank_math_robots
+PASS: Real metadata stays protected: custom_permalink
+PASS: Real metadata stays protected: enclosure
+PASS: Real metadata stays protected: _pingme_other
+PASS: Real metadata stays protected: unrelated_plugin_setting
+PASS: Real post field stays protected: post_title
+PASS: Real post field stays protected: post_content
+PASS: Real post field stays protected: post_excerpt
+PASS: Real post field stays protected: post_author
+PASS: Real post field stays protected: post_name
+PASS: Category changes remain protected
+PASS: Diagnostics name the actual unexpected SEO key without exposing its value
+PASS: Ignoring cron flags never hides a concurrent SEO edit
+PASS: Unrelated plugin save-hook changes remain blocked and diagnosable
+WordPress runtime regression checks passed: 67

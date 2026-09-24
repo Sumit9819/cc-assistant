@@ -1,0 +1,235 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  /* The keyword layer, third cut (2026-09-05, evening).
+     Second cut rebuilt the MOTION on 2026 references (see the kinds below).
+     This cut fixes the PLACE. Owner: "a kinetic text was touching left to
+     right of the screen ... the text needs a dedicated place: if in the
+     middle it should cover 40% in the middle, or left or right, so a person
+     can read without moving their eyes." Measured on the references (tools/
+     text_extent.py): fern sentence 58%, HAI figure 55%, Harris card 42%,
+     Harris word 40%, neo label 25%; ours ran 88-94% on giant lines.
+     So: every run lives in a ZONE 40% of the frame wide (768 of 1920 px),
+     centred by default or seated left/right when a card holds the other
+     side. Nothing may exceed the zone: long items shrink, giant lines and
+     spoken lines wrap into a stacked block (fern "ENOUGH IS ENOUGH"), typed
+     lines wrap in their column. Fonts are measured after they load.
+       word   blur-in 0.22s, no bounce          num    counts up 0.42s
+       type   typewriter 45 ms/char, cursor     line   each word on its timing
+       big    hard-on + warm flash + drift      swap   0.2s dissolve in place
+       strike line draws 0.25s after landing    slug   dated stamp top-left
+     Items hold to the cut; everything leaves together in the last 0.25s.
+     Spec: {items:[{text, at, kind, words?}], zone:"centre"|"left"|"right",
+            position:"centre"|"top", duration} */
+  @font-face { font-family: "Sora"; src: url("../fonts/Sora[wght].ttf"); font-weight: 100 800; }
+  @font-face { font-family: "Manrope"; src: url("../fonts/Manrope[wght].ttf"); font-weight: 200 800; }
+  html, body { margin: 0; width: 1920px; height: 1080px; background: transparent; overflow: hidden; }
+  #row { position: absolute; width: 768px; display: flex; justify-content: center; align-items: flex-end;
+         gap: 22px 28px; flex-wrap: wrap; }
+  .kw { font: 800 108px/1 "Sora"; letter-spacing: -0.02em; color: #f6f2eb; text-transform: uppercase;
+        white-space: nowrap; transform-origin: center bottom; will-change: filter, transform, opacity;
+        text-shadow: 0 3px 0 rgba(8,9,12,.95), 0 0 34px rgba(8,9,12,.85), 2px 0 0 rgba(8,9,12,.9), -2px 0 0 rgba(8,9,12,.9); }
+  .kw.num { color: #deab4e; font-variant-numeric: tabular-nums; }
+  .kw.strike { color: #c4beb4; position: relative; }
+  .kw.strike::after { content: ""; position: absolute; left: -4px; right: -4px; top: 50%; height: 8px;
+                      background: #d64b3c; transform: scaleX(var(--s, 0)); transform-origin: left center; }
+  .kw.question { font-size: 220px; color: #deab4e; }
+  .kw.big { font-size: 200px; line-height: 0.98; letter-spacing: -0.04em; color: #f6f2eb; white-space: normal;
+            width: 768px; text-align: center; text-wrap: balance;
+            text-shadow: 0 6px 0 rgba(8,9,12,.95), 0 0 60px rgba(8,9,12,.9); }
+  .kw.swap { color: #deab4e; }
+  /* A spoken line: mixed case, medium weight, a stacked block in the zone. */
+  #line { position: absolute; width: 768px; bottom: 250px; text-align: center;
+          font: 600 78px/1.12 "Manrope"; color: #f6f2eb; letter-spacing: -0.01em; text-wrap: balance;
+          text-shadow: 0 3px 0 rgba(8,9,12,.95), 0 0 34px rgba(8,9,12,.85); }
+  #line span { display: inline-block; margin: 0 0.16em; will-change: filter, opacity; }
+  /* Typed lines: a column in the zone, caps, a block cursor. */
+  #col { position: absolute; width: 768px; bottom: 260px; display: flex; flex-direction: column; gap: 20px; }
+  .ty { font: 700 58px/1.12 "Sora"; letter-spacing: 0.02em; color: #f6f2eb; text-transform: uppercase;
+        white-space: pre-wrap; padding-left: 36px; position: relative;
+        text-shadow: 0 3px 0 rgba(8,9,12,.95), 0 0 30px rgba(8,9,12,.9); }
+  .ty::before { content: ""; position: absolute; left: 0; top: 0.12em; width: 10px; height: 0.78em; background: #deab4e; }
+  .ty .cur { display: inline-block; width: 0.55em; height: 1em; background: #deab4e; vertical-align: -0.12em;
+             margin-left: 4px; }
+  /* The slug: 42px (3.9% of the frame) so it survives a phone screen. */
+  #slug { position: absolute; left: 96px; top: 112px; font: 600 42px "Sora"; letter-spacing: 4px;
+          text-transform: uppercase; color: #f6f2eb; opacity: 0;
+          text-shadow: 0 2px 0 rgba(8,9,12,.9), 0 0 24px rgba(8,9,12,.8); }
+  #slug::before { content: ""; display: inline-block; width: 5px; height: 36px; background: #deab4e;
+                  margin-right: 18px; vertical-align: -4px; }
+  #flash { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 45%, #fff7e6 0%, #f3d9a0 55%, rgba(243,217,160,0) 100%);
+           opacity: 0; pointer-events: none; }
+</style>
+<div id="flash"></div>
+<div id="slug"></div>
+<div id="col"></div>
+<div id="row"></div>
+<div id="line"></div>
+<script>
+  let S = { items: [{ text: "3.69¢", at: 0.2, kind: "word" }], position: "centre", zone: "centre", duration: 4 };
+  const clamp = (t) => Math.min(Math.max(t, 0), 1);
+  const easeOut = (t) => 1 - Math.pow(1 - clamp(t), 3);
+  const easeIO = (t) => { t = clamp(t); return t < .5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3) / 2; };
+  const BLUR = 0.22, COUNT = 0.42, CHAR = 0.045, FLASH = 0.28;
+  const ZONE = 768, FRAME = 1920, EDGE = 130;        // 40% of the frame; 130px keeps clear of the 5% margin
+  let els = [], slugItem = null, swapOf = {};
+  const NUM = /^([$€£]?)([\d,]+)(\.\d+)?\s?(%|¢|cents?|million|billion|trillion|m|bn)?$/i;
+
+  function parseNum(text) {
+    const m = NUM.exec(text.trim());
+    if (!m) return null;
+    const intDigits = m[2].replace(/,/g, "");
+    if (!/^\d+$/.test(intDigits)) return null;
+    const dec = m[3] ? m[3].slice(1) : "";
+    const value = parseFloat(intDigits + (dec ? "." + dec : ""));
+    if (!m[1] && !m[3] && !m[4] && !m[2].includes(",") && value >= 1900 && value <= 2100) return null;  // a bare year
+    const suf = m[4] ? (/^[%¢]$/.test(m[4]) ? m[4] : " " + m[4]) : "";
+    return { pre: m[1] || "", value, decimals: dec.length, grouped: m[2].includes(","), suf };
+  }
+  function fmt(p, v) {
+    let s = v.toFixed(p.decimals);
+    if (p.grouped || v >= 10000) { const [i, d] = s.split("."); s = i.replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (d ? "." + d : ""); }
+    return p.pre + s + p.suf;
+  }
+  function rolling(p, q, seedIx) {
+    const target = fmt(p, p.value);
+    if (q >= 1) return target;
+    const digits = [...target].map((c, i) => /\d/.test(c) ? i : -1).filter(i => i >= 0);
+    const settled = Math.floor(q * (digits.length + 1));
+    const out = [...target];
+    digits.forEach((pos, k) => { if (k >= settled) out[pos] = String((Math.floor(q * 37 + k * 7 + seedIx * 3 + pos) * 7) % 10); });
+    return out.join("");
+  }
+
+  // Shrink an element's type until its box fits the zone width and at most
+  // `rows` rows (rows = height / (size * lineHeight)). Fonts are loaded
+  // before setup() runs, so these measurements are the real ones.
+  function fit(el, sizes, rows, lineHeight) {
+    for (const size of sizes) {
+      el.style.fontSize = size + "px";
+      const r = el.getBoundingClientRect();
+      if (r.width <= ZONE + 1 && r.height <= rows * size * lineHeight + 2) return size;
+    }
+    return sizes[sizes.length - 1];
+  }
+  const zoneLeft = () => S.zone === "left" ? EDGE : S.zone === "right" ? FRAME - EDGE - ZONE : (FRAME - ZONE) / 2;
+  const zoneAlign = () => S.zone === "left" ? "left" : S.zone === "right" ? "right" : "center";
+
+  window.setup = (spec) => {
+    S = Object.assign(S, spec);
+    const row = document.getElementById("row"), col = document.getElementById("col"), line = document.getElementById("line");
+    row.innerHTML = ""; col.innerHTML = ""; line.innerHTML = "";
+    const top = S.position === "top";
+    for (const box of [row, col, line]) {
+      box.style.left = zoneLeft() + "px";
+      box.style.top = top ? "150px" : "auto";
+      box.style.bottom = top ? "auto" : (box === line ? "250px" : box === col ? "260px" : "300px");
+    }
+    row.style.justifyContent = S.zone === "left" ? "flex-start" : S.zone === "right" ? "flex-end" : "center";
+    line.style.textAlign = zoneAlign();
+    const slugEl = document.getElementById("slug");
+    slugEl.textContent = ""; slugItem = null;
+    els = S.items.map((it) => {
+      if (it.kind === "slug") { slugItem = it; slugEl.textContent = it.text; return null; }
+      if (it.kind === "type") {
+        const d = document.createElement("div"); d.className = "ty";
+        d.innerHTML = "<span class=t></span><span class=cur></span>";
+        col.appendChild(d);
+        // Size on the finished line so the column does not reflow as it types.
+        d.querySelector(".t").textContent = it.text;
+        fit(d, [58, 52, 46, 42], 2, 1.12);
+        d.querySelector(".t").textContent = "";
+        return d;
+      }
+      if (it.kind === "line") {
+        const d = document.createElement("div"); d.className = "ln";
+        const words = it.words || it.text.split(/\s+/).map((w, i) => ({ text: w, at: it.at + i * 0.18 }));
+        words.forEach((w) => { const s = document.createElement("span"); s.textContent = w.text; s.dataset.at = w.at; d.appendChild(s); });
+        line.appendChild(d);
+        fit(d, [78, 70, 62, 56, 50], 3, 1.12);
+        return d;
+      }
+      const d = document.createElement("div");
+      const p = parseNum(it.text);
+      d.className = "kw " + (it.kind || "word") + (p || /\d/.test(it.text) ? " num" : "");
+      d.textContent = it.kind === "question" ? "?" : it.text;
+      if (p && it.kind !== "big") d.dataset.num = "1";
+      row.appendChild(d);
+      if (it.kind === "big") fit(d, [200, 176, 156, 140, 124, 110, 96, 84], 3, 0.98);
+      else if (it.kind !== "question") fit(d, [108, 96, 86, 76, 68, 60], 1, 1);
+      return d;
+    });
+    swapOf = {};
+    S.items.forEach((it, i) => { if (it.kind === "swap" && i > 0) swapOf[i - 1] = i; });
+    window.seek(0);
+  };
+
+  window.seek = (t) => {
+    const out = clamp((S.duration - t) / 0.25);
+    let flash = 0;
+    if (slugItem) {
+      const sq = easeOut((t - slugItem.at) / 0.35);
+      const slugEl = document.getElementById("slug");
+      slugEl.style.opacity = (t >= slugItem.at ? sq : 0) * out;
+      slugEl.style.transform = `translateX(${(1 - sq) * -18}px)`;
+    }
+    els.forEach((el, i) => {
+      if (!el) return;
+      const it = S.items[i];
+      const dt = t - it.at;
+      const vis = dt >= 0 ? 1 : 0;
+      if (it.kind === "type") {
+        const rate = Math.min(CHAR, Math.max(0.025, (S.duration - it.at - 0.6) / Math.max(it.text.length, 1)));
+        const n = Math.max(0, Math.min(it.text.length, Math.floor(dt / rate)));
+        const done = dt - it.text.length * rate;
+        el.querySelector(".t").textContent = it.text.slice(0, n);
+        const cur = el.querySelector(".cur");
+        const blink = done < 0 ? 1 : (Math.floor(done / 0.22) % 2 === 0 ? 1 : 0);
+        cur.style.opacity = vis && done < 0.5 ? blink : 0;
+        el.style.opacity = vis * out;
+        return;
+      }
+      if (it.kind === "line") {
+        el.querySelectorAll("span").forEach((s) => {
+          const a = parseFloat(s.dataset.at);
+          const q = easeOut((t - a) / BLUR);
+          s.style.opacity = (t >= a ? q : 0) * out;
+          s.style.filter = `blur(${(1 - q) * 14}px)`;
+        });
+        return;
+      }
+      if (it.kind === "swap") {
+        const q = clamp(dt / 0.2);
+        el.style.opacity = vis * Math.min(q, out);
+        el.style.filter = `blur(${(1 - q) * 6}px)`;
+        el.style.transform = "none";
+        return;
+      }
+      if (it.kind === "big") {
+        const q = clamp(dt / 0.1);
+        flash = Math.max(flash, dt >= 0 ? 1 - easeOut(dt / FLASH) : 0);
+        el.style.opacity = vis * Math.min(q, out);
+        el.style.filter = "none";
+        const hold = Math.max(dt, 0) / Math.max(S.duration - it.at, 0.5);
+        el.style.transform = `scale(${1 + 0.035 * hold})`;
+        return;
+      }
+      const q = easeOut(dt / BLUR);
+      el.style.opacity = vis * Math.min(q, out);
+      el.style.filter = `blur(${(1 - q) * 14}px)`;
+      el.style.transform = `scale(${1.04 - 0.04 * q})`;
+      if (el.dataset.num) {
+        const p = parseNum(it.text);
+        el.textContent = dt < 0 ? fmt(p, p.value) : rolling(p, easeIO(dt / COUNT), i);
+      }
+      if (it.kind === "strike") el.style.setProperty("--s", easeOut((dt - 0.25) / 0.3));
+    });
+    Object.keys(swapOf).forEach((k) => {
+      const prev = els[k], sw = S.items[swapOf[k]];
+      if (!prev) return;
+      const q = clamp((t - sw.at) / 0.2);
+      if (t >= sw.at) { prev.style.opacity = (1 - q) * out; prev.style.filter = `blur(${q * 6}px)`; }
+    });
+    document.getElementById("flash").style.opacity = flash * 0.85 * out;
+  };
+</script>

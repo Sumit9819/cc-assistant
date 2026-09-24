@@ -1,0 +1,85 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  /* Type system (2026-09-04): Sora for figures and titles, Manrope for
+     labels and sources. Both variable, both OFL (fonts/OFL-*.txt). */
+  @font-face { font-family: "Sora"; src: url("../fonts/Sora[wght].ttf"); font-weight: 100 800; }
+  @font-face { font-family: "Manrope"; src: url("../fonts/Manrope[wght].ttf"); font-weight: 200 800; }
+  html, body { margin: 0; width: 1920px; height: 1080px; background: transparent; overflow: hidden; }
+  #scrim {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(8,9,12,.92) 0%, rgba(8,9,12,.6) 22%, rgba(8,9,12,0) 55%);
+  }
+  #block { position: absolute; left: 96px; bottom: 96px; }
+  #rule { position: absolute; left: -30px; top: 22px; width: 4px; background: #deab4e; transform-origin: top; }
+  #value { font: 700 236px/1 "Sora"; color: #f6f2eb; letter-spacing: -0.03em;
+           font-variant-numeric: tabular-nums; white-space: nowrap; }
+  #value .unit { font: 500 72px "Manrope"; color: #deab4e; margin-left: 20px; letter-spacing: 0; }
+  #label { font: 500 42px/1.2 "Manrope"; color: #f6f2eb; max-width: 760px; margin-top: 14px; }
+  #source { font: 700 22px "Manrope"; letter-spacing: 3px; color: #c4beb4; margin-top: 26px; text-transform: uppercase; }
+  #source::before { content: ""; display: block; width: 56px; height: 2px; background: #deab4e; margin-bottom: 10px; }
+</style>
+<div id="scrim"></div>
+<div id="block">
+  <div id="rule"></div>
+  <div id="value"><span id="num"></span><span class="unit" id="unit"></span></div>
+  <div id="label"></div>
+  <div id="source"></div>
+</div>
+<script>
+  // Deterministic: seek(t) fully determines every pixel, so the renderer
+  // can capture frames in any order and a re-render is identical.
+  let S = { value: "50", unit: "years", label: "", source: "", duration: 4 };
+  const $ = (id) => document.getElementById(id);
+  const clamp = (t) => Math.min(Math.max(t, 0), 1);
+  const easeOut = (t) => 1 - Math.pow(1 - clamp(t), 3);
+
+  window.setup = (spec) => {
+    S = Object.assign(S, spec);
+    // Anchor follows the card plan's position cycle, same as the PNGs.
+    const pos = S.position || "bottom-left";
+    const block = $("block"), scrim = $("scrim");
+    if (pos.includes("right")) {
+      block.style.left = "auto"; block.style.right = "96px"; block.style.textAlign = "right";
+      $("rule").style.left = "auto"; $("rule").style.right = "-30px";
+      $("label").style.marginLeft = "auto";
+    }
+    if (pos.includes("top")) {
+      block.style.bottom = "auto"; block.style.top = "120px";
+      scrim.style.background =
+        "linear-gradient(to bottom, rgba(8,9,12,.92) 0%, rgba(8,9,12,.6) 22%, rgba(8,9,12,0) 55%)";
+    }
+    $("unit").textContent = S.unit || "";
+    $("label").textContent = S.label || "";
+    $("source").textContent = S.source || "";
+    window.seek(0);
+  };
+
+  // Timings (2026-09-04): everything runs ~1.4x slower than the first cut,
+  // whose count-up finished before a viewer had registered the card.
+  window.seek = (t) => {
+    const out = clamp((S.duration - t) / 0.6);            // fade everything near the end
+    document.body.style.opacity = Math.min(easeOut(clamp(t / 0.4)), out);
+
+    // The number counts up over 1.6s with an eased curve. A trailing
+    // symbol at EITHER end is carried through rather than counted:
+    // "97.5%" used to measure its decimals as "5%".length == 2 and print
+    // "97.50", losing the percent sign when the float was reformatted.
+    const parts = S.value.match(/^([^\d]*)([\d.,]+)(.*)$/);
+    const prefix = parts ? parts[1] : "";
+    const numeric = parts ? parts[2] : S.value;
+    const suffix = parts ? parts[3] : "";
+    const target = parseFloat(numeric.replace(/,/g, ""));
+    const decimals = (numeric.split(".")[1] || "").length;
+    const p = easeOut(clamp((t - 0.25) / 1.6));
+    $("num").textContent = isNaN(target) ? S.value
+      : prefix + (target * p).toLocaleString("en-US", {
+          minimumFractionDigits: decimals, maximumFractionDigits: decimals }) + suffix;
+
+    $("rule").style.height = (easeOut(clamp((t - 0.15) / 0.8)) * 400) + "px";
+    const l = easeOut(clamp((t - 1.0) / 0.6));
+    $("label").style.opacity = l;
+    $("label").style.transform = `translateY(${(1 - l) * 24}px)`;
+    $("source").style.opacity = easeOut(clamp((t - 1.5) / 0.6));
+  };
+</script>

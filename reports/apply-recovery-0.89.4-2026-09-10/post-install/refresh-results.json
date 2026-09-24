@@ -1,0 +1,143 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.4"
+      }
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1813,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1814,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1815,
+      "resolved_to": "rank_math_title",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": [],
+      "superseded": [
+        {
+          "pending_id": 1803,
+          "summary": "WR-09: correct World Cup SEO title",
+          "message": "Queueing this change HID pending #1803 (\"WR-09: correct World Cup SEO title\"). It is no longer visible in the inbox and can never be approved. If that was v1 of this same intent, nothing is lost. If it was a SEPARATE change, it is gone: apply this one, re-read the post, then queue the other again. post_content_update supersedes on post_id alone, so any two content changes on one post collide even when they touch different modules."
+        }
+      ]
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1816,
+      "resolved_to": "rank_math_description",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": [],
+      "superseded": [
+        {
+          "pending_id": 1804,
+          "summary": "WR-09: correct World Cup SEO description",
+          "message": "Queueing this change HID pending #1804 (\"WR-09: correct World Cup SEO description\"). It is no longer visible in the inbox and can never be approved. If that was v1 of this same intent, nothing is lost. If it was a SEPARATE change, it is gone: apply this one, re-read the post, then queue the other again. post_content_update supersedes on post_id alone, so any two content changes on one post collide even when they touch different modules."
+        }
+      ]
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1817,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_post_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1818,
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "warnings": []
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1819,
+      "resolved_to": "rank_math_title",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": [],
+      "superseded": [
+        {
+          "pending_id": 1808,
+          "summary": "WR-09: correct World Cup SEO title",
+          "message": "Queueing this change HID pending #1808 (\"WR-09: correct World Cup SEO title\"). It is no longer visible in the inbox and can never be approved. If that was v1 of this same intent, nothing is lost. If it was a SEPARATE change, it is gone: apply this one, re-read the post, then queue the other again. post_content_update supersedes on post_id alone, so any two content changes on one post collide even when they touch different modules."
+        }
+      ]
+    }
+  },
+  {
+    "name": "draft_update_seo_meta",
+    "isError": false,
+    "result": {
+      "pending_id": 1820,
+      "resolved_to": "rank_math_description",
+      "review_url": "https://erofwhiterock.com/wp-admin/admin.php?page=cc-assistant-pending",
+      "lint": {
+        "pass": true,
+        "pass_count": 4,
+        "fail_count": 0,
+        "failed": []
+      },
+      "warnings": [],
+      "superseded": [
+        {
+          "pending_id": 1809,
+          "summary": "WR-09: correct World Cup SEO description",
+          "message": "Queueing this change HID pending #1809 (\"WR-09: correct World Cup SEO description\"). It is no longer visible in the inbox and can never be approved. If that was v1 of this same intent, nothing is lost. If it was a SEPARATE change, it is gone: apply this one, re-read the post, then queue the other again. post_content_update supersedes on post_id alone, so any two content changes on one post collide even when they touch different modules."
+        }
+      ]
+    }
+  }
+]

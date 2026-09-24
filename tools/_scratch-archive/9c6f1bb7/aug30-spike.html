@@ -1,0 +1,605 @@
+<title>The August 30 Impression Spike</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<style>
+:root{
+  --paper:#eef1f2;
+  --surface:#ffffff;
+  --surface-2:#f6f8f8;
+  --ink:#151a1c;
+  --ink-2:#3a4548;
+  --muted:#65747a;
+  --rule:#d3dadc;
+  --rule-soft:#e3e9ea;
+  --signal:#0d5c56;
+  --signal-soft:#cfe2df;
+  --phantom:#a8560f;
+  --phantom-soft:#f0dcc8;
+  --shadow:0 1px 2px rgba(21,26,28,.06), 0 8px 24px -16px rgba(21,26,28,.22);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101416;
+    --surface:#181e20;
+    --surface-2:#1e2528;
+    --ink:#e8edee;
+    --ink-2:#c0cacd;
+    --muted:#8b9a9e;
+    --rule:#2c3639;
+    --rule-soft:#232b2e;
+    --signal:#5fc4b5;
+    --signal-soft:#1c3936;
+    --phantom:#e0913f;
+    --phantom-soft:#3a2a17;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101416;
+  --surface:#181e20;
+  --surface-2:#1e2528;
+  --ink:#e8edee;
+  --ink-2:#c0cacd;
+  --muted:#8b9a9e;
+  --rule:#2c3639;
+  --rule-soft:#232b2e;
+  --signal:#5fc4b5;
+  --signal-soft:#1c3936;
+  --phantom:#e0913f;
+  --phantom-soft:#3a2a17;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  font-size:16px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1000px;margin:0 auto;padding:40px 24px 96px}
+.col{max-width:660px}
+
+/* ---- masthead ---- */
+.mast{
+  border-top:3px solid var(--ink);
+  padding-top:18px;
+  margin-bottom:34px;
+}
+.kicker{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);
+  display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:14px;
+}
+h1{
+  font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+  font-weight:600;font-size:40px;line-height:1.14;letter-spacing:-.015em;
+  margin:0 0 12px;text-wrap:balance;max-width:16ch;
+}
+.standfirst{font-size:18.5px;line-height:1.55;color:var(--ink-2);max-width:60ch;margin:0}
+.standfirst b{color:var(--ink);font-weight:600}
+
+/* ---- verdict ---- */
+.verdict{
+  margin:34px 0 8px;
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-left:4px solid var(--phantom);
+  border-radius:2px;
+  padding:20px 24px;
+  box-shadow:var(--shadow);
+}
+.verdict .lbl{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--phantom);font-weight:600;display:block;margin-bottom:8px;
+}
+.verdict p{margin:0;font-size:17px;line-height:1.55;color:var(--ink)}
+
+/* ---- stat row ---- */
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border:1px solid var(--rule);border-radius:2px;overflow:hidden;
+  background:var(--surface);margin:28px 0 8px;box-shadow:var(--shadow);
+}
+.stat{padding:16px 18px;border-right:1px solid var(--rule-soft)}
+.stat:last-child{border-right:0}
+.stat .k{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:7px;
+}
+.stat .v{
+  font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;
+  font-size:25px;font-weight:600;line-height:1;letter-spacing:-.02em;display:block;
+}
+.stat .s{font-size:12.5px;color:var(--muted);display:block;margin-top:7px;line-height:1.4}
+.v.up{color:var(--phantom)}
+.v.flat{color:var(--ink)}
+.v.real{color:var(--signal)}
+
+/* ---- typography ---- */
+h2{
+  font-family:"IBM Plex Serif",Georgia,serif;font-weight:600;
+  font-size:25px;line-height:1.25;letter-spacing:-.01em;
+  margin:56px 0 6px;text-wrap:balance;
+}
+h2 .num{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;
+  color:var(--muted);letter-spacing:.1em;display:block;margin-bottom:9px;
+}
+h3{font-size:15px;font-weight:600;margin:32px 0 8px;letter-spacing:.005em}
+p{margin:14px 0;max-width:64ch}
+p.lede{font-size:17px;color:var(--ink-2)}
+a{color:var(--signal);text-underline-offset:2px}
+code,.mono{font-family:"IBM Plex Mono",monospace;font-size:.88em}
+code{background:var(--surface-2);border:1px solid var(--rule-soft);padding:1px 5px;border-radius:2px;word-break:break-all}
+strong{font-weight:600}
+
+/* ---- figure ---- */
+figure{margin:26px 0;background:var(--surface);border:1px solid var(--rule);border-radius:2px;padding:20px 20px 14px;box-shadow:var(--shadow)}
+figure + figure{margin-top:18px}
+.figtitle{font-size:14px;font-weight:600;margin:0 0 2px}
+.figsub{font-size:12.5px;color:var(--muted);margin:0 0 14px;line-height:1.45}
+figure svg{display:block;width:100%;height:auto}
+figcaption{font-size:12.5px;color:var(--muted);margin-top:10px;line-height:1.5;border-top:1px solid var(--rule-soft);padding-top:10px}
+
+/* ---- tables ---- */
+.tw{overflow-x:auto;margin:22px 0;border:1px solid var(--rule);border-radius:2px;background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:520px}
+caption{
+  text-align:left;padding:14px 16px 0;font-size:13.5px;color:var(--muted);
+  line-height:1.45;caption-side:top;
+}
+caption b{color:var(--ink);font-weight:600;font-size:14px;display:block;margin-bottom:2px}
+th{
+  text-align:left;font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;
+  padding:12px 16px 8px;border-bottom:1px solid var(--rule);white-space:nowrap;
+}
+td{padding:9px 16px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.q{font-family:"IBM Plex Mono",monospace;font-size:12.5px}
+.pill{
+  display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:2px;font-weight:600;
+}
+.pill.ph{background:var(--phantom-soft);color:var(--phantom)}
+.pill.re{background:var(--signal-soft);color:var(--signal)}
+.hl-ph{background:color-mix(in srgb,var(--phantom-soft) 55%,transparent)}
+.hl-re{background:color-mix(in srgb,var(--signal-soft) 45%,transparent)}
+
+/* ---- evidence chain ---- */
+.chain{list-style:none;padding:0;margin:24px 0;display:flex;flex-direction:column;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:2px;overflow:hidden;box-shadow:var(--shadow)}
+.chain li{background:var(--surface);padding:16px 20px;display:grid;grid-template-columns:46px 1fr;gap:14px;align-items:start}
+.chain .eid{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;font-weight:600;
+  color:var(--muted);letter-spacing:.06em;padding-top:2px;
+}
+.chain .etxt{font-size:14.5px;line-height:1.55;margin:0}
+.chain .etxt b{font-weight:600}
+.chain .src{
+  display:block;margin-top:7px;font-family:"IBM Plex Mono",monospace;
+  font-size:11px;color:var(--muted);letter-spacing:.02em;line-height:1.5;
+}
+
+/* ---- callout ---- */
+.note{
+  border:1px solid var(--rule);border-left:4px solid var(--signal);
+  background:var(--surface);border-radius:2px;padding:18px 22px;margin:26px 0;box-shadow:var(--shadow);
+}
+.note .lbl{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--signal);font-weight:600;display:block;margin-bottom:8px;
+}
+.note p{margin:0 0 10px;font-size:15px}
+.note p:last-child{margin-bottom:0}
+
+/* ---- confidence split ---- */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0}
+.split section{background:var(--surface);border:1px solid var(--rule);border-radius:2px;padding:18px 20px;box-shadow:var(--shadow)}
+.split h4{
+  margin:0 0 12px;font-family:"IBM Plex Mono",monospace;font-size:11px;
+  letter-spacing:.13em;text-transform:uppercase;font-weight:600;
+}
+.split .cf h4{color:var(--signal)}
+.split .in h4{color:var(--phantom)}
+.split ul{margin:0;padding-left:17px;font-size:14px;line-height:1.55}
+.split li{margin-bottom:8px}
+.split li:last-child{margin-bottom:0}
+
+/* ---- actions ---- */
+.acts{counter-reset:a;list-style:none;padding:0;margin:24px 0}
+.acts li{
+  counter-increment:a;position:relative;padding:14px 0 14px 44px;
+  border-bottom:1px solid var(--rule);font-size:15px;line-height:1.55;max-width:66ch;
+}
+.acts li:last-child{border-bottom:0}
+.acts li::before{
+  content:counter(a);position:absolute;left:0;top:14px;
+  font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;
+  color:var(--signal);border:1px solid var(--signal-soft);background:var(--signal-soft);
+  width:24px;height:24px;display:grid;place-items:center;border-radius:2px;
+}
+.acts b{font-weight:600}
+
+footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--rule);font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);line-height:1.7}
+
+@media (max-width:720px){
+  .wrap{padding:28px 18px 72px}
+  h1{font-size:31px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat{border-bottom:1px solid var(--rule-soft)}
+  .stat:nth-child(2){border-right:0}
+  .split{grid-template-columns:1fr}
+}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="kicker">
+    <span>Search Console Forensics</span>
+    <span>irvingwellnessclinic.com</span>
+    <span>Reviewed 3 Sep 2026</span>
+  </div>
+  <h1>The August 30 Impression Spike</h1>
+  <p class="standfirst">On 30 August the property logged <b>65,572 impressions</b> against a 29-day average of 1,156, and average position collapsed from ~30 to near 1. Clicks did not move. The number is really in Google's data — and it is <b>a counting fault, not a ranking or indexing event</b>. 94% of it was attributed to a URL Google has never crawled, on a surface that has been reporting normally for months.</p>
+</header>
+
+<div class="verdict">
+  <span class="lbl">Verdict</span>
+  <p>No web-search ranking changed and nothing was indexed. 61,964 of the 65,572 impressions landed on <code>/?utm_source=gmb&amp;utm_medium=gmb</code> — the tracking URL in the Business Profile listing — across four “near me” queries at position 1.00. That URL <b>routinely</b> appears in Search Console because it is the link served in the local pack; that part is normal and months old. What is not normal is the volume: <b>one day produced 19.5× that URL's entire recorded lifetime</b>, and its click-through rate collapsed from its own 1.6% baseline to 0.0016%. Decisively, <b>the Business Profile performance report shows no matching spike</b> — so those impressions were almost certainly never served to anyone. This is a <b>Search Console logging defect</b>: not a ranking event, not an indexing event, and not real exposure.</p>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <span class="k">Impressions, 30 Aug</span>
+    <span class="v up">65,572</span>
+    <span class="s">57× the 29-day mean of 1,156</span>
+  </div>
+  <div class="stat">
+    <span class="k">Clicks, 30 Aug</span>
+    <span class="v flat">2</span>
+    <span class="s">Daily mean 3.8. Below average.</span>
+  </div>
+  <div class="stat">
+    <span class="k">GMB URL CTR</span>
+    <span class="v up">0.0016%</span>
+    <span class="s">That URL's own baseline is 1.6% — a 1,000× collapse</span>
+  </div>
+  <div class="stat">
+    <span class="k">vs. that URL's lifetime</span>
+    <span class="v up">19.5×</span>
+    <span class="s">62,126 in one day vs 3,192 across all other days</span>
+  </div>
+</div>
+
+<div class="col">
+<h2><span class="num">01</span>What the day looked like</h2>
+<p class="lede">August is an unremarkable month until the last Sunday of it. Plotted honestly on one linear scale, the 30th does not so much rise above the baseline as erase it.</p>
+</div>
+
+<figure>
+  <p class="figtitle">Daily impressions, 1–31 August 2026</p>
+  <p class="figsub">All pages, all queries. Single linear scale — every other day in the month is the flat band along the axis.</p>
+  <svg viewBox="0 0 760 300" role="img" aria-label="Bar chart of daily impressions in August 2026. Every day sits near 1,100 except 30 August at 65,572.">
+    <g stroke="var(--rule-soft)" stroke-width="1">
+      <line x1="44" y1="258" x2="748" y2="258"/>
+      <line x1="44" y1="184.2" x2="748" y2="184.2"/>
+      <line x1="44" y1="110.4" x2="748" y2="110.4"/>
+      <line x1="44" y1="36.6" x2="748" y2="36.6"/>
+    </g>
+    <g fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="end">
+      <text x="38" y="262">0</text>
+      <text x="38" y="188">20k</text>
+      <text x="38" y="114">40k</text>
+      <text x="38" y="40">60k</text>
+    </g>
+    <g fill="var(--signal)">
+      <rect x="48" y="254.0" width="14" height="4.0"/>
+      <rect x="70.6" y="252.2" width="14" height="5.8"/>
+      <rect x="93.2" y="253.7" width="14" height="4.3"/>
+      <rect x="115.8" y="254.8" width="14" height="3.2"/>
+      <rect x="138.4" y="254.8" width="14" height="3.2"/>
+      <rect x="161.0" y="254.8" width="14" height="3.2"/>
+      <rect x="183.6" y="254.6" width="14" height="3.4"/>
+      <rect x="206.2" y="254.9" width="14" height="3.1"/>
+      <rect x="228.8" y="252.4" width="14" height="5.6"/>
+      <rect x="251.4" y="254.0" width="14" height="4.0"/>
+      <rect x="274.0" y="254.3" width="14" height="3.7"/>
+      <rect x="296.6" y="254.9" width="14" height="3.1"/>
+      <rect x="319.2" y="252.8" width="14" height="5.2"/>
+      <rect x="341.8" y="253.7" width="14" height="4.3"/>
+      <rect x="364.4" y="254.8" width="14" height="3.2"/>
+      <rect x="387.0" y="251.7" width="14" height="6.3"/>
+      <rect x="409.6" y="253.5" width="14" height="4.5"/>
+      <rect x="432.2" y="254.1" width="14" height="3.9"/>
+      <rect x="454.8" y="254.0" width="14" height="4.0"/>
+      <rect x="477.4" y="254.7" width="14" height="3.3"/>
+      <rect x="500.0" y="254.4" width="14" height="3.6"/>
+      <rect x="522.6" y="254.4" width="14" height="3.6"/>
+      <rect x="545.2" y="251.4" width="14" height="6.6"/>
+      <rect x="567.8" y="253.3" width="14" height="4.7"/>
+      <rect x="590.4" y="254.0" width="14" height="4.0"/>
+      <rect x="613.0" y="253.8" width="14" height="4.2"/>
+      <rect x="635.6" y="252.3" width="14" height="5.7"/>
+      <rect x="658.2" y="253.2" width="14" height="4.8"/>
+      <rect x="680.8" y="253.2" width="14" height="4.8"/>
+      <rect x="725.9" y="250.0" width="14" height="8.0"/>
+    </g>
+    <rect x="703.4" y="16" width="14" height="242" fill="var(--phantom)"/>
+    <line x1="600" y1="30" x2="700" y2="30" stroke="var(--phantom)" stroke-width="1"/>
+    <text x="596" y="27" fill="var(--phantom)" font-family="IBM Plex Mono, monospace" font-size="11" font-weight="600" text-anchor="end">30 Aug — 65,572</text>
+    <text x="596" y="42" fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="end">2 clicks</text>
+    <g fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="middle">
+      <text x="55" y="276">1</text>
+      <text x="212" y="276">8</text>
+      <text x="370" y="276">15</text>
+      <text x="529" y="276">22</text>
+      <text x="710" y="276">30</text>
+    </g>
+    <text x="396" y="294" fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="middle" letter-spacing="1.2">AUGUST 2026</text>
+  </svg>
+  <figcaption>Source: local GSC warehouse, date × page × query rows, synced through 1 Sep 2026 (295 days on file). Query-dimension totals run below the property total because Google withholds rare queries, so 65,572 is a floor — consistent with the ~65k you read in the interface.</figcaption>
+</figure>
+
+<figure>
+  <p class="figtitle">The same days with the phantom URL removed</p>
+  <p class="figsub">18–31 August, excluding <code>/?utm_source=gmb</code>. Own scale. This is the site's real search surface.</p>
+  <svg viewBox="0 0 760 300" role="img" aria-label="Bar chart of daily impressions 18 to 31 August excluding the GMB tracking URL. Baseline near 1,000, with 30 August at 3,446.">
+    <g stroke="var(--rule-soft)" stroke-width="1">
+      <line x1="44" y1="258" x2="748" y2="258"/>
+      <line x1="44" y1="187.8" x2="748" y2="187.8"/>
+      <line x1="44" y1="117.6" x2="748" y2="117.6"/>
+      <line x1="44" y1="47.4" x2="748" y2="47.4"/>
+    </g>
+    <g fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="end">
+      <text x="38" y="262">0</text>
+      <text x="38" y="192">1k</text>
+      <text x="38" y="122">2k</text>
+      <text x="38" y="51">3k</text>
+    </g>
+    <g fill="var(--signal)" opacity=".55">
+      <rect x="54" y="189.0" width="30" height="69.0"/>
+      <rect x="104.1" y="185.8" width="30" height="72.2"/>
+      <rect x="154.2" y="197.7" width="30" height="60.3"/>
+      <rect x="204.3" y="201.3" width="30" height="56.7"/>
+      <rect x="254.4" y="193.3" width="30" height="64.7"/>
+      <rect x="304.5" y="145.0" width="30" height="113.0"/>
+      <rect x="354.6" y="173.7" width="30" height="84.3"/>
+      <rect x="404.7" y="189.0" width="30" height="69.0"/>
+      <rect x="454.8" y="184.7" width="30" height="73.3"/>
+      <rect x="504.9" y="166.5" width="30" height="91.5"/>
+      <rect x="555.0" y="175.8" width="30" height="82.2"/>
+      <rect x="605.1" y="183.2" width="30" height="74.8"/>
+      <rect x="705.3" y="121.7" width="30" height="136.3"/>
+    </g>
+    <rect x="655.2" y="16" width="30" height="242" fill="var(--signal)"/>
+    <text x="670" y="10" fill="var(--signal)" font-family="IBM Plex Mono, monospace" font-size="10.5" font-weight="600" text-anchor="middle">3,446</text>
+    <g fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="middle">
+      <text x="69" y="276">18</text>
+      <text x="269" y="276">22</text>
+      <text x="470" y="276">26</text>
+      <text x="670" y="276">30</text>
+      <text x="720" y="276">31</text>
+    </g>
+    <text x="396" y="294" fill="var(--muted)" font-family="IBM Plex Mono, monospace" font-size="10.5" text-anchor="middle" letter-spacing="1.2">REAL PAGES ONLY</text>
+  </svg>
+  <figcaption>Strip out one URL and 65,572 becomes 3,446 — an elevated but ordinary Sunday, roughly 3× the fortnight's baseline. That residual lift is genuine and is covered in section 05.</figcaption>
+</figure>
+
+<div class="col">
+<h2><span class="num">02</span>Where the 65,572 came from</h2>
+<p>Almost all of it is four query strings on one URL. The rest of the property behaved normally.</p>
+</div>
+
+<div class="tw">
+<table>
+  <caption><b>30 August, impressions by segment</b>Three segments account for the entire day.</caption>
+  <thead><tr><th>Segment</th><th class="n">Impressions</th><th class="n">Share</th><th class="n">Clicks</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr class="hl-ph"><td><code>/?utm_source=gmb</code> — four “near me” queries</td><td class="n">61,964</td><td class="n">94.5%</td><td class="n">1</td><td><span class="pill ph">Phantom</span></td></tr>
+    <tr><td><code>/?utm_source=gmb</code> — all other queries</td><td class="n">162</td><td class="n">0.2%</td><td class="n">0</td><td><span class="pill ph">Phantom</span></td></tr>
+    <tr class="hl-re"><td>Every other page on the site</td><td class="n">3,446</td><td class="n">5.3%</td><td class="n">1</td><td><span class="pill re">Real</span></td></tr>
+    <tr><td><b>Total</b></td><td class="n"><b>65,572</b></td><td class="n"><b>100%</b></td><td class="n"><b>2</b></td><td></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="tw">
+<table>
+  <caption><b>The four queries</b>All on the Business Profile tracking URL, all pinned at position 1, all with zero clicks — on 30 August and across their entire recorded lifetime.</caption>
+  <thead><tr><th>Query</th><th class="n">Impressions</th><th class="n">Position</th><th class="n">Clicks</th><th class="n">Lifetime clicks</th></tr></thead>
+  <tbody>
+    <tr><td class="q">immunity iv near me</td><td class="n">20,329</td><td class="n">1.00</td><td class="n">0</td><td class="n">0</td></tr>
+    <tr><td class="q">recovery iv near me</td><td class="n">18,159</td><td class="n">1.01</td><td class="n">0</td><td class="n">0</td></tr>
+    <tr><td class="q">energy iv near me</td><td class="n">13,440</td><td class="n">1.01</td><td class="n">0</td><td class="n">0</td></tr>
+    <tr><td class="q">wellness iv near me</td><td class="n">9,664</td><td class="n">1.01</td><td class="n">0</td><td class="n">0</td></tr>
+    <tr><td><b>Four queries</b></td><td class="n"><b>61,592</b></td><td class="n">1.00</td><td class="n"><b>0</b></td><td class="n"><b>0</b></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<h2><span class="num">03</span>The decisive test</h2>
+<p>On 30 August those same four query strings appear <em>twice</em> in the data — once on the tracking URL, and once on the genuine IV therapy service page. Same day, same queries, same country, wildly different numbers.</p>
+</div>
+
+<div class="tw">
+<table>
+  <caption><b>Two surfaces, one day, identical queries</b>The right-hand columns are the site's actual organic ranking. The left-hand columns are the anomaly.</caption>
+  <thead>
+    <tr>
+      <th rowspan="2">Query</th>
+      <th class="n" colspan="2"><span style="color:var(--phantom)">?utm_source=gmb</span></th>
+      <th class="n" colspan="2"><span style="color:var(--signal)">/iv-therapy-irving-tx/</span></th>
+    </tr>
+    <tr><th class="n">Impr.</th><th class="n">Pos.</th><th class="n">Impr.</th><th class="n">Pos.</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="q">immunity iv near me</td><td class="n">20,329</td><td class="n">1.00</td><td class="n">90</td><td class="n">23.6</td></tr>
+    <tr><td class="q">recovery iv near me</td><td class="n">18,159</td><td class="n">1.01</td><td class="n">81</td><td class="n">37.1</td></tr>
+    <tr><td class="q">energy iv near me</td><td class="n">13,440</td><td class="n">1.01</td><td class="n">94</td><td class="n">22.9</td></tr>
+    <tr><td class="q">wellness iv near me</td><td class="n">9,664</td><td class="n">1.01</td><td class="n">120</td><td class="n">27.2</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p>The site's real position for “immunity iv near me” on 30 August was <b>23.6</b> — page three, where it has always been. The position-1 rows are a different surface reported into the same table. Nothing moved from 23.6 to 1.</p>
+<p>The organic rows did rise in volume that day too, from 4 impressions on the 29th to 385 on the 30th, falling back to 16 on the 31st. That matters: the over-count was <b>not confined to the tracking URL</b>. It hit the property, and hit the pack surface roughly 160× harder than the organic one.</p>
+</div>
+
+<div class="col">
+<h2><span class="num">04</span>Why this URL is in Search Console at all</h2>
+<p class="lede">This is the part that looks wrong but isn't. A URL does not have to be indexed to collect impressions, because indexing and Search-performance reporting are two separate systems.</p>
+<p>When someone searches a local query and Google shows the map pack, the “Website” link on your listing points at whatever URL is configured in the Business Profile — in your case the UTM-tagged one. Search Console attributes that appearance to <b>the URL that was shown</b>. It never asks whether that URL is in the web index. No crawl, no canonical, no sitemap entry is involved.</p>
+<p>The position it reports is the position of the pack block on the page, which is why it reads as a flat <code>1.00</code> rather than fluctuating the way a competitive organic rank does.</p>
+<p>You can see this plainly in what that URL has collected over its whole life. It is a local-pack query profile, not a web-index one:</p>
+</div>
+
+<div class="tw">
+<table>
+  <caption><b>Top queries on the GMB URL, all dates except 30 August</b>32 active days. Brand terms convert; broad pack terms don't. This is the normal, pre-existing behaviour.</caption>
+  <thead><tr><th>Query</th><th class="n">Impr.</th><th class="n">Clicks</th><th class="n">CTR</th><th class="n">Pos.</th></tr></thead>
+  <tbody>
+    <tr><td class="q">wellness clinic</td><td class="n">1,071</td><td class="n">0</td><td class="n">0%</td><td class="n">1.02</td></tr>
+    <tr class="hl-re"><td class="q">irving health and wellness clinic</td><td class="n">203</td><td class="n">24</td><td class="n">11.8%</td><td class="n">5.75</td></tr>
+    <tr><td class="q">health and wellness center</td><td class="n">119</td><td class="n">0</td><td class="n">0%</td><td class="n">1.00</td></tr>
+    <tr><td class="q">wellness clinic near me</td><td class="n">107</td><td class="n">0</td><td class="n">0%</td><td class="n">1.34</td></tr>
+    <tr><td class="q">google reviewed wellness clinic</td><td class="n">44</td><td class="n">0</td><td class="n">0%</td><td class="n">1.93</td></tr>
+    <tr class="hl-re"><td class="q">irving wellness clinic</td><td class="n">26</td><td class="n">7</td><td class="n">26.9%</td><td class="n">2.39</td></tr>
+    <tr><td><b>Whole URL, all other days</b></td><td class="n"><b>3,192</b></td><td class="n"><b>51</b></td><td class="n"><b>1.6%</b></td><td class="n">—</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p><code>google reviewed wellness clinic</code> is the tell — nobody types that into a web search expecting a page; it is a pack-surface query string. The brand rows converting at 12–27% while broad rows convert at 0% is exactly how a map-pack listing behaves: people searching your name click through, people browsing a pack tap Directions or Call instead.</p>
+<p><b>So: the URL was never indexed, and it still isn't.</b> Its presence in your reports is expected and has been happening for months at 17–233 impressions a day. Only the 30 August number is wrong.</p>
+</div>
+
+<div class="col">
+<h2><span class="num">05</span>Evidence chain</h2>
+<p>Six independent checks. Each one on its own is suggestive; together they close the question.</p>
+</div>
+
+<ol class="chain">
+  <li>
+    <span class="eid">E1</span>
+    <p class="etxt"><b>The volume is physically impossible.</b> <code>recovery iv near me</code> collected <b>31 impressions across its entire recorded life</b> and then <b>18,159 in one day</b>. The URL as a whole holds 3,192 lifetime impressions against 62,126 on 30 August. The day is <b>58% of everything the whole property recorded across the other 293 days on file</b>. No demand event does that to a long-tail phrase in one town.
+    <span class="src">Warehouse, 2025-11-11 → 2026-09-01, 295 dates</span></p>
+  </li>
+  <li>
+    <span class="eid">E2</span>
+    <p class="etxt"><b>CTR collapsed against the URL's own baseline.</b> This is the right control, not a site-wide average: on all other days that URL converts at <b>1.6%</b> (51 clicks / 3,192 impressions). At its own normal rate, 62,126 impressions should have produced roughly <b>990 clicks</b>. It produced <b>1</b> — a rate of 0.0016%, a thousandfold collapse on the same surface, same listing, same week.
+    <span class="src">Warehouse, page LIKE '%utm_source=gmb%', split on date</span></p>
+  </li>
+  <li>
+    <span class="eid">E3</span>
+    <p class="etxt"><b>Nothing was indexed.</b> URL Inspection on <code>https://irvingwellnessclinic.com/?utm_source=gmb&amp;utm_medium=gmb</code> returns coverage state <b>“URL is unknown to Google”</b>, verdict NEUTRAL, last crawl time <b>null</b>, no referring URLs, in no sitemap. Had a bug pushed this URL into the index, the inspection would show a coverage state and a Google-selected canonical. It shows neither, before or after the event.
+    <span class="src">gsc_inspect_url — live URL Inspection API, 3 Sep 2026</span></p>
+  </li>
+  <li>
+    <span class="eid">E4</span>
+    <p class="etxt"><b>Rank did not move — only counts did.</b> The identical queries resolve to <code>/iv-therapy-irving-tx/</code> at positions <b>22.9–37.1</b>, exactly where they sat before and after. Those organic rows also rose in volume (4 impressions on the 29th → 385 on the 30th → 16 on the 31st), so the over-count reached the organic surface too. Position was untouched throughout; only impression counts inflated.
+    <span class="src">Section 03 table; warehouse, 2026-08-24 → 2026-08-31</span></p>
+  </li>
+  <li>
+    <span class="eid">E5</span>
+    <p class="etxt"><b>The average-position “improvement” is arithmetic.</b> Impression-weighted position for the whole property: <b>29.94</b> on 29 Aug → <b>2.41</b> on 30 Aug → <b>24.93</b> on 31 Aug. Because 94.5% of the day's impressions carried a weight-1.0 position, they dragged the site-wide mean down. No page's position changed.
+    <span class="src">SUM(impressions×position)/SUM(impressions), by date</span></p>
+  </li>
+  <li>
+    <span class="eid">E6</span>
+    <p class="etxt"><b>It self-corrected in 24 hours.</b> That URL logs position-1 “near me” rows most weeks at ordinary scale — 18 impressions on 31 Jul, 19 on 4 Aug, 138 on 21 Aug, 99 on 23 Aug. On 30 Aug the same signature logged 61,964. The next day: 23. A ranking gain does not evaporate overnight; a bad counting run does.
+    <span class="src">Warehouse, page LIKE '%utm_source=gmb%' AND query LIKE '%near me%'</span></p>
+  </li>
+  <li>
+    <span class="eid">E7</span>
+    <p class="etxt"><b>The Business Profile shows no spike at all.</b> Operator-verified: the GBP performance report for the same period is flat. This is the control that closes the case. If the pack had genuinely been served 62,126 times in a day, the listing's own views would have surged in step. They did not — so <b>the impressions were very likely never shown to anyone</b>. The count exists only in Search Console's records.
+    <span class="src">Operator check of GBP performance report, 3 Sep 2026 — not measured by this analysis</span></p>
+  </li>
+</ol>
+
+<div class="col">
+<h3>What it is not</h3>
+<p>This is <b>not</b> the 2025–26 Google impression-inflation defect. That one ran 13 May 2025 to 27 April 2026 and was corrected without restating history; 30 August 2026 falls four months clear of it. It is also not a display error in the interface — the raw Search Analytics API returns the same 65,572, so the bad number is in Google's stored data, not in the rendering of it. And it is not an indexing incident: E3 shows the URL's index status is unchanged and empty on both sides of the event.</p>
+<p>What remains is a <b>logging or attribution fault in the impression-counting pipeline</b> on that date, weighted overwhelmingly toward the local-pack surface. Google does not publish an incident feed for this, so the fault is diagnosed from its signature rather than confirmed from an announcement.</p>
+</div>
+
+<div class="col">
+<h2><span class="num">06</span>What was actually real on 30 August</h2>
+<p>Set the phantom URL aside and the day still stands out, modestly. Three pages ran hot, and one of them is worth your attention for reasons that have nothing to do with the spike.</p>
+</div>
+
+<div class="tw">
+<table>
+  <caption><b>Genuine pages, 30 August vs the preceding six days</b>Impressions. Excludes the tracking URL entirely.</caption>
+  <thead><tr><th>Page</th><th class="n">30 Aug</th><th class="n">24–29 Aug avg</th><th class="n">Multiple</th></tr></thead>
+  <tbody>
+    <tr><td><code>/iv-therapy-irving-tx/</code></td><td class="n">1,693</td><td class="n">414</td><td class="n">4.1×</td></tr>
+    <tr><td><code>/how-iv-therapy-fights-chronic-fatigue/</code></td><td class="n">622</td><td class="n">71</td><td class="n">8.8×</td></tr>
+    <tr class="hl-re"><td><code>/reverse-insulin-resistance/</code></td><td class="n">522</td><td class="n">33</td><td class="n">15.8×</td></tr>
+    <tr><td><code>/</code> (homepage)</td><td class="n">330</td><td class="n">200</td><td class="n">1.7×</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="note">
+  <span class="lbl">The finding worth acting on</span>
+  <p>The query <b>“insulin resistance”</b> — broad, high-volume, non-local — went from <b>2 impressions at position 3.0</b> on 29 August to <b>443 at position 2.57</b> on the 30th and <b>210 at position 2.69</b> on the 31st, all on <code>/reverse-insulin-resistance/</code>. That is a real top-three ranking on a head term, newly switched on, holding for two days.</p>
+  <p>It returned <b>zero clicks</b>. Position 2.6 with 653 impressions and no clicks is the classic absorbed-answer signature: something above the result is answering the question. This is a genuine opportunity and a genuine problem, and it is unrelated to everything else in this report.</p>
+</div>
+
+<div class="col">
+<h2><span class="num">07</span>Confidence</h2>
+<p>Separating what the data proves from what it strongly implies.</p>
+</div>
+
+<div class="split">
+  <section class="cf">
+    <h4>Verified</h4>
+    <ul>
+      <li>The 65,572 figure is in Google's own API, not a UI artefact.</li>
+      <li>61,964 impressions (94.5%) attribute to the <code>utm_source=gmb</code> homepage URL on four queries.</li>
+      <li>That URL is unknown to Google's index, has never been crawled, and its index status is unchanged either side of the event.</li>
+      <li>That URL has been collecting impressions normally for months (3,192 across 32 active days, 1.6% CTR) — its presence in reporting is not new and not a fault.</li>
+      <li>The volume on 30 August exceeds any plausible demand: 58% of the property's other 293 days combined, and 586× one query's lifetime total.</li>
+      <li>The Business Profile performance report shows no corresponding spike (operator-verified), so no matching real-world exposure occurred.</li>
+      <li>No page's position changed. Clicks, traffic and leads were unaffected.</li>
+    </ul>
+  </section>
+  <section class="in">
+    <h4>Inferred, not proven</h4>
+    <ul>
+      <li>That the affected <em>reporting channel</em> is the Business Profile / local-pack surface. The reasoning: the URL is the one configured in the GBP listing, its lifetime query profile is unmistakably pack-shaped (<code>google reviewed wellness clinic</code>, brand terms at 12–27% CTR against 0% on broad terms), and an uncrawled URL has no other route into Search-performance data. Note this is now a claim about which <em>row</em> the bad count was written to, not about anything real being served.</li>
+      <li>Why it happened on that particular Sunday is unknown, and Google publishes no incident record to check against.</li>
+      <li>Whether Google will retroactively correct the stored figure. The 2025–26 inflation defect was fixed <em>without</em> restating history, so the working assumption is that 30 August stays wrong in the interface permanently.</li>
+    </ul>
+  </section>
+</div>
+
+<div class="col">
+<h2><span class="num">08</span>What to do</h2>
+</div>
+
+<ol class="acts">
+  <li><b>Change nothing on the site, and leave the UTM URL exactly as it is.</b> It is doing its job, it is not indexed, it is not a duplicate-content risk, and it never became one — E3 confirms Google has still never crawled it. Removing or rewriting it would cost you the local-pack attribution you built it for and would not have prevented this.</li>
+  <li><b>Do not report this as growth.</b> If 30 August lands inside a client reporting window it will inflate impressions by roughly 57× and show average position improving from ~30 to ~2. Both are artefacts. Report the month on clicks, and on impressions with the tracking URL excluded.</li>
+  <li><b>Re-run the Business Profile performance pull</b> when the API quota resets, to confirm the local surface as the source and close the one inferred leg of this report.</li>
+  <li><b>Follow up on <code>/reverse-insulin-resistance/</code>.</b> Position 2.6 on “insulin resistance” with 653 impressions and zero clicks over two days is the real story of that weekend. Check whether an AI Overview is taking the answer before treating it as a title or snippet problem.</li>
+  <li><b>Set an alert threshold, not a fix.</b> This signature will recur at small volume most weeks. A day is worth investigating only when impressions on real pages move — the tracking URL's numbers should be excluded from monitoring by default.</li>
+</ol>
+
+<footer>
+  Evidence: local Search Console warehouse, 295 days (2025-11-11 → 2026-09-01, 41,160+ rows), synced from the Search Analytics API 3 Sep 2026 · URL Inspection API, live call · Business Profile API unavailable (HTTP 429)<br>
+  Property: https://irvingwellnessclinic.com/ · Irving Health and Wellness Clinic
+</footer>
+
+</div>

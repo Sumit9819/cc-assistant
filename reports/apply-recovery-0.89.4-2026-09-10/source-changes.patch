@@ -1,0 +1,650 @@
+--- before/cc-assistant.php
++++ after/cc-assistant.php
+@@ -3,7 +3,7 @@
+  * Plugin Name: CC Assistant
+  * Plugin URI: https://example.com/cc-assistant
+  * Description: Connects WordPress to Claude Code for content analysis, optimization, and safe drafting on Elementor sites. Drafting and publication through human review.
+- * Version: 0.89.3
++ * Version: 0.89.4
+  * Requires at least: 6.0
+  * Requires PHP: 8.0
+  * Author: Sumit
+@@ -271,7 +271,7 @@
+ 	exit;
+ }
+ 
+-define( 'CC_ASSISTANT_VERSION', '0.89.3' );
++define( 'CC_ASSISTANT_VERSION', '0.89.4' );
+ define( 'CC_ASSISTANT_FILE', __FILE__ );
+ define( 'CC_ASSISTANT_DIR', plugin_dir_path( __FILE__ ) );
+ define( 'CC_ASSISTANT_URL', plugin_dir_url( __FILE__ ) );
+--- before/EVIDENCE.md
++++ after/EVIDENCE.md
+@@ -8,7 +8,7 @@
+ 
+ WordPress enforces evidence at the shared proposal queue for REST clients. Successful `whoami` is required within ten minutes. Each existing published target needs a usable `verified_page_audit`; unpublished posts and Elementor templates need full `get_post(slim=false)`; active Kit edits use `get_kit_settings`. Generic plugin-setting changes require `get_plugin_settings` to have observed the exact option. Receipts belong to the WordPress user and Application Password UUID or browser session, are stored by the server, and cannot be submitted by the model. Failed newer page observations invalidate older proof. Drafts created in the same request are an explicit exception to reading a post before it exists.
+ 
+-Page state must still match when drafting and approving. The environment fingerprint covers WordPress, active plugin/theme and MU plugin versions, active Kit settings, and selected URL, indexing, SEO and language configuration. It does not hash every file, setting or external service. Approval rejects changed evidence before claiming the pending row. Ten minutes limits observation age when proposing; review may happen later if state still matches. A sibling approval changes the page too: consolidate related work or read and rebuild remaining proposals after approval. There is no force override.
++Page state must still match when drafting and approving. The environment fingerprint covers WordPress, active plugin/theme and MU plugin versions, active Kit settings, and selected URL, indexing, SEO and language configuration. It does not hash every file, setting or external service. Approval rejects changed evidence before claiming the pending row. Ten minutes limits observation age when proposing; review may happen later if state still matches. Since 0.89.4, independent supported edits can continue after sibling approvals, including across requests, only when version-2 recovery snapshots prove an unbroken sequence of exact approved changes with no overlapping targets. The original observation stays intact. External changes, unexpected hook writes, missing history and structural changes require fresh proposals. verify_change reports the evidence check separately from lint. The tested 0.89.3-to-0.89.4 patch can preserve the prior environment fingerprint only when every other fingerprinted value still matches. There is no force override.
+ 
+ Receipts apply to new REST proposals. Historical pendings and internal cron/CLI proposals do not acquire a client-session receipt retroactively; existing conflict/recovery checks remain. Recreate old work for stronger binding. Non-page changes require identity but do not automatically acquire a comprehensive audit of taxonomies, redirects or every dependency. Local Claude hooks remain an additional guard. The plugin cannot constrain unsupported statements in model prose.
+ 
+--- before/readme.txt
++++ after/readme.txt
+@@ -4,7 +4,7 @@
+ Requires at least: 6.0
+ Tested up to: 7.0
+ Requires PHP: 8.0
+-Stable tag: 0.89.3
++Stable tag: 0.89.4
+ License: GPLv2 or later
+ 
+ Connects WordPress to Claude Code via MCP for safe content analysis, optimization, and drafting on Elementor sites.
+@@ -58,6 +58,13 @@
+ It connects through your authenticated Claude Code configuration. Billing depends on that configuration. Optional automation uses the same native client; CLI budget figures are estimates and external provider usage is separate.
+ 
+ == Changelog ==
++
++= 0.89.4 =
++* Fixed partial approvals making independent title, excerpt, author, SEO and Elementor section/widget proposals stale, including across separate Apply requests.
++* Continuation requires an exact chain of approved version-2 recovery snapshots and non-overlapping targets. External edits, missing history, unexpected side effects and structural changes remain blocked.
++* Preserved the tested 0.89.3-to-0.89.4 update path without ignoring changes to other plugins, themes, WordPress, Kit or SEO configuration. Existing compatible proposals retain their IDs.
++* Added the actual evidence-check result and approved sibling IDs to verify_change, separate from lint.
++* Added mixed-operation, cross-request, history integrity and patch-compatibility regression coverage.
+ 
+ = 0.89.3 =
+ * Block generic publication/scheduling/trashing status updates that bypass dedicated reviewed handlers.
+--- before/bin/agent-contract.php
++++ after/bin/agent-contract.php
+@@ -3,11 +3,11 @@
+ $cc_data = json_decode( <<<'CC_SHARED_JSON'
+ {
+   "manifest": {
+-    "version": "0.89.3",
++    "version": "0.89.4",
+     "features": {
+       "pending_queue": {
+         "since": "0.1",
+-        "what": "Draft content and queued changes are reviewed by an administrator. A partial approval keeps successful edits saved. Read pending history and the current target before rebuilding only blocked proposals. A plugin update can invalidate old environment evidence: verify whoami after deployment, then re-audit and queue. Since 0.89.1, independently selected widget updates can share one bulk approval when exact saved state matches each predicted change; overlapping edits and other change types still require current evidence. Some tools write organizational metadata, research records or local files immediately; inspect each tool contract.",
++        "what": "Draft content and queued changes require administrator approval. Since 0.89.4, independent content, title, excerpt, author, supported SEO and Elementor widget/section-setting edits can survive separate Apply requests. The server must prove every intervening change from approved recovery snapshots and exact before/after fingerprints; overlapping edits, unexplained writes, missing history and structural changes still require fresh evidence. The tested 0.89.3 to 0.89.4 patch alone preserves environment compatibility only when all other fingerprinted settings and versions match. Do not rebuild or duplicate a valid remaining proposal merely because a sibling was approved. Use verify_change.evidence_check, inspect blocked targets and rebuild only genuine conflicts. Some tools write organizational metadata, research records or local files immediately; inspect each tool contract.",
+         "tools": "draft_*, list_pending_changes, verify_change"
+       },
+       "gsc_warehouse": {
+@@ -401,7 +401,7 @@
+     "brief_for_keyword": "Brief for a proposed query: observed GSC sample, tentative cluster fit and content context. Missing GSC does not mean no demand or a clean slate. Use plan_blog_content first for a new-blog request, including topics with no ranking history. Existing query overlap is not proof of SEO harm; no fixed word count is required.",
+     "prepare_rewrite_brief": "MANDATORY PRE-FLIGHT for any body rewrite of an EXISTING post. One call returns: post_dossier, analyze_post_structure, brief_for_keyword on the top GSC query, competitor_brief, cannibalization filtered to this post, accessibility audit, image audit, the active style guide (raw markdown + parsed banned-phrase list), recent pending/approved edits on the post, a CTR-vs-position diagnostic that flags meta-tag problems vs body problems, and an 11-point rewrite checklist. Always call this BEFORE draft_update_post_content. The plugin server will lint your proposed body at queue time against the same rules surfaced here, so skipping this step just means hard-violation refusals on submit. Pass keyword to override the auto-picked top GSC query; otherwise omit it.",
+     "propose_rewrite_outline": "MANDATORY FIRST STEP for any large body rewrite (>2000 character delta). Queue a structured editorial outline as a Pending Change for the human to approve BEFORE you write any HTML. The reviewer sees each H2 with its action chip (keep / cut / merge / add / rewrite) and your notes, signs off on the plan, and only then does draft_update_post_content accept the body. The endpoint refuses big rewrites without an approved outline within the last 7 days (override: force_no_outline=true for migrations). The outline shape is an array of {action, h2, notes} rows plus a one-line rationale.",
+-    "verify_change": "Self-audit a queued pending change. Call AFTER any draft_* / propose_* tool returns a pending_id, so you can confirm the lint passed, the structure delta is what you intended, no sibling pending rows duplicate this work, and success_metrics are set. Returns: pending row metadata, the lint_report attached at queue time, structure_diff (before vs after analyze_post_structure for post_content rewrites — word_count_delta, h2_delta, h3_delta), success_metrics, sibling pending or approved changes on the same post (so you spot stacked work), and a one-line verdict the model can quote. Use this as your post-action check instead of trusting that the queue endpoint return value made it through context.",
++    "verify_change": "Self-audit a queued pending change. Call AFTER any draft_* / propose_* tool returns a pending_id, so you can confirm the lint passed, the structure delta is what you intended, no sibling pending rows duplicate this work, and success_metrics are set. Returns: pending row metadata, the lint_report attached at queue time, structure_diff (before vs after analyze_post_structure for post_content rewrites — word_count_delta, h2_delta, h3_delta), success_metrics, sibling pending or approved changes on the same post (so you spot stacked work), and a one-line verdict the model can quote. Use this as your post-action check instead of trusting that the queue endpoint return value made it through context. The evidence_check field separately reports current, compatible_approved_changes (with the approved sibling IDs), blocked, or not_pending. It checks post/environment evidence, not clinical accuracy, permission, payload validation or rendered success. Lint passing alone does not mean a proposal can apply.",
+     "cluster_gsc": "Cluster-aware GSC overlay. Aggregates Search Console data across every member URL in a topic cluster and returns: totals (impressions/clicks/avg_position/queries), top 25 cluster queries with the leading page per query, \"pillar misses\" (queries where supporting pages outrank or replace the pillar — strong refresh signal), internal cannibalization (queries where 2+ cluster members compete in the same SERP window), and a per-member breakdown of impressions/clicks/avg_position. Use to spot whether the pillar is doing its job and which queries to consolidate.",
+     "accessibility_audit": "v0.76 — content-level WCAG audit on the RENDERED page (render probe, cache-busted, document order). Reports empty/unnamed links (img alt and aria-label credited, as a screen reader would), weak link text, heading skips and empty headings in true document order, missing or multiple H1, html lang, skip link presence and a dangling skip target, tables without th, content hidden by aria-hidden, images with no alt attribute (alt=\"\" counts as decorative), role=img without a name, iframes without title, form controls with no label (placeholder is not a label), buttons without a name, autoplay carousels and videos. Every finding carries the WCAG criterion. Before v0.76 this read stale post_content and reported failures the live page did not have; it now refuses to fall back to that. NOT measured here: colour contrast, visible focus, keyboard operability, motion - run wcag_sweep for those.",
+     "canonical_audit": "P0 guard. Fetches the rendered HTML of the post permalink and validates rel=\"canonical\" against Google's documented rules: must be in <head>, single tag, absolute https URL, no #fragment, present in source HTML (no JS-injection-only). Returns issues[] with severity (high/medium/info), the resolved canonical URL, and a verdict (pass/warn/fail). Run this BEFORE proposing a meta or slug change — a broken canonical can cause deindex. Codes: canonical_missing, canonical_in_body, canonical_duplicate, canonical_not_absolute, canonical_has_fragment, canonical_cross_referenced (info-only, may be intentional).",
+--- before/bin/mcp-server.php
++++ after/bin/mcp-server.php
+@@ -33,7 +33,7 @@
+ // Bridge build version. Keep in sync with CC_ASSISTANT_VERSION — used for
+ // serverInfo AND the whoami version-drift warning (the local plugin copy is
+ // always the newest build, since this is where releases are made).
+-define( 'CC_MCP_VERSION', '0.89.3' );
++define( 'CC_MCP_VERSION', '0.89.4' );
+ 
+ // HTTP transport: prefer curl when available, fall back to PHP streams.
+ $HAS_CURL = function_exists( 'curl_init' );
+--- before/includes/class-apply.php
++++ after/includes/class-apply.php
+@@ -90,6 +90,9 @@
+ 		if ( 'pending' !== $pending->status ) {
+ 			return new WP_Error( 'not_pending', 'Pending change has already been reviewed.' );
+ 		}
++		if ( ! empty( $pending->superseded_by ) ) {
++			return new WP_Error( 'proposal_superseded', 'A newer proposal replaces this change. Refresh the inbox and review the replacement.', array( 'status' => 409 ) );
++		}
+ 		if ( $batch && ! $batch->matches( $pending ) ) { return new WP_Error( 'batch_proposal_changed', 'This proposal changed during bulk approval. Refresh the inbox and review it again.', array( 'status' => 409 ) ); }
+ 
+ 		$proposed = json_decode( $pending->proposed_value, true );
+@@ -97,9 +100,8 @@
+ 			return new WP_Error( 'invalid_proposed', 'Proposed value is not valid JSON.' );
+ 		}
+ 
+-		$proof = CC_Assistant_Evidence_Gate::validate_apply( $pending, $batch ? $batch->expected_posts( $pending ) : array() );
++		$proof = CC_Assistant_Evidence_Gate::validate_apply( $pending );
+ 		if ( is_wp_error( $proof ) ) { return $proof; }
+-		$batch_prediction = $batch ? $batch->predict( $pending ) : null;
+ 		$valid = CC_Assistant_Elementor_Validation::validate_payload( (array) $pending );
+ 		if ( is_wp_error( $valid ) ) { return $valid; }
+ 
+@@ -527,7 +529,6 @@
+ 			$page_facts_verification = array( 'verdict' => 'unavailable', 'note' => $verify_note );
+ 		}
+ 
+-		if ( $batch ) { $batch->record_success( $batch_prediction ); }
+ 		return array(
+ 			'success'     => true,
+ 			'snapshot_id' => $snapshot_id,
+--- before/includes/class-approval-batch.php
++++ after/includes/class-approval-batch.php
+@@ -1,83 +1,19 @@
+ <?php
+-/** Request-local evidence for independent widget edits selected in one approval. */
++/** Request-local selection integrity; persisted recovery records prove sibling changes. */
+ if ( ! defined( 'ABSPATH' ) ) { exit; }
+ 
+ class CC_Assistant_Approval_Batch {
+-	private $rows = array();
+ 	private $selected = array();
+-	private $posts = array();
+-	private $used = array();
+-
+ 	public function __construct( array $ids ) {
+-		$blocked = array();
+ 		foreach ( $ids as $id ) {
+ 			$row = CC_Assistant_Pending_Changes::get( $id );
+ 			if ( $row ) { $this->selected[(int) $id] = self::signature( $row ); }
+-			if ( ! $row || 'pending' !== $row->status || 'elementor_widget_update' !== $row->change_type || ! empty( $row->superseded_by ) ) { continue; }
+-			$proof = CC_Assistant_Integrity::baseline( $row )['evidence'] ?? array();
+-			$pid = (int) $row->post_id;
+-			if ( isset( $blocked[$pid] ) ) { continue; }
+-			// Only proposals that were current before any batch write are eligible.
+-			if ( count( $proof['posts'] ?? array() ) !== 1 || empty( $proof['posts'][$pid]['post_hash'] ) || is_wp_error( CC_Assistant_Evidence_Gate::validate_apply( $row ) ) ) { continue; }
+-			$payload = json_decode( $row->proposed_value, true );
+-			if ( empty( $payload['widget_id'] ) || ! is_string( $payload['widget_id'] ) || ! is_array( $payload['settings'] ?? null ) ) { continue; }
+-			if ( isset( $this->posts[$pid] ) && $this->posts[$pid] !== $proof['posts'][$pid]['post_hash'] ) {
+-				// A concurrent edit during preflight must not rebase earlier rows.
+-				unset( $this->posts[$pid] ); $blocked[$pid] = true; continue;
+-			}
+-			$this->rows[(int) $id] = array( 'signature' => self::signature( $row ), 'post_id' => $pid, 'widget_id' => $payload['widget_id'] );
+-			$this->posts[$pid] = $proof['posts'][$pid]['post_hash'];
+ 		}
+ 	}
+-
+ 	private static function signature( $row ) {
+-		return hash( 'sha256', wp_json_encode( array( $row->post_id, $row->change_type, $row->proposed_value, $row->current_value, $row->pre_check_baseline ) ) );
++		return hash( 'sha256', wp_json_encode( array( $row->post_id, $row->change_type, $row->proposed_value, $row->current_value, $row->pre_check_baseline, $row->superseded_by ?? null ) ) );
+ 	}
+-
+ 	public function matches( $row ) {
+-		return isset( $this->selected[(int) $row->id] ) && $this->selected[(int) $row->id] === self::signature( $row );
+-	}
+-
+-	private function eligible( $row ) {
+-		$entry = $this->rows[(int) $row->id] ?? null;
+-		return $entry && isset( $this->posts[$entry['post_id']] ) && $entry['signature'] === self::signature( $row ) && empty( $this->used[$entry['post_id']][$entry['widget_id']] ) ? $entry : null;
+-	}
+-
+-	public function expected_posts( $row ) {
+-		$entry = $this->eligible( $row );
+-		return $entry ? array( $entry['post_id'] => $this->posts[$entry['post_id']] ) : array();
+-	}
+-
+-	/** Predict the whole post fingerprint before applying the approved widget patch. */
+-	public function predict( $row ) {
+-		$entry = $this->eligible( $row );
+-		if ( ! $entry || CC_Assistant_Integrity::post_hash( $entry['post_id'] ) !== $this->posts[$entry['post_id']] ) { return null; }
+-		$payload = json_decode( $row->proposed_value, true );
+-		$tree = json_decode( get_post_meta( $entry['post_id'], '_elementor_data', true ), true );
+-		if ( ! is_array( $tree ) ) { return null; }
+-		$count = 0;
+-		self::patch( $tree, $payload['widget_id'], $payload['settings'], $count );
+-		$json = wp_json_encode( $tree );
+-		if ( 1 !== $count || false === $json ) { return null; }
+-		$entry['expected'] = CC_Assistant_Integrity::post_hash( $entry['post_id'], array( '_elementor_data' => array( $json ), '_elementor_edit_mode' => array( 'builder' ) ) );
+-		return $entry;
+-	}
+-
+-	private static function patch( array &$tree, $id, array $settings, &$count ) {
+-		foreach ( $tree as &$node ) {
+-			if ( ! is_array( $node ) ) { continue; }
+-			if ( ( $node['id'] ?? null ) === $id ) {
+-				++$count;
+-				$node['settings'] = array_merge( is_array( $node['settings'] ?? null ) ? $node['settings'] : array(), $settings );
+-			}
+-			if ( ! empty( $node['elements'] ) && is_array( $node['elements'] ) ) { self::patch( $node['elements'], $id, $settings, $count ); }
+-		}
+-	}
+-
+-	public function record_success( $prediction ) {
+-		// Unexpected hook/editor writes do not become trusted sibling evidence.
+-		if ( ! $prediction || empty( $prediction['expected'] ) || $prediction['expected'] !== CC_Assistant_Integrity::post_hash( $prediction['post_id'] ) ) { return; }
+-		$this->posts[$prediction['post_id']] = $prediction['expected'];
+-		$this->used[$prediction['post_id']][$prediction['widget_id']] = true;
++		return empty( $row->superseded_by ) && isset( $this->selected[(int) $row->id] ) && $this->selected[(int) $row->id] === self::signature( $row );
+ 	}
+ }
+--- before/includes/class-approval-continuation.php
++++ after/includes/class-approval-continuation.php
+@@ -0,0 +1,125 @@
++<?php
++/** Prove that only non-overlapping approved writes separate an observation from today. */
++if ( ! defined( 'ABSPATH' ) ) { exit; }
++require_once __DIR__ . '/class-integrity.php';
++
++class CC_Assistant_Approval_Continuation {
++	/** Deliberately excludes structural edits, publication, slugs and arbitrary plugin settings. */
++	public static function scope( $row ) {
++		$p = json_decode( (string) ( $row->proposed_value ?? '' ), true );
++		if ( ! is_array( $p ) ) { return null; }
++		switch ( $row->change_type ?? '' ) {
++			case 'meta_update':
++				return in_array( $p['field'] ?? '', array( 'post_title', 'post_excerpt', 'post_author' ), true ) && is_scalar( $p['value'] ?? null ) ? array( 'field:' . $p['field'] ) : null;
++			case 'post_content_update':
++				return is_string( $p['content'] ?? null ) ? array( 'field:post_content' ) : null;
++			case 'postmeta_update':
++				$key = $p['key'] ?? '';
++				// These are independent text/image SEO fields, not builder or workflow state.
++				$keys = array( 'rank_math_title', 'rank_math_description', 'rank_math_focus_keyword', 'rank_math_canonical_url', 'rank_math_facebook_title', 'rank_math_facebook_description', 'rank_math_twitter_title', 'rank_math_twitter_description', '_yoast_wpseo_title', '_yoast_wpseo_metadesc', '_yoast_wpseo_focuskw', '_yoast_wpseo_canonical', '_yoast_wpseo_opengraph-title', '_yoast_wpseo_opengraph-description', '_yoast_wpseo_twitter-title', '_yoast_wpseo_twitter-description', '_seopress_titles_title', '_seopress_titles_desc', '_seopress_robots_canonical', '_thumbnail_id', '_wp_attachment_image_alt' );
++				return in_array( $key, $keys, true ) && is_scalar( $p['value'] ?? null ) ? array( 'meta:' . $key ) : null;
++			case 'elementor_widget_update':
++				$updates = array( $p ); break;
++			case 'elementor_section_content_replace':
++				$updates = $p['widget_updates'] ?? null; break;
++			default: return null;
++		}
++		if ( ! is_array( $updates ) || ! $updates ) { return null; }
++		$scope = array();
++		foreach ( $updates as $u ) {
++			if ( ! is_array( $u ) || ! is_string( $u['widget_id'] ?? null ) || '' === $u['widget_id'] || ! is_array( $u['settings'] ?? null ) ) { return null; }
++			$scope[] = 'widget:' . $u['widget_id'];
++		}
++		return count( array_unique( $scope ) ) === count( $scope ) ? $scope : null;
++	}
++
++	/** Pure replay. No writes, timestamps, cache resets, or fabricated observations. */
++	public static function replay( $row, array $state ) {
++		if ( null === self::scope( $row ) || '' === CC_Assistant_Integrity::state_hash( $state ) ) { return null; }
++		$p = json_decode( $row->proposed_value, true );
++		switch ( $row->change_type ) {
++			case 'meta_update': $state['fields'][$p['field']] = (string) $p['value']; break;
++			case 'post_content_update': $state['fields']['post_content'] = $p['content']; break;
++			case 'postmeta_update':
++				$values = $state['meta'][$p['key']] ?? array();
++				if ( ! is_array( $values ) ) { return null; }
++				// Match apply_post_meta's delete-only-when-already-empty behavior.
++				if ( '' === trim( (string) $p['value'] ) && '' === trim( (string) ( $values[0] ?? '' ) ) ) { unset( $state['meta'][$p['key']] ); }
++				else { $state['meta'][$p['key']] = array_fill( 0, max( 1, count( $values ) ), (string) $p['value'] ); }
++				break;
++			default:
++				$raw = $state['meta']['_elementor_data'][0] ?? null;
++				$tree = is_string( $raw ) ? json_decode( $raw, true ) : null;
++				if ( ! is_array( $tree ) ) { return null; }
++				$deep = 'elementor_section_content_replace' === $row->change_type;
++				$updates = $deep ? $p['widget_updates'] : array( $p );
++				foreach ( $updates as $u ) {
++					$count = 0;
++					if ( ! self::patch( $tree, $u['widget_id'], $u['settings'], $deep, $count ) || 1 !== $count ) { return null; }
++				}
++				$json = wp_json_encode( $tree );
++				if ( false === $json ) { return null; }
++				$state['meta']['_elementor_data'] = array( $json );
++				$state['meta']['_elementor_edit_mode'] = array( 'builder' );
++		}
++		return $state;
++	}
++
++	private static function patch( array &$nodes, $id, array $settings, $deep, &$count, $depth = 0 ) {
++		if ( $depth > 64 ) { return false; }
++		foreach ( $nodes as &$n ) {
++			if ( ! is_array( $n ) ) { return false; }
++			if ( ( $n['id'] ?? null ) === $id ) {
++				++$count;
++				$old = is_array( $n['settings'] ?? null ) ? $n['settings'] : array();
++				$n['settings'] = $deep ? self::merge( $old, $settings ) : array_merge( $old, $settings );
++			}
++			if ( ! empty( $n['elements'] ) && ( ! is_array( $n['elements'] ) || ! self::patch( $n['elements'], $id, $settings, $deep, $count, $depth + 1 ) ) ) { return false; }
++		}
++		return true;
++	}
++	private static function merge( array $base, array $overlay ) {
++		foreach ( $overlay as $key => $value ) {
++			$base[$key] = is_array( $value ) && isset( $base[$key] ) && is_array( $base[$key] ) ? self::merge( $base[$key], $value ) : $value;
++		}
++		return $base;
++	}
++
++	/** An unbroken chain must start at this proposal's original observation and end exactly live. */
++	public static function prove( $pending, $live_hash ) {
++		$failure = array( 'safe' => false, 'approved_ids' => array() );
++		$scope = self::scope( $pending );
++		$pid = (int) ( $pending->post_id ?? 0 );
++		$e = CC_Assistant_Integrity::baseline( $pending )['evidence'] ?? array();
++		$expected = $e['posts'][$pid]['post_hash'] ?? '';
++		if ( ! $pid || ! $scope || ! $expected || ! $live_hash || count( $e['posts'] ?? array() ) !== 1 || ! CC_Assistant_Evidence_Gate::environment_matches( $e['environment_hash'] ?? '' ) ) { return $failure; }
++		if ( $expected === $live_hash ) { return array( 'safe' => true, 'approved_ids' => array() ); }
++		require_once __DIR__ . '/class-snapshots.php';
++		global $wpdb;
++		// Bounded history. Missing/older history fails closed and requires a fresh proposal.
++		$rows = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM {$wpdb->prefix}cc_pending_changes WHERE post_id = %d AND status = 'approved' ORDER BY reviewed_at DESC, id DESC LIMIT 200", $pid ) );
++		$steps = array();
++		foreach ( (array) $rows as $row ) {
++			$b = CC_Assistant_Integrity::baseline( $row );
++			if ( empty( $b['snapshot_id'] ) || empty( $b['applied_post_hash'] ) || null === self::scope( $row ) ) { continue; }
++			if ( ! CC_Assistant_Evidence_Gate::environment_matches( $b['evidence']['environment_hash'] ?? '' ) ) { continue; }
++			$s = CC_Assistant_Snapshots::get_snapshot( (int) $b['snapshot_id'] );
++			if ( ! $s || (int) $s->post_id !== $pid || 'pre_apply' !== $s->snapshot_type ) { continue; }
++			$state = CC_Assistant_Snapshots::state( $s );
++			if ( 2 !== ( $state['cc_snapshot_version'] ?? null ) || CC_Assistant_Integrity::utc_timestamp( $state['created_at_gmt'] ?? '' ) < CC_Assistant_Integrity::queued_timestamp( $pending ) ) { continue; }
++			$steps[(int) $s->id] = array( $row, $state, $b['applied_post_hash'] );
++		}
++		ksort( $steps, SORT_NUMERIC );
++		$approved = array();
++		foreach ( $steps as list( $row, $state, $recorded_after ) ) {
++			if ( CC_Assistant_Integrity::state_hash( $state ) !== $expected ) { continue; }
++			if ( array_intersect( $scope, self::scope( $row ) ) ) { return $failure; }
++			$after = self::replay( $row, $state );
++			if ( ! $after || CC_Assistant_Integrity::state_hash( $after ) !== $recorded_after ) { return $failure; }
++			$expected = $recorded_after;
++			$approved[] = (int) $row->id;
++			if ( $expected === $live_hash ) { return array( 'safe' => true, 'approved_ids' => $approved ); }
++		}
++		return $failure;
++	}
++}
+--- before/includes/class-evidence-gate.php
++++ after/includes/class-evidence-gate.php
+@@ -31,11 +31,12 @@
+ 		$age = is_array( $r ) ? time() - (int) ( $r['observed_at'] ?? 0 ) : self::TTL + 1;
+ 		return self::actor() && $age >= 0 && $age <= self::TTL ? $r : null;
+ 	}
+-	public static function environment_hash() {
++	public static function environment_hash( $prior_cc_version = null ) {
+ 		if ( ! function_exists( 'get_plugins' ) ) { require_once ABSPATH . 'wp-admin/includes/plugin.php'; }
+ 		$plugins = get_plugins(); $versions = array();
+ 		$active = array_unique( array_merge( (array) get_option( 'active_plugins', array() ), array_keys( (array) get_site_option( 'active_sitewide_plugins', array() ) ) ) );
+ 		foreach ( $active as $file ) { $versions[$file] = $plugins[$file]['Version'] ?? 'missing'; }
++		if ( null !== $prior_cc_version && defined( 'CC_ASSISTANT_BASENAME' ) && isset( $versions[CC_ASSISTANT_BASENAME] ) ) { $versions[CC_ASSISTANT_BASENAME] = $prior_cc_version; }
+ 		ksort( $versions );
+ 		$themes = array();
+ 		if ( function_exists( 'wp_get_theme' ) ) { foreach ( array_unique( array( get_option( 'stylesheet' ), get_option( 'template' ) ) ) as $theme ) { $themes[$theme] = wp_get_theme( $theme )->get( 'Version' ); } }
+@@ -46,6 +47,13 @@
+ 		$context = array( 'wp_version' => $GLOBALS['wp_version'] ?? '', 'mu_plugins' => $mu, 'theme_versions' => $themes, 'plugins' => $versions, 'stylesheet' => get_option( 'stylesheet' ), 'template' => get_option( 'template' ), 'blog_public' => get_option( 'blog_public' ), 'kit' => $kit ? get_post_meta( $kit, '_elementor_page_settings', true ) : null );
+ 		foreach ( array( 'home', 'siteurl', 'permalink_structure', 'show_on_front', 'page_on_front', 'polylang', 'rank_math_modules', 'wpseo', 'rank-math-options-titles', 'rank-math-options-general', 'wpseo_titles', 'elementor_experiment-container' ) as $option ) { $context[$option] = get_option( $option, null ); }
+ 		return hash( 'sha256', wp_json_encode( $context ) );
++	}
++	/** This tested guard-only upgrade preserves 0.89.3 plans; every other environment input must match. */
++	public static function environment_matches( $hash ) {
++		if ( ! is_string( $hash ) || '' === $hash ) { return false; }
++		if ( hash_equals( self::environment_hash(), $hash ) ) { return true; }
++		return defined( 'CC_ASSISTANT_VERSION' ) && '0.89.4' === CC_ASSISTANT_VERSION
++			&& defined( 'CC_ASSISTANT_BASENAME' ) && hash_equals( self::environment_hash( '0.89.3' ), $hash );
+ 	}
+ 	private static function handler_name( $handler ) { return is_array( $handler['callback'] ?? null ) ? (string) ( $handler['callback'][1] ?? '' ) : ''; }
+ 	public static function before_read( $response, $handler, $request ) {
+@@ -139,15 +147,19 @@
+ 		}
+ 		return $evidence;
+ 	}
+-	public static function validate_apply( $pending, array $batch_posts = array() ) {
++	public static function validate_apply( $pending ) {
+ 		$baseline = CC_Assistant_Integrity::baseline( $pending );
+ 		$evidence = $baseline['evidence'] ?? null;
+-		if ( is_array( $evidence ) && ( $evidence['environment_hash'] ?? '' ) !== self::environment_hash() ) {
++		if ( is_array( $evidence ) && ! self::environment_matches( $evidence['environment_hash'] ?? '' ) ) {
+ 			return new WP_Error( 'environment_changed', 'The plugin/theme/kit or SEO configuration changed after this plan was drafted. Inspect the current site and queue a new plan.', array( 'status' => 409 ) );
+ 		}
+ 		foreach ( (array) ( $evidence['posts'] ?? array() ) as $id => $receipt ) {
+-			$expected = $batch_posts[$id] ?? ( $receipt['post_hash'] ?? '' );
+-			if ( $expected !== CC_Assistant_Integrity::post_hash( (int) $id ) ) {
++			$expected = $receipt['post_hash'] ?? '';
++			$live_hash = CC_Assistant_Integrity::post_hash( (int) $id );
++			if ( $expected !== $live_hash ) {
++				require_once __DIR__ . '/class-approval-continuation.php';
++				$continuation = CC_Assistant_Approval_Continuation::prove( $pending, $live_hash );
++				if ( ! empty( $continuation['safe'] ) ) { continue; }
+ 				return new WP_Error( 'evidence_state_changed', 'Post ' . $id . ' changed after this proposal was observed. Read the current state and rebuild the proposal.', array( 'status' => 409 ) );
+ 			}
+ 		}
+--- before/includes/class-integrity.php
++++ after/includes/class-integrity.php
+@@ -31,9 +31,26 @@
+ 		foreach ( array( 'post_title', 'post_content', 'post_excerpt', 'post_name', 'post_status', 'post_author', 'post_parent', 'menu_order' ) as $key ) {
+ 			$fields[ $key ] = (string) ( $post->$key ?? '' );
+ 		}
+-		// Ignore editor locks and generated caches, which can change on a read.
+ 		$meta = (array) get_post_meta( $post_id );
+ 		foreach ( $meta_overrides as $key => $values ) { $meta[$key] = $values; }
++		$terms = array();
++		foreach ( get_object_taxonomies( $post->post_type ) as $taxonomy ) {
++			$ids = wp_get_object_terms( (int) $post_id, $taxonomy, array( 'fields' => 'ids' ) );
++			if ( is_wp_error( $ids ) ) { return ''; }
++			$terms[$taxonomy] = $ids;
++		}
++		return self::state_hash( array( 'fields' => $fields, 'meta' => $meta, 'terms' => $terms ) );
++	}
++
++	/** Same fingerprint for a live post or a complete version-2 recovery snapshot. */
++	public static function state_hash( array $state ) {
++		if ( ! is_array( $state['fields'] ?? null ) || ! is_array( $state['meta'] ?? null ) || ! is_array( $state['terms'] ?? null ) ) { return ''; }
++		$fields = array();
++		foreach ( array( 'post_title', 'post_content', 'post_excerpt', 'post_name', 'post_status', 'post_author', 'post_parent', 'menu_order' ) as $key ) {
++			$fields[$key] = (string) ( $state['fields'][$key] ?? '' );
++		}
++		$meta = $state['meta'];
++		// Ignore editor locks and generated caches, which can change on a read.
+ 		foreach ( array_keys( $meta ) as $key ) {
+ 			if ( in_array( $key, array( '_edit_lock', '_edit_last', '_elementor_css', '_elementor_element_cache', '_elementor_page_assets', '_elementor_controls_usage', '_elementor_inline_svg', '_cc_hero_preload', '_cc_assistant_content_workflow' ), true )
+ 				|| 0 === strpos( $key, '_cc_assistant_last_internal_' ) ) {
+@@ -42,9 +59,8 @@
+ 		}
+ 		ksort( $meta );
+ 		$terms = array();
+-		foreach ( get_object_taxonomies( $post->post_type ) as $taxonomy ) {
+-			$ids = wp_get_object_terms( (int) $post_id, $taxonomy, array( 'fields' => 'ids' ) );
+-			if ( is_wp_error( $ids ) ) { return ''; }
++		foreach ( $state['terms'] as $taxonomy => $ids ) {
++			if ( ! is_array( $ids ) ) { return ''; }
+ 			$ids = array_map( 'intval', $ids );
+ 			sort( $ids, SORT_NUMERIC );
+ 			$terms[ $taxonomy ] = $ids;
+--- before/includes/class-rest-pending.php
++++ after/includes/class-rest-pending.php
+@@ -329,6 +329,25 @@
+ 			$verdict_lines[] = sprintf( 'Superseded by pending #%d — hidden from the inbox.', $superseded_by );
+ 		}
+ 
++		// Lint is not apply readiness. Report the actual state gate separately.
++		$evidence_check = array( 'status' => 'not_pending', 'approved_sibling_ids' => array(), 'scope' => 'Post and environment evidence only; apply-time permission, recovery and payload checks still run.' );
++		if ( 'pending' === $item->status && null === $superseded_by ) {
++			$check = CC_Assistant_Evidence_Gate::validate_apply( $item );
++			$evidence_check['status'] = is_wp_error( $check ) ? 'blocked' : 'current';
++			if ( is_wp_error( $check ) ) {
++				$evidence_check['code'] = $check->get_error_code();
++				$evidence_check['message'] = $check->get_error_message();
++			} elseif ( $item->post_id ) {
++				require_once __DIR__ . '/class-approval-continuation.php';
++				$chain = CC_Assistant_Approval_Continuation::prove( $item, CC_Assistant_Integrity::post_hash( (int) $item->post_id ) );
++				if ( ! empty( $chain['approved_ids'] ) ) {
++					$evidence_check['status'] = 'compatible_approved_changes';
++					$evidence_check['approved_sibling_ids'] = $chain['approved_ids'];
++				}
++			}
++			$verdict_lines[] = 'Apply evidence: ' . $evidence_check['status'] . '.';
++		}
++
+ 		return array(
+ 			'site' => array(
+ 				'fingerprint' => CC_Assistant_Site_Identity::fingerprint(),
+@@ -345,6 +364,7 @@
+ 				'lint_report'     => $lint,
+ 				'success_metrics' => $metrics,
+ 				'structure_diff'  => $structure_diff,
++				'evidence_check'  => $evidence_check,
+ 				'siblings'        => $siblings,
+ 				'verdict'         => implode( ' ', $verdict_lines ),
+ 			),
+--- before/tests/approval-batch-test.php
++++ after/tests/approval-batch-test.php
+@@ -34,7 +34,7 @@
+ batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second');
+ $one=CC_Assistant_Apply::apply_pending($a,17,true);
+ $two=CC_Assistant_Apply::apply_pending($b,17,true);
+-check(!is_wp_error($one) && err($two,'evidence_state_changed'), 'Reproduce separate approvals becoming stale after the first widget edit');
++check(!is_wp_error($one) && !is_wp_error($two), 'Separate approvals preserve independent widgets through durable recovery proof');
+ 
+ batch_fixture(); $ids=array_map('batch_pending',array('first','second','third','fourth'));
+ $GLOBALS['meta']['_cc_hero_preload']=array('derived-image-cache');
+@@ -69,11 +69,11 @@
+ 
+ batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second');
+ $batch=new CC_Assistant_Approval_Batch(array($a,$b));
+-$prediction=$batch->predict(CC_Assistant_Pending_Changes::get($a));
+-$tree=json_decode(get_post_meta(1,'_elementor_data',true),true);
+-$tree[0]['elements'][0]['settings']['title']='Updated first';
+-$GLOBALS['meta']['_elementor_data']=array(json_encode($tree)); $GLOBALS['post']->post_title='Unexpected hook edit';
+-$batch->record_success($prediction);
++CC_Assistant_Apply::apply_pending($a,17,true,$batch);
++$GLOBALS['post']->post_title='Unexpected hook edit';
++$row=CC_Assistant_Pending_Changes::get($a); $baseline=CC_Assistant_Integrity::baseline($row);
++$baseline['applied_post_hash']=CC_Assistant_Integrity::post_hash(1);
++CC_Assistant_Recovery::save_baseline($a,$baseline);
+ $two=CC_Assistant_Apply::apply_pending($b,17,true,$batch);
+ check(err($two,'evidence_state_changed'), 'Unexpected side effects cannot become trusted evidence');
+ 
+@@ -90,7 +90,7 @@
+ $two=CC_Assistant_Apply::apply_pending($b,17,true,$batch);
+ check(err($two,'batch_proposal_changed'), 'Unselected proposals cannot join a batch');
+ $two=CC_Assistant_Apply::apply_pending_batch(array($b),17);
+-check(err($two[$b],'evidence_state_changed'), 'Later requests cannot inherit a previous batch exception');
++check(!is_wp_error($two[$b]), 'A later selected request verifies the persisted snapshot chain independently');
+ 
+ batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second'); $GLOBALS['wpdb']->fail_snapshot=true;
+ $results=CC_Assistant_Apply::apply_pending_batch(array($a,$b),17);
+--- before/tests/approval-continuation-test.php
++++ after/tests/approval-continuation-test.php
+@@ -0,0 +1,71 @@
++<?php
++require __DIR__ . '/approval-batch-test.php';
++require_once CC_ASSISTANT_DIR . 'includes/class-approval-continuation.php';
++function get_user_by($field,$value) { return $value===4 ? (object)array('ID'=>4) : false; }
++function continuation_plan($type,$payload) {
++    $id=pending($type); $hash=CC_Assistant_Integrity::post_hash(1);
++    $e=array('environment_hash'=>CC_Assistant_Evidence_Gate::environment_hash(),'posts'=>array(1=>array('post_hash'=>$hash)));
++    $GLOBALS['wpdb']->update('wp_cc_pending_changes',array('proposed_value'=>wp_json_encode($payload),'pre_check_baseline'=>wp_json_encode(array('post_hash'=>$hash,'evidence'=>$e))),array('id'=>$id));
++    return $id;
++}
++function continue_apply($id) { return CC_Assistant_Apply::apply_pending($id,17,true); }
++
++batch_fixture();
++$section=continuation_plan('elementor_section_content_replace',array('section_id'=>'outer','widget_updates'=>array(array('widget_id'=>'first','settings'=>array('title'=>'Corrected medical wording')),array('widget_id'=>'second','settings'=>array('align'=>'right')))));
++$title=continuation_plan('meta_update',array('field'=>'post_title','value'=>'Updated imaging title'));
++$seo=continuation_plan('postmeta_update',array('key'=>'rank_math_title','value'=>'Accurate imaging SEO title'));
++$author=continuation_plan('meta_update',array('field'=>'post_author','value'=>'4'));
++foreach(array($section,$title,$seo,$author) as $id) { $r=continue_apply($id); check(!is_wp_error($r),'Section, title, SEO and author survive separate requests #'.$id.': '.(is_wp_error($r)?$r->get_error_message():'')); }
++check(batch_title(0)==='Corrected medical wording' && get_post_field('post_title',1)==='Updated imaging title' && get_post_meta(1,'rank_math_title',true)==='Accurate imaging SEO title' && (int)get_post_field('post_author',1)===4,'Mixed edits all persist without replacing prior content');
++
++batch_fixture(); $ids=array();
++$ids[]=continuation_plan('post_content_update',array('content'=>'Revised article body'));
++$ids[]=continuation_plan('meta_update',array('field'=>'post_title','value'=>'Revised article title'));
++$ids[]=continuation_plan('meta_update',array('field'=>'post_excerpt','value'=>'Revised excerpt'));
++$ids[]=continuation_plan('postmeta_update',array('key'=>'rank_math_title','value'=>'Revised SEO title'));
++$ids[]=continuation_plan('postmeta_update',array('key'=>'rank_math_description','value'=>'Revised SEO description'));
++$result=CC_Assistant_Apply::apply_pending_batch($ids,17);
++check(!array_filter($result,'is_wp_error'),'Article body, title, excerpt and both SEO fields apply together');
++check(get_post_field('post_content',1)==='Revised article body' && get_post_field('post_excerpt',1)==='Revised excerpt','Article revisions remain intact');
++
++batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second'); $c=batch_pending('third');
++continue_apply($b); continue_apply($a);
++$proof=CC_Assistant_Approval_Continuation::prove(CC_Assistant_Pending_Changes::get($c),CC_Assistant_Integrity::post_hash(1));
++check($proof['safe'] && $proof['approved_ids']===array($b,$a),'Chain follows actual snapshot/application order, not proposal creation order');
++check(!is_wp_error(continue_apply($c)),'A multi-step chain works after separate approval requests');
++
++batch_fixture(); $a=continuation_plan('elementor_section_content_replace',array('widget_updates'=>array(array('widget_id'=>'first','settings'=>array('title'=>'First change')))));
++$b=batch_pending('first','Overwrites first change'); continue_apply($a);
++check(err(continue_apply($b),'evidence_state_changed'),'Section and individual-widget overlap remains blocked');
++
++batch_fixture(); $a=continuation_plan('postmeta_update',array('key'=>'rank_math_description','value'=>'First description'));
++$b=continuation_plan('postmeta_update',array('key'=>'rank_math_description','value'=>'Competing description')); continue_apply($a);
++check(err(continue_apply($b),'evidence_state_changed'),'Competing writes to the same SEO key remain blocked');
++
++batch_fixture(); $a=batch_pending('first'); $b=continuation_plan('meta_update',array('field'=>'post_name','value'=>'new-slug')); continue_apply($a);
++check(err(continue_apply($b),'evidence_state_changed'),'Structural permalink change receives no continuation exception');
++
++foreach(array('missing_snapshot','missing_after','wrong_post','legacy_snapshot','not_approved') as $case) {
++    batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second'); continue_apply($a);
++    $row=CC_Assistant_Pending_Changes::get($a); $base=CC_Assistant_Integrity::baseline($row); $sid=$base['snapshot_id'];
++    if($case==='missing_snapshot') { $GLOBALS['wpdb']->query('DELETE FROM wp_cc_snapshots WHERE id='.(int)$sid); }
++    if($case==='missing_after') { unset($base['applied_post_hash']); CC_Assistant_Recovery::save_baseline($a,$base); }
++    if($case==='wrong_post') { $GLOBALS['wpdb']->update('wp_cc_snapshots',array('post_id'=>2),array('id'=>$sid)); }
++    if($case==='legacy_snapshot') { $GLOBALS['wpdb']->update('wp_cc_snapshots',array('post_meta'=>'a:0:{}'),array('id'=>$sid)); }
++    if($case==='not_approved') { $GLOBALS['wpdb']->update('wp_cc_pending_changes',array('status'=>'apply_failed'),array('id'=>$a)); }
++    check(err(continue_apply($b),'evidence_state_changed'),'Incomplete or unapproved recovery history fails closed: '.$case);
++}
++
++batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second'); continue_apply($a);
++$GLOBALS['meta']['external']=array('Unrelated external edit');
++$c=continuation_plan('postmeta_update',array('key'=>'rank_math_title','value'=>'Later fresh edit')); continue_apply($c);
++check(err(continue_apply($b),'evidence_state_changed'),'A later legitimate approval cannot conceal an earlier external edit');
++
++batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second'); continue_apply($a);
++$GLOBALS['wpdb']->update('wp_cc_pending_changes',array('proposed_value'=>'{"widget_id":"third","settings":{"title":"Tampered history"}}'),array('id'=>$a));
++check(err(continue_apply($b),'evidence_state_changed'),'Altered approved payload cannot prove the recorded state transition');
++
++batch_fixture(); $snapshot=CC_Assistant_Snapshots::snapshot_post(1,'pre_apply','Fingerprint fixture');
++$state=CC_Assistant_Snapshots::state(CC_Assistant_Snapshots::get_snapshot($snapshot));
++check(CC_Assistant_Integrity::state_hash($state)===CC_Assistant_Integrity::post_hash(1),'Recovery snapshot and live state use identical stable fingerprints');
++echo "Continuation regression checks passed: $tests\n";
+--- before/tests/approval-environment-test.php
++++ after/tests/approval-environment-test.php
+@@ -0,0 +1,39 @@
++<?php
++define('ABSPATH',__DIR__.'/');
++define('CC_ASSISTANT_VERSION','0.89.4');
++define('CC_ASSISTANT_BASENAME','cc-assistant/cc-assistant.php');
++function wp_json_encode($v) { return json_encode($v); }
++function get_plugins() { return $GLOBALS['plugins']; }
++function get_option($k,$d=false) { return $GLOBALS['options'][$k]??$d; }
++function get_site_option($k,$d=false) { return $d; }
++function get_post_meta($id,$key,$single) { return $GLOBALS['kit']; }
++function wp_get_theme($name) { return new class { public function get($key) { return $GLOBALS['theme_version']; } }; }
++require __DIR__.'/../includes/class-evidence-gate.php';
++$tests=0;
++function check($ok,$message) { global $tests; ++$tests; if(!$ok) { fwrite(STDERR,"FAIL: $message\n"); exit(1); } echo "PASS: $message\n"; }
++function env_fixture() {
++    $GLOBALS['wp_version']='7.1'; $GLOBALS['theme_version']='1.0'; $GLOBALS['kit']=array('color'=>'blue');
++    $GLOBALS['plugins']=array(CC_ASSISTANT_BASENAME=>array('Version'=>'0.89.3'),'elementor/elementor.php'=>array('Version'=>'4.2.3'));
++    $GLOBALS['options']=array('active_plugins'=>array_keys($GLOBALS['plugins']),'elementor_active_kit'=>10,'stylesheet'=>'theme','template'=>'theme','rank-math-options-titles'=>array('robots'=>array('index')));
++    $hash=CC_Assistant_Evidence_Gate::environment_hash();
++    $GLOBALS['plugins'][CC_ASSISTANT_BASENAME]['Version']='0.89.4';
++    return $hash;
++}
++$old=env_fixture();
++check(CC_Assistant_Evidence_Gate::environment_hash()!==$old && CC_Assistant_Evidence_Gate::environment_matches($old),'Only the tested CC Assistant patch upgrade preserves prior environment evidence');
++check(CC_Assistant_Evidence_Gate::environment_matches(CC_Assistant_Evidence_Gate::environment_hash()),'New proposals still accept the exact current environment');
++foreach(array('plugin','activation','wp','theme','kit','seo','url') as $change) {
++    $old=env_fixture();
++    if($change==='plugin') $GLOBALS['plugins']['elementor/elementor.php']['Version']='4.2.4';
++    if($change==='activation') $GLOBALS['options']['active_plugins']=array(CC_ASSISTANT_BASENAME);
++    if($change==='wp') $GLOBALS['wp_version']='7.2';
++    if($change==='theme') $GLOBALS['theme_version']='2.0';
++    if($change==='kit') $GLOBALS['kit']['color']='red';
++    if($change==='seo') $GLOBALS['options']['rank-math-options-titles']['robots']=array('noindex');
++    if($change==='url') $GLOBALS['options']['home']='https://different-site.example';
++    check(!CC_Assistant_Evidence_Gate::environment_matches($old),'CC patch compatibility does not conceal a changed '.$change);
++}
++env_fixture(); $older=CC_Assistant_Evidence_Gate::environment_hash('0.89.2');
++check(!CC_Assistant_Evidence_Gate::environment_matches($older),'Unreviewed older plugin upgrades remain blocked');
++check(!CC_Assistant_Evidence_Gate::environment_matches('') && !CC_Assistant_Evidence_Gate::environment_matches(null),'Missing environment evidence cannot borrow upgrade compatibility');
++echo "Environment regression checks passed: $tests\n";
+--- before/tests/approval-verification-test.php
++++ after/tests/approval-verification-test.php
+@@ -0,0 +1,22 @@
++<?php
++class CC_Assistant_Site_Identity { public static function fingerprint() { return 'test-site'; } }
++class WP_REST_Request {
++    public function __construct(private $id) {}
++    public function get_param($key) { return $key==='id' ? $this->id : null; }
++}
++require __DIR__.'/approval-batch-test.php';
++require_once CC_ASSISTANT_DIR.'includes/class-rest-pending.php';
++function evidence_result($id) { return CC_Assistant_REST_Pending::handle_verify(new WP_REST_Request($id))['data']['evidence_check']; }
++batch_fixture(); $a=batch_pending('first'); $b=batch_pending('second');
++check(evidence_result($b)['status']==='current','Verification distinguishes current evidence from lint');
++CC_Assistant_Apply::apply_pending($a,17,true);
++$r=evidence_result($b);
++check($r['status']==='compatible_approved_changes' && $r['approved_sibling_ids']===array($a),'Verification names the approved change that explains the new state');
++$GLOBALS['meta']['external']=array('Unexplained mutation');
++$r=evidence_result($b);
++check($r['status']==='blocked' && $r['code']==='evidence_state_changed','Passing lint does not conceal stale evidence');
++check(evidence_result($a)['status']==='not_pending','An already approved change is not represented as ready to apply');
++batch_fixture(); $a=batch_pending('first');
++$GLOBALS['wpdb']->update('wp_cc_pending_changes',array('superseded_by'=>99),array('id'=>$a));
++check(err(CC_Assistant_Apply::apply_pending($a,17,true),'proposal_superseded'),'A superseded proposal cannot regain approval through the continuation path');
++echo "Verification regression checks passed: $tests\n";

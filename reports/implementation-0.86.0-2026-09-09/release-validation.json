@@ -1,0 +1,46 @@
+{
+  "version": "0.86.0",
+  "date": "2026-09-09",
+  "php_syntax_files": 169,
+  "php_regression_files_passed": 36,
+  "php_regression_files_failed": 0,
+  "mcp": {
+    "version": "0.86.0",
+    "tool_count": 172,
+    "new_tools": [
+      "get_content_scope",
+      "plan_blog_content",
+      "content_research",
+      "content_decision",
+      "content_decision_history",
+      "discover_content_scope",
+      "manage_content_scope",
+      "content_workflow"
+    ],
+    "duplicate_names": false,
+    "stderr": "",
+    "scope": "Real stdio initialize/tools-list; fixture credentials, no network or live site calls."
+  },
+  "package": {
+    "file": "cc-assistant-0.86.0.zip",
+    "files": 143,
+    "bytes": 1134585,
+    "sha256": "f9a3ca26b9eda7e4d2181fe71fc01ab237f45b9a95585d5dfd27e56b89d0daa1",
+    "crc_verified": true,
+    "packaged_bytes_match_staged_source": true
+  },
+  "changed_existing_files": 13,
+  "new_source_files": 3,
+  "live_connection_observation": {
+    "site_version": "0.85.0",
+    "initial_running_bridge_version": "0.81.3",
+    "deployed_bridge_pull": "Succeeded; copied deployed 0.85.0 bridge files without errors. Process restart still required.",
+    "live_site_content_or_settings_modified": false
+  },
+  "limits": [
+    "PHP CLI fixtures; no live WordPress/MySQL integration certification.",
+    "MCP smoke covers real stdio initialize/tools-list using fixture credentials, without authenticated endpoint calls.",
+    "The new strategy and workflow endpoints become available after 0.86.0 is installed on the site.",
+    "This feature does not schedule or launch an unattended Claude runner."
+  ]
+}

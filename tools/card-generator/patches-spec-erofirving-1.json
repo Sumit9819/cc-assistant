@@ -1,0 +1,39 @@
+[
+  {
+    "post_id": 2780,
+    "patches": [
+      {
+        "search": "<h2>What if it is late at night or on a weekend?</h2>",
+        "replace": "<figure><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-2780-er-or-urgent-care-symptoms.webp\" alt=\"Symptoms that need an emergency room listed beside minor problems urgent care can treat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>What if it is late at night or on a weekend?</h2>"
+      },
+      {
+        "search": "<h2>Frequently asked questions</h2>",
+        "replace": "<figure><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-2780-call-911-instead-of-driving.webp\" alt=\"Five situations where calling 911 is safer than driving yourself to the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Frequently asked questions</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 2780",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3796,
+    "patches": [
+      {
+        "search": "<h2>Who is Most at Risk in the Texas Heat?</h2>",
+        "replace": "<figure><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3796-heat-illness-first-aid.webp\" alt=\"First aid steps for heat exhaustion beside the emergency steps for heat stroke\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Who is Most at Risk in the Texas Heat?</h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3796",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3886,
+    "patches": [
+      {
+        "search": "<h2><strong>Stroke Risk Factors and Prevention for DFW Adults</strong></h2>",
+        "replace": "<figure><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3886-stroke-mistakes.webp\" alt=\"Four common mistakes during a suspected stroke and why each one wastes critical time\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Stroke Risk Factors and Prevention for DFW Adults</strong></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3886",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  }
+]

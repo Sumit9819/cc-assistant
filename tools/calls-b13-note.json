@@ -1,0 +1,15 @@
+[
+  {
+    "route": "cc-assistant/v1/pending?per_page=30",
+    "method": "GET",
+    "out": "card-generator/_q13/pending-after.json"
+  },
+  {
+    "route": "cc-assistant/v1/site-memory/notes",
+    "method": "POST",
+    "body": {
+      "notes": "Batch 13 queued: 1222 (3879 skip-the-pharmacy red flags), 1223 (3882 when a burn needs the ER), 1224 (4008 dehydration adult vs child compare), 1225 (3867 CO alarm checklist, neutral tone), 1226 (3850 workplace-injury first steps, post had ZERO cards), 1227 (3918 why gout strikes at night), 1228 (3201 what untreated dehydration does). All 7 introduced:[]; every lint failure pre-existing (html_cruft most widespread). Read all 27 remaining candidates; cut 20. New cut reasons worth keeping: 3879's 'What an ER Can Do That a Pharmacy Cannot' is facility feature bullets not a decision; 3081's two X-ray sections duplicate each other with generic items, an answered-elsewhere case the detector misses when NEITHER section has a table; 3875's 'What to Expect During Your Visit' is 561 chars of prose plus a phone number. Held not cut: 3825 dog-bite closure (good content, but the decision is the doctor's), and 3977/3091/3803/3365 process sections on posts already carrying 3+ cards. make.mjs enforces that `subject` appear in the card's visible text, so subject must be a word on the card."
+    },
+    "out": "card-generator/_q13/note.json"
+  }
+]

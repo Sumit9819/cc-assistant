@@ -1,0 +1,12 @@
+[
+ {
+  "route": "wp/v2/pages?per_page=100&status=publish&_fields=id,slug,link&orderby=id&order=asc",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/all_pages.json"
+ },
+ {
+  "route": "wp/v2/posts?per_page=100&status=publish&_fields=id,slug,link",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/all_posts.json"
+ }
+]

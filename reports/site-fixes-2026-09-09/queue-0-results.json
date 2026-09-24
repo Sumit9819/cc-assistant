@@ -1,0 +1,71 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.89.3"
+      }
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"evidence_identity_required\\\",\\\"message\\\":\\\"Run whoami using this WordPress user and connection within ten minutes before proposing changes.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"evidence_identity_required\\\",\\\"message\\\":\\\"Run whoami using this WordPress user and connection within ten minutes before proposing changes.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"evidence_identity_required\\\",\\\"message\\\":\\\"Run whoami using this WordPress user and connection within ten minutes before proposing changes.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"evidence_identity_required\\\",\\\"message\\\":\\\"Run whoami using this WordPress user and connection within ten minutes before proposing changes.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"evidence_identity_required\\\",\\\"message\\\":\\\"Run whoami using this WordPress user and connection within ten minutes before proposing changes.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"evidence_identity_required\\\",\\\"message\\\":\\\"Run whoami using this WordPress user and connection within ten minutes before proposing changes.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"lint_hard_violation\\\",\\\"message\\\":\\\"Section-replace content fails: hospital_comparison. Fix and resubmit, or pass override_lint=true to queue anyway.\\\"}\"}"
+    }
+  },
+  {
+    "name": "replace_section_content",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"http_error\",\"status\":400,\"body\":\"{\\\"code\\\":\\\"lint_hard_violation\\\",\\\"message\\\":\\\"Section-replace content fails: hospital_comparison. Fix and resubmit, or pass override_lint=true to queue anyway.\\\"}\"}"
+    }
+  }
+]

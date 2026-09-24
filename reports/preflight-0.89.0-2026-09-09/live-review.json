@@ -1,0 +1,99 @@
+[
+  {
+    "name": "initialize",
+    "result": {
+      "protocolVersion": "2024-11-05",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "cc-assistant",
+        "version": "0.88.0"
+      }
+    }
+  },
+  {
+    "name": "whoami",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fwhoami&y=ipr:103.166.100.210:1788953446.095\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_site_memory",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fsite-memory&y=ipr:103.166.100.210:1788953446.682\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "discover_content_scope",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fcontent%2Fscope%2Fdiscover%3Fscan_limit%3D500%26offset%3D0&y=ipc:103.166.100.210:1788953447.548\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_content_scope",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fcontent%2Fscope&y=ipc:103.166.100.210:1788953447.996\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F3505%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953448.444\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F971%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953449.336\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F5437%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953451.134\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F1072%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953452.716\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F2516%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953453.045\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F2453%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953453.391\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F1374%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953453.731\\\"></meta></head></html>\"}"
+    }
+  },
+  {
+    "name": "get_post",
+    "isError": true,
+    "result": {
+      "text": "Error: {\"error\":\"siteground_ip_challenge\",\"message\":\"SiteGround returned a browser challenge instead of API JSON, for IP 103.166.100.210. The cause and scope are unknown from this response. Check the selected site entry in .mcp.json and restart its MCP server after changes. Use CC_MCP_TRANSPORT=browser with a dedicated cleared Chrome profile and the existing Application Password; see CONNECTION.md. Complete any required normal browser challenge or contact SiteGround support. Browser clearance cookies may be tied to their browser context; copying one to curl is not a reliable connection method. Keep the plugin approval queue and site protection in place.\",\"diagnosis\":{\"observed\":\"browser_challenge\",\"root_cause\":\"unknown\",\"other_sites_affected\":\"unknown\"},\"body\":\"<html><head><link rel=\\\"icon\\\" href=\\\"data:;\\\"><meta http-equiv=\\\"refresh\\\" content=\\\"0;/.well-known/sgcaptcha/?r=%2Fwp-json%2Fcc-assistant%2Fv1%2Fposts%2F799%3Fslim%3Dfalse&y=ipc:103.166.100.210:1788953454.342\\\"></meta></head></html>\"}"
+    }
+  }
+]

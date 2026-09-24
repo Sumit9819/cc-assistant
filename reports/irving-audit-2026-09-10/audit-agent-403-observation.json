@@ -1,0 +1,954 @@
+[
+  {
+    "id": "sitemap-index",
+    "url": "https://irvingwellnessclinic.com/sitemap_index.xml",
+    "captured_at": "2026-09-10T04:49:15.114728+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/sitemap_index.xml",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": "robots",
+    "url": "https://irvingwellnessclinic.com/robots.txt",
+    "captured_at": "2026-09-10T04:49:15.113109+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/robots.txt",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10253,
+    "url": "https://irvingwellnessclinic.com/book-appointment-2/",
+    "captured_at": "2026-09-10T04:49:16.902406+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/book-appointment-2/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10275,
+    "url": "https://irvingwellnessclinic.com/accessibility-statement/",
+    "captured_at": "2026-09-10T04:49:16.897976+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/accessibility-statement/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10088,
+    "url": "https://irvingwellnessclinic.com/editorial-policy/",
+    "captured_at": "2026-09-10T04:49:19.458281+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/editorial-policy/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10229,
+    "url": "https://irvingwellnessclinic.com/skinvive-vs-dermal-filler/",
+    "captured_at": "2026-09-10T04:49:20.544602+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/skinvive-vs-dermal-filler/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10219,
+    "url": "https://irvingwellnessclinic.com/double-chin-treatment-without-surgery/",
+    "captured_at": "2026-09-10T04:49:21.808776+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/double-chin-treatment-without-surgery/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10221,
+    "url": "https://irvingwellnessclinic.com/how-many-laser-hair-removal-sessions/",
+    "captured_at": "2026-09-10T04:49:21.218915+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/how-many-laser-hair-removal-sessions/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10216,
+    "url": "https://irvingwellnessclinic.com/nad-iv-therapy-benefits-evidence/",
+    "captured_at": "2026-09-10T04:49:23.084936+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/nad-iv-therapy-benefits-evidence/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10192,
+    "url": "https://irvingwellnessclinic.com/not-losing-weight-on-semaglutide/",
+    "captured_at": "2026-09-10T04:49:23.164665+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/not-losing-weight-on-semaglutide/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10191,
+    "url": "https://irvingwellnessclinic.com/hormone-pellets-vs-injections-vs-creams/",
+    "captured_at": "2026-09-10T04:49:24.339605+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/hormone-pellets-vs-injections-vs-creams/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10167,
+    "url": "https://irvingwellnessclinic.com/tirzepatide-irving-tx/",
+    "captured_at": "2026-09-10T04:49:24.412198+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/tirzepatide-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10166,
+    "url": "https://irvingwellnessclinic.com/semaglutide-irving-tx/",
+    "captured_at": "2026-09-10T04:49:25.639480+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/semaglutide-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10145,
+    "url": "https://irvingwellnessclinic.com/new-patient-consultation/",
+    "captured_at": "2026-09-10T04:49:25.710896+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/new-patient-consultation/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10120,
+    "url": "https://irvingwellnessclinic.com/dermal-fillers-irving-tx/",
+    "captured_at": "2026-09-10T04:49:27.073248+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/dermal-fillers-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 10043,
+    "url": "https://irvingwellnessclinic.com/world-cup-2026-heat-safety-arlington-spectators/",
+    "captured_at": "2026-09-10T04:49:27.074661+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/world-cup-2026-heat-safety-arlington-spectators/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 9991,
+    "url": "https://irvingwellnessclinic.com/microneedling-irving-tx/",
+    "captured_at": "2026-09-10T04:49:28.538216+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/microneedling-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 9925,
+    "url": "https://irvingwellnessclinic.com/botox-irving-tx/",
+    "captured_at": "2026-09-10T04:49:28.551407+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/botox-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 9871,
+    "url": "https://irvingwellnessclinic.com/choose-weight-loss-clinic/",
+    "captured_at": "2026-09-10T04:49:29.933066+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/choose-weight-loss-clinic/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 924,
+    "url": "https://irvingwellnessclinic.com/lori-secerovic-aprn-fnp-c/",
+    "captured_at": "2026-09-10T04:49:31.540837+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/lori-secerovic-aprn-fnp-c/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 652,
+    "url": "https://irvingwellnessclinic.com/cookie-policy/",
+    "captured_at": "2026-09-10T04:49:32.685726+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/cookie-policy/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 647,
+    "url": "https://irvingwellnessclinic.com/privacy-policy/",
+    "captured_at": "2026-09-10T04:49:32.806469+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/privacy-policy/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 637,
+    "url": "https://irvingwellnessclinic.com/refund-returns/",
+    "captured_at": "2026-09-10T04:49:34.121998+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/refund-returns/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 642,
+    "url": "https://irvingwellnessclinic.com/terms-and-conditions/",
+    "captured_at": "2026-09-10T04:49:33.998152+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/terms-and-conditions/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 631,
+    "url": "https://irvingwellnessclinic.com/wellness-coaching-irving-tx/",
+    "captured_at": "2026-09-10T04:49:35.385148+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/wellness-coaching-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 623,
+    "url": "https://irvingwellnessclinic.com/hormone-therapy-irving-tx/",
+    "captured_at": "2026-09-10T04:49:35.901299+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/hormone-therapy-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 618,
+    "url": "https://irvingwellnessclinic.com/aesthetic-treatments-irving-tx/",
+    "captured_at": "2026-09-10T04:49:36.616710+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/aesthetic-treatments-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  },
+  {
+    "id": 610,
+    "url": "https://irvingwellnessclinic.com/medical-weight-loss-irving-tx/",
+    "captured_at": "2026-09-10T04:49:37.151627+00:00",
+    "status": 403,
+    "final_url": "https://irvingwellnessclinic.com/medical-weight-loss-irving-tx/",
+    "headers": {
+      "Content-Type": "text/html",
+      "X-Proxy-Cache": "MISS",
+      "X-Proxy-Cache-Info": "0 NC:000000 UP:"
+    },
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "title": "403 - Forbidden",
+    "description": [],
+    "robots": [
+      "noindex"
+    ],
+    "canonical": [],
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "403 - Forbidden"
+      }
+    ],
+    "links": [],
+    "images": [],
+    "iframes": [],
+    "scripts": [],
+    "forms": [],
+    "jsonld": [],
+    "challenge": false,
+    "text": "bg_error_lines circle_dots 403 - Forbidden Access to this page is forbidden. clouds_shape"
+  }
+]

@@ -1,0 +1,170 @@
+{
+ "_note": "Post 10216, NAD+ evidence, 1,212 words, no existing in-body images. Four graphics, one per 303 words. PRICES DELIBERATELY OMITTED from the drip-vs-injection card: the post quotes $325/$475/$50 and a figure baked into an image goes stale silently, unlike text someone can edit. Skipped: the benefits and 'does it work' sections are deliberately hedged prose, infusion time has no fixed number, cost is pricing, FAQ and the closing verdict are excluded by policy.",
+ "cards": [
+  {
+   "file": "nad-iv-therapy-what-nad-does",
+   "post_id": 10216,
+   "layout": "icons",
+   "subject": "NAD+",
+   "heading": "What is NAD+ and what does it do in the body?",
+   "title": [
+    "What ",
+    "NAD+",
+    " Does in the Body"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "NAD+ is a coenzyme used for cellular energy and DNA repair, and its levels fall with age",
+   "items": [
+    {
+     "icon": "zap",
+     "label": "Cellular energy",
+     "note": "Shuttles electrons during metabolism"
+    },
+    {
+     "icon": "dna",
+     "label": "DNA repair",
+     "note": "Supports the enzymes that fix damage"
+    },
+    {
+     "icon": "trending-down",
+     "label": "Falls with age",
+     "note": "The observation that drove the interest"
+    }
+   ]
+  },
+  {
+   "file": "nad-iv-therapy-what-the-evidence-shows",
+   "post_id": 10216,
+   "layout": "list",
+   "subject": "NAD+",
+   "heading": "What does the research actually show?",
+   "title": [
+    "NAD+: What the ",
+    "Evidence",
+    " Supports"
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "NAD+ evidence tiers: biochemistry established, age decline documented, IV raises levels in pilots, aging claims unsupported",
+   "items": [
+    {
+     "icon": "circle-check",
+     "label": "Energy and DNA repair",
+     "note": "Established biochemistry"
+    },
+    {
+     "icon": "circle-check",
+     "label": "Levels fall with age",
+     "note": "Well documented"
+    },
+    {
+     "icon": "beaker",
+     "label": "IV raises circulating NAD+",
+     "note": "Shown in small pilot trials"
+    },
+    {
+     "icon": "trending-up",
+     "label": "Neurodegeneration, inflammation",
+     "note": "Promising, not proven in humans"
+    },
+    {
+     "icon": "circle-x",
+     "label": "Reverses aging or treats disease",
+     "note": "Not supported by adequate trials"
+    }
+   ]
+  },
+  {
+   "file": "nad-iv-therapy-drip-vs-injection",
+   "post_id": 10216,
+   "layout": "compare",
+   "subject": "NAD+",
+   "heading": "NAD+ IV drip vs NAD+ injection: which one fits your goal?",
+   "title": [
+    "NAD+ Drip vs ",
+    "Injection",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "NAD+ drip and injection compared on dose, time in clinic and what each suits best",
+   "columns": [
+    "NAD+ IV drip",
+    "NAD+ injection"
+   ],
+   "rows": [
+    {
+     "label": "Dose",
+     "values": [
+      "250mg or 500mg",
+      "25mg to 200mg"
+     ]
+    },
+    {
+     "label": "Time in clinic",
+     "values": [
+      "Longer, dose dependent",
+      "Minutes"
+     ]
+    },
+    {
+     "label": "Best for",
+     "values": [
+      "A full loading dose, first protocols",
+      "Topping up between infusions"
+     ]
+    }
+   ]
+  },
+  {
+   "file": "nad-iv-therapy-who-should-avoid",
+   "post_id": 10216,
+   "layout": "list",
+   "subject": "NAD+",
+   "heading": "Who should not get NAD+ IV therapy?",
+   "title": [
+    "Who Should Avoid ",
+    "NAD+ IV Therapy",
+    ""
+   ],
+   "logo": {
+    "position": "bottom-right",
+    "variant": "green",
+    "width": 150
+   },
+   "alt": "NAD+ IV is not for pregnancy or breastfeeding, kidney or heart failure, active cancer, or without a medication review",
+   "items": [
+    {
+     "icon": "baby",
+     "label": "Pregnant or breastfeeding",
+     "note": "Seek specific clearance first"
+    },
+    {
+     "icon": "heart",
+     "label": "Kidney or heart failure",
+     "note": "Not appropriate without review"
+    },
+    {
+     "icon": "ban",
+     "label": "Active cancer treatment",
+     "note": "Discuss with your oncology team"
+    },
+    {
+     "icon": "pill",
+     "label": "Multiple prescriptions",
+     "note": "Needs a provider medication review"
+    }
+   ]
+  }
+ ]
+}

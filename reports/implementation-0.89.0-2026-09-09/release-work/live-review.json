@@ -1,0 +1,14 @@
+[
+  {"name":"whoami","arguments":{}},
+  {"name":"get_site_memory","arguments":{}},
+  {"name":"discover_content_scope","arguments":{"scan_limit":500,"offset":0}},
+  {"name":"get_content_scope","arguments":{}},
+  {"name":"get_post","arguments":{"id":3505,"slim":false}},
+  {"name":"get_post","arguments":{"id":971,"slim":false}},
+  {"name":"get_post","arguments":{"id":5437,"slim":false}},
+  {"name":"get_post","arguments":{"id":1072,"slim":false}},
+  {"name":"get_post","arguments":{"id":2516,"slim":false}},
+  {"name":"get_post","arguments":{"id":2453,"slim":false}},
+  {"name":"get_post","arguments":{"id":1374,"slim":false}},
+  {"name":"get_post","arguments":{"id":799,"slim":false}}
+]

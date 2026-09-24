@@ -1,0 +1,92 @@
+[
+  {
+    "post_id": 3803,
+    "patches": [
+      {
+        "search": "<h2><b>The 2-Hour Window: Why Every Minute Counts</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-red-flags.webp\" alt=\"Six signs that a swallowed button battery is lodged in a child's throat\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>The 2-Hour Window: Why Every Minute Counts</b></h2>"
+      },
+      {
+        "search": "<h2><b>Step-by-Step Emergency Actions for Parents</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3803-battery-two-hour-window.webp\" alt=\"Two hours is how long a swallowed button battery can take to burn through the esophagus\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Step-by-Step Emergency Actions for Parents</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3803",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3978,
+    "patches": [
+      {
+        "search": "<h2><strong>FAQs</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-er-workup.webp\" alt=\"The five tests an emergency room uses to identify the cause of chest pain\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>FAQs</strong></h2>"
+      },
+      {
+        "search": "<h2><strong>Red Flags That Need Emergency Care</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3978-chest-pain-time-to-answer.webp\" alt=\"Most chest pain patients get a clear answer within sixty to ninety minutes\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>Red Flags That Need Emergency Care</strong></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3978",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3882,
+    "patches": [
+      {
+        "search": "<h2><b>Household Burn Hazards You Should Know</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-degrees.webp\" alt=\"First, second and third degree burns compared on skin depth, signs and outlook\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Household Burn Hazards You Should Know</b></h2>"
+      },
+      {
+        "search": "<h2><b>Immediate First Aid: What to Do (And What to Avoid)</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3882-burn-hazards.webp\" alt=\"Four categories of household burn hazard with an example of each\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Immediate First Aid: What to Do (And What to Avoid)</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3882",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3921,
+    "patches": [
+      {
+        "search": "<h2><b>When a Fever Causes Seizures (Febrile Seizures)</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-dehydration-signs.webp\" alt=\"Five signs of dehydration to watch for in a child with a high fever\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>When a Fever Causes Seizures (Febrile Seizures)</b></h2>"
+      },
+      {
+        "search": "<h2><b>At-Home Comfort Measures vs. Medical Intervention</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3921-febrile-seizure-steps.webp\" alt=\"Four steps to take while a child is having a febrile seizure\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>At-Home Comfort Measures vs. Medical Intervention</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3921",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3930,
+    "patches": [
+      {
+        "search": "<h2><b>Stitches vs. Medical Glue: What\u2019s the Difference?</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-cut-needs-care.webp\" alt=\"Five tests for whether a cut needs stitches or emergency care\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Stitches vs. Medical Glue: What\u2019s the Difference?</b></h2>"
+      },
+      {
+        "search": "<h2><b>Caring for the wound on the way to the ER or Urgent Care</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3930-stitches-time-window.webp\" alt=\"Six to twelve hours is the window for getting a deep cut stitched\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Caring for the wound on the way to the ER or Urgent Care</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3930",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  },
+  {
+    "post_id": 3808,
+    "patches": [
+      {
+        "search": "<h2><b>The Flu in Children: More Than Just a Fever</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-rsv-infant-signs.webp\" alt=\"Four signs of RSV in an infant, which typically peak on day three to five\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>The Flu in Children: More Than Just a Fever</b></h2>"
+      },
+      {
+        "search": "<h2><b>RSV vs. Flu: A Quick Comparison Guide</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3808-flu-child-signs.webp\" alt=\"Four flu symptoms in children, which arrive suddenly rather than building over days\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>RSV vs. Flu: A Quick Comparison Guide</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3808",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. Chosen not to duplicate any comparison table already in the body."
+  }
+]

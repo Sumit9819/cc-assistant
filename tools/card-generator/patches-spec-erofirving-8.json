@@ -1,0 +1,106 @@
+[
+  {
+    "post_id": 3879,
+    "patches": [
+      {
+        "search": "<h2><b>Signs You Need a Doctor Right Now</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3879-pharmacy-or-er.webp\" alt=\"When a 24-hour pharmacy is enough and when to skip it for the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Signs You Need a Doctor Right Now</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3879",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3897,
+    "patches": [
+      {
+        "search": "<h2><b>Immediate Recovery: The First 24 Hours Post-Anaphylaxis</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-red-flags.webp\" alt=\"Four red flags that an allergic reaction is returning after an EpiPen: throat tightness, new hives, faintness, and severe stomach symptoms\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Immediate Recovery: The First 24 Hours Post-Anaphylaxis</b></h2>"
+      },
+      {
+        "search": "<h2><b>Monitoring for the \"Second Wave\" of Allergic Reactions</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3897-anaphylaxis-er-care.webp\" alt=\"What the emergency room does after anaphylaxis: monitoring vital signs, IV fluids, oxygen, and four to six hours of observation\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Monitoring for the \"Second Wave\" of Allergic Reactions</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3897",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3900,
+    "patches": [
+      {
+        "search": "<h2><b>Essential Diagnostic Imaging After a High-Speed Crash</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3900-whiplash-symptoms.webp\" alt=\"Three signs of whiplash after a car accident: neck stiffness, pain radiating into the shoulders or arms, and headaches at the base of the skull\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Essential Diagnostic Imaging After a High-Speed Crash</b></h2>"
+      },
+      {
+        "search": "<h2><b>Don\u2019t Let Adrenaline Mask a Life-Threatening Injury</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3900-crash-er-red-flags.webp\" alt=\"Five red flag symptoms after a high-speed car accident that need the emergency room immediately\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Don\u2019t Let Adrenaline Mask a Life-Threatening Injury</b></h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 3900",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3937,
+    "patches": [
+      {
+        "search": "<h2><b>Prescription-Strength Relief</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3937-rash-urgent-or-er.webp\" alt=\"Poison ivy rash signs that need urgent care beside the signs that need the emergency room\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Prescription-Strength Relief</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3937",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 3979,
+    "patches": [
+      {
+        "search": "<h2><strong>1. Stroke Symptoms (Face, Arm, Speech, Time)</strong></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-3979-eight-emergencies.webp\" alt=\"The eight emergencies that need a 24-hour ER: stroke, heart attack, severe allergic reaction, high fever in young children, severe abdominal pain, sudden severe headache, difficulty breathing, and deep cuts or broken bones\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><strong>1. Stroke Symptoms (Face, Arm, Speech, Time)</strong></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 3979",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 4008,
+    "patches": [
+      {
+        "search": "<h2><b>Don\u2019t Let Dehydration Ruin the Match: Spotting the Signs Early</b></h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4008-heat-exhaustion-or-stroke.webp\" alt=\"Heat exhaustion signs beside heat stroke signs, which are a medical emergency needing 911\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2><b>Don\u2019t Let Dehydration Ruin the Match: Spotting the Signs Early</b></h2>"
+      }
+    ],
+    "summary": "Add 1 in-body triage card(s) to post 4008",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 4345,
+    "patches": [
+      {
+        "search": "<h2>Who Needs to Be More Careful</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4345-food-poisoning-er.webp\" alt=\"Five signs that food poisoning has become an emergency: bloody diarrhea, diarrhea past three days, high fever, inability to keep liquids down, and dehydration\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Who Needs to Be More Careful</h2>"
+      },
+      {
+        "search": "<h2>How ER of Irving Treats Food Poisoning</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4345-food-poisoning-recovery.webp\" alt=\"Four steps to recover from food poisoning at home, including when to avoid anti-diarrhea medicine\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>How ER of Irving Treats Food Poisoning</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 4345",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  },
+  {
+    "post_id": 4410,
+    "patches": [
+      {
+        "search": "<h2>Delayed Symptoms: What to Watch for 72 Hours</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4410-crash-symptoms.webp\" alt=\"Six symptoms after a car accident that need the emergency room now, even if you feel fine at the scene\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Delayed Symptoms: What to Watch for 72 Hours</h2>"
+      },
+      {
+        "search": "<h2>Get Checked Today, Not Next Week</h2>",
+        "replace": "<figure class=\"cc-card\"><img src=\"https://erofirving.com/wp-content/uploads/2026/09/erof-4410-911-er-or-home.webp\" alt=\"Whether to call 911, go to the ER today, or watch at home after a car accident\" width=\"1200\" height=\"628\" loading=\"lazy\" decoding=\"async\" /></figure>\n<h2>Get Checked Today, Not Next Week</h2>"
+      }
+    ],
+    "summary": "Add 2 in-body triage card(s) to post 4410",
+    "reasoning": "Cards restate this post's own decision content as a graphic. Every item is lifted from the body, and each card sits above the heading that follows the section it illustrates. The number of cards is set by how many distinct decisions the post actually contains rather than by a per-post quota, and any section already answered by a table in the body was skipped."
+  }
+]

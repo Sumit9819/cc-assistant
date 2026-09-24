@@ -1,0 +1,207 @@
+{
+  "_note": "Post 6356, 'I'm So Tired: How IV Therapy Can Help Fight Chronic Fatigue', 1,344 words. Five graphics, one per 269 words. Headings deliberately skipped: 'What Is Fatigue IV Therapy?' (definitional prose, nothing enumerable), 'Is IV Therapy Safe?' (safety nuance that should not be compressed into icons on a YMYL page), the FAQ block, and the closing CTA. All content below is the post's own.",
+  "cards": [
+    {
+      "file": "how-iv-therapy-fights-chronic-fatigue-1-what-causes-tiredness",
+      "layout": "list",
+      "heading": "What Causes Constant Tiredness?",
+      "title": [
+        "What Causes ",
+        "Constant Tiredness",
+        "?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Six common drivers of fatigue: dehydration, low B12 or iron, low magnesium, hormone shifts, chronic stress, and poor sleep",
+      "items": [
+        {
+          "icon": "droplet",
+          "label": "Dehydration",
+          "note": "Even mild loss dulls alertness"
+        },
+        {
+          "icon": "pill",
+          "label": "Low B12 or iron",
+          "note": "Central to energy and oxygen transport"
+        },
+        {
+          "icon": "battery-low",
+          "label": "Low magnesium",
+          "note": "Affects sleep and stress tolerance"
+        },
+        {
+          "icon": "activity",
+          "label": "Hormone shifts",
+          "note": "Thyroid, cortisol, sex hormones"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Chronic stress",
+          "note": "Depletes nutrients faster than diet replaces"
+        },
+        {
+          "icon": "moon",
+          "label": "Poor sleep",
+          "note": "Food cannot offset broken sleep"
+        }
+      ],
+      "subject": "tiredness"
+    },
+    {
+      "file": "how-iv-therapy-fights-chronic-fatigue-2-which-drips-work-best",
+      "layout": "compare",
+      "heading": "Which IV Drips Work Best for Fatigue?",
+      "title": [
+        "Which Drip ",
+        "Fits",
+        " Your Fatigue"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Four fatigue drips compared: Myers' Cocktail, B-complex with B12, NAD+, and hydration with electrolytes",
+      "columns": [
+        "Myers' Cocktail",
+        "B-Complex + B12",
+        "NAD+",
+        "Hydration"
+      ],
+      "rows": [
+        {
+          "label": "Best for",
+          "values": [
+            "General low energy",
+            "Confirmed low B12",
+            "Burnout, brain fog",
+            "Under-hydration"
+          ]
+        },
+        {
+          "label": "Onset",
+          "values": [
+            "Same day to 24h",
+            "24 to 48 hours",
+            "Across 2 to 3 sessions",
+            "Same day"
+          ]
+        }
+      ],
+      "subject": "fatigue"
+    },
+    {
+      "file": "how-iv-therapy-fights-chronic-fatigue-3-b12-deficiency-rates",
+      "layout": "stat",
+      "heading": "B-Complex with Extra B12",
+      "title": [
+        "How common is ",
+        "low B12",
+        "?"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "3.6 percent of US adults are B12 deficient and a further 12.5 percent are insufficient, per NIH NHANES data",
+      "stat": "3.6%",
+      "gloss": "plus 12.5% insufficient",
+      "statLine": "of US adults aged 19 and over are B12 deficient, below 200 pg/mL",
+      "source": "NIH Office of Dietary Supplements, NHANES 2007 to 2018",
+      "dots": {
+        "total": 100,
+        "filled": 4
+      },
+      "subject": "b12"
+    },
+    {
+      "file": "iv-therapy-fatigue-first-visit",
+      "layout": "steps",
+      "heading": "What to Expect at Your First Appointment",
+      "title": [
+        "Your First ",
+        "IV Therapy",
+        " Visit"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Four steps of a first IV visit: consultation, catheter placement, a 30 to 45 minute drip, then same-day discharge",
+      "steps": [
+        {
+          "icon": "clipboard-list",
+          "label": "Consult",
+          "note": "Symptoms, history and goals reviewed"
+        },
+        {
+          "icon": "syringe",
+          "label": "Placement",
+          "note": "Catheter into a forearm or hand vein"
+        },
+        {
+          "icon": "armchair",
+          "label": "Infusion",
+          "note": "30 to 45 minutes in a recliner"
+        },
+        {
+          "icon": "door-open",
+          "label": "Home",
+          "note": "Same day, most patients drive themselves"
+        }
+      ],
+      "subject": "iv therapy",
+      "old_file": "how-iv-therapy-fights-chronic-fatigue-4-first-appointment"
+    },
+    {
+      "file": "iv-therapy-fatigue-when-to-see-a-doctor",
+      "layout": "list",
+      "heading": "When Should You See a Doctor for Fatigue?",
+      "title": [
+        "When ",
+        "Fatigue",
+        " Needs a Workup"
+      ],
+      "logo": {
+        "position": "bottom-right",
+        "variant": "green",
+        "width": 150
+      },
+      "alt": "Five signs fatigue needs bloodwork: lasting over six weeks, weight change, cold intolerance, breathlessness, or onset after illness",
+      "items": [
+        {
+          "icon": "calendar-clock",
+          "label": "Over 6 weeks",
+          "note": "Despite good sleep and food"
+        },
+        {
+          "icon": "scale",
+          "label": "Weight change",
+          "note": "Unexplained loss or gain"
+        },
+        {
+          "icon": "thermometer",
+          "label": "Cold intolerance",
+          "note": "With hair thinning or mood change"
+        },
+        {
+          "icon": "heart-pulse",
+          "label": "Breathlessness",
+          "note": "Or chest discomfort"
+        },
+        {
+          "icon": "user-round-search",
+          "label": "After an illness",
+          "note": "Fatigue that followed a recent infection"
+        }
+      ],
+      "subject": "fatigue",
+      "old_file": "how-iv-therapy-fights-chronic-fatigue-5-when-to-see-a-doctor"
+    }
+  ]
+}

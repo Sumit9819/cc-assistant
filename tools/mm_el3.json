@@ -1,0 +1,7 @@
+[
+ {
+  "route": "cc-assistant/v1/posts/3903/elementor-export",
+  "method": "GET",
+  "out": "D:/cc-assistant/tools/out/el_3903.json"
+ }
+]
