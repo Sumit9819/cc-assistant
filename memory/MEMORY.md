@@ -88,3 +88,4 @@
 - [Responsive keys rejected by queue](reference_elementor_responsive_keys_rejected_by_queue.md) - hide_tablet/hide_mobile/width_tablet refused on containers though widget_schema lists them; desktop keys OK; hand tablet step to operator
 - [Page-by-page work orders, verify listings first](feedback_page_by_page_work_orders.md) - non-MCP sites get a PDF change queue: exact now/change-to, anchors, admin paths; never advise on a GBP without loading it
 - [cc-assistant git repo](project_cc_assistant_git_repo.md) - local git since 2026-09-24; strict .gitignore (an mcp.json copy held 9 site passwords); run known-secret scan before every commit; GitHub push pending operator sign-in
+- [Plugin update invalidates pendings](feedback_plugin_update_invalidates_pendings.md) - Elementor/Rank Math version change between queue and approval = refused; smoke-test, reject, re-queue
