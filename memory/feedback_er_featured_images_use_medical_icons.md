@@ -7,8 +7,10 @@ metadata:
 
 **Rule (operator, 2026-09-24, after three rounds):** featured/OG images on the ER sites use a
 **real photo that visibly shows the symptom or care moment**: a woman holding her head for
-dizziness, a person reading a thermometer for flu, a cuff on an arm for blood pressure. It sits
-in the `photo-frame-dark` frame b disc.
+dizziness, a person reading a thermometer for flu, a cuff on an arm for blood pressure.
+**Layout (operator, 2026-09-24, later the same day): `photo-panel` + `"fade": "soft"` on ALL THREE
+ER sites** ("these are more engaging than the current ones"). The navy `photo-frame-dark` disc
+is retired. Irving/Lufkin logo = `mark` (square cross) at width 84; WR = wordmark at ~170.
 
 **Why:**
 - Round 1, AI object still lifes: an empty armchair for dizziness and crackers for vomiting did
@@ -46,3 +48,13 @@ First set: 5525 -> 5563, ES 5424 -> 5564, ES 5438 -> 5565 (#1841-1843).
   subject is left-of-centre, mirror it (`ImageOps.mirror`, only when the photo has no text or
   logos) and set focus `0% <y>`. The operator caught 5424's woman sitting "more on the fading
   side than the clear side". Check this on every photo-panel render before queueing.
+
+**Irving restyle (2026-09-24):** our 6 Irving images redone in photo-panel soft fade, #1313-1318
+(4410->4815, 4802->4816, 4772->4817, 4773->4818, 4774->4819, 4792->4820). The flu photo was
+swapped (Pexels 5207332, thermometer in mouth) because the old one's face sat in the fade and its
+thermometer carries a printed label, so it could NOT be mirrored. **Check for printed text
+before mirroring.** A portrait source in the 760px panel zooms in too far and loses the prop.
+The other 44 Irving and ~112 Lufkin featured images are designer-made (Canva style), not ours.
+Uploader: `featured/upload_featured.py <spec> <site>` (JPEG q86; needs the BROWSER User-Agent,
+the bot UA 403s at SiteGround). Each _thumbnail_id write needs its own `verified_page_audit`
+first (evidence is consumed per write).

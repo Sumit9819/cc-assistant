@@ -89,4 +89,4 @@
 - [Page-by-page work orders, verify listings first](feedback_page_by_page_work_orders.md) - non-MCP sites get a PDF change queue: exact now/change-to, anchors, admin paths; never advise on a GBP without loading it
 - [cc-assistant git repo](project_cc_assistant_git_repo.md) - local git since 2026-09-24; strict .gitignore (an mcp.json copy held 9 site passwords); run known-secret scan before every commit; GitHub push pending operator sign-in
 - [Plugin update invalidates pendings](feedback_plugin_update_invalidates_pendings.md) - Elementor/Rank Math version change between queue and approval = refused; smoke-test, reject, re-queue
-- [ER featured = real photos](feedback_er_featured_images_use_medical_icons.md) - Pexels photos that show the topic (people OK since 2026-09-24); objects and icons both rejected; downscale to 1400px
+- [ER featured images = real photos, photo-panel soft fade](feedback_er_featured_images_use_medical_icons.md) - all 3 ER sites; subject in clear zone; no mirroring over printed text

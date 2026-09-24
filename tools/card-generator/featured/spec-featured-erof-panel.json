@@ -1,0 +1,137 @@
+{
+  "_note": "ER of Irving featured images restyled 2026-09-24 to the White Rock photo-panel + soft fade house style, operator request (\"more engaging than the current ones\"). Same photos, headlines and alt as the navy-disc set they replace (4410 bumper is the Gemini still; the rest Pexels). New filenames so Facebook re-scrapes.",
+  "featured": [
+    {
+      "file": "erof-4410-panel",
+      "brand": "erofirving",
+      "post_id": 4410,
+      "layout": "photo-panel",
+      "photo": "src/gen/erof-crash-bumper.png",
+      "focus": "74% 50%",
+      "kicker": "Car Accidents",
+      "title": [
+        "",
+        "Feeling Fine",
+        " After a Car Crash?"
+      ],
+      "sub": "Adrenaline can hide an injury for hours.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A cracked and pushed-in front bumper on a parked silver sedan after a low-speed collision",
+      "fade": "soft"
+    },
+    {
+      "file": "erof-4802-dizziness-panel",
+      "brand": "erofirving",
+      "post_id": 4802,
+      "layout": "photo-panel",
+      "photo": "src/stock/erof-stock-dizzy-1400.jpg",
+      "focus": "42% 45%",
+      "kicker": "Dizziness",
+      "title": [
+        "When ",
+        "Dizziness",
+        " Needs the ER"
+      ],
+      "sub": "Warning signs, and what to do after a faint.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A woman holding her head with both hands, feeling dizzy",
+      "fade": "soft"
+    },
+    {
+      "file": "erof-4772-flu-panel",
+      "brand": "erofirving",
+      "post_id": 4772,
+      "layout": "photo-panel",
+      "photo": "src/stock/erof-stock-flu-v3-1400.jpg",
+      "focus": "100% 40%",
+      "kicker": "Flu",
+      "title": [
+        "When the ",
+        "Flu",
+        " Needs the ER"
+      ],
+      "sub": "The CDC warning signs adults should know.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A woman with the flu resting under a blanket with a digital thermometer in her mouth",
+      "fade": "soft"
+    },
+    {
+      "file": "erof-4773-bp-panel",
+      "brand": "erofirving",
+      "post_id": 4773,
+      "layout": "photo-panel",
+      "photo": "src/stock/erof-stock-bp-1400.jpg",
+      "focus": "42% 40%",
+      "kicker": "Blood Pressure",
+      "title": [
+        "The ",
+        "180/120",
+        " Rule"
+      ],
+      "sub": "When a high reading means call 911.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A blood pressure cuff being fitted on an arm during a reading",
+      "fade": "soft"
+    },
+    {
+      "file": "erof-4774-vomiting-panel",
+      "brand": "erofirving",
+      "post_id": 4774,
+      "layout": "photo-panel",
+      "photo": "src/stock/erof-stock-vomit-1400.jpg",
+      "focus": "62% 50%",
+      "kicker": "Stomach Bugs",
+      "title": [
+        "When ",
+        "Vomiting",
+        " Needs the ER"
+      ],
+      "sub": "The signs dehydration is getting serious.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A woman lying on a couch holding her stomach, feeling sick",
+      "fade": "soft"
+    },
+    {
+      "file": "erof-4792-testicle-panel",
+      "brand": "erofirving",
+      "post_id": 4792,
+      "layout": "photo-panel",
+      "photo": "src/stock/erof-stock-testicle-1400.jpg",
+      "focus": "72% 50%",
+      "kicker": "Testicle Pain",
+      "title": [
+        "Sudden ",
+        "Testicle Pain",
+        "? Don't Wait"
+      ],
+      "sub": "Torsion needs surgery within hours.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A man sitting on an exam table while a clinician stands behind him",
+      "fade": "soft"
+    }
+  ]
+}
