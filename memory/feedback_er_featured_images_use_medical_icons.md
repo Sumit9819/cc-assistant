@@ -67,3 +67,12 @@ from the crop alone, it fails. First run failed 4 of 6 Irving images I had alrea
 source to aspect 1.2 so the subject sits in the RIGHT HALF of the crop box (record it as `_crop`
 in the spec), or pick a photo whose subject is compact. A subject wider than ~45% of the photo
 cannot fit; choose another photo. Re-queued as #1319-1322 (4821-4824).
+
+**Lufkin trial (2026-09-24):** operator picked "trial 10 on Lufkin" over new-posts-only or
+replace-all. The 10 newest posts (7126-7167) queued #826-835, attachments 7172-7181, spec
+`spec-featured-luf-trial.json`. Old designer images (Canva style) stay in the library for
+revert. Do NOT extend to the other ~102 Lufkin / 44 Irving designer images until the operator
+compares and says so. Lessons: subtitle <=30 chars or it collides with the logo under a
+3-line headline; kicker must not repeat the headline; avoid a lone word ("ER") on the last
+headline line; the image policy refuses "blood" in alt, so write "glucose meter" (true to
+the photo, which shows no blood); never mirror a device screen with digits.

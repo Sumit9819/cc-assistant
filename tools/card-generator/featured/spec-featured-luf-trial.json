@@ -1,0 +1,325 @@
+{
+  "_note": "ER of Lufkin trial batch, 2026-09-24: 10 most recent posts restyled from designer graphics to the photo-panel soft-fade house style (operator chose a 10-post trial). Pexels photos, pre-cropped so the subject sits in the clear right half (clearzone rule). Headline claims checked against each post body.",
+  "featured": [
+    {
+      "file": "luf-7167-blood-in-stool-panel",
+      "brand": "eroflufkin",
+      "post_id": 7167,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7167-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Warning Signs",
+      "title": [
+        "",
+        "Blood in Stool",
+        ": When It's Serious"
+      ],
+      "sub": "Know the warning signs.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A person seated in a wooden chair holding their stomach with both hands",
+      "_crop": {
+        "from": "luf-7167-1400.jpg",
+        "box_pct": [
+          15,
+          0,
+          95,
+          100
+        ],
+        "mirrored": false
+      }
+    },
+    {
+      "file": "luf-7163-testicular-torsion-panel",
+      "brand": "eroflufkin",
+      "post_id": 7163,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7163-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Testicle Pain",
+      "title": [
+        "Testicle Pain Is a ",
+        "Six-Hour",
+        " Emergency"
+      ],
+      "sub": "With torsion, hours matter.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A man in a robe sitting beside a clinician in a white coat",
+      "_crop": {
+        "from": "luf-7163-1400.jpg",
+        "box_pct": [
+          20,
+          0,
+          100,
+          100
+        ],
+        "mirrored": true
+      }
+    },
+    {
+      "file": "luf-7160-low-blood-sugar-panel",
+      "brand": "eroflufkin",
+      "post_id": 7160,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7160-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Low Blood Sugar",
+      "title": [
+        "When ",
+        "Low Blood Sugar",
+        " Is an Emergency"
+      ],
+      "sub": "Shaking, sweating, confusion.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "Hands holding a glucose meter and a lancet for a finger-prick test",
+      "_crop": {
+        "from": "luf-7160-1400.jpg",
+        "box_pct": [
+          1,
+          20,
+          53,
+          97
+        ],
+        "mirrored": false
+      }
+    },
+    {
+      "file": "luf-7148-abscessed-tooth-panel",
+      "brand": "eroflufkin",
+      "post_id": 7148,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7148-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Tooth Abscess",
+      "title": [
+        "When a ",
+        "Toothache",
+        " Needs the ER"
+      ],
+      "sub": "Swelling and fever are red flags.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A woman wincing and holding her jaw with one hand",
+      "_crop": {
+        "from": "luf-7148-1400.jpg",
+        "box_pct": [
+          0,
+          0,
+          70,
+          87
+        ],
+        "mirrored": false
+      }
+    },
+    {
+      "file": "luf-7145-ankle-panel",
+      "brand": "eroflufkin",
+      "post_id": 7145,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7145-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Ankle Injuries",
+      "title": [
+        "Sprained or ",
+        "Broken",
+        " Ankle?"
+      ],
+      "sub": "How to tell the difference.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "Hands holding an ankle above an orange running shoe on grass",
+      "_crop": {
+        "from": "luf-7145-1400.jpg",
+        "box_pct": [
+          8,
+          5,
+          68,
+          94
+        ],
+        "mirrored": false
+      }
+    },
+    {
+      "file": "luf-7142-dislocated-shoulder-panel",
+      "brand": "eroflufkin",
+      "post_id": 7142,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7142-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Shoulder Injuries",
+      "title": [
+        "Is Your Shoulder ",
+        "Dislocated",
+        "?"
+      ],
+      "sub": "What not to do, and why.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A man in a plaid shirt clutching his shoulder in pain",
+      "_crop": {
+        "from": "luf-7142-1400.jpg",
+        "box_pct": [
+          20,
+          0,
+          100,
+          100
+        ],
+        "mirrored": true
+      }
+    },
+    {
+      "file": "luf-7139-anaphylaxis-panel",
+      "brand": "eroflufkin",
+      "post_id": 7139,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7139-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Allergic Reactions",
+      "title": [
+        "Mild Allergy or ",
+        "Anaphylaxis",
+        "?"
+      ],
+      "sub": "How to tell them apart.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A man scratching an itchy forearm",
+      "_crop": {
+        "from": "luf-7139-1400.jpg",
+        "box_pct": [
+          0,
+          0,
+          78,
+          97
+        ],
+        "mirrored": true
+      }
+    },
+    {
+      "file": "luf-7134-stroke-women-panel",
+      "brand": "eroflufkin",
+      "post_id": 7134,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7134-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Stroke",
+      "title": [
+        "Stroke Signs in ",
+        "Women",
+        " That Get Missed"
+      ],
+      "sub": "Confusion, exhaustion or nausea.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "A woman at a table with her hand on her forehead, looking unwell",
+      "_crop": {
+        "from": "luf-7134-1400.jpg",
+        "box_pct": [
+          20,
+          0,
+          100,
+          100
+        ],
+        "mirrored": false
+      }
+    },
+    {
+      "file": "luf-7131-be-fast-panel",
+      "brand": "eroflufkin",
+      "post_id": 7131,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7131-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Stroke",
+      "title": [
+        "Warning Signs ",
+        "Before",
+        " a Stroke"
+      ],
+      "sub": "BE FAST, and why time matters.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "An older man rubbing his eyes with both hands",
+      "_crop": {
+        "from": "luf-7131-1400.jpg",
+        "box_pct": [
+          2,
+          0,
+          65,
+          100
+        ],
+        "mirrored": false
+      }
+    },
+    {
+      "file": "luf-7126-tia-panel",
+      "brand": "eroflufkin",
+      "post_id": 7126,
+      "layout": "photo-panel",
+      "fade": "soft",
+      "photo": "src/stock/luf-7126-crop.jpg",
+      "focus": "50% 50%",
+      "kicker": "Mini Stroke (TIA)",
+      "title": [
+        "A ",
+        "Mini Stroke",
+        " Needs the ER"
+      ],
+      "sub": "Even if the symptoms pass.",
+      "logo": {
+        "variant": "mark",
+        "position": "bottom-left",
+        "width": 84
+      },
+      "alt": "An older woman holding her head with both hands",
+      "_crop": {
+        "from": "luf-7126-1400.jpg",
+        "box_pct": [
+          10,
+          0,
+          88,
+          100
+        ],
+        "mirrored": false
+      }
+    }
+  ]
+}
