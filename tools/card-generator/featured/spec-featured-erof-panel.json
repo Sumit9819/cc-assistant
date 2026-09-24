@@ -1,5 +1,5 @@
 {
-  "_note": "ER of Irving featured images restyled 2026-09-24 to the White Rock photo-panel + soft fade house style, operator request (\"more engaging than the current ones\"). Same photos, headlines and alt as the navy-disc set they replace (4410 bumper is the Gemini still; the rest Pexels). New filenames so Facebook re-scrapes.",
+  "_note": "ER of Irving featured images restyled 2026-09-24 to the White Rock photo-panel + soft fade house style, operator request (\"more engaging than the current ones\"). Same photos, headlines and alt as the navy-disc set they replace (4410 bumper is the Gemini still; the rest Pexels). New filenames so Facebook re-scrapes. Round 2 (clear-zone rule): 4772/4773/4774/4792 pre-cropped so the subject sits in the right half of the panel (x>=820 on the canvas); see _crop.",
   "featured": [
     {
       "file": "erof-4410-panel",
@@ -46,12 +46,12 @@
       "fade": "soft"
     },
     {
-      "file": "erof-4772-flu-panel",
+      "file": "erof-4772-flu-panel2",
       "brand": "erofirving",
       "post_id": 4772,
       "layout": "photo-panel",
-      "photo": "src/stock/erof-stock-flu-v3-1400.jpg",
-      "focus": "100% 40%",
+      "photo": "src/stock/erof-flu-v3-crop.jpg",
+      "focus": "50% 50%",
       "kicker": "Flu",
       "title": [
         "When the ",
@@ -65,15 +65,25 @@
         "width": 84
       },
       "alt": "A woman with the flu resting under a blanket with a digital thermometer in her mouth",
-      "fade": "soft"
+      "fade": "soft",
+      "_crop": {
+        "from": "erof-stock-flu-v3-1400.jpg",
+        "box_pct": [
+          5,
+          0,
+          65,
+          75
+        ],
+        "mirrored": false
+      }
     },
     {
-      "file": "erof-4773-bp-panel",
+      "file": "erof-4773-bp-panel2",
       "brand": "erofirving",
       "post_id": 4773,
       "layout": "photo-panel",
-      "photo": "src/stock/erof-stock-bp-1400.jpg",
-      "focus": "42% 40%",
+      "photo": "src/stock/erof-bp-v2-crop.jpg",
+      "focus": "50% 50%",
       "kicker": "Blood Pressure",
       "title": [
         "The ",
@@ -86,16 +96,26 @@
         "position": "bottom-left",
         "width": 84
       },
-      "alt": "A blood pressure cuff being fitted on an arm during a reading",
-      "fade": "soft"
+      "alt": "A clinician fitting a blue blood pressure cuff on an arm resting on a table",
+      "fade": "soft",
+      "_crop": {
+        "from": "erof-stock-bp-v2-1400.jpg",
+        "box_pct": [
+          30,
+          0,
+          90,
+          75
+        ],
+        "mirrored": false
+      }
     },
     {
-      "file": "erof-4774-vomiting-panel",
+      "file": "erof-4774-vomiting-panel2",
       "brand": "erofirving",
       "post_id": 4774,
       "layout": "photo-panel",
-      "photo": "src/stock/erof-stock-vomit-1400.jpg",
-      "focus": "62% 50%",
+      "photo": "src/stock/erof-vomit-v2m-crop.jpg",
+      "focus": "50% 50%",
       "kicker": "Stomach Bugs",
       "title": [
         "When ",
@@ -108,16 +128,26 @@
         "position": "bottom-left",
         "width": 84
       },
-      "alt": "A woman lying on a couch holding her stomach, feeling sick",
-      "fade": "soft"
+      "alt": "A woman lying on a sofa holding her stomach with both arms",
+      "fade": "soft",
+      "_crop": {
+        "from": "erof-stock-vomit-v2-1400.jpg",
+        "box_pct": [
+          20,
+          10,
+          80,
+          85
+        ],
+        "mirrored": true
+      }
     },
     {
-      "file": "erof-4792-testicle-panel",
+      "file": "erof-4792-testicle-panel2",
       "brand": "erofirving",
       "post_id": 4792,
       "layout": "photo-panel",
-      "photo": "src/stock/erof-stock-testicle-1400.jpg",
-      "focus": "72% 50%",
+      "photo": "src/stock/erof-testicle-crop.jpg",
+      "focus": "50% 50%",
       "kicker": "Testicle Pain",
       "title": [
         "Sudden ",
@@ -131,7 +161,17 @@
         "width": 84
       },
       "alt": "A man sitting on an exam table while a clinician stands behind him",
-      "fade": "soft"
+      "fade": "soft",
+      "_crop": {
+        "from": "erof-stock-testicle-1400.jpg",
+        "box_pct": [
+          0,
+          0,
+          80,
+          100
+        ],
+        "mirrored": false
+      }
     }
   ]
 }

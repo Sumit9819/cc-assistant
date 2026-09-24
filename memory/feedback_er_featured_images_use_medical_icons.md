@@ -58,3 +58,12 @@ The other 44 Irving and ~112 Lufkin featured images are designer-made (Canva sty
 Uploader: `featured/upload_featured.py <spec> <site>` (JPEG q86; needs the BROWSER User-Agent,
 the bot UA 403s at SiteGround). Each _thumbnail_id write needs its own `verified_page_audit`
 first (evidence is consumed per write).
+
+**CLEAR-ZONE RULE (operator, 2026-09-24, HARD): "make sure the actual thing is seen in the clear
+area".** With `fade: soft` the photo is >=80% opaque only from canvas x=820 (right ~1/3). Run
+`python clearzone.py <spec>` after every render and READ the sheet: if the topic cannot be named
+from the crop alone, it fails. First run failed 4 of 6 Irving images I had already shipped
+(thermometer, cuff, hands-on-stomach and the patient were all in the fade). Fix = pre-crop the
+source to aspect 1.2 so the subject sits in the RIGHT HALF of the crop box (record it as `_crop`
+in the spec), or pick a photo whose subject is compact. A subject wider than ~45% of the photo
+cannot fit; choose another photo. Re-queued as #1319-1322 (4821-4824).
