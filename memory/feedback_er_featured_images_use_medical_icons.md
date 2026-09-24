@@ -34,3 +34,11 @@ in the `photo-frame-dark` frame b disc.
   unchanged because updating safety tests needs operator sign-off.
 - Always show a preview sheet before queueing. Use new filenames for replacements.
 Related: [[project_iwc_featured_generator]].
+
+**White Rock house style (2026-09-24):** WR's existing featured images are a full-bleed photo
+fading to white on the left, navy and red headline, and the WR wordmark. Use `photo-panel` with
+**`"fade": "soft"`** and logo width ~170 (the wide WR wordmark is unreadable at 60). The
+default panel fade (560px, linear 0-26%) left a HARD SEAM mid-card that the operator rejected
+("the center has hard fade"). Soft = 760px panel with an eased mask to 62%, and headline
+contrast still passes. Spanish twins get a Spanish headline and Spanish alt.
+First set: 5525 -> 5563, ES 5424 -> 5564, ES 5438 -> 5565 (#1841-1843).

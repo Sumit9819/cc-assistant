@@ -408,9 +408,21 @@ const BODIES = {
    * scene intact and still gives the headline a clean field to sit on. Reach for
    * a cutout only when the photo has one obvious subject on a plain ground.
    */
-  'photo-panel': (c, b) => head(b, `
+  'photo-panel': (c, b) => {
+  // `fade: "soft"` (opt-in, 2026-09-24): the default panel is 560px with a
+  // straight 0-26% ramp, which on erofwhiterock read as a hard seam down the
+  // middle of the card. Soft widens the panel to 760px so the photo starts
+  // under the text column, and eases the mask over the first ~60% so the image
+  // dissolves into the ground instead of stopping. Omitted = the old values,
+  // so every existing spec renders unchanged.
+  const soft = c.fade === 'soft';
+  const panelW = soft ? 760 : 560;
+  const mask = soft
+    ? 'linear-gradient(90deg,transparent 0,rgba(0,0,0,.06) 14%,rgba(0,0,0,.22) 26%,rgba(0,0,0,.5) 38%,rgba(0,0,0,.8) 50%,#000 62%)'
+    : 'linear-gradient(90deg,transparent 0,#000 26%)';
+  return head(b, `
     body{background:var(--ground)}
-    .panel{position:absolute;top:0;right:0;width:560px;height:${H}px;overflow:hidden}
+    .panel{position:absolute;top:0;right:0;width:${panelW}px;height:${H}px;overflow:hidden}
     /* The fade is a MASK on the photograph, not a tinted panel laid over it.
        The overlay version washed the left of the photo into a pale smear that
        read as a printing fault, because it painted ground-coloured pixels ON TOP
@@ -419,8 +431,8 @@ const BODIES = {
        canvas is behind it shows through cleanly. */
     .panel img{width:100%;height:100%;object-fit:cover;
                object-position:${c.focus || 'center'};
-               -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 26%);
-               mask-image:linear-gradient(90deg,transparent 0,#000 26%)}
+               -webkit-mask-image:${mask};
+               mask-image:${mask}}
     .wrap{position:absolute;top:0;left:0;width:660px;height:${H}px;z-index:3;
           display:flex;flex-direction:column;justify-content:center;padding:0 0 0 68px}
     .kicker{color:var(--mid);margin-bottom:20px}
@@ -435,7 +447,8 @@ const BODIES = {
       ${c.kicker ? `<div class="kicker">${esc(c.kicker)}</div>` : ''}
       <h1>${headline(c.title)}</h1>
       ${c.sub ? `<div class="sub">${esc(c.sub)}</div>` : ''}
-    </div>`,
+    </div>`;
+  },
 
   /**
    * No photo, on the DARK ground. `type` above, in the brand's dark.
