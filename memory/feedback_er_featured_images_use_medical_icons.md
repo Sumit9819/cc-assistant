@@ -42,3 +42,7 @@ default panel fade (560px, linear 0-26%) left a HARD SEAM mid-card that the oper
 ("the center has hard fade"). Soft = 760px panel with an eased mask to 62%, and headline
 contrast still passes. Spanish twins get a Spanish headline and Spanish alt.
 First set: 5525 -> 5563, ES 5424 -> 5564, ES 5438 -> 5565 (#1841-1843).
+- **Subject must sit in the CLEAR zone** (right ~40% of the card with soft fade). If the photo's
+  subject is left-of-centre, mirror it (`ImageOps.mirror`, only when the photo has no text or
+  logos) and set focus `0% <y>`. The operator caught 5424's woman sitting "more on the fading
+  side than the clear side". Check this on every photo-panel render before queueing.
