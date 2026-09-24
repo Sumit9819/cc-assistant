@@ -1,0 +1,115 @@
+{
+  "_note": "FINAL icon-style featured images, operator-chosen 2026-09-24 (Healthicons CC0 in the navy framed disc). Replaces object photos 4798-4801 and the rejected armchair 4804.",
+  "featured": [
+    {
+      "file": "erof-4802-dizziness-icon",
+      "brand": "erofirving",
+      "post_id": 4802,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/icon/erof-icon-dizzy.png",
+      "focus": "50% 50%",
+      "kicker": "Dizziness",
+      "title": [
+        "When ",
+        "Dizziness",
+        " Needs the ER"
+      ],
+      "sub": "Warning signs, and what to do after a faint.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A medical icon of a dizzy face, for when dizziness or fainting needs the ER"
+    },
+    {
+      "file": "erof-4772-flu-icon",
+      "brand": "erofirving",
+      "post_id": 4772,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/icon/erof-icon-fever.png",
+      "focus": "50% 50%",
+      "kicker": "Flu",
+      "title": [
+        "When the ",
+        "Flu",
+        " Needs the ER"
+      ],
+      "sub": "The CDC warning signs adults should know.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A medical icon of a feverish face with a thermometer, for flu warning signs"
+    },
+    {
+      "file": "erof-4773-bp-icon",
+      "brand": "erofirving",
+      "post_id": 4773,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/icon/erof-icon-bp.png",
+      "focus": "50% 50%",
+      "kicker": "Blood Pressure",
+      "title": [
+        "The ",
+        "180/120",
+        " Rule"
+      ],
+      "sub": "When a high reading means call 911.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A medical icon of a heart with a blood pressure gauge, for the 180/120 rule"
+    },
+    {
+      "file": "erof-4774-vomiting-icon",
+      "brand": "erofirving",
+      "post_id": 4774,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/icon/erof-icon-nausea.png",
+      "focus": "50% 50%",
+      "kicker": "Stomach Bugs",
+      "title": [
+        "When ",
+        "Vomiting",
+        " Needs the ER"
+      ],
+      "sub": "The signs dehydration is getting serious.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A nausea pictogram, for when vomiting needs the ER"
+    },
+    {
+      "file": "erof-4792-testicle-icon",
+      "brand": "erofirving",
+      "post_id": 4792,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/icon/erof-icon-ultrasound.png",
+      "focus": "50% 50%",
+      "kicker": "Testicle Pain",
+      "title": [
+        "Sudden ",
+        "Testicle Pain",
+        "? Don't Wait"
+      ],
+      "sub": "Torsion needs surgery within hours.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A medical icon of an ultrasound scanner, for sudden testicle pain"
+    }
+  ]
+}
