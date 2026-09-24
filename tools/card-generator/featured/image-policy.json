@@ -83,12 +83,8 @@
       ]
     },
     "er": {
-      "_why": "erofirving / eroflufkin / erofwhiterock. NO PEOPLE AT ALL, which is the opposite of the wellness profile and follows from what these posts are. An ER post is a triage decision - 'is this chest pain the ER?' - so a person in the frame is either a patient who does not exist or a clinician who does not work there, and both ER skills say real facility and real staff only (White Rock's provider bylines are blocked outright for want of consent). A reader arriving mid-panic should feel held, not sold to. That leaves two honest options, and they cover every post: the `type` layout, or an object still life. Verified 2026-09-08: the stock service images already on erofwhiterock (a smiling nurse at a CT scanner, red-glow pain overlays) are exactly what these rules exclude, so site media is not a way around this.",
+      "_why": "erofirving / eroflufkin / erofwhiterock. NO PEOPLE AT ALL, which is the opposite of the wellness profile and follows from what these posts are. An ER post is a triage decision - 'is this chest pain the ER?' - so a person in the frame is either a patient who does not exist or a clinician who does not work there, and both ER skills say real facility and real staff only (White Rock's provider bylines are blocked outright for want of consent). A reader arriving mid-panic should feel held, not sold to. That leaves two honest options, and they cover every post: the `type` layout, or an object still life. Verified 2026-09-08: the stock service images already on erofwhiterock (a smiling nurse at a CT scanner, red-glow pain overlays) are exactly what these rules exclude, so site media is not a way around this. OPERATOR DECISION 2026-09-24 (explicit, after being shown the trade-off): real or AI photos that show people are allowed on ER featured images; people/body-part rules are WARN. Still refused: presenting anyone as our patient/provider/staff, distress staging, ambulances, hospital or wait-time comparisons.",
       "refuse": [
-        {
-          "pattern": "\\b(woman|women|man|men|person|people|patient|nurse|doctor|physician|clinician|paramedic|technician|staff|child|children|kid|baby|toddler|infant|family|couple|elderly)\\b",
-          "why": "no people on the ER brands: a depicted patient does not exist and a depicted clinician does not work there. Use the `type` layout or an object still life"
-        },
         {
           "pattern": "\\bcrying\\b|\\bscreaming\\b|\\bpanic\\w*|\\bdistress\\w*|\\bagony\\b|\\bwrithing\\b|\\bgrimac\\w*|\\bworried\\b|\\bfrightened\\b",
           "why": "distress staging is fear marketing; the ER voice is calm and clinical"
@@ -100,18 +96,22 @@
         {
           "pattern": "\\bno wait\\b|short(er)? wait|\\bminutes? wait\\b|wait time|faster than|\\bhospital (ed|er)\\b|vs\\.? hospital|beat the (wait|hospital)",
           "why": "anti-pattern in all three ER skills: door-to-provider claims are self-anchored and live in copy, never in a graphic, and comparing against hospital EDs damages the referral relationships this ER depends on"
-        },
-        {
-          "pattern": "\\b(her|his|their|someone'?s|one'?s|the (?:patient|man|woman|child)'?s) (hand|hands|finger|fingers|arm|arms|face|shoulder|shoulders|chest|torso|belly|stomach|leg|legs|foot|feet|skin|hair|head)\\b",
-          "why": "a person's body part still implies a patient, and the object photographs alone just as well"
-        },
-        {
-          "pattern": "\\b(a|the) (hand|hands|finger|fingers|arm|arms|shoulder|shoulders|torso|leg|legs|foot|feet|forearm)\\b(?! of (a|the) (clock|watch))",
-          "why": "a body part with no owner named is still a person in the frame. `face` and `skin` are deliberately NOT in this rule: \"lying face up\", \"the hands of a clock\" and a snake's \"skin\" are photographic or animal idiom, and refusing those cost two false refusals of legitimate object briefs on 2026-09-08. `unless` exempts medical imaging: a radiograph of a forearm is a picture of bones, not a person in the frame",
-          "unless": "\\b(radiograph|x-?ray|ct scan|ct film|mri|ultrasound|sonogram|scan film|skeleton|bone)\\b"
         }
       ],
       "warn": [
+        {
+          "pattern": "\\b(woman|women|man|men|person|people|patient|nurse|doctor|physician|clinician|paramedic|technician|staff|child|children|kid|baby|toddler|infant|family|couple|elderly)\\b",
+          "why": "[WARN since 2026-09-24: operator explicitly approved real photos of people on ER featured images] no people on the ER brands: a depicted patient does not exist and a depicted clinician does not work there. Use the `type` layout or an object still life"
+        },
+        {
+          "pattern": "\\b(her|his|their|someone'?s|one'?s|the (?:patient|man|woman|child)'?s) (hand|hands|finger|fingers|arm|arms|face|shoulder|shoulders|chest|torso|belly|stomach|leg|legs|foot|feet|skin|hair|head)\\b",
+          "why": "[WARN since 2026-09-24: operator explicitly approved real photos of people on ER featured images] a person's body part still implies a patient, and the object photographs alone just as well"
+        },
+        {
+          "pattern": "\\b(a|the) (hand|hands|finger|fingers|arm|arms|shoulder|shoulders|torso|leg|legs|foot|feet|forearm)\\b(?! of (a|the) (clock|watch))",
+          "why": "[WARN since 2026-09-24: operator explicitly approved real photos of people on ER featured images] a body part with no owner named is still a person in the frame. `face` and `skin` are deliberately NOT in this rule: \"lying face up\", \"the hands of a clock\" and a snake's \"skin\" are photographic or animal idiom, and refusing those cost two false refusals of legitimate object briefs on 2026-09-08. `unless` exempts medical imaging: a radiograph of a forearm is a picture of bones, not a person in the frame",
+          "unless": "\\b(radiograph|x-?ray|ct scan|ct film|mri|ultrasound|sonogram|scan film|skeleton|bone)\\b"
+        },
         {
           "pattern": "\\b911\\b|emergency lights|flashing lights",
           "why": "'call 911' belongs in copy as a disclaimer; as an image it is fear staging"

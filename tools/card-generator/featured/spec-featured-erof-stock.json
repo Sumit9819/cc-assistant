@@ -1,0 +1,115 @@
+{
+  "_note": "Featured images, 2026-09-24, round 3. Operator rejected object still lifes and icon pictograms and asked for real images. Pexels photos (free commercial license, no attribution required), the same navy framed disc as the rest of the set. Alt text describes the photo honestly and never presents anyone as an ER of Irving patient or staff member.",
+  "featured": [
+    {
+      "file": "erof-4802-dizziness-photo",
+      "brand": "erofirving",
+      "post_id": 4802,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/stock/erof-stock-dizzy-1400.jpg",
+      "focus": "42% 45%",
+      "kicker": "Dizziness",
+      "title": [
+        "When ",
+        "Dizziness",
+        " Needs the ER"
+      ],
+      "sub": "Warning signs, and what to do after a faint.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A woman holding her head with both hands, feeling dizzy"
+    },
+    {
+      "file": "erof-4772-flu-photo",
+      "brand": "erofirving",
+      "post_id": 4772,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/stock/erof-stock-flu-1400.jpg",
+      "focus": "38% 25%",
+      "kicker": "Flu",
+      "title": [
+        "When the ",
+        "Flu",
+        " Needs the ER"
+      ],
+      "sub": "The CDC warning signs adults should know.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A woman with the flu lying under a blanket, checking a digital thermometer"
+    },
+    {
+      "file": "erof-4773-bp-photo",
+      "brand": "erofirving",
+      "post_id": 4773,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/stock/erof-stock-bp-1400.jpg",
+      "focus": "42% 40%",
+      "kicker": "Blood Pressure",
+      "title": [
+        "The ",
+        "180/120",
+        " Rule"
+      ],
+      "sub": "When a high reading means call 911.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A blood pressure cuff being fitted on an arm during a reading"
+    },
+    {
+      "file": "erof-4774-vomiting-photo",
+      "brand": "erofirving",
+      "post_id": 4774,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/stock/erof-stock-vomit-1400.jpg",
+      "focus": "62% 50%",
+      "kicker": "Stomach Bugs",
+      "title": [
+        "When ",
+        "Vomiting",
+        " Needs the ER"
+      ],
+      "sub": "The signs dehydration is getting serious.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A woman lying on a couch holding her stomach, feeling sick"
+    },
+    {
+      "file": "erof-4792-testicle-photo",
+      "brand": "erofirving",
+      "post_id": 4792,
+      "layout": "photo-frame-dark",
+      "frame": "b",
+      "photo": "src/stock/erof-stock-testicle-1400.jpg",
+      "focus": "72% 50%",
+      "kicker": "Testicle Pain",
+      "title": [
+        "Sudden ",
+        "Testicle Pain",
+        "? Don't Wait"
+      ],
+      "sub": "Torsion needs surgery within hours.",
+      "logo": {
+        "variant": "white",
+        "position": "bottom-left",
+        "width": 68
+      },
+      "alt": "A man sitting on an exam table while a clinician stands behind him"
+    }
+  ]
+}

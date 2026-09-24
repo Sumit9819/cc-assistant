@@ -1,30 +1,36 @@
 ---
 name: feedback_er_featured_images_use_medical_icons
-description: ER-site featured images use a Healthicons (CC0) medical pictogram in the navy framed disc, NOT object still-life photos; operator rejected "armchair for dizziness" and felt several object photos were bad (2026-09-24)
+description: ER featured images = REAL PHOTOS that show the topic (people allowed), e.g. Pexels; operator rejected object still lifes ("sofa for dizziness") AND Healthicons pictograms ("looks so bad") on 2026-09-24
 metadata:
   type: feedback
 ---
 
-**Rule (operator decision 2026-09-24):** featured/OG images on the ER sites use the
-`photo-frame-dark` frame b layout with a **Healthicons medical pictogram** (navy #041562 on a
-white disc, red ring) instead of an AI object photo.
+**Rule (operator, 2026-09-24, after three rounds):** featured/OG images on the ER sites use a
+**real photo that visibly shows the symptom or care moment**: a woman holding her head for
+dizziness, a person reading a thermometer for flu, a cuff on an arm for blood pressure. It sits
+in the `photo-frame-dark` frame b disc.
 
-**Why:** the ER image policy bans people and body parts, so object still lifes were the
-fallback, and for many topics the object is a non-sequitur: an empty armchair for dizziness,
-crackers for vomiting. The operator: "Why dizziness have sofa as an image? also few other felt
-so bad". A pictogram names the symptom at thumbnail size. Healthicons are CC0 (README
-states public domain), about 2,700 icons with symptom-level coverage (dizzy, fever, coughing,
-blood-pressure, nausea, vomiting, testicles, ultrasound-scanner, heart-cardiogram...).
+**Why:**
+- Round 1, AI object still lifes: an empty armchair for dizziness and crackers for vomiting did
+  not name the topic. "Why dizziness have sofa as an image? few other felt so bad".
+- Round 2, Healthicons pictograms in a white disc: "Oh no this looks so bad... We actually need
+  images... either AI image or image from web".
+- Round 3, Pexels photos with people: queued as #1308-1312 for 4772/4773/4774/4792/4802
+  (attachments 4811/4812/4813/4814/4810).
 
 **How to apply:**
-- `node featured/healthicon.mjs <icon> src/icon/<name>.png` rasterises from
-  `src/icon/healthicons.json` (the @iconify-json/healthicons set) at 62% of a 1000px canvas.
-- Prefer the least graphic accurate icon: the operator picked nausea over the vomiting figure
-  and the ultrasound scanner over the anatomical testicles icon. X-eyes `dizzy` was approved.
-- Alt text must avoid "person"/body words (image-policy refuses them). Write "a nausea
-  pictogram" rather than "a person with nausea".
-- Show a preview sheet and let the operator pick before uploading a new style.
-- Replacements need NEW filenames (Facebook caches og:image by URL).
-- JPEG q86 at 1200x630 (60-85 KB). Rank Math uses the featured image as og:image.
-First set: erofirving 4772/4773/4774/4792/4802 -> attachments 4806/4807/4808/4809/4805,
-pendings #1303-1307. Related: [[project_iwc_featured_generator]].
+- `python stock.py --search "<topic>" --orientation landscape --preview`, READ the contact
+  sheet, pick an index, then rerun with `--index N`. Prefer a clear subject on a plain
+  background; avoid shirtless, graphic or staged-distress shots; keep sensitive topics tasteful
+  (testicle pain = clothed man with a clinician).
+- **Downscale sources to 1400px before rendering.** Pexels originals are 6000px/20MB and
+  makefeatured's circle guard runs out of Node heap (2GB OOM) on them.
+- image-policy.json ER profile: the people rule is WARN since 2026-09-24 by explicit operator
+  approval. The body-part rules were also moved to warn in the same change. Still REFUSED:
+  presenting anyone as our patient/provider/staff, distress words, ambulance, hospital or
+  wait-time comparisons. Alt text must describe the photo honestly ("a woman holding her
+  head"), never "our patient".
+- Two node tests in featured/ still assert the old no-people rule and now fail. They were left
+  unchanged because updating safety tests needs operator sign-off.
+- Always show a preview sheet before queueing. Use new filenames for replacements.
+Related: [[project_iwc_featured_generator]].
