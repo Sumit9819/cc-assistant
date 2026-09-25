@@ -88,5 +88,8 @@
 - [Responsive keys rejected by queue](reference_elementor_responsive_keys_rejected_by_queue.md) - hide_tablet/hide_mobile/width_tablet refused on containers though widget_schema lists them; desktop keys OK; hand tablet step to operator
 - [Page-by-page work orders, verify listings first](feedback_page_by_page_work_orders.md) - non-MCP sites get a PDF change queue: exact now/change-to, anchors, admin paths; never advise on a GBP without loading it
 - [cc-assistant git repo](project_cc_assistant_git_repo.md) - local git since 2026-09-24; strict .gitignore (an mcp.json copy held 9 site passwords); run known-secret scan before every commit; GitHub push pending operator sign-in
-- [Plugin update invalidates pendings](feedback_plugin_update_invalidates_pendings.md) - Elementor/Rank Math version change between queue and approval = refused; smoke-test, reject, re-queue
+- [ONE pending per post/template (HARD)](feedback_plugin_update_invalidates_pendings.md) - batching edits on one template got 1-2 refused twice (WR 1848, Irving 1324); plugin version changes also refuse pendings
 - [ER featured images = real photos, photo-panel soft fade](feedback_er_featured_images_use_medical_icons.md) - all 3 ER sites; HARD: subject in clear zone, run clearzone.py; no mirroring over printed text
+- [Check site change history before flagging](feedback_check_site_change_history_before_flagging.md) - HARD: the 'urgent' 100MT redirect was our own queued client instruction (#1263-1265)
+- [No mass content](feedback_no_mass_content.md) - gap scan = max 3 evidence-backed topics; refresh existing pages first; one post at a time
+- [Elementor custom_attributes comma trap](reference_elementor_custom_attributes_comma.md) - a comma in an aria-label splits it and emits 0=""; reword without commas

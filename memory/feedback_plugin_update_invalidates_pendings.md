@@ -22,3 +22,19 @@ not a bug: the evidence the change was planned against is stale.
 - Queue-to-approval gaps are when auto-updates bite; batch approvals soon after queueing.
 - Check sister sites' queues too; same update can hit them (WR was on Elementor 4.3.1 already).
 Related: [[feedback_publish_draft_seo_meta_batch_failure]], [[feedback_check_pending_after_compaction]].
+
+**Same-template batches (2026-09-24, erofwhiterock header 4476):** queued #1846 + #1847
+(widget setting updates) and #1848 (widget ADD) on one template; the operator approved all
+three and #1848 was refused because the first two changed `_elementor_data` after it was
+queued. Setting updates on different widgets merged fine; the add did not. When a batch mixes
+edits and an add on the same post, queue the add alone after the edits apply (or expect to
+reject and re-queue it, as #1849 did).
+
+**HARD RULE (2026-09-25, after it happened TWICE and the operator lost patience):** ONE pending
+change per post/template at a time. Never queue a second change to the same post until the
+first is approved and applied. It is not only adds: on erofirving header 4760, #1323 (container)
+and #1325 (icon list) applied and #1324 (social widget) was refused; on White Rock #1848 (add)
+was refused. Which ones survive is unpredictable, so do not batch at all. If several edits are
+needed on one template, queue the most important one, tell the operator the others follow one
+by one, and queue the next only after the approval lands.
+
